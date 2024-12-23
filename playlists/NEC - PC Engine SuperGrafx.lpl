@@ -1,0 +1,53 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Library/Application Support/RetroArch/cores/mednafen_supergrafx_libretro.dylib",
+  "default_core_name": "NEC - PC Engine SuperGrafx (Beetle SuperGrafx)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/1941 - Counter Attack (Japan).zip#1941 - Counter Attack (Japan).pce",
+      "label": "1941 - Counter Attack (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "8C4588E2|crc",
+      "db_name": "NEC - PC Engine SuperGrafx.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Aldynes - The Misson Code for Rage Crisis (Japan).zip#Aldynes - The Misson Code for Rage Crisis (Japan).pce",
+      "label": "Aldynes - The Misson Code for Rage Crisis (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "4C2126B0|crc",
+      "db_name": "NEC - PC Engine SuperGrafx.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Battle Ace (Japan).zip#Battle Ace (Japan).pce",
+      "label": "Battle Ace (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "3B13AF61|crc",
+      "db_name": "NEC - PC Engine SuperGrafx.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Dai-Makaimura (Japan).zip#Dai-Makaimura (Japan).pce",
+      "label": "Daimakaimura (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "B486A8ED|crc",
+      "db_name": "NEC - PC Engine SuperGrafx.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Madou King Granzort (Japan).zip#Madou King Granzort (Japan).pce",
+      "label": "Madou King Granzort (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "1F041166|crc",
+      "db_name": "NEC - PC Engine SuperGrafx.lpl"
+    }
+  ]
+}

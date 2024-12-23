@@ -1,0 +1,652 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+  "default_core_name": "Sega - Dreamcast/Naomi (Flycast)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "scan_content_dir": "/Users/joon/Games/Emulation/Dreamcast",
+  "scan_file_exts": "",
+  "scan_dat_file_path": "",
+  "scan_search_recursively": false,
+  "scan_search_archives": false,
+  "scan_filter_dat_content": false,
+  "scan_overwrite_playlist": false,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Alien Front Online (USA, v1.000) (2001) (Sega).chd",
+      "label": "Alien Front Online (USA, v1.000) (2001) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Baldr Force EXE (Japan, v1.002) (2004) (Alchemist).chd",
+      "label": "Baldr Force EXE (Japan, v1.002) (2004) (Alchemist)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Bangai-O (USA, v1.001) (2000) (Crave).chd",
+      "label": "Bangai-O (USA, v1.001) (2000) (Crave)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Border Down (Japan - En, v1.000) (2003) (G.rev).chd",
+      "label": "Border Down (Japan - En, v1.000) (2003) (G.rev)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Cannon Spike (USA, v1.001) (2000) (Capcom).chd",
+      "label": "Cannon Spike (USA, v1.001) (2000) (Capcom)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Capcom vs. SNK (USA).chd",
+      "label": "Capcom vs. SNK (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Capcom vs. SNK - Millennium Fight 2000 Pro (Japan - En, v1.001) (2001) (Capcom).chd",
+      "label": "Capcom vs. SNK - Millennium Fight 2000 Pro (Japan - En, v1.001) (2001) (Capcom)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan - En, v1.001) (2001) (Capcom).chd",
+      "label": "Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan - En, v1.001) (2001) (Capcom)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Chaos Field (Japan - En, v1.003) (2004) (Milestone).chd",
+      "label": "Chaos Field (Japan - En, v1.003) (2004) (Milestone)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/ChuChu Rocket! (USA - En,Ja, v1.007) (2000) (Sega).chd",
+      "label": "ChuChu Rocket! (USA - En,Ja, v1.007) (2000) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Crazy Taxi (USA, v1.004) (1999) (Sega).chd",
+      "label": "Crazy Taxi (USA, v1.004) (1999) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Crazy Taxi 2 (USA, v1.004) (2001)  (Sega).chd",
+      "label": "Crazy Taxi 2 (USA, v1.004) (2001)  (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Cyber Troopers - Virtual On - Oratorio Tangram (USA, v1.000) (2000) (Activision).chd",
+      "label": "Cyber Troopers - Virtual On - Oratorio Tangram (USA, v1.000) (2000) (Activision)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Daytona USA (USA, v1.004) (2001) (Hasbro Sega).chd",
+      "label": "Daytona USA (USA, v1.004) (2001) (Hasbro Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Dead or Alive 2 (USA, v1.100) (2000) (Tecmo).chd",
+      "label": "Dead or Alive 2 (USA, v1.100) (2000) (Tecmo)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Ecco the Dolphin - Defender of the Future (USA, v1.000) (2000) (Sega).chd",
+      "label": "Ecco the Dolphin - Defender of the Future (USA, v1.000) (2000) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Elemental Gimmick Gear (USA, v1.001) (1999) (Vatical).chd",
+      "label": "Elemental Gimmick Gear (USA, v1.001) (1999) (Vatical)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Evil Dead - Hail to the King (USA, v1.002) (2000) (THQ).chd",
+      "label": "Evil Dead - Hail to the King (USA, v1.002) (2000) (THQ)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/F1 World Grand Prix II for Dreamcast (Europe, v2.008) (2000) (Video  System).chd",
+      "label": "F1 World Grand Prix II for Dreamcast (Europe, v2.008) (2000) (Video  System)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/F355 Challenge - Passione Rossa (USA, v1.000) (2000) (Acclaim).chd",
+      "label": "F355 Challenge - Passione Rossa (USA, v1.000) (2000) (Acclaim)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Fast Striker (2010) (NGDEV.TEAM).cdi",
+      "label": "Fast Striker (2010) (NGDEV.TEAM)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/GigaWing (USA, v1.000) (2000)(Capcom).chd",
+      "label": "GigaWing (USA, v1.000) (2000)(Capcom)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/GigaWing 2 (USA, v1.000) (2000)(Capcom).chd",
+      "label": "GigaWing 2 (USA, v1.000) (2000)(Capcom)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Grandia II (USA, v1.001) (2000) (Ubi Soft).chd",
+      "label": "Grandia II (USA, v1.001) (2000) (Ubi Soft)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Guilty Gear X (Japan - En, v2.000) (2000) (Sammy).chd",
+      "label": "Guilty Gear X (Japan - En, v2.000) (2000) (Sammy)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/GunLord (2012) (NGDEV.TEAM).cdi",
+      "label": "GunLord (2012) (NGDEV.TEAM)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Hydro Thunder (USA, v1.020) (1999) (Midway).chd",
+      "label": "Hydro Thunder (USA, v1.020) (1999) (Midway)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Ikaruga (Japan, v1.002) (2002) (ESP).chd",
+      "label": "Ikaruga (Japan, v1.002) (2002) (ESP)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Jet Grind Radio (USA, v1.005) (2000) (Sega).chd",
+      "label": "Jet Grind Radio (USA, v1.005) (2000) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Karous (Japan - En, v1.003) (2007) (Milestone).chd",
+      "label": "Karous (Japan - En, v1.003) (2007) (Milestone)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Last Hope - Pink Bullets (2011) (NGDEV.TEAM).cdi",
+      "label": "Last Hope - Pink Bullets (2011) (NGDEV.TEAM)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Maken X (USA, v1.001) (2000) (Sega).chd",
+      "label": "Maken X (USA, v1.001) (2000) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Metropolis Street Racer (USA, v1.010) (2000) (Sega).chd",
+      "label": "Metropolis Street Racer (USA, v1.010) (2000) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Neo XYX (2014) (NGDEV.TEAM).cdi",
+      "label": "Neo XYX (2014) (NGDEV.TEAM)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Outtrigger (USA, v1.003) (2001) (Sega).chd",
+      "label": "Outtrigger (USA, v1.003) (2001) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Phantasy Star Online (USA, v2.011) (2001) (Sega).chd",
+      "label": "Phantasy Star Online (USA, v2.011) (2001) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Phantasy Star Online Ver. 2 (USA, v1.004) (2001) (Sega).chd",
+      "label": "Phantasy Star Online Ver. 2 (USA, v1.004) (2001) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Power Stone (USA, v1.001) (1999) (Capcom).chd",
+      "label": "Power Stone (USA, v1.001) (1999) (Capcom)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Power Stone 2 (USA, v1.000) (2000) (Capcom).chd",
+      "label": "Power Stone 2 (USA, v1.000) (2000) (Capcom)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Psyvariar 2 - The Will to Fabricate (Japan - En, v1.001) (2004) (Success).chd",
+      "label": "Psyvariar 2 - The Will to Fabricate (Japan - En, v1.001) (2004) (Success)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Quake III Arena (USA, v0.800) (2000) (Sega).chd",
+      "label": "Quake III Arena (USA, v0.800) (2000) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Re-Volt (USA, v1.010) (1999) (Acclaim).chd",
+      "label": "Re-Volt (USA, v1.010) (1999) (Acclaim)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Ready 2 Rumble Boxing (USA, v1.000) (1999) (Midway).chd",
+      "label": "Ready 2 Rumble Boxing (USA, v1.000) (1999) (Midway)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Ready 2 Rumble Boxing Round 2 (USA, v1.001) (2000) (Midway).chd",
+      "label": "Ready 2 Rumble Boxing Round 2 (USA, v1.001) (2000) (Midway)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Redux - Dark Matters (2014) (Hucast.Net).cdi",
+      "label": "Redux - Dark Matters (2014) (Hucast.Net)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Resident Evil - Code Veronica (USA, v1.000) (2000) (Capcom).m3u",
+      "label": "Resident Evil - Code Veronica (USA, v1.000) (2000) (Capcom)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Rez (Europe - En,Ja,Fr,De,Es,It).chd",
+      "label": "Rez (Europe - En,Ja,Fr,De,Es,It)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Sega GT (USA, v1.003) (2000) (Sega).chd",
+      "label": "Sega GT (USA, v1.003) (2000) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Sega Rally 2 (USA, v1.003) (1999) (Sega).chd",
+      "label": "Sega Rally 2 (USA, v1.003) (1999) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Shenmue (USA, v1.003) (2000) (Sega).m3u",
+      "label": "Shenmue (USA, v1.003) (2000) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Shenmue II (Europe, En,Fr,De,Es).m3u",
+      "label": "Shenmue II (Europe, En,Fr,De,Es)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Shikigami no Shiro II (Japan, v1.002) (2004) (Alfa System).chd",
+      "label": "Shikigami no Shiro II (Japan, v1.002) (2004) (Alfa System)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Skies of Arcadia (USA, v1.002) (2000) (Sega).m3u",
+      "label": "Skies of Arcadia (USA, v1.002) (2000) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Sonic Adventure (USA, v1.005) (1999) (Sega).chd",
+      "label": "Sonic Adventure (USA, v1.005) (1999) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Sonic Adventure 2 (USA, v1.008) (2001) (Sega).chd",
+      "label": "Sonic Adventure 2 (USA, v1.008) (2001) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Soul Calibur (USA, v1.000) (1999) (Namco).chd",
+      "label": "Soul Calibur (USA, v1.000) (1999) (Namco)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Space Channel 5 (USA, v1.000) (2000) (Sega).chd",
+      "label": "Space Channel 5 (USA, v1.000) (2000) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Space Channel 5 Part 2 (Japan, v2.000) (2001) (Sega).chd",
+      "label": "Space Channel 5 Part 2 (Japan, v2.000) (2001) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Speed Devils - Online Racing (USA, v1.002) (2000) (Ubi Soft).chd",
+      "label": "Speed Devils - Online Racing (USA, v1.002) (2000) (Ubi Soft)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Star Wars - Episode I - Racer (USA, v1.001) (2000) (Lucas Arts).chd",
+      "label": "Star Wars - Episode I - Racer (USA, v1.001) (2000) (Lucas Arts)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/StarLancer (USA, v1.002) (2000) (Crave).chd",
+      "label": "StarLancer (USA, v1.002) (2000) (Crave)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Sturmwind (2013) (Duranik).cdi",
+      "label": "Sturmwind (2013) (Duranik)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Sword of the Berserk - Guts' Rage (USA, v1.000) (2000) (EIDOS).chd",
+      "label": "Sword of the Berserk - Guts' Rage (USA, v1.000) (2000) (EIDOS)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Taxi 2 - Le Jeu (France, v1.000) (2000) (Ubi Soft).chd",
+      "label": "Taxi 2 - Le Jeu (France, v1.000) (2000) (Ubi Soft)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Test Drive Le Mans (USA, v1.000) (2000) (Infogrames).chd",
+      "label": "Test Drive Le Mans (USA, v1.000) (2000) (Infogrames)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/The House of the Dead 2 (USA, v1.001) (1999) (Sega).chd",
+      "label": "The House of the Dead 2 (USA, v1.001) (1999) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/The Typing of the Dead (USA, v1.004) (2000) (Sega).chd",
+      "label": "The Typing of the Dead (USA, v1.004) (2000) (Sega)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Tokyo Bus Guide (Japan, v1.003) (1999) (Fortyfive).chd",
+      "label": "Tokyo Bus Guide (Japan, v1.003) (1999) (Fortyfive)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Tokyo Xtreme Racer (USA, v1.001) (1999) (Crave).chd",
+      "label": "Tokyo Xtreme Racer (USA, v1.001) (1999) (Crave)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Tokyo Xtreme Racer 2 (USA, v1.002) (2000) (Crave).chd",
+      "label": "Tokyo Xtreme Racer 2 (USA, v1.002) (2000) (Crave)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Tony Hawk's Pro Skater 2 (USA, v1.001) (2000) (Activision).chd",
+      "label": "Tony Hawk's Pro Skater 2 (USA, v1.001) (2000) (Activision)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Triggerheart Exelica (Japan, v1.002) (2006) (Warashi).chd",
+      "label": "Triggerheart Exelica (Japan, v1.002) (2006) (Warashi)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Trizeal (Japan - En, v1.000) (2005) (Triangle Service).chd",
+      "label": "Trizeal (Japan - En, v1.000) (2005) (Triangle Service)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Under Defeat (Japan - En, v1.001) (2006) (G.rev).chd",
+      "label": "Under Defeat (Japan - En, v1.001) (2006) (G.rev)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/V-Rally 2 - Expert Edition (Europe, v0.002) (2000) (Infogrames).chd",
+      "label": "V-Rally 2 - Expert Edition (Europe, v0.002) (2000) (Infogrames)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Vigilante 8 - 2nd Offense (USA, v1.000) (1999) (Activision).chd",
+      "label": "Vigilante 8 - 2nd Offense (USA, v1.000) (1999) (Activision)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Virtua Fighter 3tb (USA, v1.002) (1999) (Sega).chd",
+      "label": "Virtua Fighter 3tb (USA, v1.002) (1999) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Yu Suzuki Game Works Vol. 1 (Japan - En, v1.002) (2001) (Sega).chd",
+      "label": "Yu Suzuki Game Works Vol. 1 (Japan - En, v1.002) (2001) (Sega)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Zero Gunner 2 (Japan - En, v1.000) (2001) (Psikyo).chd",
+      "label": "Zero Gunner 2 (Japan - En, v1.000) (2001) (Psikyo)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Dreamcast.lpl"
+    }
+  ]
+}

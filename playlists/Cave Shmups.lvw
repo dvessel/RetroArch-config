@@ -1,0 +1,8 @@
+{
+	"filter_min": {
+		"developer": "Cave (AMI license)"
+	},
+	"filter_max": {
+		"developer": "Cave (Capcom license)"
+	}
+}

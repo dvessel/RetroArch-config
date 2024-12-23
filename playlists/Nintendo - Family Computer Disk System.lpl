@@ -1,0 +1,157 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+  "default_core_name": "Nintendo - NES / Famicom (Mesen)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Akumajou Dracula (Japan).zip#Akumajou Dracula (Japan).fds",
+      "label": "Akumajou Dracula (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "90E99457|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Armana no Kiseki (Japan).zip#Armana no Kiseki (Japan).fds",
+      "label": "Armana no Kiseki (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EC6D5DE3|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Bio Miracle Bokutte Upa (Japan).zip#Bio Miracle Bokutte Upa (Japan).fds",
+      "label": "Bio Miracle Bokutte Upa (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C57B947F|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Dirty Pair - Project Eden (Japan).zip#Dirty Pair - Project Eden (Japan).fds",
+      "label": "Dirty Pair - Project Eden (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5F0A149B|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Dracula II - Noroi no Fuuin (Japan).zip#Dracula II - Noroi no Fuuin (Japan).fds",
+      "label": "Dracula II - Noroi no Fuuin (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "3A0BB17B|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Falsion (Japan).zip#Falsion (Japan).fds",
+      "label": "Falsion (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5442C889|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Gall Force - Eternal Story (Japan).zip#Gall Force - Eternal Story (Japan).fds",
+      "label": "Gall Force - Eternal Story (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "2CF62AA9|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Kick Challenger - Air Foot - Yasai no Kuni no Ashi Senshi (Japan).zip#Kick Challenger - Air Foot - Yasai no Kuni no Ashi Senshi (Japan).fds",
+      "label": "Kick Challenger - Air Foot - Yasai no Kuni no Ashi Senshi (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "78A12D0A|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Kieta Princess (Japan).zip#Kieta Princess (Japan).fds",
+      "label": "Kieta Princess (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "60D55CEA|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Meikyuu Jiin Dababa (Japan).zip#Meikyuu Jiin Dababa (Japan).fds",
+      "label": "Meikyuu Jiin Dababa (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "8B54D368|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Metroid (Japan) (Rev 3).zip#Metroid (Japan) (Rev 3).fds",
+      "label": "Metroid (Japan) (Rev 3)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "5E4F013D|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Nazo no Kabe - Block Kuzushi (Japan).zip#Nazo no Kabe - Block Kuzushi (Japan).fds",
+      "label": "Nazo no Kabe - Block Kuzushi (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "09292F11|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Otocky (Japan).zip#Otocky (Japan).fds",
+      "label": "Otocky (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "673B4713|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Super Mario Brothers (Japan).zip#Super Mario Brothers (Japan).fds",
+      "label": "Super Mario Bros. (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "E0890CF2|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Super Mario Brothers 2 (Japan) (En).zip#Super Mario Brothers 2 (Japan) (En).fds",
+      "label": "Super Mario Bros. 2 (Japan) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "F04CD4CD|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/TwinBee (Japan) (Disk Writer).zip#TwinBee (Japan) (Disk Writer).fds",
+      "label": "TwinBee (Japan) (Disk Writer)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4A5480E1|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Yume Koujou Doki Doki Panic (Japan) (DV 2).zip#Yume Koujou Doki Doki Panic (Japan) (DV 2).fds",
+      "label": "Yume Koujou - Doki Doki Panic (Japan) (DV 2)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4096F677|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Famicom Disk System/Zelda no Densetsu - The Hyrule Fantasy (Japan) (Rev 1).zip#Zelda no Densetsu - The Hyrule Fantasy (Japan) (Rev 1).fds",
+      "label": "Zelda no Densetsu - The Hyrule Fantasy (Japan) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "8F2202BF|crc",
+      "db_name": "Nintendo - Family Computer Disk System.lpl"
+    }
+  ]
+}

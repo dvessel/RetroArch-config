@@ -1,0 +1,445 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+  "default_core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/007 - The World Is Not Enough (USA).zip#007 - The World Is Not Enough (USA).z64",
+      "label": "007 - The World Is Not Enough (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "34F0EE5B|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Bakuretsu Muteki Bangaioh (Japan).zip#Bakuretsu Muteki Bangaioh (Japan).n64",
+      "label": "Bakuretsu Muteki Bangaioh (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "2A8CE2E1|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Banjo-Kazooie (USA).zip#Banjo-Kazooie (USA).z64",
+      "label": "Banjo-Kazooie (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4FD43199|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Banjo-Tooie (USA).zip#Banjo-Tooie (USA).z64",
+      "label": "Banjo-Tooie (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0E0DC5A5|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Blast Corps (USA).zip#Blast Corps (USA).z64",
+      "label": "Blast Corps (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "22CA221D|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Body Harvest (USA).zip#Body Harvest (USA).z64",
+      "label": "Body Harvest (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7B878C56|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Carmageddon 64 (USA).zip#Carmageddon 64 (USA).n64",
+      "label": "Carmageddon 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E78DEBB6|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Castlevania (USA).zip#Castlevania (USA).n64",
+      "label": "Castlevania (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "84E815F3|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Castlevania - Legacy of Darkness (USA).zip#Castlevania - Legacy of Darkness (USA).n64",
+      "label": "Castlevania - Legacy of Darkness (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1F147376|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Conker's Bad Fur Day (USA).zip#Conker's Bad Fur Day (USA).z64",
+      "label": "Conker's Bad Fur Day (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6ACDB3FC|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Cruis'n Exotica (USA).zip#Cruis'n Exotica (USA).z64",
+      "label": "Cruis'n Exotica (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "20E7DBD7|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Cruis'n USA (USA) (Rev B).zip#Cruis'n USA (USA) (Rev B).z64",
+      "label": "Cruis'n USA (USA) (Rev 2)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E466C124|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Destruction Derby 64 (USA).zip#Destruction Derby 64 (USA).z64",
+      "label": "Destruction Derby 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EF680F71|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Dezaemon 3D (Japan).zip#Dezaemon 3D (Japan).z64",
+      "label": "Dezaemon 3D (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8CE25C68|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Donkey Kong 64 (USA).zip#Donkey Kong 64 (USA).z64",
+      "label": "Donkey Kong 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "96972D67|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Doom 64 (USA).zip#Doom 64 (USA).z64",
+      "label": "Doom 64 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "4DFB7CB6|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Excitebike 64 (USA).zip#Excitebike 64 (USA).z64",
+      "label": "Excitebike 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EF78ED7E|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Extreme-G (USA).zip#Extreme-G (USA).z64",
+      "label": "Extreme-G (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A43A0B17|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Extreme-G XG2 (USA).zip#Extreme-G XG2 (USA).z64",
+      "label": "Extreme-G XG2 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "849C18CE|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/F-1 World Grand Prix (USA).zip#F-1 World Grand Prix (USA).z64",
+      "label": "F-1 World Grand Prix (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4D203242|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/F-Zero X (USA).zip#F-Zero X (USA).z64",
+      "label": "F-Zero X (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "9408C2C1|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/007 - GoldenEye (USA).zip#007 - GoldenEye (USA).z64",
+      "label": "GoldenEye 007 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "8B70CB5B|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/GT64 - Championship Edition (USA).zip#GT64 - Championship Edition (USA).z64",
+      "label": "GT 64 - Championship Edition (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B6DC4CFD|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Hexen (USA).zip#Hexen (USA).n64",
+      "label": "Hexen (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D2B22343|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Indiana Jones and the Infernal Machine (USA).zip#Indiana Jones and the Infernal Machine (USA).z64",
+      "label": "Indiana Jones and the Infernal Machine (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A8F86EB6|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Kirby 64 - The Crystal Shards (USA).zip#Kirby 64 - The Crystal Shards (USA).z64",
+      "label": "Kirby 64 - The Crystal Shards (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8EB3565B|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Legend of Zelda, The - Majora's Mask (USA).zip#Legend of Zelda, The - Majora's Mask (USA).z64",
+      "label": "Legend of Zelda, The - Majora's Mask (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "3EE3F2D1|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Legend of Zelda, The - Ocarina of Time (USA).zip#Legend of Zelda, The - Ocarina of Time (USA).z64",
+      "label": "Legend of Zelda, The - Ocarina of Time (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EC95702D|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Mario Kart 64 (USA).zip#Mario Kart 64 (USA).z64",
+      "label": "Mario Kart 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2BCEE11C|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Mario Party 3 (USA).zip#Mario Party 3 (USA).z64",
+      "label": "Mario Party 3 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A1BEE3F8|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Mickey's Speedway USA (USA).zip#Mickey's Speedway USA (USA).z64",
+      "label": "Mickey's Speedway USA (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6E589C47|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Mischief Makers (USA).zip#Mischief Makers (USA).z64",
+      "label": "Mischief Makers (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AF7B3820|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Mystical Ninja Starring Goemon (USA).zip#Mystical Ninja Starring Goemon (USA).z64",
+      "label": "Mystical Ninja Starring Goemon (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81C10AD9|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Ogre Battle 64 - Person of Lordly Caliber (USA).zip#Ogre Battle 64 - Person of Lordly Caliber (USA).z64",
+      "label": "Ogre Battle 64 - Person of Lordly Caliber (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C650BE3C|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Paper Mario (USA).zip#Paper Mario (USA).z64",
+      "label": "Paper Mario (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D56D1C89|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Perfect Dark (USA).zip#Perfect Dark (USA).z64",
+      "label": "Perfect Dark (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F0FE18F0|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Pilotwings 64 (USA).zip#Pilotwings 64 (USA).z64",
+      "label": "Pilotwings 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C445F7E3|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Quake 64 (USA).zip#Quake 64 (USA).z64",
+      "label": "Quake (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "06D5CDBB|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Quake II (USA).zip#Quake II (USA).z64",
+      "label": "Quake II (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5D880E55|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Road Rash 64 (USA).zip#Road Rash 64 (USA).z64",
+      "label": "Road Rash 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2DA44585|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/SpaceStation Silicon Valley (USA).zip#SpaceStation Silicon Valley (USA).z64",
+      "label": "SpaceStation Silicon Valley (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "76DB1DA1|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Star Fox 64 (USA).zip#Star Fox 64 (USA).z64",
+      "label": "Star Fox 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "363E7EE8|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Star Soldier - Vanishing Earth (USA).zip#Star Soldier - Vanishing Earth (USA).z64",
+      "label": "Star Soldier - Vanishing Earth (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "052945E7|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Star Wars - Rogue Squadron (USA).zip#Star Wars - Rogue Squadron (USA).z64",
+      "label": "Star Wars - Rogue Squadron (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2D6FA165|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/StarCraft 64 (USA).zip#StarCraft 64 (USA).z64",
+      "label": "StarCraft 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "14C77369|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Super Mario 64 (USA).zip#Super Mario 64 (USA).z64",
+      "label": "Super Mario 64 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "42C43204|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Super Smash Bros. (Europe) (En,Fr,De).zip#Super Smash Bros. (Europe) (En,Fr,De).z64",
+      "label": "Super Smash Bros. (Europe) (En,Fr,De)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7976248C|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Top Gear Rally (USA).zip#Top Gear Rally (USA).z64",
+      "label": "Top Gear Rally (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A04F1CC0|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Top Gear Rally 2 (USA).zip#Top Gear Rally 2 (USA).n64",
+      "label": "Top Gear Rally 2 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7E4E181C|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Tsumi to Batsu - Hoshi no Keishousha (Japan).zip#Tsumi to Batsu - Hoshi no Keishousha (Japan).z64",
+      "label": "Tsumi to Batsu - Hoshi no Keishousha (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C0891399|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Turok - Dinosaur Hunter (USA).zip#Turok - Dinosaur Hunter (USA).z64",
+      "label": "Turok - Dinosaur Hunter (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "777D75E6|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Wave Race 64 (USA).zip#Wave Race 64 (USA).z64",
+      "label": "Wave Race 64 - Kawasaki Jet Ski (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9EF814CD|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Wipeout 64 (USA).zip#Wipeout 64 (USA).z64",
+      "label": "Wipeout 64 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3E8CCE96|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Yoshi's Story (USA) (En,Ja).zip#Yoshi's Story (USA) (En,Ja).z64",
+      "label": "Yoshi's Story (USA) (En,Ja)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "01A4B1E9|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    }
+  ]
+}

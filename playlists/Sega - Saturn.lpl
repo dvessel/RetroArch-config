@@ -1,0 +1,380 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+  "default_core_name": "Sega - Saturn (Beetle Saturn)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "scan_content_dir": "/Users/joon/Games/Emulation/Sega Saturn",
+  "scan_file_exts": "",
+  "scan_dat_file_path": "",
+  "scan_search_recursively": true,
+  "scan_search_archives": false,
+  "scan_filter_dat_content": false,
+  "scan_overwrite_playlist": false,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Albert Odyssey - Legend of Eldean (USA)/Albert Odyssey - Legend of Eldean (USA).cue",
+      "label": "Albert Odyssey - Legend of Eldean (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-12705H|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Astal (USA)/Astal (USA).cue",
+      "label": "Astal (USA) (2S)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "81019|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Astra Superstars (Japan)/Astra Superstars (Japan).cue",
+      "label": "Astra Superstars (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-1521G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Baroque (EN translated)/Baroque (EN translated).cue",
+      "label": "Baroque (EN translated)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-33901G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Baroque (Japan)/Baroque (Japan).cue",
+      "label": "Baroque (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-33901G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Battle Garegga (Japan)/Battle Garegga (Japan).cue",
+      "label": "Battle Garegga (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-10627G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Bulk Slash (Japan)/Bulk Slash (Japan).cue",
+      "label": "Bulk Slash (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-14310G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Burning Rangers (USA)/Burning Rangers (USA).cue",
+      "label": "Burning Rangers (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81803|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Christmas NiGHTS into Dreams... (USA)/Christmas NiGHTS into Dreams... (USA).cue",
+      "label": "Christmas NiGHTS into Dreams... (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81067|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Daytona USA - Championship Circuit Edition (USA)/Daytona USA - Championship Circuit Edition (USA).cue",
+      "label": "Daytona USA - Championship Circuit Edition (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81213|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Deep Fear (Europe)/Deep Fear (Europe).m3u",
+      "label": "Deep Fear (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Dragon Force (USA)/Dragon Force (USA).cue",
+      "label": "Dragon Force (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-12703H|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Game Tengoku - The Game Paradise! (Japan)/Game Tengoku - The Game Paradise! (Japan).cue",
+      "label": "Game Tengoku - The Game Paradise! (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-5712G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Guardian Heroes (USA)/Guardian Heroes (USA).cue",
+      "label": "Guardian Heroes (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "81035|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Hyper Duel (Japan)/Hyper Duel (Japan).cue",
+      "label": "Hyper Duel (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-1809G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Layer Section (Japan) (Rev A) (11M)/Layer Section (Japan) (Rev A) (11M).cue",
+      "label": "Layer Section (Japan) (6M)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-1101G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Layer Section II (Japan)/Layer Section II (Japan).cue",
+      "label": "Layer Section II (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-26409G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Legend of Oasis, The (USA)/Legend of Oasis, The (USA).cue",
+      "label": "Legend of Oasis, The (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Lode Runner - The Legend Returns (Japan)/Lode Runner - The Legend Returns (Japan).cue",
+      "label": "Lode Runner - The Legend Returns (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-25101G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Lost Vikings 2 - Norse by Norsewest (Europe) (En,Fr,De)/Lost Vikings 2 - Norse by Norsewest (Europe) (En,Fr,De).cue",
+      "label": "Lost Vikings 2 - Norse by Norsewest (Europe) (En,Fr,De)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Magic Knight Rayearth (USA)/Magic Knight Rayearth (USA).cue",
+      "label": "Magic Knight Rayearth (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-12706H|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Cotton 2 (Japan)/Cotton 2 (Japan).cue",
+      "label": "Magical Night Dreams - Cotton 2 (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-9904G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Magical Night Dreams Cotton Boomerang (Japan)/Magical Night Dreams Cotton Boomerang (Japan).cue",
+      "label": "Magical Night Dreams - Cotton Boomerang (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-9906G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/NiGHTS into Dreams... (USA) (3D Control Pad)/NiGHTS into Dreams... (USA) (3D Control Pad).cue",
+      "label": "NiGHTS into Dreams... (USA) (3D Control Pad)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon (USA)/Panzer Dragoon (USA).cue",
+      "label": "Panzer Dragoon (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon II - Zwei (USA)/Panzer Dragoon II - Zwei (USA).cue",
+      "label": "Panzer Dragoon II - Zwei (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon Saga (USA)/Panzer Dragoon Saga (USA).m3u",
+      "label": "Panzer Dragoon Saga (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Radiant Silvergun (Japan)/Radiant Silvergun (Japan).cue",
+      "label": "Radiant Silvergun (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-32902G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Saturn Bomberman (Europe)/Saturn Bomberman (Europe).cue",
+      "label": "Saturn Bomberman (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Sega Rally Championship (USA)/Sega Rally Championship (USA).cue",
+      "label": "Sega Rally Championship (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Shienryuu (Japan)/Shienryuu (Japan).cue",
+      "label": "Shienryuu (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-29102G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Shining Force III (USA)/Shining Force III (USA).cue",
+      "label": "Shining Force III (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81383|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Soukyuu Gurentai (Japan)/Soukyuu Gurentai (Japan).cue",
+      "label": "Soukyuu Gurentai (Japan) (Rev A)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-10616G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Thunder Force Gold Pack 1 (Japan)/Thunder Force Gold Pack 1 (Japan).cue",
+      "label": "Thunder Force Gold Pack 1 (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-1807G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Thunder Force Gold Pack 2 (Japan) (Rev A)/Thunder Force Gold Pack 2 (Japan) (Rev A).cue",
+      "label": "Thunder Force Gold Pack 2 (Japan) (Rev A)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-1808G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Thunder Force V (Japan)/Thunder Force V (Japan).cue",
+      "label": "Thunder Force V (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-1811G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Time Gal (Japan)/Time Gal (Japan).cue",
+      "label": "Time Gal & Ninja Hayate (Japan) (En,Ja) (Disc 1) (Time Gal) (3M)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-20702G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Ninja Hayate (Japan)/Ninja Hayate (Japan).cue",
+      "label": "Time Gal & Ninja Hayate (Japan) (En,Ja) (Disc 2) (Ninja Hayate) (3M)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-20702G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Tryrush Deppy (Japan)/Tryrush Deppy (Japan).cue",
+      "label": "Tryrush Deppy (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-21302G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtua Cop (USA) (8S, 12S)/Virtua Cop (USA) (8S, 12S).cue",
+      "label": "Virtua Cop (USA) (8S, 12S)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtua Cop 2 (USA)/Virtua Cop 2 (USA).cue",
+      "label": "Virtua Cop 2 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81043|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtua Fighter 2 (Japan)/Virtua Fighter 2 (Japan).cue",
+      "label": "Virtua Fighter 2 (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtua Fighter Remix (USA)/Virtua Fighter Remix (USA).cue",
+      "label": "Virtua Fighter Remix (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81023|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtua Racing (USA) (15S)/Virtua Racing (USA) (15S).cue",
+      "label": "Virtua Racing (USA) (15S)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "T-4801H|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtual On - Cyber Troopers (USA)/Virtual On - Cyber Troopers (USA).cue",
+      "label": "Virtual On - Cyber Troopers (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81042|serial",
+      "db_name": "Sega - Saturn.lpl"
+    }
+  ]
+}

@@ -1,0 +1,2965 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+  "default_core_name": "Nintendo - NES / Famicom (Mesen)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/1942 (Japan, USA).zip#1942 (Japan, USA).nes",
+      "label": "1942 (Capcom) (JP-US)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "E9CF747F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/1943 - The Battle of Midway (USA).zip#1943 - The Battle of Midway (USA).nes",
+      "label": "1943 - The Battle of Midway (Capcom) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "D131BF15|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Mario Bros. + Duck Hunt (USA).zip#Super Mario Bros. + Duck Hunt (USA).nes",
+      "label": "2-in-1 Super Mario Bros. + Duck Hunt (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "666EE28E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/3-D WorldRunner (USA).zip#3-D WorldRunner (USA).nes",
+      "label": "3-D WorldRunner (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D5ADA486|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/720 Degrees (USA).zip#720 Degrees (USA).nes",
+      "label": "720 Degrees (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9B37D149|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Abadox - The Deadly Inner War (USA).zip#Abadox - The Deadly Inner War (USA).nes",
+      "label": "Abadox - The Deadly Inner War (Milton Bradley) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "DC87F63D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Adventure Island 3 (USA).zip#Adventure Island 3 (USA).nes",
+      "label": "Adventure Island 3 (Hudson) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "952CDACF|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Adventure Island II (USA).zip#Adventure Island II (USA).nes",
+      "label": "Adventure Island II (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5D8F80C7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Adventures of Bayou Billy, The (USA).zip#Adventures of Bayou Billy, The (USA).nes",
+      "label": "Adventures of Bayou Billy, The (Konami) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "0AC631BA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Adventures of Dino Riki (USA).zip#Adventures of Dino Riki (USA).nes",
+      "label": "Adventures of DinoRiki (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D4F5287B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Adventures of Lolo (USA).zip#Adventures of Lolo (USA).nes",
+      "label": "Adventures of Lolo (Hal America) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "D9C4CBF7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Adventures of Lolo 2 (USA).zip#Adventures of Lolo 2 (USA).nes",
+      "label": "Adventures of Lolo 2 (Hal America) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "862AB1E5|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Adventures of Lolo 3 (USA).zip#Adventures of Lolo 3 (USA).nes",
+      "label": "Adventures of Lolo 3 (Hal America) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "E06A060B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Air Fortress (USA).zip#Air Fortress (USA).nes",
+      "label": "Air Fortress (Hal America) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B8FD02B7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Akira (Japan).zip#Akira (Japan).nes",
+      "label": "Akira (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "9D83974C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Akumajou Densetsu (Japan).zip#Akumajou Densetsu (Japan).nes",
+      "label": "Akumajou Densetsu (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2E93CE72|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Akumajou Dracula (Japan).zip#Akumajou Dracula (Japan).nes",
+      "label": "Akumajou Dracula (Konami) (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "93F0488C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Akumajou Special - Boku Dracula-kun (Japan).zip#Akumajou Special - Boku Dracula-kun (Japan).nes",
+      "label": "Akumajou Special - Boku Dracula-kun (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F916D969|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Al Unser Jr. Turbo Racing (USA).zip#Al Unser Jr. Turbo Racing (USA).nes",
+      "label": "Al Unser Jr. Turbo Racing (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "023C7774|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Alfred Chicken (USA).zip#Alfred Chicken (USA).nes",
+      "label": "Alfred Chicken (Mindscape) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "A01EF87E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Alpha Mission (USA).zip#Alpha Mission (USA).nes",
+      "label": "Alpha Mission (SNK) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "02E67223|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Arch Rivals - A Basketbrawl! (USA).zip#Arch Rivals - A Basketbrawl! (USA).nes",
+      "label": "Arch-Rivals - A Basket Brawl! (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "37EF8319|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Archon (USA).zip#Archon (USA).nes",
+      "label": "Archon (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C00D228D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Asmik-kun Land (Japan).zip#Asmik-kun Land (Japan).nes",
+      "label": "Asmik-kun Land (Asmik) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3F871C93|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Astyanax (USA).zip#Astyanax (USA).nes",
+      "label": "Astyanax (Jaleco) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "2FDFBC79|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Athena (USA).zip#Athena (USA).nes",
+      "label": "Athena (SNK) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "14D42113|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Attack of the Killer Tomatoes (USA).zip#Attack of the Killer Tomatoes (USA).nes",
+      "label": "Attack of the Killer Tomatoes (THQ) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "11DC4071|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Balloon Fight (USA).zip#Balloon Fight (USA).nes",
+      "label": "Balloon Fight (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CB8FD7B2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Baseball (USA, Europe).zip#Baseball (USA, Europe).nes",
+      "label": "Baseball (Nintendo) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "2440233E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Batman - Return of the Joker (USA).zip#Batman - Return of the Joker (USA).nes",
+      "label": "Batman - Return of the Joker (Sunsoft) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "E14A7971|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Batman - The Video Game (USA).zip#Batman - The Video Game (USA).nes",
+      "label": "Batman - The Video Game (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "395569EC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Batman Returns (USA).zip#Batman Returns (USA).nes",
+      "label": "Batman Returns (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E625E398|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Battle of Olympus, The (USA).zip#Battle of Olympus, The (USA).nes",
+      "label": "Battle of Olympus, The (Broderbund) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B99394C3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Battletoads (USA).zip#Battletoads (USA).nes",
+      "label": "Battletoads (Tradewest) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "BA9164E7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Battletoads-Double Dragon (USA).zip#Battletoads-Double Dragon (USA).nes",
+      "label": "Battletoads - Double Dragon (Tradewest) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "53B02F3D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Big Nose Freaks Out (USA) (Unl).zip#Big Nose Freaks Out (USA) (Unl).nes",
+      "label": "Big Nose Freaks Out (Camerica) (Aladdin Deck Enhancer) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AD16F6C7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Big Nose the Caveman (USA) (Unl).zip#Big Nose the Caveman (USA) (Unl).nes",
+      "label": "Big Nose the Caveman (Camerica) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DCDF053F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bio Miracle Bokutte Upa (Japan).zip#Bio Miracle Bokutte Upa (Japan).nes",
+      "label": "Bio Miracle Bokutte Upa (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E50AD737|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bionic Commando (USA).zip#Bionic Commando (USA).nes",
+      "label": "Bionic Commando (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "83BE000C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Blades of Steel (USA).zip#Blades of Steel (USA).nes",
+      "label": "Blades of Steel (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B9BCF910|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Blaster Master (USA).zip#Blaster Master (USA).nes",
+      "label": "Blaster Master (Sunsoft) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "52BCF64A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bomberman (USA).zip#Bomberman (USA).nes",
+      "label": "Bomberman (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B9804046|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bomberman II (USA).zip#Bomberman II (USA).nes",
+      "label": "Bomberman II (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CC7BCFEB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bonk's Adventure (USA).zip#Bonk's Adventure (USA).nes",
+      "label": "Bonk's Adventure (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6B53D59A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bram Stoker's Dracula (USA).zip#Bram Stoker's Dracula (USA).nes",
+      "label": "Bram Stoker's Dracula (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F5321963|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/BreakThru (USA).zip#BreakThru (USA).nes",
+      "label": "BreakThru (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C85BF3E3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bubble Bobble (USA).zip#Bubble Bobble (USA).nes",
+      "label": "Bubble Bobble (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D3A91B41|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bubble Bobble Part 2 (USA).zip#Bubble Bobble Part 2 (USA).nes",
+      "label": "Bubble Bobble - Part 2 (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CA06CB60|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bucky O'Hare (USA).zip#Bucky O'Hare (USA).nes",
+      "label": "Bucky O'Hare (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CB0DE10E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/BurgerTime (USA).zip#BurgerTime (USA).nes",
+      "label": "BurgerTime (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "516549F9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/California Games (USA).zip#California Games (USA).nes",
+      "label": "California Games (Milton Bradley) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1C6F3036|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Castelian (USA).zip#Castelian (USA).nes",
+      "label": "Castelian (Triffix) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "39EF1AD6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Castle of Dragon (USA).zip#Castle of Dragon (USA).nes",
+      "label": "Castle of Dragon (Seta) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1C24CC9D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Castlevania II - Simon's Quest (USA).zip#Castlevania II - Simon's Quest (USA).nes",
+      "label": "Castlevania II - Simon's Quest (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A9C2C503|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Castlevania III - Dracula's Curse (USA).zip#Castlevania III - Dracula's Curse (USA).nes",
+      "label": "Castlevania III - Dracula's Curse (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7CC9C669|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Castlevania (USA).zip#Castlevania (USA).nes",
+      "label": "Castlevania Rev PRG0 (Konami) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "39C879BB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Chip 'n Dale - Rescue Rangers (USA).zip#Chip 'n Dale - Rescue Rangers (USA).nes",
+      "label": "Chip 'n Dale Rescue Rangers (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E641BD98|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Chip 'n Dale - Rescue Rangers 2 (USA).zip#Chip 'n Dale - Rescue Rangers 2 (USA).nes",
+      "label": "Chip 'n Dale Rescue Rangers 2 (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "91E4A289|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Chubby Cherub (USA).zip#Chubby Cherub (USA).nes",
+      "label": "Chubby Cherub (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "90F12AC8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/City Connection (USA).zip#City Connection (USA).nes",
+      "label": "City Connection (Jaleco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E1AD7CA8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Clu Clu Land (World).zip#Clu Clu Land (World).nes",
+      "label": "Clu Clu Land (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C36A135A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Cobra Command (USA).zip#Cobra Command (USA).nes",
+      "label": "Cobra Command (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "40C6E687|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Cobra Triangle (USA).zip#Cobra Triangle (USA).nes",
+      "label": "Cobra Triangle (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3802276D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Cocoron (Japan).zip#Cocoron (Japan).nes",
+      "label": "Cocoron (Takeru) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1D6B80DA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Code Name - Viper (USA).zip#Code Name - Viper (USA).nes",
+      "label": "Code Name- Viper (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C8A23081|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Commando (USA).zip#Commando (USA).nes",
+      "label": "Commando (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "41492DF6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Conquest of the Crystal Palace (USA).zip#Conquest of the Crystal Palace (USA).nes",
+      "label": "Conquest of the Crystal Palace (Asmik) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0A362909|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Contra (Japan).zip#Contra (Japan).nes",
+      "label": "Contra (Konami) (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "8A96A3C4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Contra (USA).zip#Contra (USA).nes",
+      "label": "Contra (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C50A8304|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Contra Force (USA).zip#Contra Force (USA).nes",
+      "label": "Contra Force (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "83D69922|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Cosmic Epsilon (Japan).zip#Cosmic Epsilon (Japan).nes",
+      "label": "Cosmic Epsilon (Asmik) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F817328A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Cowboy Kid (USA).zip#Cowboy Kid (USA).nes",
+      "label": "Cowboy Kid (Romstar) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B150AE9A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Crisis Force (Japan).zip#Crisis Force (Japan).nes",
+      "label": "Crisis Force (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C4520781|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Crystalis (USA).zip#Crystalis (USA).nes",
+      "label": "Crystalis (SNK) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1BD39032|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/David Crane's A Boy and His Blob - Trouble on Blobolonia (USA).zip#David Crane's A Boy and His Blob - Trouble on Blobolonia (USA).nes",
+      "label": "David Crane's A Boy and His Blob - Trouble on Blobolonia (Absolute Entertainment) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "20A9E4A2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev A).zip#David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev A).nes",
+      "label": "David Crane's A Boy and His Blob - Trouble on Blobolonia (Nintendo) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E378E459|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Days of Thunder (USA).zip#Days of Thunder (USA).nes",
+      "label": "Days of Thunder (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3616C7DD|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Deadly Towers (USA).zip#Deadly Towers (USA).nes",
+      "label": "Deadly Towers (Broderbund) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "25225C70|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Defender II (USA).zip#Defender II (USA).nes",
+      "label": "Defender II (Hal America) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C0B2AA1F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Devil World (Europe).zip#Devil World (Europe).nes",
+      "label": "Devil World (Nintendo) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "87E4A116|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dig Dug (Japan).zip#Dig Dug (Japan).nes",
+      "label": "Dig Dug (Namco) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3AE8289A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dig Dug II - Trouble in Paradise (USA).zip#Dig Dug II - Trouble in Paradise (USA).nes",
+      "label": "Dig Dug II - Trouble in Paradise (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3CC270FB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Donkey Kong 3 (World).zip#Donkey Kong 3 (World).nes",
+      "label": "Donkey Kong 3 (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D1CAC3C2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Donkey Kong Jr. (World) (Rev A).zip#Donkey Kong Jr. (World) (Rev A).nes",
+      "label": "Donkey Kong Jr. Rev PRG1 (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2A794CCB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Donkey Kong (World) (Rev A).zip#Donkey Kong (World) (Rev A).nes",
+      "label": "Donkey Kong Rev PRG1 (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E40B593B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Double Dragon (USA).zip#Double Dragon (USA).nes",
+      "label": "Double Dragon (Tradewest) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "62AFE166|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Double Dragon II - The Revenge (USA).zip#Double Dragon II - The Revenge (USA).nes",
+      "label": "Double Dragon II - The Revenge (USA) (Proto)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CECFBF92|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Double Dragon III - The Sacred Stones (USA).zip#Double Dragon III - The Sacred Stones (USA).nes",
+      "label": "Double Dragon III - The Sacred Stones (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7A6E0454|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Double Dribble (USA).zip#Double Dribble (USA).nes",
+      "label": "Double Dribble Rev PRG0 (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7077A85D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dr. Mario (Japan, USA).zip#Dr. Mario (Japan, USA).nes",
+      "label": "Dr. Mario Rev PRG0 (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B1F7E3E9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dragon Spirit - The New Legend (USA).zip#Dragon Spirit - The New Legend (USA).nes",
+      "label": "Dragon Spirit - The New Legend (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FD719491|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dragon Warrior II (USA).zip#Dragon Warrior II (USA).nes",
+      "label": "Dragon Warrior II (Enix) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E9F5BE99|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dragon Warrior III (USA).zip#Dragon Warrior III (USA).nes",
+      "label": "Dragon Warrior III Rev PRG0 (Enix) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0EB63E83|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dragon Warrior IV (USA).zip#Dragon Warrior IV (USA).nes",
+      "label": "Dragon Warrior IV (Enix) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F6B24806|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dragon Warrior (USA).zip#Dragon Warrior (USA).nes",
+      "label": "Dragon Warrior Rev PRG0 (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CAAF5C6B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Duck Hunt (World).zip#Duck Hunt (World).nes",
+      "label": "Duck Hunt (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4644085E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/DuckTales (USA).zip#DuckTales (USA).nes",
+      "label": "Duck Tales (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DCB94341|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/DuckTales 2 (USA).zip#DuckTales 2 (USA).nes",
+      "label": "Duck Tales 2 (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "40CE2FC0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Earth Bound (USA) (Proto).zip#Earth Bound (USA) (Proto).nes",
+      "label": "Earthbound (Nintendo) (USA) (Proto)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F5EF5002|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Elevator Action (USA).zip#Elevator Action (USA).nes",
+      "label": "Elevator Action (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D415571F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Excitebike (Japan, USA).zip#Excitebike (Japan, USA).nes",
+      "label": "Excitebike (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2BB33C69|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Fantasy Zone (USA) (Unl).zip#Fantasy Zone (USA) (Unl).nes",
+      "label": "Fantasy Zone (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9C546B0B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Fantasy Zone II - Opa-Opa no Namida (Japan).zip#Fantasy Zone II - Opa-Opa no Namida (Japan).nes",
+      "label": "Fantasy Zone 2 - Opa-Opa no Namida (Sunsoft) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6FAF6DB1|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Faxanadu (USA).zip#Faxanadu (USA).nes",
+      "label": "Faxanadu Rev PRG0 (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "063464FD|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Felix the Cat (USA).zip#Felix the Cat (USA).nes",
+      "label": "Felix the Cat (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0639E88E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Fester's Quest (USA).zip#Fester's Quest (USA).nes",
+      "label": "Fester's Quest (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DB0C7019|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Final Fantasy (USA).zip#Final Fantasy (USA).nes",
+      "label": "Final Fantasy (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AB12ECE6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Fire 'n Ice (USA).zip#Fire 'n Ice (USA).nes",
+      "label": "Fire 'n Ice (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FFA7C11C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Fist of the North Star (USA).zip#Fist of the North Star (USA).nes",
+      "label": "Fist of the North Star (Taxan) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "35DEFFB7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Flintstones, The - The Rescue of Dino & Hoppy (USA).zip#Flintstones, The - The Rescue of Dino & Hoppy (USA).nes",
+      "label": "Flintstones, The - The Rescue of Dino & Hoppy (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0B804CDC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Flintstones, The - The Surprise at Dinosaur Peak! (USA).zip#Flintstones, The - The Surprise at Dinosaur Peak! (USA).nes",
+      "label": "Flintstones, The - The Surprise at Dinosaur Peak (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FEDA0B39|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Freedom Force (USA).zip#Freedom Force (USA).nes",
+      "label": "Freedom Force (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "53EB8950|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/G.I. Joe - A Real American Hero (USA).zip#G.I. Joe - A Real American Hero (USA).nes",
+      "label": "G.I. Joe - A Real American Hero (Taxan) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "394FD25A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/G.I. Joe - The Atlantis Factor (USA).zip#G.I. Joe - The Atlantis Factor (USA).nes",
+      "label": "G.I. Joe - The Atlantis Factor (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A8EFAC13|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Galaga - Demons of Death (USA).zip#Galaga - Demons of Death (USA).nes",
+      "label": "Galaga - Demons of Death (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E36D5991|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ganbare Goemon 2 (Japan).zip#Ganbare Goemon 2 (Japan).nes",
+      "label": "Ganbare Goemon 2 (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3424D0DC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ganbare Goemon Gaiden 2 - Tenka no Zaihou (Japan).zip#Ganbare Goemon Gaiden 2 - Tenka no Zaihou (Japan).nes",
+      "label": "Ganbare Goemon Gaiden 2 - Tenka no Zaihou (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "720A5283|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ganbare Goemon! - Karakuri Douchuu (Japan).zip#Ganbare Goemon! - Karakuri Douchuu (Japan).nes",
+      "label": "Ganbare Goemon! - Karakuri Douchuu (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "50FDB91F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gargoyle's Quest II (USA).zip#Gargoyle's Quest II (USA).nes",
+      "label": "Gargoyle's Quest II (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DA7A9F89|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gauntlet (USA).zip#Gauntlet (USA).nes",
+      "label": "Gauntlet (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "57D8330A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gauntlet II (USA).zip#Gauntlet II (USA).nes",
+      "label": "Gauntlet II (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "31E2C449|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Geimos (Japan).zip#Geimos (Japan).nes",
+      "label": "Geimos (ASCII) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E36038B7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/George Foreman's KO Boxing (USA).zip#George Foreman's KO Boxing (USA).nes",
+      "label": "George Foreman's KO Boxing (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8B67B2DB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ghostbusters (USA).zip#Ghostbusters (USA).nes",
+      "label": "Ghostbusters (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B30A3E39|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ghostbusters II (USA).zip#Ghostbusters II (USA).nes",
+      "label": "Ghostbusters 2 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "475A574E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ghosts'n Goblins (USA).zip#Ghosts'n Goblins (USA).nes",
+      "label": "Ghosts 'N Goblins (Capcom) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "87ED54AA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gimmick! (Japan).zip#Gimmick! (Japan).nes",
+      "label": "Gimmick! (Sunsoft) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "15F688B6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Golf (USA).zip#Golf (USA).nes",
+      "label": "Golf (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6C4E5A87|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Golgo 13 - Top Secret Episode (USA).zip#Golgo 13 - Top Secret Episode (USA).nes",
+      "label": "Golgo 13 - Top Secret Episode (Vic Tokai) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9881D1B4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Goonies II, The (USA).zip#Goonies II, The (USA).nes",
+      "label": "Goonies II, The (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AA9CA482|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gradius (USA).zip#Gradius (USA).nes",
+      "label": "Gradius (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7A269942|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gradius II (Japan).zip#Gradius II (Japan).nes",
+      "label": "Gradius II (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D213AA0D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gremlins 2 - The New Batch (USA).zip#Gremlins 2 - The New Batch (USA).nes",
+      "label": "Gremlins 2 - The New Batch - The Videogame (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2ABB2EE7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Guardian Legend, The (USA).zip#Guardian Legend, The (USA).nes",
+      "label": "Guardian Legend, The (Broderbound) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C94AC75F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Guerrilla War (USA).zip#Guerrilla War (USA).nes",
+      "label": "Guerrilla War (SNK) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "005FF9A8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gumshoe (USA, Europe).zip#Gumshoe (USA, Europe).nes",
+      "label": "Gumshoe (Nintendo) (EU-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AAB00873|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gun Nac (USA).zip#Gun Nac (USA).nes",
+      "label": "Gun Nac (Ascii) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FB0EC3B9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gun.Smoke (USA).zip#Gun.Smoke (USA).nes",
+      "label": "Gun.Smoke (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6B8F23E0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gyromite (World).zip#Gyromite (World).nes",
+      "label": "Gyromite (Nintendo)[aka Robot Gyro in Jpn]",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E54840EC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Gyruss (USA).zip#Gyruss (USA).nes",
+      "label": "Gyruss (Ultra Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "526AD690|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Heavy Barrel (USA).zip#Heavy Barrel (USA).nes",
+      "label": "Heavy Barrel (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1E79B8A6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Hogan's Alley (World).zip#Hogan's Alley (World).nes",
+      "label": "Hogan's Alley (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9D39585B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Holy Diver (Japan).zip#Holy Diver (Japan).nes",
+      "label": "Holy Diver (Irem) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C4CF0E8E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Adventure Island (USA).zip#Adventure Island (USA).nes",
+      "label": "Hudson's Adventure Island (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B78C09A2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Hydlide (USA).zip#Hydlide (USA).nes",
+      "label": "Hydlide (FCI) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8962AEBF|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ice Climber (USA, Europe).zip#Ice Climber (USA, Europe).nes",
+      "label": "Ice Climber (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "70044A74|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ice Hockey (USA).zip#Ice Hockey (USA).nes",
+      "label": "Ice Hockey (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4916D0A9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ikari III - The Rescue (USA).zip#Ikari III - The Rescue (USA).nes",
+      "label": "Ikari III - The Rescue (SNK) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3BCD370E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ikari Warriors II - Victory Road (USA).zip#Ikari Warriors II - Victory Road (USA).nes",
+      "label": "Ikari Warriors II- Victory Road (SNK) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1EAF333C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ikari Warriors (USA).zip#Ikari Warriors (USA).nes",
+      "label": "Ikari Warriors Rev PRG0 (SNK) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A6A9943F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ikinari Musician (Japan).zip#Ikinari Musician (Japan).nes",
+      "label": "Ikinari Musician (Toukyou Shoseki) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B5E2CB2F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Image Fight (USA).zip#Image Fight (USA).nes",
+      "label": "Image Fight (Irem Corporation) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2F1C2B30|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Immortal, The (USA).zip#Immortal, The (USA).nes",
+      "label": "Immortal, The (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "ACEB84C1|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Indiana Jones and the Last Crusade (USA) (UBI Soft).zip#Indiana Jones and the Last Crusade (USA) (UBI Soft).nes",
+      "label": "Indiana Jones and the Last Crusade (UBI Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "ED5FA6C4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Indiana Jones and the Temple of Doom (USA).zip#Indiana Jones and the Temple of Doom (USA).nes",
+      "label": "Indiana Jones and the Temple of Doom (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E476313E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Iron Tank - The Invasion of Normandy (USA).zip#Iron Tank - The Invasion of Normandy (USA).nes",
+      "label": "Iron Tank - The Invasion of Normandy (SNK) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DCFD85FC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/IronSword - Wizards & Warriors II (USA).zip#IronSword - Wizards & Warriors II (USA).nes",
+      "label": "IronSword - Wizards & Warriors II (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "BE2E7055|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Jackal (USA).zip#Jackal (USA).nes",
+      "label": "Jackal (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2E52D091|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Jaws (USA).zip#Jaws (USA).nes",
+      "label": "Jaws (LJN) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FECE3F05|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Jetsons, The - Cogswell's Caper (USA).zip#Jetsons, The - Cogswell's Caper (USA).nes",
+      "label": "Jetsons, The - Cogswell's Caper! (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0F945DF6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Joe & Mac (USA).zip#Joe & Mac (USA).nes",
+      "label": "Joe & Mac (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0C4000BE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Journey to Silius (USA).zip#Journey to Silius (USA).nes",
+      "label": "Journey to Silius (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8F77CCE0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Joust (USA).zip#Joust (USA).nes",
+      "label": "Joust (Hal America) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CDD248A0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Kabuki - Quantum Fighter (USA).zip#Kabuki - Quantum Fighter (USA).nes",
+      "label": "Kabuki - Quantum Fighter (Hal America) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5EE7A400|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Karate Kid, The (USA).zip#Karate Kid, The (USA).nes",
+      "label": "Karate Kid, The (LJN) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D71252B9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Karateka (Japan).zip#Karateka (Japan).nes",
+      "label": "Karateka (Soft Pro) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E9BAD787|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Karnov (USA).zip#Karnov (USA).nes",
+      "label": "Karnov (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "103F0755|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Kick Master (USA).zip#Kick Master (USA).nes",
+      "label": "Kick Master (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7B978BAC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Kickle Cubicle (USA).zip#Kickle Cubicle (USA).nes",
+      "label": "Kickle Cubicle (Irem Corporation) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E783D470|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Kid Icarus (USA, Europe).zip#Kid Icarus (USA, Europe).nes",
+      "label": "Kid Icarus (Nintendo) (EU-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0B30E036|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Kid Niki - Radical Ninja (USA).zip#Kid Niki - Radical Ninja (USA).nes",
+      "label": "Kid Niki - Radical Ninja Rev PRG0 (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D07B95CB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/King's Quest V (USA).zip#King's Quest V (USA).nes",
+      "label": "King's Quest V (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A6C5CBD8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Kirby's Adventure (USA).zip#Kirby's Adventure (USA).nes",
+      "label": "Kirby's Adventure Rev PRG0 (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1752EF8A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Kiwi Kraze - A Bird-Brained Adventure! (USA).zip#Kiwi Kraze - A Bird-Brained Adventure! (USA).nes",
+      "label": "Kiwi Kraze (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7CAF2452|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Krion Conquest, The (USA).zip#Krion Conquest, The (USA).nes",
+      "label": "Krion Conquest, The (Vic Tokai) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "29B42609|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Krusty's Fun House (USA).zip#Krusty's Fun House (USA).nes",
+      "label": "Krusty's Fun House (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "85C86151|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Kung Fu (Japan, USA).zip#Kung Fu (Japan, USA).nes",
+      "label": "Kung Fu (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "32B45889|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Lagrange Point (Japan).zip#Lagrange Point (Japan).nes",
+      "label": "Lagrange Point (Konami) (Japan) (Alt 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EAD4DEDC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Last Ninja, The (USA).zip#Last Ninja, The (USA).nes",
+      "label": "Last Ninja, The (Jaleco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C9C09E0D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Last Starfighter, The (USA).zip#Last Starfighter, The (USA).nes",
+      "label": "Last Starfighter, The (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "26BCEFFD|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Legacy of the Wizard (USA).zip#Legacy of the Wizard (USA).nes",
+      "label": "Legacy of the Wizard (Broderbund) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B534EB48|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Legend of Kage, The (USA).zip#Legend of Kage, The (USA).nes",
+      "label": "Legend of Kage, The (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6785C961|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Legend of Zelda, The (USA).zip#Legend of Zelda, The (USA).nes",
+      "label": "Legend of Zelda Rev PRG0, The (Nintendo) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "D7AE93DF|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Legendary Wings (USA).zip#Legendary Wings (USA).nes",
+      "label": "Legendary Wings (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "91109F99|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Life Force (USA).zip#Life Force (USA).nes",
+      "label": "Life Force (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F7B55696|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Little Nemo - The Dream Master (USA).zip#Little Nemo - The Dream Master (USA).nes",
+      "label": "Little Nemo - The Dream Master (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "71D868C4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Little Samson (USA).zip#Little Samson (USA).nes",
+      "label": "Little Samson (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "90F4B83C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Lode Runner (USA).zip#Lode Runner (USA).nes",
+      "label": "Lode Runner (Broderbund) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CD4BF911|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Low G Man - The Low Gravity Man (USA).zip#Low G Man - The Low Gravity Man (USA).nes",
+      "label": "Low G Man - The Low Gravity Man (Taxan) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B90A1CA1|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/M.C. Kids (USA).zip#M.C. Kids (USA).nes",
+      "label": "M.C. Kids (Virgin Interactive) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9A78FB49|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/M.U.L.E. (USA).zip#M.U.L.E. (USA).nes",
+      "label": "M.U.L.E. (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DBF91186|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mach Rider (Japan, USA).zip#Mach Rider (Japan, USA).nes",
+      "label": "Mach Rider (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "BEE56098|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mad Max (USA).zip#Mad Max (USA).nes",
+      "label": "Mad Max (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "28FD4957|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mafat Conspiracy, The (USA).zip#Mafat Conspiracy, The (USA).nes",
+      "label": "Mafat Conspiracy, The (Vic Tokai) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A0973444|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Magic of Scheherazade, The (USA).zip#Magic of Scheherazade, The (USA).nes",
+      "label": "Magic of Scheherazade, The (Culture Brain) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FFAA505D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Magician (USA).zip#Magician (USA).nes",
+      "label": "Magician (Taxan) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8F37610A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Magmax (USA).zip#Magmax (USA).nes",
+      "label": "Magmax (FCI) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7FE5B39B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Majou Densetsu II - Daimashikyou Galious (Japan).zip#Majou Densetsu II - Daimashikyou Galious (Japan).nes",
+      "label": "Majou Densetsu 2 - Daimashikyou Galious (Konami) (Japan) (Alt 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "763F2D28|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Maniac Mansion (USA).zip#Maniac Mansion (USA).nes",
+      "label": "Maniac Mansion (Jaleco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "68309D06|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mappy-Land (USA).zip#Mappy-Land (USA).nes",
+      "label": "Mappy-Land (Taxan) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4E8EBCFE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Marble Madness (USA).zip#Marble Madness (USA).nes",
+      "label": "Marble Madness (Milton Bradley) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F9282F28|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mario Bros. (World).zip#Mario Bros. (World).nes",
+      "label": "Mario Bros. (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A6DE1B55|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mega Man (USA).zip#Mega Man (USA).nes",
+      "label": "Mega Man (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5DED683E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mega Man 2 (USA).zip#Mega Man 2 (USA).nes",
+      "label": "Mega Man 2 (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5E268761|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mega Man 3 (USA).zip#Mega Man 3 (USA).nes",
+      "label": "Mega Man 3 (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "452D8089|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mega Man 4 (USA).zip#Mega Man 4 (USA).nes",
+      "label": "Mega Man 4 Rev PRG0 (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "ADBD4E48|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mega Man 5 (USA).zip#Mega Man 5 (USA).nes",
+      "label": "Mega Man 5 (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5E023291|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mega Man 6 (USA).zip#Mega Man 6 (USA).nes",
+      "label": "Mega Man 6 (Nintendo) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "1EFCAC48|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Metal Gear (USA).zip#Metal Gear (USA).nes",
+      "label": "Metal Gear (Ultra Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B27DE2D8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Metal Storm (USA).zip#Metal Storm (USA).nes",
+      "label": "Metal Storm (Irem Corporation) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "98CEFA51|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Metroid (USA).zip#Metroid (USA).nes",
+      "label": "Metroid Rev PRG0 (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A2C89CB9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mickey Mousecapade (USA).zip#Mickey Mousecapade (USA).nes",
+      "label": "Mickey Mousecapade (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3341274D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mighty Final Fight (USA).zip#Mighty Final Fight (USA).nes",
+      "label": "Mighty Final Fight (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "15EB0BEE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mike Tyson's Punch-Out!! (Japan, USA).zip#Mike Tyson's Punch-Out!! (Japan, USA).nes",
+      "label": "Mike Tyson's Punch-Out!! Rev PRG0 (Nintendo) (JP-US)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "83DB7938|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Milon's Secret Castle (USA).zip#Milon's Secret Castle (USA).nes",
+      "label": "Milon's Secret Castle (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1741286B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mitsume ga Tooru (Japan).zip#Mitsume ga Tooru (Japan).nes",
+      "label": "Mitsume ga Tooru (Tomy) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E27EC1EC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Monster in My Pocket (USA).zip#Monster in My Pocket (USA).nes",
+      "label": "Monster In My Pocket (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CFD1EB5D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Monster Party (USA).zip#Monster Party (USA).nes",
+      "label": "Monster Party (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6F0AC6EC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Moon Crystal (Japan).zip#Moon Crystal (Japan).nes",
+      "label": "Moon Crystal (Hector) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "463D5C4C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Moon Ranger (USA) (Unl).zip#Moon Ranger (USA) (Unl).nes",
+      "label": "Moon Ranger (Bunch Games) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "22172117|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mother (Japan).zip#Mother (Japan).nes",
+      "label": "Mother (Nintendo) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "282A5CAA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ms. Pac-Man (USA).zip#Ms. Pac-Man (USA).nes",
+      "label": "Ms. Pac-Man (Namco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "51A0C9DE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ms. Pac-Man (USA) (Unl).zip#Ms. Pac-Man (USA) (Unl).nes",
+      "label": "Ms. Pac-Man (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A4A116F1|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mutant Virus, The - Crisis in a Computer World (USA).zip#Mutant Virus, The - Crisis in a Computer World (USA).nes",
+      "label": "Mutant Virus, The - Crisis in a Computer World! (American Softworks) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "10786D36|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Namco Classic (Japan).zip#Namco Classic (Japan).nes",
+      "label": "Namco Classic (Namco) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6B7015F3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Namco Classic II (Japan).zip#Namco Classic II (Japan).nes",
+      "label": "Namco Classic II (Namco) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4F630A61|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Nightshade (USA).zip#Nightshade (USA).nes",
+      "label": "Nightshade (Ultra Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C6D266AF|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ninja Gaiden (USA).zip#Ninja Gaiden (USA).nes",
+      "label": "Ninja Gaiden (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "11F953F6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ninja Gaiden II - The Dark Sword of Chaos (USA).zip#Ninja Gaiden II - The Dark Sword of Chaos (USA).nes",
+      "label": "Ninja Gaiden II - The Dark Sword of Chaos (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9D135A8E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ninja Gaiden III - The Ancient Ship of Doom (USA).zip#Ninja Gaiden III - The Ancient Ship of Doom (USA).nes",
+      "label": "Ninja Gaiden III - The Ancient Ship of Doom (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "BABD39FA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ninja Kid (USA).zip#Ninja Kid (USA).nes",
+      "label": "Ninja Kid (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4DE7236F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Nintendo World Championships 1990 (USA).zip#Nintendo World Championships 1990 (USA).nes",
+      "label": "Nintendo World Championships 1990 (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F12F16A6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/North and South (USA).zip#North and South (USA).nes",
+      "label": "North and South (Seika) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "840C3B42|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Overlord (USA).zip#Overlord (USA).nes",
+      "label": "Overlord (Virgin Interactive) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4DF9D7C8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/P.O.W. - Prisoners of War (USA).zip#P.O.W. - Prisoners of War (USA).nes",
+      "label": "P.O.W. - Prisoners of War (SNK) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "18967EA6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Pac-Man (USA) (Namco).zip#Pac-Man (USA) (Namco).nes",
+      "label": "Pac-Man (Namco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "15D202D8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Panic Restaurant (USA).zip#Panic Restaurant (USA).nes",
+      "label": "Panic Restaurant (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "69C9E654|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Paperboy (USA).zip#Paperboy (USA).nes",
+      "label": "Paperboy (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EB171D77|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Parodius Da! (Japan).zip#Parodius Da! (Japan).nes",
+      "label": "Parodius da! (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EC8AEFFC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Pinball (Japan, USA).zip#Pinball (Japan, USA).nes",
+      "label": "Pinball (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "88C15CF3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Pipe Dream (USA).zip#Pipe Dream (USA).nes",
+      "label": "Pipe Dream (Bullet Proof Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F3CC626D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Platoon (USA).zip#Platoon (USA).nes",
+      "label": "Platoon Rev PRG0 (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DEC5BB7F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Popeye (World) (Rev A).zip#Popeye (World) (Rev A).nes",
+      "label": "Popeye Rev PRG1 (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FB1A91D0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Power Blade (USA).zip#Power Blade (USA).nes",
+      "label": "Power Blade (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "76663E66|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Power Blade 2 (USA).zip#Power Blade 2 (USA).nes",
+      "label": "Power Blade 2 (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F8E0BC9B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Prince of Persia (USA).zip#Prince of Persia (USA).nes",
+      "label": "Prince of Persia (Virgin Interactive) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "43C7E445|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Princess Tomato in the Salad Kingdom (USA).zip#Princess Tomato in the Salad Kingdom (USA).nes",
+      "label": "Princess Tomato in the Salad Kingdom (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "079C2139|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Pro Wrestling (USA).zip#Pro Wrestling (USA).nes",
+      "label": "Pro Wrestling Rev PRG0 (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D5F95DA7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Punch-Out!! (USA).zip#Punch-Out!! (USA).nes",
+      "label": "Punch-Out!! (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A827FF1B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Q-bert (USA).zip#Q-bert (USA).nes",
+      "label": "Q-bert (Ultra Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8F992F3C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/QIX (USA).zip#QIX (USA).nes",
+      "label": "Qix (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4724713D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/R.B.I. Baseball (USA).zip#R.B.I. Baseball (USA).nes",
+      "label": "R.B.I. Baseball (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "39207888|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/R.C. Pro-Am II (USA).zip#R.C. Pro-Am II (USA).nes",
+      "label": "R.C. Pro-Am II (Tradewest) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "03DB5562|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/R.C. Pro-Am (USA).zip#R.C. Pro-Am (USA).nes",
+      "label": "R.C. Pro-Am Racing Rev PRG0 (Nintendo) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "2100D90B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Rad Racer (USA).zip#Rad Racer (USA).nes",
+      "label": "Rad Racer (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "595DAA35|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Rad Racer II (USA).zip#Rad Racer II (USA).nes",
+      "label": "Rad Racer II (Square Soft) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "39D371EC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Rainbow Islands (USA).zip#Rainbow Islands (USA).nes",
+      "label": "Rainbow Islands - Bubble Bobble 2 (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5D56B6A4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Rambo (USA).zip#Rambo (USA).nes",
+      "label": "Rambo Rev PRG0 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "904B76C9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ren & Stimpy Show, The - Buckeroo$! (USA).zip#Ren & Stimpy Show, The - Buckeroo$! (USA).nes",
+      "label": "Ren & Stimpy Show, The - Buckaroo$ (THQ) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C319B1D1|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Renegade (USA).zip#Renegade (USA).nes",
+      "label": "Renegade (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "935F5D29|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ring King (USA).zip#Ring King (USA).nes",
+      "label": "Ring King (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "38E1163D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/River City Ransom (USA).zip#River City Ransom (USA).nes",
+      "label": "River City Ransom (American Technos) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C3508F7E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/RoadBlasters (USA).zip#RoadBlasters (USA).nes",
+      "label": "RoadBlasters (Mindscape) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E76915B9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Rolling Thunder (USA) (Unl).zip#Rolling Thunder (USA) (Unl).nes",
+      "label": "Rolling Thunder (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E68A35BC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Rush'n Attack (USA).zip#Rush'n Attack (USA).nes",
+      "label": "Rush 'n Attack (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "ED2C6A3B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/S.C.A.T. - Special Cybernetic Attack Team (USA).zip#S.C.A.T. - Special Cybernetic Attack Team (USA).nes",
+      "label": "S.C.A.T. - Special Cybernetic Attack Team (Natsume) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "19ABBF3C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Section-Z (USA).zip#Section-Z (USA).nes",
+      "label": "Section-Z (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "3CE543E6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Seicross (USA).zip#Seicross (USA).nes",
+      "label": "Seicross (FCI) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C0D823ED|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Shadow of the Ninja (USA).zip#Shadow of the Ninja (USA).nes",
+      "label": "Shadow of the Ninja (Natsume) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F74A04AB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Shadowgate (USA).zip#Shadowgate (USA).nes",
+      "label": "Shadowgate (Seika) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "74CAEBE3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Shatterhand (Europe).zip#Shatterhand (Europe).nes",
+      "label": "Shatterhand (Jaleco) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1E1E3763|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Shatterhand (USA).zip#Shatterhand (USA).nes",
+      "label": "Shatterhand (Jaleco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "80B3FFAF|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Silk Worm (USA).zip#Silk Worm (USA).nes",
+      "label": "Silk Worm (American Sammy) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8AF9B095|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Simpsons, The - Bart vs. the Space Mutants (USA).zip#Simpsons, The - Bart vs. the Space Mutants (USA).nes",
+      "label": "Simpsons, The - Bart vs. the Space Mutants Rev PRG0 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "02A32853|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Simpsons, The - Bart vs. the World (USA).zip#Simpsons, The - Bart vs. the World (USA).nes",
+      "label": "Simpsons, The - Bart vs. the World (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5101BAE1|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Simpsons, The - Bartman Meets Radioactive Man (USA).zip#Simpsons, The - Bartman Meets Radioactive Man (USA).nes",
+      "label": "Simpsons, The - Bartman Meets Radioactive Man (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7C86930E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Skate or Die (USA).zip#Skate or Die (USA).nes",
+      "label": "Skate Or Die (Ultra Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "713309BA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Slalom (USA).zip#Slalom (USA).nes",
+      "label": "Slalom (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6115164D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Smurfs, The (Europe) (En,Fr,De,Es).zip#Smurfs, The (Europe) (En,Fr,De,Es).nes",
+      "label": "Smurfs, The (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "732B1A7A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Snake Rattle n Roll (USA).zip#Snake Rattle n Roll (USA).nes",
+      "label": "Snake Rattle n Roll (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "558F9A33|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Snake's Revenge (USA).zip#Snake's Revenge (USA).nes",
+      "label": "Snake's Revenge (Ultra Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "255A25FE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Snoopy's Silly Sports Spectacular! (USA).zip#Snoopy's Silly Sports Spectacular! (USA).nes",
+      "label": "Snoopy's Silly Sports Spectacular! (Seika) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C5211378|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Snow Brothers (USA).zip#Snow Brothers (USA).nes",
+      "label": "Snow Brothers (Capcom) (USA) (Proto)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "701F4326|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Soccer (World).zip#Soccer (World).nes",
+      "label": "Soccer (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "820D62AB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Solar Jetman - Hunt for the Golden Warpship (USA).zip#Solar Jetman - Hunt for the Golden Warpship (USA).nes",
+      "label": "Solar Jetman - Hunt for the Golden Warpship (Tradewest) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1C17CE33|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Solomon's Key (USA).zip#Solomon's Key (USA).nes",
+      "label": "Solomon's Key (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "99773BC4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Solstice - The Quest for the Staff of Demnos (USA).zip#Solstice - The Quest for the Staff of Demnos (USA).nes",
+      "label": "Solstice - The Quest for the Staff of Demnos (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1D60732E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Son Son (Japan).zip#Son Son (Japan).nes",
+      "label": "Son Son (Capcom) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F7C8F42D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Space Harrier (Japan).zip#Space Harrier (Japan).nes",
+      "label": "Space Harrier (Takara) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "91930E95|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Spelunker (USA).zip#Spelunker (USA).nes",
+      "label": "Spelunker (Broderbund) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7EA3404F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Splatter House - Wanpaku Graffiti (Japan).zip#Splatter House - Wanpaku Graffiti (Japan).nes",
+      "label": "Splatter House - Wanpaku Graffiti (Namco) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B7EEB48B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Spy Hunter (USA).zip#Spy Hunter (USA).nes",
+      "label": "Spy Hunter (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1E060AE0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Spy vs Spy (USA).zip#Spy vs Spy (USA).nes",
+      "label": "Spy Vs Spy (Seika) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "23D23DCC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Star Force (USA).zip#Star Force (USA).nes",
+      "label": "Star Force (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B3CF12B8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Star Soldier (USA).zip#Star Soldier (USA).nes",
+      "label": "Star Soldier (Taxan) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "69004001|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/StarTropics (USA).zip#StarTropics (USA).nes",
+      "label": "Star Tropics (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2ED79B73|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Star Wars (USA).zip#Star Wars (USA).nes",
+      "label": "Star Wars (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "EB506BF9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Star Wars - The Empire Strikes Back (USA).zip#Star Wars - The Empire Strikes Back (USA).nes",
+      "label": "Star Wars - The Empire Strikes Back (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "44D3224F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Street Cop (USA).zip#Street Cop (USA).nes",
+      "label": "Street Cop (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0C6B4049|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Street Fighter 2010 - The Final Fight (USA).zip#Street Fighter 2010 - The Final Fight (USA).nes",
+      "label": "Street Fighter 2010 - The Final Fight (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A7355946|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Strider (USA).zip#Strider (USA).nes",
+      "label": "Strider (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5307702A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Summer Carnival '92 - Recca (Japan).zip#Summer Carnival '92 - Recca (Japan).nes",
+      "label": "Summer Carnival '92 - Recca (Naxat) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D98EC487|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super C (USA).zip#Super C (USA).nes",
+      "label": "Super C (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1AC846F0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Dodge Ball (USA).zip#Super Dodge Ball (USA).nes",
+      "label": "Super Dodge Ball (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "052A50D7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Mario Bros. (World).zip#Super Mario Bros. (World).nes",
+      "label": "Super Mario Bros. (Nintendo) (JP-US)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "3337EC46|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Mario Bros. 2 (USA).zip#Super Mario Bros. 2 (USA).nes",
+      "label": "Super Mario Bros. 2 Rev PRG0 (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7D3F6F3D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Mario Bros. 3 (USA).zip#Super Mario Bros. 3 (USA).nes",
+      "label": "Super Mario Bros. 3 Rev PRG0 (Nintendo) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "85A79D9C|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Pitfall (USA).zip#Super Pitfall (USA).nes",
+      "label": "Super Pitfall (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A4958020|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Spy Hunter (USA).zip#Super Spy Hunter (USA).nes",
+      "label": "Super Spy Hunter (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "81D24CCC|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Star Force (Japan).zip#Super Star Force (Japan).nes",
+      "label": "Super Star Force (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0CA0B143|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Turrican (Europe).zip#Super Turrican (Europe).nes",
+      "label": "Super Turrican (Imagineer) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A2500748|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Super Spike V'Ball (USA).zip#Super Spike V'Ball (USA).nes",
+      "label": "SuperSpike V'Ball (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C2D3F5B3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Sweet Home (Japan).zip#Sweet Home (Japan).nes",
+      "label": "Sweet Home (Capcom) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "40803BC5|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Sword Master (USA).zip#Sword Master (USA).nes",
+      "label": "Sword Master (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6CCD5C11|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tag Team Wrestling (USA).zip#Tag Team Wrestling (USA).nes",
+      "label": "Tag Team Wrestling (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "41F82F6E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Teenage Mutant Ninja Turtles (USA).zip#Teenage Mutant Ninja Turtles (USA).nes",
+      "label": "Teenage Mutant Ninja Turtles (Ultra Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "83213CA0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Teenage Mutant Ninja Turtles II - The Arcade Game (USA).zip#Teenage Mutant Ninja Turtles II - The Arcade Game (USA).nes",
+      "label": "Teenage Mutant Ninja Turtles II - The Arcade Game (Ultra Soft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C9FFBBDB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Teenage Mutant Ninja Turtles III - The Manhattan Project (USA).zip#Teenage Mutant Ninja Turtles III - The Manhattan Project (USA).nes",
+      "label": "Teenage Mutant Ninja Turtles III - The Manhattan Project (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DBB3BC30|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tennis (Japan, USA).zip#Tennis (Japan, USA).nes",
+      "label": "Tennis (Nintendo) (JP-US)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5F457C00|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tetrastar - The Fighter (Japan).zip#Tetrastar - The Fighter (Japan).nes",
+      "label": "Tetrastar - The Fighter (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9880E334|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tetris (USA).zip#Tetris (USA).nes",
+      "label": "Tetris (Nintendo) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "6D72C53A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tetris 2 (USA).zip#Tetris 2 (USA).nes",
+      "label": "Tetris 2 (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B6C0718B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tiny Toon Adventures (USA).zip#Tiny Toon Adventures (USA).nes",
+      "label": "Tiny Toon Adventures (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B34ED396|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tiny Toon Adventures 2 - Trouble in Wackyland (USA).zip#Tiny Toon Adventures 2 - Trouble in Wackyland (USA).nes",
+      "label": "Tiny Toon Adventures 2 - Trouble in WackyLand (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "AB36E3F7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Toki (USA).zip#Toki (USA).nes",
+      "label": "Toki (Taito Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5BD50BE6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tom & Jerry - The Ultimate Game of Cat and Mouse! (USA).zip#Tom & Jerry - The Ultimate Game of Cat and Mouse! (USA).nes",
+      "label": "Tom & Jerry - The Ultimate Game of Cat and Mouse! (Hi-Tech Expressions) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FCA83867|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tom Sawyer no Bouken (Japan).zip#Tom Sawyer no Bouken (Japan).nes",
+      "label": "Tom Sawyer no Bouken (Seta) (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "4293CD21|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tombs & Treasure (USA).zip#Tombs & Treasure (USA).nes",
+      "label": "Tombs & Treasure (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "013BD19F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Toobin' (USA) (Unl).zip#Toobin' (USA) (Unl).nes",
+      "label": "Toobin' (Tengen) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1CB59544|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Top Gun (USA).zip#Top Gun (USA).nes",
+      "label": "Top Gun Rev PRG0 (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "8DD55C5F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Town & Country Surf Designs - Wood & Water Rage (USA).zip#Town & Country Surf Designs - Wood & Water Rage (USA).nes",
+      "label": "Town & Country Surf Design (LJN) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "9C94ED32|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Track & Field (USA).zip#Track & Field (USA).nes",
+      "label": "Track & Field (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D3B42F6D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Track & Field II (USA).zip#Track & Field II (USA).nes",
+      "label": "Track & Field II Rev PRG0 (Konami) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6473A299|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Trojan (USA).zip#Trojan (USA).nes",
+      "label": "Trojan (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "CF378FB2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/TwinBee 3 - Poko Poko Daimaou (Japan).zip#TwinBee 3 - Poko Poko Daimaou (Japan).nes",
+      "label": "TwinBee 3 - Poko Poko Dai Maou (Konami) (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "96529C68|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Uchuu Keibitai SDF (Japan).zip#Uchuu Keibitai SDF (Japan).nes",
+      "label": "Uchuu Keibitai SDF (HAL Kenkyuujo) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E8A98391|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ufouria - The Saga (Europe).zip#Ufouria - The Saga (Europe).nes",
+      "label": "Ufouria - The Saga (Sunsoft) (Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6453F65E|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ultima - Exodus (USA).zip#Ultima - Exodus (USA).nes",
+      "label": "Ultima - Exodus (FCI) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C1A9E6C0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ultima - Quest of the Avatar (USA).zip#Ultima - Quest of the Avatar (USA).nes",
+      "label": "Ultima - Quest of the Avatar (FCI) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C7F5B3D8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ultima - Warriors of Destiny (USA).zip#Ultima - Warriors of Destiny (USA).nes",
+      "label": "Ultima - Warriors of Destiny (FCI) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2D8C2829|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Urban Champion (World).zip#Urban Champion (World).nes",
+      "label": "Urban Champion (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "0770CDAA|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Vice - Project Doom (USA).zip#Vice - Project Doom (USA).nes",
+      "label": "Vice - Project Doom (American Sammy) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "5FA46034|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Volguard II (Japan).zip#Volguard II (Japan).nes",
+      "label": "Volguard II (DB Soft) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1A935610|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Volleyball (USA, Europe).zip#Volleyball (USA, Europe).nes",
+      "label": "Volleyball (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C0056CEB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wacky Races (USA).zip#Wacky Races (USA).nes",
+      "label": "Wacky Races (Atlus Software) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "6A862965|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wai Wai World (Japan).zip#Wai Wai World (Japan).nes",
+      "label": "Wai Wai World (Konami) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "B27BCF3D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wario's Woods (USA).zip#Wario's Woods (USA).nes",
+      "label": "Wario's Woods (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "51DCC76F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Werewolf - The Last Warrior (USA).zip#Werewolf - The Last Warrior (USA).nes",
+      "label": "Werewolf - The Last Warrior (Data East) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "19AF4032|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Whomp 'Em (USA).zip#Whomp 'Em (USA).nes",
+      "label": "Whomp 'Em (Jaleco) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4546AAE3|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wild Gunman (World) (Rev 1).zip#Wild Gunman (World) (Rev 1).nes",
+      "label": "Wild Gunman Rev PRG1 (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "330F53EE|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Willow (USA).zip#Willow (USA).nes",
+      "label": "Willow (Capcom) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7D8D5F51|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wizardry - Knight of Diamonds - The Second Scenario (USA).zip#Wizardry - Knight of Diamonds - The Second Scenario (USA).nes",
+      "label": "Wizardry - Knight of Diamonds (Ascii) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7516B446|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wizardry - Proving Grounds of the Mad Overlord (USA).zip#Wizardry - Proving Grounds of the Mad Overlord (USA).nes",
+      "label": "Wizardry - Proving Grounds of the Mad Overlord (Ascii) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "804EF7F9|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wizards & Warriors III - Kuros...Visions of Power (USA).zip#Wizards & Warriors III - Kuros...Visions of Power (USA).nes",
+      "label": "Wizards & Warriors III - Kuros... Visions of Power (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4F505449|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wizards & Warriors (USA).zip#Wizards & Warriors (USA).nes",
+      "label": "Wizards & Warriors Rev PRG0 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "A0F0FF4A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/World Games (USA).zip#World Games (USA).nes",
+      "label": "World Games (Milton Bradley) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "06BCC0A6|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wrecking Crew (World).zip#Wrecking Crew (World).nes",
+      "label": "Wrecking Crew (Nintendo)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "658D4FD4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Wurm - Journey to the Center of the Earth! (USA).zip#Wurm - Journey to the Center of the Earth! (USA).nes",
+      "label": "Wurm - Journey to the Center of the Earth! (Asmik) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "C1133E82|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Xenophobe (USA).zip#Xenophobe (USA).nes",
+      "label": "Xenophobe (Sunsoft) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "FC2188DB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Xevious - The Avenger (USA).zip#Xevious - The Avenger (USA).nes",
+      "label": "Xevious - The Avenger (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "210A2BBB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Xexyz (USA).zip#Xexyz (USA).nes",
+      "label": "Xexyz (Hudson) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "DCD20EC8|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Yoshi's Cookie (USA).zip#Yoshi's Cookie (USA).nes",
+      "label": "Yoshi's Cookie (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "1600AC5B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ys (Japan).zip#Ys (Japan).nes",
+      "label": "Ys (Victor Ongaku Sangyou) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "F7FBB9CB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ys II - Ancient Ys Vanished - The Final Chapter (Japan).zip#Ys II - Ancient Ys Vanished - The Final Chapter (Japan).nes",
+      "label": "Ys II - Ancient Ys Vanished - The Final Chapter (Victor Ongaku Sangyou) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "52E20FC4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Ys III - Wanderers from Ys (Japan).zip#Ys III - Wanderers from Ys (Japan).nes",
+      "label": "Ys III - Wanderers From Ys (Victor Ongaku Sangyou) (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E1739A6A|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Zanac (USA).zip#Zanac (USA).nes",
+      "label": "Zanac (FCI) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "2165C0C2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Zelda II - The Adventure of Link (USA).zip#Zelda II - The Adventure of Link (USA).nes",
+      "label": "Zelda II - The Adventure of Link (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "E3C788B0|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Zoda's Revenge - StarTropics II (USA).zip#Zoda's Revenge - StarTropics II (USA).nes",
+      "label": "Zoda's Revenge - Star Tropics II (Nintendo) (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "76124D08|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Zombie Nation (USA).zip#Zombie Nation (USA).nes",
+      "label": "Zombie Nation (Meldac) (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "29685F24|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    }
+  ]
+}

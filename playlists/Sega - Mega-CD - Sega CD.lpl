@@ -1,0 +1,276 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+  "default_core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "scan_content_dir": "/Users/joon/Games/Emulation/Sega CD",
+  "scan_file_exts": "m3u",
+  "scan_dat_file_path": "",
+  "scan_search_recursively": false,
+  "scan_search_archives": false,
+  "scan_filter_dat_content": false,
+  "scan_overwrite_playlist": false,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Adventures of Batman and Robin, The (USA)/Adventures of Batman and Robin, The (USA).cue",
+      "label": "Adventures of Batman and Robin, The (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Android Assault - The Revenge of Bari-Arm (USA)/Android Assault - The Revenge of Bari-Arm (USA).cue",
+      "label": "Android Assault - The Revenge of Bari-Arm (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Batman Returns (USA)/Batman Returns (USA).cue",
+      "label": "Batman Returns (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Dark Wizard (USA)/Dark Wizard (USA).cue",
+      "label": "Dark Wizard (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Dune (USA)/Dune (USA).cue",
+      "label": "Dune (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Dungeon Explorer (USA)/Dungeon Explorer (USA).cue",
+      "label": "Dungeon Explorer (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Earthworm Jim - Special Edition (USA)/Earthworm Jim - Special Edition (USA).cue",
+      "label": "Earthworm Jim - Special Edition (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Ecco - The Tides of Time (USA)/Ecco - The Tides of Time (USA).cue",
+      "label": "Ecco - The Tides of Time (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Ecco the Dolphin (USA)/Ecco the Dolphin (USA).cue",
+      "label": "Ecco the Dolphin (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Eternal Champions - Challenge from the Dark Side (USA)/Eternal Champions - Challenge from the Dark Side (USA).cue",
+      "label": "Eternal Champions - Challenge from the Dark Side (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Eye of the Beholder (USA)/Eye of the Beholder (USA).cue",
+      "label": "Eye of the Beholder (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Final Fight CD (USA)/Final Fight CD (USA).cue",
+      "label": "Final Fight CD (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Flashback - The Quest for Identity (USA)/Flashback - The Quest for Identity (USA).cue",
+      "label": "Flashback - The Quest for Identity (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Flink (USA)/Flink (USA).cue",
+      "label": "Flink (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Heart of the Alien - Out of This World Parts I and II (USA)/Heart of the Alien - Out of This World Parts I and II (USA).cue",
+      "label": "Heart of the Alien - Out of This World Parts I and II (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Keio Flying Squadron (USA)/Keio Flying Squadron (USA).cue",
+      "label": "Keio Flying Squadron (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Lords of Thunder (USA)/Lords of Thunder (USA).cue",
+      "label": "Lords of Thunder (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Lunar - Eternal Blue (USA)/Lunar - Eternal Blue (USA).cue",
+      "label": "Lunar - Eternal Blue (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Lunar - The Silver Star (USA)/Lunar - The Silver Star (USA).cue",
+      "label": "Lunar - The Silver Star (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Mickey Mania - The Timeless Adventures of Mickey Mouse (USA)/Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).cue",
+      "label": "Mickey Mania - The Timeless Adventures of Mickey Mouse (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/NHL '94 (USA)/NHL '94 (USA).cue",
+      "label": "NHL '94 (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Night Trap (USA).m3u",
+      "label": "Night Trap (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Popful Mail (USA) (RE)/Popful Mail (USA) (RE).cue",
+      "label": "Popful Mail (USA) (RE)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Robo Aleste (USA)/Robo Aleste (USA).cue",
+      "label": "Robo Aleste (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Sewer Shark (USA) (Rev 1)/Sewer Shark (USA) (Rev 1).cue",
+      "label": "Sewer Shark (USA) (Rev 1)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Shining Force CD (USA)/Shining Force CD (USA).cue",
+      "label": "Shining Force CD (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Silpheed (USA)/Silpheed (USA).cue",
+      "label": "Silpheed (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Snatcher (USA)/Snatcher (USA).cue",
+      "label": "Snatcher (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Sol-Feace (USA)/Sol-Feace (USA).cue",
+      "label": "Sol-Feace (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Sonic CD (USA)/Sonic CD (USA).cue",
+      "label": "Sonic CD (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Sonic MegaMix (USA) (Unl)/Sonic MegaMix (USA) (Unl).cue",
+      "label": "Sonic MegaMix (USA) (Unl)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega CD/Soulstar (USA)/Soulstar (USA).cue",
+      "label": "Soulstar (USA)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    }
+  ]
+}
