@@ -10,6 +10,30 @@
   "sort_mode": 0,
   "items": [
     {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Risky Woods (USA, Europe).zip#Risky Woods (USA, Europe).md",
+      "label": "Risky Woods (USA, Europe)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "D975E93C|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Dahna - Megami Tanjou (Japan).zip#Dahna - Megami Tanjou (Japan).md",
+      "label": "Dahna - Megami Tanjou (Japan)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "4602584F|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Darwin 4081 (Japan, Korea).zip#Darwin 4081 (Japan, Korea).md",
+      "label": "Darwin 4081 (Japan, Korea) (En)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "7A33B0CB|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Advanced Busterhawk Gleylancer (Japan).zip#Advanced Busterhawk Gleylancer (Japan).md",
       "label": "Advanced Busterhawk Gley Lancer (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",

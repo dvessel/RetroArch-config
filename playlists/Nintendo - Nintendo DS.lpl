@@ -220,8 +220,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/New Super Mario Bros. (USA, Australia).zip#New Super Mario Bros. (USA, Australia).nds",
       "label": "New Super Mario Bros. (USA, Australia)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "0197576A|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },

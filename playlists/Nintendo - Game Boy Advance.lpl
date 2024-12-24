@@ -10,6 +10,14 @@
   "sort_mode": 0,
   "items": [
     {
+      "path": "/Users/joon/Games/Emulation/Game Boy Advance/Iron Kid (Korea).zip#Iron Kid (Korea).gba",
+      "label": "Iron Kid (Korea)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "326E7A8E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Game Boy Advance/Advance Wars (USA).zip#Advance Wars (USA).gba",
       "label": "Advance Wars (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
