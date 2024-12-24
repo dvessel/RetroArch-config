@@ -16,9 +16,9 @@ Guidelines
 
 ### Layout
 
- * The icons should be set to a 256x256 canvas and should be centered on a 64x64 grid. 
+ * The icons should be set to a 256x256 canvas and should be centered on a 64x64 grid.
  * The icon must have an 8px margin, effectively reducing the icon size to 240x240.
- 
+
 ### Style
 
  * Icons design elements use an outline that is 4px thick.
@@ -42,8 +42,12 @@ This theme follows the naming syntax demonstrated by the Monochromatic theme.  I
 Colophon
 ----------
 
+### Modifications
+ * The 4 pixel outlines have been removed. See the README.md in source folder.
+
 ### Theme Font
- * This theme uses the [Titilium Web Regular](https://fonts.google.com/specimen/Titillium+Web) typeface by the [Accademia di Belle Arti di Urbino](http://www.accademiadiurbino.it/) covered under the [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web).
+ * ~~this theme uses the [Titilium Web Regular](https://fonts.google.com/specimen/Titillium+Web) typeface by the [Accademia di Belle Arti di Urbino](http://www.accademiadiurbino.it/) covered under the [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web).~~
+ * Font replaced with [Lilex Medium](https://github.com/mishamyrt/Lilex) modified with [NerdFont glyphs](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#font-patcher).
 
 ### Support
  * If you have questions or concerns about this theme, please visit the [Libretro Forum Thread] (https://forums.libretro.com/t/neoactive-retroactive-and-systematic-theme-support-and-feedback/9501/) or the [GitHub tetrarch-assets issues page] (https://github.com/libretro/retroarch-assets/issues).
