@@ -1,7 +1,0 @@
-#reference "shaders_slang/hdr/crt-sony-megatron-sony-pvm-2730-hdr-NTSC.slangp"
-hcrt_max_nits = "1600.000000"
-hcrt_paper_white_nits = "400.000000"
-hcrt_colour_system = "2.000000"
-hcrt_phosphor_set = "5.000000"
-hcrt_brightness = "0.100000"
-hcrt_gamma_in = "2.400000"
