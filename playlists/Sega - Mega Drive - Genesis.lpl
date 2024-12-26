@@ -10,30 +10,6 @@
   "sort_mode": 0,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Risky Woods (USA, Europe).zip#Risky Woods (USA, Europe).md",
-      "label": "Risky Woods (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "D975E93C|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Dahna - Megami Tanjou (Japan).zip#Dahna - Megami Tanjou (Japan).md",
-      "label": "Dahna - Megami Tanjou (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "4602584F|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Darwin 4081 (Japan, Korea).zip#Darwin 4081 (Japan, Korea).md",
-      "label": "Darwin 4081 (Japan, Korea) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
-      "crc32": "7A33B0CB|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Advanced Busterhawk Gleylancer (Japan).zip#Advanced Busterhawk Gleylancer (Japan).md",
       "label": "Advanced Busterhawk Gley Lancer (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -52,8 +28,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/After Burner II (USA, Europe).zip#After Burner II (USA, Europe).md",
       "label": "After Burner II (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "CCAFE00E|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -76,16 +52,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Alex Kidd in the Enchanted Castle (USA).zip#Alex Kidd in the Enchanted Castle (USA).md",
       "label": "Alex Kidd in the Enchanted Castle (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "47DBA0AC|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Alien 3 (USA, Europe).zip#Alien 3 (USA, Europe).md",
       "label": "Alien 3 (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "A3B00D6E|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -100,8 +76,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Alien Storm (World).zip#Alien Storm (World).md",
       "label": "Alien Storm (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F5AC8DE5|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -116,24 +92,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Altered Beast (USA, Europe).zip#Altered Beast (USA, Europe).md",
       "label": "Altered Beast (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "154D59BB|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Arch Rivals - The Arcade Game (USA, Europe).zip#Arch Rivals - The Arcade Game (USA, Europe).md",
       "label": "Arch Rivals - The Arcade Game (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E389D7E7|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Arrow Flash (USA).zip#Arrow Flash (USA).md",
       "label": "Arrow Flash (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "4D89E66B|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -148,24 +124,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Battletoads (World).zip#Battletoads (World).md",
       "label": "Battletoads (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D10E103A|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Beavis and Butt-Head (USA).zip#Beavis and Butt-Head (USA).md",
       "label": "Beavis and Butt-Head (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F5D7B948|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Beyond Oasis (USA).zip#Beyond Oasis (USA).md",
       "label": "Beyond Oasis (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C4728225|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -180,16 +156,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Blades of Vengeance (USA, Europe).zip#Blades of Vengeance (USA, Europe).md",
       "label": "Blades of Vengeance (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "74C65A49|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Blaster Master 2 (USA).zip#Blaster Master 2 (USA).md",
       "label": "Blaster Master 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C11E4BA1|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -204,16 +180,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Cadash (USA, Korea).zip#Cadash (USA, Korea).md",
       "label": "Cadash (USA, Korea) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "13BDF374|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Captain America and the Avengers (USA).zip#Captain America and the Avengers (USA).md",
       "label": "Captain America and the Avengers (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E0639CA2|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -236,24 +212,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Chiki Chiki Boys (USA, Europe).zip#Chiki Chiki Boys (USA, Europe).md",
       "label": "Chiki Chiki Boys (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "813A7D62|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Columns (World).zip#Columns (World).md",
       "label": "Columns (Japan) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "03163D7A|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Columns III (USA).zip#Columns III (USA).md",
       "label": "Columns III (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "DC678F6D|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -276,33 +252,49 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Crayon Shin-chan - Arashi o Yobu Enji (Japan).zip#Crayon Shin-chan - Arashi o Yobu Enji (Japan).md",
       "label": "Crayon Shin-chan - Arashi o Yobu Enji (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "97FC42D2|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Crusader of Centy (USA).zip#Crusader of Centy (USA).md",
       "label": "Crusader of Centy (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "41858F6F|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Cyberball (World).zip#Cyberball (World).md",
       "label": "Cyberball (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "76120E96|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Dahna - Megami Tanjou (Japan).zip#Dahna - Megami Tanjou (Japan).md",
+      "label": "Dahna - Megami Tanjou (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4602584F|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Darius II (Japan).zip#Darius II (Japan).md",
       "label": "Darius II (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "25DFE62A|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Darwin 4081 (Japan, Korea).zip#Darwin 4081 (Japan, Korea).md",
+      "label": "Darwin 4081 (Japan, Korea) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7A33B0CB|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
@@ -316,48 +308,48 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Desert Strike - Return to the Gulf (USA, Europe).zip#Desert Strike - Return to the Gulf (USA, Europe).md",
       "label": "Desert Strike - Return to the Gulf (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "67A9860B|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/DJ Boy (USA).zip#DJ Boy (USA).md",
       "label": "DJ Boy (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "DC9F02DB|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Double Dragon (USA, Europe) (Unl).zip#Double Dragon (USA, Europe) (Unl).md",
       "label": "Double Dragon (USA, Europe) (Unl)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "054F5D53|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Double Dragon 3 - The Arcade Game (USA, Europe).zip#Double Dragon 3 - The Arcade Game (USA, Europe).md",
       "label": "Double Dragon 3 - The Arcade Game (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "B36AB75C|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Double Dribble - The Playoff Edition (USA).zip#Double Dribble - The Playoff Edition (USA).md",
       "label": "Double Dribble - The Playoff Edition (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "8352B1D0|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Dynamite Duke (World).zip#Dynamite Duke (World).md",
       "label": "Dynamite Duke (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "39D01C8C|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -380,8 +372,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Earthworm Jim 2 (USA).zip#Earthworm Jim 2 (USA).md",
       "label": "Earthworm Jim 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D57F8BA7|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -396,16 +388,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Ecco Jr. (USA, Australia) (March 1995).zip#Ecco Jr. (USA, Australia) (March 1995).md",
       "label": "Ecco Jr. (USA, Australia) (Beta)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "3C517975|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Ecco the Dolphin (USA, Europe).zip#Ecco the Dolphin (USA, Europe).md",
       "label": "Ecco the Dolphin (USA, Europe, Korea) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "45547390|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -428,40 +420,40 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Eliminate Down (Japan).zip#Eliminate Down (Japan).md",
       "label": "Eliminate Down (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "48467542|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/ESWAT - City Under Siege (USA, Europe).zip#ESWAT - City Under Siege (USA, Europe).md",
       "label": "ESWAT - City under Siege (USA, Europe) (Rev A)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E72F8A36|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Eternal Champions (USA).zip#Eternal Champions (USA).md",
       "label": "Eternal Champions (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "48F1A42E|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Ex-Mutants (USA, Europe).zip#Ex-Mutants (USA, Europe).md",
       "label": "Ex-Mutants (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "33B1979F|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Fantasia (World).zip#Fantasia (World).md",
       "label": "Fantasia (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D351B242|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -476,8 +468,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Forgotten Worlds (World).zip#Forgotten Worlds (World).md",
       "label": "Forgotten Worlds (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D0EE6434|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -492,40 +484,40 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Galaxy Force II (World).zip#Galaxy Force II (World).md",
       "label": "Galaxy Force II (Japan) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "CAE883C5|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Garfield - Caught in the Act (USA, Europe).zip#Garfield - Caught in the Act (USA, Europe).md",
       "label": "Garfield - Caught in the Act (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F0FF078E|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Gargoyles (USA).zip#Gargoyles (USA).md",
       "label": "Gargoyles (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "2D965364|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Gauntlet IV (USA, Europe) (En,Ja) (September 1993).zip#Gauntlet IV (USA, Europe) (En,Ja) (September 1993).md",
       "label": "Gauntlet IV (USA, Europe) (Beta)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F9D60510|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/General Chaos (USA, Europe).zip#General Chaos (USA, Europe).md",
       "label": "General Chaos (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F1ECC4DF|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -540,8 +532,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Ghouls'n Ghosts (USA, Europe).zip#Ghouls'n Ghosts (USA, Europe).md",
       "label": "Ghouls'n Ghosts (Japan, USA) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D31BD910|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -556,32 +548,32 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Golden Axe II (World).zip#Golden Axe II (World).md",
       "label": "Golden Axe II (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "725E0A18|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Golden Axe III (Japan).zip#Golden Axe III (Japan).md",
       "label": "Golden Axe III (Japan) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C7862EA3|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Gunstar Heroes (USA).zip#Gunstar Heroes (USA).md",
       "label": "Gunstar Heroes (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "B813CF0D|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Haunting Starring Polterguy (USA, Europe).zip#Haunting Starring Polterguy (USA, Europe).md",
       "label": "Haunting Starring Polterguy (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C9FC876D|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -604,64 +596,64 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/High Seas Havoc (USA).zip#High Seas Havoc (USA).md",
       "label": "High Seas Havoc (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "17BE551C|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Hokuto no Ken - Shin Seikimatsu Kyuuseishu Densetsu (Japan).zip#Hokuto no Ken - Shin Seikimatsu Kyuuseishu Densetsu (Japan).md",
       "label": "Hokuto no Ken - Shin Seikimatsu Kyuuseishu Densetsu (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "1B6585E7|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/James 'Buster' Douglas Knockout Boxing (USA, Europe).zip#James 'Buster' Douglas Knockout Boxing (USA, Europe).md",
       "label": "James 'Buster' Douglas Knockout Boxing (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "87BBCF2A|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Strider Returns - Journey from Darkness (USA).zip#Strider Returns - Journey from Darkness (USA).md",
       "label": "Journey from Darkness - Strider Returns (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "42589B79|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Jungle Book, The (USA).zip#Jungle Book, The (USA).md",
       "label": "Jungle Book, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "3FB6D92E|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Jurassic Park - Rampage Edition (USA, Europe).zip#Jurassic Park - Rampage Edition (USA, Europe).md",
       "label": "Jurassic Park - Rampage Edition (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "98B4AA1B|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Klax (USA, Europe).zip#Klax (USA, Europe).md",
       "label": "Klax (USA, Europe) (Tengen)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "248CD09E|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Light Crusader (USA).zip#Light Crusader (USA).md",
       "label": "Light Crusader (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "BEB715DC|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -676,8 +668,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Lion King, The (World).zip#Lion King, The (World).md",
       "label": "Lion King, The (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "5696A5BC|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -692,40 +684,40 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mazin Saga - Mutant Fighter (USA).zip#Mazin Saga - Mutant Fighter (USA).md",
       "label": "Mazin Saga - Mutant Fighter (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "1BD9FEF1|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mega Bomberman (USA).zip#Mega Bomberman (USA).md",
       "label": "Mega Bomberman (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "4BD6667D|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mega Man - The Wily Wars (Europe).zip#Mega Man - The Wily Wars (Europe).md",
       "label": "Mega Man - The Wily Wars (Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "DCF6E8B2|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mega Turrican (USA).zip#Mega Turrican (USA).md",
       "label": "Mega Turrican (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "FE898CC9|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Michael Jackson's Moonwalker (World).zip#Michael Jackson's Moonwalker (World).md",
       "label": "Michael Jackson's Moonwalker (Japan, USA) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "6A70791B|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -740,32 +732,32 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Midnight Resistance (USA).zip#Midnight Resistance (USA).md",
       "label": "Midnight Resistance (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "187C6AF6|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mortal Kombat (World).zip#Mortal Kombat (World).md",
       "label": "Mortal Kombat (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "1AA3A207|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mortal Kombat 3 (USA).zip#Mortal Kombat 3 (USA).md",
       "label": "Mortal Kombat 3 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "DD638AF6|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mortal Kombat II (World).zip#Mortal Kombat II (World).md",
       "label": "Mortal Kombat II (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "A9E013D8|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -780,40 +772,40 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mutant League Football (USA, Europe).zip#Mutant League Football (USA, Europe).md",
       "label": "Mutant League Football (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "DCE29C9D|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mutant League Hockey (USA, Europe).zip#Mutant League Hockey (USA, Europe).md",
       "label": "Mutant League Hockey (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "3529180F|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mystic Defender (USA, Europe).zip#Mystic Defender (USA, Europe).md",
       "label": "Mystic Defender (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F9CE1AB8|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mystical Fighter (USA).zip#Mystical Fighter (USA).md",
       "label": "Mystical Fighter (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "B2F2A69B|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/NBA Jam - Tournament Edition (World).zip#NBA Jam - Tournament Edition (World).md",
       "label": "NBA Jam - Tournament Edition (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E9FFCB37|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -828,24 +820,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/NHL 95 (USA, Europe).zip#NHL 95 (USA, Europe).md",
       "label": "NHL 95 (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E8EE917E|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/NHL 96 (USA, Europe).zip#NHL 96 (USA, Europe).md",
       "label": "NHL 96 (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "8135702C|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/NHL 97 (USA, Europe).zip#NHL 97 (USA, Europe).md",
       "label": "NHL 97 (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F067C103|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -860,32 +852,32 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Ninja Gaiden (Japan) (Proto) [b].zip#Ninja Gaiden (Japan) (Proto) [b].md",
       "label": "Ninja Gaiden (Japan) (En) (Proto)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "0D7F74BA|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Normy's Beach Babe-O-Rama (USA, Europe).zip#Normy's Beach Babe-O-Rama (USA, Europe).md",
       "label": "Normy's Beach Babe-O-Rama (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "B56A8220|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Out of this World (USA).zip#Out of this World (USA).md",
       "label": "Out of This World (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "2DA36E01|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Outlander (USA).zip#Outlander (USA).md",
       "label": "Outlander (USA) (Beta)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C5BA7BBF|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -900,8 +892,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/OutRunners (USA).zip#OutRunners (USA).md",
       "label": "OutRunners (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "EDE636B9|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -932,8 +924,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Phelios (USA).zip#Phelios (USA).md",
       "label": "Phelios (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "11C79320|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -948,80 +940,80 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Pirates! Gold (USA).zip#Pirates! Gold (USA).md",
       "label": "Pirates! Gold (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "ED50E75C|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Pocahontas (USA).zip#Pocahontas (USA).md",
       "label": "Pocahontas (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "6DDD1C6D|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Prince of Persia (USA).zip#Prince of Persia (USA).md",
       "label": "Prince of Persia (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "13C181A4|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Puggsy (USA).zip#Puggsy (USA).md",
       "label": "Puggsy (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "70132168|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Pulseman (Japan).zip#Pulseman (Japan).md",
       "label": "Pulseman (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "138A104E|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/QuackShot Starring Donald Duck ~ QuackShot - I Love Donald Duck - Guruzia Ou no Hihou (World).zip#QuackShot Starring Donald Duck ~ QuackShot - I Love Donald Duck - Guruzia Ou no Hihou (World).md",
       "label": "QuackShot Starring Donald Duck (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "88C8DD94|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Raiden Densetsu ~ Raiden Trad (Japan, USA).zip#Raiden Densetsu ~ Raiden Trad (Japan, USA).md",
       "label": "Raiden Trad (Japan, USA) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F839A811|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Ranger X (USA).zip#Ranger X (USA).md",
       "label": "Ranger X (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "55915915|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Red Zone (USA, Europe).zip#Red Zone (USA, Europe).md",
       "label": "Red Zone (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "56512EE5|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Ren & Stimpy Show Presents, The - Stimpy's Invention (USA).zip#Ren & Stimpy Show Presents, The - Stimpy's Invention (USA).md",
       "label": "Ren & Stimpy Show Presents, The - Stimpy's Invention (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D9503BA5|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1034,18 +1026,26 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Risky Woods (USA, Europe).zip#Risky Woods (USA, Europe).md",
+      "label": "Risky Woods (USA, Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D975E93C|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Ristar (USA, Europe) (September 1994).zip#Ristar (USA, Europe) (September 1994).md",
       "label": "Ristar (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "6511AA61|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Road Rash (USA, Europe).zip#Road Rash (USA, Europe).md",
       "label": "Road Rash (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "DEA53D19|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1060,16 +1060,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Road Rash II (USA, Europe).zip#Road Rash II (USA, Europe).md",
       "label": "Road Rash II (USA, Europe) (RR205)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "7B29C209|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/RoadBlasters (USA).zip#RoadBlasters (USA).md",
       "label": "RoadBlasters (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "EC6CD5F0|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1084,72 +1084,72 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Rolling Thunder 2 (USA).zip#Rolling Thunder 2 (USA).md",
       "label": "Rolling Thunder 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "3ACE429B|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Rolling Thunder 3 (USA).zip#Rolling Thunder 3 (USA).md",
       "label": "Rolling Thunder 3 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "64FB13AA|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Sagaia (USA).zip#Sagaia (USA).md",
       "label": "Sagaia (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F1E22F43|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Shadow Dancer - The Secret of Shinobi (World).zip#Shadow Dancer - The Secret of Shinobi (World).md",
       "label": "Shadow Dancer - The Secret of Shinobi (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "EBE9AD10|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Shadow of the Beast (USA, Europe).zip#Shadow of the Beast (USA, Europe).md",
       "label": "Shadow of the Beast (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "BD385C27|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Shadowrun (USA).zip#Shadowrun (USA).md",
       "label": "Shadowrun (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "FBB92909|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Shining Force (USA).zip#Shining Force (USA).md",
       "label": "Shining Force (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E82ACDFC|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Shining Force II (USA).zip#Shining Force II (USA).md",
       "label": "Shining Force II (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "4815E075|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Shining in the Darkness (USA, Europe).zip#Shining in the Darkness (USA, Europe).md",
       "label": "Shining in the Darkness (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "4D2785BC|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1164,16 +1164,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Shove It! ...The Warehouse Game (USA).zip#Shove It! ...The Warehouse Game (USA).md",
       "label": "Shove It! ...The Warehouse Game (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C51F40CB|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Skeleton Krew (USA).zip#Skeleton Krew (USA).md",
       "label": "Skeleton Krew (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C2E05ACB|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1188,16 +1188,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Sonic & Knuckles (World).zip#Sonic & Knuckles (World).md",
       "label": "Sonic & Knuckles",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "0658F691|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Sonic 3D Blast ~ Sonic 3D Flickies' Island (USA, Europe).zip#Sonic 3D Blast ~ Sonic 3D Flickies' Island (USA, Europe).md",
       "label": "Sonic 3D Blast (USA, Europe, Korea) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "44A2CA44|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1228,8 +1228,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Space Harrier II (World).zip#Space Harrier II (World).md",
       "label": "Space Harrier II (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E5C9CBB0|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1244,16 +1244,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Splatterhouse 2 (USA).zip#Splatterhouse 2 (USA).md",
       "label": "Splatterhouse 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "2D1766E9|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Splatterhouse 3 (USA).zip#Splatterhouse 3 (USA).md",
       "label": "Splatterhouse 3 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "00F05D07|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1284,8 +1284,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Streets of Rage 2 (USA).zip#Streets of Rage 2 (USA).md",
       "label": "Streets of Rage 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E01FA526|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1316,24 +1316,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Super Hang-On (World) (En,Ja).zip#Super Hang-On (World) (En,Ja).md",
       "label": "Super Hang-On (Japan, USA) (En,Ja)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "CB2201A3|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Super Monaco GP (USA) (En,Ja).zip#Super Monaco GP (USA) (En,Ja).md",
       "label": "Super Monaco GP (USA) (En,Ja)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "725018EE|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Super Smash T.V. (USA, Europe).zip#Super Smash T.V. (USA, Europe).md",
       "label": "Super Smash T.V. (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F22412B6|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1348,16 +1348,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Sword of Sodan (USA, Europe).zip#Sword of Sodan (USA, Europe).md",
       "label": "Sword of Sodan (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "9CB8468F|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Sword of Vermilion (USA, Europe).zip#Sword of Vermilion (USA, Europe).md",
       "label": "Sword of Vermilion (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "EA1BC9AB|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1372,8 +1372,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Teenage Mutant Ninja Turtles - The Hyperstone Heist (USA).zip#Teenage Mutant Ninja Turtles - The Hyperstone Heist (USA).md",
       "label": "Teenage Mutant Ninja Turtles - The Hyperstone Heist (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "679C41DE|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1396,40 +1396,40 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/ToeJam & Earl (World).zip#ToeJam & Earl (World).md",
       "label": "ToeJam & Earl (USA, Europe, Korea) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D1B36786|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Trouble Shooter (USA).zip#Trouble Shooter (USA).md",
       "label": "Trouble Shooter (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "BECFC39B|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Tatsujin ~ Truxton (World).zip#Tatsujin ~ Truxton (World).md",
       "label": "Truxton (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "5BD0882D|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Twinkle Tale (Japan).zip#Twinkle Tale (Japan).md",
       "label": "Twinkle Tale (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D757F924|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Valis (USA).zip#Valis (USA).md",
       "label": "Valis (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "13BC5B72|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1444,16 +1444,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Vapor Trail (USA).zip#Vapor Trail (USA).md",
       "label": "Vapor Trail (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C49E3A0A|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Vectorman (USA, Europe).zip#Vectorman (USA, Europe).md",
       "label": "Vectorman (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D38B3354|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1484,24 +1484,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Wiz'n'Liz (USA).zip#Wiz'n'Liz (USA).md",
       "label": "Wiz 'N' Liz (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "DF036B62|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Wonder Boy III - Monster Lair (Japan, Europe).zip#Wonder Boy III - Monster Lair (Japan, Europe).md",
       "label": "Wonder Boy III - Monster Lair (Japan, Europe) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C24BC5E4|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Wonder Boy in Monster World (USA, Europe).zip#Wonder Boy in Monster World (USA, Europe).md",
       "label": "Wonder Boy in Monster World (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "0D901482|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1516,8 +1516,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/X-Men 2 - Clone Wars (USA, Europe).zip#X-Men 2 - Clone Wars (USA, Europe).md",
       "label": "X-Men 2 - Clone Wars (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "710BC628|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
@@ -1548,8 +1548,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Zombies Ate My Neighbors (USA).zip#Zombies Ate My Neighbors (USA).md",
       "label": "Zombies Ate My Neighbors (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "2BF3626F|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     }

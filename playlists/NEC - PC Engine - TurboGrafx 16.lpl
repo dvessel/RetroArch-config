@@ -188,8 +188,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Boxyboy (USA).zip#Boxyboy (USA).pce",
       "label": "Boxyboy (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "605BE213|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -204,8 +204,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Break In (Japan).zip#Break In (Japan).pce",
       "label": "Break In (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "C9D7426A|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -220,8 +220,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Chew Man Fu (USA).zip#Chew Man Fu (USA).pce",
       "label": "Chew-Man-Fu (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "8CD13E9A|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -236,40 +236,40 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Circus Lido (Japan).zip#Circus Lido (Japan).pce",
       "label": "Circus Lido (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "C3212C24|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/City Hunter (Japan).zip#City Hunter (Japan).pce",
       "label": "City Hunter (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "F91B055F|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Columns (Japan).zip#Columns (Japan).pce",
       "label": "Columns (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "99F7A572|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Coryoon - Child of Dragon (Japan).zip#Coryoon - Child of Dragon (Japan).pce",
       "label": "Coryoon - Child of Dragon (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "B4D29E3B|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Cratermaze (USA).zip#Cratermaze (USA).pce",
       "label": "Cratermaze (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "9033E83A|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -284,24 +284,24 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Daichi-kun Crisis - Do Natural (Japan).zip#Daichi-kun Crisis - Do Natural (Japan).pce",
       "label": "Daichi-kun Crisis - Do Natural (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "61A2935F|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Daisenpuu (Japan).zip#Daisenpuu (Japan).pce",
       "label": "Daisenpuu (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "9107BCC8|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Darius Alpha (Japan).zip#Darius Alpha (Japan).pce",
       "label": "Darius Alpha (Japan) (SG Enhanced)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "B0BA689F|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -324,8 +324,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Deep Blue (USA).zip#Deep Blue (USA).pce",
       "label": "Deep Blue (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "16B40B44|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -348,16 +348,16 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Don Doko Don! (Japan).zip#Don Doko Don! (Japan).pce",
       "label": "Don Doko Don! (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "F42AA73E|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Doraemon - Meikyuu Daisakusen (Japan).zip#Doraemon - Meikyuu Daisakusen (Japan).pce",
       "label": "Doraemon - Meikyuu Daisakusen (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "DC760A07|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -380,24 +380,24 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Dragon Egg! (Japan).zip#Dragon Egg! (Japan).pce",
       "label": "Dragon Egg! (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "442405D5|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Dragon Saber - After Story of Dragon Spirit (Japan).zip#Dragon Saber - After Story of Dragon Spirit (Japan).pce",
       "label": "Dragon Saber (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "3219849C|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Dragon Spirit (USA).zip#Dragon Spirit (USA).pce",
       "label": "Dragon Spirit (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "086F148C|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -444,16 +444,16 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Final Lap Twin (USA).zip#Final Lap Twin (USA).pce",
       "label": "Final Lap Twin (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "26408EA3|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Final Match Tennis (Japan).zip#Final Match Tennis (Japan).pce",
       "label": "Final Match Tennis (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "560D2305|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -476,16 +476,16 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Fire Pro Wrestling - Combination Tag (Japan).zip#Fire Pro Wrestling - Combination Tag (Japan).pce",
       "label": "Fire Pro Wrestling - Combination Tag (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "90ED6575|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Fire Pro Wrestling 2 - 2nd Bout (Japan).zip#Fire Pro Wrestling 2 - 2nd Bout (Japan).pce",
       "label": "Fire Pro Wrestling 2 - 2nd Bout (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "E88987BB|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -500,24 +500,24 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Fushigi no Yume no Alice (Japan).zip#Fushigi no Yume no Alice (Japan).pce",
       "label": "Fushigi no Yume no Alice (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "12C4E6FD|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Galaga '90 (USA).zip#Galaga '90 (USA).pce",
       "label": "Galaga '90 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "2909DEC6|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Gekisha Boy (Japan).zip#Gekisha Boy (Japan).pce",
       "label": "Gekisha Boy (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "E8702D51|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -532,8 +532,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Ghost Manor (USA).zip#Ghost Manor (USA).pce",
       "label": "Ghost Manor (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "2DB4C1FD|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -556,64 +556,64 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Gradius (Japan).zip#Gradius (Japan).pce",
       "label": "Gradius (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "0517DA65|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Gunhed - Hudson Gunhed Taikai (Japan).zip#Gunhed - Hudson Gunhed Taikai (Japan).pce",
       "label": "Gunhed - Special Version (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "57F183AE|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Hana Taaka Daka! (Japan).zip#Hana Taaka Daka! (Japan).pce",
       "label": "Hana Taaka Daka! (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "BA4D0DD4|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Hanii in the Sky (Japan).zip#Hanii in the Sky (Japan).pce",
       "label": "Hanii in the Sky (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "BF3E2CC7|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Hanii on the Road (Japan).zip#Hanii on the Road (Japan).pce",
       "label": "Hanii on the Road (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "9897FA86|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Heavy Unit (Japan).zip#Heavy Unit (Japan).pce",
       "label": "Heavy Unit (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "EB923DE5|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Image Fight (Japan).zip#Image Fight (Japan).pce",
       "label": "Image Fight (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "A80C565F|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/J.J. & Jeff (USA).zip#J.J. & Jeff (USA).pce",
       "label": "J.J. & Jeff (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "E01C5127|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -628,16 +628,16 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Jackie Chan's Action Kung Fu (USA).zip#Jackie Chan's Action Kung Fu (USA).pce",
       "label": "Jackie Chan's Action Kung Fu (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "9D2F6193|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Jinmu Denshou (Japan).zip#Jinmu Denshou (Japan).pce",
       "label": "Jinmu Denshou (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "C150637A|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -652,40 +652,40 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Kaizou Choujin Shubibinman (Japan).zip#Kaizou Choujin Shubibinman (Japan).pce",
       "label": "Kaizou Choujin Shubibinman (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "A9084D6E|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Kaizou Choujin Shubibinman 2 - Aratanaru Teki (Japan).zip#Kaizou Choujin Shubibinman 2 - Aratanaru Teki (Japan).pce",
       "label": "Kaizou Choujin Shubibinman 2 - Aratanaru Teki (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "109BA474|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Kato-chan Ken-chan (Japan).zip#Kato-chan Ken-chan (Japan).pce",
       "label": "Kato-chan Ken-chan (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "6069C5E7|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Keith Courage in Alpha Zones (USA).zip#Keith Courage in Alpha Zones (USA).pce",
       "label": "Keith Courage in Alpha Zones (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "474D7A72|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/KickBall (Japan).zip#KickBall (Japan).pce",
       "label": "KickBall (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "7E3C367B|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -700,40 +700,40 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/King of Casino (USA).zip#King of Casino (USA).pce",
       "label": "King of Casino (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "2F2E2240|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Klax (USA).zip#Klax (USA).pce",
       "label": "Klax (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "0F1B59B4|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Kyuukyoku Tiger (Japan).zip#Kyuukyoku Tiger (Japan).pce",
       "label": "Kyuukyoku Tiger (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "09509315|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Legend of Hero Tonma (USA).zip#Legend of Hero Tonma (USA).pce",
       "label": "Legend of Hero Tonma (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "3C131486|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Legendary Axe II, The (USA).zip#Legendary Axe II, The (USA).pce",
       "label": "Legendary Axe II (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "220EBF91|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -748,16 +748,16 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Maerchen Maze (Japan).zip#Maerchen Maze (Japan).pce",
       "label": "Maerchen Maze (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "A15A1F37|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Magical Chase (Japan).zip#Magical Chase (Japan).pce",
       "label": "Magical Chase (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "DD0EBF8C|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -772,64 +772,64 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Mashin Eiyuu Den Wataru (Japan).zip#Mashin Eiyuu Den Wataru (Japan).pce",
       "label": "Mashin Eiyuuden Wataru (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "2F8935AA|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Metal Stoker (Japan).zip#Metal Stoker (Japan).pce",
       "label": "Metal Stoker (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "25A02BEE|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Military Madness (USA).zip#Military Madness (USA).pce",
       "label": "Military Madness (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "93F316F7|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Mizubaku Adventure (Japan).zip#Mizubaku Adventure (Japan).pce",
       "label": "Mizubaku Daibouken (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "B2EF558D|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Moto Roader (USA).zip#Moto Roader (USA).pce",
       "label": "Moto Roader (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "E2B0D544|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Moto Roader II (Japan).zip#Moto Roader II (Japan).pce",
       "label": "Moto Roader II (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "0B7F6E5F|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Nekketsu Koukou Dodgeball-bu - PC Bangai Hen (Japan).zip#Nekketsu Koukou Dodgeball-bu - PC Bangai Hen (Japan).pce",
       "label": "Nekketsu Koukou Dodgeball-bu - PC Bangai Hen (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "65FDB863|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Nekketsu Koukou Dodgeball-bu - Soccer PC Hen (Japan).zip#Nekketsu Koukou Dodgeball-bu - Soccer PC Hen (Japan).pce",
       "label": "Nekketsu Koukou Dodgeball-bu - PC Soccer Hen (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "F2285C6D|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -852,120 +852,120 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/New Adventure Island (USA).zip#New Adventure Island (USA).pce",
       "label": "New Adventure Island (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "756A1802|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Night Creatures (USA).zip#Night Creatures (USA).pce",
       "label": "Night Creatures (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "C159761B|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Ninja Ryuuken Den (Japan) (En,Ja,Zh).zip#Ninja Ryuuken Den (Japan) (En,Ja,Zh).pce",
       "label": "Ninja Ryuukenden (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "67573BAC|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Ninja Spirit (USA).zip#Ninja Spirit (USA).pce",
       "label": "Ninja Spirit (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "DE8AF1C1|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Obocchama-kun (Japan).zip#Obocchama-kun (Japan).pce",
       "label": "Obocchama-kun (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "4D3B0BC9|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Ordyne (USA).zip#Ordyne (USA).pce",
       "label": "Ordyne (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "E7BF2A74|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Out Run (Japan).zip#Out Run (Japan).pce",
       "label": "Out Run (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "E203F223|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Override (Japan).zip#Override (Japan).pce",
       "label": "Override (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "B74EC562|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/P-47 - The Freedom Fighter (Japan).zip#P-47 - The Freedom Fighter (Japan).pce",
       "label": "P-47 - The Freedom Fighter (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "7632DB90|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Pac-Land (USA).zip#Pac-Land (USA).pce",
       "label": "Pac-Land (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "D6E30CCD|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Parasol Stars - The Story of Bubble Bobble III (USA).zip#Parasol Stars - The Story of Bubble Bobble III (USA).pce",
       "label": "Parasol Stars - The Story of Bubble Bobble III (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "E6458212|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Parodius Da! - Shinwa kara Owarai e (Japan).zip#Parodius Da! - Shinwa kara Owarai e (Japan).pce",
       "label": "Parodius Da! - Shinwa kara Owarai e (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "647718F9|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Populous (Japan).zip#Populous (Japan).pce",
       "label": "Populous (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "083C956A|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Power Drift (Japan).zip#Power Drift (Japan).pce",
       "label": "Power Drift (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "25E0F6E9|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Power Golf (USA).zip#Power Golf (USA).pce",
       "label": "Power Golf (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "ED1D3843|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -980,8 +980,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Puzzle Boy (Japan).zip#Puzzle Boy (Japan).pce",
       "label": "Puzzle Boy (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "FAA6E187|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1004,64 +1004,64 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Raiden (USA).zip#Raiden (USA).pce",
       "label": "Raiden (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "BC59C31E|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Salamander (Japan).zip#Salamander (Japan).pce",
       "label": "Salamander (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "FAECCE20|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Samurai-Ghost (USA).zip#Samurai-Ghost (USA).pce",
       "label": "Samurai-Ghost (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "77A924B7|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Shinobi (Japan).zip#Shinobi (Japan).pce",
       "label": "Shinobi (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "BC655CF3|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Shockman (USA).zip#Shockman (USA).pce",
       "label": "Shockman (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "2774462C|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/SideArms - Hyper Dyne (USA).zip#SideArms - Hyper Dyne (USA).pce",
       "label": "SideArms (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "D1993C9F|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Silent Debuggers (USA).zip#Silent Debuggers (USA).pce",
       "label": "Silent Debuggers (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "FA7E5D66|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Sinistron (USA).zip#Sinistron (USA).pce",
       "label": "Sinistron (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "4F6E2DBD|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1076,16 +1076,16 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Soldier Blade - Special Version (Japan).zip#Soldier Blade - Special Version (Japan).pce",
       "label": "Soldier Blade - Special Version (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "F39F38ED|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Somer Assault (USA).zip#Somer Assault (USA).pce",
       "label": "Somer Assault (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "8FCAF2E9|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1148,24 +1148,24 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Super Volleyball (USA).zip#Super Volleyball (USA).pce",
       "label": "Super Volleyball (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "245040B3|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Takin' It to the Hoop (USA).zip#Takin' It to the Hoop (USA).pce",
       "label": "Takin' It to the Hoop (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "E9D51797|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/TaleSpin (USA).zip#TaleSpin (USA).pce",
       "label": "TaleSpin (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "BAE9CECC|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1188,8 +1188,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Terra Cresta II - Mandoraa no Gyakushuu (Japan).zip#Terra Cresta II - Mandoraa no Gyakushuu (Japan).pce",
       "label": "Terra Cresta II - Mandoler no Gyakushuu (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "1B2D0077|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1212,16 +1212,16 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Time Cruise (USA).zip#Time Cruise (USA).pce",
       "label": "Time Cruise (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "02C39660|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Timeball (USA).zip#Timeball (USA).pce",
       "label": "Timeball (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "5D395019|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1236,8 +1236,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Toy Shop Boys (Japan).zip#Toy Shop Boys (Japan).pce",
       "label": "Toy Shop Boys (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "97C5EE9A|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1252,8 +1252,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Tsuppari Oozumou - Heisei Ban (Japan).zip#Tsuppari Oozumou - Heisei Ban (Japan).pce",
       "label": "Tsuppari Oozumou - Heisei Ban (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "61A6E210|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1268,8 +1268,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Valkyrie no Densetsu (Japan).zip#Valkyrie no Densetsu (Japan).pce",
       "label": "Valkyrie no Densetsu (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "A3303978|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1284,8 +1284,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Victory Run (USA).zip#Victory Run (USA).pce",
       "label": "Victory Run (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "85CBD045|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
@@ -1300,32 +1300,32 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Volfied (Japan).zip#Volfied (Japan).pce",
       "label": "Volfied (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "AD226F30|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/W-Ring - The Double Rings (Japan).zip#W-Ring - The Double Rings (Japan).pce",
       "label": "W-Ring - The Double Rings (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "BE990010|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Wonder Momo (Japan).zip#Wonder Momo (Japan).pce",
       "label": "Wonder Momo (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "59D07314|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Xevious - Fardraut Saga (Japan).zip#Xevious - Fardraut Saga (Japan).pce",
       "label": "Xevious - Fardraut Saga (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "F8F85EEC|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },

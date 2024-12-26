@@ -20,208 +20,208 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/ActRaiser 2 (USA).zip#ActRaiser 2 (USA).sfc",
       "label": "ActRaiser 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "4901F718|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Aero Fighters (USA).zip#Aero Fighters (USA).sfc",
       "label": "Aero Fighters (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "F194D00A|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Aerobiz (USA).zip#Aerobiz (USA).sfc",
       "label": "Aerobiz (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "54302A46|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Aladdin (USA).zip#Aladdin (USA).sfc",
       "label": "Aladdin (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "124D8E4D|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Alien 3 (USA).zip#Alien 3 (USA).sfc",
       "label": "Alien 3 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "98E2AC15|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ardy Lightfoot (USA).zip#Ardy Lightfoot (USA).sfc",
       "label": "Ardy Lightfoot (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "51A5F489|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Asterix & Obelix (Europe) (En,Fr,De,Es).zip#Asterix & Obelix (Europe) (En,Fr,De,Es).sfc",
       "label": "Asterix & Obelix (Europe) (En,Fr,De,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "83AF6152|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Axelay (USA).zip#Axelay (USA).sfc",
       "label": "Axelay (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "F812B533|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Bahamut Lagoon (Japan).zip#Bahamut Lagoon (Japan).sfc",
       "label": "Bahamut Lagoon (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1B83C440|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Batman Returns (USA).zip#Batman Returns (USA).sfc",
       "label": "Batman Returns (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "E87DFDF6|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Battletoads in Battlemaniacs (USA).zip#Battletoads in Battlemaniacs (USA).sfc",
       "label": "Battletoads in Battlemaniacs (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "617AC925|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/BioMetal (USA).zip#BioMetal (USA).sfc",
       "label": "BioMetal (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "53D8410E|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Bishoujo Senshi Sailor Moon S - Jougai Rantou! Shuyaku Soudatsusen (Japan).zip#Bishoujo Senshi Sailor Moon S - Jougai Rantou! Shuyaku Soudatsusen (Japan).sfc",
       "label": "Bishoujo Senshi Sailor Moon S - Jougai Rantou! Shuyaku Soudatsusen (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "B0FD1854|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Blackthorne (USA).zip#Blackthorne (USA).sfc",
       "label": "Blackthorne (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "856BEAB1|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Boxing Legends of the Ring (USA).zip#Boxing Legends of the Ring (USA).sfc",
       "label": "Boxing Legends of the Ring (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C0B632C0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Brawl Brothers (USA).zip#Brawl Brothers (USA).sfc",
       "label": "Brawl Brothers (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "E822065C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Captain America and the Avengers (USA).zip#Captain America and the Avengers (USA).sfc",
       "label": "Captain America and the Avengers (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "456AB5C8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Captain Commando (USA).zip#Captain Commando (USA).sfc",
       "label": "Captain Commando (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "81DB73C7|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Castlevania - Dracula X (USA).zip#Castlevania - Dracula X (USA).sfc",
       "label": "Castlevania - Dracula X (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "7C4887E1|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Choplifter III - Rescue-Survive (USA).zip#Choplifter III - Rescue-Survive (USA).sfc",
       "label": "Choplifter III - Rescue-Survive (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1D2EAE52|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Choujikuu Yousai Macross - Scrambled Valkyrie (Japan) (En).zip#Choujikuu Yousai Macross - Scrambled Valkyrie (Japan) (En).sfc",
       "label": "Choujikuu Yousai Macross - Scrambled Valkyrie (Japan) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "A5DB02E9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Chrono Trigger (USA).zip#Chrono Trigger (USA).sfc",
       "label": "Chrono Trigger (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "2D206BF7|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Clay Fighter - Tournament Edition (USA).zip#Clay Fighter - Tournament Edition (USA).sfc",
       "label": "Clay Fighter - Tournament Edition (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "B360F7AF|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Clay Fighter 2 - Judgment Clay (USA).zip#Clay Fighter 2 - Judgment Clay (USA).sfc",
       "label": "Clay Fighter 2 - Judgment Clay (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "20B5C364|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Clock Tower (Japan).zip#Clock Tower (Japan).sfc",
       "label": "Clock Tower (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CBCD0DAD|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Combatribes, The (USA).zip#Combatribes, The (USA).sfc",
       "label": "Combatribes, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "9304044A|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -236,144 +236,144 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Cybernator (USA).zip#Cybernator (USA).sfc",
       "label": "Cybernator (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "4DFA05B3|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/D-Force (USA).zip#D-Force (USA).sfc",
       "label": "D-Force (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "24230807|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Darius Twin (USA).zip#Darius Twin (USA).sfc",
       "label": "Darius Twin (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C5341764|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Demon's Crest (USA).zip#Demon's Crest (USA).sfc",
       "label": "Demon's Crest (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "E8236AD2|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dirt Trax FX (USA).zip#Dirt Trax FX (USA).sfc",
       "label": "Dirt Trax FX (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "61A86C7F|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Donkey Kong Country (USA).zip#Donkey Kong Country (USA).sfc",
       "label": "Donkey Kong Country (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C946DCA0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr).zip#Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr).sfc",
       "label": "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "006364DB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).zip#Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).sfc",
       "label": "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "448EEC19|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Doom (USA).zip#Doom (USA).sfc",
       "label": "Doom (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "09E85EA6|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Do-Re-Mi Fantasy - Milon no Dokidoki Daibouken (Japan).zip#Do-Re-Mi Fantasy - Milon no Dokidoki Daibouken (Japan).sfc",
       "label": "DoReMi Fantasy - Milon no Dokidoki Daibouken (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "9F2C2633|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dragon View (USA).zip#Dragon View (USA).sfc",
       "label": "Dragon View (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "AB893412|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Drakkhen (USA).zip#Drakkhen (USA).sfc",
       "label": "Drakkhen (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "7DAE5C2A|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/E.V.O. - Search for Eden (USA).zip#E.V.O. - Search for Eden (USA).sfc",
       "label": "E.V.O. - Search for Eden (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DD49911E|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Earth Defense Force (USA).zip#Earth Defense Force (USA).sfc",
       "label": "Earth Defense Force (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CA8FF946|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/EarthBound (USA).zip#EarthBound (USA).sfc",
       "label": "EarthBound (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DC9BB451|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Earthworm Jim (USA).zip#Earthworm Jim (USA).sfc",
       "label": "Earthworm Jim (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3A4A47EB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Earthworm Jim 2 (USA).zip#Earthworm Jim 2 (USA).sfc",
       "label": "Earthworm Jim 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "393DE197|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Equinox (USA).zip#Equinox (USA).sfc",
       "label": "Equinox (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "96A4D1C0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -404,168 +404,168 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Final Fantasy II (USA).zip#Final Fantasy II (USA).sfc",
       "label": "Final Fantasy II (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "65D0A825|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Final Fantasy III (USA).zip#Final Fantasy III (USA).sfc",
       "label": "Final Fantasy III (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "A27F1C7A|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Final Fight (USA).zip#Final Fight (USA).sfc",
       "label": "Final Fight (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "4CAB21DB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Final Fight 2 (USA).zip#Final Fight 2 (USA).sfc",
       "label": "Final Fight 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "8C37FF55|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Final Fight 3 (USA).zip#Final Fight 3 (USA).sfc",
       "label": "Final Fight 3 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "A916E708|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Final Fight Guy (USA).zip#Final Fight Guy (USA).sfc",
       "label": "Final Fight Guy (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "BC1AE3C2|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Firemen, The (Europe) (En,Fr,De).zip#Firemen, The (Europe) (En,Fr,De).sfc",
       "label": "Firemen, The (Europe) (En,Fr,De)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DEF665AF|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/FireStriker (USA).zip#FireStriker (USA).sfc",
       "label": "FireStriker (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "E500C7BA|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Flashback - The Quest for Identity (USA) (En,Fr,De).zip#Flashback - The Quest for Identity (USA) (En,Fr,De).sfc",
       "label": "Flashback - The Quest for Identity (USA) (En,Fr,De)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1E6ACEBA|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Front Mission (Japan).zip#Front Mission (Japan).sfc",
       "label": "Front Mission (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "FE27E061|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Front Mission Series - Gun Hazard.smc",
       "label": "Front Mission Series - Gun Hazard (Japan) [T-En by Aeon Genesis v1.01]",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5847D80F|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (Japan).zip#Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (Japan).sfc",
       "label": "Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CA4C0219|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ganbare Goemon 3 - Shishi Juurokubee no Karakuri Manjigatame (Japan).zip#Ganbare Goemon 3 - Shishi Juurokubee no Karakuri Manjigatame (Japan).sfc",
       "label": "Ganbare Goemon 3 - Shishi Juurokubee no Karakuri Manjigatame (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "7E5929E8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ganbare Goemon Kirakira Douchuu - Boku ga Dancer ni Natta Wake (Japan).zip#Ganbare Goemon Kirakira Douchuu - Boku ga Dancer ni Natta Wake (Japan).sfc",
       "label": "Ganbare Goemon Kirakira Douchuu - Boku ga Dancer ni Natta Wake (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "BB9D8E56|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Gokujou Parodius (Japan).zip#Gokujou Parodius (Japan).sfc",
       "label": "Gokujou Parodius (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "04EE98ED|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Goof Troop (USA).zip#Goof Troop (USA).sfc",
       "label": "Goof Troop (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "4AAFA462|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Gradius III (USA).zip#Gradius III (USA).sfc",
       "label": "Gradius III (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CD973979|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Great Battle IV, The (Japan).zip#Great Battle IV, The (Japan).sfc",
       "label": "Great Battle IV, The (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "FB165A32|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Great Battle V, The (Japan).zip#Great Battle V, The (Japan).sfc",
       "label": "Great Battle V, The (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "BF3C9314|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Great Circus Mystery Starring Mickey & Minnie, The (USA).zip#Great Circus Mystery Starring Mickey & Minnie, The (USA).sfc",
       "label": "Great Circus Mystery Starring Mickey & Minnie, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1903EA89|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/GunForce (USA).zip#GunForce (USA).sfc",
       "label": "GunForce (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "6F5C5DC0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -580,120 +580,120 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Harvest Moon (USA).zip#Harvest Moon (USA).sfc",
       "label": "Harvest Moon (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "F829129E|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Hook (USA).zip#Hook (USA).sfc",
       "label": "Hook (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "0C572EF0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/HyperZone (USA).zip#HyperZone (USA).sfc",
       "label": "HyperZone (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C95B4129|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Illusion of Gaia (USA).zip#Illusion of Gaia (USA).sfc",
       "label": "Illusion of Gaia (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1C3848C0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Jikkyou Oshaberi Parodius (Japan).zip#Jikkyou Oshaberi Parodius (Japan).sfc",
       "label": "Jikkyou Oshaberi Parodius (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "177937AB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Joe & Mac (USA).zip#Joe & Mac (USA).sfc",
       "label": "Joe & Mac (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3A2B6167|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Joe & Mac 2 - Lost in the Tropics (USA).zip#Joe & Mac 2 - Lost in the Tropics (USA).sfc",
       "label": "Joe & Mac 2 - Lost in the Tropics (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "0C3B4201|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Jungle Book, The (USA).zip#Jungle Book, The (USA).sfc",
       "label": "Jungle Book, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3511EFB3|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Kaite Tsukutte Asoberu Dezaemon (Japan).zip#Kaite Tsukutte Asoberu Dezaemon (Japan).sfc",
       "label": "Kaite Tsukutte Asoberu Dezaemon (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "052167CC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Kid Klown in Crazy Chase (USA).zip#Kid Klown in Crazy Chase (USA).sfc",
       "label": "Kid Klown in Crazy Chase (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "BD6C8AB1|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/King Arthur & The Knights of Justice (USA).zip#King Arthur & The Knights of Justice (USA).sfc",
       "label": "King Arthur & The Knights of Justice (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "615A183B|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/King of Dragons (USA).zip#King of Dragons (USA).sfc",
       "label": "King of Dragons (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DD505DF7|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Kirby Super Star (USA).zip#Kirby Super Star (USA).sfc",
       "label": "Kirby Super Star (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "89D0F7DC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Kirby's Avalanche (USA).zip#Kirby's Avalanche (USA).sfc",
       "label": "Kirby's Avalanche (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "21E658B8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Kirby's Dream Course (USA).zip#Kirby's Dream Course (USA).sfc",
       "label": "Kirby's Dream Course (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DF8153D9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -708,32 +708,32 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Knights of the Round (USA).zip#Knights of the Round (USA).sfc",
       "label": "Knights of the Round (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "AAA82126|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Krusty's Super Fun House (USA).zip#Krusty's Super Fun House (USA).sfc",
       "label": "Krusty's Super Fun House (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5FD03CAC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Kyle Petty's No Fear Racing (USA).zip#Kyle Petty's No Fear Racing (USA).sfc",
       "label": "Kyle Petty's No Fear Racing (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "AEE90A85|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Legend of the Mystical Ninja, The (USA).zip#Legend of the Mystical Ninja, The (USA).sfc",
       "label": "Legend of the Mystical Ninja, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "82479D6A|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -748,696 +748,696 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Lemmings (USA).zip#Lemmings (USA).sfc",
       "label": "Lemmings (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "7F8B51A1|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Lemmings 2 - The Tribes (USA).zip#Lemmings 2 - The Tribes (USA).sfc",
       "label": "Lemmings 2 - The Tribes (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DF7200C8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Lion King, The (USA).zip#Lion King, The (USA).sfc",
       "label": "Lion King, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C8FBFAA8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Lost Vikings 2 (USA).zip#Lost Vikings 2 (USA).sfc",
       "label": "Lost Vikings 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3AA01DBD|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Lost Vikings, The (USA).zip#Lost Vikings, The (USA).sfc",
       "label": "Lost Vikings, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "6838BE08|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Lucky Luke (Europe) (En,Fr,De,Es).zip#Lucky Luke (Europe) (En,Fr,De,Es).sfc",
       "label": "Lucky Luke (Europe) (En,Fr,De,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "7E2C7143|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Magic Sword (USA).zip#Magic Sword (USA).sfc",
       "label": "Magic Sword (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "27325E4D|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Magical Pop'n (Japan).zip#Magical Pop'n (Japan).sfc",
       "label": "Magical Pop'n (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C49D28A4|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Magical Quest Starring Mickey Mouse, The (USA).zip#Magical Quest Starring Mickey Mouse, The (USA).sfc",
       "label": "Magical Quest Starring Mickey Mouse, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "10874C70|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Majuu Ou (Japan).zip#Majuu Ou (Japan).sfc",
       "label": "Majuu Ou (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "4737370B|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mario Is Missing! (USA).zip#Mario Is Missing! (USA).sfc",
       "label": "Mario Is Missing! (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "E51A3FCD|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mario Paint (Japan, USA).zip#Mario Paint (Japan, USA).sfc",
       "label": "Mario Paint (Japan, USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "38C9626C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mario's Time Machine (USA).zip#Mario's Time Machine (USA).sfc",
       "label": "Mario's Time Machine (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5E7397E0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Marko's Magic Football (Europe) (En,Fr,De,Es).zip#Marko's Magic Football (Europe) (En,Fr,De,Es).sfc",
       "label": "Marko's Magic Football (Europe) (En,Fr,De,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "4824A630|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Maui Mallard in Cold Shadow (USA).zip#Maui Mallard in Cold Shadow (USA).sfc",
       "label": "Maui Mallard in Cold Shadow (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "2D3B9662|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mega Man 7 (USA).zip#Mega Man 7 (USA).sfc",
       "label": "Mega Man 7 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "2D947536|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mega Man X (USA).zip#Mega Man X (USA).sfc",
       "label": "Mega Man X (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1033EBA4|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mega Man X2 (USA).zip#Mega Man X2 (USA).sfc",
       "label": "Mega Man X2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "947B0355|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mega Man X3 (USA).zip#Mega Man X3 (USA).sfc",
       "label": "Mega Man X3 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "FA0FE671|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Metal Warriors (USA).zip#Metal Warriors (USA).sfc",
       "label": "Metal Warriors (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "F2AB92D4|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Michael Jordan - Chaos in the Windy City (USA).zip#Michael Jordan - Chaos in the Windy City (USA).sfc",
       "label": "Michael Jordan - Chaos in the Windy City (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "F57DBA3B|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).zip#Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).sfc",
       "label": "Mickey Mania - The Timeless Adventures of Mickey Mouse (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "08806B5B|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mickey to Donald - Magical Adventure 3 (Japan).zip#Mickey to Donald - Magical Adventure 3 (Japan).sfc",
       "label": "Mickey to Donald - Magical Adventure 3 (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "32EEA1E9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mickey to Minnie - Magical Adventure 2 (Japan).zip#Mickey to Minnie - Magical Adventure 2 (Japan).sfc",
       "label": "Mickey to Minnie - Magical Adventure 2 (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "8D258553|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Mickey's Ultimate Challenge (USA).zip#Mickey's Ultimate Challenge (USA).sfc",
       "label": "Mickey's Ultimate Challenge (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "D6C60A84|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Musya - The Classic Japanese Tale of Horror (USA).zip#Musya - The Classic Japanese Tale of Horror (USA).sfc",
       "label": "Musya - The Classic Japanese Tale of Horror (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "011907A4|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/New Horizons (USA).zip#New Horizons (USA).sfc",
       "label": "New Horizons (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3C3C63E6|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ninja Gaiden Trilogy (USA).zip#Ninja Gaiden Trilogy (USA).sfc",
       "label": "Ninja Gaiden Trilogy (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "066FE797|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Nosferatu (USA).zip#Nosferatu (USA).sfc",
       "label": "Nosferatu (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DE762764|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ogre Battle - The March of the Black Queen (USA).zip#Ogre Battle - The March of the Black Queen (USA).sfc",
       "label": "Ogre Battle - The March of the Black Queen (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "ACFDB7B8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Out of this World (USA).zip#Out of this World (USA).sfc",
       "label": "Out of This World (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5F40A869|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Parodius (Europe).zip#Parodius (Europe).sfc",
       "label": "Parodius (Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "6FFA308C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Parodius Da! - Shinwa kara Owarai e (Japan).zip#Parodius Da! - Shinwa kara Owarai e (Japan).sfc",
       "label": "Parodius Da! - Shinwa kara Owarai e (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "876DFD97|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Peace Keepers, The (USA).zip#Peace Keepers, The (USA).sfc",
       "label": "Peace Keepers, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "8071E5DB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Phalanx (USA).zip#Phalanx (USA).sfc",
       "label": "Phalanx (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DC90A8AB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Pilotwings (USA).zip#Pilotwings (USA).sfc",
       "label": "Pilotwings (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "266C44ED|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Pinocchio (USA).zip#Pinocchio (USA).sfc",
       "label": "Pinocchio (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "00FAD8FD|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Pocky & Rocky (USA).zip#Pocky & Rocky (USA).sfc",
       "label": "Pocky & Rocky (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "2B0E7EA3|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Pocky & Rocky 2 (USA).zip#Pocky & Rocky 2 (USA).sfc",
       "label": "Pocky & Rocky 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "FC00BB1B|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Prince of Persia (USA).zip#Prince of Persia (USA).sfc",
       "label": "Prince of Persia (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "891BB2BB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Prince of Persia 2 (USA).zip#Prince of Persia 2 (USA).sfc",
       "label": "Prince of Persia 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "50581D9D|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Psycho Dream (Japan).zip#Psycho Dream (Japan).sfc",
       "label": "Psycho Dream (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5C145E98|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/R-Type III (USA).zip#R-Type III (USA).sfc",
       "label": "R-Type III (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "642B656B|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Raiden Trad (USA).zip#Raiden Trad (USA).sfc",
       "label": "Raiden Trad (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "02CE6C96|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ranma 1-2 - Chougi Ranbu Hen (Japan).zip#Ranma 1-2 - Chougi Ranbu Hen (Japan).sfc",
       "label": "Ranma 1-2 - Chougi Ranbu Hen (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "0C552B1F|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Rendering Ranger R2 (Japan) (En).zip#Rendering Ranger R2 (Japan) (En).sfc",
       "label": "Rendering Ranger R2 (Japan) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "8FB5AC86|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Rival Turf! (USA).zip#Rival Turf! (USA).sfc",
       "label": "Rival Turf! (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CA988F59|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Rock n' Roll Racing (USA).zip#Rock n' Roll Racing (USA).sfc",
       "label": "Rock N' Roll Racing (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "7D06F473|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Rocko's Modern Life - Spunky's Dangerous Day (USA).zip#Rocko's Modern Life - Spunky's Dangerous Day (USA).sfc",
       "label": "Rocko's Modern Life - Spunky's Dangerous Day (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "197B4CBA|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Run Saber (USA).zip#Run Saber (USA).sfc",
       "label": "Run Saber (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "8708E5BB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Secret of Evermore (USA).zip#Secret of Evermore (USA).sfc",
       "label": "Secret of Evermore (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "A5C0045E|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Secret of Mana (USA).zip#Secret of Mana (USA).sfc",
       "label": "Secret of Mana (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "D0176B24|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Seiken Densetsu 2 (Japan).zip#Seiken Densetsu 2 (Japan).sfc",
       "label": "Seiken Densetsu 2 (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "B8049E3C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Seiken Densetsu 3 (Japan).zip#Seiken Densetsu 3 (Japan).sfc",
       "label": "Seiken Densetsu 3 (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "863ED0B8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Shadowrun (USA).zip#Shadowrun (USA).sfc",
       "label": "Shadowrun (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3F34DFF0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Shin Nekketsu Kouha - Kunio-tachi no Banka (Japan).zip#Shin Nekketsu Kouha - Kunio-tachi no Banka (Japan).sfc",
       "label": "Shin Nekketsu Kouha - Kunio-tachi no Banka (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "31BE696C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Sid Meier's Civilization (USA).zip#Sid Meier's Civilization (USA).sfc",
       "label": "Sid Meier's Civilization (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "41FDBA82|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/SimAnt - The Electronic Ant Colony (USA).zip#SimAnt - The Electronic Ant Colony (USA).sfc",
       "label": "SimAnt - The Electronic Ant Colony (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "D08C05DF|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/SimCity (USA).zip#SimCity (USA).sfc",
       "label": "SimCity (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "8AEDD3A1|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/SimCity 2000 - The Ultimate City Simulator (USA).zip#SimCity 2000 - The Ultimate City Simulator (USA).sfc",
       "label": "SimCity 2000 - The Ultimate City Simulator (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "2D5DC011|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/SimEarth - The Living Planet (USA).zip#SimEarth - The Living Planet (USA).sfc",
       "label": "SimEarth - The Living Planet (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "7FA5B218|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Simpsons, The - Bart's Nightmare (USA).zip#Simpsons, The - Bart's Nightmare (USA).sfc",
       "label": "Simpsons, The - Bart's Nightmare (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "ED1C03C2|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/SOS (USA).zip#SOS (USA).sfc",
       "label": "SOS (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "09AE53F5|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Space Megaforce (USA).zip#Space Megaforce (USA).sfc",
       "label": "Space Megaforce (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "11202781|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Sparkster (USA).zip#Sparkster (USA).sfc",
       "label": "Sparkster (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "40D11C94|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Spriggan Powered (Japan).zip#Spriggan Powered (Japan).sfc",
       "label": "Spriggan Powered (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3F83F67C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Star Fox (USA).zip#Star Fox (USA).sfc",
       "label": "Star Fox (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "0BAE0941|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Star Fox 2 (USA, Europe).zip#Star Fox 2 (USA, Europe).sfc",
       "label": "Star Fox 2 (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "87653732|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Street Combat (USA).zip#Street Combat (USA).sfc",
       "label": "Street Combat (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1969BBD9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Street Fighter Alpha 2 (USA).zip#Street Fighter Alpha 2 (USA).sfc",
       "label": "Street Fighter Alpha 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "9C59DDFF|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Street Fighter II (USA).zip#Street Fighter II (USA).sfc",
       "label": "Street Fighter II (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "BC3DCD9D|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Street Fighter II Turbo (USA).zip#Street Fighter II Turbo (USA).sfc",
       "label": "Street Fighter II Turbo (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "A45CADD6|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Street Racer (USA).zip#Street Racer (USA).sfc",
       "label": "Street Racer (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "63E8B7D5|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Strike Gunner S.T.G (USA).zip#Strike Gunner S.T.G (USA).sfc",
       "label": "Strike Gunner S.T.G (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "D054E288|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Stunt Race FX (USA) (Rev 1).zip#Stunt Race FX (USA) (Rev 1).sfc",
       "label": "Stunt Race FX (USA) (Rev 1)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "380C2635|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Sunset Riders (USA).zip#Sunset Riders (USA).sfc",
       "label": "Sunset Riders (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "52ADA404|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Adventure Island (USA).zip#Super Adventure Island (USA).sfc",
       "label": "Super Adventure Island (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "DCD46848|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Adventure Island II (USA).zip#Super Adventure Island II (USA).sfc",
       "label": "Super Adventure Island II (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "52FE16FD|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Aleste (Japan).zip#Super Aleste (Japan).sfc",
       "label": "Super Aleste (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "94D28FF9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Bomberman (USA).zip#Super Bomberman (USA).sfc",
       "label": "Super Bomberman (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "63A8E2C6|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Bomberman 2 (USA).zip#Super Bomberman 2 (USA).sfc",
       "label": "Super Bomberman 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "9C1F11E4|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Bomber Man 5 (Japan).zip#Super Bomber Man 5 (Japan).sfc",
       "label": "Super Bomberman 5 (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "06B1F0F5|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Bonk (USA).zip#Super Bonk (USA).sfc",
       "label": "Super Bonk (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5688B581|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Buster Bros. (USA).zip#Super Buster Bros. (USA).sfc",
       "label": "Super Buster Bros. (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C86872D3|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Castlevania IV (USA).zip#Super Castlevania IV (USA).sfc",
       "label": "Super Castlevania IV (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "B64FFB12|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Double Dragon (USA).zip#Super Double Dragon (USA).sfc",
       "label": "Super Double Dragon (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "09ED12A5|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Genjin 2 (Japan).zip#Super Genjin 2 (Japan).sfc",
       "label": "Super Genjin 2 (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C5D12427|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -1452,24 +1452,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Mario All-Stars (USA).zip#Super Mario All-Stars (USA).sfc",
       "label": "Super Mario All-Stars (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "925637C7|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Mario Kart (USA).zip#Super Mario Kart (USA).sfc",
       "label": "Super Mario Kart (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CD80DB86|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Mario RPG - Legend of the Seven Stars (USA).zip#Super Mario RPG - Legend of the Seven Stars (USA).sfc",
       "label": "Super Mario RPG - Legend of the Seven Stars (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1B8A0625|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -1484,24 +1484,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Mario World 2 - Yoshi's Island (USA).zip#Super Mario World 2 - Yoshi's Island (USA).sfc",
       "label": "Super Mario World 2 - Yoshi's Island (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "D138F224|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Metroid (Japan, USA) (En,Ja).zip#Super Metroid (Japan, USA) (En,Ja).sfc",
       "label": "Super Metroid (Japan, USA) (En,Ja)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "D63ED5F8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Punch-Out!! (USA).zip#Super Punch-Out!! (USA).sfc",
       "label": "Super Punch-Out!! (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "E2F92F84|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -1516,320 +1516,320 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Scope 6 (USA).zip#Super Scope 6 (USA).sfc",
       "label": "Super Scope 6 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "B141EA99|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Smash T.V. (USA).zip#Super Smash T.V. (USA).sfc",
       "label": "Super Smash T.V. (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "2D0B20D0|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Star Fox - Super Weekend (USA).zip#Star Fox - Super Weekend (USA).sfc",
       "label": "Super Star Fox Weekend (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CD1F04B8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Star Wars (USA).zip#Super Star Wars (USA).sfc",
       "label": "Super Star Wars (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "ACBCAE7C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Star Wars - Return of the Jedi (USA).zip#Super Star Wars - Return of the Jedi (USA).sfc",
       "label": "Super Star Wars - Return of the Jedi (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "C709EC69|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Star Wars - The Empire Strikes Back (USA).zip#Super Star Wars - The Empire Strikes Back (USA).sfc",
       "label": "Super Star Wars - The Empire Strikes Back (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "F45B15BE|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Street Fighter II (USA).zip#Super Street Fighter II (USA).sfc",
       "label": "Super Street Fighter II (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "F16D5CE9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Turrican (USA).zip#Super Turrican (USA).sfc",
       "label": "Super Turrican (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3A7E8215|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Turrican 2 (USA).zip#Super Turrican 2 (USA).sfc",
       "label": "Super Turrican 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "D2FFABAC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Valis IV (USA).zip#Super Valis IV (USA).sfc",
       "label": "Super Valis IV (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "29E8AC9F|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).zip#Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).sfc",
       "label": "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5940BD99|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Terranigma (Europe).zip#Terranigma (Europe).sfc",
       "label": "Terranigma (Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "974523FF|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Tetris 2 (USA).zip#Tetris 2 (USA).sfc",
       "label": "Tetris 2 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CE3392B1|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Thunder Spirits (USA).zip#Thunder Spirits (USA).sfc",
       "label": "Thunder Spirits (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "522FE837|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Tiny Toon Adventures - Buster Busts Loose! (USA).zip#Tiny Toon Adventures - Buster Busts Loose! (USA).sfc",
       "label": "Tiny Toon Adventures - Buster Busts Loose! (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "AB48D27A|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Tom and Jerry (USA).zip#Tom and Jerry (USA).sfc",
       "label": "Tom and Jerry (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "8B1DAFBB|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Top Gear (USA).zip#Top Gear (USA).sfc",
       "label": "Top Gear (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "D34C49B7|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Total Carnage (USA).zip#Total Carnage (USA).sfc",
       "label": "Total Carnage (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "E27FF2BC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Toy Story (USA).zip#Toy Story (USA).sfc",
       "label": "Toy Story (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "8328822B|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/True Lies (USA).zip#True Lies (USA).sfc",
       "label": "True Lies (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "40CA49AE|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Tuff E Nuff (USA).zip#Tuff E Nuff (USA).sfc",
       "label": "Tuff E Nuff (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "865F37BF|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/TwinBee - Rainbow Bell Adventure (Japan).zip#TwinBee - Rainbow Bell Adventure (Japan).sfc",
       "label": "TwinBee - Rainbow Bell Adventure (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "91867AF4|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/U.N. Squadron (USA).zip#U.N. Squadron (USA).sfc",
       "label": "U.N. Squadron (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "231F0F67|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ultraman (USA).zip#Ultraman (USA).sfc",
       "label": "Ultraman (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "1DED2814|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Umihara Kawase (Japan).zip#Umihara Kawase (Japan).sfc",
       "label": "Umihara Kawase (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "393CCCA2|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Uniracers (USA).zip#Uniracers (USA).sfc",
       "label": "Uniracers (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "383858C7|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Vortex (USA) (En,Es).zip#Vortex (USA) (En,Es).sfc",
       "label": "Vortex (USA) (En,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "31B1AD00|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Wild Guns (USA).zip#Wild Guns (USA).sfc",
       "label": "Wild Guns (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "085D8D14|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Winter Gold (Europe).zip#Winter Gold (Europe).sfc",
       "label": "Winter Gold (Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "0F8378A6|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Wonder Project J - Kikai no Shounen Pino (Japan).zip#Wonder Project J - Kikai no Shounen Pino (Japan).sfc",
       "label": "Wonder Project J - Kikai no Shounen Pino (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "AF8F4DB9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Yoshi's Cookie (USA).zip#Yoshi's Cookie (USA).sfc",
       "label": "Yoshi's Cookie (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "EF15F4C3|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Yoshi's Safari (USA).zip#Yoshi's Safari (USA).sfc",
       "label": "Yoshi's Safari (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "59490CE8|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ys III - Wanderers from Ys (USA).zip#Ys III - Wanderers from Ys (USA).sfc",
       "label": "Ys III - Wanderers from Ys (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "64A91E64|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ys IV - Mask of the Sun (Japan).zip#Ys IV - Mask of the Sun (Japan).sfc",
       "label": "Ys IV - Mask of the Sun (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CA7B4DB9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ys V - Expert (Japan).zip#Ys V - Expert (Japan).sfc",
       "label": "Ys V - Expert (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "CFE632B9|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Ys V - Ushinawareta Suna no Miyako Kefin (Japan).zip#Ys V - Ushinawareta Suna no Miyako Kefin (Japan).sfc",
       "label": "Ys V - Ushinawareta Suna no Miyako Kefin (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5E08C48C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Zelda no Densetsu - Kamigami no Triforce (Japan).zip#Zelda no Densetsu - Kamigami no Triforce (Japan).sfc",
       "label": "Zelda no Densetsu - Kamigami no Triforce (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3322EFFC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Zero the Kamikaze Squirrel (USA).zip#Zero the Kamikaze Squirrel (USA).sfc",
       "label": "Zero the Kamikaze Squirrel (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "5397D5BC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Zombies Ate My Neighbors (USA).zip#Zombies Ate My Neighbors (USA).sfc",
       "label": "Zombies Ate My Neighbors (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "7CFC0C7C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Zool - Ninja of the 'Nth' Dimension (USA).zip#Zool - Ninja of the 'Nth' Dimension (USA).sfc",
       "label": "Zool - Ninja of the 'Nth' Dimension (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "3C10DAF1|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     }

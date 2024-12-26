@@ -20,16 +20,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Amazing Spider-Man, The - Web of Fire (USA).zip#Amazing Spider-Man, The - Web of Fire (USA).32x",
       "label": "Amazing Spider-Man, The - Web of Fire (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "29DCE257|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/BC Racers (USA).zip#BC Racers (USA).32x",
       "label": "BC Racers (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "936C3D27|crc",
       "db_name": "Sega - 32X.lpl"
     },
@@ -44,24 +44,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Cyber Brawl ~ Cosmic Carnage (Japan, USA).zip#Cyber Brawl ~ Cosmic Carnage (Japan, USA).32x",
       "label": "Cosmic Carnage (Japan, USA) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "7C7BE6A2|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Doom (Japan, USA).zip#Doom (Japan, USA).32x",
       "label": "Doom (Japan, USA) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "208332FD|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/FIFA Soccer '96 (Europe) (En,Fr,De,Es,It,Sv).zip#FIFA Soccer '96 (Europe) (En,Fr,De,Es,It,Sv).32x",
       "label": "FIFA Soccer 96 (Europe) (En,Fr,De,Es,It,Sv)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "FB14A7C8|crc",
       "db_name": "Sega - 32X.lpl"
     },
@@ -84,8 +84,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Metal Head (Japan, USA) (En,Ja).zip#Metal Head (Japan, USA) (En,Ja).32x",
       "label": "Metal Head (Japan, USA) (En,Ja)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "EF5553FF|crc",
       "db_name": "Sega - 32X.lpl"
     },
@@ -100,8 +100,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Motocross Championship (USA).zip#Motocross Championship (USA).32x",
       "label": "Motocross Championship (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "A21C5761|crc",
       "db_name": "Sega - 32X.lpl"
     },
@@ -124,32 +124,32 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Primal Rage (USA, Europe).zip#Primal Rage (USA, Europe).32x",
       "label": "Primal Rage (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "E78A4D28|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/RBI Baseball '95 (USA).zip#RBI Baseball '95 (USA).32x",
       "label": "RBI Baseball '95 (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "FF795FDC|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Sangokushi IV (Japan).zip#Sangokushi IV (Japan).32x",
       "label": "Sangokushi IV (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "E4DE7625|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Soulstar X (USA) (Proto).zip#Soulstar X (USA) (Proto).32x",
       "label": "Soulstar X (T115) (USA) (Proto)[T-11505B-50]",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "6472BAE4|crc",
       "db_name": "Sega - 32X.lpl"
     },
@@ -164,24 +164,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Star Wars Arcade (USA).zip#Star Wars Arcade (USA).32x",
       "label": "Star Wars Arcade (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "2F16B44A|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Shadow Squadron ~ Stellar Assault (USA, Europe).zip#Shadow Squadron ~ Stellar Assault (USA, Europe).32x",
       "label": "Stellar Assault (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "60C49E4D|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/T-Mek (USA, Europe).zip#T-Mek (USA, Europe).32x",
       "label": "T-MEK (USA, Europe)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "66D2C48F|crc",
       "db_name": "Sega - 32X.lpl"
     },
@@ -196,48 +196,48 @@
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Virtua Racing Deluxe (USA).zip#Virtua Racing Deluxe (USA).32x",
       "label": "Virtua Racing Deluxe (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "7896B62E|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/World Series Baseball Starring Deion Sanders (USA).zip#World Series Baseball Starring Deion Sanders (USA).32x",
       "label": "World Series Baseball Starring Deion Sanders (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "6DE1BC75|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/WWF Raw (World).zip#WWF Raw (World).32x",
       "label": "WWF Raw (World)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "8EB7CD2C|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/WWF WrestleMania - The Arcade Game (USA).zip#WWF WrestleMania - The Arcade Game (USA).32x",
       "label": "WWF WrestleMania - The Arcade Game (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "61833503|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/X-Men (USA) (Proto).zip#X-Men (USA) (Proto).32x",
       "label": "X-Men (USA) (Proto)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "D61FEBC0|crc",
       "db_name": "Sega - 32X.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega 32X/Parasquad ~ Zaxxon's Motherbase 2000 (Japan, USA).zip#Parasquad ~ Zaxxon's Motherbase 2000 (Japan, USA).32x",
       "label": "Zaxxon's Motherbase 2000 (Japan, USA) (En)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/picodrive_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
       "crc32": "447D44BE|crc",
       "db_name": "Sega - 32X.lpl"
     }

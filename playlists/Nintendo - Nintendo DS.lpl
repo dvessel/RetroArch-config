@@ -28,32 +28,32 @@
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Another Code - Two Memories (Europe) (En,Fr,De,Es,It).zip#Another Code - Two Memories (Europe) (En,Fr,De,Es,It).nds",
       "label": "Another Code - Two Memories (Europe) (En,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "66A34884|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Castlevania - Dawn of Sorrow (USA).zip#Castlevania - Dawn of Sorrow (USA).nds",
       "label": "Castlevania - Dawn of Sorrow (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "135737F6|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Castlevania - Order of Ecclesia (USA) (En,Fr).zip#Castlevania - Order of Ecclesia (USA) (En,Fr).nds",
       "label": "Castlevania - Order of Ecclesia (USA) (En,Fr)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "A7612D61|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Castlevania - Portrait of Ruin (USA).zip#Castlevania - Portrait of Ruin (USA).nds",
       "label": "Castlevania - Portrait of Ruin (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "96DF4C4D|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
@@ -76,104 +76,104 @@
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Dragon Quest IV - Chapters of the Chosen (USA) (En,Fr,Es).zip#Dragon Quest IV - Chapters of the Chosen (USA) (En,Fr,Es).nds",
       "label": "Dragon Quest IV - Chapters of the Chosen (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "C433DB29|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Dragon Quest IX - Sentinels of the Starry Skies (USA) (En,Fr,Es).zip#Dragon Quest IX - Sentinels of the Starry Skies (USA) (En,Fr,Es).nds",
       "label": "Dragon Quest IX - Sentinels of the Starry Skies (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "AACE5E9C|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Dragon Quest V - Hand of the Heavenly Bride (USA) (En,Fr,Es).zip#Dragon Quest V - Hand of the Heavenly Bride (USA) (En,Fr,Es).nds",
       "label": "Dragon Quest V - Hand of the Heavenly Bride (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "6F455159|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Elite Beat Agents (USA).zip#Elite Beat Agents (USA).nds",
       "label": "Elite Beat Agents (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "26BC50A1|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Fire Emblem - Shadow Dragon (USA).zip#Fire Emblem - Shadow Dragon (USA).nds",
       "label": "Fire Emblem - Shadow Dragon (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "FED8157C|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Ghost Trick - Phantom Detective (USA) (En,Fr,De,Es,It).zip#Ghost Trick - Phantom Detective (USA) (En,Fr,De,Es,It).nds",
       "label": "Ghost Trick - Phantom Detective (USA) (En,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "5CD93FE5|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Grand Theft Auto - Chinatown Wars (USA) (En,Fr,De,Es,It).zip#Grand Theft Auto - Chinatown Wars (USA) (En,Fr,De,Es,It).nds",
       "label": "Grand Theft Auto - Chinatown Wars (USA) (En,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "CC50CF7E|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Kingdom Hearts - 358-2 Days (USA) (En,Fr).zip#Kingdom Hearts - 358-2 Days (USA) (En,Fr).nds",
       "label": "Kingdom Hearts - 358-2 Days (USA) (En,Fr)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "CD0E9477|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Kirby - Canvas Curse (USA).zip#Kirby - Canvas Curse (USA).nds",
       "label": "Kirby - Canvas Curse (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "FE7DC5EE|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Kirby Mass Attack (USA) (En,Fr,Es).zip#Kirby Mass Attack (USA) (En,Fr,Es).nds",
       "label": "Kirby Mass Attack (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "9A6E02F9|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Kirby Super Star Ultra (USA).zip#Kirby Super Star Ultra (USA).nds",
       "label": "Kirby Super Star Ultra (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "DBAC8944|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Last Window - The Secret of Cape West (Europe) (En,Fr,De,Es,It).zip#Last Window - The Secret of Cape West (Europe) (En,Fr,De,Es,It).nds",
       "label": "Last Window - The Secret of Cape West (Europe) (En,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "33396352|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Legend of Zelda, The - Phantom Hourglass (USA) (En,Fr,Es).zip#Legend of Zelda, The - Phantom Hourglass (USA) (En,Fr,Es).nds",
       "label": "Legend of Zelda, The - Phantom Hourglass (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "8B431C41|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
@@ -188,24 +188,24 @@
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Mario & Luigi - Bowser's Inside Story (USA) (En,Fr,Es).zip#Mario & Luigi - Bowser's Inside Story (USA) (En,Fr,Es).nds",
       "label": "Mario & Luigi - Bowser's Inside Story (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "32C9F882|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Mario Kart DS (USA, Australia) (En,Fr,De,Es,It).zip#Mario Kart DS (USA, Australia) (En,Fr,De,Es,It).nds",
       "label": "Mario Kart DS (USA, Australia) (En,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "D47555BE|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Metroid Prime - Hunters (USA) (Rev 1).zip#Metroid Prime - Hunters (USA) (Rev 1).nds",
       "label": "Metroid Prime - Hunters (USA) (Rev 1)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "303E6FC4|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
@@ -228,184 +228,184 @@
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Nine Hours, Nine Persons, Nine Doors (USA).zip#Nine Hours, Nine Persons, Nine Doors (USA).nds",
       "label": "Nine Hours, Nine Persons, Nine Doors (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "D7F85F15|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Phoenix Wright - Ace Attorney - Trials and Tribulations (USA).zip#Phoenix Wright - Ace Attorney - Trials and Tribulations (USA).nds",
       "label": "Phoenix Wright - Ace Attorney - Trials and Tribulations (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "54505BD8|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Picross 3D (USA) (En,Fr,Es).zip#Picross 3D (USA) (En,Fr,Es).nds",
       "label": "Picross 3D (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "92E66267|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Pokemon - Black Version 2 (USA, Europe) (NDSi Enhanced).zip#Pokemon - Black Version 2 (USA, Europe) (NDSi Enhanced).nds",
       "label": "Pokemon - Black Version 2 (USA, Europe) (NDSi Enhanced)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "D4427FD1|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Pokemon - HeartGold Version (USA).zip#Pokemon - HeartGold Version (USA).nds",
       "label": "Pokemon - HeartGold Version (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "C180A0E9|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Pokemon - Platinum Version (USA) (Rev 1).zip#Pokemon - Platinum Version (USA) (Rev 1).nds",
       "label": "Pokemon - Platinum Version (USA) (Rev 1)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "69D628E8|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Pokemon - SoulSilver Version (USA, Australia).zip#Pokemon - SoulSilver Version (USA, Australia).nds",
       "label": "Pokemon - SoulSilver Version (USA, Australia)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "D8EA6090|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Pokemon - White Version 2 (USA, Europe) (NDSi Enhanced).zip#Pokemon - White Version 2 (USA, Europe) (NDSi Enhanced).nds",
       "label": "Pokemon - White Version 2 (USA, Europe) (NDSi Enhanced)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "777EB04F|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Pokemon Mystery Dungeon - Explorers of Sky (USA).zip#Pokemon Mystery Dungeon - Explorers of Sky (USA).nds",
       "label": "Pokemon Mystery Dungeon - Explorers of Sky (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "22DDE080|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Professor Layton and the Curious Village (USA, Australia).zip#Professor Layton and the Curious Village (USA, Australia).nds",
       "label": "Professor Layton and the Curious Village (USA, Australia)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "08DAC15E|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Professor Layton and the Unwound Future (USA).zip#Professor Layton and the Unwound Future (USA).nds",
       "label": "Professor Layton and the Unwound Future (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "B311E1EC|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Radiant Historia (USA).zip#Radiant Historia (USA).nds",
       "label": "Radiant Historia (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "B5A16BBF|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Solatorobo - Red the Hunter (USA) (En,Fr,De,Es,It) (NDSi Enhanced).zip#Solatorobo - Red the Hunter (USA) (En,Fr,De,Es,It) (NDSi Enhanced).nds",
       "label": "Solatorobo - Red the Hunter (USA) (En,Fr,De,Es,It) (NDSi Enhanced)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "CFEDCA95|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Sonic Rush (USA) (En,Ja,Fr,De,Es,It).zip#Sonic Rush (USA) (En,Ja,Fr,De,Es,It).nds",
       "label": "Sonic Rush (USA) (En,Ja,Fr,De,Es,It)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "3D630830|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Super Mario 64 DS (USA).zip#Super Mario 64 DS (USA).nds",
       "label": "Super Mario 64 DS (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "E6321562|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Super Scribblenauts (USA) (En,Fr,Es,Pt).zip#Super Scribblenauts (USA) (En,Fr,Es,Pt).nds",
       "label": "Super Scribblenauts (USA) (En,Fr,Es,Pt)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "1770A77F|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Tetris DS (USA, Australia).zip#Tetris DS (USA, Australia).nds",
       "label": "Tetris DS (USA, Australia)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "377536D4|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Time Hollow (USA) (En,Fr).zip#Time Hollow (USA) (En,Fr).nds",
       "label": "Time Hollow (USA) (En,Fr)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "5120FCDD|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/TrackMania DS (USA) (En,Fr,Es).zip#TrackMania DS (USA) (En,Fr,Es).nds",
       "label": "TrackMania DS (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "953784EE|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/TrackMania Turbo (USA) (En,Fr,Es).zip#TrackMania Turbo (USA) (En,Fr,Es).nds",
       "label": "TrackMania Turbo (USA) (En,Fr,Es)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "F7B90B7A|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/Umihara Kawase Shun - Second Edition Kanzen Ban (Japan).zip#Umihara Kawase Shun - Second Edition Kanzen Ban (Japan).nds",
       "label": "Umihara Kawase Shun - Second Edition Kanzen Ban (Japan)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "FF1F3223|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/WarioWare - Touched! (USA).zip#WarioWare - Touched! (USA).nds",
       "label": "WarioWare - Touched! (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "2CE68FAD|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo DS/World Ends with You, The (USA).zip#World Ends with You, The (USA).nds",
       "label": "World Ends with You, The (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/desmume_libretro.dylib",
+      "core_name": "Nintendo - DS (DeSmuME)",
       "crc32": "9BD848A7|crc",
       "db_name": "Nintendo - Nintendo DS.lpl"
     }
