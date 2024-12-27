@@ -34,14 +34,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/ddpdfk10.zip",
-      "label": "DoDonPachi Dai-Fukkatsu Ver 1.0 (2008/05/16 MASTER VER)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/ddpdfk.zip",
       "label": "DoDonPachi Dai-Fukkatsu Ver 1.5 (2008/06/23 MASTER VER 1.5)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -84,14 +76,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/guwanges.zip",
       "label": "Guwange (Japan, 2000 7/ 7 Special Ver 13:22)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/hsf2.zip",
-      "label": "Hyper Street Fighter II: The Anniversary Edition (USA 040202)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
