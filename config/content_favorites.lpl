@@ -42,14 +42,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/ddpdojb.zip",
-      "label": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05 Master Ver)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/ddpsdoj.zip",
       "label": "DoDonPachi SaiDaiOuJou (2012/ 4/20)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -74,14 +66,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/guwanges.zip",
-      "label": "Guwange (Japan, 2000 7/ 7 Special Ver 13:22)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/mslug3.zip",
       "label": "Metal Slug 3 (NGM-2560)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -92,14 +76,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/mushisam.zip",
       "label": "Mushihime-Sama (2004/10/12.MASTER VER.)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/futariblj.zip",
-      "label": "Mushihime-Sama Futari Black Label (2007/12/11 BLACK LABEL VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -152,14 +128,6 @@
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Volumes/980Pro/Emulation/Dreamcast/The Typing of the Dead (USA, v1.004) (2000) (Sega).chd",
-      "label": "The Typing of the Dead (USA, v1.004) (2000) (Sega)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "00000000|crc",
-      "db_name": "Sega - Dreamcast.lpl"
     }
   ]
 }
