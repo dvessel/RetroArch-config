@@ -1,0 +1,844 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+  "default_core_name": "Sony - PlayStation 2 (LRPS2)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "scan_content_dir": "/Users/joon/Games/Emulation/Sony PlayStation 2",
+  "scan_file_exts": "",
+  "scan_dat_file_path": "",
+  "scan_search_recursively": true,
+  "scan_search_archives": false,
+  "scan_filter_dat_content": false,
+  "scan_overwrite_playlist": false,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Aqua Teen Hunger Force - Zombie Ninja Pro-Am/Aqua Teen Hunger Force - Zombie Ninja Pro-Am.chd",
+      "label": "Aqua Teen Hunger Force - Zombie Ninja Pro-Am",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Black/Black.chd",
+      "label": "Black",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Blood Will Tell - Tezuka Osamu's Dororo/Blood Will Tell - Tezuka Osamu's Dororo.chd",
+      "label": "Blood Will Tell - Tezuka Osamu's Dororo",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Bully/Bully.chd",
+      "label": "Bully",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout/Burnout.chd",
+      "label": "Burnout",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout 2 - Point of Impact/Burnout 2 - Point of Impact.chd",
+      "label": "Burnout 2 - Point of Impact",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout 3 - Takedown/Burnout 3 - Takedown.chd",
+      "label": "Burnout 3 - Takedown",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout Dominator/Burnout Dominator.chd",
+      "label": "Burnout Dominator",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout Revenge/Burnout Revenge.chd",
+      "label": "Burnout Revenge",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Colin McRae Rally 3/Colin McRae Rally 3.chd",
+      "label": "Colin McRae Rally 3",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Devil May Cry/Devil May Cry.chd",
+      "label": "Devil May Cry",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Devil May Cry 2/Devil May Cry 2.m3u",
+      "label": "Devil May Cry 2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Devil May Cry 3 - Dante's Awakening (Special Edition)/Devil May Cry 3 - Dante's Awakening (Special Edition).chd",
+      "label": "Devil May Cry 3 - Dante's Awakening (Special Edition)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Dirge of Cerberus - Final Fantasy VII/Dirge of Cerberus - Final Fantasy VII.chd",
+      "label": "Dirge of Cerberus - Final Fantasy VII",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Dragon Quest VIII - Journey of the Cursed King/Dragon Quest VIII - Journey of the Cursed King.chd",
+      "label": "Dragon Quest VIII - Journey of the Cursed King",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Final Fantasy X/Final Fantasy X.chd",
+      "label": "Final Fantasy X",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Final Fantasy X-2/Final Fantasy X-2.chd",
+      "label": "Final Fantasy X-2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Final Fantasy XII/Final Fantasy XII.chd",
+      "label": "Final Fantasy XII",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Ghost in the Shell - Stand Alone Complex/Ghost in the Shell - Stand Alone Complex.chd",
+      "label": "Ghost in the Shell - Stand Alone Complex",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/God Hand/God Hand.chd",
+      "label": "God Hand",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/God of War/God of War.chd",
+      "label": "God of War",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/God of War II/God of War II.chd",
+      "label": "God of War II",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Gradius V/Gradius V.chd",
+      "label": "Gradius V",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Gran Turismo 3 - A-spec/Gran Turismo 3 - A-spec.chd",
+      "label": "Gran Turismo 3 - A-spec",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Gran Turismo 4/Gran Turismo 4.chd",
+      "label": "Gran Turismo 4",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Grand Prix Challenge/Grand Prix Challenge.chd",
+      "label": "Grand Prix Challenge",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear Isuka/Guilty Gear Isuka.chd",
+      "label": "Guilty Gear Isuka",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear X/Guilty Gear X.chd",
+      "label": "Guilty Gear X",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear X2/Guilty Gear X2.chd",
+      "label": "Guilty Gear X2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear XX Accent Core/Guilty Gear XX Accent Core.chd",
+      "label": "Guilty Gear XX Accent Core",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear XX Accent Core Plus/Guilty Gear XX Accent Core Plus.chd",
+      "label": "Guilty Gear XX Accent Core Plus",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Gungrave/Gungrave.chd",
+      "label": "Gungrave",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Gungrave - Overdose/Gungrave - Overdose.chd",
+      "label": "Gungrave - Overdose",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Half-Life/Half-Life.chd",
+      "label": "Half-Life",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/ICO/ICO.chd",
+      "label": "ICO",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Jak 3/Jak 3.chd",
+      "label": "Jak 3",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Jak and Daxter - The Lost Frontier/Jak and Daxter - The Lost Frontier.chd",
+      "label": "Jak and Daxter - The Lost Frontier",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Jak and Daxter - The Precursor Legacy/Jak and Daxter - The Precursor Legacy.chd",
+      "label": "Jak and Daxter - The Precursor Legacy",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Jak II/Jak II.chd",
+      "label": "Jak II",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Katamari Damacy/Katamari Damacy.chd",
+      "label": "Katamari Damacy",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Kingdom Hearts/Kingdom Hearts.chd",
+      "label": "Kingdom Hearts",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Kingdom Hearts - Re-Chain of Memories/Kingdom Hearts - Re-Chain of Memories.chd",
+      "label": "Kingdom Hearts - Re-Chain of Memories",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Kingdom Hearts II/Kingdom Hearts II.chd",
+      "label": "Kingdom Hearts II",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Le Mans 24 Hours/Le Mans 24 Hours.chd",
+      "label": "Le Mans 24 Hours",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 2 - Sons of Liberty/Metal Gear Solid 2 - Sons of Liberty.chd",
+      "label": "Metal Gear Solid 2 - Sons of Liberty",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 2 - Substance/Metal Gear Solid 2 - Substance.chd",
+      "label": "Metal Gear Solid 2 - Substance",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 3 - Snake Eater/Metal Gear Solid 3 - Snake Eater.chd",
+      "label": "Metal Gear Solid 3 - Snake Eater",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 3 - Subsistence/Metal Gear Solid 3 - Subsistence.m3u",
+      "label": "Metal Gear Solid 3 - Subsistence",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Okami/Okami.chd",
+      "label": "Okami",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Onimusha - Blade Warriors/Onimusha - Blade Warriors.chd",
+      "label": "Onimusha - Blade Warriors",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Onimusha - Dawn of Dreams/Onimusha - Dawn of Dreams.m3u",
+      "label": "Onimusha - Dawn of Dreams",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Onimusha - Warlords/Onimusha - Warlords.chd",
+      "label": "Onimusha - Warlords",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Onimusha 2 - Samurai's Destiny/Onimusha 2 - Samurai's Destiny.chd",
+      "label": "Onimusha 2 - Samurai's Destiny",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Onimusha 3 - Demon Siege/Onimusha 3 - Demon Siege.chd",
+      "label": "Onimusha 3 - Demon Siege",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Psychonauts/Psychonauts.chd",
+      "label": "Psychonauts",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/R-Type Final/R-Type Final.chd",
+      "label": "R-Type Final",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Raiden 3/Raiden 3.chd",
+      "label": "Raiden 3",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Ratchet & Clank/Ratchet & Clank.chd",
+      "label": "Ratchet & Clank",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Ratchet & Clank - Going Commando/Ratchet & Clank - Going Commando.chd",
+      "label": "Ratchet & Clank - Going Commando",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Ratchet & Clank - Size Matters /Ratchet & Clank - Size Matters .chd",
+      "label": "Ratchet & Clank - Size Matters ",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Ratchet & Clank - Up Your Arsenal/Ratchet & Clank - Up Your Arsenal.chd",
+      "label": "Ratchet & Clank - Up Your Arsenal",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Rez/Rez.chd",
+      "label": "Rez",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Robot Alchemic Drive/Robot Alchemic Drive.chd",
+      "label": "Robot Alchemic Drive",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Rumble Fish, The (Japan)/Rumble Fish, The (Japan).chd",
+      "label": "Rumble Fish, The (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shadow of the Colossus/Shadow of the Colossus.chd",
+      "label": "Shadow of the Colossus",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shin Megami Tensei - Devil Summoner - Raidou Kuzunoha vs. The Soulless Army/Shin Megami Tensei - Devil Summoner - Raidou Kuzunoha vs. The Soulless Army.chd",
+      "label": "Shin Megami Tensei - Devil Summoner - Raidou Kuzunoha vs. The Soulless Army",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shin Megami Tensei - Devil Summoner 2 - Raidou Kuzunoha vs. King Abaddon/Shin Megami Tensei - Devil Summoner 2 - Raidou Kuzunoha vs. King Abaddon.chd",
+      "label": "Shin Megami Tensei - Devil Summoner 2 - Raidou Kuzunoha vs. King Abaddon",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shin Megami Tensei - Digital Devil Saga/Shin Megami Tensei - Digital Devil Saga.chd",
+      "label": "Shin Megami Tensei - Digital Devil Saga",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shin Megami Tensei - Digital Devil Saga 2/Shin Megami Tensei - Digital Devil Saga 2.chd",
+      "label": "Shin Megami Tensei - Digital Devil Saga 2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shin Megami Tensei - Nocturne/Shin Megami Tensei - Nocturne.chd",
+      "label": "Shin Megami Tensei - Nocturne",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shin Megami Tensei - Persona 3/Shin Megami Tensei - Persona 3.chd",
+      "label": "Shin Megami Tensei - Persona 3",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shin Megami Tensei - Persona 3 FES/Shin Megami Tensei - Persona 3 FES.chd",
+      "label": "Shin Megami Tensei - Persona 3 FES",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shin Megami Tensei - Persona 4/Shin Megami Tensei - Persona 4.chd",
+      "label": "Shin Megami Tensei - Persona 4",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Silent Hill - Shattered Memories/Silent Hill - Shattered Memories.chd",
+      "label": "Silent Hill - Shattered Memories",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Silent Hill 2/Silent Hill 2.chd",
+      "label": "Silent Hill 2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Silent Hill 3/Silent Hill 3.chd",
+      "label": "Silent Hill 3",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Silent Hill 4 - The Room/Silent Hill 4 - The Room.chd",
+      "label": "Silent Hill 4 - The Room",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Silent Hill Origins/Silent Hill Origins.chd",
+      "label": "Silent Hill Origins",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Silpheed - The Lost Planet/Silpheed - The Lost Planet.chd",
+      "label": "Silpheed - The Lost Planet",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Sly 2 - Band of Thieves/Sly 2 - Band of Thieves.chd",
+      "label": "Sly 2 - Band of Thieves",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Sly 3 - Honor Among Thieves/Sly 3 - Honor Among Thieves.chd",
+      "label": "Sly 3 - Honor Among Thieves",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Sly Cooper and the Thievius Raccoonus/Sly Cooper and the Thievius Raccoonus.chd",
+      "label": "Sly Cooper and the Thievius Raccoonus",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Soulcalibur II/Soulcalibur II.chd",
+      "label": "Soulcalibur II",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Soulcalibur III/Soulcalibur III.chd",
+      "label": "Soulcalibur III",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Tekken 5/Tekken 5.chd",
+      "label": "Tekken 5",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Thunder Force VI/Thunder Force VI.chd",
+      "label": "Thunder Force VI",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Tom Clancy's Splinter Cell/Tom Clancy's Splinter Cell.chd",
+      "label": "Tom Clancy's Splinter Cell",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Tom Clancy's Splinter Cell - Chaos Theory/Tom Clancy's Splinter Cell - Chaos Theory.chd",
+      "label": "Tom Clancy's Splinter Cell - Chaos Theory",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Tom Clancy's Splinter Cell - Double Agent/Tom Clancy's Splinter Cell - Double Agent.chd",
+      "label": "Tom Clancy's Splinter Cell - Double Agent",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Tom Clancy's Splinter Cell - Pandora Tomorrow/Tom Clancy's Splinter Cell - Pandora Tomorrow.chd",
+      "label": "Tom Clancy's Splinter Cell - Pandora Tomorrow",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Valkyrie Profile 2 - Silmeria/Valkyrie Profile 2 - Silmeria.chd",
+      "label": "Valkyrie Profile 2 - Silmeria",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Viewtiful Joe/Viewtiful Joe.chd",
+      "label": "Viewtiful Joe",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Viewtiful Joe 2/Viewtiful Joe 2.chd",
+      "label": "Viewtiful Joe 2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Virtua Fighter 4/Virtua Fighter 4.chd",
+      "label": "Virtua Fighter 4",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Virtua Fighter 4 - Evolution/Virtua Fighter 4 - Evolution.chd",
+      "label": "Virtua Fighter 4 - Evolution",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/WipEout Fusion/WipEout Fusion.chd",
+      "label": "WipEout Fusion",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/WipEout Pulse/WipEout Pulse.chd",
+      "label": "WipEout Pulse",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Xenosaga Episode I - Der Wille zur Macht/Xenosaga Episode I - Der Wille zur Macht.chd",
+      "label": "Xenosaga Episode I - Der Wille zur Macht",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Xenosaga Episode II - Jenseits von Gut und Boese/Xenosaga Episode II - Jenseits von Gut und Boese.m3u",
+      "label": "Xenosaga Episode II - Jenseits von Gut und Boese",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Xenosaga Episode III - Also sprach Zarathustra/Xenosaga Episode III - Also sprach Zarathustra.m3u",
+      "label": "Xenosaga Episode III - Also sprach Zarathustra",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Ys - The Ark of Napishtim/Ys - The Ark of Napishtim.chd",
+      "label": "Ys - The Ark of Napishtim",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Zone of the Enders/Zone of the Enders.chd",
+      "label": "Zone of the Enders",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Zone of the Enders - The 2nd Runner/Zone of the Enders - The 2nd Runner.chd",
+      "label": "Zone of the Enders - The 2nd Runner",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation 2.lpl"
+    }
+  ]
+}
