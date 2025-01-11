@@ -8,13 +8,6 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/TurboGrafx-CD",
-  "scan_file_exts": "",
-  "scan_dat_file_path": "",
-  "scan_search_recursively": true,
-  "scan_search_archives": false,
-  "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ai Chou Aniki (Japan)(SADS)/Ai Chou Aniki (Japan)(SADS).cue",
@@ -197,7 +190,7 @@
       "label": "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7) (translated into english)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
-      "crc32": "00000000|crc",
+      "crc32": "84472B6A|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -285,7 +278,7 @@
       "label": "Jessie Jaeger in Cleopatra's Curse (World) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
-      "crc32": "00000000|crc",
+      "crc32": "F917F093|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {

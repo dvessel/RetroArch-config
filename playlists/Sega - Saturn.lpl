@@ -8,13 +8,6 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/Sega Saturn",
-  "scan_file_exts": "",
-  "scan_dat_file_path": "",
-  "scan_search_recursively": true,
-  "scan_search_archives": false,
-  "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Sega Saturn/Albert Odyssey - Legend of Eldean (USA)/Albert Odyssey - Legend of Eldean (USA).cue",
@@ -202,7 +195,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Saturn/NiGHTS into Dreams... (USA) (3D Control Pad)/NiGHTS into Dreams... (USA) (3D Control Pad).cue",
-      "label": "NiGHTS into Dreams... (USA) (3D Control Pad)",
+      "label": "NiGHTS into Dreams... (USA) (with 3D Control Pad)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "00000000|crc",
@@ -218,7 +211,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon II - Zwei (USA)/Panzer Dragoon II - Zwei (USA).cue",
-      "label": "Panzer Dragoon II - Zwei (USA)",
+      "label": "Panzer Dragoon II Zwei (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "00000000|crc",
@@ -229,7 +222,7 @@
       "label": "Panzer Dragoon Saga (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
-      "crc32": "00000000|crc",
+      "crc32": "81307|serial",
       "db_name": "Sega - Saturn.lpl"
     },
     {
@@ -270,6 +263,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "81383|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Shining the Holy Ark (USA)/Shining the Holy Ark (USA).cue",
+      "label": "Shining the Holy Ark (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "81306|serial",
       "db_name": "Sega - Saturn.lpl"
     },
     {

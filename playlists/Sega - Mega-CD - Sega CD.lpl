@@ -8,20 +8,13 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/Sega CD",
-  "scan_file_exts": "m3u",
-  "scan_dat_file_path": "",
-  "scan_search_recursively": false,
-  "scan_search_archives": false,
-  "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Adventures of Batman and Robin, The (USA)/Adventures of Batman and Robin, The (USA).cue",
       "label": "Adventures of Batman and Robin, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4432|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -34,10 +27,10 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Batman Returns (USA)/Batman Returns (USA).cue",
-      "label": "Batman Returns (USA)",
+      "label": "Batman Returns (USA) (Alt)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4401|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -45,15 +38,15 @@
       "label": "Dark Wizard (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4651|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Dune (USA)/Dune (USA).cue",
-      "label": "Dune (USA)",
+      "label": "Dune (USA) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-70065|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -61,7 +54,7 @@
       "label": "Dungeon Explorer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4657|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -69,15 +62,15 @@
       "label": "Earthworm Jim - Special Edition (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-125045|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Ecco - The Tides of Time (USA)/Ecco - The Tides of Time (USA).cue",
-      "label": "Ecco - The Tides of Time (USA)",
+      "label": "Ecco - The Tides of Time (USA) (Alt)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4441|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -85,7 +78,7 @@
       "label": "Ecco the Dolphin (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4408|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -93,7 +86,7 @@
       "label": "Eternal Champions - Challenge from the Dark Side (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4427|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -101,15 +94,15 @@
       "label": "Eye of the Beholder (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-75014|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Final Fight CD (USA)/Final Fight CD (USA).cue",
-      "label": "Final Fight CD (USA)",
+      "label": "Final Fight CD (USA) (Alt 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4410|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -122,10 +115,10 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Flink (USA)/Flink (USA).cue",
-      "label": "Flink (USA)",
+      "label": "Flink (USA) (En,Fr,De,Es,Nl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-23055|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -133,7 +126,7 @@
       "label": "Heart of the Alien - Out of This World Parts I and II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-70025|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -141,7 +134,7 @@
       "label": "Keio Flying Squadron (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-60185|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -157,7 +150,7 @@
       "label": "Lunar - Eternal Blue (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-127045|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -165,7 +158,7 @@
       "label": "Lunar - The Silver Star (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-127015|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -181,7 +174,7 @@
       "label": "NHL '94 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-50015|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -194,10 +187,10 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Popful Mail (USA) (RE)/Popful Mail (USA) (RE).cue",
-      "label": "Popful Mail (USA) (RE)",
+      "label": "Popful Mail (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-127035|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -205,7 +198,7 @@
       "label": "Robo Aleste (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-48015|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -218,10 +211,10 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Shining Force CD (USA)/Shining Force CD (USA).cue",
-      "label": "Shining Force CD (USA)",
+      "label": "Shining Force CD (USA) (5R, 6R)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4656|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -237,7 +230,7 @@
       "label": "Snatcher (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-95035|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -245,7 +238,7 @@
       "label": "Sol-Feace (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4404|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -253,7 +246,7 @@
       "label": "Sonic CD (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "4407|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -266,10 +259,10 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega CD/Soulstar (USA)/Soulstar (USA).cue",
-      "label": "Soulstar (USA)",
+      "label": "SoulStar (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-115035|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     }
   ]
