@@ -10,7 +10,7 @@
   "sort_mode": 0,
   "scan_content_dir": "/Users/joon/Games/Emulation/Naomi",
   "scan_file_exts": "",
-  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/dat/MAME.dat",
+  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/xml/MAME.xml",
   "scan_search_recursively": false,
   "scan_search_archives": false,
   "scan_filter_dat_content": false,
