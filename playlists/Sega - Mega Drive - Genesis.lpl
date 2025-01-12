@@ -1,6 +1,6 @@
 {
   "version": "1.5",
-  "default_core_path": "/Users/joon/Library/Application Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
   "default_core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
   "base_content_directory": "/Users/joon/Games/Emulation",
   "label_display_mode": 0,
