@@ -1747,7 +1747,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Taikenban)/Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Taikenban).cue",
-      "label": "Time Bokan Series - Bokan to Ippatsu! Doronbow (Japan) (Demo)",
+      "label": "Time Bokan Series - Bokan to Ippatsu! Doronbow (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
       "crc32": "SLPM-80064|serial",
