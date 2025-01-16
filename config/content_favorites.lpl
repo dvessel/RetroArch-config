@@ -50,6 +50,30 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/esprade.zip",
+      "label": "ESP Ra.De. (World, 1998 4/22 International Ver.)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/espgal.zip",
+      "label": "Espgaluda (2003/10/15 Master Ver)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/espgal2a.zip",
+      "label": "Espgaluda II (2005/11/14 MASTER VER, newer CV1000-B PCB)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Final Fantasy VII (USA)/Final Fantasy VII (USA).m3u",
       "label": "Final Fantasy VII (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
@@ -92,6 +116,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/futari15.zip",
       "label": "Mushihime-Sama Futari Ver 1.5 (2006/12/8.MASTER VER. 1.54.)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/progear.zip",
+      "label": "Progear (USA 010117)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
