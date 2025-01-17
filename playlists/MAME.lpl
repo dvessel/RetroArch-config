@@ -1673,14 +1673,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/ikaruga.zip",
-      "label": "Ikaruga (GDL-0010)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/inthunt.zip",
       "label": "In The Hunt (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
