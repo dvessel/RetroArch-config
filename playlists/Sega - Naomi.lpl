@@ -65,14 +65,6 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/ggx.zip",
-      "label": "Guilty Gear X",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "00000000|crc",
-      "db_name": "Sega - Naomi.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Naomi/ggxxrl.zip",
       "label": "Guilty Gear XX #Reload (Japan, Rev A) (GDL-0019A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
