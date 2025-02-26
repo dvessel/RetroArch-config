@@ -585,6 +585,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/coolridr.zip",
+      "label": "Cool Riders",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/cotton.zip",
       "label": "Cotton (set 4, World) (FD1094 317-0181a)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
