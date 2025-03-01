@@ -10,6 +10,14 @@
   "sort_mode": 0,
   "items": [
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Galactic Protector (Japan).zip#Galactic Protector (Japan).sms",
+      "label": "Galactic Protector (Japan) (En)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "A6FA42D0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/Samgukji 3 (Korea) (Unl).zip#Samgukji 3 (Korea) (Unl).sms",
       "label": "Samgukji III - Cheonha Jaengpae (Korea) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
