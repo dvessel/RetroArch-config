@@ -2441,7 +2441,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/nightrai.chd",
+      "path": "/Users/joon/Games/Emulation/Arcade/nightrai.zip",
       "label": "Night Raid (V2.03J 2001/02/26 17:00)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2793,7 +2793,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/psyvaria.chd",
+      "path": "/Users/joon/Games/Emulation/Arcade/psyvaria.zip",
       "label": "Psyvariar -Medium Unit- (V2.02O 2000/02/22 13:00)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2801,7 +2801,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/psyvarrv.chd",
+      "path": "/Users/joon/Games/Emulation/Arcade/psyvarrv.zip",
       "label": "Psyvariar -Revision- (V2.04J 2000/08/11 22:00)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3001,7 +3001,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/raycris.chd",
+      "path": "/Users/joon/Games/Emulation/Arcade/raycris.zip",
       "label": "Ray Crisis (V2.03O 1998/11/15 15:43)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3353,7 +3353,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/shikigam.chd",
+      "path": "/Users/joon/Games/Emulation/Arcade/shikigam.zip",
       "label": "Shikigami no Shiro (V2.03J 2001/08/07 18:11)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4481,7 +4481,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/xiistag.chd",
+      "path": "/Users/joon/Games/Emulation/Arcade/xiistag.zip",
       "label": "XII Stag (V2.01J 2002/6/26 22:27)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
