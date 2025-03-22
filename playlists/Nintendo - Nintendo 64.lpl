@@ -18,6 +18,14 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/AeroFighters Assault (USA).zip#AeroFighters Assault (USA).z64",
+      "label": "AeroFighters Assault (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "4370D7E3|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo 64/Bakuretsu Muteki Bangaioh (Japan).zip#Bakuretsu Muteki Bangaioh (Japan).n64",
       "label": "Bakuretsu Muteki Bangaioh (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
@@ -55,6 +63,22 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
       "crc32": "7B878C56|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Bomberman 64 (USA).zip#Bomberman 64 (USA).z64",
+      "label": "Bomberman 64 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "3ED0E0DC|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Bomberman Hero (USA).zip#Bomberman Hero (USA).z64",
+      "label": "Bomberman Hero (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "2CC2E634|crc",
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
@@ -119,6 +143,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
       "crc32": "8CE25C68|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Diddy Kong Racing (USA) (En,Fr).zip#Diddy Kong Racing (USA) (En,Fr).z64",
+      "label": "Diddy Kong Racing (USA) (En,Fr)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "EB759206|crc",
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
@@ -207,6 +239,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
       "crc32": "A8F86EB6|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Jet Force Gemini (USA).zip#Jet Force Gemini (USA).z64",
+      "label": "Jet Force Gemini (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "6753D5A3|crc",
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
@@ -322,11 +362,27 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Resident Evil 2 (USA).zip#Resident Evil 2 (USA).z64",
+      "label": "Resident Evil 2 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "832EA1DA|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo 64/Road Rash 64 (USA).zip#Road Rash 64 (USA).z64",
       "label": "Road Rash 64 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
       "crc32": "2DA44585|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/San Francisco Rush - Extreme Racing (USA) (En,Fr,De).zip#San Francisco Rush - Extreme Racing (USA) (En,Fr,De).z64",
+      "label": "San Francisco Rush - Extreme Racing (USA) (En,Fr,De)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "3E20070B|crc",
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
@@ -418,6 +474,38 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Turok - Rage Wars (USA).zip#Turok - Rage Wars (USA).z64",
+      "label": "Turok - Rage Wars (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "422872A2|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Turok 2 - Seeds of Evil (USA).zip#Turok 2 - Seeds of Evil (USA).z64",
+      "label": "Turok 2 - Seeds of Evil (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "FF5E7636|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Turok 3 - Shadow of Oblivion (USA).zip#Turok 3 - Shadow of Oblivion (USA).z64",
+      "label": "Turok 3 - Shadow of Oblivion (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "CB297224|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Viewpoint 2064 (Japan) (Proto).zip#Viewpoint 2064 (Japan) (Proto).z64",
+      "label": "Viewpoint 2064 (Japan) (Proto)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
+      "crc32": "93A630CB|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo 64/Wave Race 64 (USA).zip#Wave Race 64 (USA).z64",
       "label": "Wave Race 64 - Kawasaki Jet Ski (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
@@ -431,6 +519,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
       "crc32": "3E8CCE96|crc",
+      "db_name": "Nintendo - Nintendo 64.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Wonder Project J2 - Koruro no Mori no Jozet (Japan).zip#Wonder Project J2 - Koruro no Mori no Jozet (Japan).z64",
+      "label": "Wonder Project J2 - Koruro no Mori no Jozet (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_n64_libretro.dylib",
+      "core_name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
+      "crc32": "5E8FC436|crc",
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
