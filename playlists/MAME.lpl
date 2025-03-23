@@ -2681,6 +2681,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/pinkswtsa.zip",
+      "label": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER...)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/pinkswts.zip",
       "label": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER....)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -2859,6 +2867,22 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/pbobbl2n.zip",
       "label": "Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/mushitama.zip",
+      "label": "Puzzle! Mushihime-Tama (2005/09/09 MASTER VER)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/mushitam.zip",
+      "label": "Puzzle! Mushihime-Tama (2005/09/09.MASTER VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
