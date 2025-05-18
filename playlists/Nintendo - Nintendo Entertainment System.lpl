@@ -8,6 +8,13 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
+  "scan_content_dir": "/Users/joon/Games/Emulation/Nintendo (NES)",
+  "scan_file_exts": "",
+  "scan_dat_file_path": "",
+  "scan_search_recursively": true,
+  "scan_search_archives": true,
+  "scan_filter_dat_content": false,
+  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/1942 (Japan, USA).zip#1942 (Japan, USA).nes",
@@ -202,6 +209,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Asterix (Europe) (En,Fr,De,Es,It).zip#Asterix (Europe) (En,Fr,De,Es,It).nes",
+      "label": "Asterix (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Astyanax (USA).zip#Astyanax (USA).nes",
       "label": "Astyanax (Jaleco) (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
@@ -287,6 +302,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "53B02F3D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Bible Adventures (USA) (v1.4) (Unl).zip#Bible Adventures (USA) (v1.4) (Unl).nes",
+      "label": "Bible Adventures (USA) (v1.4) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
@@ -770,6 +793,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dropzone (Europe).zip#Dropzone (Europe).nes",
+      "label": "Dropzone (Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Duck Hunt (World).zip#Duck Hunt (World).nes",
       "label": "Duck Hunt (Nintendo)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
@@ -807,6 +838,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "D415571F|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Elite (Europe) (En,Fr,De).zip#Elite (Europe) (En,Fr,De).nes",
+      "label": "Elite (Europe) (En,Fr,De)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
@@ -1322,6 +1361,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Karate Champ (USA).zip#Karate Champ (USA).nes",
+      "label": "Karate Champ (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Karate Kid, The (USA).zip#Karate Kid, The (USA).nes",
       "label": "Karate Kid, The (LJN) (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
@@ -1626,6 +1673,22 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mario Is Missing! (USA).zip#Mario Is Missing! (USA).nes",
+      "label": "Mario Is Missing! (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mario's Time Machine (USA).zip#Mario's Time Machine (USA).nes",
+      "label": "Mario's Time Machine (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mega Man (USA).zip#Mega Man (USA).nes",
       "label": "Mega Man (Capcom) (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
@@ -1703,6 +1766,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "3341274D|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mighty Bomb Jack (USA).zip#Mighty Bomb Jack (USA).nes",
+      "label": "Mighty Bomb Jack (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
@@ -1818,6 +1889,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/New Ghostbusters II (Europe).zip#New Ghostbusters II (Europe).nes",
+      "label": "New Ghostbusters II (Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Nightshade (USA).zip#Nightshade (USA).nes",
       "label": "Nightshade (Ultra Soft) (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
@@ -1866,11 +1945,27 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Noah's Ark (Europe).zip#Noah's Ark (Europe).nes",
+      "label": "Noah's Ark (Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/North and South (USA).zip#North and South (USA).nes",
       "label": "North and South (Seika) (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "840C3B42|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Over OBJ (Japan) (Unl).zip#Over OBJ (Japan) (Unl).nes",
+      "label": "Over OBJ (Japan) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
@@ -1911,6 +2006,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "EB171D77|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Parasol Stars - Rainbow Islands II (Europe).zip#Parasol Stars - Rainbow Islands II (Europe).nes",
+      "label": "Parasol Stars - Rainbow Islands II (Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
@@ -2127,6 +2230,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "ED2C6A3B|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Rygar (USA).zip#Rygar (USA).nes",
+      "label": "Rygar (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
@@ -2815,6 +2926,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "7D8D5F51|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Winter Games (USA).zip#Winter Games (USA).nes",
+      "label": "Winter Games (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {

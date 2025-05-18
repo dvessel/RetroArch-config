@@ -8,6 +8,13 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
+  "scan_content_dir": "/Users/joon/Games/Emulation/Super Nintendo (SNES)",
+  "scan_file_exts": "",
+  "scan_dat_file_path": "",
+  "scan_search_recursively": true,
+  "scan_search_archives": true,
+  "scan_filter_dat_content": false,
+  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/ActRaiser (USA).zip#ActRaiser (USA).sfc",
@@ -1591,6 +1598,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "29E8AC9F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Taekwon-Do (Korea).zip#Taekwon-Do (Korea).sfc",
+      "label": "Taekwon-Do (Korea)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
