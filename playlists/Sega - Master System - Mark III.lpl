@@ -386,6 +386,14 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Montezuma's Revenge - Featuring Panama Joe (USA).zip#Montezuma's Revenge - Featuring Panama Joe (USA).sms",
+      "label": "Montezuma's Revenge Featuring Panama Joe (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "82FDA895|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/My Hero (USA, Europe).zip#My Hero (USA, Europe).sms",
       "label": "My Hero (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
