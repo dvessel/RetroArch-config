@@ -4441,6 +4441,22 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/von2.zip",
+      "label": "Virtual On 2: Oratorio Tangram (Japan, Revision B)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/vonot.zip",
+      "label": "Virtual On Oratorio Tangram M.S.B.S. ver5.66 2000 Edition",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/balonfgt.zip",
       "label": "Vs. Balloon Fight (set BF4 A-3)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
