@@ -17,7 +17,7 @@
   "scan_overwrite_playlist": false,
   "items": [
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Animal Crossing.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Animal Crossing.rvz",
       "label": "Animal Crossing (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -25,7 +25,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Auto Modellista.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Auto Modellista.rvz",
       "label": "Auto Modellista (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -33,7 +33,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Beyond Good & Evil.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Beyond Good & Evil.rvz",
       "label": "Beyond Good & Evil (USA) (En,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -41,7 +41,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Billy Hatcher and the Giant Egg.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Billy Hatcher and the Giant Egg.rvz",
       "label": "Billy Hatcher and the Giant Egg (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -49,7 +49,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/GameCube-240pSuite-1.10b.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/GameCube-240pSuite-1.10b.rvz",
       "label": "Bloody Roar - Primal Fury (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -57,7 +57,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Chibi-Robo! Plug into Adventure!.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Chibi-Robo! Plug into Adventure!.rvz",
       "label": "Chibi-Robo! (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -65,7 +65,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Disney's Piglet's Big Game.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Disney's Piglet's Big Game.rvz",
       "label": "Disney's Piglet's Big Game (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -73,7 +73,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Eternal Darkness - Sanity's Requiem.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Eternal Darkness - Sanity's Requiem.rvz",
       "label": "Eternal Darkness - Sanity's Requiem (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -81,7 +81,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/F-Zero GX.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/F-Zero GX.rvz",
       "label": "F-Zero GX (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -89,7 +89,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Fire Emblem - Path of Radiance.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Fire Emblem - Path of Radiance.rvz",
       "label": "Fire Emblem - Path of Radiance (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -97,7 +97,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Godzilla - Destroy All Monsters Melee.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Godzilla - Destroy All Monsters Melee.rvz",
       "label": "Godzilla - Destroy All Monsters Melee (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -105,7 +105,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/The Grim Adventures of Billy & Mandy.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/The Grim Adventures of Billy & Mandy.rvz",
       "label": "Grim Adventures of Billy & Mandy, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -113,7 +113,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Ikaruga.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Ikaruga.rvz",
       "label": "Ikaruga (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -121,7 +121,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Killer7.m3u",
+      "path": "/Users/joon/Games/Emulation/GameCube/Killer7.m3u",
       "label": "Killer7 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -129,7 +129,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Kirby Air Ride.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Kirby Air Ride.rvz",
       "label": "Kirby Air Ride (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -137,7 +137,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Legend of Zelda, The - Collector's Edition.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Legend of Zelda, The - Collector's Edition.rvz",
       "label": "Legend of Zelda, The - Collector's Edition (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -145,7 +145,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Legend of Zelda, The - Four Swords Adventures.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Legend of Zelda, The - Four Swords Adventures.rvz",
       "label": "Legend of Zelda, The - Four Swords Adventures (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -153,7 +153,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Legend of Zelda, The - Ocarina of Time & Master Quest.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Legend of Zelda, The - Ocarina of Time & Master Quest.rvz",
       "label": "Legend of Zelda, The - Ocarina of Time & Master Quest (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -161,7 +161,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Legend of Zelda, The - The Wind Waker.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Legend of Zelda, The - The Wind Waker.rvz",
       "label": "Legend of Zelda, The - The Wind Waker (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -169,7 +169,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Legend of Zelda, The - Twilight Princess.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Legend of Zelda, The - Twilight Princess.rvz",
       "label": "Legend of Zelda, The - Twilight Princess (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -177,7 +177,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Luigis Mansion.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Luigis Mansion.rvz",
       "label": "Luigi's Mansion (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -185,7 +185,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Mario Kart - Double Dash!!.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Mario Kart - Double Dash!!.rvz",
       "label": "Mario Kart - Double Dash!! (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -193,7 +193,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Metal Gear Solid - The Twin Snakes.m3u",
+      "path": "/Users/joon/Games/Emulation/GameCube/Metal Gear Solid - The Twin Snakes.m3u",
       "label": "Metal Gear Solid - The Twin Snakes (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -201,7 +201,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Metroid Prime.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Metroid Prime.rvz",
       "label": "Metroid Prime (USA) (Rev 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -209,7 +209,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Metroid Prime 2 - Echoes.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Metroid Prime 2 - Echoes.rvz",
       "label": "Metroid Prime 2 - Echoes (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -217,7 +217,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/NASCAR 2005 - Chase for the Cup.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/NASCAR 2005 - Chase for the Cup.rvz",
       "label": "NASCAR 2005 - Chase for the Cup (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -225,7 +225,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Need for Speed - Underground.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Need for Speed - Underground.rvz",
       "label": "Need for Speed - Underground (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -233,7 +233,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom.rvz",
       "label": "Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -241,7 +241,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/P.N. 03.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/P.N. 03.rvz",
       "label": "P.N. 03 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -249,7 +249,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Paper Mario - The Thousand-Year Door.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Paper Mario - The Thousand-Year Door.rvz",
       "label": "Paper Mario - The Thousand-Year Door (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -257,7 +257,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Pikmin.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Pikmin.rvz",
       "label": "Pikmin (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -265,7 +265,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Pikmin 2.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Pikmin 2.rvz",
       "label": "Pikmin 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -273,7 +273,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/R-Racing Evolution.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/R-Racing Evolution.rvz",
       "label": "R-Racing Evolution (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -281,7 +281,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Resident Evil.m3u",
+      "path": "/Users/joon/Games/Emulation/GameCube/Resident Evil.m3u",
       "label": "Resident Evil (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -289,7 +289,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Resident Evil 4.m3u",
+      "path": "/Users/joon/Games/Emulation/GameCube/Resident Evil 4.m3u",
       "label": "Resident Evil 4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -297,7 +297,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Resident Evil Zero.m3u",
+      "path": "/Users/joon/Games/Emulation/GameCube/Resident Evil Zero.m3u",
       "label": "Resident Evil Zero (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -305,7 +305,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Simpsons, The - Hit & Run.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Simpsons, The - Hit & Run.rvz",
       "label": "Simpsons, The - Hit & Run (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -313,7 +313,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Simpsons, The - Road Rage.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Simpsons, The - Road Rage.rvz",
       "label": "Simpsons, The - Road Rage (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -321,7 +321,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Soul Calibur 2.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Soul Calibur 2.rvz",
       "label": "Soulcalibur II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -329,7 +329,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Star Fox Assault .rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Star Fox Assault .rvz",
       "label": "Star Fox - Assault (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -337,7 +337,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Star Wars - Rogue Squadron II - Rogue Leader.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Star Wars - Rogue Squadron II - Rogue Leader.rvz",
       "label": "Star Wars - Rogue Squadron II - Rogue Leader (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -345,7 +345,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Star Wars - Rogue Squadron III - Rebel Strike .rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Star Wars - Rogue Squadron III - Rebel Strike .rvz",
       "label": "Star Wars - Rogue Squadron III - Rebel Strike (USA) (En,Fr,De,Es,It) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -353,7 +353,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Super Mario Sunshine.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Super Mario Sunshine.rvz",
       "label": "Super Mario Sunshine (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -361,7 +361,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Super Monkey Ball.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Super Monkey Ball.rvz",
       "label": "Super Monkey Ball (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -369,7 +369,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Super Monkey Ball 2.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Super Monkey Ball 2.rvz",
       "label": "Super Monkey Ball 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -377,7 +377,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Super Monkey Ball Adventure .rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Super Monkey Ball Adventure .rvz",
       "label": "Super Monkey Ball Adventure (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -385,7 +385,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Super Smash Bros. Melee.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Super Smash Bros. Melee.rvz",
       "label": "Super Smash Bros. Melee (USA) (En,Ja) (Rev 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -393,7 +393,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Tales of Symphonia.m3u",
+      "path": "/Users/joon/Games/Emulation/GameCube/Tales of Symphonia.m3u",
       "label": "Tales of Symphonia (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -401,7 +401,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Tony Hawk's Pro Skater 4.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Tony Hawk's Pro Skater 4.rvz",
       "label": "Tony Hawk's Pro Skater 4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -409,7 +409,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Viewtiful Joe.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Viewtiful Joe.rvz",
       "label": "Viewtiful Joe (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -417,7 +417,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Viewtiful Joe - Red Hot Rumble.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Viewtiful Joe - Red Hot Rumble.rvz",
       "label": "Viewtiful Joe - Red Hot Rumble (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -425,7 +425,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Viewtiful Joe 2.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Viewtiful Joe 2.rvz",
       "label": "Viewtiful Joe 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -433,7 +433,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Wario World.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Wario World.rvz",
       "label": "Wario World (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -441,7 +441,7 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/Wave Race - Blue Storm.rvz",
+      "path": "/Users/joon/Games/Emulation/GameCube/Wave Race - Blue Storm.rvz",
       "label": "Wave Race - Blue Storm (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",

@@ -26,7 +26,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi No Rondo (English v1.01)/Akumajou Dracula X - Chi No Rondo (English v1.01).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi No Rondo (English v1.01)/Akumajou Dracula X - Chi No Rondo (English v1.01).cue",
       "label": "Akumajou Dracula X - Chi No Rondo (English v1.01)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -58,7 +58,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Castlevania - Symphony of the Night (USA)/Castlevania - Symphony of the Night (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Castlevania - Symphony of the Night (USA)/Castlevania - Symphony of the Night (USA).cue",
       "label": "Castlevania - Symphony of the Night (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -114,7 +114,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Einhander (USA)/Einhander (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Einhander (USA)/Einhander (USA).cue",
       "label": "Einhaender (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -146,7 +146,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Final Fantasy VII (USA)/Final Fantasy VII (USA).m3u",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy VII (USA)/Final Fantasy VII (USA).m3u",
       "label": "Final Fantasy VII (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -194,7 +194,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Gradius V/Gradius V.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Gradius V/Gradius V.chd",
       "label": "Gradius V",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -210,7 +210,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/ICO/ICO.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/ICO/ICO.chd",
       "label": "ICO",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -234,7 +234,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Metal Gear Solid 2 - Sons of Liberty/Metal Gear Solid 2 - Sons of Liberty.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 2 - Sons of Liberty/Metal Gear Solid 2 - Sons of Liberty.chd",
       "label": "Metal Gear Solid 2 - Sons of Liberty",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -242,7 +242,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Metal Gear Solid 2 - Substance/Metal Gear Solid 2 - Substance.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 2 - Substance/Metal Gear Solid 2 - Substance.chd",
       "label": "Metal Gear Solid 2 - Substance",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -250,7 +250,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Metal Gear Solid 3 - Snake Eater/Metal Gear Solid 3 - Snake Eater.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 3 - Snake Eater/Metal Gear Solid 3 - Snake Eater.chd",
       "label": "Metal Gear Solid 3 - Snake Eater",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -258,7 +258,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Metal Gear Solid 3 - Subsistence/Metal Gear Solid 3 - Subsistence.m3u",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 3 - Subsistence/Metal Gear Solid 3 - Subsistence.m3u",
       "label": "Metal Gear Solid 3 - Subsistence",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -306,7 +306,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Panzer Dragoon Saga (USA)/Panzer Dragoon Saga (USA).m3u",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon Saga (USA)/Panzer Dragoon Saga (USA).m3u",
       "label": "Panzer Dragoon Saga (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -354,7 +354,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/R-Type Final/R-Type Final.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/R-Type Final/R-Type Final.chd",
       "label": "R-Type Final",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -394,7 +394,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Shadow of the Colossus/Shadow of the Colossus.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shadow of the Colossus/Shadow of the Colossus.chd",
       "label": "Shadow of the Colossus",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -450,7 +450,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Dreamcast/Soul Calibur (USA, v1.000) (1999) (Namco).chd",
+      "path": "/Users/joon/Games/Emulation/Dreamcast/Soul Calibur (USA, v1.000) (1999) (Namco).chd",
       "label": "Soulcalibur (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -458,7 +458,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Soulcalibur II/Soulcalibur II.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Soulcalibur II/Soulcalibur II.chd",
       "label": "Soulcalibur II",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -466,7 +466,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Soulcalibur III/Soulcalibur III.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Soulcalibur III/Soulcalibur III.chd",
       "label": "Soulcalibur III",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -530,7 +530,7 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Thunder Force VI/Thunder Force VI.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Thunder Force VI/Thunder Force VI.chd",
       "label": "Thunder Force VI",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -546,7 +546,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Viewtiful Joe/Viewtiful Joe.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Viewtiful Joe/Viewtiful Joe.chd",
       "label": "Viewtiful Joe",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -554,7 +554,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Viewtiful Joe 2/Viewtiful Joe 2.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Viewtiful Joe 2/Viewtiful Joe 2.chd",
       "label": "Viewtiful Joe 2",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -562,7 +562,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Virtua Fighter 4 - Evolution/Virtua Fighter 4 - Evolution.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Virtua Fighter 4 - Evolution/Virtua Fighter 4 - Evolution.chd",
       "label": "Virtua Fighter 4 - Evolution",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -578,7 +578,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/WipEout (USA)/WipEout (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout (USA)/WipEout (USA).cue",
       "label": "WipEout (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -586,7 +586,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/WipEout 3 (USA)/WipEout 3 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 (USA)/WipEout 3 (USA).cue",
       "label": "WipEout 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -594,7 +594,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It)/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It)/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It).cue",
       "label": "WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -602,7 +602,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/WipEout Fusion/WipEout Fusion.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/WipEout Fusion/WipEout Fusion.chd",
       "label": "WipEout Fusion",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -610,7 +610,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/WipEout Pulse/WipEout Pulse.chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/WipEout Pulse/WipEout Pulse.chd",
       "label": "WipEout Pulse",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -618,7 +618,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Wipeout XL (USA)/Wipeout XL (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wipeout XL (USA)/Wipeout XL (USA).cue",
       "label": "Wipeout XL (USA) (Beta)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
