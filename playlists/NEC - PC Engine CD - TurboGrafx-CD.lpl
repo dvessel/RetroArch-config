@@ -10,7 +10,7 @@
   "sort_mode": 0,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ai Chou Aniki (Japan)(SADS)/Ai Chou Aniki (Japan)(SADS).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ai Chou Aniki (Japan)(SADS).chd",
       "label": "Ai Chou Aniki (Japan)(SADS)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -18,7 +18,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi No Rondo (English v1.01)/Akumajou Dracula X - Chi No Rondo (English v1.01).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi No Rondo (English v1.01).chd",
       "label": "Akumajou Dracula X - Chi No Rondo (English v1.01)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -26,7 +26,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (Japan)(FABT, FACT)/Akumajou Dracula X - Chi no Rondo (Japan)(FABT, FACT).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (Japan)(FABT, FACT).chd",
       "label": "Akumajou Dracula X - Chi no Rondo (Japan)(FABT, FACT)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -34,7 +34,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Asuka 120% Maxima Burning Fest (Japan)/Asuka 120% Maxima Burning Fest (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Asuka 120% Maxima Burning Fest (Japan).chd",
       "label": "Asuka 120% Maxima Burning Fest (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -42,7 +42,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Beyond Shadowgate (USA)/Beyond Shadowgate (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Beyond Shadowgate (USA).chd",
       "label": "Beyond Shadowgate (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -50,7 +50,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Bonk III - Bonk's Big Adventure (USA)/Bonk III - Bonk's Big Adventure (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Bonk III - Bonk's Big Adventure (USA).chd",
       "label": "Bonk III - Bonk's Big Adventure (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -58,7 +58,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Buster Bros. (Japan)/Buster Bros. (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Buster Bros. (Japan).chd",
       "label": "Buster Bros. (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -66,7 +66,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Chiki Chiki Boys (Japan)/Chiki Chiki Boys (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Chiki Chiki Boys (Japan).chd",
       "label": "Chiki Chiki Boys (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -74,7 +74,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Chou Aniki - Super Big Brothers (Japan)/Chou Aniki - Super Big Brothers (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Chou Aniki - Super Big Brothers (Japan).chd",
       "label": "Chou Aniki - Super Big Brothers (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -82,7 +82,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Chou Jikuu Yousai Macross 2036 (Japan)/Chou Jikuu Yousai Macross 2036 (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Chou Jikuu Yousai Macross 2036 (Japan).chd",
       "label": "Chou Jikuu Yousai Macross 2036 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -90,7 +90,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Cosmic Fantasy 2 (USA)/Cosmic Fantasy 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Cosmic Fantasy 2 (USA).chd",
       "label": "Cosmic Fantasy 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -98,7 +98,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Down Load 2 (Japan)/Down Load 2 (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Down Load 2 (Japan).chd",
       "label": "Down Load 2 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -106,7 +106,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Downtown Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan)/Downtown Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Downtown Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan).chd",
       "label": "Downtown Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -114,7 +114,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Downtown Nekketsu Monogatari (Japan)/Downtown Nekketsu Monogatari (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Downtown Nekketsu Monogatari (Japan).chd",
       "label": "Downtown Nekketsu Monogatari (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -122,7 +122,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Dragon Slayer - The Legend of Heroes (USA)/Dragon Slayer - The Legend of Heroes (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Dragon Slayer - The Legend of Heroes (USA).chd",
       "label": "Dragon Slayer - The Legend of Heroes (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -130,7 +130,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Dungeon Explorer II (USA)/Dungeon Explorer II (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Dungeon Explorer II (USA).chd",
       "label": "Dungeon Explorer II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -138,7 +138,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Dynastic Hero, The (USA)/Dynastic Hero, The (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Dynastic Hero, The (USA).chd",
       "label": "Dynastic Hero, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -146,7 +146,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Exile (USA)/Exile (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Exile (USA).chd",
       "label": "Exile (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -154,7 +154,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Exile II - Un-Worked Designs (Hack v1)/Exile II - Un-Worked Designs (Hack v1).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Exile II - Un-Worked Designs (Hack v1).chd",
       "label": "Exile II - Un-Worked Designs (Hack v1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -162,7 +162,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Fantastic Night Dreams - Cotton (USA)/Fantastic Night Dreams - Cotton (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Fantastic Night Dreams - Cotton (USA).chd",
       "label": "Fantastic Night Dreams - Cotton (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -170,7 +170,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Fantasy Star Soldier (USA)/Fantasy Star Soldier (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Fantasy Star Soldier (USA).chd",
       "label": "Fantasy Star Soldier (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -178,7 +178,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7)/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7).chd",
       "label": "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -186,7 +186,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7) (translated into english)/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7) (translated into english).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7) (translated into english).chd",
       "label": "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7) (translated into english)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -194,7 +194,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Fighting Street (USA)/Fighting Street (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Fighting Street (USA).chd",
       "label": "Fighting Street (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -202,7 +202,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Final Zone II (USA)/Final Zone II (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Final Zone II (USA).chd",
       "label": "Final Zone II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -210,7 +210,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Fire Pro Jyoshi - Dome Chojyo Taisen (Japan)/Fire Pro Jyoshi - Dome Chojyo Taisen (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Fire Pro Jyoshi - Dome Chojyo Taisen (Japan).chd",
       "label": "Fire Pro Jyoshi - Dome Chojyo Taisen (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -218,7 +218,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Forgotten Worlds (USA)/Forgotten Worlds (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Forgotten Worlds (USA).chd",
       "label": "Forgotten Worlds (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -226,7 +226,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Gain Ground SX (Japan)/Gain Ground SX (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Gain Ground SX (Japan).chd",
       "label": "Gain Ground SX (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -234,7 +234,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Galaxy Deka Gayvan (Japan)/Galaxy Deka Gayvan (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Galaxy Deka Gayvan (Japan).chd",
       "label": "Galaxy Deka Gayvan (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -242,7 +242,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Gate of Thunder (Japan)/Gate of Thunder (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Gate of Thunder (Japan).chd",
       "label": "Gate of Thunder (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -250,7 +250,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ginga Fukei Densetsu Sapphire (Japan)/Ginga Fukei Densetsu Sapphire (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ginga Fukei Densetsu Sapphire (Japan).chd",
       "label": "Ginga Fukei Densetsu Sapphire (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -258,7 +258,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Goetzendiener (Japan)/Goetzendiener (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Goetzendiener (Japan).chd",
       "label": "Goetzendiener (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -266,7 +266,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Gradius II - Gofer no Yabou (Japan)/Gradius II - Gofer no Yabou (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Gradius II - Gofer no Yabou (Japan).chd",
       "label": "Gradius II - Gofer no Yabou (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -274,7 +274,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Jessie Jaeger in Cleopatra's Curse (World) (Unl)/Jessie Jaeger in Cleopatra's Curse (World) (Unl).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Jessie Jaeger in Cleopatra's Curse (World) (Unl).chd",
       "label": "Jessie Jaeger in Cleopatra's Curse (World) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -282,7 +282,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Jim Power - In Mutant Planet (Japan)/Jim Power - In Mutant Planet (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Jim Power - In Mutant Planet (Japan).chd",
       "label": "Jim Power - In Mutant Planet (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -290,7 +290,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Kaze Kiri Ninja Action (Japan)/Kaze Kiri Ninja Action (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Kaze Kiri Ninja Action (Japan).chd",
       "label": "Kaze Kiri Ninja Action (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -298,7 +298,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Last Alert (USA)/Last Alert (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Last Alert (USA).chd",
       "label": "Last Alert (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -306,7 +306,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Loom (USA)/Loom (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Loom (USA).chd",
       "label": "Loom (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -314,7 +314,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Lords of the Rising Sun (USA)/Lords of the Rising Sun (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Lords of the Rising Sun (USA).chd",
       "label": "Lords of the Rising Sun (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -322,7 +322,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Lords of Thunder (USA)/Lords of Thunder (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Lords of Thunder (USA).chd",
       "label": "Lords of Thunder (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -330,7 +330,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Manhole, The (Japan)/Manhole, The (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Manhole, The (Japan).chd",
       "label": "Manhole, The (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -338,7 +338,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Metamor Jupiter (Japan)/Metamor Jupiter (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Metamor Jupiter (Japan).chd",
       "label": "Metamor Jupiter (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -346,7 +346,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Might and Magic III - Isles of Terra (USA)/Might and Magic III - Isles of Terra (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Might and Magic III - Isles of Terra (USA).chd",
       "label": "Might and Magic III - Isles of Terra (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -354,7 +354,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Mirai Shonen Conan (Japan)/Mirai Shonen Conan (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Mirai Shonen Conan (Japan).chd",
       "label": "Mirai Shonen Conan (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -362,7 +362,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Monster Lair (USA)/Monster Lair (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Monster Lair (USA).chd",
       "label": "Monster Lair (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -370,7 +370,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Motteke Tamago (Japan)/Motteke Tamago (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Motteke Tamago (Japan).chd",
       "label": "Motteke Tamago (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -378,7 +378,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Motteke Tamago (translated into english)(Japan)/Motteke Tamago (translated into english)(Japan).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Motteke Tamago (translated into english)(Japan).chd",
       "label": "Motteke Tamago (translated into english)(Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -386,7 +386,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Mugen Senshi Valis - Legend of a Fantasm Soldier (Japan)/Mugen Senshi Valis - Legend of a Fantasm Soldier (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Mugen Senshi Valis - Legend of a Fantasm Soldier (Japan).chd",
       "label": "Mugen Senshi Valis - Legend of a Fantasm Soldier (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -394,7 +394,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Mystic Formula (Japan)/Mystic Formula (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Mystic Formula (Japan).chd",
       "label": "Mystic Formula (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -402,7 +402,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Neo Nectaris (Japan)/Neo Nectaris (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Neo Nectaris (Japan).chd",
       "label": "Neo Nectaris (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -410,7 +410,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Nexzr (Japan)/Nexzr (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Nexzr (Japan).chd",
       "label": "Nexzr (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -418,7 +418,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Popful Mail - Magical Fantasy Adventure (Japan)/Popful Mail - Magical Fantasy Adventure (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Popful Mail - Magical Fantasy Adventure (Japan).chd",
       "label": "Popful Mail - Magical Fantasy Adventure (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -426,7 +426,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Prince of Persia (USA)/Prince of Persia (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Prince of Persia (USA).chd",
       "label": "Prince of Persia (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -434,7 +434,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/R-Type Complete CD (Japan)/R-Type Complete CD (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/R-Type Complete CD (Japan).chd",
       "label": "R-Type Complete CD (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -442,7 +442,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Rayxanber II (Japan)/Rayxanber II (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Rayxanber II (Japan).chd",
       "label": "Rayxanber II (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -450,7 +450,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Rayxanber III (Japan)/Rayxanber III (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Rayxanber III (Japan).chd",
       "label": "Rayxanber III (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -458,7 +458,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Red Alert (Japan)/Red Alert (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Red Alert (Japan).chd",
       "label": "Red Alert (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -466,7 +466,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Seirei Senshi Spriggan (Japan)/Seirei Senshi Spriggan (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Seirei Senshi Spriggan (Japan).chd",
       "label": "Seirei Senshi Spriggan (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -474,7 +474,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Sherlock Holmes Consulting Detective (USA)/Sherlock Holmes Consulting Detective (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Sherlock Holmes Consulting Detective (USA).chd",
       "label": "Sherlock Holmes Consulting Detective (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -482,7 +482,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Space Fantasy Zone (Japan)/Space Fantasy Zone (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Space Fantasy Zone (Japan).chd",
       "label": "Space Fantasy Zone (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -490,7 +490,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Spriggan Mark 2 - Re Terraform Project (Japan)/Spriggan Mark 2 - Re Terraform Project (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Spriggan Mark 2 - Re Terraform Project (Japan).chd",
       "label": "Spriggan Mark 2 - Re Terraform Project (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -498,7 +498,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Star Parodia (Japan)/Star Parodia (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Star Parodia (Japan).chd",
       "label": "Star Parodia (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -506,7 +506,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Strider Hiryuu (Japan)/Strider Hiryuu (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Strider Hiryuu (Japan).chd",
       "label": "Strider Hiryuu (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -514,7 +514,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Summer Carnival '92 - Alzadick (Japan)/Summer Carnival '92 - Alzadick (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Summer Carnival '92 - Alzadick (Japan).chd",
       "label": "Summer Carnival '92 - Alzadick (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -522,7 +522,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Summer Carnival '93 - Nexzr Special (Japan)/Summer Carnival '93 - Nexzr Special (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Summer Carnival '93 - Nexzr Special (Japan).chd",
       "label": "Summer Carnival '93 - Nexzr Special (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -530,7 +530,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Super Air Zonk - Rockabilly-Paradise (USA)/Super Air Zonk - Rockabilly-Paradise (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Super Air Zonk - Rockabilly-Paradise (USA).chd",
       "label": "Super Air Zonk - Rockabilly-Paradise (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -538,7 +538,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Super Raiden (Japan)/Super Raiden (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Super Raiden (Japan).chd",
       "label": "Super Raiden (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -546,7 +546,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/SydMead's TerraForming (USA)/SydMead's TerraForming (USA).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/SydMead's TerraForming (USA).chd",
       "label": "SydMead's TerraForming (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -554,7 +554,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Sylphia (Japan)/Sylphia (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Sylphia (Japan).chd",
       "label": "Sylphia (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -562,7 +562,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Valis II (USA)/Valis II (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Valis II (USA).chd",
       "label": "Valis II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -570,7 +570,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Valis III (USA)/Valis III (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Valis III (USA).chd",
       "label": "Valis III (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -578,7 +578,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Valis IV - The Fantasm Soldier (Japan)/Valis IV - The Fantasm Soldier (Japan).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Valis IV - The Fantasm Soldier (Japan).chd",
       "label": "Valis IV - The Fantasm Soldier (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -586,7 +586,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Xak III - The Eternal Recurrence (Japan)(translated into english)/Xak III - The Eternal Recurrence (Japan)(translated into english).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Xak III - The Eternal Recurrence (Japan)(translated into english).chd",
       "label": "Xak III - The Eternal Recurrence (Japan)(translated into english)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -594,7 +594,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ys Book I & II (USA)/Ys Book I & II (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ys Book I & II (USA).chd",
       "label": "Ys Book I & II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -602,7 +602,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ys III - Wanderers from Ys (USA)/Ys III - Wanderers from Ys (USA).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ys III - Wanderers from Ys (USA).chd",
       "label": "Ys III - Wanderers from Ys (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -610,7 +610,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ys IV - The Dawn of Ys (Japan)(translated into english)/Ys IV - The Dawn of Ys (Japan)(translated into english).ccd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ys IV - The Dawn of Ys (Japan)(translated into english).chd",
       "label": "Ys IV - The Dawn of Ys (Japan)(translated into english)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",

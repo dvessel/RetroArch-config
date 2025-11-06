@@ -18,7 +18,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ace Combat 2 (USA)/Ace Combat 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ace Combat 2 (USA).chd",
       "label": "Ace Combat 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -26,7 +26,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ace Combat 3 - Electrosphere (USA)/Ace Combat 3 - Electrosphere (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ace Combat 3 - Electrosphere (USA).chd",
       "label": "Ace Combat 3 - Electrosphere (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -34,7 +34,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Air Combat (USA)/Air Combat (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Air Combat (USA).chd",
       "label": "Air Combat (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -42,7 +42,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Alien Resurrection (USA)/Alien Resurrection (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Alien Resurrection (USA).chd",
       "label": "Alien Resurrection (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -58,7 +58,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Alundra (USA)/Alundra (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Alundra (USA).chd",
       "label": "Alundra (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -66,7 +66,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Alundra 2 - A New Legend Begins (USA)/Alundra 2 - A New Legend Begins (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Alundra 2 - A New Legend Begins (USA).chd",
       "label": "Alundra 2 - A New Legend Begins (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -74,7 +74,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ape Escape (USA)/Ape Escape (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ape Escape (USA).chd",
       "label": "Ape Escape (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -82,7 +82,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Armored Core (USA)/Armored Core (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Armored Core (USA).chd",
       "label": "Armored Core (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -90,7 +90,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Art Camion - Geijutsuden (Japan)/Art Camion - Geijutsuden (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Art Camion - Geijutsuden (Japan).chd",
       "label": "Art Camion - Geijutsuden (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -98,7 +98,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bakusou Dekotora Densetsu - Otoko Ippiki Yume Kaidou (Japan)/Bakusou Dekotora Densetsu - Otoko Ippiki Yume Kaidou (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bakusou Dekotora Densetsu - Otoko Ippiki Yume Kaidou (Japan).chd",
       "label": "Bakusou Dekotora Densetsu - Otoko Ippiki Yume Kaidou (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -106,7 +106,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bakusou Dekotora Densetsu 2 - Otoko Jinsei Yume Ichiro (Japan)/Bakusou Dekotora Densetsu 2 - Otoko Jinsei Yume Ichiro (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bakusou Dekotora Densetsu 2 - Otoko Jinsei Yume Ichiro (Japan).chd",
       "label": "Bakusou Dekotora Densetsu 2 - Otoko Jinsei Yume Ichiro (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -114,7 +114,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Blaster Master - Blasting Again (USA)/Blaster Master - Blasting Again (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Blaster Master - Blasting Again (USA).chd",
       "label": "Blaster Master - Blasting Again (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -122,7 +122,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Blazing Dragons (USA)/Blazing Dragons (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Blazing Dragons (USA).chd",
       "label": "Blazing Dragons (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -130,7 +130,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Breath of Fire III (USA)/Breath of Fire III (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Breath of Fire III (USA).chd",
       "label": "Breath of Fire III (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -138,7 +138,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Breath of Fire IV (USA)/Breath of Fire IV (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Breath of Fire IV (USA).chd",
       "label": "Breath of Fire IV (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -146,7 +146,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Broken Sword - The Shadow of the Templars (USA)/Broken Sword - The Shadow of the Templars (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Broken Sword - The Shadow of the Templars (USA).chd",
       "label": "Broken Sword - The Shadow of the Templars (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -154,7 +154,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Broken Sword II - The Smoking Mirror (USA)/Broken Sword II - The Smoking Mirror (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Broken Sword II - The Smoking Mirror (USA).chd",
       "label": "Broken Sword II - The Smoking Mirror (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -162,7 +162,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Burning Road (USA)/Burning Road (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Burning Road (USA).chd",
       "label": "Burning Road (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -170,7 +170,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bushido Blade (USA)/Bushido Blade (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bushido Blade (USA).chd",
       "label": "Bushido Blade (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -178,7 +178,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bushido Blade 2 (USA)/Bushido Blade 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bushido Blade 2 (USA).chd",
       "label": "Bushido Blade 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -186,7 +186,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Castlevania - Symphony of the Night (USA)/Castlevania - Symphony of the Night (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Castlevania - Symphony of the Night (USA).chd",
       "label": "Castlevania - Symphony of the Night (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -194,7 +194,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Castlevania Chronicles (USA)/Castlevania Chronicles (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Castlevania Chronicles (USA).chd",
       "label": "Castlevania Chronicles (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -202,7 +202,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Championship Motocross 2001 featuring Ricky Carmichael (USA)/Championship Motocross 2001 featuring Ricky Carmichael (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Championship Motocross 2001 featuring Ricky Carmichael (USA).chd",
       "label": "Championship Motocross 2001 featuring Ricky Carmichael (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -210,7 +210,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Chou Aniki - Kyuukyoku Muteki Ginga Saikyou Otoko (Japan)/Chou Aniki - Kyuukyoku Muteki Ginga Saikyou Otoko (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Chou Aniki - Kyuukyoku Muteki Ginga Saikyou Otoko (Japan).chd",
       "label": "Chou Aniki - Kyuukyoku Muteki Ginga Saikyou Otoko (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -226,7 +226,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/City of Lost Children, The (USA) (En,Es,It)/City of Lost Children, The (USA) (En,Es,It).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/City of Lost Children, The (USA) (En,Es,It).chd",
       "label": "City of Lost Children, The (USA) (En,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -234,7 +234,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Clock Tower - The First Fear (Japan)/Clock Tower - The First Fear (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Clock Tower - The First Fear (Japan).chd",
       "label": "Clock Tower - The First Fear (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -242,7 +242,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colin McRae Rally 2.0 (USA) (En,Fr,Es)/Colin McRae Rally 2.0 (USA) (En,Fr,Es).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colin McRae Rally 2.0 (USA) (En,Fr,Es).chd",
       "label": "Colin McRae Rally 2.0 (USA) (En,Fr,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -258,7 +258,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colony Wars - Red Sun (USA)/Colony Wars - Red Sun (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colony Wars - Red Sun (USA).chd",
       "label": "Colony Wars - Red Sun (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -266,7 +266,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colony Wars - Vengeance (USA)/Colony Wars - Vengeance (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colony Wars - Vengeance (USA).chd",
       "label": "Colony Wars - Vengeance (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -274,7 +274,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Command & Conquer - Red Alert - Retaliation (USA) (Disc 1) (Allies)/Command & Conquer - Red Alert - Retaliation (USA) (Disc 1) (Allies).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Command & Conquer - Red Alert - Retaliation (USA) (Disc 1) (Allies).chd",
       "label": "Command & Conquer - Red Alert - Retaliation (USA) (Disc 1) (Allies)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -282,7 +282,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Command & Conquer - Red Alert - Retaliation (USA) (Disc 2) (Soviet)/Command & Conquer - Red Alert - Retaliation (USA) (Disc 2) (Soviet).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Command & Conquer - Red Alert - Retaliation (USA) (Disc 2) (Soviet).chd",
       "label": "Command & Conquer - Red Alert - Retaliation (USA) (Disc 2) (Soviet)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -290,7 +290,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Crash Bandicoot (USA)/Crash Bandicoot (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Crash Bandicoot (USA).chd",
       "label": "Crash Bandicoot (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -298,7 +298,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Crash Bandicoot - Warped (USA)/Crash Bandicoot - Warped (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Crash Bandicoot - Warped (USA).chd",
       "label": "Crash Bandicoot - Warped (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -306,7 +306,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Crash Bandicoot 2 - Cortex Strikes Back (USA)/Crash Bandicoot 2 - Cortex Strikes Back (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Crash Bandicoot 2 - Cortex Strikes Back (USA).chd",
       "label": "Crash Bandicoot 2 - Cortex Strikes Back (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -314,7 +314,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Darius Gaiden (Japan)/Darius Gaiden (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Darius Gaiden (Japan).chd",
       "label": "Darius Gaiden (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -322,7 +322,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Darkstone (USA)/Darkstone (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Darkstone (USA).chd",
       "label": "Darkstone (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -330,7 +330,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Deception III - Dark Delusion (USA)/Deception III - Dark Delusion (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Deception III - Dark Delusion (USA).chd",
       "label": "Deception III - Dark Delusion (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -338,7 +338,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Destruction Derby (USA)/Destruction Derby (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Destruction Derby (USA).chd",
       "label": "Destruction Derby (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -346,7 +346,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Destruction Derby 2 (USA)/Destruction Derby 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Destruction Derby 2 (USA).chd",
       "label": "Destruction Derby 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -354,7 +354,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Destruction Derby Raw (USA)/Destruction Derby Raw (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Destruction Derby Raw (USA).chd",
       "label": "Destruction Derby Raw (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -362,7 +362,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Devil Dice (USA)/Devil Dice (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Devil Dice (USA).chd",
       "label": "Devil Dice (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -370,7 +370,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Diablo (USA) (En,Fr,De,Sv)/Diablo (USA) (En,Fr,De,Sv).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Diablo (USA) (En,Fr,De,Sv).chd",
       "label": "Diablo (USA) (En,Fr,De,Sv)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -378,7 +378,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Dino Crisis (USA)/Dino Crisis (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Dino Crisis (USA).chd",
       "label": "Dino Crisis (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -386,7 +386,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Dino Crisis 2 (USA)/Dino Crisis 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Dino Crisis 2 (USA).chd",
       "label": "Dino Crisis 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -394,7 +394,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Doom (USA) (Rev 1)/Doom (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Doom (USA) (Rev 1).chd",
       "label": "Doom (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -410,7 +410,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Duke Nukem - Total Meltdown (USA)/Duke Nukem - Total Meltdown (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Duke Nukem - Total Meltdown (USA).chd",
       "label": "Duke Nukem - Total Meltdown (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -418,7 +418,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Dune 2000 (USA)/Dune 2000 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Dune 2000 (USA).chd",
       "label": "Dune 2000 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -426,7 +426,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Einhander (USA)/Einhander (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Einhander (USA).chd",
       "label": "Einhaender (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -434,7 +434,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Elemental Gearbolt (USA)/Elemental Gearbolt (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Elemental Gearbolt (USA).chd",
       "label": "Elemental Gearbolt (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -442,7 +442,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Fade to Black (USA) (En,Fr,De,Es,It)/Fade to Black (USA) (En,Fr,De,Es,It).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Fade to Black (USA) (En,Fr,De,Es,It).chd",
       "label": "Fade to Black (USA) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -466,7 +466,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Fighters' Impact (Japan)/Fighters' Impact (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Fighters' Impact (Japan).chd",
       "label": "Fighters' Impact (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -474,7 +474,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Doom (USA)/Final Doom (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Doom (USA).chd",
       "label": "Final Doom (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -482,7 +482,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Anthology - Final Fantasy V (USA) (Rev 1)/Final Fantasy Anthology - Final Fantasy V (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Anthology - Final Fantasy V (USA) (Rev 1).chd",
       "label": "Final Fantasy Anthology - Final Fantasy V (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -490,7 +490,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Anthology - Final Fantasy VI (USA) (Rev 1)/Final Fantasy Anthology - Final Fantasy VI (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Anthology - Final Fantasy VI (USA) (Rev 1).chd",
       "label": "Final Fantasy Anthology - Final Fantasy VI (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -498,7 +498,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Chronicles - Chrono Trigger (USA) (Rev 1)/Final Fantasy Chronicles - Chrono Trigger (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Chronicles - Chrono Trigger (USA) (Rev 1).chd",
       "label": "Final Fantasy Chronicles - Chrono Trigger (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -506,7 +506,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Chronicles - Final Fantasy IV (USA) (Rev 1)/Final Fantasy Chronicles - Final Fantasy IV (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Chronicles - Final Fantasy IV (USA) (Rev 1).chd",
       "label": "Final Fantasy Chronicles - Final Fantasy IV (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -522,7 +522,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Origins (USA) (Rev 1)/Final Fantasy Origins (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Origins (USA) (Rev 1).chd",
       "label": "Final Fantasy Origins (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -546,7 +546,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Fire Pro Wrestling G (Japan)/Fire Pro Wrestling G (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Fire Pro Wrestling G (Japan).chd",
       "label": "Fire Pro Wrestling G (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -554,7 +554,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Firemen 2, The - Pete & Danny (Japan)/Firemen 2, The - Pete & Danny (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Firemen 2, The - Pete & Danny (Japan).chd",
       "label": "Firemen 2, The - Pete & Danny (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -562,7 +562,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Forsaken (USA)/Forsaken (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Forsaken (USA).chd",
       "label": "Forsaken (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -570,7 +570,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Future Cop - L.A.P.D. (USA)/Future Cop - L.A.P.D. (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Future Cop - L.A.P.D. (USA).chd",
       "label": "Future Cop - L.A.P.D. (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -578,7 +578,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/G. Darius (USA)/G. Darius (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/G. Darius (USA).chd",
       "label": "G. Darius (USA) (Beta)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -586,7 +586,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/GaiaSeed - Project Seed Trap (Japan)/GaiaSeed - Project Seed Trap (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/GaiaSeed - Project Seed Trap (Japan).chd",
       "label": "GaiaSeed - Project Seed Trap (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -594,7 +594,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Galaga - Destination Earth (USA)/Galaga - Destination Earth (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Galaga - Destination Earth (USA).chd",
       "label": "Galaga - Destination Earth (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -610,7 +610,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/GeGeGe no Kitarou - Gyakushuu! Youma Daikessen (Japan)/GeGeGe no Kitarou - Gyakushuu! Youma Daikessen (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/GeGeGe no Kitarou - Gyakushuu! Youma Daikessen (Japan).chd",
       "label": "GeGeGe no Kitarou - Gyakushuu! Youma Daikessen (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -618,7 +618,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gekitou! Crush Gear Turbo (Japan)/Gekitou! Crush Gear Turbo (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gekitou! Crush Gear Turbo (Japan).chd",
       "label": "Gekitou! Crush Gear Turbo (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -626,7 +626,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ghost in the Shell (USA)/Ghost in the Shell (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ghost in the Shell (USA).chd",
       "label": "Ghost in the Shell (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -634,7 +634,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gradius Deluxe Pack (Japan)/Gradius Deluxe Pack (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gradius Deluxe Pack (Japan).chd",
       "label": "Gradius Deluxe Pack (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -642,7 +642,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gradius Gaiden (Japan) (Rev 1)/Gradius Gaiden (Japan) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gradius Gaiden (Japan) (Rev 1).chd",
       "label": "Gradius Gaiden (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -650,7 +650,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gran Turismo (USA) (Rev 1)/Gran Turismo (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gran Turismo (USA) (Rev 1).chd",
       "label": "Gran Turismo (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -658,7 +658,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gran Turismo 2 (USA) (Arcade Mode) (Rev 1)/Gran Turismo 2 (USA) (Arcade Mode) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gran Turismo 2 (USA) (Arcade Mode) (Rev 1).chd",
       "label": "Gran Turismo 2 (USA) (Arcade Mode) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -666,7 +666,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gran Turismo 2 (USA) (Simulation Mode) (Rev 2)/Gran Turismo 2 (USA) (Simulation Mode) (Rev 2).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gran Turismo 2 (USA) (Simulation Mode) (Rev 2).chd",
       "label": "Gran Turismo 2 (USA) (Simulation Mode) (Rev 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -674,7 +674,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Grand Theft Auto (USA)/Grand Theft Auto (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Grand Theft Auto (USA).chd",
       "label": "Grand Theft Auto (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -682,7 +682,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Grand Theft Auto - Mission Pack 1 - London 1969 (USA)/Grand Theft Auto - Mission Pack 1 - London 1969 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Grand Theft Auto - Mission Pack 1 - London 1969 (USA).chd",
       "label": "Grand Theft Auto - Mission Pack 1 - London 1969 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -690,7 +690,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Grand Theft Auto 2 (USA)/Grand Theft Auto 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Grand Theft Auto 2 (USA).chd",
       "label": "Grand Theft Auto 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -698,7 +698,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gunners Heaven (Japan)/Gunners Heaven (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gunners Heaven (Japan).chd",
       "label": "Gunners Heaven (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -706,7 +706,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Harmful Park (Japan)/Harmful Park (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Harmful Park (Japan).chd",
       "label": "Harmful Park (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -714,7 +714,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Harvest Moon - Back to Nature (USA)/Harvest Moon - Back to Nature (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Harvest Moon - Back to Nature (USA).chd",
       "label": "Harvest Moon - Back to Nature (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -730,7 +730,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Herc's Adventures (USA)/Herc's Adventures (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Herc's Adventures (USA).chd",
       "label": "Herc's Adventures (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -738,7 +738,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Hokuto no Ken (Japan)/Hokuto no Ken (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Hokuto no Ken (Japan).chd",
       "label": "Hokuto no Ken (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -746,7 +746,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/I.Q - Intelligent Qube (USA)/I.Q - Intelligent Qube (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/I.Q - Intelligent Qube (USA).chd",
       "label": "I.Q - Intelligent Qube (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -754,7 +754,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Incredible Crisis (USA)/Incredible Crisis (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Incredible Crisis (USA).chd",
       "label": "Incredible Crisis (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -762,7 +762,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Invasion from Beyond (USA)/Invasion from Beyond (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Invasion from Beyond (USA).chd",
       "label": "Invasion from Beyond (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -770,7 +770,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/iS - Internal Section (Japan)/iS - Internal Section (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/iS - Internal Section (Japan).chd",
       "label": "iS - Internal Section (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -778,7 +778,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/JGTC - All Japan Grand Touring Car Championship (Japan)/JGTC - All Japan Grand Touring Car Championship (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/JGTC - All Japan Grand Touring Car Championship (Japan).chd",
       "label": "JGTC - All Japan Grand Touring Car Championship (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -786,7 +786,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Jikkyou Oshaberi Parodius - Forever with Me (Japan)/Jikkyou Oshaberi Parodius - Forever with Me (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Jikkyou Oshaberi Parodius - Forever with Me (Japan).chd",
       "label": "Jikkyou Oshaberi Parodius - Forever with Me (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -794,7 +794,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/JoJo's Bizarre Adventure (USA)/JoJo's Bizarre Adventure (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/JoJo's Bizarre Adventure (USA).chd",
       "label": "JoJo's Bizarre Adventure (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -802,7 +802,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Jumping Flash! (USA)/Jumping Flash! (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Jumping Flash! (USA).chd",
       "label": "Jumping Flash! (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -810,7 +810,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Jumping Flash! 2 (USA)/Jumping Flash! 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Jumping Flash! 2 (USA).chd",
       "label": "Jumping Flash! 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -818,7 +818,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kagero - Deception II (USA)/Kagero - Deception II (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kagero - Deception II (USA).chd",
       "label": "Kagero - Deception II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -826,7 +826,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider (Japan)/Kamen Rider (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider (Japan).chd",
       "label": "Kamen Rider (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -834,7 +834,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Agito (Japan)/Kamen Rider Agito (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Agito (Japan).chd",
       "label": "Kamen Rider Agito (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -842,7 +842,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Kuuga (Japan)/Kamen Rider Kuuga (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Kuuga (Japan).chd",
       "label": "Kamen Rider Kuuga (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -850,7 +850,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Ryuuki (Japan)/Kamen Rider Ryuuki (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Ryuuki (Japan).chd",
       "label": "Kamen Rider Ryuuki (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -858,7 +858,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider V3 (Japan)/Kamen Rider V3 (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider V3 (Japan).chd",
       "label": "Kamen Rider V3 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -866,7 +866,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kensei - Sacred Fist (USA)/Kensei - Sacred Fist (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kensei - Sacred Fist (USA).chd",
       "label": "Kensei - Sacred Fist (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -874,7 +874,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kileak - The DNA Imperative (USA)/Kileak - The DNA Imperative (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kileak - The DNA Imperative (USA).chd",
       "label": "Kileak - The DNA Imperative (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -882,7 +882,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kileak, The Blood 2 - Reason in Madness (Japan)/Kileak, The Blood 2 - Reason in Madness (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kileak, The Blood 2 - Reason in Madness (Japan).chd",
       "label": "Kileak, The Blood 2 - Reason in Madness (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -890,7 +890,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/King's Field (USA)/King's Field (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/King's Field (USA).chd",
       "label": "King's Field (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -898,7 +898,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/King's Field II (USA)/King's Field II (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/King's Field II (USA).chd",
       "label": "King's Field II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -906,7 +906,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Klonoa - Door to Phantomile (USA)/Klonoa - Door to Phantomile (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Klonoa - Door to Phantomile (USA).chd",
       "label": "Klonoa - Door to Phantomile (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -922,7 +922,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Legacy of Kain - Soul Reaver (USA)/Legacy of Kain - Soul Reaver (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Legacy of Kain - Soul Reaver (USA).chd",
       "label": "Legacy of Kain - Soul Reaver (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -938,7 +938,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Legend of Mana (USA)/Legend of Mana (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Legend of Mana (USA).chd",
       "label": "Legend of Mana (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -946,7 +946,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Lode Runner (USA)/Lode Runner (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Lode Runner (USA).chd",
       "label": "Lode Runner (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -954,7 +954,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Looney Tunes - Sheep Raider (USA) (En,Fr,Es,Pt)/Looney Tunes - Sheep Raider (USA) (En,Fr,Es,Pt).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Looney Tunes - Sheep Raider (USA) (En,Fr,Es,Pt).chd",
       "label": "Looney Tunes - Sheep Raider (USA) (En,Fr,Es,Pt)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -962,7 +962,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Lost World, The - Jurassic Park - Special Edition (USA)/Lost World, The - Jurassic Park - Special Edition (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Lost World, The - Jurassic Park - Special Edition (USA).chd",
       "label": "Lost World, The - Jurassic Park - Special Edition (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -970,7 +970,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Love & Destroy (Japan)/Love & Destroy (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Love & Destroy (Japan).chd",
       "label": "Love & Destroy (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -978,7 +978,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/LSD - Dream Emulator (Japan)/LSD - Dream Emulator (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/LSD - Dream Emulator (Japan).chd",
       "label": "LSD - Dream Emulator (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -986,7 +986,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Macross VF-X2 (Japan)/Macross VF-X2 (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Macross VF-X2 (Japan).chd",
       "label": "Macross VF-X2 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -994,7 +994,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/MediEvil (USA)/MediEvil (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/MediEvil (USA).chd",
       "label": "MediEvil (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1002,7 +1002,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/MediEvil II (USA)/MediEvil II (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/MediEvil II (USA).chd",
       "label": "MediEvil II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1010,7 +1010,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man 8 (USA)/Mega Man 8 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man 8 (USA).chd",
       "label": "Mega Man 8 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1018,7 +1018,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X4 (USA)/Mega Man X4 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X4 (USA).chd",
       "label": "Mega Man X4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1026,7 +1026,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X5 (USA)/Mega Man X5 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X5 (USA).chd",
       "label": "Mega Man X5 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1034,7 +1034,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X6 (USA)/Mega Man X6 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X6 (USA).chd",
       "label": "Mega Man X6 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1050,7 +1050,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Metal Gear Solid - VR Missions (USA)/Metal Gear Solid - VR Missions (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Metal Gear Solid - VR Missions (USA).chd",
       "label": "Metal Gear Solid - VR Missions (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1058,7 +1058,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mizzurna Falls (Japan)/Mizzurna Falls (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mizzurna Falls (Japan).chd",
       "label": "Mizzurna Falls (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1066,7 +1066,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mobile Light Force (USA)/Mobile Light Force (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mobile Light Force (USA).chd",
       "label": "Mobile Light Force (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1074,7 +1074,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Motor Toon Grand Prix (USA)/Motor Toon Grand Prix (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Motor Toon Grand Prix (USA).chd",
       "label": "Motor Toon Grand Prix (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1082,7 +1082,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Motorhead (USA)/Motorhead (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Motorhead (USA).chd",
       "label": "Motorhead (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1090,7 +1090,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mr. Driller (USA)/Mr. Driller (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mr. Driller (USA).chd",
       "label": "Mr. Driller (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1098,7 +1098,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Myst (USA)/Myst (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Myst (USA).chd",
       "label": "Myst (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1106,7 +1106,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 1 (USA) (Rev 1)/Namco Museum Vol. 1 (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 1 (USA) (Rev 1).chd",
       "label": "Namco Museum Vol. 1 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1114,7 +1114,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 2 (USA)/Namco Museum Vol. 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 2 (USA).chd",
       "label": "Namco Museum Vol. 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1122,7 +1122,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 3 (USA)/Namco Museum Vol. 3 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 3 (USA).chd",
       "label": "Namco Museum Vol. 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1130,7 +1130,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 4 (USA)/Namco Museum Vol. 4 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 4 (USA).chd",
       "label": "Namco Museum Vol. 4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1138,7 +1138,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 5 (USA)/Namco Museum Vol. 5 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 5 (USA).chd",
       "label": "Namco Museum Vol. 5 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1146,7 +1146,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Nectaris - Military Madness (USA)/Nectaris - Military Madness (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Nectaris - Military Madness (USA).chd",
       "label": "Nectaris - Military Madness (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1170,7 +1170,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Oddworld - Abe's Oddysee (USA)/Oddworld - Abe's Oddysee (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Oddworld - Abe's Oddysee (USA).chd",
       "label": "Oddworld - Abe's Oddysee (USA) (Rev 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1178,7 +1178,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Omega Boost (USA)/Omega Boost (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Omega Boost (USA).chd",
       "label": "Omega Boost (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1186,7 +1186,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Panzer Bandit (Japan)/Panzer Bandit (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Panzer Bandit (Japan).chd",
       "label": "Panzer Bandit (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1194,7 +1194,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/PaRappa the Rapper (USA) (En,Fr,De,Es,It)/PaRappa the Rapper (USA) (En,Fr,De,Es,It).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/PaRappa the Rapper (USA) (En,Fr,De,Es,It).chd",
       "label": "PaRappa the Rapper (USA) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1218,7 +1218,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Pepsiman (Japan)/Pepsiman (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Pepsiman (Japan).chd",
       "label": "Pepsiman (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1226,7 +1226,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona (USA)/Persona (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona (USA).chd",
       "label": "Persona (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1234,7 +1234,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA)/Persona 2 - Eternal Punishment (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA).chd",
       "label": "Persona 2 - Eternal Punishment (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1242,7 +1242,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA) (Bonus Disc)/Persona 2 - Eternal Punishment (USA) (Bonus Disc).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA) (Bonus Disc).chd",
       "label": "Persona 2 - Eternal Punishment (USA) (Bonus Disc)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1250,7 +1250,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Philosoma (USA)/Philosoma (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Philosoma (USA).chd",
       "label": "Philosoma (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1266,7 +1266,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Pop'n Tanks! (Japan)/Pop'n Tanks! (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Pop'n Tanks! (Japan).chd",
       "label": "Pop'n Tanks! (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1274,7 +1274,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Power Shovel (USA)/Power Shovel (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Power Shovel (USA).chd",
       "label": "Power Shovel (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1282,7 +1282,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Pro 18 - World Tour Golf (USA)/Pro 18 - World Tour Golf (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Pro 18 - World Tour Golf (USA).chd",
       "label": "Pro 18 - World Tour Golf (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1290,7 +1290,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Quake II (USA)/Quake II (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Quake II (USA).chd",
       "label": "Quake II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1298,7 +1298,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/R-Type Delta (USA)/R-Type Delta (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/R-Type Delta (USA).chd",
       "label": "R-Type Delta (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1306,7 +1306,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/R-Types (USA)/R-Types (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/R-Types (USA).chd",
       "label": "R-Types (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1314,7 +1314,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/R4 - Ridge Racer Type 4 (USA)/R4 - Ridge Racer Type 4 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/R4 - Ridge Racer Type 4 (USA).chd",
       "label": "R4 - Ridge Racer Type 4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1322,7 +1322,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Raiden Project, The (USA)/Raiden Project, The (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Raiden Project, The (USA).chd",
       "label": "Raiden Project, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1330,7 +1330,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rakugaki Showtime (Japan)/Rakugaki Showtime (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rakugaki Showtime (Japan).chd",
       "label": "Rakugaki Showtime (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1338,7 +1338,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ray Tracers (USA)/Ray Tracers (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ray Tracers (USA).chd",
       "label": "Ray Tracers (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1346,7 +1346,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/RayCrisis - Series Termination (USA)/RayCrisis - Series Termination (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/RayCrisis - Series Termination (USA).chd",
       "label": "RayCrisis - Series Termination (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1354,7 +1354,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rayman (USA)/Rayman (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rayman (USA).chd",
       "label": "Rayman (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1362,7 +1362,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rayman 2 - The Great Escape (USA) (En,Fr,Es)/Rayman 2 - The Great Escape (USA) (En,Fr,Es).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rayman 2 - The Great Escape (USA) (En,Fr,Es).chd",
       "label": "Rayman 2 - The Great Escape (USA) (En,Fr,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1370,7 +1370,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/RayStorm (USA)/RayStorm (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/RayStorm (USA).chd",
       "label": "RayStorm (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1378,7 +1378,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Resident Evil - Director's Cut (USA)/Resident Evil - Director's Cut (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Resident Evil - Director's Cut (USA).chd",
       "label": "Resident Evil - Director's Cut (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1394,7 +1394,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Resident Evil 3 - Nemesis (USA)/Resident Evil 3 - Nemesis (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Resident Evil 3 - Nemesis (USA).chd",
       "label": "Resident Evil 3 - Nemesis (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1402,7 +1402,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA)/Ridge Racer (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA).chd",
       "label": "Ridge Racer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1410,7 +1410,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA)/Ridge Racer Bonus Turbo Mode Disc (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA).chd",
       "label": "Ridge Racer Bonus Turbo Mode Disc (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1418,7 +1418,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer Revolution (USA)/Ridge Racer Revolution (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer Revolution (USA).chd",
       "label": "Ridge Racer Revolution (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1434,7 +1434,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Road & Track Presents - The Need for Speed (USA)/Road & Track Presents - The Need for Speed (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Road & Track Presents - The Need for Speed (USA).chd",
       "label": "Road & Track Presents - The Need for Speed (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1442,7 +1442,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Road Rash (USA)/Road Rash (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Road Rash (USA).chd",
       "label": "Road Rash (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1450,7 +1450,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rollcage (USA)/Rollcage (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rollcage (USA).chd",
       "label": "Rollcage (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1458,7 +1458,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rollcage Stage II (USA)/Rollcage Stage II (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rollcage Stage II (USA).chd",
       "label": "Rollcage Stage II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1466,7 +1466,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Sentient (USA)/Sentient (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Sentient (USA).chd",
       "label": "Sentient (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1474,7 +1474,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Sentinel Returns (USA)/Sentinel Returns (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Sentinel Returns (USA).chd",
       "label": "Sentinel Returns (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1482,7 +1482,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Sexy Parodius (Japan)/Sexy Parodius (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Sexy Parodius (Japan).chd",
       "label": "Sexy Parodius (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1490,7 +1490,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Shadow Tower (USA)/Shadow Tower (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Shadow Tower (USA).chd",
       "label": "Shadow Tower (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1498,7 +1498,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Shaolin (Europe)/Shaolin (Europe).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Shaolin (Europe).chd",
       "label": "Shaolin (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1506,7 +1506,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Silent Bomber (USA)/Silent Bomber (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Silent Bomber (USA).chd",
       "label": "Silent Bomber (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1514,7 +1514,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Silent Hill (USA)/Silent Hill (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Silent Hill (USA).chd",
       "label": "Silent Hill (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1522,7 +1522,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Silhouette Mirage (USA)/Silhouette Mirage (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Silhouette Mirage (USA).chd",
       "label": "Silhouette Mirage (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1530,7 +1530,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Slap Happy Rhythm Busters (Japan)/Slap Happy Rhythm Busters (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Slap Happy Rhythm Busters (Japan).chd",
       "label": "Slap Happy Rhythm Busters (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1538,7 +1538,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Sol Divide (USA)/Sol Divide (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Sol Divide (USA).chd",
       "label": "Sol Divide (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1546,7 +1546,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Soukyuu Gurentai - Oubushutsugeki (Japan)/Soukyuu Gurentai - Oubushutsugeki (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Soukyuu Gurentai - Oubushutsugeki (Japan).chd",
       "label": "Soukyuu Gurentai - Oubu Shutsugeki (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1554,7 +1554,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Soul Blade (USA)/Soul Blade (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Soul Blade (USA).chd",
       "label": "Soul Blade (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1562,7 +1562,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Spyro - Year of the Dragon (USA)/Spyro - Year of the Dragon (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Spyro - Year of the Dragon (USA).chd",
       "label": "Spyro - Year of the Dragon (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1570,7 +1570,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Spyro 2 - Ripto's Rage! (USA)/Spyro 2 - Ripto's Rage! (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Spyro 2 - Ripto's Rage! (USA).chd",
       "label": "Spyro 2 - Ripto's Rage! (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1578,7 +1578,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Spyro the Dragon (USA)/Spyro the Dragon (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Spyro the Dragon (USA).chd",
       "label": "Spyro the Dragon (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1594,7 +1594,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Star Wars - Dark Forces (USA)/Star Wars - Dark Forces (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Star Wars - Dark Forces (USA).chd",
       "label": "Star Wars - Dark Forces (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1602,7 +1602,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Starblade Alpha (USA)/Starblade Alpha (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Starblade Alpha (USA).chd",
       "label": "Starblade Alpha (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1610,7 +1610,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Starfighter Sanvein (USA)/Starfighter Sanvein (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Starfighter Sanvein (USA).chd",
       "label": "Starfighter Sanvein (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1618,7 +1618,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Suikoden (USA) (Rev 1)/Suikoden (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Suikoden (USA) (Rev 1).chd",
       "label": "Suikoden (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1626,7 +1626,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Suikoden II (USA)/Suikoden II (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Suikoden II (USA).chd",
       "label": "Suikoden II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1634,7 +1634,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Syphon Filter (USA) (Rev 1)/Syphon Filter (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Syphon Filter (USA) (Rev 1).chd",
       "label": "Syphon Filter (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1650,7 +1650,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Syphon Filter 3 (USA)/Syphon Filter 3 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Syphon Filter 3 (USA).chd",
       "label": "Syphon Filter 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1658,7 +1658,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tactics Ogre (USA)/Tactics Ogre (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tactics Ogre (USA).chd",
       "label": "Tactics Ogre (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1666,7 +1666,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tecmo's Deception - Invitation to Darkness (USA)/Tecmo's Deception - Invitation to Darkness (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tecmo's Deception - Invitation to Darkness (USA).chd",
       "label": "Tecmo's Deception - Invitation to Darkness (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1674,7 +1674,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tekken (USA)/Tekken (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tekken (USA).chd",
       "label": "Tekken (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1682,7 +1682,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tekken 2 (USA)/Tekken 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tekken 2 (USA).chd",
       "label": "Tekken 2 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1690,7 +1690,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tekken 3 (USA)/Tekken 3 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tekken 3 (USA).chd",
       "label": "Tekken 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1698,7 +1698,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Test Drive Le Mans (USA) (En,Fr,Es)/Test Drive Le Mans (USA) (En,Fr,Es).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Test Drive Le Mans (USA) (En,Fr,Es).chd",
       "label": "Test Drive Le Mans (USA) (En,Fr,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1706,7 +1706,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Thrasher - Skate and Destroy (USA)/Thrasher - Skate and Destroy (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Thrasher - Skate and Destroy (USA).chd",
       "label": "Thrasher - Skate and Destroy (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1714,7 +1714,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Thrill Kill (USA) (Beta)/Thrill Kill (USA) (Beta).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Thrill Kill (USA) (Beta).chd",
       "label": "Thrill Kill (USA) (Beta)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1722,7 +1722,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Thunder Force V - Perfect System (USA)/Thunder Force V - Perfect System (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Thunder Force V - Perfect System (USA).chd",
       "label": "Thunder Force V - Perfect System (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1730,7 +1730,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan desu yo (Japan)/Time Bokan Series - Bokan desu yo (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan desu yo (Japan).chd",
       "label": "Time Bokan Series - Bokan desu yo (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1738,7 +1738,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan GoGoGo (Japan)/Time Bokan Series - Bokan GoGoGo (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan GoGoGo (Japan).chd",
       "label": "Time Bokan Series - Bokan GoGoGo (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1746,7 +1746,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Taikenban)/Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Taikenban).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Taikenban).chd",
       "label": "Time Bokan Series - Bokan to Ippatsu! Doronbow (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1754,7 +1754,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/TIZ - Tokyo Insect Zoo (Japan)/TIZ - Tokyo Insect Zoo (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/TIZ - Tokyo Insect Zoo (Japan).chd",
       "label": "TIZ - Tokyo Insect Zoo (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1762,7 +1762,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tobal 2 (Japan, Asia)/Tobal 2 (Japan, Asia).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tobal 2 (Japan, Asia).chd",
       "label": "Tobal 2 (Japan, Asia)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1770,7 +1770,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tobal No. 1 (USA)/Tobal No. 1 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tobal No. 1 (USA).chd",
       "label": "Tobal No. 1 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1778,7 +1778,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/TOCA 2 - Touring Car Challenge (USA) (En,Fr,Es)/TOCA 2 - Touring Car Challenge (USA) (En,Fr,Es).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/TOCA 2 - Touring Car Challenge (USA) (En,Fr,Es).chd",
       "label": "TOCA 2 - Touring Car Challenge (USA) (En,Fr,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1786,7 +1786,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/TOCA Championship Racing (USA) (En,Es)/TOCA Championship Racing (USA) (En,Es).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/TOCA Championship Racing (USA) (En,Es).chd",
       "label": "TOCA Championship Racing (USA) (En,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1794,7 +1794,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider (USA) (Rev 6)/Tomb Raider (USA) (Rev 6).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider (USA) (Rev 6).chd",
       "label": "Tomb Raider (USA) (Rev 6)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1802,7 +1802,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider - The Last Revelation (USA) (Rev 1)/Tomb Raider - The Last Revelation (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider - The Last Revelation (USA) (Rev 1).chd",
       "label": "Tomb Raider - The Last Revelation (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1810,7 +1810,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider Chronicles (USA) (Rev 1)/Tomb Raider Chronicles (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider Chronicles (USA) (Rev 1).chd",
       "label": "Tomb Raider Chronicles (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1818,7 +1818,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider II - Starring Lara Croft (USA) (Rev 3)/Tomb Raider II - Starring Lara Croft (USA) (Rev 3).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider II - Starring Lara Croft (USA) (Rev 3).chd",
       "label": "Tomb Raider II - Starring Lara Croft (USA) (Rev 3)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1826,7 +1826,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider III - Adventures of Lara Croft (USA) (Rev 2)/Tomb Raider III - Adventures of Lara Croft (USA) (Rev 2).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tomb Raider III - Adventures of Lara Croft (USA) (Rev 2).chd",
       "label": "Tomb Raider III - Adventures of Lara Croft (USA) (Rev 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1834,7 +1834,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tony Hawk's Pro Skater 2 (USA)/Tony Hawk's Pro Skater 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tony Hawk's Pro Skater 2 (USA).chd",
       "label": "Tony Hawk's Pro Skater 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1842,7 +1842,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tony Hawk's Pro Skater 3 (USA)/Tony Hawk's Pro Skater 3 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tony Hawk's Pro Skater 3 (USA).chd",
       "label": "Tony Hawk's Pro Skater 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1850,7 +1850,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tony Hawk's Pro Skater 4 (USA)/Tony Hawk's Pro Skater 4 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tony Hawk's Pro Skater 4 (USA).chd",
       "label": "Tony Hawk's Pro Skater 4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1858,7 +1858,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touge Max - Saisoku Drift Master (Japan)/Touge Max - Saisoku Drift Master (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touge Max - Saisoku Drift Master (Japan).chd",
       "label": "Touge Max - Saisoku Drift Master (Japan, Asia)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1866,7 +1866,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touge Max 2 (Japan)/Touge Max 2 (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touge Max 2 (Japan).chd",
       "label": "Touge Max 2 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1874,7 +1874,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touge Max G (Japan)/Touge Max G (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touge Max G (Japan).chd",
       "label": "Touge Max G (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1882,7 +1882,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touki Denshou - Angel Eyes (Japan)/Touki Denshou - Angel Eyes (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touki Denshou - Angel Eyes (Japan).chd",
       "label": "Touki Denshou - Angel Eyes (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1890,7 +1890,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Toyota Netz Racing (Japan)/Toyota Netz Racing (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Toyota Netz Racing (Japan).chd",
       "label": "Toyota Netz Racing (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1898,7 +1898,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Trap Gunner (USA)/Trap Gunner (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Trap Gunner (USA).chd",
       "label": "Trap Gunner (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1906,7 +1906,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Turbo Prop Racing (USA)/Turbo Prop Racing (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Turbo Prop Racing (USA).chd",
       "label": "Turbo Prop Racing (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1914,7 +1914,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal (USA)/Twisted Metal (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal (USA).chd",
       "label": "Twisted Metal (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1922,7 +1922,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal 2 (USA)/Twisted Metal 2 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal 2 (USA).chd",
       "label": "Twisted Metal 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1930,7 +1930,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal 4 (USA) (Rev 1)/Twisted Metal 4 (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal 4 (USA) (Rev 1).chd",
       "label": "Twisted Metal 4 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1938,7 +1938,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal III (USA) (Rev 1)/Twisted Metal III (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal III (USA) (Rev 1).chd",
       "label": "Twisted Metal III (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1946,7 +1946,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Two-Ten Kaku (Japan)/Two-Ten Kaku (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Two-Ten Kaku (Japan).chd",
       "label": "Two-Ten Kaku (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1954,7 +1954,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/UFO - A Day in the Life (Japan)/UFO - A Day in the Life (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/UFO - A Day in the Life (Japan).chd",
       "label": "UFO - A Day in the Life (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1962,7 +1962,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Um Jammer Lammy (USA)/Um Jammer Lammy (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Um Jammer Lammy (USA).chd",
       "label": "Um Jammer Lammy (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1970,7 +1970,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Umihara Kawase Shun (Japan)/Umihara Kawase Shun (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Umihara Kawase Shun (Japan).chd",
       "label": "Umihara Kawase Shun (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1978,7 +1978,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Umihara Kawase Shun - Second Edition (Japan)/Umihara Kawase Shun - Second Edition (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Umihara Kawase Shun - Second Edition (Japan).chd",
       "label": "Umihara Kawase Shun - Second Edition (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -1986,7 +1986,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vagrant Story (USA)/Vagrant Story (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vagrant Story (USA).chd",
       "label": "Vagrant Story (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2002,7 +2002,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vampire Hunter D (USA)/Vampire Hunter D (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vampire Hunter D (USA).chd",
       "label": "Vampire Hunter D (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2010,7 +2010,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vanark (USA)/Vanark (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vanark (USA).chd",
       "label": "Vanark (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2018,7 +2018,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vanishing Point (USA)/Vanishing Point (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vanishing Point (USA).chd",
       "label": "Vanishing Point (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2026,7 +2026,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vib-Ribbon (Europe) (En,Fr,De,Es,It)/Vib-Ribbon (Europe) (En,Fr,De,Es,It).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vib-Ribbon (Europe) (En,Fr,De,Es,It).chd",
       "label": "Vib-Ribbon (Europe) (En,Fr,De,Es,It) (Beta)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2034,7 +2034,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vigilante 8 (USA) (Rev 1)/Vigilante 8 (USA) (Rev 1).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vigilante 8 (USA) (Rev 1).chd",
       "label": "Vigilante 8 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2042,7 +2042,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vigilante 8 - 2nd Offense (USA)/Vigilante 8 - 2nd Offense (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vigilante 8 - 2nd Offense (USA).chd",
       "label": "Vigilante 8 - 2nd Offense (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2050,7 +2050,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Viper (Europe) (En,Fr,De,Es,It)/Viper (Europe) (En,Fr,De,Es,It).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Viper (Europe) (En,Fr,De,Es,It).chd",
       "label": "Viper (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2058,7 +2058,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Virtual Hiryuu no Ken (Japan)/Virtual Hiryuu no Ken (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Virtual Hiryuu no Ken (Japan).chd",
       "label": "Virtual Hiryuu no Ken (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2066,7 +2066,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Virus - It Is Aware (Europe) (En,Fr,De,Es,It)/Virus - It Is Aware (Europe) (En,Fr,De,Es,It).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Virus - It Is Aware (Europe) (En,Fr,De,Es,It).chd",
       "label": "Virus - It Is Aware (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2082,7 +2082,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Warhawk - The Red Mercury Missions (USA)/Warhawk - The Red Mercury Missions (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Warhawk - The Red Mercury Missions (USA).chd",
       "label": "Warhawk - The Red Mercury Missions (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2090,7 +2090,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wild 9 (USA)/Wild 9 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wild 9 (USA).chd",
       "label": "Wild 9 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2098,7 +2098,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout (USA)/WipEout (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout (USA).chd",
       "label": "WipEout (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2106,7 +2106,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 (USA)/WipEout 3 (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 (USA).chd",
       "label": "WipEout 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2114,7 +2114,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It)/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It).chd",
       "label": "WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2122,7 +2122,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wipeout XL (USA)/Wipeout XL (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wipeout XL (USA).chd",
       "label": "Wipeout XL (USA) (Beta)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2130,7 +2130,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wolf Fang - Kuuga 2001 (Japan)/Wolf Fang - Kuuga 2001 (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wolf Fang - Kuuga 2001 (Japan).chd",
       "label": "Wolf Fang - Kuuga 2001 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2138,7 +2138,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Worms Armageddon (USA)/Worms Armageddon (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Worms Armageddon (USA).chd",
       "label": "Worms Armageddon (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2154,7 +2154,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Xevious 3D-G+ (USA)/Xevious 3D-G+ (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Xevious 3D-G+ (USA).chd",
       "label": "Xevious 3D-G+ (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2162,7 +2162,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Yuuyami Doori Tankentai (Japan)/Yuuyami Doori Tankentai (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Yuuyami Doori Tankentai (Japan).chd",
       "label": "Yuuyami Doori Tankentai (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2170,7 +2170,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Zanac x Zanac (Japan)/Zanac x Zanac (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Zanac x Zanac (Japan).chd",
       "label": "Zanac x Zanac (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2178,7 +2178,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Zero Divide (USA)/Zero Divide (USA).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Zero Divide (USA).chd",
       "label": "Zero Divide (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
@@ -2186,7 +2186,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Zero Divide 2 - The Secret Wish (Japan)/Zero Divide 2 - The Secret Wish (Japan).cue",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Zero Divide 2 - The Secret Wish (Japan).chd",
       "label": "Zero Divide 2 - The Secret Wish (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
