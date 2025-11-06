@@ -1,0 +1,356 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+  "default_core_name": "Sony - PlayStation Portable (PPSSPP)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "scan_content_dir": "/Users/joon/Games/Emulation/Sony PSP",
+  "scan_file_exts": "",
+  "scan_dat_file_path": "",
+  "scan_search_recursively": true,
+  "scan_search_archives": false,
+  "scan_filter_dat_content": false,
+  "scan_overwrite_playlist": false,
+  "items": [
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Dante's Inferno (USA).cso",
+      "label": "Dante's Inferno (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Darius Burst (Japan).cso",
+      "label": "Darius Burst (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Daxter (USA).cso",
+      "label": "Daxter (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/God of War - Chains of Olympus (USA).cso",
+      "label": "God of War - Chains of Olympus (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/God of War - Ghost of Sparta (USA).cso",
+      "label": "God of War - Ghost of Sparta (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Goku Makaimura Kai (Japan).cso",
+      "label": "Goku Makaimura Kai (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Gradius Collection (USA).cso",
+      "label": "Gradius Collection (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Gran Turismo (USA).cso",
+      "label": "Gran Turismo (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Grand Theft Auto - Vice City Stories (USA).cso",
+      "label": "Grand Theft Auto - Vice City Stories (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Ikki Tousen - Eloquent Fist (Japan).cso",
+      "label": "Ikki Tousen - Eloquent Fist (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Ikki Tousen - Xross Impact (Japan).cso",
+      "label": "Ikki Tousen - Xross Impact (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Little Big Planet (USA).cso",
+      "label": "Little Big Planet (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Lumines (USA).cso",
+      "label": "Lumines (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Lumines II (USA).cso",
+      "label": "Lumines II (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Me & My Katamari (USA).cso",
+      "label": "Me & My Katamari (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Metal Gear Solid - Peace Walker (USA).cso",
+      "label": "Metal Gear Solid - Peace Walker (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Metal Slug XX (USA).cso",
+      "label": "Metal Slug XX (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/OutRun 2006 - Coast 2 Coast (USA).cso",
+      "label": "OutRun 2006 - Coast 2 Coast (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Patapon (USA).cso",
+      "label": "Patapon (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Patapon 2 (USA).cso",
+      "label": "Patapon 2 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Patapon 3 (USA).cso",
+      "label": "Patapon 3 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Prinny - Can I Really Be the Hero (USA).cso",
+      "label": "Prinny - Can I Really Be the Hero (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Prinny 2 - Dawn of Operation Panties Dood! (USA).cso",
+      "label": "Prinny 2 - Dawn of Operation Panties Dood! (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/R-Type Command (USA).cso",
+      "label": "R-Type Command (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Salamander Portable (Japan).cso",
+      "label": "Salamander Portable (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Sega Rally - Revo (USA).cso",
+      "label": "Sega Rally - Revo (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Shin Megami Tensei - Persona 3 Portable (USA).cso",
+      "label": "Shin Megami Tensei - Persona 3 Portable (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Silent Hill - Shattered Memories (USA).cso",
+      "label": "Silent Hill - Shattered Memories (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Silent Hill Origins (USA).cso",
+      "label": "Silent Hill Origins (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Soul Calibur - Broken Destiny (USA).cso",
+      "label": "Soul Calibur - Broken Destiny (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Star Soldier (Japan).cso",
+      "label": "Star Soldier (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Tactis Ogre - Let Us Cling Together (USA).cso",
+      "label": "Tactis Ogre - Let Us Cling Together (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Tekken - Dark Resurrection (USA).cso",
+      "label": "Tekken - Dark Resurrection (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Tekken 6 (USA).cso",
+      "label": "Tekken 6 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Ultimate Ghosts n Goblins (USA).cso",
+      "label": "Ultimate Ghosts n Goblins (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Valkyria Chronicles 2 (USA).cso",
+      "label": "Valkyria Chronicles 2 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/WipEout Pulse (USA).cso",
+      "label": "WipEout Pulse (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/WipEout Pure (USA).cso",
+      "label": "WipEout Pure (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Ys - The Ark of Napishtim (USA).cso",
+      "label": "Ys - The Ark of Napishtim (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Ys - The Oath in Felghana (USA).cso",
+      "label": "Ys - The Oath in Felghana (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Ys I & II Chronicles (USA).cso",
+      "label": "Ys I & II Chronicles (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PSP/Ys Seven (USA).cso",
+      "label": "Ys Seven (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
+      "core_name": "Sony - PlayStation Portable (PPSSPP)",
+      "crc32": "00000000|crc",
+      "db_name": "Sony - PlayStation Portable.lpl"
+    }
+  ]
+}
