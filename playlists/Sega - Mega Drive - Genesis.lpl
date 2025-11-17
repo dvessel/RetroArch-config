@@ -929,14 +929,6 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Phantasy Star IV (Retranslation).zip#Phantasy Star IV (Retranslation).md",
-      "label": "Phantasy Star IV (Retranslation)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Phantasy Star IV (USA).zip#Phantasy Star IV (USA).md",
       "label": "Phantasy Star IV (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
