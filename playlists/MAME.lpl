@@ -9,12 +9,12 @@
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
   "scan_content_dir": "/Users/joon/Games/Emulation/Arcade",
-  "scan_file_exts": "",
-  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/xml/MAME.xml",
+  "scan_file_exts": "zip",
+  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/xml/mame.xml",
   "scan_search_recursively": false,
   "scan_search_archives": false,
   "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": false,
+  "scan_overwrite_playlist": true,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Arcade/1941.zip",
@@ -42,7 +42,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/1944.zip",
-      "label": "1944: The Loop Master (Euro 000620)",
+      "label": "1944: The Loop Master (Europe 000620)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -58,7 +58,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/19xx.zip",
-      "label": "19XX: The War Against Destiny (Euro 960104)",
+      "label": "19XX: The War Against Destiny (Europe 960104)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -162,7 +162,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/avsp.zip",
-      "label": "Alien vs. Predator (Euro 940520)",
+      "label": "Alien vs. Predator (Europe 940520)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -274,7 +274,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/baddudes.zip",
-      "label": "Bad Dudes vs. Dragonninja (US revision 1)",
+      "label": "Bad Dudes vs. Dragonninja (US, revision 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -330,7 +330,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/batcir.zip",
-      "label": "Battle Circuit (Euro 970319)",
+      "label": "Battle Circuit (Europe 970319)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -394,7 +394,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/boogwing.zip",
-      "label": "Boogie Wings (Euro v1.5, 92.12.07)",
+      "label": "Boogie Wings (Europe v1.5, 92.12.07)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -466,7 +466,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/csclub.zip",
-      "label": "Capcom Sports Club (Euro 971017)",
+      "label": "Capcom Sports Club (Europe 971017)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -649,8 +649,32 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/eswat.zip",
+      "label": "Cyber Police ESWAT (set 4, World) (FD1094 317-0130)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/von.zip",
       "label": "Cyber Troopers Virtual-On - Twin (Export)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/von2.zip",
+      "label": "Cyber Troopers Virtual-On: Oratorio Tangram (Revision B)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/vonot.zip",
+      "label": "Cyber Troopers Virtual-On: Oratorio Tangram M.S.B.S. ver 5.66 2000 Edition",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -666,7 +690,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/cybots.zip",
-      "label": "Cyberbots: Fullmetal Madness (Euro 950424)",
+      "label": "Cyberbots: Fullmetal Madness (Europe 950424)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -714,7 +738,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/darius2.zip",
-      "label": "Darius II (triple screen) (Japan)",
+      "label": "Darius II (triple screen) (Japan, rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -730,7 +754,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/dstlk.zip",
-      "label": "Darkstalkers: The Night Warriors (Euro 940705)",
+      "label": "Darkstalkers: The Night Warriors (Europe 940705)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -770,7 +794,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/daytona2.zip",
-      "label": "Daytona USA 2: Battle on the Edge (Japan, Revision A)",
+      "label": "Daytona USA 2: Battle on the Edge (Revision A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -850,7 +874,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/dimahoo.zip",
-      "label": "Dimahoo (Euro 000121)",
+      "label": "Dimahoo (Europe 000121)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1025,16 +1049,16 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/ddragon.zip",
-      "label": "Double Dragon (Japan)",
+      "path": "/Users/joon/Games/Emulation/Arcade/doubledr.zip",
+      "label": "Double Dragon (Neo-Geo)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/doubledr.zip",
-      "label": "Double Dragon (Neo-Geo)",
+      "path": "/Users/joon/Games/Emulation/Arcade/ddragon.zip",
+      "label": "Double Dragon (World set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1098,7 +1122,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/ddsom.zip",
-      "label": "Dungeons & Dragons: Shadow over Mystara (Euro 960619)",
+      "label": "Dungeons & Dragons: Shadow over Mystara (Europe 960619)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1106,7 +1130,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/ddtod.zip",
-      "label": "Dungeons & Dragons: Tower of Doom (Euro 940412)",
+      "label": "Dungeons & Dragons: Tower of Doom (Europe 940412)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1115,14 +1139,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/dynagear.zip",
       "label": "Dyna Gear",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/eswat.zip",
-      "label": "E-Swat - Cyber Police (set 4, World) (FD1094 317-0130)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1530,7 +1546,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/gradius2.zip",
-      "label": "Gradius II - GOFER no Yabou (Japan New Ver.)",
+      "label": "Gradius II: GOFER no Yabou (Japan, new)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1538,7 +1554,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/gradius3.zip",
-      "label": "Gradius III (World, program code R)",
+      "label": "Gradius III (World, version R)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1650,7 +1666,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/gunforce.zip",
-      "label": "Gunforce - Battle Fire Engulfed Terror Island (World)",
+      "label": "Gunforce: Battle Fire Engulfed Terror Island (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1699,6 +1715,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/hyprduel.zip",
       "label": "Hyper Duel (Japan set 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/sidearms.zip",
+      "label": "Hyper Dyne Side Arms (World, 861129)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1794,7 +1818,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/jojoba.zip",
-      "label": "JoJo's Bizarre Adventure (Euro 990927)",
+      "label": "JoJo's Bizarre Adventure (Europe 991015, NO CD)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1802,7 +1826,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/jojo.zip",
-      "label": "JoJo's Venture (Euro 990128)",
+      "label": "JoJo's Venture (Europe 990128)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1978,7 +2002,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/lemans24.zip",
-      "label": "Le Mans 24 (Japan, Revision B)",
+      "label": "Le Mans 24 (Revision B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2002,7 +2026,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/lwings.zip",
-      "label": "Legendary Wings (US set 1)",
+      "label": "Legendary Wings (US, rev. C)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2018,7 +2042,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/looping.zip",
-      "label": "Looping",
+      "label": "Looping (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2122,7 +2146,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/msh.zip",
-      "label": "Marvel Super Heroes (Euro 951024)",
+      "label": "Marvel Super Heroes (Europe 951024)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2130,7 +2154,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/mshvsf.zip",
-      "label": "Marvel Super Heroes Vs. Street Fighter (Euro 970625)",
+      "label": "Marvel Super Heroes Vs. Street Fighter (Europe 970625)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2138,7 +2162,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/mvsc.zip",
-      "label": "Marvel Vs. Capcom: Clash of Super Heroes (Euro 980123)",
+      "label": "Marvel Vs. Capcom: Clash of Super Heroes (Europe 980123)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2242,7 +2266,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/mpang.zip",
-      "label": "Mighty! Pang (Euro 001010)",
+      "label": "Mighty! Pang (Europe 001010)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2258,7 +2282,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/missile.zip",
-      "label": "Missile Command (rev 3)",
+      "label": "Missile Command (rev 3, A035467-02/04 PCBs)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2530,7 +2554,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/nwarr.zip",
-      "label": "Night Warriors: Darkstalkers' Revenge (Euro 950316)",
+      "label": "Night Warriors: Darkstalkers' Revenge (Europe 950316)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2850,7 +2874,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/primrage.zip",
-      "label": "Primal Rage (version 2.3, newer build)",
+      "label": "Primal Rage (version 2.3, Jan 1995)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2890,7 +2914,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/puckman.zip",
-      "label": "Puck Man (Japan set 1)",
+      "label": "Puck Man (Japan, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2898,7 +2922,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/pulirula.zip",
-      "label": "PuLiRuLa (World)",
+      "label": "PuLiRuLa (World, dual PCB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2922,7 +2946,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/pzloop2.zip",
-      "label": "Puzz Loop 2 (Euro 010302)",
+      "label": "Puzz Loop 2 (Europe 010302)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3146,7 +3170,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/redearth.zip",
-      "label": "Red Earth (Euro 961121)",
+      "label": "Red Earth (Europe 961121)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3178,7 +3202,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/ringdest.zip",
-      "label": "Ring of Destruction: Slammasters II (Euro 940902)",
+      "label": "Ring of Destruction: Slammasters II (Europe 940902)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3210,7 +3234,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/rohga.zip",
-      "label": "Rohga Armor Force (Asia/Europe v5.0)",
+      "label": "Rohga: Armor Force (Asia/Europe v5.0)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3378,7 +3402,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/srally2.zip",
-      "label": "Sega Rally 2 (Export)",
+      "label": "Sega Rally 2: Sega Rally Championship",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3505,14 +3529,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/sidearms.zip",
-      "label": "Side Arms - Hyper Dyne (World, 861129)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/sinistar.zip",
       "label": "Sinistar (revision 3, upright)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3530,7 +3546,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/svcpcb.zip",
-      "label": "SNK vs. Capcom - SVC Chaos (JAMMA PCB, set 1)",
+      "label": "SNK vs. Capcom - SVC Chaos (JAMMA PCB, NEO-MVH MVO PCB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3578,7 +3594,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/soulclbr.zip",
-      "label": "Soul Calibur (Asia, SOC14/VER.C)",
+      "label": "Soul Calibur (World, SOC12/VER.A2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3682,7 +3698,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/sfa2.zip",
-      "label": "Street Fighter Alpha 2 (Euro 960229)",
+      "label": "Street Fighter Alpha 2 (Europe 960229)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3690,7 +3706,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/sfa3.zip",
-      "label": "Street Fighter Alpha 3 (Euro 980904)",
+      "label": "Street Fighter Alpha 3 (Europe 980904)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3698,7 +3714,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/sfa.zip",
-      "label": "Street Fighter Alpha: Warriors' Dreams (Euro 950727)",
+      "label": "Street Fighter Alpha: Warriors' Dreams (Europe 950727)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3738,7 +3754,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/sfiii3.zip",
-      "label": "Street Fighter III 3rd Strike: Fight for the Future (Euro 990608)",
+      "label": "Street Fighter III 3rd Strike: Fight for the Future (Europe 990608)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3754,7 +3770,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/sfiii.zip",
-      "label": "Street Fighter III: New Generation (Euro 970204)",
+      "label": "Street Fighter III: New Generation (Europe 970204)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3834,7 +3850,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/sgemf.zip",
-      "label": "Super Gem Fighter Mini Mix (USA 970904)",
+      "label": "Super Gem Fighter: Mini Mix (USA 970904)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3938,7 +3954,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/tmnt2.zip",
-      "label": "Teenage Mutant Ninja Turtles - Turtles in Time (4 Players ver UAA)",
+      "label": "Teenage Mutant Ninja Turtles: Turtles in Time (4 Players ver UAA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3954,7 +3970,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/tekken2.zip",
-      "label": "Tekken 2 Ver.B (US, TES3/VER.D)",
+      "label": "Tekken 2 Ver.B (World, TES2/VER.D)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4242,7 +4258,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/truxton.zip",
-      "label": "Truxton / Tatsujin",
+      "label": "Truxton (Europe, US) / Tatsujin (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4346,7 +4362,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/vsav.zip",
-      "label": "Vampire Savior: The Lord of Vampire (Euro 970519)",
+      "label": "Vampire Savior: The Lord of Vampire (Europe 970519)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4426,7 +4442,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/vf3.zip",
-      "label": "Virtua Fighter 3 (Japan, Revision D)",
+      "label": "Virtua Fighter 3 (Revision D)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4435,22 +4451,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/vr.zip",
       "label": "Virtua Racing",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/von2.zip",
-      "label": "Virtual On 2: Oratorio Tangram (Japan, Revision B)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/vonot.zip",
-      "label": "Virtual On Oratorio Tangram M.S.B.S. ver5.66 2000 Edition",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4482,7 +4482,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/vulcan.zip",
-      "label": "Vulcan Venture (New)",
+      "label": "Vulcan Venture (new)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4514,7 +4514,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/wildfang.zip",
-      "label": "Wild Fang / Tecmo Knight",
+      "label": "Wild Fang / Tecmo Knight (World?)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4545,8 +4545,16 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/wb3.zip",
+      "label": "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/wbmlvc.zip",
-      "label": "Wonder Boy - Monster Land (English, Virtual Console)",
+      "label": "Wonder Boy: Monster Land (English, Virtual Console)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4554,15 +4562,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/wbml.zip",
-      "label": "Wonder Boy - Monster Land (Japan New Ver., MC-8123, 317-0043)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/wb3.zip",
-      "label": "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)",
+      "label": "Wonder Boy: Monster Land (Japan New Ver., MC-8123, 317-0043)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4586,7 +4586,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/xmvsf.zip",
-      "label": "X-Men Vs. Street Fighter (Euro 961004)",
+      "label": "X-Men Vs. Street Fighter (Europe 961004)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4594,7 +4594,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/xmcota.zip",
-      "label": "X-Men: Children of the Atom (Euro 950331)",
+      "label": "X-Men: Children of the Atom (Europe 950331)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4650,7 +4650,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/yiear.zip",
-      "label": "Yie Ar Kung-Fu (program code I)",
+      "label": "Yie Ar Kung-Fu (version I)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
