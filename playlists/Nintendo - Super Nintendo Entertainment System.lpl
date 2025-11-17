@@ -91,8 +91,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Bahamut Lagoon (Japan).zip#Bahamut Lagoon (Japan).sfc",
       "label": "Bahamut Lagoon (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
-      "core_name": "Nintendo - SNES / SFC (bsnes)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/snes9x_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (Snes9x)",
       "crc32": "1B83C440|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
@@ -1294,6 +1294,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes)",
       "crc32": "87653732|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Star Ocean (Japan).zip#Star Ocean (Japan).sfc",
+      "label": "Star Ocean (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/snes9x_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (Snes9x)",
+      "crc32": "3DBDFDBF|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
