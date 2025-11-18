@@ -89,14 +89,6 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Colin McRae Rally 3.chd",
-      "label": "Colin McRae Rally 3",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Devil May Cry.chd",
       "label": "Devil May Cry",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",

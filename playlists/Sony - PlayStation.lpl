@@ -1402,19 +1402,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA)/Ridge Racer (USA).m3u",
       "label": "Ridge Racer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
       "crc32": "XXXXXXXXXX|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA).chd",
-      "label": "Ridge Racer Bonus Turbo Mode Disc (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
-      "core_name": "Sony - PlayStation (Beetle PSX HW)",
-      "crc32": "PSX.EXE|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
