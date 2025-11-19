@@ -1958,8 +1958,8 @@
       "label": "Over OBJ (Japan) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
-      "crc32": "",
-      "db_name": ""
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Overlord (USA).zip#Overlord (USA).nes",
