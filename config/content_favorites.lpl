@@ -74,14 +74,6 @@
       "db_name": "NEC - PC Engine SuperGrafx.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/doa2m.zip",
-      "label": "Dead or Alive 2 Millennium",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "00000000|crc",
-      "db_name": "Sega - Naomi.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/dsmbl.zip",
       "label": "Deathsmiles MegaBlack Label (2008/10/06 MEGABLACK LABEL VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -98,28 +90,12 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/ddpdfk.zip",
-      "label": "DoDonPachi Dai-Fukkatsu Ver 1.5 (2008/06/23 MASTER VER 1.5)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/ddpsdoj.zip",
       "label": "DoDonPachi SaiDaiOuJou (2012/ 4/20)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Einhander (USA).chd",
-      "label": "Einhaender (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
-      "core_name": "Sony - PlayStation (Beetle PSX HW)",
-      "crc32": "SCUS-94243|serial",
-      "db_name": "Sony - PlayStation.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/esprade.zip",
@@ -171,7 +147,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/gradius2.zip",
-      "label": "Gradius II - GOFER no Yabou (Japan New Ver.)",
+      "label": "Gradius II: GOFER no Yabou (Japan, new)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -179,7 +155,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/gradius3.zip",
-      "label": "Gradius III (World, program code R)",
+      "label": "Gradius III (World, version R)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -194,7 +170,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Gradius V/Gradius V.chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Gradius V.chd",
       "label": "Gradius V",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -210,7 +186,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/ICO/ICO.chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/ICO.chd",
       "label": "ICO",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -232,38 +208,6 @@
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "95CD2979|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 2 - Sons of Liberty/Metal Gear Solid 2 - Sons of Liberty.chd",
-      "label": "Metal Gear Solid 2 - Sons of Liberty",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 2 - Substance/Metal Gear Solid 2 - Substance.chd",
-      "label": "Metal Gear Solid 2 - Substance",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 3 - Snake Eater/Metal Gear Solid 3 - Snake Eater.chd",
-      "label": "Metal Gear Solid 3 - Snake Eater",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Metal Gear Solid 3 - Subsistence/Metal Gear Solid 3 - Subsistence.m3u",
-      "label": "Metal Gear Solid 3 - Subsistence",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/mslug2.zip",
@@ -314,22 +258,6 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Phantasy Star II (USA, Europe) (Rev A).zip#Phantasy Star II (USA, Europe) (Rev A).md",
-      "label": "Phantasy Star II (USA, Europe) (Rev A)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "904FA047|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Phantasy Star III - Generations of Doom (USA, Europe).zip#Phantasy Star III - Generations of Doom (USA, Europe).md",
-      "label": "Phantasy Star III - Generations of Doom (USA, Europe, Korea) (En)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "C6B42B0F|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/progear.zip",
       "label": "Progear (USA 010117)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -354,7 +282,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/R-Type Final/R-Type Final.chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/R-Type Final.chd",
       "label": "R-Type Final",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -362,39 +290,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Rabio Lepus Special (Japan).zip#Rabio Lepus Special (Japan).pce",
-      "label": "Rabio Lepus Special (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
-      "crc32": "D8373DE6|crc",
-      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/rsgun.zip",
-      "label": "Radiant Silvergun (JUET 980523 V1.000)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Revenge of Shinobi, The (USA, Europe).zip#Revenge of Shinobi, The (USA, Europe).md",
-      "label": "Revenge of Shinobi, The (USA, Europe)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "05F27994|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/samsh5sp.zip",
-      "label": "Samurai Shodown V Special / Samurai Spirits Zero Special (NGM-2720)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shadow of the Colossus/Shadow of the Colossus.chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Shadow of the Colossus.chd",
       "label": "Shadow of the Colossus",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -410,68 +306,20 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Shinobi III - Return of the Ninja Master (USA).zip#Shinobi III - Return of the Ninja Master (USA).md",
-      "label": "Shinobi III - Return of the Ninja Master (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "5381506F|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Sonic The Hedgehog (USA, Europe).zip#Sonic The Hedgehog (USA, Europe).md",
-      "label": "Sonic The Hedgehog (USA, Europe)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "F9394E97|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Sonic The Hedgehog 2 (World).zip#Sonic The Hedgehog 2 (World).md",
-      "label": "Sonic The Hedgehog 2 (World)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "24AB4C3A|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Sonic The Hedgehog 3 (USA).zip#Sonic The Hedgehog 3 (USA).md",
-      "label": "Sonic The Hedgehog 3 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "9BC192CE|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/soulclbr.zip",
-      "label": "Soul Calibur (Asia, SOC14/VER.C)",
+      "label": "Soul Calibur (World, SOC12/VER.A2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Dreamcast/Soul Calibur (USA, v1.000) (1999) (Namco).chd",
+      "path": "/Volumes/980Pro/Emulation/Dreamcast/Soul Calibur (USA, v1.000) (1999) (Namco).chd",
       "label": "Soulcalibur (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "T-1401N|serial",
       "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Soulcalibur II/Soulcalibur II.chd",
-      "label": "Soulcalibur II",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Soulcalibur III/Soulcalibur III.chd",
-      "label": "Soulcalibur III",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/sf2hf.zip",
@@ -490,8 +338,8 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/sfiii3.zip",
-      "label": "Street Fighter III 3rd Strike: Fight for the Future (Euro 990608)",
+      "path": "/Users/joon/Games/Emulation/Arcade/sfiii3u.zip",
+      "label": "Street Fighter III 3rd Strike: Fight for the Future (USA 990608)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -499,7 +347,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/sfiii.zip",
-      "label": "Street Fighter III: New Generation (Euro 970204)",
+      "label": "Street Fighter III: New Generation (Europe 970204)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -530,7 +378,7 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Thunder Force VI/Thunder Force VI.chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Thunder Force VI.chd",
       "label": "Thunder Force VI",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
@@ -538,91 +386,11 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/vhunt2.zip",
-      "label": "Vampire Hunter 2: Darkstalkers Revenge (Japan 970929)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Viewtiful Joe/Viewtiful Joe.chd",
-      "label": "Viewtiful Joe",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Viewtiful Joe 2/Viewtiful Joe 2.chd",
-      "label": "Viewtiful Joe 2",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Virtua Fighter 4 - Evolution/Virtua Fighter 4 - Evolution.chd",
-      "label": "Virtua Fighter 4 - Evolution",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/vf4tuned.zip",
-      "label": "Virtua Fighter 4: Final Tuned (Ver. B) (GDS-0036F)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "00000000|crc",
-      "db_name": "Sega - Naomi 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout (USA).chd",
-      "label": "WipEout (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
-      "core_name": "Sony - PlayStation (Beetle PSX HW)",
-      "crc32": "SCUS-94301|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 (USA).chd",
       "label": "WipEout 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
       "core_name": "Sony - PlayStation (Beetle PSX HW)",
       "crc32": "SLUS-00865|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It).chd",
-      "label": "WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
-      "core_name": "Sony - PlayStation (Beetle PSX HW)",
-      "crc32": "SCES-02845|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/WipEout Fusion/WipEout Fusion.chd",
-      "label": "WipEout Fusion",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/WipEout Pulse/WipEout Pulse.chd",
-      "label": "WipEout Pulse",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wipeout XL (USA).chd",
-      "label": "Wipeout XL (USA) (Beta)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
-      "core_name": "Sony - PlayStation (Beetle PSX HW)",
-      "crc32": "SCUS-94351|serial",
       "db_name": "Sony - PlayStation.lpl"
     }
   ]
