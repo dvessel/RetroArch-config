@@ -5,10 +5,9 @@ assets/xmb/*
 !assets/xmb/automatic
 autoconfig/*
 !autoconfig/mfi
-bios
 cht
-config/*.lpl
-!config/content_favorites.lpl
+playlists/builtin/*.lpl
+!playlists/builtin/content_favorites.lpl
 cores
 database
 downloads
@@ -21,4 +20,5 @@ screenshots
 shaders/shaders_slang
 shaders/retroarch.slangp
 states
+system
 thumbnails
