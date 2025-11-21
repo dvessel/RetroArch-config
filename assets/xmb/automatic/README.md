@@ -47,7 +47,7 @@ Colophon
 
 ### Theme Font
  * ~~this theme uses the [Titilium Web Regular](https://fonts.google.com/specimen/Titillium+Web) typeface by the [Accademia di Belle Arti di Urbino](http://www.accademiadiurbino.it/) covered under the [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web).~~
- * Font replaced with [Lilex Medium](https://github.com/mishamyrt/Lilex).
+ * Font replaced with [Lilex](https://github.com/mishamyrt/Lilex), modified through Nerd Fonts.
 
 ### Support
  * If you have questions or concerns about this theme, please visit the [Libretro Forum Thread] (https://forums.libretro.com/t/neoactive-retroactive-and-systematic-theme-support-and-feedback/9501/) or the [GitHub tetrarch-assets issues page] (https://github.com/libretro/retroarch-assets/issues).
