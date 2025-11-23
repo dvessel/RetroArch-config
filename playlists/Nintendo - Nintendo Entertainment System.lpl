@@ -618,6 +618,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Data Man (World) (v1.1) (Digital) (Aftermarket) (Unl).zip",
+      "label": "Data Man (World) (v1.1) (Digital) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1).zip#David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1).nes",
       "label": "David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
@@ -1162,6 +1170,30 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Haunted - Halloween '85 (World) (Aftermarket) (Unl).zip",
+      "label": "Haunted - Halloween '85 (World) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Haunted - Halloween '86 (World) (Aftermarket) (Unl).zip",
+      "label": "Haunted - Halloween '86 (World) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Haunted - Halloween '86 (World) (Remastered Onslaught Edition) (Aftermarket) (Unl).zip",
+      "label": "Haunted - Halloween '86 (World) (Remastered Onslaught Edition) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Heavy Barrel (USA).zip#Heavy Barrel (USA).nes",
       "label": "Heavy Barrel (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
@@ -1623,6 +1655,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "E1F8F2F4|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Malasombra (World) (En,Es) (Digital) (Aftermarket) (Unl).zip",
+      "label": "Malasombra (World) (En,Es) (Digital) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {

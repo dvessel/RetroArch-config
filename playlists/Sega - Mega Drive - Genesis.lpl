@@ -114,6 +114,14 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Astebros (World) (En,Ja,Fr,De,Es,It,Pt-BR,Zh) (PixelHeart) (Aftermarket) (Unl).zip",
+      "label": "Astebros (World) (En,Ja,Fr,De,Es,It,Pt-BR,Zh) (PixelHeart) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Battle Mania Daiginjou (Japan, Korea).zip#Battle Mania Daiginjou (Japan, Korea).md",
       "label": "Battle Mania Daiginjou (Japan, Korea) (Ja)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -223,6 +231,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "813A7D62|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Coloco DX (World) (Aftermarket) (Unl).zip",
+      "label": "Coloco DX (World) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
@@ -367,6 +383,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "3DFEEB77|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Earthion (World) (En) (v3.3.0) (Aftermarket) (Unl).zip",
+      "label": "Earthion (World) (En) (v3.3.0) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
@@ -1559,6 +1583,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "2BF3626F|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/ZPF (World) (Aftermarket) (Unl).zip",
+      "label": "ZPF (World) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00000000|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     }
   ]

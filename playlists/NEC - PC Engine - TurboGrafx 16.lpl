@@ -58,6 +58,14 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Atlantean (World) (Aftermarket) (Unl).zip#Atlantean (World) (Aftermarket) (Unl).pce",
+      "label": "Atlantean (World) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "00000000|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Bari Bari Densetsu (Japan).zip#Bari Bari Densetsu (Japan).pce",
       "label": "Bari Bari Densetsu (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",

@@ -314,6 +314,22 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl).zip",
+      "label": "Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl).zip",
+      "label": "Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dragon View (USA).zip#Dragon View (USA).sfc",
       "label": "Dragon View (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
