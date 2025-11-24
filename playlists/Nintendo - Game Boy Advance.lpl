@@ -251,7 +251,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Game Boy Advance/Mega Man Zero (USA, Europe).zip#Mega Man Zero (USA, Europe).gba",
-      "label": "Megaman Zero (USA, Europe)",
+      "label": "Mega Man Zero (USA, Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "9707D2A1|crc",
@@ -259,7 +259,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Game Boy Advance/Mega Man Zero 2 (USA).zip#Mega Man Zero 2 (USA).gba",
-      "label": "Megaman Zero 2 (USA)",
+      "label": "Mega Man Zero 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "CE1E37BB|crc",
@@ -267,7 +267,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Game Boy Advance/Mega Man Zero 3 (USA).zip#Mega Man Zero 3 (USA).gba",
-      "label": "Megaman Zero 3 (USA)",
+      "label": "Mega Man Zero 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "2784F3F2|crc",
@@ -275,7 +275,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Game Boy Advance/Mega Man Zero 4 (USA).zip#Mega Man Zero 4 (USA).gba",
-      "label": "Megaman Zero 4 (USA)",
+      "label": "Mega Man Zero 4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "7EE24793|crc",
