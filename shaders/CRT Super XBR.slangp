@@ -1,7 +1,0 @@
-#reference "shaders_slang/crt/crt-super-xbr.slangp"
-MODE = "2.000000"
-BEAM_MIN_WIDTH = "0.700000"
-SCANLINES_STRENGTH = "0.900000"
-CRT_CURVATURE = "0.000000"
-GLOW_WHITEPOINT = "1.100000"
-BLOOM_STRENGTH = "0.200000"
