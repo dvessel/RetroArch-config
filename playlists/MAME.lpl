@@ -17,10 +17,10 @@
   "scan_overwrite_playlist": true,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/1941.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.by-source/cps1/1941.zip",
       "label": "1941: Counter Attack (World 900227)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
