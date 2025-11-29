@@ -113,7 +113,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaxbd/aburner2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaxbd/aburner2.zip",
       "label": "After Burner II",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -145,7 +145,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas18/astorm.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas18/astorm.zip",
       "label": "Alien Storm (World, 2 Players) (FD1094 317-0154)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -153,7 +153,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16b/aliensyn.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16b/aliensyn.zip",
       "label": "Alien Syndrome (set 4, System 16B, unprotected)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -169,7 +169,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas32/alien3.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas32/alien3.zip",
       "label": "Alien3: The Gun (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -193,7 +193,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16b/altbeast.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16b/altbeast.zip",
       "label": "Altered Beast (set 8) (8751 317-0078)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -209,7 +209,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas32/arabfgt.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas32/arabfgt.zip",
       "label": "Arabian Fight (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -265,7 +265,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tv/astrass.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/astrass.zip",
       "label": "Astra SuperStars (J 980514 V1.002)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -521,7 +521,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-v/cairblad.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ssv/cairblad.zip",
       "label": "Change Air Blade (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -537,7 +537,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ystem1/choplift.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-system1/choplift.zip",
       "label": "Choplifter (8751 315-5151)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -553,7 +553,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egac2/columns.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segac2/columns.zip",
       "label": "Columns (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -561,7 +561,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egac2/columns2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segac2/columns2.zip",
       "label": "Columns II: The Voyage Through Time (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -601,7 +601,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16b/cotton.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16b/cotton.zip",
       "label": "Cotton (set 4, World) (FD1094 317-0181a)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -609,7 +609,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tv/cotton2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/cotton2.zip",
       "label": "Cotton 2 (JUET 970902 V1.000)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -617,7 +617,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tv/cottonbm.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/cottonbm.zip",
       "label": "Cotton Boomerang (JUET 980709 V1.000)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -649,7 +649,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16b/eswat.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16b/eswat.zip",
       "label": "Cyber Police ESWAT (set 4, World) (FD1094 317-0130)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -697,7 +697,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-uprnova/cyvern.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-suprnova/cyvern.zip",
       "label": "Cyvern - The Dragon Weapons (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -705,7 +705,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eta/daioh.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seta/daioh.zip",
       "label": "Daioh",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1089,7 +1089,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-kykid/drgnbstr.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-skykid/drgnbstr.zip",
       "label": "Dragon Buster",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1137,7 +1137,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-v/dynagear.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ssv/dynagear.zip",
       "label": "Dyna Gear",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1177,7 +1177,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egahang/enduror.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segahang/enduror.zip",
       "label": "Enduro Racer (Rev A, YM2151, FD1089B 317-0013A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1225,7 +1225,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16a/fantzone.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16a/fantzone.zip",
       "label": "Fantasy Zone (Rev A, unprotected)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1233,7 +1233,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egae/fantzn2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segae/fantzn2.zip",
       "label": "Fantasy Zone II - The Tears of Opa-Opa (MC-8123, 317-0057)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1329,7 +1329,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ystem1/flicky.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-system1/flicky.zip",
       "label": "Flicky (128k Version, 315-5051)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1369,7 +1369,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaybd/gloc.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaybd/gloc.zip",
       "label": "G-LOC Air Battle (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1393,7 +1393,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas24/gground.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas24/gground.zip",
       "label": "Gain Ground (World, 3 Players, Floppy Based, FD1094 317-0058-03d Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1433,7 +1433,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaybd/gforce2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaybd/gforce2.zip",
       "label": "Galaxy Force 2",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1521,7 +1521,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16b/goldnaxe.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16b/goldnaxe.zip",
       "label": "Golden Axe (set 6, US) (8751 317-123A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1529,7 +1529,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas32/ga2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas32/ga2.zip",
       "label": "Golden Axe: The Revenge of Death Adder (World, Rev B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1577,7 +1577,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tv/groovef.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/groovef.zip",
       "label": "Groove on Fight - Gouketsuji Ichizoku 3 (J 970416 V1.001)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1593,7 +1593,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tv/grdforce.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/grdforce.zip",
       "label": "Guardian Force (JUET 980318 V0.105)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1601,7 +1601,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eta2/grdians.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seta2/grdians.zip",
       "label": "Guardians / Denjin Makai II (P-FG01-1 PCB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1657,7 +1657,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eta/gundhara.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seta/gundhara.zip",
       "label": "Gundhara",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1705,7 +1705,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egahang/hangon.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segahang/hangon.zip",
       "label": "Hang-On (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1721,7 +1721,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-idearms/sidearms.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-sidearms/sidearms.zip",
       "label": "Hyper Dyne Side Arms (World, 861129)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1769,7 +1769,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-nk/ikari.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-snk/ikari.zip",
       "label": "Ikari Warriors (US JAMMA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1793,7 +1793,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eta/jjsquawk.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seta/jjsquawk.zip",
       "label": "J. J. Squawkers",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2257,7 +2257,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas18/mwalk.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas18/mwalk.zip",
       "label": "Michael Jackson's Moonwalker (World) (FD1094/8751 317-0159)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2641,7 +2641,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-impl156/osman.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-simpl156/osman.zip",
       "label": "Osman (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2649,7 +2649,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaorun/outrun.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaorun/outrun.zip",
       "label": "Out Run (sitdown/upright, Rev B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2665,7 +2665,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas32/orunners.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas32/orunners.zip",
       "label": "OutRunners (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2681,7 +2681,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-nk68/pow.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-snk68/pow.zip",
       "label": "P.O.W. - Prisoners of War (US version 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2729,7 +2729,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-v/pastelis.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ssv/pastelis.zip",
       "label": "Pastel Island (Japan, prototype)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2833,7 +2833,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaybd/pdrift.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaybd/pdrift.zip",
       "label": "Power Drift (World, Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3033,7 +3033,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tv/rsgun.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/rsgun.zip",
       "label": "Radiant Silvergun (JUET 980523 V1.000)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3065,7 +3065,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eibuspi/rdft.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seibuspi/rdft.zip",
       "label": "Raiden Fighters (Germany)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3073,7 +3073,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eibuspi/rdft2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seibuspi/rdft2.zip",
       "label": "Raiden Fighters 2 - Operation Hell Dive (Germany)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3177,7 +3177,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eta/rezon.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seta/rezon.zip",
       "label": "Rezon",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3353,7 +3353,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eattle/sfrush.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seattle/sfrush.zip",
       "label": "San Francisco Rush",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3377,7 +3377,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eattle/sfrushrk.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seattle/sfrushrk.zip",
       "label": "San Francisco Rush: The Rock (boot rom L 1.0, GUTS Oct 6 1997 / MAIN Oct 16 1997)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3393,7 +3393,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16a/sdi.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16a/sdi.zip",
       "label": "SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3425,7 +3425,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-uprnova/sengekis.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-suprnova/sengekis.zip",
       "label": "Sengeki Striker (Asia)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3465,7 +3465,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas18/shdancer.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas18/shdancer.zip",
       "label": "Shadow Dancer (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3473,7 +3473,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-hadfrce/shadfrce.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-shadfrce/shadfrce.zip",
       "label": "Shadow Force (World, Version 3)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3489,7 +3489,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tv/shienryu.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/shienryu.zip",
       "label": "Shienryu (JUET 961226 V1.000)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3505,7 +3505,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16a/shinobi.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16a/shinobi.zip",
       "label": "Shinobi (set 6, System 16A) (unprotected)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3561,7 +3561,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-onson/sonson.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-sonson/sonson.zip",
       "label": "Son Son",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3585,7 +3585,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tv/sokyugrt.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/sokyugrt.zip",
       "label": "Soukyugurentai / Terra Diver (JUET 960821 V1.000)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3609,7 +3609,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egahang/sharrier.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segahang/sharrier.zip",
       "label": "Space Harrier (Rev A, 8751 315-5163A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3625,7 +3625,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas32/spidman.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas32/spidman.zip",
       "label": "Spider-Man: The Videogame (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3681,7 +3681,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-v/stmblade.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ssv/stmblade.zip",
       "label": "Storm Blade (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3689,7 +3689,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-f/sf.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-sf/sf.zip",
       "label": "Street Fighter (US, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3857,7 +3857,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaorun/shangon.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaorun/shangon.zip",
       "label": "Super Hang-On (sitdown/upright) (unprotected)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3865,7 +3865,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaxbd/smgp.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaxbd/smgp.zip",
       "label": "Super Monaco GP (World, Rev B) (FD1094 317-0126a)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4153,7 +4153,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-impsons/simpsons2p3.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-simpsons/simpsons2p3.zip",
       "label": "The Simpsons (2 Players World, set 3)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4161,7 +4161,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-impsons/simpsons.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-simpsons/simpsons.zip",
       "label": "The Simpsons (4 Players World, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4193,7 +4193,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaxbd/thndrbld.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaxbd/thndrbld.zip",
       "label": "Thunder Blade (upright) (FD1094 317-0056)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4201,7 +4201,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egac2/tfrceac.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segac2/tfrceac.zip",
       "label": "Thunder Force AC",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4281,7 +4281,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egaorun/toutrun.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segaorun/toutrun.zip",
       "label": "Turbo Out Run (Out Run upgrade) (FD1094 317-0118)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4385,7 +4385,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-v/vasara.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ssv/vasara.zip",
       "label": "Vasara",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4393,7 +4393,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-v/vasara2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ssv/vasara2.zip",
       "label": "Vasara 2 (set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4425,7 +4425,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-eibuspi/viprp1.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-seibuspi/viprp1.zip",
       "label": "Viper Phase 1 (New Version, World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4537,7 +4537,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ystem1/wboy.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-system1/wboy.zip",
       "label": "Wonder Boy (set 1, 315-5177)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4545,7 +4545,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-egas16b/wb3.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16b/wb3.zip",
       "label": "Wonder Boy III - Monster Lair (set 6, World, System 16B) (8751 317-0098)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4553,7 +4553,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ystem1/wbmlvc.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-system1/wbmlvc.zip",
       "label": "Wonder Boy: Monster Land (English, Virtual Console)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4561,7 +4561,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-ystem1/wbml.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-system1/wbml.zip",
       "label": "Wonder Boy: Monster Land (Japan New Ver., MC-8123, 317-0043)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
