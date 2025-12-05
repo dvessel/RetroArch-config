@@ -353,6 +353,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-zn/beastrzr.zip",
+      "label": "Beastorizer (USA, Sep 22 1997)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-berzerk/berzerk.zip",
       "label": "Berzerk (revision RC31A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -601,6 +609,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-m72/cosmccop.zip",
+      "label": "Cosmic Cop (World)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16b/cotton.zip",
       "label": "Cotton (set 4, World) (FD1094 317-0181a)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -651,6 +667,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16b/eswat.zip",
       "label": "Cyber Police ESWAT (set 4, World) (FD1094 317-0130)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-namcos21_c67/cybsled.zip",
+      "label": "Cyber Sled (CY2, World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1171,6 +1195,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-taito_f3/elvactr.zip",
       "label": "Elevator Action Returns (Ver 2.2O 1995/02/20)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-model3/eca.zip",
+      "label": "Emergency Call Ambulance (Export)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1707,6 +1739,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segahang/hangon.zip",
       "label": "Hang-On (Rev A)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-harddriv/harddriv.zip",
+      "label": "Hard Drivin' (cockpit, rev 7)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3025,6 +3065,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-harddriv/racedriv.zip",
+      "label": "Race Drivin' (cockpit, rev 5)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-dkong/radarscp.zip",
       "label": "Radar Scope (TRS02, rev. D)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3209,6 +3257,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-zn/rvschool.zip",
+      "label": "Rival Schools: United By Fate (Europe 971117)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-atarisy1/roadblst.zip",
       "label": "Road Blasters (upright, rev 4)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3299,6 +3355,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-konamigx/salmndr2.zip",
       "label": "Salamander 2 (ver JAA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-psikyo/samuraia.zip",
+      "label": "Samurai Aces (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3553,6 +3617,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-psikyosh/soldivid.zip",
+      "label": "Sol Divide - The Sword Of Darkness",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-gticlub/slrasslt.zip",
       "label": "Solar Assault (ver UAA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3673,6 +3745,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-harddriv/steeltal.zip",
+      "label": "Steel Talons (rev 2)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-artmagic/stonebal.zip",
       "label": "Stone Ball (4 Players, v1-20 13/12/1994)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3785,6 +3865,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-zn/strider2.zip",
+      "label": "Strider 2 (Europe 991213)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-midyunit/strkforc.zip",
       "label": "Strike Force (rev 1 02/25/91)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3827,6 +3915,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tmnt2/ssriders.zip",
       "label": "Sunset Riders (4 Players ver EAC)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-superchs/superchs.zip",
+      "label": "Super Chase - Criminal Termination (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3987,6 +4083,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-namcos12/tektagt.zip",
       "label": "Tekken Tag Tournament (World, TEG2/VER.C1, set 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-psikyo/tengai.zip",
+      "label": "Tengai (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4433,6 +4537,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-model1/vf.zip",
+      "label": "Virtua Fighter",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-model2/vf2.zip",
       "label": "Virtua Fighter 2 (Version 2.1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -4443,6 +4555,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-model3/vf3.zip",
       "label": "Virtua Fighter 3 (Revision D)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-stv/vfremix.zip",
+      "label": "Virtua Fighter Remix (JUETBKAL 950428 V1.000)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4523,6 +4643,30 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps1/willow.zip",
       "label": "Willow (World)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-namcos21/winrun91.zip",
+      "label": "Winning Run '91 (Japan) (1991/03/05, Main Ver 1.0, Sub Ver 1.0)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-namcos21/winrun.zip",
+      "label": "Winning Run (World) (89/06/06, Ver.09)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-namcos21/winrungp.zip",
+      "label": "Winning Run Suzuka Grand Prix (Japan) (89/12/03, Ver.02)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
