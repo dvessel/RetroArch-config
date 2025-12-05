@@ -289,6 +289,14 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Naomi/pjustic.zip",
+      "label": "Project Justice / Moero! Justice Gakuen (Rev B)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Naomi.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Naomi/psyvar2.zip",
       "label": "Psyvariar 2 - The Will To Fabricate (Japan) (GDL-0024)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
