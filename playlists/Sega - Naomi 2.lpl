@@ -41,6 +41,14 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Naomi 2/initd.zip",
+      "label": "Initial D Arcade Stage (Japan, Rev B) (GDS-0020B)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Naomi 2.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Naomi 2/initdv2e.zip",
       "label": "Initial D Arcade Stage Ver. 2 (Export) (GDS-0027)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
