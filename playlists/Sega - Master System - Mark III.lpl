@@ -18,6 +18,14 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Addams Family, The (Europe).zip#Addams Family, The (Europe).sms",
+      "label": "Addams Family, The (Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "72420F38|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/Aladdin (Europe).zip#Aladdin (Europe).sms",
       "label": "Aladdin (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -74,6 +82,14 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Alien 3 (Europe, Brazil) (En).zip#Alien 3 (Europe, Brazil) (En).sms",
+      "label": "Alien 3 (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B618B144|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/Alien Syndrome (USA, Europe).zip#Alien Syndrome (USA, Europe).sms",
       "label": "Alien Syndrome (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -103,6 +119,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E890331D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Batman Returns (Europe, Brazil) (En).zip#Batman Returns (Europe, Brazil) (En).sms",
+      "label": "Batman Returns (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B154EC38|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
@@ -162,6 +186,14 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Double Dragon (World).zip#Double Dragon (World).sms",
+      "label": "Double Dragon (World)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A55D89F3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/Enduro Racer (USA, Europe).zip#Enduro Racer (USA, Europe).sms",
       "label": "Enduro Racer (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -215,6 +247,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F1F8FF2D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Ghostbusters (USA, Europe, Brazil) (En).zip#Ghostbusters (USA, Europe, Brazil) (En).sms",
+      "label": "Ghostbusters (USA, Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1DDC3059|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
@@ -338,6 +378,14 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Jungle Book, The (Europe, Brazil) (En).zip#Jungle Book, The (Europe, Brazil) (En).sms",
+      "label": "Jungle Book, The (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "695A9A15|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/Kenseiden (USA, Europe).zip#Kenseiden (USA, Europe).sms",
       "label": "Kenseiden (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -346,11 +394,27 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Krusty's Fun House (Europe, Brazil) (En).zip#Krusty's Fun House (Europe, Brazil) (En).sms",
+      "label": "Krusty's Fun House (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "64A585EB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/Kung Fu Kid (USA, Europe).zip#Kung Fu Kid (USA, Europe).sms",
       "label": "Kung Fu Kid (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "1E949D1F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Lion King, The (Europe, Brazil) (En).zip#Lion King, The (Europe, Brazil) (En).sms",
+      "label": "Lion King, The (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C352C7EB|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
@@ -386,6 +450,14 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Monopoly (USA, Europe) (Rev A).zip#Monopoly (USA, Europe) (Rev A).sms",
+      "label": "Monopoly (USA, Europe) (Rev A)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "026D94A4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/Montezuma's Revenge - Featuring Panama Joe (USA).zip#Montezuma's Revenge - Featuring Panama Joe (USA).sms",
       "label": "Montezuma's Revenge Featuring Panama Joe (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -399,6 +471,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "62F0C23D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/NewZealand Story, The (Europe).zip#NewZealand Story, The (Europe).sms",
+      "label": "NewZealand Story, The (Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C660FF34|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
@@ -463,6 +543,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "A109A6FE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Prince of Persia (Europe, Brazil) (En).zip#Prince of Persia (Europe, Brazil) (En).sms",
+      "label": "Prince of Persia (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7704287D|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
