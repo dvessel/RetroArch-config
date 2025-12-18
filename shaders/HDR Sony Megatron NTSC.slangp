@@ -1,3 +1,0 @@
-#reference "shaders_slang/hdr/crt-sony-megatron-default-hdr-NTSC.slangp"
-hcrt_max_nits = "1600.000000"
-hcrt_colour_system = "2.000000"
