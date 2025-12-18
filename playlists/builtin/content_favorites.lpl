@@ -18,7 +18,7 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/akatana.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/akatana.zip",
       "label": "Akai Katana (2010/ 8/13 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -34,7 +34,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/bgaregga.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-raizing/bgaregga.zip",
       "label": "Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -50,7 +50,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/blazstar.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-neogeo/blazstar.zip",
       "label": "Blazing Star",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -66,7 +66,7 @@
       "db_name": "NEC - PC Engine SuperGrafx.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/dsmbl.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/dsmbl.zip",
       "label": "Deathsmiles MegaBlack Label (2008/10/06 MEGABLACK LABEL VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -74,7 +74,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/dfkbl.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/dfkbl.zip",
       "label": "DoDonPachi Dai-Fukkatsu Black Label (2010/1/18 BLACK LABEL)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -82,7 +82,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/ddpsdoj.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/ddpsdoj.zip",
       "label": "DoDonPachi SaiDaiOuJou (2012/ 4/20)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -90,7 +90,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/esprade.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cave/esprade.zip",
       "label": "ESP Ra.De. (World, 1998 4/22 International Ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -114,7 +114,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/ffight.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps1/ffight.zip",
       "label": "Final Fight (World, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -130,7 +130,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/guwange.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cave/guwange.zip",
       "label": "Guwange (Japan, 1999 6/24 Master Ver 16:55)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -170,7 +170,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/mslug3.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-neogeo/mslug3.zip",
       "label": "Metal Slug 3 (NGM-2560)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -178,7 +178,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/mushisam.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/mushisam.zip",
       "label": "Mushihime-Sama (2004/10/12.MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -186,7 +186,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/futaribl.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futaribl.zip",
       "label": "Mushihime-Sama Futari Black Label - Another Ver (2009/11/27 INTERNATIONAL BL)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -194,7 +194,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/futari15.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futari15.zip",
       "label": "Mushihime-Sama Futari Ver 1.5 (2006/12/8.MASTER VER. 1.54.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -202,7 +202,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/progear.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps2/progear.zip",
       "label": "Progear (USA 010117)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -210,7 +210,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/pulstar.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-neogeo/pulstar.zip",
       "label": "Pulstar",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -218,7 +218,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/rtype.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-m72/rtype.zip",
       "label": "R-Type (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -226,7 +226,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/shinobi.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-segas16a/shinobi.zip",
       "label": "Shinobi (set 6, System 16A) (unprotected)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -234,7 +234,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/soulclbr.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-namcos12/soulclbr.zip",
       "label": "Soul Calibur (World, SOC12/VER.A2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -250,7 +250,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/sfiii2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps3/sfiii2.zip",
       "label": "Street Fighter III 2nd Impact: Giant Attack (USA 970930)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -258,7 +258,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/sfiii3u.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps3/sfiii3u.zip",
       "label": "Street Fighter III 3rd Strike: Fight for the Future (USA 990608)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -266,7 +266,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/sfiii.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps3/sfiii.zip",
       "label": "Street Fighter III: New Generation (Europe 970204)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
