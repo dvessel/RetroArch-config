@@ -18,6 +18,14 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega CD/AH3 - Thunderstrike (USA).chd",
+      "label": "AH3 - Thunderstrike (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "T-60055|serial",
+      "db_name": "Sega - Mega-CD - Sega CD.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega CD/Android Assault - The Revenge of Bari-Arm (USA).chd",
       "label": "Android Assault - The Revenge of Bari-Arm (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",

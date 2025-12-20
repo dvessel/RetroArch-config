@@ -3137,6 +3137,22 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-rbisland/rbisland.zip",
+      "label": "Rainbow Islands (rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-rbisland/rbislande.zip",
+      "label": "Rainbow Islands - Extra Version",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-mcr3/rampage.zip",
       "label": "Rampage (Rev 3, 8/27/86)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",

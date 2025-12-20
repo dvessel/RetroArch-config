@@ -466,6 +466,14 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Rainbow Islands - The Story of Bubble Bobble 2 (Japan).chd",
+      "label": "Rainbow Islands - The Story of Bubble Bobble 2 (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "A5C8BEAF|crc",
+      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Rayxanber II (Japan).chd",
       "label": "Rayxanber II (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
