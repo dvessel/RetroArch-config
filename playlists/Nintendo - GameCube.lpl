@@ -49,14 +49,6 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/GameCube/GameCube-240pSuite-1.10b.rvz",
-      "label": "Bloody Roar - Primal Fury (Europe)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
-      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
-      "crc32": "DL-DOL-GBLP-EUR|serial",
-      "db_name": "Nintendo - GameCube.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/GameCube/Chibi-Robo! Plug into Adventure!.rvz",
       "label": "Chibi-Robo! (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
