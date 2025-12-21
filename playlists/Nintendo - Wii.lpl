@@ -1,0 +1,333 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+  "default_core_name": "Nintendo - GameCube / Wii (Dolphin)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Castle of Shikigami III.rvz",
+      "label": "Castle of Shikigami III (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RS4EXS|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/de Blob 2.rvz",
+      "label": "de Blob 2 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SDBE78|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Dead Space - Extraction.rvz",
+      "label": "Dead Space: Extraction (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RZJE69|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Donkey Kong Country Returns.rvz",
+      "label": "Donkey Kong Country Returns (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SF8E01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Don Bluth Presents Dragon's Lair Trilogy.rvz",
+      "label": "Dragon's Lair Trilogy (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SL3ENR|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Fire Emblem - Radiant Dawn.rvz",
+      "label": "Fire Emblem: Radiant Dawn (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RFEE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/GoldenEye 007.rvz",
+      "label": "GoldenEye 007 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SJBE52|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Kirby's Epic Yarn.rvz",
+      "label": "Kirby's Epic Yarn (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RK5E01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Klonoa.rvz",
+      "label": "Klonoa (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R96EAF|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Lost in Shadow.rvz",
+      "label": "Lost in Shadow (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SDWE18|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/MadWorld.rvz",
+      "label": "MadWorld (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RZZE8P|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Mario Kart Wii.rvz",
+      "label": "Mario Kart Wii (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RMCE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Metroid Prime 3 - Corruption.rvz",
+      "label": "Metroid Prime 3: Corruption (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RM3E01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Metroid Prime Trilogy.rvz",
+      "label": "Metroid Prime: Trilogy (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R3ME01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Metroid - Other M.rvz",
+      "label": "Metroid: Other M (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R3OE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Monster Hunter Tri.rvz",
+      "label": "Monster Hunter Tri (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RMHE08|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Muramasa - The Demon Blade.rvz",
+      "label": "Muramasa: The Demon Blade (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RSFE7U|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/New Super Mario Bros. Wii.rvz",
+      "label": "New Super Mario Bros. Wii (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SMNE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Ookami.rvz",
+      "label": "Okami (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "ROWE08|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Pandora's Tower.rvz",
+      "label": "Pandora's Tower (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SX3EXJ|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/New Play Control! Pikmin.rvz",
+      "label": "Pikmin (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R9IE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Pikmin 2.rvz",
+      "label": "Pikmin 2 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R92E01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Red Steel 2.rvz",
+      "label": "Red Steel 2 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RD2E41|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Rhythm Heaven Fever.rvz",
+      "label": "Rhythm Heaven Fever (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SOME01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Silent Hill - Shattered Memories.rvz",
+      "label": "Silent Hill: Shattered Memories (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R5WEA4|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Sin & Punishment - Star Successor.rvz",
+      "label": "Sin & Punishment: Star Successor (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R2VE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Sonic Colors.rvz",
+      "label": "Sonic Colors (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SNCE8P|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Speed Racer - The Videogame.rvz",
+      "label": "Speed Racer: The Videogame (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R3PEWR|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Super Mario Galaxy.rvz",
+      "label": "Super Mario Galaxy (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RMGE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Super Mario Galaxy 2.rvz",
+      "label": "Super Mario Galaxy 2 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SB4E01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Super Monkey Ball - Banana Blitz.rvz",
+      "label": "Super Monkey Ball: Banana Blitz (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RSME8P|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Super Paper Mario.rvz",
+      "label": "Super Paper Mario (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R8PE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Super Smash Bros. Brawl.rvz",
+      "label": "Super Smash Bros. Brawl (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RSBE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Tatsunoko vs. Capcom - Ultimate All-Stars.rvz",
+      "label": "Tatsunoko vs. Capcom: Ultimate All-Stars (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "STKE08|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Last Story, The.rvz",
+      "label": "The Last Story (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SLSEXJ|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Legend of Zelda, The - Skyward Sword.rvz",
+      "label": "The Legend of Zelda: Skyward Sword (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SOUE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Legend of Zelda, The - Twilight Princess.rvz",
+      "label": "The Legend of Zelda: Twilight Princess (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RZDE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/TrackMania - Build to Race.rvz",
+      "label": "TrackMania: Build to Race (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "R6REJH|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Wario Land - Shake It!.rvz",
+      "label": "Wario Land: Shake It! (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "RWLE01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Wii/Xenoblade Chronicles.rvz",
+      "label": "Xenoblade Chronicles (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "SX4E01|serial",
+      "db_name": "Nintendo - Wii.lpl"
+    }
+  ]
+}

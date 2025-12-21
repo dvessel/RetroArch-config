@@ -1,0 +1,69 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+  "default_core_name": "Nintendo - GameCube / Wii (Dolphin)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Wiiware/Art Style - CUBELLO.wad",
+      "label": "Art Style - CUBELLO (USA) (WiiWare)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "40E84A60|crc",
+      "db_name": "Nintendo - Wii (Digital).lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Wiiware/FAST - Racing League.wad",
+      "label": "FAST - Racing League (USA) (WiiWare)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "42B7D256|crc",
+      "db_name": "Nintendo - Wii (Digital).lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Wiiware/Gradius III.wad",
+      "label": "Gradius III (USA) (SNES) (Virtual Console)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "24ECF4A0|crc",
+      "db_name": "Nintendo - Wii (Digital).lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Wiiware/Gradius ReBirth.wad",
+      "label": "Gradius ReBirth (USA) (WiiWare)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "83753EED|crc",
+      "db_name": "Nintendo - Wii (Digital).lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Wiiware/LostWinds.wad",
+      "label": "LostWinds (USA) (WiiWare)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "93FB215A|crc",
+      "db_name": "Nintendo - Wii (Digital).lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Wiiware/LostWinds - Winter of the Melodias.wad",
+      "label": "LostWinds - Winter of the Melodias (USA) (WiiWare)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "81CB8CFC|crc",
+      "db_name": "Nintendo - Wii (Digital).lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Wiiware/Retro City Rampage.wad",
+      "label": "Retro City Rampage (USA) (WiiWare)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "5FC5C11A|crc",
+      "db_name": "Nintendo - Wii (Digital).lpl"
+    }
+  ]
+}
