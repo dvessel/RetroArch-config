@@ -26,8 +26,8 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi No Rondo (English v1.01).chd",
-      "label": "Akumajou Dracula X - Chi No Rondo (English v1.01)",
+      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (English Translation v1.01).chd",
+      "label": "Akumajou Dracula X - Chi no Rondo (English Translation v1.01)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "00000000|crc",

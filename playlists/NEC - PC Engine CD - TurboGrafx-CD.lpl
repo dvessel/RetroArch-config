@@ -18,8 +18,8 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi No Rondo (English v1.01).chd",
-      "label": "Akumajou Dracula X - Chi No Rondo (English v1.01)",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (English Translation v1.01).chd",
+      "label": "Akumajou Dracula X - Chi no Rondo (English Translation v1.01)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "00000000|crc",
@@ -202,16 +202,16 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7).chd",
-      "label": "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7)",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (English Translation v1.2).chd",
+      "label": "Far East of Eden - Tengai Makyou - Ziria (English Translation v1.2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "84472B6A|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7) (translated into english).chd",
-      "label": "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7) (translated into english)",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7).chd",
+      "label": "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "84472B6A|crc",
@@ -410,16 +410,16 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Motteke Tamago (Japan).chd",
-      "label": "Motteke Tamago (Japan)",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Motteke Tamago (English Translation).chd",
+      "label": "Motteke Tamago (English Translation)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "00000000|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Motteke Tamago (translated into english)(Japan).chd",
-      "label": "Motteke Tamago (translated into english)(Japan)",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Motteke Tamago (Japan).chd",
+      "label": "Motteke Tamago (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "00000000|crc",
@@ -642,8 +642,8 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Xak III - The Eternal Recurrence (Japan)(translated into english).chd",
-      "label": "Xak III - The Eternal Recurrence (Japan)(translated into english)",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Xak III - The Eternal Recurrence (English Translation).chd",
+      "label": "Xak III - The Eternal Recurrence (English Translation)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "00000000|crc",
@@ -666,8 +666,8 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ys IV - The Dawn of Ys (Japan)(translated into english).chd",
-      "label": "Ys IV - The Dawn of Ys (Japan)(translated into english)",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ys IV - The Dawn of Ys (English Translation).chd",
+      "label": "Ys IV - The Dawn of Ys (English Translation)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
       "crc32": "00000000|crc",
