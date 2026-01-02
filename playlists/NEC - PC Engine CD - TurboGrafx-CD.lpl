@@ -154,6 +154,22 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Emerald Dragon (English Translation v1.0).chd",
+      "label": "Emerald Dragon (English Translation v1.0)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "BB5E7D43|crc",
+      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Emerald Dragon (Japan).chd",
+      "label": "Emerald Dragon (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "crc32": "BB5E7D43|crc",
+      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Exile (USA).chd",
       "label": "Exile (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
