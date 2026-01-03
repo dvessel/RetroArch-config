@@ -1794,6 +1794,22 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Micro Mages - Second Quest (World) (Aftermarket) (Unl).zip#Micro Mages - Second Quest (World) (Aftermarket) (Unl).nes",
+      "label": "Micro Mages - Second Quest (World) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "00000000|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Micro Mages (World) (Aftermarket) (Unl).zip#Micro Mages (World) (Aftermarket) (Unl).nes",
+      "label": "Micro Mages (World) (Aftermarket) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "7982ACC7|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Mighty Bomb Jack (USA).zip#Mighty Bomb Jack (USA).nes",
       "label": "Mighty Bomb Jack (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
