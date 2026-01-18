@@ -3081,6 +3081,22 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-nwk-tr/racingj.zip",
+      "label": "Racing Jam (GQ676UAC)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-nwk-tr/racingj2.zip",
+      "label": "Racing Jam: Chapter II (GQ888UAA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-dkong/radarscp.zip",
       "label": "Radar Scope (TRS02, rev. D)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
