@@ -34,6 +34,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Adventures of Lomax, The (USA).chd",
+      "label": "Adventures of Lomax, The (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SCUS-94906|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Air Combat (USA).chd",
       "label": "Air Combat (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -87,30 +95,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94182|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Art Camion - Geijutsuden (Japan).chd",
-      "label": "Art Camion - Geijutsuden (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-02405|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bakusou Dekotora Densetsu - Otoko Ippiki Yume Kaidou (Japan).chd",
-      "label": "Bakusou Dekotora Densetsu - Otoko Ippiki Yume Kaidou (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-01441|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Bakusou Dekotora Densetsu 2 - Otoko Jinsei Yume Ichiro (Japan).chd",
-      "label": "Bakusou Dekotora Densetsu 2 - Otoko Jinsei Yume Ichiro (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "XXXXXXXXXX|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -319,14 +303,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLPS-00574|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Darkstone (USA).chd",
-      "label": "Darkstone (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-01182|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -562,6 +538,22 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Formula 1 (USA).chd",
+      "label": "Formula 1 (USA) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SCUS-94353|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Formula One 2000 (USA).chd",
+      "label": "Formula One 2000 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-01134|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Forsaken (USA).chd",
       "label": "Forsaken (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -575,6 +567,22 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-00739|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/G-Police (USA)/G-Police (USA).m3u",
+      "label": "G-Police (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-00544-0|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/G-Police - Weapons of Justice (USA).chd",
+      "label": "G-Police - Weapons of Justice (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-00798|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -615,14 +623,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLPM-87286|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gekitou! Crush Gear Turbo (Japan).chd",
-      "label": "Gekitou! Crush Gear Turbo (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-03453|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -826,54 +826,6 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider (Japan).chd",
-      "label": "Kamen Rider (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-01570|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Agito (Japan).chd",
-      "label": "Kamen Rider Agito (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-03344|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Kuuga (Japan).chd",
-      "label": "Kamen Rider Kuuga (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-03090|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider Ryuuki (Japan).chd",
-      "label": "Kamen Rider Ryuuki (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-03495|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kamen Rider V3 (Japan).chd",
-      "label": "Kamen Rider V3 (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-02964|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kensei - Sacred Fist (USA).chd",
-      "label": "Kensei - Sacred Fist (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00600|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Kileak - The DNA Imperative (USA).chd",
       "label": "Kileak - The DNA Imperative (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -970,27 +922,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Love & Destroy (Japan).chd",
-      "label": "Love & Destroy (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SCPS-10124|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/LSD - Dream Emulator (Japan).chd",
       "label": "LSD - Dream Emulator (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLPS-01556|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Macross VF-X2 (Japan).chd",
-      "label": "Macross VF-X2 (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-02237|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1066,14 +1002,6 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mobile Light Force (USA).chd",
-      "label": "Mobile Light Force (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-01525|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Motor Toon Grand Prix (USA).chd",
       "label": "Motor Toon Grand Prix (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -1103,46 +1031,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94602|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 1 (USA) (Rev 1).chd",
-      "label": "Namco Museum Vol. 1 (USA) (Rev 1)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00215|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 2 (USA).chd",
-      "label": "Namco Museum Vol. 2 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00216|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 3 (USA).chd",
-      "label": "Namco Museum Vol. 3 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00398|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 4 (USA).chd",
-      "label": "Namco Museum Vol. 4 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00416|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Namco Museum Vol. 5 (USA).chd",
-      "label": "Namco Museum Vol. 5 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00417|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1218,14 +1106,6 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Pepsiman (Japan).chd",
-      "label": "Pepsiman (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-01762|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona (USA).chd",
       "label": "Persona (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -1234,19 +1114,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA)/Persona 2 - Eternal Punishment (USA).m3u",
       "label": "Persona 2 - Eternal Punishment (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
+      "core_path": "DETECT",
+      "core_name": "DETECT",
       "crc32": "SLUS-01158|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA) (Bonus Disc).chd",
-      "label": "Persona 2 - Eternal Punishment (USA) (Bonus Disc)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-01339|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1319,14 +1191,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-00797|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Raiden Project, The (USA).chd",
-      "label": "Raiden Project, The (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SCUS-94402|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1487,14 +1351,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "PSX.EXE|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Shaolin (Europe).chd",
-      "label": "Shaolin (Europe)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLES-01658|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1938,14 +1794,6 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Two-Ten Kaku (Japan).chd",
-      "label": "Two-Ten Kaku (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-00131|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/UFO - A Day in the Life (Japan).chd",
       "label": "UFO - A Day in the Life (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -2050,27 +1898,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Virtual Hiryuu no Ken (Japan).chd",
-      "label": "Virtual Hiryuu no Ken (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-00338|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Virus - It Is Aware (Europe) (En,Fr,De,Es,It).chd",
       "label": "Virus - It Is Aware (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLES-01317|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wangan Trial (Japan)/Wangan Trial (Japan).m3u",
-      "label": "Wangan Trial (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
