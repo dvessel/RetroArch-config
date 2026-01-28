@@ -1586,11 +1586,11 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/ZPF (World) (Aftermarket) (Unl).zip",
-      "label": "ZPF (World) (Aftermarket) (Unl)",
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/ZPF (World) (Aftermarket) (Unl).zip#ZPF (World) (Aftermarket) (Unl).md",
+      "label": "ZPF (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "CD657892|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     }
   ]

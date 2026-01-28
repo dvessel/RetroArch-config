@@ -12,9 +12,9 @@
   "scan_file_exts": "zip",
   "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/mame.xml",
   "scan_search_recursively": true,
-  "scan_search_archives": false,
+  "scan_search_archives": true,
   "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": true,
+  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps1/1941.zip",
@@ -834,7 +834,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/deathsml.zip",
-      "label": "Deathsmiles (2007/10/09 MASTER VER)",
+      "label": "Deathsmiles (Japan, 2007/10/09 MASTER VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -842,7 +842,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/dsmbl.zip",
-      "label": "Deathsmiles MegaBlack Label (2008/10/06 MEGABLACK LABEL VER)",
+      "label": "Deathsmiles MegaBlack Label (Japan, 2008/10/06 MEGABLACK LABEL VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -914,7 +914,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-namcos22/dirtdash.zip",
-      "label": "Dirt Dash (World, DT2 Ver.B)",
+      "label": "Dirt Dash (World, DT2 Ver.C)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -938,7 +938,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/dfkbl.zip",
-      "label": "DoDonPachi Dai-Fukkatsu Black Label (2010/1/18 BLACK LABEL)",
+      "label": "DoDonPachi Dai-Fukkatsu Black Label (Japan, 2010/1/18 BLACK LABEL)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -946,7 +946,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/ddpdfk10.zip",
-      "label": "DoDonPachi Dai-Fukkatsu Ver 1.0 (2008/05/16 MASTER VER)",
+      "label": "DoDonPachi Dai-Fukkatsu Ver 1.0 (Japan, 2008/05/16 MASTER VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -954,7 +954,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/ddpdfk.zip",
-      "label": "DoDonPachi Dai-Fukkatsu Ver 1.5 (2008/06/23 MASTER VER 1.5)",
+      "label": "DoDonPachi Dai-Fukkatsu Ver 1.5 (Japan, 2008/06/23 MASTER VER 1.5)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1234,7 +1234,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/espgal2a.zip",
-      "label": "Espgaluda II (2005/11/14 MASTER VER, newer CV1000-B PCB)",
+      "label": "Espgaluda II (Japan, 2005/11/14 MASTER VER, newer CV1000-B PCB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1242,7 +1242,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/espgal2b.zip",
-      "label": "Espgaluda II (2005/11/14 MASTER VER, original CV1000-B PCB)",
+      "label": "Espgaluda II (Japan, 2005/11/14 MASTER VER, original CV1000-B PCB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1250,7 +1250,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/espgal2.zip",
-      "label": "Espgaluda II (2005/11/14.MASTER VER.)",
+      "label": "Espgaluda II (Japan, 2005/11/14.MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1778,7 +1778,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/ibarao.zip",
-      "label": "Ibara (2005/03/22 MASTER VER..)",
+      "label": "Ibara (Japan, 2005/03/22 MASTER VER..)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1786,7 +1786,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/ibara.zip",
-      "label": "Ibara (2005/03/22 MASTER VER.., '06. 3. 7 ver.)",
+      "label": "Ibara (Japan, 2005/03/22 MASTER VER.., '06. 3. 7 ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1794,7 +1794,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/ibarablka.zip",
-      "label": "Ibara Kuro Black Label (2006/02/06 MASTER VER.)",
+      "label": "Ibara Kuro Black Label (Japan, 2006/02/06 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1802,7 +1802,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/ibarablk.zip",
-      "label": "Ibara Kuro Black Label (2006/02/06. MASTER VER.)",
+      "label": "Ibara Kuro Black Label (Japan, 2006/02/06. MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2410,7 +2410,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/mmpork.zip",
-      "label": "Muchi Muchi Pork! (2007/ 4/17 MASTER VER.)",
+      "label": "Muchi Muchi Pork! (Japan, 2007/ 4/17 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2426,7 +2426,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/mushisamb.zip",
-      "label": "Mushihime-Sama (2004/10/12 MASTER VER)",
+      "label": "Mushihime-Sama (Japan, 2004/10/12 MASTER VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2434,7 +2434,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/mushisama.zip",
-      "label": "Mushihime-Sama (2004/10/12 MASTER VER.)",
+      "label": "Mushihime-Sama (Japan, 2004/10/12 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2442,7 +2442,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/mushisam.zip",
-      "label": "Mushihime-Sama (2004/10/12.MASTER VER.)",
+      "label": "Mushihime-Sama (Japan, 2004/10/12.MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2450,7 +2450,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futariblj.zip",
-      "label": "Mushihime-Sama Futari Black Label (2007/12/11 BLACK LABEL VER)",
+      "label": "Mushihime-Sama Futari Black Label (Japan, 2007/12/11 BLACK LABEL VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2458,7 +2458,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futaribl.zip",
-      "label": "Mushihime-Sama Futari Black Label - Another Ver (2009/11/27 INTERNATIONAL BL)",
+      "label": "Mushihime-Sama Futari Black Label - Another Ver (World, 2009/11/27 INTERNATIONAL BL)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2466,7 +2466,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futari10.zip",
-      "label": "Mushihime-Sama Futari Ver 1.0 (2006/10/23 MASTER VER.)",
+      "label": "Mushihime-Sama Futari Ver 1.0 (Japan, 2006/10/23 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2474,7 +2474,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futari15a.zip",
-      "label": "Mushihime-Sama Futari Ver 1.5 (2006/12/8 MASTER VER 1.54)",
+      "label": "Mushihime-Sama Futari Ver 1.5 (Japan, 2006/12/8 MASTER VER 1.54)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2482,7 +2482,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futari15.zip",
-      "label": "Mushihime-Sama Futari Ver 1.5 (2006/12/8.MASTER VER. 1.54.)",
+      "label": "Mushihime-Sama Futari Ver 1.5 (Japan, 2006/12/8.MASTER VER. 1.54.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2810,7 +2810,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/pinkswtsb.zip",
-      "label": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER.)",
+      "label": "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2818,7 +2818,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/pinkswtsa.zip",
-      "label": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER...)",
+      "label": "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER...)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2826,7 +2826,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/pinkswts.zip",
-      "label": "Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER....)",
+      "label": "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER....)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -2834,7 +2834,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/pinkswtsx.zip",
-      "label": "Pink Sweets: Ibara Sorekara (2006/xx/xx MASTER VER.)",
+      "label": "Pink Sweets: Ibara Sorekara (Japan, 2006/xx/xx MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3018,7 +3018,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/mushitama.zip",
-      "label": "Puzzle! Mushihime-Tama (2005/09/09 MASTER VER)",
+      "label": "Puzzle! Mushihime-Tama (Japan, 2005/09/09 MASTER VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3026,7 +3026,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/mushitam.zip",
-      "label": "Puzzle! Mushihime-Tama (2005/09/09.MASTER VER)",
+      "label": "Puzzle! Mushihime-Tama (Japan, 2005/09/09.MASTER VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3674,7 +3674,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-psikyosh/soldivid.zip",
-      "label": "Sol Divide - The Sword Of Darkness",
+      "label": "Sol Divide: Sword Of Darkness",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4170,7 +4170,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-psikyosh/daraku.zip",
-      "label": "The Fallen Angels (World) / Daraku Tenshi - The Fallen Angels (Japan)",
+      "label": "The Fallen Angels (World) / Daraku Tenshi: The Fallen Angels (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",

@@ -34,7 +34,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Adventures of Lomax, The (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Adventures of Lomax, The (USA).chd",
       "label": "Adventures of Lomax, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -143,14 +143,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-00812|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Burning Road (USA).chd",
-      "label": "Burning Road (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00324|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -538,7 +530,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Formula 1 (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Formula 1 (USA).chd",
       "label": "Formula 1 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -546,7 +538,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Formula One 2000 (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Formula One 2000 (USA).chd",
       "label": "Formula One 2000 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -570,7 +562,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/G-Police (USA)/G-Police (USA).m3u",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/G-Police (USA)/G-Police (USA).m3u",
       "label": "G-Police (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -578,7 +570,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/G-Police - Weapons of Justice (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/G-Police - Weapons of Justice (USA).chd",
       "label": "G-Police - Weapons of Justice (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1114,7 +1106,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA)/Persona 2 - Eternal Punishment (USA).m3u",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA)/Persona 2 - Eternal Punishment (USA).m3u",
       "label": "Persona 2 - Eternal Punishment (USA)",
       "core_path": "DETECT",
       "core_name": "DETECT",
@@ -1791,6 +1783,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94249|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Two-Ten Kaku (Japan).chd",
+      "label": "Two-Ten Kaku (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLPS-00131|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {

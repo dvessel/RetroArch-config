@@ -67,7 +67,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/dsmbl.zip",
-      "label": "Deathsmiles MegaBlack Label (2008/10/06 MEGABLACK LABEL VER)",
+      "label": "Deathsmiles MegaBlack Label (Japan, 2008/10/06 MEGABLACK LABEL VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -75,7 +75,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/dfkbl.zip",
-      "label": "DoDonPachi Dai-Fukkatsu Black Label (2010/1/18 BLACK LABEL)",
+      "label": "DoDonPachi Dai-Fukkatsu Black Label (Japan, 2010/1/18 BLACK LABEL)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -179,7 +179,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/mushisam.zip",
-      "label": "Mushihime-Sama (2004/10/12.MASTER VER.)",
+      "label": "Mushihime-Sama (Japan, 2004/10/12.MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -187,7 +187,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futaribl.zip",
-      "label": "Mushihime-Sama Futari Black Label - Another Ver (2009/11/27 INTERNATIONAL BL)",
+      "label": "Mushihime-Sama Futari Black Label - Another Ver (World, 2009/11/27 INTERNATIONAL BL)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -195,7 +195,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/futari15.zip",
-      "label": "Mushihime-Sama Futari Ver 1.5 (2006/12/8.MASTER VER. 1.54.)",
+      "label": "Mushihime-Sama Futari Ver 1.5 (Japan, 2006/12/8.MASTER VER. 1.54.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",

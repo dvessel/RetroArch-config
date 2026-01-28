@@ -9,10 +9,10 @@
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
   "scan_content_dir": "/Users/joon/Games/Emulation/Atomiswave",
-  "scan_file_exts": "",
-  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/mame.xml",
-  "scan_search_recursively": false,
-  "scan_search_archives": false,
+  "scan_file_exts": "zip",
+  "scan_dat_file_path": "",
+  "scan_search_recursively": true,
+  "scan_search_archives": true,
   "scan_filter_dat_content": false,
   "scan_overwrite_playlist": false,
   "items": [
@@ -37,7 +37,7 @@
       "label": "Faster Than Speed",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "00000000|crc",
+      "crc32": "7DCDC784|crc",
       "db_name": "Atomiswave.lpl"
     },
     {
@@ -77,7 +77,7 @@
       "label": "Maximum Speed",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "00000000|crc",
+      "crc32": "4A847A59|crc",
       "db_name": "Atomiswave.lpl"
     },
     {

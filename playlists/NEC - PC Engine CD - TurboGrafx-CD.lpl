@@ -98,7 +98,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Double Dragon II - The Revenge (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Double Dragon II - The Revenge (Japan).chd",
       "label": "Double Dragon II - The Revenge (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -154,7 +154,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Emerald Dragon (English Translation v1.0).chd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Emerald Dragon (English Translation v1.0).chd",
       "label": "Emerald Dragon (English Translation v1.0)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -162,7 +162,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Emerald Dragon (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Emerald Dragon (Japan).chd",
       "label": "Emerald Dragon (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -266,7 +266,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Garou Densetsu 2 - Aratanaru Tatakai (Japan) (FABT, FACT, FAET, FAFT).chd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Garou Densetsu 2 - Aratanaru Tatakai (Japan) (FABT, FACT, FAET, FAFT).chd",
       "label": "Garou Densetsu 2 - Aratanaru Tatakai (Japan) (FABT, FACT, FAET, FAFT)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -274,7 +274,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Garou Densetsu Special (Japan) (FABT).chd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Garou Densetsu Special (Japan) (FABT).chd",
       "label": "Garou Densetsu Special (Japan) (FABT)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
@@ -514,7 +514,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Ryuuko no Ken (Japan) (En,Ja,Es) (FAAT).chd",
+      "path": "/Users/joon/Games/Emulation/TurboGrafx-CD/Ryuuko no Ken (Japan) (En,Ja,Es) (FAAT).chd",
       "label": "Ryuuko no Ken (Japan) (En,Ja,Es) (FAAT)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",

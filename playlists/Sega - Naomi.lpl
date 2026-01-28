@@ -9,12 +9,12 @@
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
   "scan_content_dir": "/Users/joon/Games/Emulation/Naomi",
-  "scan_file_exts": "",
+  "scan_file_exts": "zip",
   "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/mame.xml",
-  "scan_search_recursively": false,
-  "scan_search_archives": false,
+  "scan_search_recursively": true,
+  "scan_search_archives": true,
   "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": true,
+  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Naomi/bdrdown.zip",

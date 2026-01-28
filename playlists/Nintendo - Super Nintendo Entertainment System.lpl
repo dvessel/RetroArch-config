@@ -314,19 +314,19 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl).zip",
+      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl).zip#Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl).sfc",
       "label": "Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes)",
-      "crc32": "00000000|crc",
+      "crc32": "94AFC86D|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl).zip",
+      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl).zip#Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl).sfc",
       "label": "Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes)",
-      "crc32": "00000000|crc",
+      "crc32": "14172273|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {

@@ -8,13 +8,6 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/GameCube",
-  "scan_file_exts": "",
-  "scan_dat_file_path": "",
-  "scan_search_recursively": true,
-  "scan_search_archives": false,
-  "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/GameCube/Animal Crossing.rvz",
@@ -114,7 +107,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/GameCube/Killer7.m3u",
-      "label": "Killer7 (USA) (Rev 1)",
+      "label": "Killer7 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
       "crc32": "DL-DOL-GK7E-0-USA|serial",
@@ -130,7 +123,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/GameCube/Legend of Zelda, The - Collector's Edition.rvz",
-      "label": "Legend of Zelda, The - Collector's Edition (USA)",
+      "label": "Legend of Zelda, The - Collector's Edition (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
       "crc32": "DL-DOL-PZLE-USA|serial",
@@ -146,7 +139,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/GameCube/Legend of Zelda, The - Ocarina of Time & Master Quest.rvz",
-      "label": "Legend of Zelda, The - Ocarina of Time & Master Quest (USA)",
+      "label": "Legend of Zelda, The - Ocarina of Time & Master Quest (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
       "crc32": "DL-DOL-D43E-USA|serial",
@@ -154,7 +147,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/GameCube/Legend of Zelda, The - The Wind Waker.rvz",
-      "label": "Legend of Zelda, The - The Wind Waker (USA)",
+      "label": "Legend of Zelda, The - The Wind Waker (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
       "crc32": "DL-DOL-GZLE-USA|serial",
@@ -194,7 +187,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/GameCube/Metroid Prime.rvz",
-      "label": "Metroid Prime (USA) (Rev 2)",
+      "label": "Metroid Prime (USA, Canada) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
       "crc32": "DL-DOL-GM8E-USA|serial",
