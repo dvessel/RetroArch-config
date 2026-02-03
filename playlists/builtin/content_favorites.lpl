@@ -28,8 +28,8 @@
     {
       "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (English Translation v1.01).chd",
       "label": "Akumajou Dracula X - Chi no Rondo (English Translation v1.01)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
       "crc32": "00000000|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
@@ -60,8 +60,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Dai-Makaimura (Japan).zip#Dai-Makaimura (Japan).pce",
       "label": "Daimakaimura (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
       "crc32": "B486A8ED|crc",
       "db_name": "NEC - PC Engine SuperGrafx.lpl"
     },
@@ -164,8 +164,8 @@
     {
       "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Magical Chase (USA).zip#Magical Chase (USA).pce",
       "label": "Magical Chase (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_pce_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
       "crc32": "95CD2979|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
