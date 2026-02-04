@@ -658,6 +658,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Dead Fox (Japan).zip#Dead Fox (Japan).nes",
+      "label": "Dead Fox (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "95A79DE2|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Deadly Towers (USA).zip#Deadly Towers (USA).nes",
       "label": "Deadly Towers (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
