@@ -228,8 +228,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Contra III - The Alien Wars (USA).zip#Contra III - The Alien Wars (USA).sfc",
       "label": "Contra III - The Alien Wars (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
-      "core_name": "Nintendo - SNES / SFC (bsnes)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
       "crc32": "84DA7CFE|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
