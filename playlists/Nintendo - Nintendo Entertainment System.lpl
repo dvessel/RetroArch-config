@@ -2714,6 +2714,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Tecmo Bowl (USA) (Rev 1).zip#Tecmo Bowl (USA) (Rev 1).nes",
+      "label": "Tecmo Bowl (USA) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "793F0B53|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo (NES)/Teenage Mutant Ninja Turtles (USA).zip#Teenage Mutant Ninja Turtles (USA).nes",
       "label": "Teenage Mutant Ninja Turtles (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
