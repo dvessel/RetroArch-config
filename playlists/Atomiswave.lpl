@@ -8,13 +8,6 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/Atomiswave",
-  "scan_file_exts": "zip",
-  "scan_dat_file_path": "",
-  "scan_search_recursively": true,
-  "scan_search_archives": true,
-  "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Atomiswave/demofist.zip",
@@ -94,14 +87,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "F7E24E67|crc",
-      "db_name": "Atomiswave.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/ngbcj.zip",
-      "label": "NeoGeo Battle Coliseum (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "00000000|crc",
       "db_name": "Atomiswave.lpl"
     },
     {
