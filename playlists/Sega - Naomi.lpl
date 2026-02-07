@@ -8,7 +8,7 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/Naomi",
+  "scan_content_dir": "/Users/joon/Games/Emulation/Sega Naomi",
   "scan_file_exts": "zip",
   "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/mame.xml",
   "scan_search_recursively": true,
@@ -17,7 +17,7 @@
   "scan_overwrite_playlist": false,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/bdrdown.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/bdrdown.zip",
       "label": "Border Down (Rev A) (GDL-0023A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -25,7 +25,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/cvs2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/cvs2.zip",
       "label": "Capcom Vs. SNK 2: Mark Of The Millennium 2001 (USA) (GDL-0008)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -33,7 +33,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/capsnk.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/capsnk.zip",
       "label": "Capcom Vs. SNK: Millennium Fight 2000 (Rev C)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -41,7 +41,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/cvsgd.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/cvsgd.zip",
       "label": "Capcom Vs. SNK: Millennium Fight 2000 Pro (Japan) (GDL-0004)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -49,7 +49,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/confmiss.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/confmiss.zip",
       "label": "Confidential Mission (GDS-0001)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -57,7 +57,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/crzytaxi.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/crzytaxi.zip",
       "label": "Crazy Taxi",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -65,7 +65,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/vonot.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/vonot.zip",
       "label": "Cyber Troopers Virtual-On: Oratorio Tangram M.S.B.S. ver 5.66 2000 Edition",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -73,7 +73,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/doa2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/doa2.zip",
       "label": "Dead or Alive 2",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -81,7 +81,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/doa2m.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/doa2m.zip",
       "label": "Dead or Alive 2 Millennium",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -89,7 +89,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/f355.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/f355.zip",
       "label": "Ferrari F355 Challenge (deluxe, no link)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -97,7 +97,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/f355twn2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/f355twn2.zip",
       "label": "Ferrari F355 Challenge 2 - International Course Edition (twin/deluxe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -105,7 +105,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/gwing2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/gwing2.zip",
       "label": "Giga Wing 2",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -113,7 +113,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/ggx.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/ggx.zip",
       "label": "Guilty Gear X",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -121,7 +121,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/ggxxrl.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/ggxxrl.zip",
       "label": "Guilty Gear XX #Reload (Japan, Rev A) (GDL-0019A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -129,7 +129,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/ggxx.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/ggxx.zip",
       "label": "Guilty Gear XX (GDL-0011)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -137,7 +137,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/ggxxac.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/ggxxac.zip",
       "label": "Guilty Gear XX Accent Core (Japan) (GDL-0041)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -145,7 +145,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/ggxxsla.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/ggxxsla.zip",
       "label": "Guilty Gear XX Slash (Japan, Rev A) (GDL-0033A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -153,7 +153,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/ikaruga.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/ikaruga.zip",
       "label": "Ikaruga (GDL-0010)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -161,7 +161,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/illvelo.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/illvelo.zip",
       "label": "Illvelo (Illmatic Envelope) (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -169,7 +169,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/jingystm.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/jingystm.zip",
       "label": "Jingi Storm - The Arcade (Japan) (GDL-0037)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -177,7 +177,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/karous.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/karous.zip",
       "label": "Karous (Japan) (GDL-0040)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -185,7 +185,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/keyboard.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/keyboard.zip",
       "label": "La Keyboard (GDS-0017)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -193,7 +193,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/luptype.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/luptype.zip",
       "label": "Lupin The Third - The Typing (Rev A) (GDS-0021A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -201,7 +201,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/mamonoro.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/mamonoro.zip",
       "label": "Mamoru-kun wa Norowarete Shimatta! (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -209,7 +209,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/mvsc2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/mvsc2.zip",
       "label": "Marvel Vs. Capcom 2: New Age of Heroes (Export, Korea, Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -217,7 +217,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/mvsc2u.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/mvsc2u.zip",
       "label": "Marvel Vs. Capcom 2: New Age of Heroes (USA, Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -225,7 +225,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/meltybld.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/meltybld.zip",
       "label": "Melty Blood Act Cadenza Ver. A (Japan) (GDL-0028C)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -233,7 +233,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/meltyb.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/meltyb.zip",
       "label": "Melty Blood Act Cadenza Version B2 (Japan) (GDL-0039A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -241,7 +241,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/mbaa.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/mbaa.zip",
       "label": "Melty Blood Actress Again Version A (Japan, Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -249,7 +249,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/monkeyba.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/monkeyba.zip",
       "label": "Monkey Ball (GDS-0008)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -257,7 +257,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/chocomk.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/chocomk.zip",
       "label": "Musapey's Choco Marker (Rev A) (GDL-0014A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -265,7 +265,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/otrigger.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/otrigger.zip",
       "label": "OutTrigger",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -273,7 +273,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/pstone.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/pstone.zip",
       "label": "Power Stone",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -281,7 +281,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/pstone2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/pstone2.zip",
       "label": "Power Stone 2",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -289,7 +289,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/pjustic.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/pjustic.zip",
       "label": "Project Justice / Moero! Justice Gakuen (Rev B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -297,7 +297,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/psyvar2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/psyvar2.zip",
       "label": "Psyvariar 2 - The Will To Fabricate (Japan) (GDL-0024)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -305,7 +305,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/radirgy.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/radirgy.zip",
       "label": "Radirgy (Japan, Rev A) (GDL-0032A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -313,7 +313,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/radirgyn.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/radirgyn.zip",
       "label": "Radirgy Noa (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -321,7 +321,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/senko.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/senko.zip",
       "label": "Senko no Ronde (Japan, Rev A) (GDL-0030A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -329,7 +329,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/senkosp.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/senkosp.zip",
       "label": "Senko no Ronde Special (Export, Japan) (GDL-0038)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -337,7 +337,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/shikgam2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/shikgam2.zip",
       "label": "Shikigami no Shiro II / The Castle of Shikigami II (GDL-0021)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -345,7 +345,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/sl2007.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/sl2007.zip",
       "label": "Shooting Love 2007 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -353,7 +353,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/spawn.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/spawn.zip",
       "label": "Spawn: In the Demon's Hand (Rev B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -361,7 +361,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/sfz3ugd.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/sfz3ugd.zip",
       "label": "Street Fighter Zero 3 Upper (Japan) (GDL-0002)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -369,7 +369,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/tetkiwam.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/tetkiwam.zip",
       "label": "Tetris Kiwamemichi (Japan) (GDL-0020)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -377,7 +377,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/totd.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/totd.zip",
       "label": "The Typing of the Dead (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -385,7 +385,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/toyfight.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/toyfight.zip",
       "label": "Toy Fighter",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -393,7 +393,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/trgheart.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/trgheart.zip",
       "label": "Trigger Heart Exelica Ver.A (Japan) (GDL-0036A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -401,7 +401,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/trizeal.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/trizeal.zip",
       "label": "Trizeal (Japan) (GDL-0026)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -409,7 +409,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/undefeat.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/undefeat.zip",
       "label": "Under Defeat (Japan) (GDL-0035)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -417,7 +417,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/dygolf.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/dygolf.zip",
       "label": "Virtua Golf / Dynamic Golf (Rev A) (GDS-0009A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -425,7 +425,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/wrungp.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/wrungp.zip",
       "label": "Wave Runner GP",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -433,7 +433,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/zerogu2.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/zerogu2.zip",
       "label": "Zero Gunner 2",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",

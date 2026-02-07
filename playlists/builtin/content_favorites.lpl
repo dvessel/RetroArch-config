@@ -26,7 +26,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (English Translation v1.01).chd",
+      "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (English Translation v1.01).chd",
       "label": "Akumajou Dracula X - Chi no Rondo (English Translation v1.01)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -58,7 +58,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Dai-Makaimura (Japan).zip#Dai-Makaimura (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Dai-Makaimura (Japan).zip#Dai-Makaimura (Japan).pce",
       "label": "Daimakaimura (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -98,7 +98,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/GameCube/F-Zero GX.rvz",
+      "path": "/Volumes/980Pro/Emulation/Nintendo GameCube/F-Zero GX.rvz",
       "label": "F-Zero GX (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
@@ -154,7 +154,7 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi/ikaruga.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/ikaruga.zip",
       "label": "Ikaruga (GDL-0010)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -162,7 +162,7 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Magical Chase (USA).zip#Magical Chase (USA).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Magical Chase (USA).zip#Magical Chase (USA).pce",
       "label": "Magical Chase (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -242,7 +242,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Dreamcast/Soul Calibur (USA, v1.000) (1999) (Namco).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Soul Calibur (USA, v1.000) (1999) (Namco).chd",
       "label": "Soulcalibur (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -274,7 +274,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Mario World (USA).zip#Super Mario World (USA).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES) (SNES)/Super Mario World (USA).zip#Super Mario World (USA).sfc",
       "label": "Super Mario World (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes)",
@@ -282,7 +282,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Super Nintendo (SNES)/Super Mario World 2 - Yoshi's Island (USA).zip#Super Mario World 2 - Yoshi's Island (USA).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES) (SNES)/Super Mario World 2 - Yoshi's Island (USA).zip#Super Mario World 2 - Yoshi's Island (USA).sfc",
       "label": "Super Mario World 2 - Yoshi's Island (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes)",

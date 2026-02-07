@@ -8,7 +8,7 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/Naomi 2",
+  "scan_content_dir": "/Users/joon/Games/Emulation/Sega Naomi 2",
   "scan_file_exts": "zip",
   "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/mame.xml",
   "scan_search_recursively": true,
@@ -17,7 +17,7 @@
   "scan_overwrite_playlist": false,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/beachspi.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/beachspi.zip",
       "label": "Beach Spikers (GDS-0014)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -25,7 +25,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/clubk2k3.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/clubk2k3.zip",
       "label": "Club Kart: European Session (2003, Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -33,7 +33,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/initdexp.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/initdexp.zip",
       "label": "Initial D Arcade Stage (Export, Rev A) (GDS-0025A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -41,7 +41,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/initd.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/initd.zip",
       "label": "Initial D Arcade Stage (Japan, Rev B) (GDS-0020B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -49,7 +49,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/initdv2e.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/initdv2e.zip",
       "label": "Initial D Arcade Stage Ver. 2 (Export) (GDS-0027)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -57,7 +57,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/initdv2j.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/initdv2j.zip",
       "label": "Initial D Arcade Stage Ver. 2 (Japan, Rev B) (GDS-0026B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -65,7 +65,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/initdv3e.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/initdv3e.zip",
       "label": "Initial D Arcade Stage Ver. 3 (Export) (GDS-0033)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -73,7 +73,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/initdv3j.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/initdv3j.zip",
       "label": "Initial D Arcade Stage Ver. 3 (Japan, Rev C) (GDS-0032C)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -81,7 +81,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/soulsurf.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/soulsurf.zip",
       "label": "Soul Surfer (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -89,7 +89,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/kingrt66.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/kingrt66.zip",
       "label": "The King of Route 66 (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -97,7 +97,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/vf4cart.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/vf4cart.zip",
       "label": "Virtua Fighter 4 (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -105,7 +105,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/vf4evoct.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/vf4evoct.zip",
       "label": "Virtua Fighter 4: Evolution (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -113,7 +113,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/vf4tuned.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/vf4tuned.zip",
       "label": "Virtua Fighter 4: Final Tuned (Ver. B) (GDS-0036F)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -121,7 +121,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/vstrik3c.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/vstrik3c.zip",
       "label": "Virtua Striker 3 (World, Rev B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -129,7 +129,7 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Naomi 2/wldrider.zip",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/wldrider.zip",
       "label": "Wild Riders",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",

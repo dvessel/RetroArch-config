@@ -10,7 +10,7 @@
   "sort_mode": 0,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/1941 - Counter Attack (Japan).zip#1941 - Counter Attack (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC SuperGrafx/1941 - Counter Attack (Japan).zip#1941 - Counter Attack (Japan).pce",
       "label": "1941 - Counter Attack (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -18,7 +18,7 @@
       "db_name": "NEC - PC Engine SuperGrafx.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Aldynes - The Misson Code for Rage Crisis (Japan).zip#Aldynes - The Misson Code for Rage Crisis (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC SuperGrafx/Aldynes - The Misson Code for Rage Crisis (Japan).zip#Aldynes - The Misson Code for Rage Crisis (Japan).pce",
       "label": "Aldynes - The Misson Code for Rage Crisis (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -26,7 +26,7 @@
       "db_name": "NEC - PC Engine SuperGrafx.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Battle Ace (Japan).zip#Battle Ace (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC SuperGrafx/Battle Ace (Japan).zip#Battle Ace (Japan).pce",
       "label": "Battle Ace (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -34,7 +34,7 @@
       "db_name": "NEC - PC Engine SuperGrafx.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Dai-Makaimura (Japan).zip#Dai-Makaimura (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC SuperGrafx/Dai-Makaimura (Japan).zip#Dai-Makaimura (Japan).pce",
       "label": "Daimakaimura (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -42,7 +42,7 @@
       "db_name": "NEC - PC Engine SuperGrafx.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/TurboGrafx-16/Madou King Granzort (Japan).zip#Madou King Granzort (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC SuperGrafx/Madou King Granzort (Japan).zip#Madou King Granzort (Japan).pce",
       "label": "Madou King Granzort (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
