@@ -1234,6 +1234,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Racing Lagoon (Japan, Asia).chd",
+      "label": "Racing Lagoon (Japan, Asia)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLPS-02038|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Rakugaki Showtime (Japan).chd",
       "label": "Rakugaki Showtime (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
