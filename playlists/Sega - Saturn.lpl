@@ -34,8 +34,8 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Baroque (EN translated).chd",
-      "label": "Baroque (EN translated)",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Baroque (English Translated).chd",
+      "label": "Baroque (English Translated)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "T-33901G|serial",
