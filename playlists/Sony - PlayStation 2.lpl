@@ -18,67 +18,11 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Black.chd",
-      "label": "Black (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-21376|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Blood Will Tell - Tezuka Osamu's Dororo.chd",
-      "label": "Blood Will Tell - Tezuka Osamu's Dororo (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20782|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Bully.chd",
       "label": "Bully (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-21269|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout.chd",
-      "label": "Burnout (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20307|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout 2 - Point of Impact.chd",
-      "label": "Burnout 2 - Point of Impact (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20497|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout 3 - Takedown.chd",
-      "label": "Burnout 3 - Takedown (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-21050|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout Dominator.chd",
-      "label": "Burnout Dominator (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-21596|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Burnout Revenge.chd",
-      "label": "Burnout Revenge (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-21242|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
@@ -215,46 +159,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear Isuka.chd",
-      "label": "Guilty Gear Isuka (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20908|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear X.chd",
-      "label": "Guilty Gear X (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20287|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear X2.chd",
-      "label": "Guilty Gear X2 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20436|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear XX Accent Core.chd",
-      "label": "Guilty Gear XX Accent Core (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-21652|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Guilty Gear XX Accent Core Plus.chd",
-      "label": "Guilty Gear XX Accent Core Plus (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-21847|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
@@ -514,22 +418,6 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Robot Alchemic Drive.chd",
-      "label": "Robot Alchemic Drive (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20445|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Rumble Fish, The (Japan).chd",
-      "label": "Rumble Fish, The (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLPM-65919|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Shadow of the Colossus.chd",
       "label": "Shadow of the Colossus (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
@@ -743,22 +631,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-21452|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Viewtiful Joe.chd",
-      "label": "Viewtiful Joe (USA) (Beta)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20951|serial",
-      "db_name": "Sony - PlayStation 2.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation 2/Viewtiful Joe 2.chd",
-      "label": "Viewtiful Joe 2 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SLUS-20939|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {

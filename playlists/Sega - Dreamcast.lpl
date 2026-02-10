@@ -202,14 +202,6 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Guilty Gear X (Japan - En, v2.000) (2000) (Sammy).chd",
-      "label": "Guilty Gear X (Japan) (Rev A)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-2402M|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Dreamcast/GunLord (2012) (NGDEV.TEAM).cdi",
       "label": "GunLord (2012) (NGDEV.TEAM)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
@@ -299,7 +291,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Phantasy Star Online (USA, v2.011) (2001) (Sega).chd",
-      "label": "Sonic Adventure 2 - The Trial (USA, Japan) (En,Ja)",
+      "label": "Phantasy Star Online (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "51100|serial",
@@ -382,7 +374,7 @@
       "label": "Resident Evil - Code - Veronica (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-1204N|serial",
+      "crc32": "T-1204N-0|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
@@ -414,7 +406,7 @@
       "label": "Shenmue (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "51059|serial",
+      "crc32": "51059-0|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
@@ -422,7 +414,7 @@
       "label": "Shenmue II (Europe) (En,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "MK-51184-50|serial",
+      "crc32": "MK-51184-50-0|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
@@ -438,7 +430,7 @@
       "label": "Skies of Arcadia (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "51052|serial",
+      "crc32": "51052-0|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
