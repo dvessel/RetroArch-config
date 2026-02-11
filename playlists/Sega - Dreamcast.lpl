@@ -370,7 +370,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Resident Evil - Code Veronica (USA, v1.000) (2000) (Capcom).m3u",
+      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Resident Evil - Code Veronica (USA, v1.000) (2000) (Capcom)/Resident Evil - Code Veronica (USA, v1.000) (2000) (Capcom).m3u",
       "label": "Resident Evil - Code - Veronica (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -402,7 +402,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Shenmue (USA, v1.003) (2000) (Sega).m3u",
+      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Shenmue (USA, v1.003) (2000) (Sega)/Shenmue (USA, v1.003) (2000) (Sega).m3u",
       "label": "Shenmue (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -410,7 +410,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Shenmue II (Europe, En,Fr,De,Es).m3u",
+      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Shenmue II (Europe, En,Fr,De,Es)/Shenmue II (Europe, En,Fr,De,Es).m3u",
       "label": "Shenmue II (Europe) (En,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -426,7 +426,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Skies of Arcadia (USA, v1.002) (2000) (Sega).m3u",
+      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Skies of Arcadia (USA, v1.002) (2000) (Sega)/Skies of Arcadia (USA, v1.002) (2000) (Sega).m3u",
       "label": "Skies of Arcadia (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
