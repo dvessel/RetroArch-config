@@ -8,13 +8,6 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/Sony PSP",
-  "scan_file_exts": "cso",
-  "scan_dat_file_path": "",
-  "scan_search_recursively": true,
-  "scan_search_archives": false,
-  "scan_filter_dat_content": false,
-  "scan_overwrite_playlist": false,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Sony PSP/Dante's Inferno (USA).cso",
