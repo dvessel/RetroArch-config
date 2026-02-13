@@ -10,14 +10,6 @@
   "sort_mode": 0,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Sega Genesis/Advanced Busterhawk Gleylancer (Japan).zip#Advanced Busterhawk Gleylancer (Japan).md",
-      "label": "Advanced Busterhawk Gley Lancer (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "42CF9B5B|crc",
-      "db_name": "Sega - Mega Drive - Genesis.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/akatana.zip",
       "label": "Akai Katana (2010/ 8/13 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -58,7 +50,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Dai-Makaimura (Japan).zip#Dai-Makaimura (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC SuperGrafx/Dai-Makaimura (Japan).zip#Dai-Makaimura (Japan).pce",
       "label": "Daimakaimura (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -68,22 +60,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/dsmbl.zip",
       "label": "Deathsmiles MegaBlack Label (Japan, 2008/10/06 MEGABLACK LABEL VER)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/dfkbl.zip",
-      "label": "DoDonPachi Dai-Fukkatsu Black Label (Japan, 2010/1/18 BLACK LABEL)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cv1k/ddpsdoj.zip",
-      "label": "DoDonPachi SaiDaiOuJou (2012/ 4/20)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -106,20 +82,28 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy VII (USA)/Final Fantasy VII (USA).m3u",
-      "label": "Final Fantasy VII (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_psx_hw_libretro.dylib",
-      "core_name": "Sony - PlayStation (Beetle PSX HW)",
-      "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps1/ffight.zip",
       "label": "Final Fight (World, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps2/gigawing.zip",
+      "label": "Giga Wing (USA 990222)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/gwing2.zip",
+      "label": "Giga Wing 2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Naomi.lpl"
     },
     {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Gradius V.chd",
@@ -160,6 +144,14 @@
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "00000000|crc",
       "db_name": "Sega - Naomi.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Lightening Force - Quest for the Darkstar (USA).zip#Lightening Force - Quest for the Darkstar (USA).md",
+      "label": "Lightening Force - Quest for the Darkstar (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C8F8C0E0|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Magical Chase (USA).zip#Magical Chase (USA).pce",
@@ -210,12 +202,12 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-neogeo/pulstar.zip",
-      "label": "Pulstar",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/psyvar2.zip",
+      "label": "Psyvariar 2 - The Will To Fabricate (Japan) (GDL-0024)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
+      "db_name": "Sega - Naomi.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-m72/rtype.zip",
@@ -242,14 +234,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Soul Calibur (USA, v1.000) (1999) (Namco).chd",
-      "label": "Soulcalibur (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-1401N|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps3/sfiii2.zip",
       "label": "Street Fighter III 2nd Impact: Giant Attack (USA 970930)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -274,20 +258,12 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES) (SNES)/Super Mario World (USA).zip#Super Mario World (USA).sfc",
-      "label": "Super Mario World (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
-      "core_name": "Nintendo - SNES / SFC (bsnes)",
-      "crc32": "B19ED489|crc",
-      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES) (SNES)/Super Mario World 2 - Yoshi's Island (USA).zip#Super Mario World 2 - Yoshi's Island (USA).sfc",
-      "label": "Super Mario World 2 - Yoshi's Island (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
-      "core_name": "Nintendo - SNES / SFC (bsnes)",
-      "crc32": "D138F224|crc",
-      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+      "path": "/Users/joon/Games/Emulation/Atomiswave/rumblef2.zip",
+      "label": "The Rumble Fish 2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "60894D4C|crc",
+      "db_name": "Atomiswave.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Thunder Force III (Japan, USA).zip#Thunder Force III (Japan, USA).md",
@@ -298,12 +274,20 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Thunder Force VI.chd",
-      "label": "Thunder Force VI",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
-      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/The Typing of the Dead (USA, v1.004) (2000) (Sega).chd",
+      "label": "Typing of the Dead, The (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "51144|serial",
+      "db_name": "Sega - Dreamcast.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/vf4tuned.zip",
+      "label": "Virtua Fighter 4: Final Tuned (Ver. B) (GDS-0036F)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "00000000|crc",
-      "db_name": "Sony - PlayStation 2.lpl"
+      "db_name": "Sega - Naomi 2.lpl"
     }
   ]
 }
