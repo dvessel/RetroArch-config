@@ -1074,6 +1074,14 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Pop'n TwinBee (Japan).zip#Pop'n TwinBee (Japan).sfc",
+      "label": "Pop'n TwinBee (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes)",
+      "crc32": "EE13E32D|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Prince of Persia (USA).zip#Prince of Persia (USA).sfc",
       "label": "Prince of Persia (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes_libretro.dylib",
