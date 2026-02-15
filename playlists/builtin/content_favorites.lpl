@@ -146,6 +146,14 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Legend of Zelda, The (USA).zip#Legend of Zelda, The (USA).nes",
+      "label": "Legend of Zelda, The (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "316CFF69|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Lightening Force - Quest for the Darkstar (USA).zip#Lightening Force - Quest for the Darkstar (USA).md",
       "label": "Lightening Force - Quest for the Darkstar (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
