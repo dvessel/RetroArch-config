@@ -190,7 +190,7 @@
       "label": "Night Trap (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
+      "crc32": "T-162105-0|serial",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
@@ -210,8 +210,8 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Sewer Shark (USA) (Rev 1).chd",
-      "label": "Sewer Shark (USA) (Rev 1)",
+      "path": "/Users/joon/Games/Emulation/Sega CD/Sewer Shark (USA).chd",
+      "label": "Sewer Shark (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "00000000|crc",
