@@ -14,7 +14,7 @@
       "label": "70's Robot Anime - Geppy-X - The Super Boosted Armor (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLPS-01995-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -62,7 +62,7 @@
       "label": "Alone in the Dark - The New Nightmare (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-01201-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -186,7 +186,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Chaos Break (Europe) (En,Fr,De,It).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Chaos Break (Europe) (En,Fr,De,It).chd",
       "label": "Chaos Break (Europe) (En,Fr,De,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -202,11 +202,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Chrono Cross (USA)/Chrono Cross (USA).m3u",
-      "label": "Chrono Cross (USA)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Chrono Cross (USA, Canada)/Chrono Cross (USA, Canada).m3u",
+      "label": "Chrono Cross (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-01041-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -218,7 +218,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Clock Tower (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Clock Tower (USA).chd",
       "label": "Clock Tower (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -246,7 +246,7 @@
       "label": "Colony Wars (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00543-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -258,8 +258,8 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colony Wars - Vengeance (USA).chd",
-      "label": "Colony Wars - Vengeance (USA)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colony Wars - Vengeance (USA, Canada).chd",
+      "label": "Colony Wars - Vengeance (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-00722|serial",
@@ -306,7 +306,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/D (USA)/D (USA).m3u",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/D (USA)/D (USA).m3u",
       "label": "D (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -338,8 +338,8 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Destruction Derby 2 (USA).chd",
-      "label": "Destruction Derby 2 (USA)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Destruction Derby 2 (USA, Canada).chd",
+      "label": "Destruction Derby 2 (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94350|serial",
@@ -398,7 +398,7 @@
       "label": "Driver 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-01161-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -446,15 +446,15 @@
       "label": "Fear Effect (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00920-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Fear Effect 2 - Retro Helix (USA) (Rev 1)/Fear Effect 2 - Retro Helix (USA) (Rev 1).m3u",
-      "label": "Fear Effect 2 - Retro Helix (USA) (Rev 1)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Fear Effect 2 - Retro Helix (USA)/Fear Effect 2 - Retro Helix (USA).m3u",
+      "label": "Fear Effect 2 - Retro Helix (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-01266-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -490,32 +490,32 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Chronicles - Chrono Trigger (USA) (Rev 1).chd",
-      "label": "Final Fantasy Chronicles - Chrono Trigger (USA) (Rev 1)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Chronicles - Chrono Trigger (USA, Canada).chd",
+      "label": "Final Fantasy Chronicles - Chrono Trigger (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-01363|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Chronicles - Final Fantasy IV (USA) (Rev 1).chd",
-      "label": "Final Fantasy Chronicles - Final Fantasy IV (USA) (Rev 1)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Chronicles - Final Fantasy IV (USA, Canada).chd",
+      "label": "Final Fantasy Chronicles - Final Fantasy IV (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-01360|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy IX (USA) (Rev 1)/Final Fantasy IX (USA) (Rev 1).m3u",
-      "label": "Final Fantasy IX (USA)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy IX (USA, Canada)/Final Fantasy IX (USA, Canada).m3u",
+      "label": "Final Fantasy IX (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-01251-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Origins (USA) (Rev 1).chd",
-      "label": "Final Fantasy Origins (USA) (Rev 1)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Origins (USA, Canada) (Rev 1).chd",
+      "label": "Final Fantasy Origins (USA, Canada) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-01541|serial",
@@ -526,7 +526,7 @@
       "label": "Final Fantasy VII (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SCUS-94163-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -534,7 +534,7 @@
       "label": "Final Fantasy VIII (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00892-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -630,7 +630,7 @@
       "label": "Galerians (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00986-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -718,7 +718,7 @@
       "label": "Gunners Heaven (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "PSX.EXE|serial",
+      "crc32": "4FF1D1AA|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -742,7 +742,7 @@
       "label": "Heart of Darkness (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00696-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -846,7 +846,7 @@
       "label": "Kileak - The DNA Imperative (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "XXXXXXXXXX|serial",
+      "crc32": "9DA50F2B|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -854,7 +854,7 @@
       "label": "Kileak, The Blood 2 - Reason in Madness (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "XXXXXXXXXX|serial",
+      "crc32": "4BEB900E|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -886,7 +886,7 @@
       "label": "Koudelka (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-01051-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -898,11 +898,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Legend of Dragoon, The (USA)/Legend of Dragoon, The (USA).m3u",
-      "label": "Legend of Dragoon, The (USA)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Legend of Dragoon, The (USA, Canada)/Legend of Dragoon, The (USA, Canada).m3u",
+      "label": "Legend of Dragoon, The (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SCUS-94491-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -994,11 +994,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Metal Gear Solid (USA) (Rev 1)/Metal Gear Solid (USA) (Rev 1).m3u",
-      "label": "Metal Gear Solid (USA) (Rev 1)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Metal Gear Solid (USA)/Metal Gear Solid (USA).m3u",
+      "label": "Metal Gear Solid (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00594-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1014,7 +1014,7 @@
       "label": "Mizzurna Falls (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "XXXXXXXXXX|serial",
+      "crc32": "A87F3497|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1058,7 +1058,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Nightmare Creatures (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Nightmare Creatures (USA).chd",
       "label": "Nightmare Creatures (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1066,7 +1066,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Nightmare Creatures II (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Nightmare Creatures II (USA).chd",
       "label": "Nightmare Creatures II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1078,7 +1078,7 @@
       "label": "Novastorm (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SCUS-94404-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1086,7 +1086,7 @@
       "label": "Oddworld - Abe's Exoddus (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00710-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1106,7 +1106,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/OverBlood (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/OverBlood (USA).chd",
       "label": "OverBlood (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1134,7 +1134,7 @@
       "label": "Parasite Eve (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00662-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1142,7 +1142,7 @@
       "label": "Parasite Eve II (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-01042-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1174,7 +1174,7 @@
       "label": "Policenauts (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLPS-00215-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1234,7 +1234,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Racing Lagoon (Japan, Asia).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Racing Lagoon (Japan, Asia).chd",
       "label": "Racing Lagoon (Japan, Asia)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1270,7 +1270,7 @@
       "label": "Rayman (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "XXXXXXXXXX|serial",
+      "crc32": "0DB4057A|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1302,7 +1302,7 @@
       "label": "Resident Evil 2 - Dual Shock Ver. (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00748-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1314,11 +1314,19 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA)/Ridge Racer (USA).m3u",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer (USA).chd",
       "label": "Ridge Racer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "XXXXXXXXXX|serial",
+      "crc32": "0DE7775B|crc",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Ridge Racer Bonus Turbo Mode Disc (USA).chd",
+      "label": "Ridge Racer Bonus Turbo Mode Disc (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "03703673|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1334,7 +1342,7 @@
       "label": "Riven - The Sequel to Myst (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00535-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1398,7 +1406,7 @@
       "label": "Shadow Tower (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "PSX.EXE|serial",
+      "crc32": "6BC061DE|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1486,7 +1494,7 @@
       "label": "Star Ocean - The Second Story (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SCUS-94421-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1542,7 +1550,7 @@
       "label": "Syphon Filter 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SCUS-94451-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1610,8 +1618,8 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Thrill Kill (USA) (Beta).chd",
-      "label": "Thrill Kill (USA) (Beta)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Thrill Kill (USA) (Proto).chd",
+      "label": "Thrill Kill (USA) (Proto)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-00752|serial",
@@ -1642,11 +1650,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan to Ippatsu! Doronboo (Japan) (Taikenban).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Time Bokan Series - Bokan to Ippatsu! Doronbow (Japan).chd",
       "label": "Time Bokan Series - Bokan to Ippatsu! Doronbow (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPM-80064|serial",
+      "crc32": "SLPS-00609|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1694,7 +1702,7 @@
       "label": "Tomb Raider (USA) (Rev 6)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "PSX.EXE|serial",
+      "crc32": "93F4F732|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1718,7 +1726,7 @@
       "label": "Tomb Raider II - Starring Lara Croft (USA) (Rev 3)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "PSX.EXE|serial",
+      "crc32": "B657959A|crc",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1826,8 +1834,8 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal 4 (USA) (Rev 1).chd",
-      "label": "Twisted Metal 4 (USA) (Rev 1)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Twisted Metal 4 (USA, Canada).chd",
+      "label": "Twisted Metal 4 (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94560|serial",
@@ -1894,7 +1902,7 @@
       "label": "Valkyrie Profile (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-01156-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1978,24 +1986,24 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout (USA).chd",
-      "label": "WipEout (USA)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wipeout (USA).chd",
+      "label": "Wipeout (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94301|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 (USA).chd",
-      "label": "WipEout 3 (USA)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wipeout 3 (USA).chd",
+      "label": "Wipeout 3 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-00865|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It).chd",
-      "label": "WipEout 3 - Special Edition (Europe) (En,Fr,De,Es,It)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wipeout 3 - Special Edition (Europe) (En,Fr,De,Es,It).chd",
+      "label": "Wipeout 3 - Special Edition (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCES-02845|serial",
@@ -2003,7 +2011,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Wipeout XL (USA).chd",
-      "label": "Wipeout XL (USA) (Beta)",
+      "label": "Wipeout XL (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94351|serial",
@@ -2030,7 +2038,7 @@
       "label": "Xenogears (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "00000000|crc",
+      "crc32": "SLUS-00664-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
