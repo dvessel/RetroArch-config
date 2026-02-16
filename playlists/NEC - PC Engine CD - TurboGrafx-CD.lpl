@@ -10,11 +10,11 @@
   "sort_mode": 0,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Ai Chou Aniki (Japan)(SADS).chd",
-      "label": "Ai Chou Aniki (Japan)(SADS)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Ai Chou Aniki (Japan) (SADS, SAES).chd",
+      "label": "Ai Chou Aniki (Japan) (SADS, SAES)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "35689CE2|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -26,19 +26,11 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (Japan)(FABT, FACT).chd",
-      "label": "Akumajou Dracula X - Chi no Rondo (Japan)(FABT, FACT)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Akumajou Dracula X - Chi no Rondo (Japan).chd",
+      "label": "Akumajou Dracula X - Chi no Rondo (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Asuka 120% Maxima Burning Fest (Japan).chd",
-      "label": "Asuka 120% Maxima Burning Fest (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "C681F9DA|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -46,7 +38,7 @@
       "label": "Beyond Shadowgate (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "E50FD945|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -54,39 +46,23 @@
       "label": "Bonk III - Bonk's Big Adventure (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "1279B4B5|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Buster Bros. (Japan).chd",
-      "label": "Buster Bros. (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Buster Bros. (USA).chd",
+      "label": "Buster Bros. (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "035DD9B3|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Chiki Chiki Boys (Japan).chd",
-      "label": "Chiki Chiki Boys (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Chou Aniki (Japan) (FAAT, FACT).chd",
+      "label": "Chou Aniki (Japan) (FAAT, FACT)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Chou Aniki - Super Big Brothers (Japan).chd",
-      "label": "Chou Aniki - Super Big Brothers (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Chou Jikuu Yousai Macross 2036 (Japan).chd",
-      "label": "Chou Jikuu Yousai Macross 2036 (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "8EB7CFD6|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -110,7 +86,7 @@
       "label": "Down Load 2 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "AA238D8D|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -118,7 +94,7 @@
       "label": "Downtown Nekketsu Koushinkyoku - Soreyuke Daiundoukai (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "30E90FE8|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -126,7 +102,7 @@
       "label": "Downtown Nekketsu Monogatari (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "9960EFD9|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -134,7 +110,7 @@
       "label": "Dragon Slayer - The Legend of Heroes (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "B0020B64|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -142,7 +118,7 @@
       "label": "Dungeon Explorer II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "FC6E5787|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -150,7 +126,7 @@
       "label": "Dynastic Hero, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "F80B5080|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -158,15 +134,7 @@
       "label": "Emerald Dragon (English Translation v1.0)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "BB5E7D43|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Emerald Dragon (Japan).chd",
-      "label": "Emerald Dragon (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "BB5E7D43|crc",
+      "crc32": "00000000|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -174,7 +142,7 @@
       "label": "Exile (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "C2A350D8|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -190,7 +158,7 @@
       "label": "Fantastic Night Dreams - Cotton (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "4572910C|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -206,15 +174,7 @@
       "label": "Far East of Eden - Tengai Makyou - Ziria (English Translation v1.2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "84472B6A|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7).chd",
-      "label": "Far East of Eden - Tengai Makyou - Ziria (Japan) (Rev 7)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "84472B6A|crc",
+      "crc32": "00000000|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -222,7 +182,7 @@
       "label": "Fighting Street (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "CB63C4F7|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -230,23 +190,15 @@
       "label": "Final Zone II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "5A08092A|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Fire Pro Jyoshi - Dome Chojyo Taisen (Japan).chd",
-      "label": "Fire Pro Jyoshi - Dome Chojyo Taisen (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Forgotten Worlds (USA) (En,Ja).chd",
+      "label": "Forgotten Worlds (USA) (En,Ja)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Forgotten Worlds (USA).chd",
-      "label": "Forgotten Worlds (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "745C3995|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -254,15 +206,7 @@
       "label": "Gain Ground SX (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Galaxy Deka Gayvan (Japan).chd",
-      "label": "Galaxy Deka Gayvan (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "3CD633DD|crc",
+      "crc32": "AF295C84|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -282,11 +226,11 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Gate of Thunder (Japan).chd",
-      "label": "Gate of Thunder (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Gate of Thunder (Japan) (FACT, FADT).chd",
+      "label": "Gate of Thunder (Japan) (FACT, FADT)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "2ADC5DD4|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -294,7 +238,7 @@
       "label": "Ginga Fukei Densetsu Sapphire (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "6ED2B189|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -302,7 +246,7 @@
       "label": "Goetzendiener (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "FBCD3B21|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -310,31 +254,31 @@
       "label": "Gradius II - Gofer no Yabou (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "7D7DBFB4|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
       "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Jessie Jaeger in Cleopatra's Curse (World) (Unl).chd",
-      "label": "Jessie Jaeger in Cleopatra's Curse (World) (Unl)",
+      "label": "Jessie Jaeger in Cleopatra's Curse (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
       "crc32": "F917F093|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Jim Power - In Mutant Planet (Japan).chd",
-      "label": "Jim Power - In Mutant Planet (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Jim Power in Mutant Planet (USA) (Unl).chd",
+      "label": "Jim Power in Mutant Planet (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "197006D6|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Kaze Kiri Ninja Action (Japan).chd",
-      "label": "Kaze Kiri Ninja Action (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Kaze Kiri - Ninja Action (Japan).chd",
+      "label": "Kaze Kiri - Ninja Action (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "D68D80F3|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -342,7 +286,7 @@
       "label": "Last Alert (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "250E5FDC|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -350,7 +294,7 @@
       "label": "Loom (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "99B694C8|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -358,7 +302,7 @@
       "label": "Lords of the Rising Sun (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "5D914FD9|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -366,7 +310,7 @@
       "label": "Lords of Thunder (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "73CD08EA|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -374,7 +318,7 @@
       "label": "Manhole, The (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "87E408B8|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -382,7 +326,7 @@
       "label": "Metamor Jupiter (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "B37D5153|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -390,15 +334,15 @@
       "label": "Might and Magic III - Isles of Terra (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "6FCAC619|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Mirai Shonen Conan (Japan).chd",
-      "label": "Mirai Shonen Conan (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Mirai Shounen Conan (Japan).chd",
+      "label": "Mirai Shounen Conan (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "C9C9141F|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -406,7 +350,7 @@
       "label": "Monster Lair (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "5E46AB78|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -418,19 +362,11 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Motteke Tamago (Japan).chd",
-      "label": "Motteke Tamago (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Mugen Senshi Valis - The Legend of a Fantasm Soldier (Japan).chd",
+      "label": "Mugen Senshi Valis - The Legend of a Fantasm Soldier (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Mugen Senshi Valis - Legend of a Fantasm Soldier (Japan).chd",
-      "label": "Mugen Senshi Valis - Legend of a Fantasm Soldier (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "8E2FDE43|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -438,7 +374,7 @@
       "label": "Mystic Formula (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "978B1283|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -446,23 +382,23 @@
       "label": "Neo Nectaris (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "3C1A0444|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Nexzr (Japan).chd",
-      "label": "Nexzr (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/NEXZR (Japan).chd",
+      "label": "NEXZR (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "682AB19E|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Popful Mail - Magical Fantasy Adventure (Japan).chd",
-      "label": "Popful Mail - Magical Fantasy Adventure (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/PopfulMail (Japan).chd",
+      "label": "PopfulMail (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "69369B77|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -470,7 +406,7 @@
       "label": "Prince of Persia (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "69F569DF|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -478,7 +414,7 @@
       "label": "R-Type Complete CD (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "54AC2F6B|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -494,7 +430,7 @@
       "label": "Rayxanber II (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "19C00475|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -502,7 +438,7 @@
       "label": "Rayxanber III (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "8612E106|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -510,7 +446,7 @@
       "label": "Red Alert (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "E454316B|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -526,15 +462,15 @@
       "label": "Seirei Senshi Spriggan (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "14DB03F6|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Sherlock Holmes Consulting Detective (USA).chd",
-      "label": "Sherlock Holmes Consulting Detective (USA)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Sherlock Holmes - Consulting Detective (USA).chd",
+      "label": "Sherlock Holmes - Consulting Detective (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "B617632F|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -550,15 +486,15 @@
       "label": "Spriggan Mark 2 - Re Terraform Project (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "EB604489|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Star Parodia (Japan).chd",
-      "label": "Star Parodia (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Star Parodier (Japan).chd",
+      "label": "Star Parodier (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "06BE5B63|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -566,7 +502,7 @@
       "label": "Strider Hiryuu (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "1CB4116B|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -574,15 +510,15 @@
       "label": "Summer Carnival '92 - Alzadick (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "4F0782D7|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Summer Carnival '93 - Nexzr Special (Japan).chd",
-      "label": "Summer Carnival '93 - Nexzr Special (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Summer Carnival '93 - NEXZR Special (Japan).chd",
+      "label": "Summer Carnival '93 - NEXZR Special (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "FE62915C|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -590,7 +526,7 @@
       "label": "Super Air Zonk - Rockabilly-Paradise (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "7E1E04C8|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -598,7 +534,7 @@
       "label": "Super Raiden (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "2E395404|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -614,7 +550,7 @@
       "label": "Sylphia (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "92038A9A|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -622,7 +558,7 @@
       "label": "Valis II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "228168AD|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -630,15 +566,23 @@
       "label": "Valis III (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "1FEA3963|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Valis IV - The Fantasm Soldier (Japan).chd",
-      "label": "Valis IV - The Fantasm Soldier (Japan)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Valis IV (Japan).chd",
+      "label": "Valis IV (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "742A6A56|crc",
+      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Wrestling Universe - Fire Pro Joshi - Dome Choujo Taisen - Zenjo vs. JWP (Japan).chd",
+      "label": "Wrestling Universe - Fire Pro Joshi - Dome Choujo Taisen - Zenjo vs. JWP (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
+      "crc32": "B23BFD2D|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -654,7 +598,7 @@
       "label": "Ys Book I & II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "8E029AC2|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
@@ -662,7 +606,7 @@
       "label": "Ys III - Wanderers from Ys (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "2438E447|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
