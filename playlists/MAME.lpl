@@ -13,7 +13,7 @@
   "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/mame.xml",
   "scan_search_recursively": true,
   "scan_search_archives": true,
-  "scan_filter_dat_content": false,
+  "scan_filter_dat_content": true,
   "scan_overwrite_playlist": false,
   "items": [
     {
@@ -441,14 +441,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-tx1/buggyboy.zip",
-      "label": "Buggy Boy/Speed Buggy (cockpit, rev. D)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-btime/btime.zip",
       "label": "Burger Time (Data East set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -777,30 +769,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps2/dstlk.zip",
-      "label": "Darkstalkers: The Night Warriors (Europe 940705)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps2/dstlku1d.zip",
-      "label": "Darkstalkers: The Night Warriors (USA 940705 Phoenix Edition) (bootleg)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps2/dstlkur1.zip",
-      "label": "Darkstalkers: The Night Warriors (USA 940705)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps2/dstlku.zip",
       "label": "Darkstalkers: The Night Warriors (USA 940818)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -899,14 +867,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-cps2/dimahoo.zip",
       "label": "Dimahoo (Europe 000121)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-namcos22/dirtdasha.zip",
-      "label": "Dirt Dash (World, DT2 Ver.A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1523,14 +1483,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-gng/gngt.zip",
       "label": "Ghosts'n Goblins (US)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-gng/gng.zip",
-      "label": "Ghosts'n Goblins (World? set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4769,14 +4721,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-system1/wbml.zip",
-      "label": "Wonder Boy: Monster Land (Japan New Ver., MC-8123, 317-0043)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-m72/xmultipl.zip",
       "label": "X Multiply (World, M81 hardware)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -4891,14 +4835,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-r2dx_v33/zerotm2k.zip",
       "label": "Zero Team 2000",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-raiden2/zeroteam.zip",
-      "label": "Zero Team USA (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
