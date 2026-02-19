@@ -1,0 +1,31 @@
+#!/usr/bin/env zsh
+
+romsdir=~/Games/Emulation/Arcade
+basedir=~/Library/Application\ Support/RetroArch
+mamexml=$basedir/database/mame.xml
+append_dir=$basedir/database/mamexml-append
+append_names=( $append_dir/*.xml(N:t:r) )
+
+mame -listxml $romsdir/*.zip(:t:r) > $mamexml
+
+if [[ -n $append_names ]]
+then
+  echo "Appending ${(j/,/)append_names}..."
+  {
+    # print main xml file, but omit closing </mame> tag.
+    sed '/<\/mame>/d' $mamexml
+
+    for name in $append_names
+    do
+      # print `/mame/machine` and omits the following:
+      # 1. xml declaration line
+      # 2. doctype & specs
+      # 3. opening <mame> line
+      # 4. closing </mame> line
+      sed '/<?xml/d;/<!/d;/]>/d;/<mame/d;/<\/mame>/d' $append_dir/$name.xml
+    done
+
+    # print the closing tag.
+    echo "</mame>"
+  } > $mamexml:h.tmp && mv -f $mamexml:h.tmp $mamexml
+fi

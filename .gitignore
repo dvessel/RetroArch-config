@@ -9,7 +9,8 @@ cht
 playlists/builtin/*.lpl
 !playlists/builtin/content_favorites.lpl
 cores
-database
+database/rdb
+database/mame.dat
 downloads
 info
 logs
