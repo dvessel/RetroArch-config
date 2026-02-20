@@ -1,4 +1,9 @@
 #!/usr/bin/env zsh
+#
+# swap a b and x y buttons on .rmp files.
+#
+# Usage: controller-swap-facebuttons [path]
+#
 
 awk '
 {
