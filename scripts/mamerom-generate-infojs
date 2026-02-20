@@ -1,0 +1,45 @@
+#!/usr/bin/env zsh
+#
+# Generates `.rominfo/info/romid.js` within [path]. It should point to
+# a directory containing roms made for mame. romid.js files are converted
+# from mame xml output. It makes processing a lot easier.
+#
+# Usage: mamerom-generate-infojs [path]
+# requires standalone mame
+#
+
+
+if type mame &>/dev/null; then
+  # Remove decimals and truncate. MAME version 0.250.0.1 results in 0250.
+  local version=`mame -version | awk -F'[ .]' '{print $1$2}'`
+else
+  return 1
+fi
+
+local base=${1:-.}
+local infodir=$base/.rominfo/$version
+local xmldir=~/Library/Application\ Support/RetroArch/database/mamexml
+local thisdir=$(dirname `realpath $0`)
+
+if [[ -f $infodir && $infodir -nt $base ]]; then
+  return
+fi
+mkdir -p $infodir
+touch $infodir
+ln -sF $version $base/.rominfo/info
+
+echo "Generating .rominfo/$version..."
+for rom in $base/*.zip
+do
+  name=$rom:t:r
+  rominfo=$infodir/$name.json
+  if [[ ! -s $rominfo ]]
+  then
+    if ! mame -listxml $name | $thisdir/mamexml-to-json $rominfo &&
+    [[ -f $xmldir/$name.xml ]]
+    then
+      echo "Fallback found for '$name'"
+      $thisdir/mamexml-to-json $xmldir/$name.xml $rominfo
+    fi
+  fi
+done

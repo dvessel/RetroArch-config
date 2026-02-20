@@ -1,19 +1,25 @@
 #!/usr/bin/env zsh
+#
+# Generates database/mame.dat specific to the roms directory.
+# For use with the MAME.lpl playlist to get proper names.
+#
+# requires standalone mame
+#
 
 romsdir=~/Games/Emulation/Arcade
 basedir=~/Library/Application\ Support/RetroArch
-mamexml=$basedir/database/mame.xml
-append_dir=$basedir/database/mamexml-append
+mamedat=$basedir/database/mame.dat
+append_dir=$basedir/database/mamexml
 append_names=( $append_dir/*.xml(N:t:r) )
 
-mame -listxml $romsdir/*.zip(:t:r) > $mamexml
+mame -listxml $romsdir/*.zip(:t:r) > $mamedat
 
 if [[ -n $append_names ]]
 then
   echo "Appending ${(j/,/)append_names}..."
   {
     # print main xml file, but omit closing </mame> tag.
-    sed '/<\/mame>/d' $mamexml
+    sed '/<\/mame>/d' $mamedat
 
     for name in $append_names
     do
@@ -27,5 +33,5 @@ then
 
     # print the closing tag.
     echo "</mame>"
-  } > $mamexml:h.tmp && mv -f $mamexml:h.tmp $mamexml
+  } > $mamedat:h.tmp && mv -f $mamedat:h.tmp $mamedat
 fi
