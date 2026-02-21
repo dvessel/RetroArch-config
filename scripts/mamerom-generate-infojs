@@ -21,7 +21,9 @@ local infodir=$base/.rominfo/$version
 local xmldir=~/Library/Application\ Support/RetroArch/database/mamexml
 local thisdir=$(dirname `realpath $0`)
 
-if [[ -f $infodir && $infodir -nt $base ]]; then
+# Do not process info files if the modification date of the info directory
+# is newer than the roms directory.
+if [[ -d $infodir && $infodir -nt $base ]]; then
   return
 fi
 mkdir -p $infodir
