@@ -2,7 +2,7 @@
 assets/*
 assets/xmb/*
 !assets/xmb
-!assets/xmb/automatic
+!assets/xmb/custom
 autoconfig/*
 !autoconfig/mfi
 cht
