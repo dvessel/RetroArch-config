@@ -178,7 +178,15 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Deep Duck Trouble Starring Donald Duck (Europe).zip#Deep Duck Trouble Starring Donald Duck (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Danan - The Jungle Fighter (Europe, Brazil) (En).zip#Danan - The Jungle Fighter (Europe, Brazil) (En).sms",
+      "label": "Danan - The Jungle Fighter (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AE4A28D7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Deep Duck Trouble Starring Donald Duck (Europe, Brazil) (En).zip#Deep Duck Trouble Starring Donald Duck (Europe, Brazil) (En).sms",
       "label": "Deep Duck Trouble Starring Donald Duck (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -191,6 +199,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "A55D89F3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Dragon Crystal (Europe, Brazil) (En).zip#Dragon Crystal (Europe, Brazil) (En).sms",
+      "label": "Dragon Crystal (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9549FCE4|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
@@ -386,6 +402,14 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Jurassic Park (Europe, Brazil) (En).zip#Jurassic Park (Europe, Brazil) (En).sms",
+      "label": "Jurassic Park (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0667ED9F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/Kenseiden (USA, Europe).zip#Kenseiden (USA, Europe).sms",
       "label": "Kenseiden (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -415,6 +439,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "C352C7EB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En).zip#Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En).sms",
+      "label": "Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A1710F13|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
