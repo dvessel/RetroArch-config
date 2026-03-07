@@ -85,7 +85,7 @@ cat <<-EOF > advscan.rc
 
 EOF
 
-  mkdir -p logs roms-split samples mamexml mamezip/unknown/{roms,disks,samples}
+  mkdir -p roms-split samples mamexml mamezip/unknown/{roms,disks,samples}
 
   if [[ -d $scandir ]]
   then
@@ -152,11 +152,35 @@ then
   fi
 fi
 
-# echo "scandir:$scandir"
-# echo $command
-# echo $verbose
-# echo $version
-# return
+local color_filters
+
+# duplicate         : purple
+# preliminary       : cyan
+# bad or incomplete : red
+# missing           : yellow
+# various others    : gray
+color_filters='/^(?:\+ )?'
+color_filters+='(?:[a-z]+_){0,2}(good|bad|miss|dup|text|binary|garbage) |'
+color_filters+='Rom.*(preliminary|bad|incomplete|missing) |'
+color_filters+='(total|Missing|-)[_ ]'
+color_filters+='/; print (
+  $1 eq dup         ? "\033[0;35m" :
+  $2 eq preliminary ? "\033[0;36m" :
+  ($1 eq bad or
+  $2 eq bad or
+  $2 eq incomplete) ? "\033[0;31m" :
+  ($1 eq miss or
+  $2 eq missing or
+  $3 eq Missing)    ? "\033[0;33m" :
+  ($1 eq text or
+  $1 eq binary or
+  $1 eq garbage or
+  $3 eq total or
+  $3 eq "-")        ? "\033[0;37m" :
+                      "\033[0m"
+)'
+
+mkdir -p reports
 
 # Modes:
 #   -r, --rom          Operate on rom sets
@@ -188,7 +212,7 @@ fi
 
 case $command in
   scan)
-    advscan -rsk -pP < mamexml/current.xml
+    advscan -rsk -vp < mamexml/current.xml
   ;;
   repair)
     advscan -rsk -bugt -v < mamexml/current.xml
@@ -196,4 +220,6 @@ case $command in
   repair-preview)
     advscan -rsk -bugt -v --print-only < mamexml/current.xml
   ;;
-esac
+esac | perl -ne 'print if ! (/^game_(rom|sample|disk)_(good|bad|miss|dup) ([a-z0-9_]*) .*\n/ &&
+  ( ! -d "roms/$3" && ! -e "roms/$3.zip" && ! -e "roms-split/$3.zip" && ! -e "samples/$3.zip" ))' |
+  tee "reports/`date "+%y.%m.%d,%H.%M.%S"`,${command}.txt" | perl -pe $color_filters
