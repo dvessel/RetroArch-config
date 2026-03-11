@@ -4,7 +4,7 @@ assets/xmb/*
 !assets/xmb
 !assets/xmb/custom
 autoconfig/*
-!autoconfig/mfi
+!autoconfig/mfi-custom.cfg
 cht
 playlists/builtin/*.lpl
 !playlists/builtin/content_favorites.lpl
