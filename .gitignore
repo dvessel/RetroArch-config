@@ -7,7 +7,6 @@ autoconfig/*
 !autoconfig/mfi-custom.cfg
 cht
 playlists/builtin/*.lpl
-!playlists/builtin/content_favorites.lpl
 cores
 database/rdb
 database/mame.dat
