@@ -1,19 +1,17 @@
 
 assets/*
-assets/xmb/*
-!assets/xmb
 !assets/xmb/custom
 autoconfig/*
 !autoconfig/mfi-custom.cfg
 cht
-playlists/builtin/*.lpl
 cores
-database/rdb
-database/mame.dat
+database/*
+!database/mamexml
 downloads
 info
 logs
 overlays
+playlists/builtin
 playlists/logs
 saves
 screenshots
