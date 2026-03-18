@@ -434,11 +434,11 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo 64/Super Smash Bros. (Europe) (En,Fr,De).zip#Super Smash Bros. (Europe) (En,Fr,De).z64",
-      "label": "Super Smash Bros. (Europe) (En,Fr,De)",
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Super Smash Bros. (USA).zip#Super Smash Bros. (USA).z64",
+      "label": "Super Smash Bros. (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mupen64plus_next_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
-      "crc32": "7976248C|crc",
+      "crc32": "EB97929E|crc",
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {

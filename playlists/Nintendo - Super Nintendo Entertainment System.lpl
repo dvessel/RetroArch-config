@@ -498,11 +498,11 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Front Mission Series - Gun Hazard.smc",
-      "label": "Front Mission Series - Gun Hazard (Japan) [T-En by Aeon Genesis v1.01]",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Front Mission Series - Gun Hazard (Japan).zip#Front Mission Series - Gun Hazard (Japan).sfc",
+      "label": "Front Mission Series - Gun Hazard (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
-      "crc32": "5847D80F|crc",
+      "crc32": "FD3FDBAC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
@@ -1007,14 +1007,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
       "crc32": "5F40A869|crc",
-      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Parodius (Europe).zip#Parodius (Europe).sfc",
-      "label": "Parodius (Europe)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
-      "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
-      "crc32": "6FFA308C|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {

@@ -634,14 +634,6 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1).zip#David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1).nes",
-      "label": "David Crane's A Boy and His Blob - Trouble on Blobolonia (Europe) (Rev 1)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
-      "core_name": "Nintendo - NES / Famicom (Mesen)",
-      "crc32": "B6BC2851|crc",
-      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/David Crane's A Boy and His Blob - Trouble on Blobolonia (USA).zip#David Crane's A Boy and His Blob - Trouble on Blobolonia (USA).nes",
       "label": "David Crane's A Boy and His Blob - Trouble on Blobolonia (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
@@ -682,11 +674,11 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Devil World (Europe).zip#Devil World (Europe).nes",
-      "label": "Devil World (Europe)",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Devil World (Japan) (Rev 1).zip#Devil World (Japan) (Rev 1).nes",
+      "label": "Devil World (Japan) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
-      "crc32": "9D0E9F09|crc",
+      "crc32": "D39CEB20|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
@@ -2351,14 +2343,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "11115CB5|crc",
-      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Shatterhand (Europe).zip#Shatterhand (Europe).nes",
-      "label": "Shatterhand (Europe)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
-      "core_name": "Nintendo - NES / Famicom (Mesen)",
-      "crc32": "4BDAFB6B|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
