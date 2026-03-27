@@ -1,5 +1,5 @@
 #reference "shaders_slang/bezel/koko-aio/Presets-ng/Monitor-slotmask-TVL410.slangp"
-GAMMA_OUT = "0.400000"
+GAMMA_OUT = "0.500000"
 IN_GLOW_POWER = "1.000000"
 LUMINANCE = "0.000000"
 ADAPTIVE_BLACK = "0.200000"

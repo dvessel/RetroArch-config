@@ -1,0 +1,6 @@
+#reference "shaders_slang/presets/crt-royale-fast/crt-royale-pvm-ntsc-composite.slangp"
+ntsc_sat = "1.200000"
+ntsc_rainbow1 = "1.000000"
+crt_gamma = "2.600000"
+interlace_1080i = "1.000000"
+geom_curvature = "1.000000"
