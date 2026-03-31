@@ -2114,7 +2114,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/source-mario/mario.zip",
-      "label": "Mario Bros. (US, Revision G)",
+      "label": "Mario Bros. (US, revision E)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
