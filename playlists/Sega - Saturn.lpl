@@ -90,7 +90,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Deep Fear (Europe)/Deep Fear (Europe).m3u",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/-Saturn-EU/Deep Fear (Europe)/Deep Fear (Europe).m3u",
       "label": "Deep Fear (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -162,7 +162,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Lost Vikings 2 - Norse by Norsewest (Europe) (En,Fr,De).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/-Saturn-EU/Lost Vikings 2 - Norse by Norsewest (Europe) (En,Fr,De).chd",
       "label": "Lost Vikings 2 - Norse by Norsewest (Europe) (En,Fr,De)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -234,7 +234,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Saturn Bomberman (Europe).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/-Saturn-EU/Saturn Bomberman (Europe).chd",
       "label": "Saturn Bomberman (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",

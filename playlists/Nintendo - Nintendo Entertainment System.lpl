@@ -202,7 +202,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Asterix (Europe) (En,Fr,De,Es,It).zip#Asterix (Europe) (En,Fr,De,Es,It).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/Asterix (Europe) (En,Fr,De,Es,It).zip#Asterix (Europe) (En,Fr,De,Es,It).nes",
       "label": "Asterix (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -802,7 +802,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Dropzone (Europe).zip#Dropzone (Europe).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/Dropzone (Europe).zip#Dropzone (Europe).nes",
       "label": "Dropzone (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -850,7 +850,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Elite (Europe) (En,Fr,De).zip#Elite (Europe) (En,Fr,De).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/Elite (Europe) (En,Fr,De).zip#Elite (Europe) (En,Fr,De).nes",
       "label": "Elite (Europe) (En,Fr,De)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -1938,7 +1938,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/New Ghostbusters II (Europe).zip#New Ghostbusters II (Europe).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/New Ghostbusters II (Europe).zip#New Ghostbusters II (Europe).nes",
       "label": "New Ghostbusters II (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -2002,7 +2002,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Noah's Ark (Europe).zip#Noah's Ark (Europe).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/Noah's Ark (Europe).zip#Noah's Ark (Europe).nes",
       "label": "Noah's Ark (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -2074,7 +2074,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Parasol Stars - Rainbow Islands II (Europe).zip#Parasol Stars - Rainbow Islands II (Europe).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/Parasol Stars - Rainbow Islands II (Europe).zip#Parasol Stars - Rainbow Islands II (Europe).nes",
       "label": "Parasol Stars - Rainbow Islands II (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -2402,7 +2402,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Smurfs, The (Europe) (En,Fr,De,Es).zip#Smurfs, The (Europe) (En,Fr,De,Es).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/Smurfs, The (Europe) (En,Fr,De,Es).zip#Smurfs, The (Europe) (En,Fr,De,Es).nes",
       "label": "Smurfs, The (Europe) (En,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -2674,7 +2674,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Super Turrican (Europe).zip#Super Turrican (Europe).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/Super Turrican (Europe).zip#Super Turrican (Europe).nes",
       "label": "Super Turrican (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -2882,7 +2882,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Ufouria - The Saga (Europe).zip#Ufouria - The Saga (Europe).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/-NES-EU/Ufouria - The Saga (Europe).zip#Ufouria - The Saga (Europe).nes",
       "label": "Ufouria - The Saga (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",

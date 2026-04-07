@@ -66,7 +66,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Asterix & Obelix (Europe) (En,Fr,De,Es).zip#Asterix & Obelix (Europe) (En,Fr,De,Es).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/-SNES-EU/Asterix & Obelix (Europe) (En,Fr,De,Es).zip#Asterix & Obelix (Europe) (En,Fr,De,Es).sfc",
       "label": "Asterix & Obelix (Europe) (En,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -466,7 +466,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Firemen, The (Europe) (En,Fr,De).zip#Firemen, The (Europe) (En,Fr,De).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/-SNES-EU/Firemen, The (Europe) (En,Fr,De).zip#Firemen, The (Europe) (En,Fr,De).sfc",
       "label": "Firemen, The (Europe) (En,Fr,De)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -802,7 +802,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Lucky Luke (Europe) (En,Fr,De,Es).zip#Lucky Luke (Europe) (En,Fr,De,Es).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/-SNES-EU/Lucky Luke (Europe) (En,Fr,De,Es).zip#Lucky Luke (Europe) (En,Fr,De,Es).sfc",
       "label": "Lucky Luke (Europe) (En,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -866,7 +866,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Marko's Magic Football (Europe) (En,Fr,De,Es).zip#Marko's Magic Football (Europe) (En,Fr,De,Es).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/-SNES-EU/Marko's Magic Football (Europe) (En,Fr,De,Es).zip#Marko's Magic Football (Europe) (En,Fr,De,Es).sfc",
       "label": "Marko's Magic Football (Europe) (En,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -1634,7 +1634,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Terranigma (Europe).zip#Terranigma (Europe).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/-SNES-EU/Terranigma (Europe).zip#Terranigma (Europe).sfc",
       "label": "Terranigma (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -1770,7 +1770,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Winter Gold (Europe).zip#Winter Gold (Europe).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/-SNES-EU/Winter Gold (Europe).zip#Winter Gold (Europe).sfc",
       "label": "Winter Gold (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
