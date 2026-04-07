@@ -1,0 +1,54 @@
+#!/usr/bin/env zsh
+
+function display_get {
+  local mode res hz
+  read mode res hz < <(
+    displayplacer list | sed -En 's/.*mode ([0-9]+): res:([0-9x]+) hz:([0-9]+).*<-- current mode/\1 \2 \3/p'
+  )
+  typeset -A info=( mode $mode res $res hz $hz )
+  for k in $@; echo ${info[$k]}
+}
+
+function display_set_hz {
+  local mode screen_hz requested=$1
+
+  while read mode screen_hz; do
+    case 1 in
+      ($(( requested >= 61.00 ))) (( screen_hz == 120 ));; # [ >= 61.000 ] VRR
+      ($(( requested >= 59.98 ))) (( screen_hz == 60 )) ;; # [59.98-60.99] 60.00
+      ($(( requested >= 56.94 ))) (( screen_hz == 59 )) ;; # [56.94-59.97] 59.94
+      ($(( requested >= 51.00 ))) (( screen_hz == 120 ));; # [51.00-56.99] VRR
+      ($(( requested >= 49.00 ))) (( screen_hz == 50 )) ;; # [49.00-50.99] 50.00
+      ($(( requested >= 48.00 ))) (( screen_hz == 48 )) ;; # [48.00-48.99] 48.00
+      ($(( requested >= 47.95 ))) (( screen_hz == 47 )) ;; # [47.95-47.99] 47.95
+      ($(( requested >= 31.00 ))) (( screen_hz == 120 ));; # [31.00-47.94] VRR
+      ($(( requested >= 30.00 ))) (( screen_hz == 60 )) ;; # [30.00-30.99] 30.00 60.00/2
+      ($(( requested >= 29.97 ))) (( screen_hz == 59 )) ;; # [29.97-29.99] 29.97 59.94/2
+      ($(( requested >= 26.00 ))) (( screen_hz == 120 ));; # [26.00-28.96] VRR
+      ($(( requested >= 25.00 ))) (( screen_hz == 50 )) ;; # [25.00-25.99] 25.00 50.00/2
+      ($(( requested >= 24.00 ))) (( screen_hz == 48 )) ;; # [24.00-24.99] 24.00 48.00/2
+      ($(( requested >= 23.97 ))) (( screen_hz == 47 )) ;; # [23.97-23.99] 23.97 47.95/2
+    esac && {
+      echo "${requested}hz reqested, mode:$mode set --> ${screen_hz}hz"
+      displayplacer mode:$mode
+      break
+    }
+  done < <(
+    displayplacer list | sed -En "s/.*mode ([0-9]+): res:`display_get res` hz:([0-9]+).*/\1 \2/p"
+  )
+}
+
+# restore on exit.
+imode=`display_get mode`
+trap 'displayplacer mode:$imode' INT TERM EXIT
+
+# set initial refresh rate.
+display_set_hz 59.94
+
+tail -fn-1 ~/Library/Application\ Support/RetroArch/logs/retroarch.log |
+  sed -lEn 's/^\[INFO\] \[Core\] Geometry:.*FPS: ([0-9]+.[0-9]+).*/\1/p' |
+    while read -r machine_hz
+do
+  display_set_hz $machine_hz
+done
+
