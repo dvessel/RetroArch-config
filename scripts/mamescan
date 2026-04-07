@@ -1,23 +1,36 @@
 #!/usr/bin/env zsh
 
+# output is piped through multiple commands. allow passing exit status for the script.
+setopt PIPEFAIL
+
 # commands:
 # - init
 # - scan
 # - repair
 
-local command scandir mamezip samples appendxml verbose version
+local command scandir mamezip samples appendxml preview verbose reset
+
 zparseopts -D -F -E - \
   {z,-mamezip}:=mamezip \
   {s,-samples}:=samples \
   {x,-appendxml}:=appendxml \
+  {p,-preview}=preview \
   {v,-verbose}=verbose \
-  -version:=version || return 1
+  -reset=reset || return 1
 
-command=${1:-help}; shift 2>/dev/null
+# TODO: handle commands when it's not given but the scandir is.
+command=${1:-scan}; shift 2>/dev/null
 scandir=${${1:a}:-$PWD}; shift 2>/dev/null
-mamezip=${mamezip[-1]:-$XDG_DATA_HOME/advscan/mamezip}
-samples=${samples[-1]:-$XDG_DATA_HOME/advscan/samples}
-appendxml=${appendxml[-1]:-$XDG_DATA_HOME/advscan/mamexml/_append}
+
+if [[ ! -d $scandir ]]
+then
+  echo "scan directory doesn't exist." >&2
+  return 1
+fi
+
+samples=${samples[-1]:a}
+mamezip=${${mamezip[-1]:a}:-$XDG_DATA_HOME/advscan/mamezip}
+appendxml=${${appendxml[-1]:a}:-$XDG_DATA_HOME/advscan/mamexml/_append}
 
 # Go back to current directory when done.
 # advscan can't resolve paths when run outside advscan.rc.
@@ -29,7 +42,12 @@ then
 fi
 cd $scandir/.advscan
 
-if [[ ! -f advscan.rc ]]
+if [[ $command == init ]]
+then
+  reset=init
+fi
+
+if [[ ! -f advscan.rc || -n $reset ]]
 then
   echo "Initial setup…"
 
@@ -40,13 +58,13 @@ cat <<-EOF > advscan.rc
 # List of paths where the roms are placed. These are the zip archives, which are
 # modified and fixed.
 
-	rom roms:roms-split
+	rom roms:roms-new
 
 # Single directory where the new created zip archives are placed. It's STRONGLY
 # suggested to put this path ALSO in the 'rom' specification. Otherwise at the
 # next run the zip archives are recreated.
 
-	rom_new roms-split
+	rom_new roms-new
 
 # List of directory trees where other roms files are placed. These are used for
 # importing rom file missing in rompath. These files are only read and never
@@ -54,7 +72,7 @@ cat <<-EOF > advscan.rc
 # any other arcade emulators. When a new game will be supported the rom archive
 # will be made automatically.
 
-	rom_import mamezip:roms-split
+	rom_import mamezip
 
 # List of paths where the disks are placed. These are the chd archives.
 # - $0:t will overwrite disk paths. Subfolders will be added automatically before
@@ -85,27 +103,26 @@ cat <<-EOF > advscan.rc
 
 EOF
 
-  mkdir -p roms-split samples mamexml mamezip/unknown/{roms,disks,samples}
-
-  if [[ -d $scandir ]]
+  if [[ -n $reset ]]
   then
-    ln -sF $scandir roms
-  else
-    echo "roms directory doesn't exist." >&2
-    return 1
+    find . -type l -delete
   fi
 
+  mkdir -p roms-new samples mamexml mamezip/unknown/{roms,disks,samples}
+
+  ln -sF .. roms
+
+  if [[ -d $mamezip ]]
+  then
+    ln -s $mamezip/* mamezip
+  fi
   if [[ -d $appendxml ]]
   then
     ln -s $appendxml mamexml/_append
   fi
-  if [[ -d $mamezip ]]
-  then
-    ln -s $mamezip:a/* mamezip/
-  fi
   if [[ -d $samples ]]
   then
-    ln -sF $samples:a samples
+    ln -sF $samples samples
   fi
 fi
 
@@ -113,16 +130,22 @@ fi
 local chdir=( ${$(print -- roms/*/(N)):-roms} )
 sed -i '' -E "s|^(disk ).*|\1${(j[:])chdir}|" advscan.rc
 
-# xmllint --xpath 'string(/mame/@build)' $mamexml | awk -F'[ .]' '{print $1$2}'
-
 local mamexml=mamexml/current.xml
 
 if [[ ! -e $mamexml || $scandir -nt $mamexml ]]
 then
+
+  if [[ -f $mamexml ]]
+  then
+    echo "rebuilding xml files..."
+  else
+    echo "building xml files..."
+  fi
+
   mamexml=mamexml/`mame -version | awk -F'[ .]' '{print $1$2}'`.xml
   ln -sf $mamexml:t mamexml/current.xml
 
-  local all_names=( roms/*.zip(:t:r) )
+  local all_names=( roms/*.zip*(:t:r:r) )
   # get names to append, specific to the rom directory being scanned.
   local append_all=( mamexml/_append/*.xml(N:t:r) )
   local append_roms=( ${all_names:*append_all} )
@@ -152,33 +175,15 @@ then
   fi
 fi
 
-local color_filters
+for p in verbose preview;
+do
+  if [[ -n ${(P)p} ]]
+  then
+    command+=-$p
+  fi
+done
 
-# duplicate         : purple
-# preliminary       : cyan
-# bad or incomplete : red
-# missing           : yellow
-# various others    : gray
-color_filters='/^(?:\+ )?'
-color_filters+='(?:[a-z]+_){0,2}(good|bad|miss|dup|text|binary|garbage) |'
-color_filters+='Rom.*(preliminary|bad|incomplete|missing) |'
-color_filters+='(total|Missing|-)[_ ]'
-color_filters+='/; print (
-  $1 eq dup         ? "\033[0;35m" :
-  $2 eq preliminary ? "\033[0;36m" :
-  ($1 eq bad or
-  $2 eq bad or
-  $2 eq incomplete) ? "\033[0;31m" :
-  ($1 eq miss or
-  $2 eq missing or
-  $3 eq Missing)    ? "\033[0;33m" :
-  ($1 eq text or
-  $1 eq binary or
-  $1 eq garbage or
-  $3 eq total or
-  $3 eq "-")        ? "\033[0;37m" :
-                      "\033[0m"
-)'
+local report_file=`date "+%y%m%d%H%M%S"`-v${$(readlink $mamexml):r}-${command}.txt
 
 mkdir -p reports
 
@@ -211,15 +216,57 @@ mkdir -p reports
 #   -v, --verbose      Verbose output
 
 case $command in
+  init)
+    return
+  ;;
   scan)
-    advscan -rsk -vp < mamexml/current.xml
+    echo "scanning..."
+    advscan -rsk -p < mamexml/current.xml | awk '/total_game_rom_dup/{exit} 1'
+  ;;
+  scan-verbose)
+    echo "scanning... (verbose)"
+    advscan -rsk -pPv < mamexml/current.xml
   ;;
   repair)
+    echo "repairing..."
     advscan -rsk -bugt -v < mamexml/current.xml
   ;;
   repair-preview)
-    advscan -rsk -bugt -v --print-only < mamexml/current.xml
+    echo "repairing... (preview)"
+    advscan -rsk -bugt --print-only < mamexml/current.xml
   ;;
-esac | perl -ne 'print if ! (/^game_(rom|sample|disk)_(good|bad|miss|dup) ([a-z0-9_]*) .*\n/ &&
-  ( ! -d "roms/$3" && ! -e "roms/$3.zip" && ! -e "roms-split/$3.zip" && ! -e "samples/$3.zip" ))' |
-  tee "reports/`date "+%y.%m.%d,%H.%M.%S"`,${command}.txt" | perl -pe $color_filters
+  cleanup)
+    echo "cleaning..."
+    advscan -rsk -dugt < mamexml/current.xml
+  ;;
+  cleanup-preview)
+    echo "cleaning... (preview)"
+    advscan -rsk -dugt --print-only < mamexml/current.xml
+  ;;
+  *)
+    echo "invalid command." >&2
+    return 1
+  ;;
+esac 2> >( sed -l '/Missing.*sampleof/d' >&2 ) | tee reports/$report_file |
+# colorize -p option output. 
+# nodump bad/miss : yellow
+# rom miss/bad    : red
+# various others  : gray
+perl -pe '/^([a-z]+_)?(good|bad|miss|text|binary|garbage)/; print (
+  ( $1 eq nodump_ and ( $2 eq bad or $2 eq miss ) ) ?
+    "\033[0;33m" :
+  ( $1 eq rom_ and ( $2 eq miss or $2 eq bad ) ) ?
+      "\033[0;31m" :
+  ( $2 eq text or $2 eq binary or $2 eq garbage ) ?
+      "\033[0;37m" :
+      "\033[0m"
+)'
+
+# remove empty reports file.
+if [[ `wc -l < reports/$report_file` -le 1 ]]
+then
+  rm reports/$report_file
+else
+  echo "report generated: $scandir/.advscan/reports/$report_file"
+fi
+
