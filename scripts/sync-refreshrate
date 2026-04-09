@@ -1,18 +1,34 @@
 #!/usr/bin/env zsh
 
-function display_get {
-  local mode res hz
-  read mode res hz < <(
-    displayplacer list | sed -En 's/.*mode ([0-9]+): res:([0-9x]+) hz:([0-9]+).*<-- current mode/\1 \2 \3/p'
+# print a cleaned up list of display modes with the refresh rate options.
+# 16' MacBook Pro display (ProMotion) s4251086178.
+# $1 : for future use when multiple external monitors are used.
+function display_modes {
+  # split display info into an array delimited by a blank line. last two items are junk.
+  local dpinfo=(
+    ${(s::)"$(
+      displayplacer list | awk 'BEGIN { RS="" } { printf "%s", $0 }'
+    )"}
   )
-  typeset -A info=( mode $mode res $res hz $hz )
-  for k in $@; echo ${info[$k]}
+  if [[ ${dpinfo[${1:-1}]} =~ 'Serial screen id: s4251086178' ]]
+  then
+    local id=`print -- ${dpinfo[${1:-1}]} | sed -En 's/Persistent screen id: ([A-Z0-9-]+)/\1/p'`
+    read r d s < <(
+      print -- ${dpinfo[${1:-1}]} |
+        sed -En 's/.+res:([0-9x]+).+color_depth:([0-9]+) ?(scaling:on)? <-- current mode/\1 \2 \3/p'
+    )
+    print -- ${dpinfo[${1:-1}]} |
+      sed -En "s/.+mode ([0-9]+): res:$r hz:([0-9]+) color_depth:$d ?$s/id:$id mode:\1 hz:\2/p"
+  else
+    return 1
+  fi
 }
 
 function display_set_hz {
-  local mode screen_hz requested=$1
+  local id mode screen_hz requested=$1
 
-  while read mode screen_hz; do
+  while read id mode screen_hz
+  do
     case 1 in
       ($(( requested >= 61.00 ))) (( screen_hz == 120 ));; # [ >= 61.000 ] VRR
       ($(( requested >= 59.98 ))) (( screen_hz == 60 )) ;; # [59.98-60.99] 60.00
@@ -30,17 +46,17 @@ function display_set_hz {
       ($(( requested >= 23.97 ))) (( screen_hz == 47 )) ;; # [23.97-23.99] 23.97 47.95/2
     esac && {
       echo "${requested}hz reqested, mode:$mode set --> ${screen_hz}hz"
-      displayplacer mode:$mode
+      displayplacer "id:$id mode:$mode"
       break
     }
   done < <(
-    displayplacer list | sed -En "s/.*mode ([0-9]+): res:`display_get res` hz:([0-9]+).*/\1 \2/p"
+    display_modes | sed -En "s/id:([A-Z0-9-]+) mode:([0-9]+) hz:([0-9]+).*/\1 \2 \3/p"
   )
 }
 
 # restore on exit.
-imode=`display_get mode`
-trap 'displayplacer mode:$imode' INT TERM EXIT
+restore=`display_modes | sed -En 's/(id:[A-Z0-9-]+ mode:[0-9]+).*<-- current mode/\1/p'`
+trap 'displayplacer "$restore"' INT TERM EXIT
 
 # set initial refresh rate.
 display_set_hz 59.94
