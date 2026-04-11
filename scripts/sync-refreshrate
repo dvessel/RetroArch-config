@@ -1,10 +1,11 @@
 #!/usr/bin/env zsh
 
-# print a cleaned up list of display modes with the refresh rate options.
-# 16' MacBook Pro display (ProMotion) s4251086178.
+# print a cleaned up list of display modes centered on refresh rates.
+# list specific to 16' MacBook Pro display (ProMotion) s4251086178.
 # $1 : for future use when multiple external monitors are used.
-function display_modes {
+function display_list_hz {
   # split display info into an array delimited by a blank line. last two items are junk.
+  # using \x1f control character to delimit the array items.
   local dpinfo=(
     ${(s::)"$(
       displayplacer list | awk 'BEGIN { RS="" } { printf "%s", $0 }'
@@ -22,6 +23,20 @@ function display_modes {
   else
     return 1
   fi
+}
+
+function display_get_hz {
+  typeset -A pro_motion_list=(
+    120 120.00
+    60 60.00
+    59 59.94
+    50 50.00
+    48 48.00
+    47 47.95
+  )
+  print -- ${pro_motion_list[$(
+    display_list_hz | sed -En 's/.*hz:([0-9]+).*<-- current mode.*/\1/p'
+  )]}
 }
 
 function display_set_hz {
@@ -50,21 +65,42 @@ function display_set_hz {
       break
     }
   done < <(
-    display_modes | sed -En "s/id:([A-Z0-9-]+) mode:([0-9]+) hz:([0-9]+).*/\1 \2 \3/p"
+    display_list_hz | sed -En "s/id:([A-Z0-9-]+) mode:([0-9]+) hz:([0-9]+).*/\1 \2 \3/p"
   )
 }
 
 # restore on exit.
-restore=`display_modes | sed -En 's/(id:[A-Z0-9-]+ mode:[0-9]+).*<-- current mode/\1/p'`
-trap 'displayplacer "$restore"' INT TERM EXIT
+init_hz=`display_get_hz`
+trap 'display_set_hz $init_hz' INT TERM EXIT
 
 # set initial refresh rate.
 display_set_hz 59.94
 
 tail -fn-1 ~/Library/Application\ Support/RetroArch/logs/retroarch.log |
   sed -lEn 's/^\[INFO\] \[Core\] Geometry:.*FPS: ([0-9]+.[0-9]+).*/\1/p' |
-    while read -r machine_hz
+    while read machine_hz
 do
   display_set_hz $machine_hz
 done
 
+# - find config directory
+# - look for the value `video_refresh_rate` in config files, ensure it matches
+#   screen refresh rate. walk down in this order for a match.
+#   - Black Belt (USA, Europe).cfg.  game override       <- 2nd
+#   - Sega Master System.cfg         container override  <- 1st
+#   - Genesis Plus GX.cfg            core override       <- 3rd
+#   - retroarch.cfg
+
+# [INFO] [Core] Loading dynamic libretro core from: "/Users/joon/Library/Application Support/RetroArch/cores/genesis_plus_gx_libretro.dylib".
+
+# [INFO] [Override] Core-specific overrides found at "/Users/joon/Library/Application Support/RetroArch/config/Genesis Plus GX/Genesis Plus GX.cfg".
+
+# [INFO] [Config] Loading config: "/Users/joon/Library/Application Support/RetroArch/config/retroarch.cfg".
+
+# [INFO] [Config] Appending override config: "/Users/joon/Library/Application Support/RetroArch/config/Genesis Plus GX/Genesis Plus GX.cfg".
+
+# [INFO] [Content] Loading content file: "/Users/joon/Games/Emulation/Sega Master System/Black Belt (USA, Europe).zip#Black Belt (USA, Europe).sms".
+
+# [INFO] [Video] Timings deviate too much. Will not adjust. (Target = 120.00 Hz, Game = 59.82 Hz)
+
+# [INFO] [Core] Unloading core...
