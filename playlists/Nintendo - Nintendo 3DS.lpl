@@ -1,0 +1,205 @@
+{
+  "version": "1.5",
+  "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+  "default_core_name": "Nintendo - 3DS (Azahar)",
+  "base_content_directory": "/Users/joon/Games/Emulation",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "thumbnail_match_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Castlevania - Lords of Shadow - Mirror of Fate (USA) (En,Fr,Es).zip#Castlevania - Lords of Shadow - Mirror of Fate (USA) (En,Fr,Es).3ds",
+      "label": "Castlevania - Lords of Shadow - Mirror of Fate (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "2410983D|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Dragon Quest VII - Fragments of the Forgotten Past (USA).zip#Dragon Quest VII - Fragments of the Forgotten Past (USA).3ds",
+      "label": "Dragon Quest VII - Fragments of the Forgotten Past (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "9AB6F717|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Dragon Quest VIII - Journey of the Cursed King (USA).zip#Dragon Quest VIII - Journey of the Cursed King (USA).3ds",
+      "label": "Dragon Quest VIII - Journey of the Cursed King (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "762478D0|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Kid Icarus - Uprising (USA) (En,Fr,Es).zip#Kid Icarus - Uprising (USA) (En,Fr,Es).3ds",
+      "label": "Kid Icarus - Uprising (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "2FAC4E91|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Kirby - Planet Robobot (USA).zip#Kirby - Planet Robobot (USA).3ds",
+      "label": "Kirby - Planet Robobot (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "146DE637|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Kirby - Triple Deluxe (USA) (En,Fr,Es).zip#Kirby - Triple Deluxe (USA) (En,Fr,Es).3ds",
+      "label": "Kirby - Triple Deluxe (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "9B322025|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Kirby Battle Royale (USA) (En,Ja,Fr,De,Es,It,Nl,Ko) (Rev 2).zip#Kirby Battle Royale (USA) (En,Ja,Fr,De,Es,It,Nl,Ko) (Rev 2).3ds",
+      "label": "Kirby Battle Royale (USA) (En,Ja,Fr,De,Es,It,Nl,Ko) (Rev 2)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "A04F16DA|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Kirby's Extra Epic Yarn (USA) (En,Fr,Es).zip#Kirby's Extra Epic Yarn (USA) (En,Fr,Es).3ds",
+      "label": "Kirby's Extra Epic Yarn (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "5DDA88D1|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Legend of Zelda, The - A Link Between Worlds (USA) (En,Fr,Es).zip#Legend of Zelda, The - A Link Between Worlds (USA) (En,Fr,Es).3ds",
+      "label": "Legend of Zelda, The - A Link Between Worlds (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "81B47A68|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Legend of Zelda, The - Majora's Mask 3D (USA) (En,Fr,Es) (Rev 1).zip#Legend of Zelda, The - Majora's Mask 3D (USA) (En,Fr,Es) (Rev 1).3ds",
+      "label": "Legend of Zelda, The - Majora's Mask 3D (USA) (En,Fr,Es) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "391E9FBE|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1).zip#Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1).3ds",
+      "label": "Legend of Zelda, The - Ocarina of Time 3D (USA) (En,Fr,Es) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "A689A053|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Mario & Luigi - Bowser's Inside Story + Bowser Jr.'s Journey (USA).zip#Mario & Luigi - Bowser's Inside Story + Bowser Jr.'s Journey (USA).3ds",
+      "label": "Mario & Luigi - Bowser's Inside Story + Bowser Jr.'s Journey (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "DF04AD66|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Mario & Luigi - Dream Team (USA) (En,Fr,Es) (Rev 1).zip#Mario & Luigi - Dream Team (USA) (En,Fr,Es) (Rev 1).3ds",
+      "label": "Mario & Luigi - Dream Team (USA) (En,Fr,Es) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "5C5EB548|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Mario & Luigi - Paper Jam (USA).zip#Mario & Luigi - Paper Jam (USA).3ds",
+      "label": "Mario & Luigi - Paper Jam (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "C26E7ED8|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Mario & Luigi - Superstar Saga + Bowser's Minions (USA) (En,Fr,Es).zip#Mario & Luigi - Superstar Saga + Bowser's Minions (USA) (En,Fr,Es).3ds",
+      "label": "Mario & Luigi - Superstar Saga + Bowser's Minions (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "F05232EC|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).zip#Mario Kart 7 (USA) (En,Fr,Es) (Rev 1).3ds",
+      "label": "Mario Kart 7 (USA) (En,Fr,Es) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "7C332CD9|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Metroid - Samus Returns (USA) (En,Fr,Es).zip#Metroid - Samus Returns (USA) (En,Fr,Es).3ds",
+      "label": "Metroid - Samus Returns (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "E113AFAB|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Metroid Prime - Federation Force (USA) (En,Fr,Es).zip#Metroid Prime - Federation Force (USA) (En,Fr,Es).3ds",
+      "label": "Metroid Prime - Federation Force (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "B31CCF8A|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/New Super Mario Bros. 2 (USA) (En,Fr,Es).zip#New Super Mario Bros. 2 (USA) (En,Fr,Es).3ds",
+      "label": "New Super Mario Bros. 2 (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "EE3F66E4|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Paper Mario - Sticker Star (USA) (En,Fr,Es).zip#Paper Mario - Sticker Star (USA) (En,Fr,Es).3ds",
+      "label": "Paper Mario - Sticker Star (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "55704DC0|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Sonic Generations (USA) (En,Fr,Es) (Rev 1).zip#Sonic Generations (USA) (En,Fr,Es) (Rev 1).3ds",
+      "label": "Sonic Generations (USA) (En,Fr,Es) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "0A819CDD|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Sonic - Lost World (USA) (En,Fr,Es).zip#Sonic - Lost World (USA) (En,Fr,Es).3ds",
+      "label": "Sonic Lost World (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "E8ED1718|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).zip#Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1).3ds",
+      "label": "Super Mario 3D Land (USA) (En,Fr,Es) (Rev 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "A1FD8DF5|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo 3DS/Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 3).zip#Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 3).3ds",
+      "label": "Super Mario Maker for Nintendo 3DS (USA) (En,Fr,Es) (Rev 3)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/azahar_libretro.dylib",
+      "core_name": "Nintendo - 3DS (Azahar)",
+      "crc32": "4BECCE8C|crc",
+      "db_name": "Nintendo - Nintendo 3DS.lpl"
+    }
+  ]
+}
