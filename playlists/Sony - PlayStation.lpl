@@ -8,6 +8,16 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
+  "scan_content_dir": "/Users/joon/Games/Emulation/Sony PlayStation",
+  "scan_file_exts": "",
+  "scan_dat_file_path": "",
+  "scan_database_name": "",
+  "scan_search_recursively": true,
+  "scan_search_archives": true,
+  "scan_filter_dat_content": false,
+  "scan_omit_db_ref": false,
+  "scan_overwrite_playlist": false,
+  "scan_db_usage": 0,
   "items": [
     {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/70's Robot Anime - Geppy-X - The Super Boosted Armor (Japan)/70's Robot Anime - Geppy-X - The Super Boosted Armor (Japan).m3u",
@@ -1156,8 +1166,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Persona 2 - Eternal Punishment (USA)/Persona 2 - Eternal Punishment (USA).m3u",
       "label": "Persona 2 - Eternal Punishment (USA)",
-      "core_path": "DETECT",
-      "core_name": "DETECT",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-01158|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
