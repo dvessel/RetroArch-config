@@ -626,6 +626,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Cybernoid - The Fighting Machine (USA).zip#Cybernoid - The Fighting Machine (USA).nes",
+      "label": "Cybernoid - The Fighting Machine (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "CD71E1AB|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Data Man (World) (v1.1) (Digital) (Aftermarket) (Unl).zip#Data Man (World) (v1.1) (Digital) (Aftermarket) (Unl).nes",
       "label": "Data Man (World) (v1.1) (Digital) (Aftermarket) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
