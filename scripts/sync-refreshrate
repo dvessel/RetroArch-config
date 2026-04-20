@@ -1,86 +1,28 @@
 #!/usr/bin/env zsh
 
-# print a cleaned up list of display modes centered on refresh rates.
-# list specific to 16' MacBook Pro display (ProMotion) s4251086178.
-# $1 : for future use when multiple external monitors are used.
-function display_list_hz {
-  # split display info into an array delimited by a blank line. last two items are junk.
-  # using \x1f control character to delimit the array items.
-  local dpinfo=(
-    ${(s::)"$(
-      displayplacer list | awk 'BEGIN { RS="" } { printf "%s", $0 }'
-    )"}
-  )
-  if [[ ${dpinfo[${1:-1}]} =~ 'Serial screen id: s4251086178' ]]
-  then
-    local id=`print -- ${dpinfo[${1:-1}]} | sed -En 's/Persistent screen id: ([A-Z0-9-]+)/\1/p'`
-    read r d s < <(
-      print -- ${dpinfo[${1:-1}]} |
-        sed -En 's/.+res:([0-9x]+).+color_depth:([0-9]+) ?(scaling:on)? <-- current mode/\1 \2 \3/p'
-    )
-    print -- ${dpinfo[${1:-1}]} |
-      sed -En "s/.+mode ([0-9]+): res:$r hz:([0-9]+) color_depth:$d ?$s/id:$id mode:\1 hz:\2/p"
-  else
-    return 1
-  fi
-}
-
-function display_get_hz {
-  typeset -A pro_motion_list=(
-    120 120.00
-    60 60.00
-    59 59.94
-    50 50.00
-    48 48.00
-    47 47.95
-  )
-  print -- ${pro_motion_list[$(
-    display_list_hz | sed -En 's/.*hz:([0-9]+).*<-- current mode.*/\1/p'
-  )]}
-}
-
-function display_set_hz {
-  local id mode screen_hz requested=$1
-
-  while read id mode screen_hz
-  do
-    case 1 in
-      ($(( requested >= 61.00 ))) (( screen_hz == 120 ));; # [ >= 61.000 ] VRR
-      ($(( requested >= 59.98 ))) (( screen_hz == 60 )) ;; # [59.98-60.99] 60.00
-      ($(( requested >= 56.94 ))) (( screen_hz == 59 )) ;; # [56.94-59.97] 59.94
-      ($(( requested >= 51.00 ))) (( screen_hz == 120 ));; # [51.00-56.99] VRR
-      ($(( requested >= 49.00 ))) (( screen_hz == 50 )) ;; # [49.00-50.99] 50.00
-      ($(( requested >= 48.00 ))) (( screen_hz == 48 )) ;; # [48.00-48.99] 48.00
-      ($(( requested >= 47.95 ))) (( screen_hz == 47 )) ;; # [47.95-47.99] 47.95
-      ($(( requested >= 31.00 ))) (( screen_hz == 120 ));; # [31.00-47.94] VRR
-      ($(( requested >= 30.00 ))) (( screen_hz == 60 )) ;; # [30.00-30.99] 30.00 60.00/2
-      ($(( requested >= 29.97 ))) (( screen_hz == 59 )) ;; # [29.97-29.99] 29.97 59.94/2
-      ($(( requested >= 26.00 ))) (( screen_hz == 120 ));; # [26.00-28.96] VRR
-      ($(( requested >= 25.00 ))) (( screen_hz == 50 )) ;; # [25.00-25.99] 25.00 50.00/2
-      ($(( requested >= 24.00 ))) (( screen_hz == 48 )) ;; # [24.00-24.99] 24.00 48.00/2
-      ($(( requested >= 23.97 ))) (( screen_hz == 47 )) ;; # [23.97-23.99] 23.97 47.95/2
-    esac && {
-      echo "${requested}hz reqested, mode:$mode set --> ${screen_hz}hz"
-      displayplacer "id:$id mode:$mode"
-      break
-    }
-  done < <(
-    display_list_hz | sed -En "s/id:([A-Z0-9-]+) mode:([0-9]+) hz:([0-9]+).*/\1 \2 \3/p"
-  )
-}
-
-# restore on exit.
-init_hz=`display_get_hz`
-trap 'display_set_hz $init_hz' INT TERM EXIT
-
-# set initial refresh rate.
-display_set_hz 59.94
-
 tail -fn-1 ~/Library/Application\ Support/RetroArch/logs/retroarch.log |
   sed -lEn 's/^\[INFO\] \[Core\] Geometry:.*FPS: ([0-9]+.[0-9]+).*/\1/p' |
-    while read machine_hz
+    while read rhz
 do
-  display_set_hz $machine_hz
+  # Built-in Liquid Retina XDR Display
+  case 1 in
+    $(( rhz >= 61.00 ))) hz=120   ;;  # [ >= 61.000 ] VRR
+    $(( rhz >= 59.98 ))) hz=60    ;;  # [59.98-60.99] 60.00
+    $(( rhz >= 56.94 ))) hz=59.94 ;;  # [56.94-59.97] 59.94
+    $(( rhz >= 51.00 ))) hz=120   ;;  # [51.00-56.99] VRR
+    $(( rhz >= 49.00 ))) hz=50    ;;  # [49.00-50.99] 50.00
+    $(( rhz >= 48.00 ))) hz=48    ;;  # [48.00-48.99] 48.00
+    $(( rhz >= 47.95 ))) hz=47.95 ;;  # [47.95-47.99] 47.95
+    $(( rhz >= 31.00 ))) hz=120   ;;  # [31.00-47.94] VRR
+    $(( rhz >= 30.00 ))) hz=60    ;;  # [30.00-30.99] 30.00 60.00/2
+    $(( rhz >= 29.97 ))) hz=59.94 ;;  # [29.97-29.99] 29.97 59.94/2
+    $(( rhz >= 26.00 ))) hz=120   ;;  # [26.00-28.96] VRR
+    $(( rhz >= 25.00 ))) hz=50    ;;  # [25.00-25.99] 25.00 50.00/2
+    $(( rhz >= 24.00 ))) hz=48    ;;  # [24.00-24.99] 24.00 48.00/2
+    $(( rhz >= 23.97 ))) hz=47.95 ;;  # [23.97-23.99] 23.97 47.95/2
+  esac
+  print "requested: ${rhz}hz"
+  rascreen --set-hz $hz &
 done
 
 # - find config directory
