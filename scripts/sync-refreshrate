@@ -22,6 +22,8 @@ do
     $(( rhz >= 23.97 ))) hz=47.95 ;;  # [23.97-23.99] 23.97 47.95/2
   esac
   print "requested: ${rhz}hz"
+  pkill -n rascreen
+  sleep 3.5
   rascreen --set-hz $hz &
 done
 
