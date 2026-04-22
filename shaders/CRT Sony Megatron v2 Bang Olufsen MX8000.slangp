@@ -1,0 +1,6 @@
+#reference "shaders_slang/hdr/sony_megatron_v2_presets/crt-sony-megatron-v2-bang-olufsen-mx8000.slangp"
+hcrt_max_nits = "500.000000"
+hcrt_colour_space = "3.000000"
+hcrt_brightness = "0.200000"
+hcrt_contrast = "0.200000"
+hcrt_saturation = "0.200000"
