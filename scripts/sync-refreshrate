@@ -1,50 +1,46 @@
 #!/usr/bin/env zsh
 
-tail -fn-1 ~/Library/Application\ Support/RetroArch/logs/retroarch.log |
-  sed -lEn 's/^\[INFO\] \[Core\] Geometry:.*FPS: ([0-9]+.[0-9]+).*/\1/p' |
-    while read rhz
-do
-  # Built-in Liquid Retina XDR Display
-  case 1 in
-    $(( rhz >= 61.00 ))) hz=120   ;;  # [ >= 61.000 ] VRR
-    $(( rhz >= 59.98 ))) hz=60    ;;  # [59.98-60.99] 60.00
-    $(( rhz >= 56.94 ))) hz=59.94 ;;  # [56.94-59.97] 59.94
-    $(( rhz >= 51.00 ))) hz=120   ;;  # [51.00-56.99] VRR
-    $(( rhz >= 49.00 ))) hz=50    ;;  # [49.00-50.99] 50.00
-    $(( rhz >= 48.00 ))) hz=48    ;;  # [48.00-48.99] 48.00
-    $(( rhz >= 47.95 ))) hz=47.95 ;;  # [47.95-47.99] 47.95
-    $(( rhz >= 31.00 ))) hz=120   ;;  # [31.00-47.94] VRR
-    $(( rhz >= 30.00 ))) hz=60    ;;  # [30.00-30.99] 30.00 60.00/2
-    $(( rhz >= 29.97 ))) hz=59.94 ;;  # [29.97-29.99] 29.97 59.94/2
-    $(( rhz >= 26.00 ))) hz=120   ;;  # [26.00-28.96] VRR
-    $(( rhz >= 25.00 ))) hz=50    ;;  # [25.00-25.99] 25.00 50.00/2
-    $(( rhz >= 24.00 ))) hz=48    ;;  # [24.00-24.99] 24.00 48.00/2
-    $(( rhz >= 23.97 ))) hz=47.95 ;;  # [23.97-23.99] 23.97 47.95/2
-  esac
-  print "requested: ${rhz}hz"
-  pkill -n rascreen
-  sleep 3.5
-  rascreen --set-hz $hz &
+initial_mode=56
+restore_mode=72
+
+displayplacer "id:1 mode:$initial_mode"
+trap 'displayplacer "id:1 mode:$restore_mode"' INT TERM EXIT
+
+log=( ~/Library/Application\ Support/RetroArch/logs/retroarch.log )
+
+tail -fn-1 $log | while read line; do
+
+  if [[ $line =~ "Loading dynamic libretro core from:" ]]; then
+    loading=1
+  elif [[ $line =~ "Unloading core..." ]]; then
+    loading=0
+    if `pkill -n rascreen`; then
+      print "refresh rate released."
+    fi
+  fi
+
+  rhz=$( sed -En 's/^\[INFO\] \[Core\] Geometry:.*FPS: ([0-9]+\.[0-9]+).*/\1/p' <<< $line )
+
+  if [[ -n $rhz ]] && (( loading )); then
+    # Built-in Liquid Retina XDR Display
+    case 1 in
+      $(( rhz >= 61.00 ))) hz=120   ;;  # [ >= 61.000 ] VRR
+      $(( rhz >= 59.98 ))) hz=60    ;;  # [59.98-60.99] 60.00
+      $(( rhz >= 56.94 ))) hz=59.94 ;;  # [56.94-59.97] 59.94
+      $(( rhz >= 51.00 ))) hz=120   ;;  # [51.00-56.99] VRR
+      $(( rhz >= 49.00 ))) hz=50    ;;  # [49.00-50.99] 50.00
+      $(( rhz >= 48.00 ))) hz=48    ;;  # [48.00-48.99] 48.00
+      $(( rhz >= 47.95 ))) hz=47.95 ;;  # [47.95-47.99] 47.95
+      $(( rhz >= 31.00 ))) hz=120   ;;  # [31.00-47.94] VRR
+      $(( rhz >= 30.00 ))) hz=60    ;;  # [30.00-30.99] 30.00 60.00/2
+      $(( rhz >= 29.97 ))) hz=59.94 ;;  # [29.97-29.99] 29.97 59.94/2
+      $(( rhz >= 26.00 ))) hz=120   ;;  # [26.00-28.96] VRR
+      $(( rhz >= 25.00 ))) hz=50    ;;  # [25.00-25.99] 25.00 50.00/2
+      $(( rhz >= 24.00 ))) hz=48    ;;  # [24.00-24.99] 24.00 48.00/2
+      $(( rhz >= 23.97 ))) hz=47.95 ;;  # [23.97-23.99] 23.97 47.95/2
+                        *) hz=0     ;;
+    esac
+    print "requested: ${rhz}hz"
+    rascreen --set-hz $hz &
+  fi
 done
-
-# - find config directory
-# - look for the value `video_refresh_rate` in config files, ensure it matches
-#   screen refresh rate. walk down in this order for a match.
-#   - Black Belt (USA, Europe).cfg.  game override       <- 2nd
-#   - Sega Master System.cfg         container override  <- 1st
-#   - Genesis Plus GX.cfg            core override       <- 3rd
-#   - retroarch.cfg
-
-# [INFO] [Core] Loading dynamic libretro core from: "/Users/joon/Library/Application Support/RetroArch/cores/genesis_plus_gx_libretro.dylib".
-
-# [INFO] [Override] Core-specific overrides found at "/Users/joon/Library/Application Support/RetroArch/config/Genesis Plus GX/Genesis Plus GX.cfg".
-
-# [INFO] [Config] Loading config: "/Users/joon/Library/Application Support/RetroArch/config/retroarch.cfg".
-
-# [INFO] [Config] Appending override config: "/Users/joon/Library/Application Support/RetroArch/config/Genesis Plus GX/Genesis Plus GX.cfg".
-
-# [INFO] [Content] Loading content file: "/Users/joon/Games/Emulation/Sega Master System/Black Belt (USA, Europe).zip#Black Belt (USA, Europe).sms".
-
-# [INFO] [Video] Timings deviate too much. Will not adjust. (Target = 120.00 Hz, Game = 59.82 Hz)
-
-# [INFO] [Core] Unloading core...

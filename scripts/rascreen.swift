@@ -21,7 +21,7 @@ func printError(_ message: String) {
 
 func setRefreshRate(displayID: CGDirectDisplayID, displayModes: [CGDisplayMode], rate: Double) -> Bool {
   guard
-    let targetMode = displayModes.first(where: { abs($0.refreshRate - rate) < 0.1 })
+    let targetMode = displayModes.first(where: { abs($0.refreshRate - rate) < 0.01 })
   else {
     return false
   }
@@ -107,6 +107,10 @@ if let screen = getScreenForAppWindow(window: targetWindow) {
     case "--set-hz":
       i += 1
       if i < CommandLine.arguments.count, let rate = Double(CommandLine.arguments[i]) {
+        if abs(screen.mode.refreshRate - rate) < 0.01 {
+          print("Refresh rate already set to \(rate)Hz.")
+          exit(0)
+        }
         if setRefreshRate(displayID: screen.id, displayModes: screen.modes, rate: rate) {
           print("Successfully set refresh rate to \(rate)Hz.")
           found = true
