@@ -1,0 +1,2 @@
+#reference "shaders_slang/hdr/sony_megatron_v1_presets/crt-sony-megatron-toshiba-microfilter-hdr.slangp"
+hcrt_max_nits = "1600.000000"
