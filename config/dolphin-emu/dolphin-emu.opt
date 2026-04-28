@@ -1,5 +1,5 @@
 dolphin_alt_gc_ports_on_wii = "disabled"
-dolphin_anti_aliasing = "5"
+dolphin_anti_aliasing = "0"
 dolphin_aspect_ratio = "0"
 dolphin_bbox_enabled = "disabled"
 dolphin_bluetooth_passthrough = "disabled"
