@@ -1,15 +1,6 @@
 #!/usr/bin/env zsh
 
-initial_mode=56
-restore_mode=72
-
-displayplacer "id:1 mode:$initial_mode"
-trap 'displayplacer "id:1 mode:$restore_mode"' INT TERM EXIT
-
-log=( ~/Library/Application\ Support/RetroArch/logs/retroarch.log )
-
-tail -fn-1 $log | while read line; do
-
+tail -fn-1 ~/Games/Support/RetroArch/logs/retroarch.log | while read line; do
   if [[ $line =~ "Loading dynamic libretro core from:" ]]; then
     loading=1
   elif [[ $line =~ "Unloading core..." ]]; then
