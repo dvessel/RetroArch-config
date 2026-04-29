@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTD/ PLIST-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>local.retroarch.sync-refreshrates</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/joon/Games/Support/RetroArch/scripts/sync-refreshrates/sync-refreshrates</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/joon/Games/Support/RetroArch/logs/sync-refreshrate.out</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/joon/Games/Support/RetroArch/logs/sync-refreshrate.err</string>
+</dict>
+</plist>

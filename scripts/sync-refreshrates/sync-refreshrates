@@ -1,0 +1,108 @@
+#!/usr/bin/env zsh
+
+debug=0
+dprint() { (( debug )) && print -- $@ }
+
+path=( $ZSH_SCRIPT:h/bin $path )
+config=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
+ldir=${$( sed -En 's/^log_dir = "(.+)"/\1/p' $config )/#\~\//$HOME/}
+
+# Required logging options for the script to function.
+typeset -A log_options=(
+  frontend_log_level    1
+  log_to_file           true
+  log_to_file_timestamp false
+  log_verbosity         true
+)
+for k v in ${(@kv)log_options}; do
+  sed -i '' "s/^$k =.*/$k = \"$v\"/" $config
+done
+
+tail -Fn-1 $ldir/retroarch.log | while read line; do
+  if [[ -z $content ]]; then
+    unset match
+    [[ $line =~ '^\[INFO\].+(Using content|Loading content file): "(.*)"' ]]
+    if [[ -n ${match[2]} ]]; then
+      dprint -content
+      content=${match[2]}
+      continue
+    fi
+  fi
+
+  if [[ $line =~ "Loading dynamic libretro core from:" ]]; then
+    dprint -loading
+    loading=1
+    loaded=0
+    exited=0
+    unset emuhz
+    continue
+  fi
+
+  if (( loading )); then
+    if [[ -z $emuhz ]]; then
+      unset match
+      [[ $line =~ '^\[INFO\].+Geometry:.+FPS: ([0-9]+\.[0-9]+)' ]]
+      if [[ -n ${match[1]} ]]; then
+        dprint -emuhz
+        # Emulated machine's refresh rate.
+        emuhz=${match[1]}
+        continue
+      fi
+    fi
+
+    if ! (( $loaded )); then
+      # When the audio system is ready, the game is ready.
+      # Long delays for heavier cores is common.
+      if [[ $line =~ 'Started synchronous audio driver.' ]]; then
+        dprint -loaded
+        loading=0 loaded=1
+      fi
+    fi
+  fi
+
+  if (( loaded )); then
+    dprint -rascreen
+    loaded=0
+    # Use fixed refresh rates where possible. Each game or counsole should
+    # have a matching config value for `video_refresh_rate` so RetroArch can
+    # syncronize audio (Dynamic Rate Control).
+    case 1 in
+      # Built-in Liquid Retina XDR Display
+      $(( emuhz >= 61.00 )))  hz=120    ;;  # [ >= 61.000 ] VRR
+      $(( emuhz >= 59.98 )))  hz=60     ;;  # [59.98-60.99] 60.00
+      $(( emuhz >= 56.94 )))  hz=59.94  ;;  # [56.94-59.97] 59.94
+      $(( emuhz >= 51.00 )))  hz=120    ;;  # [51.00-56.99] VRR
+      $(( emuhz >= 49.00 )))  hz=50     ;;  # [49.00-50.99] 50.00
+      $(( emuhz >= 48.00 )))  hz=48     ;;  # [48.00-48.99] 48.00
+      $(( emuhz >= 47.95 )))  hz=47.95  ;;  # [47.95-47.99] 47.95
+      $(( emuhz >= 31.00 )))  hz=120    ;;  # [31.00-47.94] VRR
+      $(( emuhz >= 30.00 )))  hz=60     ;;  # [30.00-30.99] 30.00 60.00/2
+      $(( emuhz >= 29.97 )))  hz=59.94  ;;  # [29.97-29.99] 29.97 59.94/2
+      $(( emuhz >= 26.00 )))  hz=120    ;;  # [26.00-28.96] VRR
+      $(( emuhz >= 25.00 )))  hz=50     ;;  # [25.00-25.99] 25.00 50.00/2
+      $(( emuhz >= 24.00 )))  hz=48     ;;  # [24.00-24.99] 24.00 48.00/2
+      $(( emuhz >= 23.97 )))  hz=47.95  ;;  # [23.97-23.99] 23.97 47.95/2
+    esac
+    if [[ -n $content ]]; then
+      print "loading: ${content/#$HOME/~}"
+      unset content
+    fi
+    print "requested: ${emuhz}Hz"
+    rascreen --set-hz $hz &
+  fi
+
+  if [[ $line =~ "Unloading core..." ]]; then
+    if `pkill -n rascreen`; then
+      print "refresh rate released."
+      continue
+    fi
+  fi
+
+  if ! (( loading || loaded || exited )) && ! pgrep -x RetroArch &> /dev/null; then
+    dprint -exited
+    exited=1
+    # The log gets truncated when RetroArch launches causing tail to miss a few lines.
+    # Move it so it creates a new one on next launch. `tail -F` will follow the new file.
+    mv -f $ldir/retroarch.log $ldir/retroarch-last.log
+  fi
+done
