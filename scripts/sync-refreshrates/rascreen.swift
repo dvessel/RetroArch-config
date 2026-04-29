@@ -49,9 +49,8 @@ func getScreenForAppWindow(window: WindowInfo) -> ScreenInfo? {
     // HiDPI modes (Retina) ignored without this:
     [kCGDisplayShowDuplicateLowResolutionModes: kCFBooleanTrue!] as CFDictionary
   ) as? [CGDisplayMode] ?? []).filter { mode in
-    // Match activeMode being in HiDPI or not.
-    mode.width == activeMode.width &&
-    mode.pixelHeight == activeMode.pixelHeight
+    mode.width  == CGDisplayPixelsWide(displayID) &&
+    mode.height == CGDisplayPixelsHigh(displayID)
   }
   return ScreenInfo(
     serial: CGDisplaySerialNumber(displayID),
