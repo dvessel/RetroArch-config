@@ -19,6 +19,10 @@ func printError(_ message: String) {
   FileHandle.standardError.write((message + "\n").data(using: .utf8)!)
 }
 
+func printOutput(_ message: String) {
+  FileHandle.standardOutput.write((message + "\n").data(using: .utf8)!)
+}
+
 func setRefreshRate(displayID: CGDirectDisplayID, displayModes: [CGDisplayMode], rate: Double) -> Bool {
   guard
     let targetMode = displayModes.first(where: { abs($0.refreshRate - rate) < 0.01 })
@@ -108,11 +112,11 @@ if let screen = getScreenForAppWindow(window: targetWindow) {
       i += 1
       if i < CommandLine.arguments.count, let rate = Double(CommandLine.arguments[i]) {
         if abs(screen.mode.refreshRate - rate) < 0.01 {
-          print("Refresh rate already set to \(rate)Hz.")
+          printOutput("Refresh rate already set to \(rate)Hz.")
           exit(0)
         }
         if setRefreshRate(displayID: screen.id, displayModes: screen.modes, rate: rate) {
-          print("Successfully set refresh rate to \(rate)Hz.")
+          printOutput("Successfully set refresh rate to \(rate)Hz.")
           found = true
           // Refresh rate resets when the script exits, so wait for the app to end.
           while NSRunningApplication.runningApplications(withBundleIdentifier: targetBundleID).count > 0 {
@@ -126,13 +130,13 @@ if let screen = getScreenForAppWindow(window: targetWindow) {
         printError("--set-hz requires a numeric value")
         exit(1)
       }
-    case "--serial":    print(screen.serial)
-    case "--id":        print(screen.id)
-    case "--resolution":print("\(screen.mode.width)x\(screen.mode.height)")
-    case "--hz":        print(screen.mode.refreshRate)
-    case "--all-hz":    print(screen.modes.map { String($0.refreshRate) }.joined(separator: " "))
-    case "--mode":      print(screen.mode.ioDisplayModeID)
-    case "--all-modes": print(screen.modes.map { String($0.ioDisplayModeID )}.joined(separator: " "))
+    case "--serial":    printOutput(String(screen.serial))
+    case "--id":        printOutput(String(screen.id))
+    case "--resolution":printOutput("\(screen.mode.width)x\(screen.mode.height)")
+    case "--hz":        printOutput(String(screen.mode.refreshRate))
+    case "--all-hz":    printOutput(screen.modes.map { String($0.refreshRate) }.joined(separator: " "))
+    case "--mode":      printOutput(String(screen.mode.ioDisplayModeID))
+    case "--all-modes": printOutput(screen.modes.map { String($0.ioDisplayModeID) }.joined(separator: " "))
     default:
       printError("Unknown argument: \(arg)")
       exit(1)
