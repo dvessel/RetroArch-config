@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>local.retroarch.sync-refreshrates</string>
+    <string>local.retroarch.sync-refreshrate</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/joon/Games/Support/RetroArch/scripts/sync-refreshrates/sync-refreshrates</string>
+        <string>/Users/joon/Games/Support/RetroArch/scripts/sync-refreshrate/retroarch-sync-refreshrate</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
