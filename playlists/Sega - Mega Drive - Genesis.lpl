@@ -604,6 +604,22 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Great Circus Mystery - Mickey to Minnie Magical Adventure 2 (Japan).zip#Great Circus Mystery - Mickey to Minnie Magical Adventure 2 (Japan).md",
+      "label": "Great Circus Mystery - Mickey to Minnie Magical Adventure 2 (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5AA0F3A0|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Great Circus Mystery Starring Mickey & Minnie, The (USA).zip#Great Circus Mystery Starring Mickey & Minnie, The (USA).md",
+      "label": "Great Circus Mystery Starring Mickey & Minnie, The (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "14744883|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Gunstar Heroes (USA).zip#Gunstar Heroes (USA).md",
       "label": "Gunstar Heroes (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
