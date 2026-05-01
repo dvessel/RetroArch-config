@@ -1,0 +1,32 @@
+#!/usr/bin/env zsh
+
+# Built-in Liquid Retina XDR Display
+#
+# $1    : emulated Hz
+# output: Hz supported by the display
+#
+# NOTE: For fixed refresh rates, the config should match the monitor's refresh
+# rate, example: `video_refresh_rate = "60.0"` when the display is set to 60Hz.
+# It's not a requirement but it ensures Dynamic Rate Control is properly engaged
+# to sync the audio.
+#
+# For ProMotion (120Hz variable), set the value to `120.0` and enable runloop:
+# `vrr_runloop_enable = "true"`. ProMotion is not a conventional VRR display, e.g.,
+# G-Sync, Freesync, but it does help with tighter timings.
+case 1 in
+  $(( $1 >= 61.00 ))) print 120.0 ;;  # [ >= 61.000 ] VRR
+  $(( $1 >= 59.98 ))) print 60.0  ;;  # [59.98-60.99] 60.00
+  $(( $1 >= 56.94 ))) print 59.94 ;;  # [56.94-59.97] 59.94
+  $(( $1 >= 51.00 ))) print 120.0 ;;  # [51.00-56.99] VRR
+  $(( $1 >= 49.00 ))) print 50.0  ;;  # [49.00-50.99] 50.00
+  $(( $1 >= 48.00 ))) print 48.0  ;;  # [48.00-48.99] 48.00
+  $(( $1 >= 47.95 ))) print 47.95 ;;  # [47.95-47.99] 47.95
+  $(( $1 >= 31.00 ))) print 120.0 ;;  # [31.00-47.94] VRR
+  $(( $1 >= 30.00 ))) print 60.0  ;;  # [30.00-30.99] 30.00 60.00/2
+  $(( $1 >= 29.97 ))) print 59.94 ;;  # [29.97-29.99] 29.97 59.94/2
+  $(( $1 >= 26.00 ))) print 120.0 ;;  # [26.00-28.96] VRR
+  $(( $1 >= 25.00 ))) print 50.0  ;;  # [25.00-25.99] 25.00 50.00/2
+  $(( $1 >= 24.00 ))) print 48.0  ;;  # [24.00-24.99] 24.00 48.00/2
+  $(( $1 >= 23.97 ))) print 47.95 ;;  # [23.97-23.99] 23.97 47.95/2
+  *) return 1
+esac
