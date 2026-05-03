@@ -11,7 +11,7 @@
   "scan_content_dir": "/Users/joon/Games/Emulation/Sega Saturn",
   "scan_file_exts": "",
   "scan_dat_file_path": "",
-  "scan_database_name": "",
+  "scan_database_name": "Sega - Saturn.lpl",
   "scan_search_recursively": true,
   "scan_search_archives": true,
   "scan_filter_dat_content": false,
