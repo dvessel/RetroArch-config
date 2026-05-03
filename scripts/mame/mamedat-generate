@@ -6,10 +6,10 @@
 # requires standalone mame
 #
 
-romsdir=~/Games/Emulation/Arcade
+romsdir=${1:a}
 basedir=~/Library/Application\ Support/RetroArch
-mamedat=$basedir/database/mame.dat
-append_dir=$basedir/database/mamexml
+mamedat=$basedir/database/${romsdir:t}.dat
+append_dir=$basedir/database/${romsdir:t}.xml
 append_names=( $append_dir/*.xml(N:t:r) )
 
 mame -listxml $romsdir/*.zip(:t:r) > $mamedat

@@ -6,7 +6,7 @@ autoconfig/*
 cht
 cores
 database/*
-!database/mamexml
+!database/*.xml
 downloads
 info
 logs
