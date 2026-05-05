@@ -9,6 +9,7 @@ ldir=${$( sed -En 's/^log_dir = "(.+)"/\1/p' $config )/#\~\//$HOME/}
 function dprint {
   [[ -n $debug ]] && print -- $@
 }
+
 function set_hz {
   local serial=`rascreen --serial`
   print "requested: ${1}Hz"
@@ -23,6 +24,16 @@ function set_hz {
   fi
 }
 
+function watch_exit {
+  while pgrep -x RetroArch &>/dev/null; do
+    sleep 2
+  done
+  dprint -exit
+  # The log gets truncated when RetroArch launches causing tail to miss a few lines.
+  # Move it so it creates a new one on next launch. `tail -F` will follow the new file.
+  mv -f $ldir/retroarch.log $ldir/retroarch-last.log
+}
+
 # Required logging options for the script to function.
 typeset -A log_options=(
   frontend_log_level    1
@@ -30,17 +41,26 @@ typeset -A log_options=(
   log_to_file_timestamp false
   log_verbosity         true
 )
-for k v in ${(@kv)log_options}; do
-  sed -i '' "s/^$k =.*/$k = \"$v\"/" $config
+for key value in ${(@kv)log_options}; do
+  sed -i '' "s/^$key =.*/$key = \"$value\"/" $config
 done
 
+av_search=(
+  '.+: ([0-9]+x[0-9]+)'
+  'Aspect: ([0-9]\.[0-9]+)'
+  'FPS: ([0-9]+\.[0-9]+)'
+  'Sample rate: ([0-9]+\.[0-9]+)'
+)
+
 tail -Fn-1 $ldir/retroarch.log | while read line; do
-  # Content load from RetroArch menus.
-  # When run from the command line, loads as "[INFO] [Content] Loading content file:"
-  # It can depend on the core. Some cores will log both forms. Some will not log it at all.
-  # Running from RetroArch's menu system will consistently use "Using content:".
+
+  # Content loading:
+  # - When run from the menu system, loads as "[INFO] [Core] Using content:"
+  # - When run from the cli, loads as "[INFO] [Content] Loading content file:"
+  #   if it does at all. It depends on the media type.
+  # - Some cores will log both forms when run from the menu.
   unset match
-  [[ $line =~ '^\[INFO\] \[Core\] Using content: "(.*)"' ]]
+  [[ $line =~ '^\[INFO\] \[Core\] Using content: "(.+)"' ]]
   if [[ -n ${match[1]} ]]; then
     dprint -loading-content
     print "loading: ${match[1]/#$HOME/~}"
@@ -51,13 +71,11 @@ tail -Fn-1 $ldir/retroarch.log | while read line; do
     dprint -loading-core
     loading=1
     closing=0
-    exited=0
     rsids=()
   fi
 
   if (( loading )); then
-    if [[ $line =~ 'Geometry: ([0-9]+x[0-9]+), Aspect: ([0-9]\.[0-9]+), FPS: ([0-9]+\.[0-9]+), Sample rate: ([0-9]+\.[0-9]+)' ]]
-    then
+    if [[ $line =~ ${(j:, :)av_search} ]]; then
       dprint -geometry:${match[1]}
       dprint -aspect:${match[2]}
       dprint -fps:${match[3]}Hz
@@ -66,9 +84,13 @@ tail -Fn-1 $ldir/retroarch.log | while read line; do
       emuhz=${match[3]}
     fi
 
+    # Warning! `video_refresh_rate` is not properly set or the core has not settled
+    # to the correct refresh rate. This can happen with some systems in MAME, e.g.,
+    # sega/stv.cpp->cotton2 switches refresh rates multiple times while booting.
     if [[ $line =~ '(Timings deviate too much.) Will not adjust. (\(.+\))' ]]; then
       print "Dynamic Rate Control: ${match[1]} ${match[2]}"
     fi
+
     if [[ $line =~ 'Started synchronous audio driver.' ]]; then
       # When the audio system is ready, the game is ready.
       # Long delays for heavier cores is common.
@@ -77,8 +99,7 @@ tail -Fn-1 $ldir/retroarch.log | while read line; do
       set_hz $emuhz
     fi
   elif ! (( closing )); then
-    if [[ $line =~ 'SET_SYSTEM_AV_INFO: ([0-9]+x[0-9]+), Aspect: ([0-9]\.[0-9]+), FPS: ([0-9]+\.[0-9]+), Sample rate: ([0-9]+\.[0-9]+)' ]]
-    then
+    if [[ $line =~ ${(j:, :)av_search} ]]; then
       # Mid-run refresh rate changes. Mainly applies to MAME.
       if [[ $emuhz != ${match[3]} ]]; then
         dprint -geometry:${match[1]}
@@ -89,8 +110,7 @@ tail -Fn-1 $ldir/retroarch.log | while read line; do
         set_hz $emuhz
       fi
     fi
-
-    if [[ $line =~ "Unloading core..." ]]; then
+    if [[ $line =~ "(Unloading core...|stopping draw observer)" ]]; then
       dprint -unloading-core
       closing=1
       if [[ -n $rsids ]]; then
@@ -106,11 +126,10 @@ tail -Fn-1 $ldir/retroarch.log | while read line; do
     fi
   fi
 
-  if ! (( loading || exited )) && ! pgrep -x RetroArch &> /dev/null; then
-    dprint -exit
-    exited=1
-    # The log gets truncated when RetroArch launches causing tail to miss a few lines.
-    # Move it so it creates a new one on next launch. `tail -F` will follow the new file.
-    mv -f $ldir/retroarch.log $ldir/retroarch-last.log
+  # Call a singleton process to detect when RetroArch has exited.
+  if ! kill -0 $watch_exit_id 2>/dev/null; then
+    dprint -watch-exit
+    watch_exit &
+    watch_exit_id=$!
   fi
 done
