@@ -1,26 +1,149 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -E -F - -debug=debug
+zparseopts -D -F - -debug=zdebug -write-hz::=zwrite_hz || exit 1
 
-path=( $ZSH_SCRIPT:h/bin $path )
-config=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
-ldir=${$( sed -En 's/^log_dir = "(.+)"/\1/p' $config )/#\~\//$HOME/}
+# Extract value from --write-hz. defaults to 'container'
+if (( ${#zwrite_hz} )); then
+  zwrite_hz_to=${${${zwrite_hz#--write-hz}#=}:-container}
+  case $zwrite_hz_to in
+    core)       print "Values will be written to 'core' config overrides."      ;;
+    container)  print "Values will be written to 'container' config overrides." ;;
+    content)    print "Values will be written to 'content' config overrides."   ;;
+    existing)
+      print "Values will be written to existing overrides and fallback to 'container'."
+    ;;
+    *)
+      print "Invalid option: '$zwrite_hz_to', usage: --write-hz [core|container|content|existing]" >&2
+      return 1
+    ;;
+  esac
+fi
+
+PATH=${ZSH_SCRIPT:h}/bin:$PATH
+RACONFIG=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
 
 function dprint {
-  [[ -n $debug ]] && print -- $@
+  if (( ${#zdebug} )); then
+    local flag cn zl l=-
+    zparseopts -D -F - l=zl {ok,no,c0,c1,c2,c3,c4,c5,c6,c7}=flag || exit 1
+    (( ${#zl} )) && l=' '
+    cn=${${flag#-c}:-0}
+    case ${flag[-1]} in
+      -no) printf "✗ \e[0;31m%s\e[0m\n" $@ ;;
+      -ok) printf "✓ \e[0;32m%s\e[0m\n" $@ ;;
+        *) printf "$l \e[0;3${cn}m%s\e[0m\n" $@ ;;
+    esac
+  fi
+}
+
+function cfg_dir {
+  printf %s "${$( sed -En "s/^$1 = \"(.+)\"/\1/p" $RACONFIG )/#\~\//$HOME/}"
 }
 
 function set_hz {
-  local serial=`rascreen --serial`
-  print "requested: ${1}Hz"
-  if ! type screen-$serial &> /dev/null; then
-    print "screen not recognized (serial: $serial)." >&2
+  local serial=`rascreen --serial` retry hz
+
+  while [[ -z $serial ]]; do
+    retry=$(( retry + 1 ))
+    # rascreen called to early, so wait a second.
+    dprint -no "rascreen not ready, waiting..."
+    sleep 1
+    serial=`rascreen --serial`
+    if (( retry >= 5 )); then
+      dprint -no "rascreen is not responding."
+      exit 1
+    fi
+  done
+
+  print "Requested: ${1}Hz"
+
+  if ! type screen-$serial &>/dev/null; then
+    print "Screen not recognized (serial: $serial)." >&2
   elif hz=`screen-$serial $1`; then
     # Don't block. To be cleaned up later when unloading the running core.
     rascreen --set-hz $hz &
-    rsids+=( $! )
+    RASCREEN_PIDS+=$!
+    if (( ${#zwrite_hz} )); then
+      apply_config video_refresh_rate $hz
+      if (( hz >= 61 )); then
+        apply_config vrr_runloop_enable true
+      else
+        apply_config vrr_runloop_enable false
+      fi
+    fi
   else
-    print "unhandled refresh rate (serial: $serial, requested: ${1}hz)." >&2
+    print "Unhandled refresh rate (serial: $serial, requested: ${1}hz)." >&2
+  fi
+}
+
+function apply_config {
+  local cfg cfg_dir=`cfg_dir rgui_config_directory`/$CORE_FS_NAME
+
+  case $zwrite_hz_to in
+    core)       cfg=$cfg_dir/$CORE_FS_NAME.cfg            ;;
+    container)  cfg=$cfg_dir/$CONTENT_CONTAINER_NAME.cfg  ;;
+    content)    cfg=$cfg_dir/$CONTENT_NAME.cfg            ;;
+    existing)
+      if [[ -n ${RACONFIG_OVERRIDES[-1]} ]]; then
+        dprint -c4 "Override found. Using ${RACONFIG_OVERRIDES[-1]:t}." >&2
+        cfg=${RACONFIG_OVERRIDES[-1]}
+      else
+        dprint -c3 "Override not found. Falling back to $CONTENT_CONTAINER_NAME.cfg."
+        cfg=$cfg_dir/$CONTENT_CONTAINER_NAME.cfg
+      fi
+    ;;
+  esac
+
+  local active_configs=( $RACONFIG $RACONFIG_OVERRIDES )
+  local existing_value='' base_value='' override_value='' override_cfg=''
+
+  for _cfg in $active_configs; if grep -q "^$1 = \".*\"" $_cfg; then
+    existing_value=`sed -En "s/^$1 = \"(.+)\"/\1/p" $_cfg`
+    if [[ $_cfg == $RACONFIG ]]; then
+      base_value=$existing_value
+    else
+      override_value=$existing_value
+      override_cfg=$_cfg
+    fi
+  fi
+
+  if [[ $existing_value != $2 ]]; then
+    dprint -c3 "key:$1 -> $cfg:h:t/$cfg:t"
+  else
+    dprint "key:$1 -> $cfg:h:t/$cfg:t"
+  fi
+  dprint -l base:$base_value override:$override_value effective:$existing_value
+  if [[ $existing_value != $2 ]]; then
+    dprint -c3 -l set_value:$2
+  else
+    dprint -l set_value:$2
+  fi
+
+
+  # Clear from current cfg file if it doesn't override an existing value.
+  local clear=0
+  if [[ $override_value == $2 && $override_cfg != $cfg ]] ||
+     [[ $base_value == $2 && $existing_value != $2 ]]
+  then
+    clear=1
+  fi
+
+  if (( clear )); then
+    if test -f $cfg && grep -q "^$1 = \"$existing_value\"" $cfg; then
+      sed -i '' "/^$1 = \"$existing_value\"/d" $cfg
+      dprint -no "$1 = \"$existing_value\" <- $cfg:h:t/$cfg:t"
+    fi
+
+  elif [[ $existing_value != $2 ]]; then
+    if [[ ! -f $cfg ]]; then
+      dprint -c3 "New Config: $cfg:h:t/$cfg:t"
+      touch $cfg
+    fi
+    sed -i '' "s/^$1 =.*/$1 = \"$2\"/" $cfg
+    if ! grep -q "^$1 = \"$2\"" $cfg; then
+      print -- "$1 = \"$2\"" >> $cfg
+    fi
+    dprint -ok "$1 = \"$2\" -> $cfg:h:t/$cfg:t"
   fi
 }
 
@@ -28,11 +151,27 @@ function watch_exit {
   while pgrep -x RetroArch &>/dev/null; do
     sleep 2
   done
-  dprint -exit
-  # The log gets truncated when RetroArch launches causing tail to miss a few lines.
-  # Move it so it creates a new one on next launch. `tail -F` will follow the new file.
-  mv -f $ldir/retroarch.log $ldir/retroarch-last.log
+  dprint -ok "Stop: watch_exit"
+  # The log gets truncated when RetroArch launches causing confusion with tail.
+  # It misses a few lines and places the script in an unknown state. Move it with
+  # a *-last.log suffix so it creates a new one on next launch.
+  # `tail -F` in the main loop will follow the new log file.
+  local log_dir=`cfg_dir log_dir`
+  if [[ -f $log_dir/retroarch.log ]]; then
+    mv -f $log_dir/retroarch.log $log_dir/retroarch-last.log
+  fi
 }
+
+typeset -A core_fs_names=(
+  Dolphin dolphin-emu
+)
+
+typeset -a av_search=(
+  '([0-9]+x[0-9]+)'
+  'Aspect: ([0-9]\.[0-9]+)'
+  'FPS: ([0-9]+\.[0-9]+)'
+  'Sample rate: ([0-9]+\.[0-9]+)'
+)
 
 # Required logging options for the script to function.
 typeset -A log_options=(
@@ -42,94 +181,164 @@ typeset -A log_options=(
   log_verbosity         true
 )
 for key value in ${(@kv)log_options}; do
-  sed -i '' "s/^$key =.*/$key = \"$value\"/" $config
+  sed -i '' "s/^$key = .*/$key = \"$value\"/" $RACONFIG
+  if ! grep -q "^$key = \"$value\"" $RACONFIG; then
+    print -- "$key = \"$value\"" >> $RACONFIG
+  fi
 done
 
-av_search=(
-  '.+: ([0-9]+x[0-9]+)'
-  'Aspect: ([0-9]\.[0-9]+)'
-  'FPS: ([0-9]+\.[0-9]+)'
-  'Sample rate: ([0-9]+\.[0-9]+)'
-)
+# Log parsing loop:
+# - content loading
+# - core loading                  -> set loading context.
+#   - get refresh rate
+#   - start synchronous audio     -> set running context.
+#     - set refresh rate!
+#     - get refresh rate          1. running context loop.
+#     - start synchronous audio   2. running context loop.
+#       - set refresh rate!       3. running context loop.
+# - unloading core or quit        -> set closing context.
+#   - release refresh rates!
 
-tail -Fn-1 $ldir/retroarch.log | while read line; do
+tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
 
-  # Content loading:
+  # Content Loading:
   # - When run from the menu system, loads as "[INFO] [Core] Using content:"
   # - When run from the cli, loads as "[INFO] [Content] Loading content file:"
   #   if it does at all. It depends on the media type.
   # - Some cores will log both forms when run from the menu.
-  unset match
-  [[ $line =~ '^\[INFO\] \[Core\] Using content: "(.+)"' ]]
-  if [[ -n ${match[1]} ]]; then
-    dprint -loading-content
-    print "loading: ${match[1]/#$HOME/~}"
-  fi
+  # [[ $gpath:t =~ "(.*\.[[:alnum:]]{2,3})\#(.*)\.[[:alnum:]]{2,4}$" ]]
+  if [[ $line =~ '\[Core\] Using content: "(.+)"' ]]; then
+    dprint -ok "Content Loading"
+    content_path=${match[1]}
 
-  # Initialize loading.
-  if [[ $line =~ "Loading dynamic libretro core from:" ]]; then
-    dprint -loading-core
+    unset match
+    [[ $content_path:t =~ ".+\#(.+)\.[[:alnum:]]{2,4}$" ]]
+    CONTENT_NAME=${match[1]:-$content_path:t:r}
+    CONTENT_CONTAINER_NAME=${content_path:h:t}
+
+    print "loading: ${content_path/#$HOME/~}"
+
+  # Core Loading:
+  elif [[ $line =~ '\[Core\] Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]; then
+    core=$( sed -En 's/^corename = "(.+)"/\1/p' "`cfg_dir libretro_info_path`/${match[1]}.info" )
+    CORE_FS_NAME=${core_fs_names[$core]:-$core}
+
+    dprint -ok "Core Loading: $core"
     loading=1
+    running=0
     closing=0
-    rsids=()
+    RASCREEN_PIDS=()
+    RACONFIG_OVERRIDES=()
   fi
 
+  # Loading Context:
   if (( loading )); then
-    if [[ $line =~ ${(j:, :)av_search} ]]; then
-      dprint -geometry:${match[1]}
-      dprint -aspect:${match[2]}
-      dprint -fps:${match[3]}Hz
-      dprint -sample-rate:${match[4]}Hz
+
+    if [[ $line =~ '\[Config\] Appending override config: "(.+)"' ]]; then
+      RACONFIG_OVERRIDES+=${match[1]}
+
+    # Get Refresh Rate:
+    elif [[ $line =~ "\[Core\] Geometry: ${(j:, :)av_search}" ]]; then
+      dprint "AV Information"
+      dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
       # Emulated machine's refresh rate.
       emuhz=${match[3]}
+      srate=${match[4]}
+
+    elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]; then
+      arate=${match[1]}
+      if [[ -n $srate ]]; then
+        printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
+          $arate $(( (arate - srate) / srate * 100 ))
+      fi
+
+    # Warning! `video_refresh_rate` is not properly set.
+    elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]; then
+      printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
+        ${match[2]} ${match[1]}
+
+    # Start Synchronous Audio -> Set Refresh Rate & Running Context:
+    # When the audio system is ready, the game is ready. Long delays for heavier
+    # cores is common.
+    elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]; then
+      dprint -ok "Start Synchronous Audio - Emulation Started"
+      set_hz $emuhz
+      loading=0
+      running=1
+      closing=0
     fi
+
+  # Running Context:
+  elif (( running )); then
+
+    # Get Refresh Rate:
+    # Mid-run refresh rate changes. Mainly applies to MAME emulation.
+    if [[ $line =~ "\[Environ\] SET_SYSTEM_AV_INFO: ${(j:, :)av_search}" ]]; then
+      if [[ -n $emuhz && $emuhz != ${match[3]} ]]; then
+        dprint -c3 "AV Information - Update"
+        dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
+        emuhz=${match[3]}
+        srate=${match[4]}
+      fi
+
+    elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]; then
+      # MAME can get noisy with some emulated machines, e.g., sega/stv.cpp->cotton2.
+      # Surpress repeated attempts that doesn't change anything at all.
+      if [[ -n $srate && $arate != ${match[1]} ]]; then
+        arate=${match[1]}
+        printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
+          $arate $(( (arate - srate) / srate * 100 ))
+        switch=1
+      else
+        switch=0
+      fi
 
     # Warning! `video_refresh_rate` is not properly set or the core has not settled
     # to the correct refresh rate. This can happen with some systems in MAME, e.g.,
     # sega/stv.cpp->cotton2 switches refresh rates multiple times while booting.
-    if [[ $line =~ '(Timings deviate too much.) Will not adjust. (\(.+\))' ]]; then
-      print "Dynamic Rate Control: ${match[1]} ${match[2]}"
-    fi
+    elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]; then
+      if [[ $requestedhz != ${match[2]} ]]; then
+        requestedhz=${match[2]}
+        printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
+          ${match[2]} ${match[1]}
+      fi
 
-    if [[ $line =~ 'Started synchronous audio driver.' ]]; then
-      # When the audio system is ready, the game is ready.
-      # Long delays for heavier cores is common.
-      dprint -ready
-      loading=0
-      set_hz $emuhz
-    fi
-  elif ! (( closing )); then
-    if [[ $line =~ ${(j:, :)av_search} ]]; then
-      # Mid-run refresh rate changes. Mainly applies to MAME.
-      if [[ $emuhz != ${match[3]} ]]; then
-        dprint -geometry:${match[1]}
-        dprint -aspect:${match[2]}
-        dprint -fps:${match[3]}Hz
-        dprint -sample-rate:${match[4]}Hz
-        emuhz=${match[3]}
+    # Set Refresh Rate:
+    elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]; then
+      if (( switch )); then
+        dprint -ok "Switch Refresh Rate"
         set_hz $emuhz
       fi
-    fi
-    if [[ $line =~ "(Unloading core...|stopping draw observer)" ]]; then
-      dprint -unloading-core
-      closing=1
-      if [[ -n $rsids ]]; then
-        for pid in $rsids; do
-          # Only kill if the PID still exists and is actually rascreen
-          if [[ `ps -p $pid -o comm= 2>/dev/null` == rascreen ]]; then
-            dprint -kill: $pid
-            kill $pid
-          fi
-        done
-        print "refresh rate released."
+
+    # Unload Core or Close -> Release Refresh Rates:
+    elif [[ $line =~ "(\[Core\] Unloading core...|\[NS\] stopping draw observer)" ]]; then
+      if [[ -n $core ]]; then
+        dprint -ok "Unloading Core: $core"
       fi
+      loading=0
+      running=0
+      closing=1
     fi
   fi
 
-  # Call a singleton process to detect when RetroArch has exited.
+  # Closing Context:
+  if (( closing )); then
+    for pid in $RASCREEN_PIDS; do
+      # kill rascreen from this load cycle.
+      if [[ `ps -p $pid -o comm= 2>/dev/null` == rascreen ]]; then
+        dprint "kill $pid: rascreen"
+        kill $pid
+        print "refresh rate released."
+      fi
+    done
+  fi
+
+  # A singleton to detect when RetroArch has exited.
   if ! kill -0 $watch_exit_id 2>/dev/null; then
-    dprint -watch-exit
+    dprint -ok "Start: watch_exit"
     watch_exit &
     watch_exit_id=$!
+    # Trap and kill when the script exits or is interrupted.
+    trap 'kill $watch_exit_id 2>/dev/null && dprint -no "kill $!: watch_exit"' INT TERM EXIT
   fi
 done
