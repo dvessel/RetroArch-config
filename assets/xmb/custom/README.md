@@ -24,5 +24,4 @@ done
 ### Modifications
  * The 4 pixel outlines have been removed.
  * PNG sizing bumped to 512x512 for high density displays.
- * Font replaced with [Lilex](https://github.com/mishamyrt/Lilex), modified through Nerd Fonts.
-
+ * Font replaced with SF-Pro.
