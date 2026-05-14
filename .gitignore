@@ -1,5 +1,9 @@
-
+# Ignore everything in assets and allow a path leading to custom.
 assets/*
+!assets/xmb
+!assets/xmb/custom
+# Re-ignore everything inside xmb except for custom.
+assets/xmb/*
 !assets/xmb/custom
 autoconfig/*
 !autoconfig/mfi-custom.cfg
