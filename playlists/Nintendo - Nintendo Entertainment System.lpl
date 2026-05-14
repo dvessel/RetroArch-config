@@ -316,7 +316,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Big Nose Freaks Out (USA) (Unl).zip#Big Nose Freaks Out (USA) (Unl).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Big Nose Freaks Out (USA) (v1.1) (Unl).zip#Big Nose Freaks Out (USA) (v1.1) (Unl).nes",
       "label": "Big Nose Freaks Out (USA) (v1.1) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -521,6 +521,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
       "crc32": "CF7A4AF5|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Clash at Demonhead (USA).zip#Clash at Demonhead (USA).nes",
+      "label": "Clash at Demonhead (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "7E3663AE|crc",
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
@@ -1300,7 +1308,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/ImageFight (USA).zip#ImageFight (USA).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Image Fight (USA).zip#Image Fight (USA).nes",
       "label": "Image Fight (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -1724,7 +1732,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Mario Is Missing! (USA).zip#Mario is Missing! (USA).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Mario is Missing! (USA).zip#Mario is Missing! (USA).nes",
       "label": "Mario is Missing! (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -2500,7 +2508,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Son Son (Japan) (En).zip#Son Son (Japan) (En).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Son Son (Japan).zip#Son Son (Japan).nes",
       "label": "Son Son (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -2964,7 +2972,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Volguard II (Japan) (En).zip#Volguard II (Japan) (En).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Volguard II (Japan).zip#Volguard II (Japan).nes",
       "label": "Volguard II (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
@@ -2988,7 +2996,7 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Wai Wai World 2 - SOS!! Parsley Jou (Japan).zip#Wai Wai World 2 - SOS!! Parsley Jou (Japan).nes",
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Wai Wai World 2 - SOS!! Paseri Jou (Japan).zip#Wai Wai World 2 - SOS!! Paseri Jou (Japan).nes",
       "label": "Wai Wai World 2 - SOS!! Paseri Jou (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",

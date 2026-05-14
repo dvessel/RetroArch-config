@@ -11,7 +11,7 @@
   "scan_content_dir": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD",
   "scan_file_exts": "",
   "scan_dat_file_path": "",
-  "scan_database_name": "",
+  "scan_database_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl",
   "scan_search_recursively": true,
   "scan_search_archives": true,
   "scan_filter_dat_content": false,
@@ -268,7 +268,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Jessie Jaeger in Cleopatra's Curse (World) (Unl).chd",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Jessie Jaeger in Cleopatra's Curse (World).chd",
       "label": "Jessie Jaeger in Cleopatra's Curse (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -276,7 +276,7 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Jim Power in Mutant Planet (USA) (Unl).chd",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-CD/Jim Power in Mutant Planet (USA).chd",
       "label": "Jim Power in Mutant Planet (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",

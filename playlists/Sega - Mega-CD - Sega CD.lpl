@@ -44,7 +44,7 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Batman Returns (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega CD/Batman Returns (USA) (Alt).chd",
       "label": "Batman Returns (USA) (Alt)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -60,7 +60,7 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Dune (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega CD/Dune (USA) (En,Fr,De,Es,It).chd",
       "label": "Dune (USA) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -84,7 +84,7 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Ecco - The Tides of Time (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega CD/Ecco - The Tides of Time (USA) (Alt).chd",
       "label": "Ecco - The Tides of Time (USA) (Alt)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -116,7 +116,7 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Final Fight CD (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega CD/Final Fight CD (USA) (Alt 1).chd",
       "label": "Final Fight CD (USA) (Alt 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -132,7 +132,7 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Flink (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega CD/Flink (USA) (En,Fr,De,Es,Nl).chd",
       "label": "Flink (USA) (En,Fr,De,Es,Nl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -204,7 +204,7 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Popful Mail (USA) (RE).chd",
+      "path": "/Users/joon/Games/Emulation/Sega CD/Popful Mail (USA).chd",
       "label": "Popful Mail (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -228,7 +228,7 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Shining Force CD (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega CD/Shining Force CD (USA) (5R, 6R).chd",
       "label": "Shining Force CD (USA) (5R, 6R)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -276,7 +276,7 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega CD/Soulstar (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega CD/SoulStar (USA).chd",
       "label": "SoulStar (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",

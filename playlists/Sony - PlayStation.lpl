@@ -404,7 +404,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Driver 2 (USA) (Rev 1)/Driver 2 (USA) (Rev 1).m3u",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Driver 2 (USA)/Driver 2 (USA).m3u",
       "label": "Driver 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -428,7 +428,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Einhander (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Einhaender (USA).chd",
       "label": "Einhaender (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -484,7 +484,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Anthology - Final Fantasy V (USA) (Rev 1).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Anthology - Final Fantasy V (USA).chd",
       "label": "Final Fantasy Anthology - Final Fantasy V (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -492,7 +492,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Anthology - Final Fantasy VI (USA) (Rev 1).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Final Fantasy Anthology - Final Fantasy VI (USA).chd",
       "label": "Final Fantasy Anthology - Final Fantasy VI (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -564,7 +564,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Formula 1 (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Formula 1 (USA) (Rev 1).chd",
       "label": "Formula 1 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -612,7 +612,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/G. Darius (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/G. Darius (USA) (Beta).chd",
       "label": "G. Darius (USA) (Beta)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -668,7 +668,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gradius Gaiden (Japan) (Rev 1).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Gradius Gaiden (Japan).chd",
       "label": "Gradius Gaiden (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -996,7 +996,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X6 (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X6 (USA) (Rev 1).chd",
       "label": "Mega Man X6 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1100,7 +1100,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Oddworld - Abe's Oddysee (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Oddworld - Abe's Oddysee (USA) (Rev 2).chd",
       "label": "Oddworld - Abe's Oddysee (USA) (Rev 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1148,7 +1148,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Parasite Eve II (USA)/Parasite Eve II (USA).m3u",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Parasite Eve II (USA, Canada)/Parasite Eve II (USA, Canada).m3u",
       "label": "Parasite Eve II (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1460,7 +1460,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Soukyuu Gurentai - Oubushutsugeki (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Soukyuu Gurentai - Oubu Shutsugeki (Japan).chd",
       "label": "Soukyuu Gurentai - Oubu Shutsugeki (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1468,7 +1468,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Soul Blade (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Soul Blade (USA) (Rev 1).chd",
       "label": "Soul Blade (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1476,7 +1476,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Spyro - Year of the Dragon (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Spyro - Year of the Dragon (USA) (Rev 1).chd",
       "label": "Spyro - Year of the Dragon (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1596,7 +1596,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tekken 2 (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tekken 2 (USA) (Rev 1).chd",
       "label": "Tekken 2 (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1772,7 +1772,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touge Max - Saisoku Drift Master (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Touge Max - Saisoku Drift Master (Japan, Asia).chd",
       "label": "Touge Max - Saisoku Drift Master (Japan, Asia)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -1940,7 +1940,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/-PS1-EU/Vib-Ribbon (Europe) (En,Fr,De,Es,It).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/-PS1-EU/Vib-Ribbon (Europe) (En,Fr,De,Es,It) (Beta).chd",
       "label": "Vib-Ribbon (Europe) (En,Fr,De,Es,It) (Beta)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",

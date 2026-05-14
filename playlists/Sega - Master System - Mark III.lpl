@@ -20,7 +20,7 @@
   "scan_db_usage": 0,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Action Fighter (USA, Europe, Brazil) (Rev 1).zip#Action Fighter (USA, Europe, Brazil) (Rev 1).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Action Fighter (USA, Europe, Brazil) (En) (Rev 1).zip#Action Fighter (USA, Europe, Brazil) (En) (Rev 1).sms",
       "label": "Action Fighter (USA, Europe, Brazil) (En) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -36,7 +36,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Aladdin (Europe).zip#Aladdin (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Aladdin (Europe, Brazil) (En).zip#Aladdin (Europe, Brazil) (En).sms",
       "label": "Aladdin (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -44,15 +44,15 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Aleste (Japan).zip#Aleste (Japan).sms",
-      "label": "Aleste (Japan)",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Aleste (Japan) (En).zip#Aleste (Japan) (En).sms",
+      "label": "Aleste (Japan) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "D8C4165B|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Alex Kidd - High-Tech World (USA, Europe).zip#Alex Kidd - High-Tech World (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Alex Kidd - High-Tech World (USA, Europe, Brazil) (En).zip#Alex Kidd - High-Tech World (USA, Europe, Brazil) (En).sms",
       "label": "Alex Kidd - High-Tech World (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -76,7 +76,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Alex Kidd in Shinobi World (USA, Europe).zip#Alex Kidd in Shinobi World (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Alex Kidd in Shinobi World (USA, Europe, Brazil) (En).zip#Alex Kidd in Shinobi World (USA, Europe, Brazil) (En).sms",
       "label": "Alex Kidd in Shinobi World (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -100,7 +100,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Alien Syndrome (USA, Europe).zip#Alien Syndrome (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Alien Syndrome (USA, Europe, Brazil) (En).zip#Alien Syndrome (USA, Europe, Brazil) (En).sms",
       "label": "Alien Syndrome (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -108,7 +108,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Asterix (Europe) (En,Fr).zip#Asterix (Europe) (En,Fr).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Asterix (Europe, Brazil) (En,Fr).zip#Asterix (Europe, Brazil) (En,Fr).sms",
       "label": "Asterix (Europe, Brazil) (En,Fr)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -116,7 +116,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Astro Warrior (Japan, USA).zip#Astro Warrior (Japan, USA).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Astro Warrior (Japan, USA, Brazil) (En).zip#Astro Warrior (Japan, USA, Brazil) (En).sms",
       "label": "Astro Warrior (Japan, USA, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -124,7 +124,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Ayrton Senna's Super Monaco GP II (Europe).zip#Ayrton Senna's Super Monaco GP II (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Ayrton Senna's Super Monaco GP II (Europe, Brazil) (En).zip#Ayrton Senna's Super Monaco GP II (Europe, Brazil) (En).sms",
       "label": "Ayrton Senna's Super Monaco GP II (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -140,7 +140,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Black Belt (USA, Europe).zip#Black Belt (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Black Belt (USA, Europe, Brazil) (En).zip#Black Belt (USA, Europe, Brazil) (En).sms",
       "label": "Black Belt (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -148,15 +148,15 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Alex Kidd BMX Trial (Japan).zip#Alex Kidd BMX Trial (Japan).sms",
-      "label": "BMX Trial - Alex Kidd (Japan)",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/BMX Trial - Alex Kidd (Japan) (En).zip#BMX Trial - Alex Kidd (Japan) (En).sms",
+      "label": "BMX Trial - Alex Kidd (Japan) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "F9DBB533|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Bonanza Bros. (Europe).zip#Bonanza Bros. (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Bonanza Bros. (Europe, Brazil) (En).zip#Bonanza Bros. (Europe, Brazil) (En).sms",
       "label": "Bonanza Bros. (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -164,7 +164,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Castle of Illusion Starring Mickey Mouse (USA).zip#Castle of Illusion Starring Mickey Mouse (USA).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En).zip#Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En).sms",
       "label": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -172,7 +172,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Choplifter (USA, Europe).zip#Choplifter (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Choplifter (USA, Europe, Brazil) (En).zip#Choplifter (USA, Europe, Brazil) (En).sms",
       "label": "Choplifter (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -180,7 +180,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Cloud Master (USA, Europe).zip#Cloud Master (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Cloud Master (USA, Europe, Brazil) (En).zip#Cloud Master (USA, Europe, Brazil) (En).sms",
       "label": "Cloud Master (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -220,7 +220,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Enduro Racer (USA, Europe).zip#Enduro Racer (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Enduro Racer (USA, Europe, Brazil) (En).zip#Enduro Racer (USA, Europe, Brazil) (En).sms",
       "label": "Enduro Racer (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -228,7 +228,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Fantasy Zone (World) (Rev 2).zip#Fantasy Zone (World) (Rev 2).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Fantasy Zone (World) (Rev 1).zip#Fantasy Zone (World) (Rev 1).sms",
       "label": "Fantasy Zone (World) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -236,7 +236,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Fantasy Zone II - The Tears of Opa-Opa (USA, Europe).zip#Fantasy Zone II - The Tears of Opa-Opa (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Fantasy Zone II (USA, Europe, Brazil) (En).zip#Fantasy Zone II (USA, Europe, Brazil) (En).sms",
       "label": "Fantasy Zone II (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -244,15 +244,15 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Fushigi no Oshiro Pit Pot (Japan).zip#Fushigi no Oshiro Pit Pot (Japan).sms",
-      "label": "Fushigi no Oshiro Pit Pot (Japan)",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Fushigi no Oshiro Pit Pot (Japan) (En).zip#Fushigi no Oshiro Pit Pot (Japan) (En).sms",
+      "label": "Fushigi no Oshiro Pit Pot (Japan) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "E6795C53|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Galactic Protector (Japan).zip#Galactic Protector (Japan).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Galactic Protector (Japan) (En).zip#Galactic Protector (Japan) (En).sms",
       "label": "Galactic Protector (Japan) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -260,7 +260,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Gangster Town (USA, Europe).zip#Gangster Town (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Gangster Town (USA, Europe, Brazil) (En).zip#Gangster Town (USA, Europe, Brazil) (En).sms",
       "label": "Gangster Town (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -268,7 +268,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Ghost House (USA, Europe).zip#Ghost House (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Ghost House (USA, Europe, Brazil) (En).zip#Ghost House (USA, Europe, Brazil) (En).sms",
       "label": "Ghost House (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -284,7 +284,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Ghouls'n Ghosts (USA, Europe).zip#Ghouls'n Ghosts (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Ghouls'n Ghosts (USA, Europe, Brazil) (En).zip#Ghouls'n Ghosts (USA, Europe, Brazil) (En).sms",
       "label": "Ghouls'n Ghosts (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -292,7 +292,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Golden Axe (USA, Europe).zip#Golden Axe (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Golden Axe (USA, Europe, Brazil) (En).zip#Golden Axe (USA, Europe, Brazil) (En).sms",
       "label": "Golden Axe (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -300,7 +300,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Golden Axe Warrior (USA, Europe).zip#Golden Axe Warrior (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Golden Axe Warrior (USA, Europe, Brazil) (En).zip#Golden Axe Warrior (USA, Europe, Brazil) (En).sms",
       "label": "Golden Axe Warrior (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -308,7 +308,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Golvellius (USA, Europe).zip#Golvellius (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Golvellius - Valley of Doom (USA, Europe, Brazil) (En).zip#Golvellius - Valley of Doom (USA, Europe, Brazil) (En).sms",
       "label": "Golvellius - Valley of Doom (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -348,7 +348,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Great Ice Hockey (Japan, USA).zip#Great Ice Hockey (Japan, USA).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Great Ice Hockey (Japan, USA) (En).zip#Great Ice Hockey (Japan, USA) (En).sms",
       "label": "Great Ice Hockey (Japan, USA) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -356,7 +356,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Great Volleyball (USA, Europe).zip#Great Volleyball (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Great Volleyball (USA, Europe, Brazil) (En).zip#Great Volleyball (USA, Europe, Brazil) (En).sms",
       "label": "Great Volleyball (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -364,7 +364,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Hang-On & Astro Warrior (USA).zip#Hang-On & Astro Warrior (USA).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Hang On & Astro Warrior (USA).zip#Hang On & Astro Warrior (USA).sms",
       "label": "Hang On & Astro Warrior (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -372,7 +372,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Hang-On & Safari Hunt (USA).zip#Hang-On & Safari Hunt (USA).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Hang On & Safari Hunt (USA).zip#Hang On & Safari Hunt (USA).sms",
       "label": "Hang On & Safari Hunt (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -388,16 +388,16 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Jang Pung 3 (Korea) (Unl).zip#Jang Pung 3 (Korea) (Unl).sms",
-      "label": "Jang Pung 3 (Korea) (En) (Unl)",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Jang Pung 3 (Korea) (En).zip#Jang Pung 3 (Korea) (En).sms",
+      "label": "Jang Pung 3 (Korea) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "18FB98A3|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Jang Pung II (Korea) (Unl).zip#Jang Pung II (Korea) (Unl).sms",
-      "label": "Jang Pung II (Korea) (En) (Unl)",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Jang Pung II (Korea) (En).zip#Jang Pung II (Korea) (En).sms",
+      "label": "Jang Pung II (Korea) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "929222C4|crc",
@@ -420,7 +420,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Kenseiden (USA, Europe).zip#Kenseiden (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Kenseiden (USA, Europe, Brazil) (En).zip#Kenseiden (USA, Europe, Brazil) (En).sms",
       "label": "Kenseiden (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -436,7 +436,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Kung Fu Kid (USA, Europe).zip#Kung Fu Kid (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Kung Fu Kid (USA, Europe, Brazil) (En).zip#Kung Fu Kid (USA, Europe, Brazil) (En).sms",
       "label": "Kung Fu Kid (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -452,14 +452,6 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Lucky Dime Caper Starring Donald Duck, The (Europe).zip#Lucky Dime Caper Starring Donald Duck, The (Europe).sms",
-      "label": "Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "A1710F13|crc",
-      "db_name": "Sega - Master System - Mark III.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En).zip#Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En).sms",
       "label": "Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -468,7 +460,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Master of Darkness (Europe).zip#Master of Darkness (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Master of Darkness (Europe, Brazil) (En).zip#Master of Darkness (Europe, Brazil) (En).sms",
       "label": "Master of Darkness (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -476,7 +468,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Maze Hunter 3-D (USA, Europe, Brazil).zip#Maze Hunter 3-D (USA, Europe, Brazil).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Maze Hunter 3-D (USA, Europe, Brazil) (En).zip#Maze Hunter 3-D (USA, Europe, Brazil) (En).sms",
       "label": "Maze Hunter 3-D (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -484,7 +476,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Megumi Rescue (Japan).zip#Megumi Rescue (Japan).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Megumi Rescue (Japan) (En).zip#Megumi Rescue (Japan) (En).sms",
       "label": "Megumi Rescue (Japan) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -500,7 +492,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Montezuma's Revenge - Featuring Panama Joe (USA).zip#Montezuma's Revenge - Featuring Panama Joe (USA).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Montezuma's Revenge Featuring Panama Joe (USA).zip#Montezuma's Revenge Featuring Panama Joe (USA).sms",
       "label": "Montezuma's Revenge Featuring Panama Joe (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -508,7 +500,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/My Hero (USA, Europe).zip#My Hero (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/My Hero (USA, Europe, Brazil) (En).zip#My Hero (USA, Europe, Brazil) (En).sms",
       "label": "My Hero (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -524,7 +516,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Ninja Gaiden (Europe).zip#Ninja Gaiden (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Ninja Gaiden (Europe, Brazil) (En).zip#Ninja Gaiden (Europe, Brazil) (En).sms",
       "label": "Ninja Gaiden (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -532,7 +524,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Operation Wolf (Europe).zip#Operation Wolf (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Operation Wolf (Europe, Brazil) (En).zip#Operation Wolf (Europe, Brazil) (En).sms",
       "label": "Operation Wolf (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -540,7 +532,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Out Run (World).zip#Out Run (World).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/OutRun (World).zip#OutRun (World).sms",
       "label": "OutRun (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -564,7 +556,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Phantasy Star (USA, Europe) (Rev 3).zip#Phantasy Star (USA, Europe) (Rev 3).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Phantasy Star (USA, Europe) (Rev A).zip#Phantasy Star (USA, Europe) (Rev A).sms",
       "label": "Phantasy Star (USA, Europe) (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -572,7 +564,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Power Strike (USA, Europe).zip#Power Strike (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Power Strike (USA, Europe, Brazil) (En).zip#Power Strike (USA, Europe, Brazil) (En).sms",
       "label": "Power Strike (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -580,7 +572,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Power Strike II (Europe).zip#Power Strike II (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Power Strike II (Europe, Brazil) (En).zip#Power Strike II (Europe, Brazil) (En).sms",
       "label": "Power Strike II (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -596,7 +588,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Pro Wrestling (USA, Europe).zip#Pro Wrestling (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Pro Wrestling (USA, Europe, Brazil) (En).zip#Pro Wrestling (USA, Europe, Brazil) (En).sms",
       "label": "Pro Wrestling (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -604,7 +596,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Psycho Fox (USA, Europe).zip#Psycho Fox (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Psycho Fox (USA, Europe, Brazil) (En).zip#Psycho Fox (USA, Europe, Brazil) (En).sms",
       "label": "Psycho Fox (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -612,7 +604,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Putt & Putter (Europe).zip#Putt & Putter (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Putt & Putter (Europe, Brazil) (En).zip#Putt & Putter (Europe, Brazil) (En).sms",
       "label": "Putt & Putter (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -636,7 +628,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Rastan (USA, Europe).zip#Rastan (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Rastan (USA, Europe, Brazil) (En).zip#Rastan (USA, Europe, Brazil) (En).sms",
       "label": "Rastan (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -644,7 +636,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Renegade (Europe).zip#Renegade (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Renegade (Europe, Brazil) (En).zip#Renegade (Europe, Brazil) (En).sms",
       "label": "Renegade (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -652,7 +644,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Rescue Mission (USA, Europe).zip#Rescue Mission (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Rescue Mission (USA, Europe, Brazil) (En).zip#Rescue Mission (USA, Europe, Brazil) (En).sms",
       "label": "Rescue Mission (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -660,7 +652,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Road Rash (Europe).zip#Road Rash (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Road Rash (Europe, Brazil) (En).zip#Road Rash (Europe, Brazil) (En).sms",
       "label": "Road Rash (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -676,15 +668,15 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Samgukji 3 (Korea) (Unl).zip#Samgukji 3 (Korea) (Unl).sms",
-      "label": "Samgukji III - Cheonha Jaengpae (Korea) (Unl)",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Samgukji III - Cheonha Jaengpae (Korea).zip#Samgukji III - Cheonha Jaengpae (Korea).sms",
+      "label": "Samgukji III - Cheonha Jaengpae (Korea)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "97D03541|crc",
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Shinobi (USA, Europe).zip#Shinobi (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Shinobi (USA, Europe, Brazil) (En) (Rev 1).zip#Shinobi (USA, Europe, Brazil) (En) (Rev 1).sms",
       "label": "Shinobi (USA, Europe, Brazil) (En) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -692,7 +684,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Shooting Gallery (USA, Europe).zip#Shooting Gallery (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Shooting Gallery (USA, Europe, Brazil) (En).zip#Shooting Gallery (USA, Europe, Brazil) (En).sms",
       "label": "Shooting Gallery (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -700,7 +692,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Sonic The Hedgehog (USA, Europe).zip#Sonic The Hedgehog (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Sonic The Hedgehog (USA, Europe, Brazil) (En).zip#Sonic The Hedgehog (USA, Europe, Brazil) (En).sms",
       "label": "Sonic The Hedgehog (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -708,7 +700,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Sonic The Hedgehog 2 (Europe).zip#Sonic The Hedgehog 2 (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Sonic The Hedgehog 2 (Europe, Brazil) (En).zip#Sonic The Hedgehog 2 (Europe, Brazil) (En).sms",
       "label": "Sonic The Hedgehog 2 (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -724,7 +716,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Streets of Rage (Europe).zip#Streets of Rage (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Streets of Rage (Europe, Brazil) (En).zip#Streets of Rage (Europe, Brazil) (En).sms",
       "label": "Streets of Rage (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -732,7 +724,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Streets of Rage II (Europe).zip#Streets of Rage II (Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/-SMS-EU/Streets of Rage II (Europe, Brazil) (En).zip#Streets of Rage II (Europe, Brazil) (En).sms",
       "label": "Streets of Rage II (Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -748,7 +740,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Teddy Boy (USA, Europe).zip#Teddy Boy (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Teddy Boy (USA, Europe, Brazil) (En).zip#Teddy Boy (USA, Europe, Brazil) (En).sms",
       "label": "Teddy Boy (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -764,7 +756,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/TransBot (USA, Europe).zip#TransBot (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/TransBot (USA, Europe, Brazil) (En).zip#TransBot (USA, Europe, Brazil) (En).sms",
       "label": "TransBot (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -772,7 +764,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Wonder Boy (USA, Europe).zip#Wonder Boy (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Wonder Boy (USA, Europe, Brazil) (En) (Rev 1).zip#Wonder Boy (USA, Europe, Brazil) (En) (Rev 1).sms",
       "label": "Wonder Boy (USA, Europe, Brazil) (En) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -796,7 +788,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/World Grand Prix (USA).zip#World Grand Prix (USA).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/World Grand Prix (USA, Brazil) (En).zip#World Grand Prix (USA, Brazil) (En).sms",
       "label": "World Grand Prix (USA, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -804,7 +796,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Ys - The Vanished Omens (USA, Europe).zip#Ys - The Vanished Omens (USA, Europe).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Ys - The Vanished Omens (USA, Europe, Brazil) (En).zip#Ys - The Vanished Omens (USA, Europe, Brazil) (En).sms",
       "label": "Ys - The Vanished Omens (USA, Europe, Brazil) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
@@ -812,7 +804,7 @@
       "db_name": "Sega - Master System - Mark III.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Master System/Zillion (USA) (Rev 1).zip#Zillion (USA) (Rev 1).sms",
+      "path": "/Users/joon/Games/Emulation/Sega Master System/Zillion (USA, Europe) (Rev 1).zip#Zillion (USA, Europe) (Rev 1).sms",
       "label": "Zillion (USA, Europe) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",

@@ -28,7 +28,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Advance Wars 2 - Black Hole Rising (USA, Australia).zip#Advance Wars 2 - Black Hole Rising (USA, Australia).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Advance Wars 2 - Black Hole Rising (USA).zip#Advance Wars 2 - Black Hole Rising (USA).gba",
       "label": "Advance Wars 2 - Black Hole Rising (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -108,7 +108,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Final Fantasy I & II - Dawn of Souls (USA, Australia).zip#Final Fantasy I & II - Dawn of Souls (USA, Australia).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Final Fantasy I & II - Dawn of Souls (USA).zip#Final Fantasy I & II - Dawn of Souls (USA).gba",
       "label": "Final Fantasy I & II - Dawn of Souls (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -116,7 +116,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Final Fantasy IV Advance (USA, Australia).zip#Final Fantasy IV Advance (USA, Australia).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Final Fantasy IV Advance (USA).zip#Final Fantasy IV Advance (USA).gba",
       "label": "Final Fantasy IV Advance (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -204,7 +204,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Legend of Zelda, The - A Link to the Past & Four Swords (USA, Australia).zip#Legend of Zelda, The - A Link to the Past & Four Swords (USA, Australia).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Legend of Zelda, The - A Link to the Past & Four Swords (USA).zip#Legend of Zelda, The - A Link to the Past & Four Swords (USA).gba",
       "label": "Legend of Zelda, The - A Link to the Past & Four Swords (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -228,7 +228,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Mario & Luigi - Superstar Saga (USA, Australia).zip#Mario & Luigi - Superstar Saga (USA, Australia).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Mario & Luigi - Superstar Saga (USA).zip#Mario & Luigi - Superstar Saga (USA).gba",
       "label": "Mario & Luigi - Superstar Saga (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -308,7 +308,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Metroid Fusion (USA, Australia).zip#Metroid Fusion (USA, Australia).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Metroid Fusion (USA).zip#Metroid Fusion (USA).gba",
       "label": "Metroid Fusion (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -316,7 +316,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Motoracer Advance (USA) (En,Fr,De,Es,It).zip#Motoracer Advance (USA) (En,Fr,De,Es,It).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Moto Racer Advance (USA) (En,Fr,De,Es,It).zip#Moto Racer Advance (USA) (En,Fr,De,Es,It).gba",
       "label": "Moto Racer Advance (USA) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -324,8 +324,8 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Ninja Five-0 (USA).zip#Ninja Five-0 (USA).gba",
-      "label": "Ninja Five-0 (USA)",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Ninja Five-O (USA).zip#Ninja Five-O (USA).gba",
+      "label": "Ninja Five-O (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "EB3954C6|crc",
@@ -348,7 +348,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Pokemon - Ruby Version (USA).zip#Pokemon - Ruby Version (USA).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Pokemon - Ruby Version (USA, Europe).zip#Pokemon - Ruby Version (USA, Europe).gba",
       "label": "Pokemon - Ruby Version (USA, Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -356,7 +356,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Pokemon - Sapphire Version (USA).zip#Pokemon - Sapphire Version (USA).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Pokemon - Sapphire Version (USA, Europe).zip#Pokemon - Sapphire Version (USA, Europe).gba",
       "label": "Pokemon - Sapphire Version (USA, Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -428,7 +428,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Sega Arcade Gallery (USA).zip#Sega Arcade Gallery (USA).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/SEGA Arcade Gallery (USA).zip#SEGA Arcade Gallery (USA).gba",
       "label": "SEGA Arcade Gallery (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
@@ -436,7 +436,7 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Sega Rally Championship (USA).zip#Sega Rally Championship (USA).gba",
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/SEGA Rally Championship (USA).zip#SEGA Rally Championship (USA).gba",
       "label": "SEGA Rally Championship (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",

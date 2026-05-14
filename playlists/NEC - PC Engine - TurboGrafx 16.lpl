@@ -11,7 +11,7 @@
   "scan_content_dir": "/Users/joon/Games/Emulation/NEC TurboGrafx-16",
   "scan_file_exts": "",
   "scan_dat_file_path": "",
-  "scan_database_name": "",
+  "scan_database_name": "NEC - PC Engine - TurboGrafx 16.lpl",
   "scan_search_recursively": true,
   "scan_search_archives": true,
   "scan_filter_dat_content": false,
@@ -68,11 +68,11 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Atlantean (World) (Aftermarket) (Unl).zip#Atlantean (World) (Aftermarket) (Unl).pce",
-      "label": "Atlantean (World) (Aftermarket) (Unl)",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Atlantean (World) (Aftermarket) (Homebrew).zip",
+      "label": "Atlantean (World) (Aftermarket) (Homebrew)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "00000000|crc",
+      "crc32": "FDDC5814|crc",
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
@@ -84,7 +84,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Mr. Heli no Daibouken (Japan).zip#Mr. Heli no Daibouken (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Battle Chopper (Japan).zip#Battle Chopper (Japan).pce",
       "label": "Battle Chopper (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -148,7 +148,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Bomberman '93 (Japan) (Special Version).zip#Bomberman '93 (Japan) (Special Version).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Bomberman '93 - Special Version (Japan).zip#Bomberman '93 - Special Version (Japan).pce",
       "label": "Bomberman '93 - Special Version (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -180,7 +180,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Bonk III - Bonk's Big Adventure (USA).zip#Bonk III - Bonk's Big Adventure (USA).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Bonk 3 - Bonk's Big Adventure (USA).zip#Bonk 3 - Bonk's Big Adventure (USA).pce",
       "label": "Bonk 3 - Bonk's Big Adventure (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -236,7 +236,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Chew Man Fu (USA).zip#Chew Man Fu (USA).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Chew-Man-Fu (USA).zip#Chew-Man-Fu (USA).pce",
       "label": "Chew-Man-Fu (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -316,7 +316,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Darius Alpha (Japan).zip#Darius Alpha (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Darius Alpha (Japan) (SG Enhanced).zip#Darius Alpha (Japan) (SG Enhanced).pce",
       "label": "Darius Alpha (Japan) (SG Enhanced)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -324,7 +324,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Darius Plus (Japan).zip#Darius Plus (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Darius Plus (Japan) (SG Enhanced).zip#Darius Plus (Japan) (SG Enhanced).pce",
       "label": "Darius Plus (Japan) (SG Enhanced)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -380,7 +380,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Double Dungeons - W (USA).zip#Double Dungeons - W (USA).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Double Dungeons (USA).zip#Double Dungeons (USA).pce",
       "label": "Double Dungeons (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -404,7 +404,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Dragon Saber - After Story of Dragon Spirit (Japan).zip#Dragon Saber - After Story of Dragon Spirit (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Dragon Saber (Japan).zip#Dragon Saber (Japan).pce",
       "label": "Dragon Saber (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -436,7 +436,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Order of the Griffon (USA).zip#Order of the Griffon (USA).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Dungeons & Dragons - Order of the Griffon (USA).zip#Dungeons & Dragons - Order of the Griffon (USA).pce",
       "label": "Dungeons & Dragons - Order of the Griffon (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -484,7 +484,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Final Soldier (Japan) (En) (Special Version).zip#Final Soldier (Japan) (En) (Special Version).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Final Soldier - Special Version (Japan) (En).zip#Final Soldier - Special Version (Japan) (En).pce",
       "label": "Final Soldier - Special Version (Japan) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -580,7 +580,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Gunhed - Hudson Gunhed Taikai (Japan).zip#Gunhed - Hudson Gunhed Taikai (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Gunhed - Special Version (Japan).zip#Gunhed - Special Version (Japan).pce",
       "label": "Gunhed - Special Version (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -708,7 +708,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Kikikai-kai (Japan).zip#Kikikai-kai (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Kiki Kaikai (Japan).zip#Kiki Kaikai (Japan).pce",
       "label": "Kiki Kaikai (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -748,7 +748,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Legendary Axe II, The (USA).zip#Legendary Axe II, The (USA).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Legendary Axe II (USA).zip#Legendary Axe II (USA).pce",
       "label": "Legendary Axe II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -788,7 +788,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Mashin Eiyuu Den Wataru (Japan).zip#Mashin Eiyuu Den Wataru (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Mashin Eiyuuden Wataru (Japan).zip#Mashin Eiyuuden Wataru (Japan).pce",
       "label": "Mashin Eiyuuden Wataru (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -812,7 +812,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Mizubaku Adventure (Japan).zip#Mizubaku Adventure (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Mizubaku Daibouken (Japan).zip#Mizubaku Daibouken (Japan).pce",
       "label": "Mizubaku Daibouken (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -844,7 +844,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Nekketsu Koukou Dodgeball-bu - Soccer PC Hen (Japan).zip#Nekketsu Koukou Dodgeball-bu - Soccer PC Hen (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Nekketsu Koukou Dodgeball-bu - PC Soccer Hen (Japan).zip#Nekketsu Koukou Dodgeball-bu - PC Soccer Hen (Japan).pce",
       "label": "Nekketsu Koukou Dodgeball-bu - PC Soccer Hen (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -884,7 +884,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Ninja Ryuuken Den (Japan) (En,Ja,Zh).zip#Ninja Ryuuken Den (Japan) (En,Ja,Zh).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Ninja Ryuukenden (Japan).zip#Ninja Ryuukenden (Japan).pce",
       "label": "Ninja Ryuukenden (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -1060,7 +1060,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/SideArms - Hyper Dyne (USA).zip#SideArms - Hyper Dyne (USA).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/SideArms (USA).zip#SideArms (USA).pce",
       "label": "SideArms (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -1140,7 +1140,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Strip Fighter II (Japan).zip#Strip Fighter II (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Strip Fighter II (Japan) (Unl).zip#Strip Fighter II (Japan) (Unl).pce",
       "label": "Strip Fighter II (Japan) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
@@ -1204,7 +1204,7 @@
       "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Terra Cresta II - Mandoraa no Gyakushuu (Japan).zip#Terra Cresta II - Mandoraa no Gyakushuu (Japan).pce",
+      "path": "/Users/joon/Games/Emulation/NEC TurboGrafx-16/Terra Cresta II - Mandoler no Gyakushuu (Japan).zip#Terra Cresta II - Mandoler no Gyakushuu (Japan).pce",
       "label": "Terra Cresta II - Mandoler no Gyakushuu (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",

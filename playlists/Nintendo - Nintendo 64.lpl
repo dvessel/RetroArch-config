@@ -132,7 +132,7 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo 64/Cruis'n USA (USA) (Rev B).zip#Cruis'n USA (USA) (Rev B).z64",
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Cruis'n USA (USA) (Rev 2).zip#Cruis'n USA (USA) (Rev 2).z64",
       "label": "Cruis'n USA (USA) (Rev 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mupen64plus_next_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
@@ -220,7 +220,7 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo 64/007 - GoldenEye (USA).zip#007 - GoldenEye (USA).z64",
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/GoldenEye 007 (USA).zip#GoldenEye 007 (USA).z64",
       "label": "GoldenEye 007 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mupen64plus_next_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
@@ -228,7 +228,7 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo 64/GT64 - Championship Edition (USA).zip#GT64 - Championship Edition (USA).z64",
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/GT 64 - Championship Edition (USA).zip#GT 64 - Championship Edition (USA).z64",
       "label": "GT 64 - Championship Edition (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mupen64plus_next_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
@@ -356,7 +356,7 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo 64/Quake 64 (USA).zip#Quake 64 (USA).z64",
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Quake (USA).zip#Quake (USA).z64",
       "label": "Quake (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mupen64plus_next_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
@@ -516,7 +516,7 @@
       "db_name": "Nintendo - Nintendo 64.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo 64/Wave Race 64 (USA).zip#Wave Race 64 (USA).z64",
+      "path": "/Users/joon/Games/Emulation/Nintendo 64/Wave Race 64 - Kawasaki Jet Ski (USA).zip#Wave Race 64 - Kawasaki Jet Ski (USA).z64",
       "label": "Wave Race 64 - Kawasaki Jet Ski (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mupen64plus_next_libretro.dylib",
       "core_name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",

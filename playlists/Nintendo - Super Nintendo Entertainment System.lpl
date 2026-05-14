@@ -276,6 +276,14 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Dezaemon (Japan).zip#Dezaemon (Japan).sfc",
+      "label": "Dezaemon (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
+      "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
+      "crc32": "052167CC|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Dirt Trax FX (USA).zip#Dirt Trax FX (USA).sfc",
       "label": "Dirt Trax FX (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
@@ -316,7 +324,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Do-Re-Mi Fantasy - Milon no Dokidoki Daibouken (Japan).zip#Do-Re-Mi Fantasy - Milon no Dokidoki Daibouken (Japan).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/DoReMi Fantasy - Milon no Dokidoki Daibouken (Japan).zip#DoReMi Fantasy - Milon no Dokidoki Daibouken (Japan).sfc",
       "label": "DoReMi Fantasy - Milon no Dokidoki Daibouken (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -324,16 +332,16 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl).zip#Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl).sfc",
-      "label": "Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl)",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Dottie - Dreads Nought (World) (v1.1).zip#Dottie - Dreads Nought (World) (v1.1).sfc",
+      "label": "Dottie - Dreads Nought (World) (v1.1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
       "crc32": "94AFC86D|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl).zip#Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl).sfc",
-      "label": "Dottie Flowers (Japan) (v1.1) (Aftermarket) (Unl)",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Dottie Flowers (Japan) (v1.1).zip#Dottie Flowers (Japan) (v1.1).sfc",
+      "label": "Dottie Flowers (Japan) (v1.1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
       "crc32": "14172273|crc",
@@ -516,8 +524,8 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (Japan).zip#Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (Japan).sfc",
-      "label": "Ganbare Goemon 2 - Kiteretsu Shougun Magginesu (Japan)",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Ganbare Goemon 2 - Kiteretsu Shougun McGuiness (Japan).zip#Ganbare Goemon 2 - Kiteretsu Shougun McGuiness (Japan).sfc",
+      "label": "Ganbare Goemon 2 - Kiteretsu Shougun McGuiness (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
       "crc32": "CA4C0219|crc",
@@ -665,14 +673,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
       "crc32": "3511EFB3|crc",
-      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Kaite Tsukutte Asoberu Dezaemon (Japan).zip#Kaite Tsukutte Asoberu Dezaemon (Japan).sfc",
-      "label": "Kaite Tsukutte Asoberu Dezaemon (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
-      "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
-      "crc32": "052167CC|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
@@ -860,8 +860,8 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Mario Paint (Japan, USA).zip#Mario Paint (Japan, USA).sfc",
-      "label": "Mario Paint (Japan, USA)",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Mario Paint (Japan, USA) (En).zip#Mario Paint (Japan, USA) (En).sfc",
+      "label": "Mario Paint (Japan, USA) (En)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
       "crc32": "38C9626C|crc",
@@ -1012,7 +1012,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Out of this World (USA).zip#Out of this World (USA).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Out of This World (USA).zip#Out of This World (USA).sfc",
       "label": "Out of This World (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -1148,7 +1148,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Rock n' Roll Racing (USA).zip#Rock n' Roll Racing (USA).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Rock N' Roll Racing (USA).zip#Rock N' Roll Racing (USA).sfc",
       "label": "Rock N' Roll Racing (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -1428,7 +1428,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Super Bomber Man 5 (Japan).zip#Super Bomber Man 5 (Japan).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Super Bomberman 5 (Japan).zip#Super Bomberman 5 (Japan).sfc",
       "label": "Super Bomberman 5 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -1476,7 +1476,7 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Super Ghouls'n Ghosts (USA).zip#Super Ghouls'n Ghosts (USA).sfc",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Super Ghouls 'N Ghosts (USA).zip#Super Ghouls 'N Ghosts (USA).sfc",
       "label": "Super Ghouls 'N Ghosts (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
@@ -1564,8 +1564,8 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Star Fox - Super Weekend (USA).zip#Star Fox - Super Weekend (USA).sfc",
-      "label": "Super Star Fox Weekend (USA)",
+      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Super Star Fox Weekend (USA) (Competition Cart, Nintendo Power mail-order).zip#Super Star Fox Weekend (USA) (Competition Cart, Nintendo Power mail-order).sfc",
+      "label": "Super Star Fox Weekend (USA) (Competition Cart, Nintendo Power mail-order)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
       "crc32": "CD1F04B8|crc",
@@ -1632,7 +1632,7 @@
       "label": "Taekwon-Do (Korea)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
       "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
-      "crc32": "00000000|crc",
+      "crc32": "D20D7701|crc",
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {

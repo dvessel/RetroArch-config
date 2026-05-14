@@ -28,7 +28,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Astal (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Astal (USA) (2S).chd",
       "label": "Astal (USA) (2S)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -140,7 +140,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Layer Section (Japan) (Rev A) (11M).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Layer Section (Japan) (6M).chd",
       "label": "Layer Section (Japan) (6M)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -188,7 +188,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Cotton 2 (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Magical Night Dreams - Cotton 2 (Japan).chd",
       "label": "Magical Night Dreams - Cotton 2 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -196,7 +196,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Magical Night Dreams Cotton Boomerang (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Magical Night Dreams - Cotton Boomerang (Japan).chd",
       "label": "Magical Night Dreams - Cotton Boomerang (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -204,7 +204,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/NiGHTS into Dreams... (USA) (3D Control Pad).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/NiGHTS into Dreams... (USA) (with 3D Control Pad).chd",
       "label": "NiGHTS into Dreams... (USA) (with 3D Control Pad)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -220,7 +220,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon II - Zwei (USA).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon II Zwei (USA).chd",
       "label": "Panzer Dragoon II Zwei (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -284,7 +284,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Soukyuu Gurentai (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Soukyuu Gurentai (Japan) (Rev A).chd",
       "label": "Soukyuu Gurentai (Japan) (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -316,7 +316,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Time Gal (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Time Gal & Ninja Hayate (Japan) (En,Ja) (Disc 1) (Time Gal) (3M).chd",
       "label": "Time Gal & Ninja Hayate (Japan) (En,Ja) (Disc 1) (Time Gal) (3M)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -324,7 +324,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Ninja Hayate (Japan).chd",
+      "path": "/Users/joon/Games/Emulation/Sega Saturn/Time Gal & Ninja Hayate (Japan) (En,Ja) (Disc 2) (Ninja Hayate) (3M).chd",
       "label": "Time Gal & Ninja Hayate (Japan) (En,Ja) (Disc 2) (Ninja Hayate) (3M)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
