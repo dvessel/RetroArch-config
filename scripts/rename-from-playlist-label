@@ -1,0 +1,211 @@
+#!/usr/bin/env zsh
+
+zparseopts -D -F - {p,-playlist}:=playlist || return 1
+
+# Print with style.
+p.header(){ printf "\n\e[1;30m%s\e[0m\n" $@ }
+p.info()  { printf   "%s\n" $@              }
+p.ok()    { printf   "\e[0;32m%s\e[0m\n" $@ }
+p.warn()  { printf   "\e[0;33m%s\e[0m\n" $@ }
+p.error() { printf   "\e[0;31m%s\e[0m\n" $@ >&2 }
+get_cfg() {
+  local cfg=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
+  printf %s "${$( sed -En "s/^$1 = \"(.+)\"/\1/p" $cfg )/#\~\//$HOME/}"
+}
+
+for dep in jq 7z; if ! type $dep &>/dev/null; then
+  p.error "$dep is required!"
+  return 1
+fi
+
+if [[ -n $playlist ]]; then
+  playlist=${playlist[-1]}
+fi
+
+if [[ ! -f $playlist ]]; then
+  p.error "Playlist does not exist:" \
+          "- $playlist"
+  return 1
+fi
+
+# DAT's or XML sources for generating playlists are often for MAME rom sets.
+# Their file names are independent of labels. Renaming them would break it.
+if [[ ${$( jq -r '.scan_dat_file_path' $playlist ):e} =~ (dat|xml) ]]; then
+  p.error "dat or xml generated playlists are not supported:" \
+          "- $playlist:t"
+  return 1
+fi
+
+# json list of cleaned up items.
+# Ensure .label and .db_name are present.
+items=$(
+  jq '.items[] | select(( .label | length > 0 ) and ( .db_name | length > 0 )) | {
+    label: .label,
+    gpath: .path,
+    gcore: .core_path|split("/")|last|sub(".dylib"; ""),
+    system:.db_name|sub(".lpl"; "")
+  }' $playlist | jq -n '[inputs]'
+)
+limit=`print -- $items | jq 'length'`
+
+# Core names used in the file system. It matches 'corename' in the info data.
+# Dolphin is the exception.
+typeset -A fscores=(
+  Dolphin dolphin-emu
+)
+info_path=`get_cfg libretro_info_path`
+default_gcore=`jq -r '.default_core_path|split("/")|last|sub(".dylib"; "")' $playlist`
+dfscore=$( sed -En 's/^corename = "(.+)"/\1/p' $info_path/$default_gcore.info )
+dfscore=${fscores[$dfscore]:-$dfscore}
+
+# Search paths for renaming support files.
+typeset -aU search_paths
+for k in {input_remapping,rgui_config,savefile,playlist}_directory; do
+  search_paths+=`get_cfg $k`
+done
+
+IFS=$'\n'
+for (( i=0; i!=$limit; i++ )); do
+  read -d '' label gpath gcore system < <(
+    print -- $items | jq -r ".[$i] | .label, .gpath, .gcore, .system"
+  )
+
+  gcore=${${gcore/DETECT}:-$default_gcore}
+  fscore=${fscores[$( sed -En 's/^corename = "(.+)"/\1/p' $info_path/$gcore.info )]:-$dfscore}
+
+  # label:  Name from playlist label field usually taken from a database.
+  # gpath_full: Full game path including possible archive pointer.
+  # gpath:  Game path without the archive pointer.
+  # fname:  Name of the game file itself, e.g., zip, chd, m3u, etc.
+  # aname:  Name of archive pointer. After the '#' in gpath_full. This is
+  #         used for various support files. saves, savestates, game cfg,
+  #         opt or rmp, etc. fname used when empty.
+  # cname:  Name of the containing folder. Used when structuring multiple
+  #         disks with an m3u playlist. It's common but not a requirement.
+
+  unset match
+  [[ $gpath:t =~ "(.*\.[[:alnum:]]{2,3})\#(.+\.[[:alnum:]]{2,4})$" ]]
+  gpath_full=$gpath
+  gpath=$gpath:h/${match[1]:-$gpath:t}
+  fname=$gpath:t
+  aname=$match[2]
+  cname=$gpath:h:t
+
+  if [[ ! -f $gpath ]]; then
+    p.error "$gpath:t not found. $playlist:t pointing to a non-existing file:" \
+            "- $gpath"
+    continue
+  fi
+
+  # fsl_* derived from file system safe label.
+  # - replace ': ' with ' - '
+  # - replace ':' and '/' with '.'
+  fslabel=${${${label//: / - }//:/.}//\//.}
+  fsl_fname=$fslabel.$fname:e
+  fsl_cname=$fslabel
+  [[ -n $aname ]] &&
+    fsl_aname=$fslabel.$aname:e ||
+    fsl_aname=''
+
+  # compare a file system safe string derived from the label to the file name itself.
+  if [[ $fslabel == $fname:r ]] && [[ $fslabel == $aname:r || -z $aname ]]; then
+    # nothing to process. everything lines up.
+    continue
+  fi
+
+  p.header $label
+  # new paths
+  npath=$gpath:h/$fsl_fname
+  npath_full=$npath
+
+  if [[ -n $aname ]]; then
+    npath_full=$npath#$fsl_aname
+    if [[ $aname != $fsl_aname ]]; then
+      # Rename archived file using 7zip
+      if 7z rn $gpath $aname $fsl_aname; then
+        p.info  "Renamed archive content." \
+                " - from: $aname" \
+                " -   to: $fsl_aname"
+      else
+        p.error "Failed to rename archive content. Skipping." \
+                " - from: $aname" \
+                " -   to: $fsl_aname"
+        continue
+      fi
+    fi
+  fi
+
+  # handle m3u parent dir name matching m3u name.
+  if [[ $fname:e == m3u && $cname == $fname:r ]]; then
+    npath=$npath:h:h/$fsl_cname/$npath:t
+    npath_full=$npath_full:h:h/$fsl_cname/$npath_full:t
+
+    if [[ $gpath:h != $npath:h ]]; then
+      if [[ -d $npath:h ]]; then
+        p.warn  "Renaming containing folder was skipped. It already exists." \
+                " - from: $gpath:h" \
+                " -  *to: $npath:h"
+      fi
+
+      if mv $gpath:h $npath:h; then
+        p.info  "Renamed containing folder." \
+                " - from: $gpath:h:t" \
+                " -   to: $npath:h:t"
+        gpath=$gpath:h:h/$fsl_cname/$gpath:t
+      else
+        p.error "Could not rename containing folder, skipping." \
+                " - from: $gpath:h:t" \
+                " -   to: $npath:h:t"
+        continue
+      fi
+    fi
+  fi
+
+  # Rename the game file and update path in playlist.
+  if  mv -f $gpath $npath &&
+      jq --argjson index $i --arg path $npath_full '.items[$index].path = $path' \
+        $playlist > $playlist.tmp && mv -f $playlist.tmp $playlist
+  then
+    p.info  "Updated 'path' for '$label':" \
+            " - playlist: $playlist:t" \
+            " - from: $gpath_full:h:t/$gpath_full:t" \
+            " -   to: $npath_full:h:t/$npath_full:t"
+  else
+    p.error "Error while renaming 'path' and updating playlist." \
+            " - playlist: $playlist:t" \
+            " - from: $gpath_full:h:t/$gpath_full:t" \
+            " -   to: $npath_full:h:t/$npath_full:t"
+    continue
+  fi
+
+  # Support files named after #archived content. Falls back to file name.
+  # Thumbnails use labels by default. There is an option to use file names
+  # but this doesn't account for it.
+  found_paths=()
+  find $search_paths -name "${${aname:-$fname}:r}.*" | while read -r old_path
+  do
+    # search_paths could have overlapping directories resulting in repeated output.
+    [[ -z ${found_paths[(r)$old_path]} ]] &&
+      found_paths+=$old_path ||
+      continue
+
+    # account for stacked extensions, e.g. Mario.state1.png.
+    ext=${${old_path:t}#${${old_path:t}%%.*}}
+    new_path=$old_path:h/${fslabel}$ext
+
+    if [[ -f $new_path ]]; then
+      p.warn  "Skipped renaming $old_path:h:h:t/$old_path:h:t. File already exists." \
+              " - from: $old_path:t" \
+              " -  *to: $new_path:t"
+    elif mv $old_path $new_path; then
+      p.info  "Renamed $old_path:h:h:t/$old_path:h:t:" \
+              " - from: $old_path:t" \
+              " -   to: $new_path:t"
+    else
+      p.error "Renaming failed for $old_path:h:h:t/$old_path:h:t." \
+              " - from: $old_path:t" \
+              " -   to: $new_path:t"
+    fi
+  done
+
+done
