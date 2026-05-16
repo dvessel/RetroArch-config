@@ -956,6 +956,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Lunar 2 - Eternal Blue Complete (USA)/Lunar 2 - Eternal Blue Complete (USA).m3u",
+      "label": "Lunar 2 - Eternal Blue Complete (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-01071-0|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/MediEvil (USA).chd",
       "label": "MediEvil (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
