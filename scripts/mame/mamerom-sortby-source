@@ -69,13 +69,18 @@ do
     continue
   fi
 
-  source=`jq --arg name $rom:t:r '.machine[] | select(
-    .name == $name and .isbios != "yes" and .isdevice != "yes"
-  ) | .source' $infodir/$rom:t:r.json`
+	read -d '' source rotate < <( jq -r --arg name $rom:t:r '.machine[] | select(
+		.name == $name and .isbios != "yes" and .isdevice != "yes"
+	) | .source,(.display | if type == "array" then .[1]|.rotate else .rotate end)' $infodir/$rom:t:r.json )
 
   if [[ -n $source ]]
   then
-    link=$sortdir/source-$source:t:r/$rom:t
+    container=-${${source:r}/\//-}
+    if [[ $rotate =~ (90|270) ]]
+    then
+      container+='~tate'
+    fi
+    link=$sortdir/$container/$rom:t
     mkdir -p $link:h
     ln -f $rom $link
     s.print +linked $link
