@@ -1,23 +1,6 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -F - -debug=zdebug -write-hz::=zwrite_hz || exit 1
-
-# Extract value from --write-hz. defaults to 'container'
-if (( ${#zwrite_hz} )); then
-  zwrite_hz_to=${${${zwrite_hz#--write-hz}#=}:-container}
-  case $zwrite_hz_to in
-    core)       print "Values will be written to 'core' config overrides."      ;;
-    container)  print "Values will be written to 'container' config overrides." ;;
-    content)    print "Values will be written to 'content' config overrides."   ;;
-    existing)
-      print "Values will be written to existing overrides and fallback to 'container'."
-    ;;
-    *)
-      print "Invalid option: '$zwrite_hz_to', usage: --write-hz [core|container|content|existing]" >&2
-      return 1
-    ;;
-  esac
-fi
+zparseopts -D -F - -debug=zdebug || exit 1
 
 PATH=${ZSH_SCRIPT:h}/bin:$PATH
 RACONFIG=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
@@ -41,15 +24,14 @@ function cfg_dir {
 }
 
 function set_hz {
-  local serial=`rascreen --serial` retry hz
+  local serial=`rascreen --serial` retry=0 hz
 
   while [[ -z $serial ]]; do
-    retry=$(( retry + 1 ))
     # rascreen called to early, so wait a second.
     dprint -no "rascreen not ready, waiting..."
     sleep 1
     serial=`rascreen --serial`
-    if (( retry >= 5 )); then
+    if (( retry++ && retry >= 5 )); then
       dprint -no "rascreen is not responding."
       exit 1
     fi
@@ -63,87 +45,8 @@ function set_hz {
     # Don't block. To be cleaned up later when unloading the running core.
     rascreen --set-hz $hz &
     RASCREEN_PIDS+=$!
-    if (( ${#zwrite_hz} )); then
-      apply_config video_refresh_rate $hz
-      if (( hz >= 61 )); then
-        apply_config vrr_runloop_enable true
-      else
-        apply_config vrr_runloop_enable false
-      fi
-    fi
   else
     print "Unhandled refresh rate (serial: $serial, requested: ${1}hz)." >&2
-  fi
-}
-
-function apply_config {
-  local cfg cfg_dir=`cfg_dir rgui_config_directory`/$CORE_FS_NAME
-
-  case $zwrite_hz_to in
-    core)       cfg=$cfg_dir/$CORE_FS_NAME.cfg            ;;
-    container)  cfg=$cfg_dir/$CONTENT_CONTAINER_NAME.cfg  ;;
-    content)    cfg=$cfg_dir/$CONTENT_NAME.cfg            ;;
-    existing)
-      if [[ -n ${RACONFIG_OVERRIDES[-1]} ]]; then
-        dprint -c4 "Override found. Using ${RACONFIG_OVERRIDES[-1]:t}." >&2
-        cfg=${RACONFIG_OVERRIDES[-1]}
-      else
-        dprint -c3 "Override not found. Falling back to $CONTENT_CONTAINER_NAME.cfg."
-        cfg=$cfg_dir/$CONTENT_CONTAINER_NAME.cfg
-      fi
-    ;;
-  esac
-
-  local active_configs=( $RACONFIG $RACONFIG_OVERRIDES )
-  local existing_value='' base_value='' override_value='' override_cfg=''
-
-  for _cfg in $active_configs; if grep -q "^$1 = \".*\"" $_cfg; then
-    existing_value=`sed -En "s/^$1 = \"(.+)\"/\1/p" $_cfg`
-    if [[ $_cfg == $RACONFIG ]]; then
-      base_value=$existing_value
-    else
-      override_value=$existing_value
-      override_cfg=$_cfg
-    fi
-  fi
-
-  if [[ $existing_value != $2 ]]; then
-    dprint -c3 "key:$1 -> $cfg:h:t/$cfg:t"
-  else
-    dprint "key:$1 -> $cfg:h:t/$cfg:t"
-  fi
-  dprint -l base:$base_value override:$override_value effective:$existing_value
-  if [[ $existing_value != $2 ]]; then
-    dprint -c3 -l set_value:$2
-  else
-    dprint -l set_value:$2
-  fi
-
-
-  # Clear from current cfg file if it doesn't override an existing value.
-  local clear=0
-  if [[ $override_value == $2 && $override_cfg != $cfg ]] ||
-     [[ $base_value == $2 && $existing_value != $2 ]]
-  then
-    clear=1
-  fi
-
-  if (( clear )); then
-    if test -f $cfg && grep -q "^$1 = \"$existing_value\"" $cfg; then
-      sed -i '' "/^$1 = \"$existing_value\"/d" $cfg
-      dprint -no "$1 = \"$existing_value\" <- $cfg:h:t/$cfg:t"
-    fi
-
-  elif [[ $existing_value != $2 ]]; then
-    if [[ ! -f $cfg ]]; then
-      dprint -c3 "New Config: $cfg:h:t/$cfg:t"
-      touch $cfg
-    fi
-    sed -i '' "s/^$1 =.*/$1 = \"$2\"/" $cfg
-    if ! grep -q "^$1 = \"$2\"" $cfg; then
-      print -- "$1 = \"$2\"" >> $cfg
-    fi
-    dprint -ok "$1 = \"$2\" -> $cfg:h:t/$cfg:t"
   fi
 }
 
@@ -161,10 +64,6 @@ function watch_exit {
     mv -f $log_dir/retroarch.log $log_dir/retroarch-last.log
   fi
 }
-
-typeset -A core_fs_names=(
-  Dolphin dolphin-emu
-)
 
 typeset -a av_search=(
   '([0-9]+x[0-9]+)'
@@ -210,35 +109,23 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
   if [[ $line =~ '\[Core\] Using content: "(.+)"' ]]; then
     dprint -ok "Content Loading"
     content_path=${match[1]}
-
-    unset match
-    [[ $content_path:t =~ ".+\#(.+)\.[[:alnum:]]{2,4}$" ]]
-    CONTENT_NAME=${match[1]:-$content_path:t:r}
-    CONTENT_CONTAINER_NAME=${content_path:h:t}
-
     print "loading: ${content_path/#$HOME/~}"
 
   # Core Loading:
   elif [[ $line =~ '\[Core\] Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]; then
     core=$( sed -En 's/^corename = "(.+)"/\1/p' "`cfg_dir libretro_info_path`/${match[1]}.info" )
-    CORE_FS_NAME=${core_fs_names[$core]:-$core}
-
     dprint -ok "Core Loading: $core"
     loading=1
     running=0
     closing=0
     RASCREEN_PIDS=()
-    RACONFIG_OVERRIDES=()
   fi
 
   # Loading Context:
   if (( loading )); then
 
-    if [[ $line =~ '\[Config\] Appending override config: "(.+)"' ]]; then
-      RACONFIG_OVERRIDES+=${match[1]}
-
     # Get Refresh Rate:
-    elif [[ $line =~ "\[Core\] Geometry: ${(j:, :)av_search}" ]]; then
+    if [[ $line =~ "\[Core\] Geometry: ${(j:, :)av_search}" ]]; then
       dprint "AV Information"
       dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
       # Emulated machine's refresh rate.
