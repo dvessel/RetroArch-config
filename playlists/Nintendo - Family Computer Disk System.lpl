@@ -140,7 +140,7 @@
       "db_name": "Nintendo - Family Computer Disk System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Famicom Disk System/TwinBee (Japan) (En) (Disk Writer).zip#TwinBee (Japan) (En) (Disk Writer).fds",
+      "path": "/Users/joon/Games/Emulation/Nintendo Famicom Disk System/TwinBee (Japan) (En) (Disk Writer).zip",
       "label": "TwinBee (Japan) (En) (Disk Writer)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
       "core_name": "Nintendo - NES / Famicom (Mesen)",
