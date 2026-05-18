@@ -14,8 +14,8 @@
 # `vrr_runloop_enable = "true"`. ProMotion is not a conventional VRR display, e.g.,
 # G-Sync, Freesync, but it does help with tighter timings.
 case 1 in
-  $(( $1 >= 61.00 ))) print 120.000000  ;;  # [ >= 61.000 ] VRR
-  $(( $1 >= 59.98 ))) print 60.000000   ;;  # [59.98-60.99] 60.00
+  $(( $1 >= 62.00 ))) print 120.000000  ;;  # [ >= 62.000 ] VRR
+  $(( $1 >= 59.98 ))) print 60.000000   ;;  # [59.98-61.99] 60.00
   $(( $1 >= 56.94 ))) print 59.939987   ;;  # [56.94-59.97] 59.94
   $(( $1 >= 51.00 ))) print 120.000000  ;;  # [51.00-56.99] VRR
   $(( $1 >= 49.00 ))) print 50.000000   ;;  # [49.00-50.99] 50.00
