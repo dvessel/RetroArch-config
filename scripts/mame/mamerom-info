@@ -1,0 +1,51 @@
+#!/usr/bin/env zsh
+#
+# Usage: mamerom-info --[init|exists|get] [path]
+# requires standalone mame
+#
+
+local {init,rom,info,xml}_path version name
+zparseopts -D -F - -init:=init_path {-exists,-get}:=rom_path|| return 1
+
+if [[ -n $init_path ]]
+then
+  init_path=${init_path[-1]}
+  if [[ ! -d $init_path ]]
+  then
+    print "init path does not exist." >&2
+    return 1
+  fi
+  if type mame &>/dev/null
+  then
+    # Remove decimals and truncate. MAME version 0.250.0.1 results in 0250.
+    version=`mame -version | awk -F'[ .]' '{print $1$2}'`
+  else
+    print "mame not found." >&2
+    return 1
+  fi
+
+  mkdir -p $init_path/.rominfo/$version
+  ln -sF $version $init_path/.rominfo/info
+  return
+fi
+
+flag=${rom_path[1]}
+name=${rom_path[-1]:t:r}
+rom_path=${rom_path[-1]}
+info_path=$rom_path:h/.rominfo/info/$name.json
+
+if [[ ! -s $info_path ]]
+then
+  xml_path=~/Library/Application\ Support/RetroArch/database/${rom_path:h:t}.xml
+  if ! mame -listxml $name | mamexml-to-json $info_path &&
+  [[ -f $xml_path/$name.xml ]]
+  then
+    print "found fallback in '$xml_path/$name.xml'" >&2
+    mamexml-to-json $xml_path/$name.xml $info_path
+  fi
+fi
+
+case $flag in
+  --exists) return $( test -s $info_path ) ;;
+  --get)    cat -- $info_path ;;
+esac

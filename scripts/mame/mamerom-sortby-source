@@ -10,34 +10,31 @@
 
 zparseopts -D -E -F - {r,-reset}=reset
 
-local base=~/Games/Emulation/Arcade
-local sortdir=$base/.sorted
-local infodir=$base/.rominfo/info
-local thisdir=$( dirname `realpath $0` )
+PATH=$( dirname `realpath $0` ):$PATH
 
-if ! $thisdir/mamerom-generate-infojs $base
+local scandir=~/Games/Emulation/Arcade
+local sortdir=$scandir/.sorted
+
+if [[ ! -d $scandir ]]
 then
+  echo "'$scandir' does not exist." >&2
+  return 1
+elif ! mamerom-info --init $scandir
+then
+  echo "Failed to initialize." >&2
   return 1
 fi
 
 if [[ ! -d $sortdir ]]
 then
-  if mkdir $sortdir
-  then
-    # exclude from time machine backups.
-    tmutil addexclusion $sortdir
-    tag -a "Time Machine - Excluded" $sortdir
-  else
-    return 1
-  fi
+  mkdir $sortdir
+  # exclude from time machine backups.
+  tmutil addexclusion $sortdir
 fi
 
-if [[ -n $reset ]]
+if (( ${#reset} ))
 then
-  for sourcedir in $sortdir/*(N)
-  do
-    rm -rf $sourcedir
-  done
+  rm -rf $sortdir/*(N)
 fi
 
 s.print() {
@@ -46,13 +43,20 @@ s.print() {
     +)  c1=32 ;;
     -)  c1=33 ;;
   esac
-  printf "\e[1;30m%s\e[0m\n  \e[0;${c1}m%s\e[0m%s\n" "$(
-    jq -r --arg name $2:t:r '.machine[] | select(.name == $name) | .description' $infodir/$2:t:r.json
-  )" "$1:" "$2:h:t/$2:t"
+  printf "\e[1;30m%s\e[0m\n  \e[0;${c1}m%s\e[0m%s\n" "$( mamerom-info --get $scandir/$2:t |
+    jq -r --arg name $2:t:r '.machine[] | select(.name == $name) | .description'
+  )" "$1:" "${2#$scandir/}"
 }
 
-for rom in $base/*.zip(N)
+for rom in $scandir/*.zip(N)
 do
+
+  if ! mamerom-info --exists $rom
+  then
+    print "unrecognized '$rom'" >&2
+    continue
+  fi
+
   if tag -Nlg $rom | grep -q "^Ignore$"
   then
     # when tagged with "Ignore", find in .sorted and remove.
@@ -69,34 +73,39 @@ do
     continue
   fi
 
-	read -d '' source rotate < <( jq -r --arg name $rom:t:r '.machine[] | select(
-		.name == $name and .isbios != "yes" and .isdevice != "yes"
-	) | .source,(.display | if type == "array" then .[1]|.rotate else .rotate end)' $infodir/$rom:t:r.json )
-
-  if [[ -n $source ]]
+	read -d '' source rotate < <( mamerom-info --get $rom |
+    jq -r --arg name $rom:t:r '.machine[] | select(
+		  .name == $name and .isbios != "yes" and .isdevice != "yes"
+	  ) | .source, ( [.display] | flatten | .[0] | .rotate )'
+  )
+  if [[ -z $source ]]
   then
-    container=-${${source:r}/\//-}
-    if [[ $rotate =~ (90|270) ]]
-    then
-      container+='~tate'
-    fi
-    link=$sortdir/$container/$rom:t
-    mkdir -p $link:h
-    ln -f $rom $link
-    s.print +linked $link
+    # skip bios and devices.
+    continue
   fi
+
+  container=-${${source:r}/\//-}
+  if [[ $rotate =~ (90|270) ]]
+  then
+    container+='~tate'
+  fi
+  link=$sortdir/$container/$rom:t
+  mkdir -p $link:h
+  ln -f $rom $link
+  s.print +linked $link
+
 done
 
-# when deleting roms from $base dir, .sorted should follow while ignoring
+# when deleting roms from $scandir, .sorted should follow while ignoring
 # dotfiles. must be escaped `\\\.` or it will fail due to the double quoting
 # required for variable expansion.
-excluded=( $base/*.zip(N:t:r) )
+excluded=( $scandir/*.zip(N:t:r) )
 if [[ -n $excluded ]]
 then
   find -E $sortdir -type f ! -regex ".+/(\\\..+|(${(j:|:)excluded})\.zip)$" |
     while read -r remove
     do
       rm $remove
-      s.print -remove $remove
+      print "removed: $remove"
     done
 fi
