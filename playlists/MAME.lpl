@@ -4092,8 +4092,24 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-tmnt/tmnt2pj.zip",
+      "label": "Teenage Mutant Ninja Turtles (Japan 2 Players, version 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-tmnt/tmnt.zip",
       "label": "Teenage Mutant Ninja Turtles (World 4 Players, version X)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-tmnt2/tmnt22pu.zip",
+      "label": "Teenage Mutant Ninja Turtles: Turtles in Time (2 Players ver UDA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
