@@ -381,7 +381,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-blktiger/blktiger.zip",
-      "label": "Black Tiger",
+      "label": "Black Tiger (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -1925,7 +1925,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ket1.zip",
-      "label": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.) (alt rom fill)",
+      "label": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.) (alt ROM fill)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3757,7 +3757,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos1/splatter.zip",
-      "label": "Splatter House (World, new version (SH3))",
+      "label": "Splatterhouse (World, new version (SH3))",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4717,7 +4717,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos21/winrun91.zip",
-      "label": "Winning Run '91 (Japan) (1991/03/05, Main Ver 1.0, Sub Ver 1.0)",
+      "label": "Winning Run '91 (Japan) (1991/03/05, Ver 1.0)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4733,7 +4733,7 @@
     },
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos21/winrungp.zip",
-      "label": "Winning Run Suzuka Grand Prix (Japan) (89/12/03, Ver.02)",
+      "label": "Winning Run: Suzuka GP (Japan) (89/12/03, Ver.02)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
