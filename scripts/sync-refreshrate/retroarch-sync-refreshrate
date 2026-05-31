@@ -2,7 +2,8 @@
 
 zparseopts -D -F - -debug=zdebug || exit 1
 
-PATH=${ZSH_SCRIPT:h}/bin:$PATH
+PATH=$( dirname `realpath $0` )/bin:$PATH
+
 RACONFIG=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
 
 function dprint {
