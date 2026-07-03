@@ -15,11 +15,7 @@ PATH=$( dirname `realpath $0` ):$PATH
 local scandir=~/Games/Emulation/Arcade
 local sortdir=$scandir/.sorted
 
-if [[ ! -d $scandir ]]
-then
-  echo "'$scandir' does not exist." >&2
-  return 1
-elif ! mamerom-info --init $scandir
+if ! mamerom-info --init $scandir
 then
   echo "Failed to initialize." >&2
   return 1
