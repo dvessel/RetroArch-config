@@ -2,48 +2,56 @@
 
 if [[ -f $1:h/$1:t:r.lck ]]
 then
-  echo "Core is locked."
+  echo "core is locked."
   exit 0
 fi
 
-arch=( `lipo -archs $1` )
+# host_arch: arm64 or x86_64
+# core_arch: arm64 and/or x86_64
+# arch: hardware aligned core arch with fallsback. arm64 or x86_64
+host_arch=( `uname -m` )
+core_arch=( `lipo -archs $1` )
+arch=${${core_arch:*host_arch}:-$core_arch}
 dylib=$1:t
 
 url=https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/$dylib.zip
 
-if remote_header=`curl --silent --head --fail $url`
+if ! remote_header=`curl --silent --head --fail $url`
 then
-  if [[ $remote_header =~ "last-modified: (.+GMT)" ]]
-  then
-    # Standard HTTP format: "Thu, 09 Jul 2026 14:32:22 GMT"
-    # The format string must match: Day, Date Month Year Time Timezone
-    if [[ `stat -f %m $1` -gt `date -j -f "%a, %d %b %Y %H:%M:%S %Z" "$match[1]" "+%s"` ]]
-    then
-      echo "Core is already up to date. [$match[1]]"
-      exit 0
-    fi
-  else
-    echo "Failed to determine remote date." >&2
-    exit 1
-  fi
+  echo "remote file does not exist. [$url]" >&2
+  exit 1
+fi
 
-  sleep 2
-  tmpdir=`mktemp -d`
-  if curl -Lo $tmpdir/$dylib.zip $url; then
-    if unzip $tmpdir/$dylib.zip -d $tmpdir
-    then
-      touch $tmpdir/$dylib
-      mv -vf $tmpdir/$dylib $1
-    else
-      echo "Failed to extract core." >&2
-      exit 1
-    fi
-  else
-    echo "Failed to download core." >&2
-    exit 1
+etag=$1:h/.etags/$1:t:r-$arch.txt
+mkdir -p $etag:h
+
+if [[ $remote_header =~ "etag: \"([0-9]+)\"" ]]
+then
+  remote_etag=${match[1]}
+  if [[ -f $etag && `cat $etag` == $remote_etag ]]
+  then
+    echo "core is up to date."
+    exit 0
   fi
-  rm -rf $tmpdir
 else
-  echo "Remote file does not exist. [$url]" >&2
+  echo "failed to determine remote revision." >&2
+  exit 1
+fi
+
+tmpdir=`mktemp -d`
+trap 'rm -rf $tmpdir' INT TERM EXIT
+
+if ! curl --progress-bar --location --output $tmpdir/$dylib.zip $url
+then
+  echo "failed to download core." >&2
+  exit 1
+fi
+
+if unzip -q $tmpdir/$dylib.zip -d $tmpdir
+then
+  mv -f $tmpdir/$dylib $1
+  echo $remote_etag > $etag
+else
+  echo "failed to extract core." >&2
   exit 1
 fi
