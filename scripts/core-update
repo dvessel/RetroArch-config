@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-if [[ -f $1:h/$1:t:r.lck ]]
+if [[ -f $1:r.lck ]]
 then
   echo "core is locked."
   exit 0
@@ -12,23 +12,23 @@ fi
 host_arch=( `uname -m` )
 core_arch=( `lipo -archs $1` )
 arch=${${core_arch:*host_arch}:-$core_arch}
-dylib=$1:t
 
-url=https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/$dylib.zip
-
-if ! remote_header=`curl --silent --head --fail $url`
+index_cache=$TMPDIR/core-update-index-$arch.txt
+# index_cache updated when older than 10 minutes.
+if [[ ! -f $index_cache || $(( `date +%s` - `date -r $index_cache +%s` )) -gt 600 ]]
 then
-  echo "remote file does not exist. [$url]" >&2
-  exit 1
+  if ! curl -so $index_cache https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/.index-extended
+  then
+    echo "failed to fetch remote index." >&2
+    exit 1
+  fi
 fi
 
-etag=$1:h/.etags/$1:t:r-$arch.txt
-mkdir -p $etag:h
+dylib=$1:t
 
-if [[ $remote_header =~ "etag: \"([0-9]+)\"" ]]
+if [[ `cat $index_cache` =~ "([0-9a-z]+) $dylib.zip" ]]
 then
-  remote_etag=${match[1]}
-  if [[ -f $etag && `cat $etag` == $remote_etag ]]
+  if [[ `crc32 $1` == ${match[1]} ]]
   then
     echo "core is up to date."
     exit 0
@@ -41,7 +41,7 @@ fi
 tmpdir=`mktemp -d`
 trap 'rm -rf $tmpdir' INT TERM EXIT
 
-if ! curl --progress-bar --location --output $tmpdir/$dylib.zip $url
+if ! curl -#Lo $tmpdir/$dylib.zip https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/$dylib.zip
 then
   echo "failed to download core." >&2
   exit 1
@@ -50,7 +50,6 @@ fi
 if unzip -q $tmpdir/$dylib.zip -d $tmpdir
 then
   mv -f $tmpdir/$dylib $1
-  echo $remote_etag > $etag
 else
   echo "failed to extract core." >&2
   exit 1
