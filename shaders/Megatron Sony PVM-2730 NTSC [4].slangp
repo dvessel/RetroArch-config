@@ -1,4 +1,4 @@
-#reference "Megatron Sony PVM-2730-NTSC[low quality 2].slangp"
+#reference "Megatron Sony PVM-2730 NTSC [1].slangp"
 cust_artifacting = "5.000000"
 cust_fringing = "5.000000"
 ntsc_phase = "4.000000"

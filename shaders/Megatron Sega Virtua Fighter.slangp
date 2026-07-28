@@ -1,3 +1,6 @@
 #reference "shaders_slang/hdr/sony_megatron_v1_presets/crt-sony-megatron-sega-virtua-fighter-hdr.slangp"
 hcrt_max_nits = "1600.000000"
-hcrt_colour_space = "2.000000"
+hcrt_paper_white_nits = "250.000000"
+hcrt_phosphor_set = "3.000000"
+hcrt_brightness = "0.200000"
+hcrt_contrast = "0.200000"
