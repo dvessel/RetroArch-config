@@ -161,7 +161,7 @@
 			<!ATTLIST ramoption default CDATA #IMPLIED>
 ]>
 
-<mame build="0.288 (unknown)" debug="no" mameconfig="10">
+<mame build="0.289 (unknown)" debug="no" mameconfig="10">
 	<machine name="1941" sourcefile="capcom/cps1.cpp">
 		<description>1941: Counter Attack (World 900227)</description>
 		<year>1990</year>
@@ -370,7 +370,8 @@
 		<device_ref tag=":palette" name="palette"/>
 		<device_ref tag=":screen" name="screen"/>
 		<device_ref tag=":mono" name="speaker"/>
-		<device_ref tag=":soundlatch" name="generic_latch_8"/>
+		<device_ref tag=":soundlatch0" name="generic_latch_8"/>
+		<device_ref tag=":soundlatch1" name="generic_latch_8"/>
 		<device_ref tag=":ay1" name="ay8910"/>
 		<device_ref tag=":ay2" name="ay8910"/>
 		<device_ref tag=":snd_nl" name="netlist_sound"/>
@@ -1155,7 +1156,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="2020bb" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="2020bb" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>2020 Super Baseball (set 1)</description>
 		<year>1991</year>
 		<manufacturer>SNK / Pallas</manufacturer>
@@ -1326,7 +1327,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="3countb" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="3countb" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>3 Count Bout / Fire Suplex (NGM-043 ~ NGH-043)</description>
 		<year>1993</year>
 		<manufacturer>SNK</manufacturer>
@@ -1712,7 +1713,7 @@
 		<rom name="136047-1107.5kj" size="65536" crc="0a94a3ef" sha1="7dec8c768d0673ab3c8211f19b17674531dda308" region="sprites" offset="f0000"/>
 		<rom name="136047-1108.5jh" size="65536" crc="9815eda6" sha1="89a80c67f4b3426e7516cd1179d5712779ef5db7" region="sprites" offset="f8000"/>
 		<rom name="136047-1125.4t" size="16384" crc="6b7e2328" sha1="cc9a315ccafe7228951b7c32cf3b31caa89ae7d3" region="chars" offset="0"/>
-		<rom name="720-eeprom.bin" size="512" crc="cfe1c24e" sha1="5f7623b0a2ff0d99ffa8e6420a5bc03e0c55250d" region="eeprom" offset="0"/>
+		<rom name="720-eeprom.bin" size="512" crc="5d2acf11" sha1="824864032b947ffcf606b2363a48e1a181c6c3d2" region="eeprom" offset="0"/>
 		<device_ref tag=":maincpu" name="t11"/>
 		<device_ref tag=":audiocpu" name="m6502"/>
 		<device_ref tag=":adc" name="adc0809"/>
@@ -1744,7 +1745,7 @@
 		<chip type="audio" tag="tms" name="TMS5220C" clock="625000"/>
 		<display tag="screen" type="raster" rotate="0" width="512" height="384" refresh="60.096154" pixclock="16000000" htotal="640" hbend="0" hbstart="512" vtotal="416" vbend="0" vbstart="384" />
 		<sound channels="1"/>
-		<input players="1" coins="3">
+		<input players="1" coins="2">
 			<control type="stick" buttons="2" minimum="0" maximum="255" sensitivity="100" keydelta="10" reverse="yes"/>
 			<control type="dial" minimum="0" maximum="255" sensitivity="50" keydelta="10"/>
 		</input>
@@ -1863,7 +1864,7 @@
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
 	<machine name="aburner2" sourcefile="sega/segaxbd.cpp">
-		<description>After Burner II</description>
+		<description>After Burner II (VER 2.00, deluxe/upright)</description>
 		<year>1987</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="epr-11107.58" size="131072" crc="6d87bab7" sha1="ab34fe78f1f216037b3e3dca3e61f1b31c05cedf" region="mainpcb:maincpu" offset="0"/>
@@ -1918,13 +1919,13 @@
 		<device_ref tag=":mainpcb:segaic16road" name="segaic16_road"/>
 		<device_ref tag=":mainpcb:speaker" name="speaker"/>
 		<device_ref tag=":mainpcb:ymsnd" name="ym2151"/>
-		<device_ref tag=":mainpcb:pcm" name="segapcm"/>
+		<device_ref tag=":mainpcb:pcm" name="sega_315_5218"/>
 		<chip type="cpu" tag="mainpcb:maincpu" name="Motorola MC68000" clock="12500000"/>
 		<chip type="cpu" tag="mainpcb:subcpu" name="Motorola MC68000" clock="12500000"/>
 		<chip type="cpu" tag="mainpcb:soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag="mainpcb:speaker" name="Speaker"/>
 		<chip type="audio" tag="mainpcb:ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag="mainpcb:pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag="mainpcb:pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag="mainpcb:screen" type="raster" rotate="0" width="320" height="224" refresh="59.637405" pixclock="6250000" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -2731,7 +2732,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
 	</machine>
-	<machine name="alpham2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="alpham2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Alpha Mission II / ASO II - Last Guardian (NGM-007 ~ NGH-007)</description>
 		<year>1991</year>
 		<manufacturer>SNK</manufacturer>
@@ -3048,7 +3049,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
 	</machine>
-	<machine name="androdun" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="androdun" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Andro Dunos (NGM-049 ~ NGH-049)</description>
 		<year>1992</year>
 		<manufacturer>Visco</manufacturer>
@@ -3217,7 +3218,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="aof" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="aof" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Art of Fighting / Ryuuko no Ken (NGM-044 ~ NGH-044)</description>
 		<year>1992</year>
 		<manufacturer>SNK</manufacturer>
@@ -3388,7 +3389,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="aof2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="aof2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Art of Fighting 2 / Ryuuko no Ken 2 (NGM-056)</description>
 		<year>1994</year>
 		<manufacturer>SNK</manufacturer>
@@ -3564,7 +3565,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="aof3" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="aof3" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden</description>
 		<year>1996</year>
 		<manufacturer>SNK</manufacturer>
@@ -3835,7 +3836,7 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="graphics" overall="imperfect"/>
 	</machine>
-	<machine name="archrivl" sourcefile="midway/mcr68.cpp">
+	<machine name="archrivl" sourcefile="bally/mcr68.cpp">
 		<description>Arch Rivals (rev 4.0 6/29/89)</description>
 		<year>1989</year>
 		<manufacturer>Bally Midway</manufacturer>
@@ -4827,7 +4828,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="b2b" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="b2b" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Bang Bang Busters (2010 NCI release)</description>
 		<year>2000</year>
 		<manufacturer>Visco</manufacturer>
@@ -6744,7 +6745,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="bjourney" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="bjourney" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Blue's Journey / Raguy (ALM-001 ~ ALH-001)</description>
 		<year>1990</year>
 		<manufacturer>Alpha Denshi Co.</manufacturer>
@@ -6915,7 +6916,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="blazstar" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="blazstar" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Blazing Star</description>
 		<year>1998</year>
 		<manufacturer>Yumekobo</manufacturer>
@@ -7462,7 +7463,7 @@
 		<feature type="graphics" overall="imperfect"/>
 		<feature type="sound" overall="imperfect"/>
 	</machine>
-	<machine name="bstars" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="bstars" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Baseball Stars Professional (NGM-002)</description>
 		<year>1990</year>
 		<manufacturer>SNK</manufacturer>
@@ -7638,7 +7639,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="bstars2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="bstars2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Baseball Stars 2</description>
 		<year>1992</year>
 		<manufacturer>SNK</manufacturer>
@@ -8025,7 +8026,7 @@
 	<machine name="bublbob2" sourcefile="taito/taito_f3.cpp">
 		<description>Bubble Bobble II (Ver 2.6O 1994/12/16)</description>
 		<year>1994</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="d90-21.ic20" size="262144" crc="2a2b771a" sha1="7f9bd768cf34069ca139261ebd8304325598fec6" region="maincpu" offset="0"/>
 		<rom name="d90-20.ic19" size="262144" crc="f01f63b6" sha1="cbdc8c6248a2c0c1bc77fdc28738f67ce9a6aec3" region="maincpu" offset="1"/>
 		<rom name="d90-19.ic18" size="262144" crc="86eef19a" sha1="9a389fefa280662843cafb68b5ae411e9348d34d" region="maincpu" offset="2"/>
@@ -8105,7 +8106,7 @@
 	<machine name="bublbobl" sourcefile="taito/bublbobl.cpp">
 		<description>Bubble Bobble (Japan, Ver 0.1)</description>
 		<year>1986</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="a78-06-1.51" size="32768" crc="567934b6" sha1="b0c4d49fd551f465d148c25c3e80b278835e2f0d" region="maincpu" offset="0"/>
 		<rom name="a78-05-1.52" size="65536" crc="9f8ee242" sha1="924150d4e7e087a9b2b0a294c2d0e9903a266c6c" region="maincpu" offset="10000"/>
 		<rom name="a78-08.37" size="32768" crc="ae11a07b" sha1="af7a335c8da637103103cc274e077f123908ebb7" region="subcpu" offset="0"/>
@@ -8609,7 +8610,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
 	</machine>
-	<machine name="burningf" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="burningf" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Burning Fight (NGM-018 ~ NGH-018)</description>
 		<year>1991</year>
 		<manufacturer>SNK</manufacturer>
@@ -8783,7 +8784,7 @@
 	<machine name="cadash" sourcefile="taito/asuka.cpp">
 		<description>Cadash (World)</description>
 		<year>1989</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="c21_14.ic11" size="131072" crc="5daf13fb" sha1="c2be42b2cdc90b6463ce87211cf711c951b17fab" region="maincpu" offset="0"/>
 		<rom name="c21_16.ic15" size="131072" crc="cbaa2e75" sha1="c41ea71f2b0e72bf993dfcfd30f1994cae9f52a0" region="maincpu" offset="1"/>
 		<rom name="c21_13.ic10" size="131072" crc="6b9e0ee9" sha1="06314b9c0be19314e6b6ecb5274a63eb36b642f5" region="maincpu" offset="40000"/>
@@ -9016,8 +9017,8 @@
 		</port>
 		<driver status="good" emulation="good" cocktail="preliminary" savestate="supported"/>
 	</machine>
-	<machine name="captaven" sourcefile="dataeast/deco32.cpp">
-		<description>Captain America and The Avengers (Asia Rev 1.4)</description>
+	<machine name="captaven" sourcefile="dataeast/captaven.cpp">
+		<description>Captain America and The Avengers (Asia Version 1.4)</description>
 		<year>1991</year>
 		<manufacturer>Data East Corporation</manufacturer>
 		<rom name="hn_00-4.1e" size="131072" crc="147fb094" sha1="6bd759c42f4b7f9e1c3f2d3ece0b3ec72de1a982" region="maincpu" offset="0"/>
@@ -9035,10 +9036,10 @@
 		<rom name="man-03.12a" size="1048576" crc="2d9c52b2" sha1="8f6f4fe4f1a63099f889068991b34f9432b04fd7" region="tiles2" offset="80000"/>
 		<rom name="man-02.11a" size="1048576" crc="07674c05" sha1="08b33721d7eba4a1ff2e282f77eeb56535a52923" region="tiles2" offset="c0000"/>
 		<rom name="man-01.10a" size="1048576" crc="ae714ada" sha1="b4d5806265d422c8b837489afe93731f584e4adf" region="tiles2" offset="100000"/>
-		<rom name="man-06.17a" size="1048576" crc="a9a64297" sha1="e4cb441207b1907461c90c32c05a461c9bd30756" region="sprites1" offset="200000"/>
-		<rom name="man-07.18a" size="1048576" crc="b1db200c" sha1="970bb15e90194dd285f53594aca5dec3405e75d5" region="sprites1" offset="0"/>
-		<rom name="man-08.17c" size="1048576" crc="28e98e66" sha1="55dbbd945eada81f7dcc874fdcb0b9e62ea453f0" region="sprites1" offset="300000"/>
-		<rom name="man-09.21c" size="1048576" crc="1921245d" sha1="88d3b69a38c18c83d5658d057b95974f1bd371e6" region="sprites1" offset="100000"/>
+		<rom name="man-06.17a" size="1048576" crc="a9a64297" sha1="e4cb441207b1907461c90c32c05a461c9bd30756" region="sprites" offset="200000"/>
+		<rom name="man-07.18a" size="1048576" crc="b1db200c" sha1="970bb15e90194dd285f53594aca5dec3405e75d5" region="sprites" offset="0"/>
+		<rom name="man-08.17c" size="1048576" crc="28e98e66" sha1="55dbbd945eada81f7dcc874fdcb0b9e62ea453f0" region="sprites" offset="300000"/>
+		<rom name="man-09.21c" size="1048576" crc="1921245d" sha1="88d3b69a38c18c83d5658d057b95974f1bd371e6" region="sprites" offset="100000"/>
 		<rom name="man-10.14k" size="524288" crc="0132c578" sha1="70952f39508360bab51e1151531536f0ea6bbe06" region="oki2" offset="0"/>
 		<rom name="man-11.16k" size="524288" crc="0dc60a4c" sha1="4d0daa6a0272852a37f341a0cdc48baee0ad9dd8" region="oki1" offset="0"/>
 		<rom name="ts-00.4h" size="279" crc="ebc2908e" sha1="dca14a55abd1d88ee09092d4122614e55c3e7f53" region="plds" offset="0"/>
@@ -9054,7 +9055,7 @@
 		<device_ref tag=":palette" name="palette"/>
 		<device_ref tag=":tilegen1" name="deco16ic"/>
 		<device_ref tag=":tilegen2" name="deco16ic"/>
-		<device_ref tag=":spritegen1" name="decospr"/>
+		<device_ref tag=":spritegen" name="decospr"/>
 		<device_ref tag=":ioprot" name="deco146"/>
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":ymsnd" name="ym2151"/>
@@ -9381,7 +9382,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="cartfury" sourcefile="midway/vegas.cpp">
+	<machine name="cartfury" sourcefile="williams/vegas.cpp">
 		<description>CART Fury Championship Racing (ver 1.00)</description>
 		<year>2000</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -9593,20 +9594,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="cawing" sourcefile="capcom/cps1.cpp">
@@ -9905,7 +9908,7 @@
 	<machine name="chasehq" sourcefile="taito/taito_z.cpp">
 		<description>Chase H.Q. (World)</description>
 		<year>1988</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="b52-130.36" size="131072" crc="4e7beb46" sha1="b8890c4a2121aa93cfc3a41ddbb3b840d0804cfa" region="maincpu" offset="0"/>
 		<rom name="b52-136.29" size="131072" crc="2f414df0" sha1="0daad8b1f7512a5af0722983751841b5b18064ac" region="maincpu" offset="1"/>
 		<rom name="b52-131.37" size="131072" crc="aa945d83" sha1="9d8a8186a199cacc0e24cf1ee75d81ab8b056406" region="maincpu" offset="40000"/>
@@ -11489,7 +11492,7 @@
 		<device_ref tag=":scsp2" name="scsp"/>
 		<chip type="cpu" tag="maincpu" name="Hitachi SH-2 (SH7604)" clock="28000000"/>
 		<chip type="cpu" tag="soundcpu" name="Motorola MC68000" clock="16000000"/>
-		<chip type="cpu" tag="sub" name="Hitachi SH-1 (SH7032)" clock="16000000"/>
+		<chip type="cpu" tag="sub" name="Hitachi SH-1 (SH7032)" clock="8000000"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="scsp1" name="Yamaha YMF292-F SCSP" clock="22579000"/>
 		<chip type="audio" tag="scsp2" name="Yamaha YMF292-F SCSP" clock="22579000"/>
@@ -12325,7 +12328,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="crswd2bl" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="crswd2bl" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Crossed Swords 2 (bootleg of CD version)</description>
 		<year>1996</year>
 		<manufacturer>bootleg (Razoola)</manufacturer>
@@ -12493,7 +12496,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="crsword" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="crsword" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Crossed Swords (ALM-002 ~ ALH-002)</description>
 		<year>1991</year>
 		<manufacturer>Alpha Denshi Co.</manufacturer>
@@ -12885,7 +12888,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="ctomaday" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="ctomaday" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Captain Tomaday</description>
 		<year>1999</year>
 		<manufacturer>Visco</manufacturer>
@@ -13054,7 +13057,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="cyberlip" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="cyberlip" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Cyber-Lip (NGM-010)</description>
 		<year>1990</year>
 		<manufacturer>SNK</manufacturer>
@@ -13872,7 +13875,7 @@
 	<machine name="darius" sourcefile="taito/darius.cpp">
 		<description>Darius (World, rev 2)</description>
 		<year>1986</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="a96_59-1.186" size="65536" crc="11aab4eb" sha1="92f795e96a940e8d94abbf429ba4ac119992b991" region="maincpu" offset="0"/>
 		<rom name="a96_58-1.152" size="65536" crc="5f71e697" sha1="bf959cf82e8e8ba950ab40d9c008ad5de01385aa" region="maincpu" offset="1"/>
 		<rom name="a96_61-2.187" size="65536" crc="4736aa9b" sha1="05e549d96a053e6b3bc34359267adcd73f98dd4a" region="maincpu" offset="20000"/>
@@ -14059,7 +14062,7 @@
 	<machine name="darius2" sourcefile="taito/ninjaw.cpp">
 		<description>Darius II (triple screen) (Japan, rev 1)</description>
 		<year>1989</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="c07-32-1" size="65536" crc="216c8f6a" sha1="493b0779b99a228911f56ef9d2d4a3945683bec0" region="maincpu" offset="0"/>
 		<rom name="c07-29-1" size="65536" crc="48de567f" sha1="cdf50052933cd2603fd4374e8bae8b30a6c690b5" region="maincpu" offset="1"/>
 		<rom name="c07-31-1" size="65536" crc="8279d2f8" sha1="bd3c80a024a58e4b554f4867f56d7f5741eb3031" region="maincpu" offset="20000"/>
@@ -14211,7 +14214,7 @@
 	<machine name="darius2d" sourcefile="taito/warriorb.cpp" cloneof="darius2" romof="darius2">
 		<description>Darius II (dual screen) (Japan, Rev 2)</description>
 		<year>1989</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="c07_20-2.74" size="131072" crc="a0f345b8" sha1="1ce46e9707ec9ad51b26acf613eedc0536d227ae" region="maincpu" offset="0"/>
 		<rom name="c07_19-2.73" size="131072" crc="925412c6" sha1="7f1f62b7b2261c440dccd512ebd3faea141b7c83" region="maincpu" offset="1"/>
 		<rom name="c07_21-2.76" size="131072" crc="bdd60e37" sha1="777d3f67deba7df0da9d2605b2e2198f4bf47ebc" region="maincpu" offset="40000"/>
@@ -14355,7 +14358,7 @@
 	<machine name="dariusg" sourcefile="taito/taito_f3.cpp">
 		<description>Darius Gaiden - Silver Hawk (Ver 2.5O 1994/09/19)</description>
 		<year>1994</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="d87-12.bin" size="524288" crc="de78f328" sha1="126464a826685f5bfab6cc099448ce4df207a407" region="maincpu" offset="0"/>
 		<rom name="d87-11.bin" size="524288" crc="f7bed18e" sha1="db7d92680f9f406a5295ee85ce110c1a56ed386f" region="maincpu" offset="1"/>
 		<rom name="d87-10.bin" size="524288" crc="4149f66f" sha1="57d36a62d490d9e53b6b80a92ea0e8c41d61799f" region="maincpu" offset="2"/>
@@ -14451,7 +14454,7 @@
 		<device_ref tag=":audiocpu:psg" name="c6280"/>
 		<device_ref tag=":screen" name="screen"/>
 		<device_ref tag=":gfxdecode" name="gfxdecode"/>
-		<device_ref tag=":colors" name="palette"/>
+		<device_ref tag=":palette" name="palette"/>
 		<device_ref tag=":spriteram" name="buffered_spriteram16"/>
 		<device_ref tag=":tilegen1" name="deco16ic"/>
 		<device_ref tag=":tilegen2" name="deco16ic"/>
@@ -14859,6 +14862,8 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":scsp1" name="scsp"/>
 		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
 		<device_ref tag=":billboard" name="segabill"/>
 		<device_ref tag=":billboard:billcpu" name="z80"/>
 		<device_ref tag=":billboard:io" name="315_5338a"/>
@@ -14870,8 +14875,6 @@
 		<device_ref tag=":dsb2:mpegcpu" name="m68000"/>
 		<device_ref tag=":dsb2:uart" name="i8251"/>
 		<device_ref tag=":dsb2:uart_clock" name="clock"/>
-		<device_ref tag=":uart" name="i8251"/>
-		<device_ref tag=":uart_clock" name="clock"/>
 		<chip type="cpu" tag="maincpu" name="IBM PowerPC 603R" clock="166000000"/>
 		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
 		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
@@ -16885,7 +16888,7 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="timing" status="imperfect"/>
 	</machine>
-	<machine name="defender" sourcefile="midway/williams.cpp">
+	<machine name="defender" sourcefile="williams/williams.cpp">
 		<description>Defender (Red label)</description>
 		<year>1980</year>
 		<manufacturer>Williams</manufacturer>
@@ -18906,7 +18909,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="doubledr" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="doubledr" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Double Dragon (Neo-Geo)</description>
 		<year>1995</year>
 		<manufacturer>Technos Japan</manufacturer>
@@ -20168,6 +20171,8 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":scsp1" name="scsp"/>
 		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
 		<device_ref tag=":billboard" name="segabill"/>
 		<device_ref tag=":billboard:billcpu" name="z80"/>
 		<device_ref tag=":billboard:io" name="315_5338a"/>
@@ -20637,7 +20642,7 @@
 			<slotoption name="namco_amc" devname="namco_amc"/>
 		</slot>
 	</machine>
-	<machine name="eightman" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="eightman" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Eight Man (NGM-025 ~ NGH-025)</description>
 		<year>1991</year>
 		<manufacturer>SNK / Pallas</manufacturer>
@@ -20811,7 +20816,7 @@
 	<machine name="elevator" sourcefile="taito/taitosj.cpp">
 		<description>Elevator Action (BA3, 4 PCB version, 1.1)</description>
 		<year>1983</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="ba3__01.2764.ic1" size="8192" crc="da775a24" sha1="b4341d2c87285d7a3d1773e2d94b3f621ebb4489" region="maincpu" offset="0"/>
 		<rom name="ba3__02.2764.ic2" size="8192" crc="fbfd8b3a" sha1="9dff36dcaf43a2403b9a3497512dfec228144a7c" region="maincpu" offset="2000"/>
 		<rom name="ba3__03-1.2764.ic3" size="8192" crc="a2e69833" sha1="0f324c3adec27fcfebd779328db6f1da6cc8d227" region="maincpu" offset="4000"/>
@@ -20997,7 +21002,7 @@
 	<machine name="elvactr" sourcefile="taito/taito_f3.cpp">
 		<description>Elevator Action Returns (Ver 2.2O 1995/02/20)</description>
 		<year>1994</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="e02-12.20" size="524288" crc="ea5f5a32" sha1="4f30c56fbf068fee6d3afb2479043c7e89f6c055" region="maincpu" offset="0"/>
 		<rom name="e02-11.19" size="524288" crc="bcced8ff" sha1="09c38c78300ba9d710b4e46ca71014bbc5ac46b4" region="maincpu" offset="1"/>
 		<rom name="e02-10.18" size="524288" crc="72f1b952" sha1="9fc41ecfbee3581d9e92ff3a2ab6e4b93567e31d" region="maincpu" offset="2"/>
@@ -21146,13 +21151,13 @@
 		<device_ref tag=":soundcpu" name="z80"/>
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":ymsnd" name="ym2151"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="sega_315_5218"/>
 		<chip type="cpu" tag="maincpu" name="Hitachi FD1089B Encrypted CPU" clock="10000000"/>
 		<chip type="cpu" tag="subcpu" name="Motorola MC68000" clock="10000000"/>
 		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag="pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.054389" pixclock="6293700" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -22046,7 +22051,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="fatfursp" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="fatfursp" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Fatal Fury Special / Garou Densetsu Special (NGM-058 ~ NGH-058, set 1)</description>
 		<year>1993</year>
 		<manufacturer>SNK</manufacturer>
@@ -22221,7 +22226,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="fatfury1" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="fatfury1" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Fatal Fury - King of Fighters / Garou Densetsu - Shukumei no Tatakai (NGM-033 ~ NGH-033)</description>
 		<year>1991</year>
 		<manufacturer>SNK</manufacturer>
@@ -22393,7 +22398,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="fatfury2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="fatfury2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Fatal Fury 2 / Garou Densetsu 2 - Arata-naru Tatakai (NGM-047 ~ NGH-047)</description>
 		<year>1992</year>
 		<manufacturer>SNK</manufacturer>
@@ -22566,7 +22571,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="fatfury3" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="fatfury3" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - Haruka-naru Tatakai (NGM-069 ~ NGH-069)</description>
 		<year>1995</year>
 		<manufacturer>SNK</manufacturer>
@@ -22741,7 +22746,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="fbfrenzy" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="fbfrenzy" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Football Frenzy (NGM-034 ~ NGH-034)</description>
 		<year>1992</year>
 		<manufacturer>SNK</manufacturer>
@@ -23119,37 +23124,37 @@
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
 	<machine name="finalap2" sourcefile="namco/namcos2.cpp">
-		<description>Final Lap 2</description>
+		<description>Final Lap 2 (World, Rev B)</description>
 		<year>1990</year>
 		<manufacturer>Namco</manufacturer>
-		<rom name="fls2mp0b" size="131072" crc="97b48aae" sha1="03774b642c5a8186e443ad4138a9e86a931a2199" region="maincpu" offset="0"/>
-		<rom name="fls2mp1b" size="131072" crc="c9f3e0e7" sha1="4127e373239e4ca31b5fa8b71d8f10b7d7ed93c2" region="maincpu" offset="1"/>
-		<rom name="fls1sp0b" size="131072" crc="8bf15d9c" sha1="b6c14a9d06e99d03636fd6eb2163a18e2bbcc4b1" region="slave" offset="0"/>
-		<rom name="fls1sp1b" size="131072" crc="c1a31086" sha1="55317b72a219ffbfe00bf62ad2a635790d56f84e" region="slave" offset="1"/>
-		<rom name="flss0" size="131072" crc="c07cc10a" sha1="012f19a8014a77fdf0409241c0223b2c0c247357" region="audiocpu" offset="0"/>
+		<rom name="fls2_mp0b.11d" size="131072" crc="97b48aae" sha1="03774b642c5a8186e443ad4138a9e86a931a2199" region="maincpu" offset="0"/>
+		<rom name="fls2_mp1b.13d" size="131072" crc="c9f3e0e7" sha1="4127e373239e4ca31b5fa8b71d8f10b7d7ed93c2" region="maincpu" offset="1"/>
+		<rom name="fls1_sp0b.11k" size="131072" crc="8bf15d9c" sha1="b6c14a9d06e99d03636fd6eb2163a18e2bbcc4b1" region="slave" offset="0"/>
+		<rom name="fls1_sp1b.13k" size="131072" crc="c1a31086" sha1="55317b72a219ffbfe00bf62ad2a635790d56f84e" region="slave" offset="1"/>
+		<rom name="fls1_s0.7j" size="131072" crc="c07cc10a" sha1="012f19a8014a77fdf0409241c0223b2c0c247357" region="audiocpu" offset="0"/>
 		<rom name="sys2c65c.bin" size="32768" crc="a5b2a4ff" sha1="068bdfcc71a5e83706e8b23330691973c1c214dc" region="c65mcu:external" offset="0"/>
-		<rom name="fl2obj0" size="524288" crc="3657dd7a" sha1="8f286ec0642b09ff42bf0dbd784ae257d4ab278a" region="sprite" offset="3"/>
-		<rom name="fl2obj2" size="524288" crc="8ac933fd" sha1="b158df2ec55f49ec05861075c8d7bd265361dab0" region="sprite" offset="2"/>
-		<rom name="fl2obj4" size="524288" crc="e7b989e6" sha1="485e8148510edd1645f5b4fbbc9a53e8bf1c3e5f" region="sprite" offset="1"/>
-		<rom name="fl2obj6" size="524288" crc="4936583d" sha1="0145e89fdb5db28cb8f8ce59572729e83d8fad7c" region="sprite" offset="0"/>
-		<rom name="fl2obj1" size="524288" crc="3cebf419" sha1="bfdf1b768920e55850173a5bcd1007608e1a4f56" region="sprite" offset="200003"/>
-		<rom name="fl2obj3" size="524288" crc="0959ed55" sha1="00e640d449cb47da0e65baa798743395c7a1f632" region="sprite" offset="200002"/>
-		<rom name="fl2obj5" size="524288" crc="d74ae0d3" sha1="96c9798378da7bdc127ed7d02a4dd14dfd142550" region="sprite" offset="200001"/>
-		<rom name="fl2obj7" size="524288" crc="5ca68c93" sha1="fa326992338843ccfa458a5b85ba58537da666d0" region="sprite" offset="200000"/>
-		<rom name="fls2chr0" size="262144" crc="7bbda499" sha1="cf6ff072a40063cbe41eae1f60b29447a0020926" region="c123tmap" offset="0"/>
-		<rom name="fls2chr1" size="262144" crc="ac8940e5" sha1="449687d38cf830445df713ed4d675ed94ca5b375" region="c123tmap" offset="40000"/>
-		<rom name="fls2chr2" size="262144" crc="1756173d" sha1="c912163979098387aea9a0580e9ca55c1f7275f3" region="c123tmap" offset="80000"/>
-		<rom name="fls2chr3" size="262144" crc="69032785" sha1="cfcd12bea730f724444188c206adcdb5e755eb7d" region="c123tmap" offset="c0000"/>
-		<rom name="fls2chr4" size="262144" crc="8216cf42" sha1="79820435584d769b63649b554574486dbcd6f468" region="c123tmap" offset="100000"/>
-		<rom name="fls2chr5" size="262144" crc="dc3e8e1c" sha1="a7968cfa0ca2639364507b42526f10cf1b2000f4" region="c123tmap" offset="140000"/>
-		<rom name="fls2chr6" size="262144" crc="1ef4bdde" sha1="ceb36c021450efa4cb0fee278fa0b9d65f7d1f05" region="c123tmap" offset="180000"/>
-		<rom name="fls2chr7" size="262144" crc="53dafcde" sha1="f9d9460349b34bda95b8c206af7ce2347c951214" region="c123tmap" offset="1c0000"/>
-		<rom name="fls2sha" size="262144" crc="f7b40a85" sha1="a458a1cc0dae757fe8a15cb5f5ae46d3c033df00" region="c123tmap:mask" offset="0"/>
+		<rom name="fls_obj-0.4c" size="524288" crc="3657dd7a" sha1="8f286ec0642b09ff42bf0dbd784ae257d4ab278a" region="sprite" offset="3"/>
+		<rom name="fls_obj-2.4a" size="524288" crc="8ac933fd" sha1="b158df2ec55f49ec05861075c8d7bd265361dab0" region="sprite" offset="2"/>
+		<rom name="fls_obj-4.8c" size="524288" crc="e7b989e6" sha1="485e8148510edd1645f5b4fbbc9a53e8bf1c3e5f" region="sprite" offset="1"/>
+		<rom name="fls_obj-6.8a" size="524288" crc="4936583d" sha1="0145e89fdb5db28cb8f8ce59572729e83d8fad7c" region="sprite" offset="0"/>
+		<rom name="fls_obj-1.2c" size="524288" crc="3cebf419" sha1="bfdf1b768920e55850173a5bcd1007608e1a4f56" region="sprite" offset="200003"/>
+		<rom name="fls_obj-3.2a" size="524288" crc="0959ed55" sha1="00e640d449cb47da0e65baa798743395c7a1f632" region="sprite" offset="200002"/>
+		<rom name="fls_obj-5.5c" size="524288" crc="d74ae0d3" sha1="96c9798378da7bdc127ed7d02a4dd14dfd142550" region="sprite" offset="200001"/>
+		<rom name="fls_obj-7.6a" size="524288" crc="5ca68c93" sha1="fa326992338843ccfa458a5b85ba58537da666d0" region="sprite" offset="200000"/>
+		<rom name="fls2_chr-0.11n" size="262144" crc="7bbda499" sha1="cf6ff072a40063cbe41eae1f60b29447a0020926" region="c123tmap" offset="0"/>
+		<rom name="fls2_chr-1.11p" size="262144" crc="ac8940e5" sha1="449687d38cf830445df713ed4d675ed94ca5b375" region="c123tmap" offset="40000"/>
+		<rom name="fls_chr-2.11r" size="262144" crc="1756173d" sha1="c912163979098387aea9a0580e9ca55c1f7275f3" region="c123tmap" offset="80000"/>
+		<rom name="fls_chr-3.11s" size="262144" crc="69032785" sha1="cfcd12bea730f724444188c206adcdb5e755eb7d" region="c123tmap" offset="c0000"/>
+		<rom name="fls_chr-4.9n" size="262144" crc="8216cf42" sha1="79820435584d769b63649b554574486dbcd6f468" region="c123tmap" offset="100000"/>
+		<rom name="fls2_chr-5.9p" size="262144" crc="dc3e8e1c" sha1="a7968cfa0ca2639364507b42526f10cf1b2000f4" region="c123tmap" offset="140000"/>
+		<rom name="fls2_chr-6.9r" size="262144" crc="1ef4bdde" sha1="ceb36c021450efa4cb0fee278fa0b9d65f7d1f05" region="c123tmap" offset="180000"/>
+		<rom name="fls2_chr-7.9s" size="262144" crc="53dafcde" sha1="f9d9460349b34bda95b8c206af7ce2347c951214" region="c123tmap" offset="1c0000"/>
+		<rom name="fls2_sha.7n" size="262144" crc="f7b40a85" sha1="a458a1cc0dae757fe8a15cb5f5ae46d3c033df00" region="c123tmap:mask" offset="0"/>
 		<rom name="fls2dat0.13s" size="262144" crc="f1af432c" sha1="c514261a49ceb5c3ba0246519ba5d02e9a20d950" region="data_rom" offset="0"/>
 		<rom name="fls2dat1.13p" size="262144" crc="8719533e" sha1="98d2767da6f7f67da7af15e8cfed95adb04b7427" region="data_rom" offset="1"/>
 		<rom name="fl1-3.5b" size="256" crc="d179d99a" sha1="4e64f284c74d2b77f893bd28aaa6489084056aa2" region="c45_road:clut" offset="0"/>
-		<rom name="flsvoi1" size="524288" crc="590be52f" sha1="9ef2728dd533979b6019b422fc4961a6085428b4" region="c140" offset="0"/>
-		<rom name="flsvoi2" size="524288" crc="204b3c27" sha1="80cd13bfe2a4b3039b4a120b905674e46b8b3b9c" region="c140" offset="100000"/>
+		<rom name="fls_voi-1.3m" size="524288" crc="590be52f" sha1="9ef2728dd533979b6019b422fc4961a6085428b4" region="c140" offset="0"/>
+		<rom name="fls_voi-2.3l" size="524288" crc="204b3c27" sha1="80cd13bfe2a4b3039b4a120b905674e46b8b3b9c" region="c140" offset="100000"/>
 		<rom name="finalap2.nv" size="8192" crc="c7ae5d0a" sha1="9527e44accec0ec9d1990138d1b0bfc71957cc8a" region="nvram" offset="0"/>
 		<device_ref tag=":maincpu" name="m68000"/>
 		<device_ref tag=":scantimer" name="timer"/>
@@ -25109,7 +25114,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="galaxyfg" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="galaxyfg" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Galaxy Fight - Universal Warriors</description>
 		<year>1995</year>
 		<manufacturer>Sunsoft</manufacturer>
@@ -25285,7 +25290,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="ganryu" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="ganryu" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Ganryu / Musashi Ganryuki</description>
 		<year>1999</year>
 		<manufacturer>Visco</manufacturer>
@@ -25601,7 +25606,7 @@
 		<feature type="graphics" status="imperfect"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="garou" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="garou" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Garou - Mark of the Wolves (NGM-2530)</description>
 		<year>1999</year>
 		<manufacturer>SNK</manufacturer>
@@ -26260,14 +26265,14 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":soundlatch" name="generic_latch_8"/>
 		<device_ref tag=":ymsnd" name="ym2151"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="sega_315_5218"/>
 		<chip type="cpu" tag="maincpu" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="subx" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="suby" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="4026987"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4026987"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="4026987"/>
+		<chip type="audio" tag="pcm" name="Sega 315-5218 PCM" clock="4026987"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.000000" pixclock="5376240" htotal="342" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -26963,14 +26968,14 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":soundlatch" name="generic_latch_8"/>
 		<device_ref tag=":ymsnd" name="ym2151"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="sega_315_5218"/>
 		<chip type="cpu" tag="maincpu" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="subx" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="suby" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="4026987"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4026987"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="4026987"/>
+		<chip type="audio" tag="pcm" name="Sega 315-5218 PCM" clock="4026987"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.000000" pixclock="5376240" htotal="342" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -27605,7 +27610,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
 	</machine>
-	<machine name="gpilots" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="gpilots" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Ghost Pilots (NGM-020 ~ NGH-020)</description>
 		<year>1991</year>
 		<manufacturer>SNK</manufacturer>
@@ -27784,20 +27789,20 @@
 		<manufacturer>Konami</manufacturer>
 		<rom name="400-a06.15l" size="32768" crc="b99d8cff" sha1="18e277827a534bab2b3b8b81e51d886b8382d435" region="maincpu" offset="0"/>
 		<rom name="400-a04.10l" size="32768" crc="d02c9552" sha1="ec0aaa093541dab98412c11f666161cd558c383a" region="maincpu" offset="1"/>
-		<rom name="456-a07.17l" size="131072" crc="92df792c" sha1="aec916f70af92a2d6476d7a36ba9be265890f9aa" region="maincpu" offset="80000"/>
-		<rom name="456-a05.12l" size="131072" crc="5cafb263" sha1="7cd12c695ec6ef4d5785ce218911961fc3528e95" region="maincpu" offset="80001"/>
+		<rom name="456-a07.17l" size="131072" crc="92df792c" sha1="aec916f70af92a2d6476d7a36ba9be265890f9aa" region="maindata" offset="0"/>
+		<rom name="456-a05.12l" size="131072" crc="5cafb263" sha1="7cd12c695ec6ef4d5785ce218911961fc3528e95" region="maindata" offset="1"/>
 		<rom name="400-e03.5l" size="8192" crc="a5a8e57d" sha1="f4236770093392dec3f76835a5766e9b3ed64e2e" region="audiocpu" offset="0"/>
 		<rom name="400-a01.fse" merge="400-a01.fse" size="256" crc="5827b1e8" sha1="fa8cf5f868cfb08bce203baaebb6c4055ee2a000" region="k005289" offset="0"/>
 		<rom name="400-a02.fse" merge="400-a02.fse" size="256" crc="2f44f970" sha1="7ab46f9d5d587665782cefc623b8de0124a6d38a" region="k005289" offset="100"/>
 		<device_ref tag=":maincpu" name="m68000"/>
 		<device_ref tag=":scantimer" name="timer"/>
-		<device_ref tag=":audiocpu" name="z80"/>
 		<device_ref tag=":outlatch" name="ls259"/>
 		<device_ref tag=":intlatch" name="ls259"/>
 		<device_ref tag=":watchdog" name="watchdog"/>
 		<device_ref tag=":screen" name="screen"/>
 		<device_ref tag=":gfxdecode" name="gfxdecode"/>
 		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="z80"/>
 		<device_ref tag=":mono" name="speaker"/>
 		<device_ref tag=":soundlatch" name="generic_latch_8"/>
 		<device_ref tag=":ay1" name="ay8910"/>
@@ -29124,7 +29129,7 @@
 	<machine name="gunbustr" sourcefile="taito/gunbustr.cpp">
 		<description>Gunbuster (World)</description>
 		<year>1992</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="d27-23.bin" size="262144" crc="cd1037cc" sha1="8005a6a84081ce609e7a605ec8e00e740bfc6846" region="maincpu" offset="0"/>
 		<rom name="d27-22.bin" size="262144" crc="475949fc" sha1="3d5aa3411d2618004902f9d05dff61d9af01ff35" region="maincpu" offset="1"/>
 		<rom name="d27-21.bin" size="262144" crc="60950a8a" sha1="a0336bf6970baa6eaa998a112db840a7fd0452d7" region="maincpu" offset="2"/>
@@ -29725,7 +29730,7 @@
 	<machine name="gunfront" sourcefile="taito/taito_f2.cpp">
 		<description>Gun &amp; Frontier (World)</description>
 		<year>1990</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="c71-09.ic42" size="131072" crc="10a544a2" sha1="3b46bbd494b432d36aed3fd4b429cef074050c1d" region="maincpu" offset="0"/>
 		<rom name="c71-08.ic41" size="131072" crc="c17dc0a0" sha1="f84e0d1afb403bb06480e8687558cd320d60099e" region="maincpu" offset="1"/>
 		<rom name="c71-10.ic40" size="131072" crc="f39c0a06" sha1="8217f0dd855d6e15756349d47f327742ab50db15" region="maincpu" offset="40000"/>
@@ -29843,7 +29848,7 @@
 	<machine name="gunlock" sourcefile="taito/taito_f3.cpp">
 		<description>Gunlock (Ver 2.3O 1994/01/20)</description>
 		<year>1993</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="d66-18.ic24" size="262144" crc="8418513e" sha1="a071647268fad08802b88fb6d795612218b7ddef" region="maincpu" offset="0"/>
 		<rom name="d66-19.ic26" size="262144" crc="95731473" sha1="ab79821cd6098a4db84ebc9a499c29b1525510a5" region="maincpu" offset="1"/>
 		<rom name="d66-21.ic37" size="262144" crc="bd0d60f2" sha1="609ed2b04cb9efc4b370dcbdf22fd168318989be" region="maincpu" offset="2"/>
@@ -30477,13 +30482,13 @@
 		<device_ref tag=":soundcpu" name="z80"/>
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":ymsnd" name="ym2203"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="segapcm_discrete"/>
 		<chip type="cpu" tag="maincpu" name="Motorola MC68000" clock="6293700"/>
 		<chip type="cpu" tag="subcpu" name="Motorola MC68000" clock="6293700"/>
 		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2203 OPN" clock="4000000"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="8000000"/>
+		<chip type="audio" tag="pcm" name="Sega PCM (Discrete logic)" clock="4000000"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.054389" pixclock="6293700" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -30733,20 +30738,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="hsf2" sourcefile="capcom/cps2.cpp">
@@ -31806,7 +31813,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="ironclad" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="ironclad" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Choutetsu Brikin'ger / Iron Clad (prototype)</description>
 		<year>1996</year>
 		<manufacturer>Saurus</manufacturer>
@@ -32235,7 +32242,7 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="jockeygp" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="jockeygp" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Jockey Grand Prix (set 1)</description>
 		<year>2001</year>
 		<manufacturer>Sun Amusement / BrezzaSoft</manufacturer>
@@ -32585,7 +32592,7 @@
 			<extension name="cdr"/>
 		</device>
 	</machine>
-	<machine name="joust" sourcefile="midway/williams.cpp">
+	<machine name="joust" sourcefile="williams/williams.cpp">
 		<description>Joust (Green label)</description>
 		<year>1982</year>
 		<manufacturer>Williams</manufacturer>
@@ -32648,7 +32655,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="joust2" sourcefile="midway/williams.cpp">
+	<machine name="joust2" sourcefile="williams/williams.cpp">
 		<description>Joust 2 - Survival of the Fittest (revision 2)</description>
 		<year>1986</year>
 		<manufacturer>Williams</manufacturer>
@@ -32932,7 +32939,7 @@
 	<machine name="jungleh" sourcefile="taito/taitosj.cpp" cloneof="junglek" romof="junglek">
 		<description>Jungle Hunt (US)</description>
 		<year>1982</year>
-		<manufacturer>Taito America Corporation</manufacturer>
+		<manufacturer>Taito America</manufacturer>
 		<rom name="kn41a" size="4096" crc="6bf118d8" sha1="d6de28766aab90b5dbca7f74612ec8eafd144348" region="maincpu" offset="0"/>
 		<rom name="kn42.bin" size="4096" crc="bade53af" sha1="c3d2cf776598cb2d8684fa0b3ea7af90af9e8dae" region="maincpu" offset="1000"/>
 		<rom name="kn43.bin" merge="kn43.bin" size="4096" crc="a20e5a48" sha1="af961b671dc4c865d0181d08a70b902bb96f29d0" region="maincpu" offset="2000"/>
@@ -33123,7 +33130,7 @@
 	<machine name="junglek" sourcefile="taito/taitosj.cpp">
 		<description>Jungle King (Japan)</description>
 		<year>1982</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="kn21-1.bin" size="4096" crc="45f55d30" sha1="bb9518d7728938f673a663801e47ae0438cdbea1" region="maincpu" offset="0"/>
 		<rom name="kn22-1.bin" size="4096" crc="07cc9a21" sha1="3fe35935e0a430ab0edc6a762623972fa37ea926" region="maincpu" offset="1000"/>
 		<rom name="kn43.bin" size="4096" crc="a20e5a48" sha1="af961b671dc4c865d0181d08a70b902bb96f29d0" region="maincpu" offset="2000"/>
@@ -33451,10 +33458,10 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="kabukikl" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kabukikl" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Far East of Eden - Kabuki Klash / Tengai Makyou - Shin Den</description>
 		<year>1995</year>
-		<manufacturer>Hudson</manufacturer>
+		<manufacturer>Hudson Soft</manufacturer>
 		<biosset name="euro" description="Europe MVS (Ver. 2)"/>
 		<biosset name="euro-s1" description="Europe MVS (Ver. 1)"/>
 		<biosset name="asia-mv1c" description="Asia NEO-MVH MV1C"/>
@@ -34087,18 +34094,20 @@
 		<description>Meikyu Jima (Japan)</description>
 		<year>1988</year>
 		<manufacturer>Irem</manufacturer>
-		<rom name="mqj-p0" size="32768" crc="9cef394a" sha1="be9cc78420b4c35f8f9523b529bd56315749762c" region="maincpu" offset="0"/>
-		<rom name="mqj-b0" size="65536" crc="d9bcf4cd" sha1="f1f1cb8609343dae8637f115e5c96fd88a00f5eb" region="maincpu" offset="10000"/>
-		<rom name="mqj-b1" size="65536" crc="54a0abe1" sha1="0fb1d050c1e299394609214c903bcf4cf11329ff" region="maincpu" offset="20000"/>
-		<rom name="mqj-sp" size="65536" crc="bbcf3582" sha1="4a5b9d4161b26e3ca400573fa78268893e42d5db" region="soundcpu" offset="0"/>
-		<rom name="mqj-c0" size="65536" crc="975585c5" sha1="eb8245e458a5d4880add5b4a305a4468fa8f6491" region="chars" offset="0"/>
-		<rom name="mqj-c1" size="65536" crc="49d9936d" sha1="c4169ddd481c19e8e24457e2fe011db1b34db6d3" region="chars" offset="10000"/>
-		<rom name="mqj-00" size="262144" crc="7fb0c58f" sha1="f70ff39e2d648606686c87cf1a7a3ffb46c2656a" region="sprites" offset="0"/>
-		<rom name="mqj-10" size="262144" crc="3a189205" sha1="063d664d4cf709931b5e3a5b6eb7c75bcd57b518" region="sprites" offset="40000"/>
-		<rom name="mqj-v0" size="65536" crc="54762956" sha1="f08e983af28b16d27505d465ca64e7c7a93373a4" region="m72" offset="0"/>
-		<rom name="8d" size="256" crc="7379bb12" sha1="cf0c4e27911505f937004ea5eac1154956ec5d3b" region="proms" offset="0"/>
-		<rom name="6h" size="32" crc="face0cbb" sha1="c56aea3b7aaabbd4ff1b4546fcad94f51b473cde" region="proms" offset="100"/>
-		<rom name="7s" size="32" crc="face0cbb" sha1="c56aea3b7aaabbd4ff1b4546fcad94f51b473cde" region="proms" offset="120"/>
+		<rom name="mqj_a-p0-.ic4" size="32768" crc="9cef394a" sha1="be9cc78420b4c35f8f9523b529bd56315749762c" region="maincpu" offset="0"/>
+		<rom name="mqj_a-b0-.ic37" size="65536" crc="d9bcf4cd" sha1="f1f1cb8609343dae8637f115e5c96fd88a00f5eb" region="maincpu" offset="10000"/>
+		<rom name="mqj_a-b1-.ic38" size="65536" crc="54a0abe1" sha1="0fb1d050c1e299394609214c903bcf4cf11329ff" region="maincpu" offset="20000"/>
+		<rom name="mqj_a-sp-.ic34" size="65536" crc="bbcf3582" sha1="4a5b9d4161b26e3ca400573fa78268893e42d5db" region="soundcpu" offset="0"/>
+		<rom name="mqj_a-c0-.ic71" size="65536" crc="975585c5" sha1="eb8245e458a5d4880add5b4a305a4468fa8f6491" region="chars" offset="0"/>
+		<rom name="mqj_a-c1-.ic72" size="65536" crc="49d9936d" sha1="c4169ddd481c19e8e24457e2fe011db1b34db6d3" region="chars" offset="10000"/>
+		<rom name="mqj_a-00-.ic97" size="262144" crc="7fb0c58f" sha1="f70ff39e2d648606686c87cf1a7a3ffb46c2656a" region="sprites" offset="0"/>
+		<rom name="mqj_a-10-.ic95" size="262144" crc="3a189205" sha1="063d664d4cf709931b5e3a5b6eb7c75bcd57b518" region="sprites" offset="40000"/>
+		<rom name="mqj_a-v0-.ic31" size="65536" crc="54762956" sha1="f08e983af28b16d27505d465ca64e7c7a93373a4" region="m72" offset="0"/>
+		<rom name="m77_a-8d-.ic80" size="256" crc="7379bb12" sha1="cf0c4e27911505f937004ea5eac1154956ec5d3b" region="proms" offset="0"/>
+		<rom name="m77_a-030-.ic59" size="32" crc="face0cbb" sha1="c56aea3b7aaabbd4ff1b4546fcad94f51b473cde" region="proms" offset="100"/>
+		<rom name="m77_a-030-.ic75" size="32" crc="face0cbb" sha1="c56aea3b7aaabbd4ff1b4546fcad94f51b473cde" region="proms" offset="120"/>
+		<rom name="m77_a_2h-.ic8" size="260" status="nodump" region="plds" offset="0"/>
+		<rom name="m77_a_3p-.ic25" size="260" status="nodump" region="plds" offset="200"/>
 		<device_ref tag=":maincpu" name="z80"/>
 		<device_ref tag=":soundcpu" name="z80"/>
 		<device_ref tag=":v1" name="timer"/>
@@ -34392,7 +34401,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="kizuna" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kizuna" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Kizuna Encounter - Super Tag Battle / Fu'un Super Tag Battle</description>
 		<year>1996</year>
 		<manufacturer>SNK</manufacturer>
@@ -34924,7 +34933,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="kof2000" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof2000" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters 2000 (NGM-2570 ~ NGH-2570)</description>
 		<year>2000</year>
 		<manufacturer>SNK</manufacturer>
@@ -35104,7 +35113,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof2001" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof2001" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters 2001 (NGM-262?)</description>
 		<year>2001</year>
 		<manufacturer>Eolith / SNK</manufacturer>
@@ -35282,7 +35291,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof2002" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof2002" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters 2002 (NGM-2650 ~ NGH-2650)</description>
 		<year>2002</year>
 		<manufacturer>Eolith / Playmore</manufacturer>
@@ -35460,7 +35469,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof2003" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof2003" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters 2003 (NGM-2710, Export)</description>
 		<year>2003</year>
 		<manufacturer>SNK Playmore</manufacturer>
@@ -35639,7 +35648,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof94" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof94" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters '94 (NGM-055 ~ NGH-055)</description>
 		<year>1994</year>
 		<manufacturer>SNK</manufacturer>
@@ -35815,7 +35824,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof95" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof95" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters '95 (NGM-084)</description>
 		<year>1995</year>
 		<manufacturer>SNK</manufacturer>
@@ -35991,7 +36000,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof96" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof96" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters '96 (NGM-214)</description>
 		<year>1996</year>
 		<manufacturer>SNK</manufacturer>
@@ -36168,7 +36177,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof97" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof97" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters '97 (NGM-2320)</description>
 		<year>1997</year>
 		<manufacturer>SNK</manufacturer>
@@ -36343,7 +36352,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof98" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof98" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends (NGM-2420)</description>
 		<year>1998</year>
 		<manufacturer>SNK</manufacturer>
@@ -36522,7 +36531,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kof99" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kof99" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The King of Fighters '99 - Millennium Battle (NGM-2510)</description>
 		<year>1999</year>
 		<manufacturer>SNK</manufacturer>
@@ -36828,7 +36837,7 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="sound" overall="imperfect"/>
 	</machine>
-	<machine name="kotm" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kotm" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>King of the Monsters (set 1)</description>
 		<year>1991</year>
 		<manufacturer>SNK</manufacturer>
@@ -37000,7 +37009,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="kotm2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="kotm2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>King of the Monsters 2 - The Next Thing (NGM-039 ~ NGH-039)</description>
 		<year>1992</year>
 		<manufacturer>SNK</manufacturer>
@@ -37583,7 +37592,7 @@
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="lastblad" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="lastblad" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)</description>
 		<year>1997</year>
 		<manufacturer>SNK</manufacturer>
@@ -37759,7 +37768,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="lastbld2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="lastbld2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The Last Blade 2 / Bakumatsu Roman - Dai Ni Maku Gekka no Kenshi (NGM-2430 ~ NGH-2430)</description>
 		<year>1998</year>
 		<manufacturer>SNK</manufacturer>
@@ -37935,7 +37944,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="lbowling" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="lbowling" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>League Bowling (NGM-019 ~ NGH-019)</description>
 		<year>1990</year>
 		<manufacturer>SNK</manufacturer>
@@ -38217,6 +38226,8 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":scsp1" name="scsp"/>
 		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
 		<device_ref tag=":billboard" name="segabill"/>
 		<device_ref tag=":billboard:billcpu" name="z80"/>
 		<device_ref tag=":billboard:io" name="315_5338a"/>
@@ -38590,7 +38601,7 @@
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="lresort" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="lresort" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Last Resort</description>
 		<year>1992</year>
 		<manufacturer>SNK</manufacturer>
@@ -39095,7 +39106,7 @@
 		</port>
 		<driver status="good" emulation="good" cocktail="preliminary" savestate="supported"/>
 	</machine>
-	<machine name="magdrop2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="magdrop2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Magical Drop II</description>
 		<year>1996</year>
 		<manufacturer>Data East Corporation</manufacturer>
@@ -39263,7 +39274,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="magdrop3" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="magdrop3" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Magical Drop III</description>
 		<year>1997</year>
 		<manufacturer>Data East Corporation</manufacturer>
@@ -39434,7 +39445,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="maglord" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="maglord" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Magician Lord (NGM-005)</description>
 		<year>1990</year>
 		<manufacturer>Alpha Denshi Co.</manufacturer>
@@ -40405,7 +40416,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="matrim" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="matrim" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Matrimelee / Shin Gouketsuji Ichizoku Toukon (NGM-2660 ~ NGH-2660)</description>
 		<year>2003</year>
 		<manufacturer>Noise Factory / Atlus</manufacturer>
@@ -41273,7 +41284,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="mk" sourcefile="midway/midtunit.cpp">
+	<machine name="mk" sourcefile="williams/midtunit.cpp">
 		<description>Mortal Kombat (rev 5.0 T-Unit 03/19/93)</description>
 		<year>1992</year>
 		<manufacturer>Midway</manufacturer>
@@ -41398,7 +41409,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="mk2" sourcefile="midway/midtunit.cpp">
+	<machine name="mk2" sourcefile="williams/midtunit.cpp">
 		<description>Mortal Kombat II (rev L3.1)</description>
 		<year>1993</year>
 		<manufacturer>Midway</manufacturer>
@@ -41524,7 +41535,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="mk3" sourcefile="midway/midwunit.cpp">
+	<machine name="mk3" sourcefile="williams/midwunit.cpp">
 		<description>Mortal Kombat 3 (rev 2.1)</description>
 		<year>1994</year>
 		<manufacturer>Midway</manufacturer>
@@ -42995,7 +43006,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="mslug" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="mslug" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Metal Slug - Super Vehicle-001</description>
 		<year>1996</year>
 		<manufacturer>Nazca</manufacturer>
@@ -43166,7 +43177,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="mslug2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="mslug2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Metal Slug 2 - Super Vehicle-001/II (NGM-2410 ~ NGH-2410)</description>
 		<year>1998</year>
 		<manufacturer>SNK</manufacturer>
@@ -43338,7 +43349,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="mslug3" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="mslug3" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Metal Slug 3 (NGM-2560)</description>
 		<year>2000</year>
 		<manufacturer>SNK</manufacturer>
@@ -43518,7 +43529,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="mslug4" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="mslug4" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Metal Slug 4 (NGM-2630)</description>
 		<year>2002</year>
 		<manufacturer>Mega / Noise Factory / Playmore</manufacturer>
@@ -43693,7 +43704,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="mslug5" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="mslug5" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Metal Slug 5 (NGM-2680)</description>
 		<year>2003</year>
 		<manufacturer>SNK Playmore</manufacturer>
@@ -43871,7 +43882,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="mslugx" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="mslugx" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Metal Slug X - Super Vehicle-001 (NGM-2500 ~ NGH-2500)</description>
 		<year>1999</year>
 		<manufacturer>SNK</manufacturer>
@@ -44678,7 +44689,7 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="timing" status="imperfect"/>
 	</machine>
-	<machine name="mutnat" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="mutnat" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Mutation Nation (NGM-014 ~ NGH-014)</description>
 		<year>1992</year>
 		<manufacturer>SNK</manufacturer>
@@ -45304,7 +45315,7 @@
 		<feature type="graphics" status="imperfect"/>
 		<feature type="sound" overall="imperfect"/>
 	</machine>
-	<machine name="nam1975" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="nam1975" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>NAM-1975 (NGM-001 ~ NGH-001)</description>
 		<year>1990</year>
 		<manufacturer>SNK</manufacturer>
@@ -45642,7 +45653,7 @@
 		<feature type="graphics" status="imperfect"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="narc" sourcefile="midway/midyunit.cpp">
+	<machine name="narc" sourcefile="williams/midyunit.cpp">
 		<description>Narc (rev 7.00)</description>
 		<year>1988</year>
 		<manufacturer>Williams</manufacturer>
@@ -45762,7 +45773,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="nbahangt" sourcefile="midway/midwunit.cpp">
+	<machine name="nbahangt" sourcefile="williams/midwunit.cpp">
 		<description>NBA Hangtime (ver L1.3 10/10/96)</description>
 		<year>1996</year>
 		<manufacturer>Midway</manufacturer>
@@ -45868,7 +45879,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="nbajam" sourcefile="midway/midtunit.cpp">
+	<machine name="nbajam" sourcefile="williams/midtunit.cpp">
 		<description>NBA Jam (rev 3.01 4/07/93)</description>
 		<year>1993</year>
 		<manufacturer>Midway</manufacturer>
@@ -45988,7 +45999,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="nbajamte" sourcefile="midway/midtunit.cpp">
+	<machine name="nbajamte" sourcefile="williams/midtunit.cpp">
 		<description>NBA Jam Tournament Edition (rev 4.0 3/23/94)</description>
 		<year>1994</year>
 		<manufacturer>Midway</manufacturer>
@@ -46300,7 +46311,7 @@
 		</port>
 		<driver status="good" emulation="good" cocktail="preliminary" savestate="supported"/>
 	</machine>
-	<machine name="ncombat" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="ncombat" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Ninja Combat (NGM-009)</description>
 		<year>1990</year>
 		<manufacturer>Alpha Denshi Co.</manufacturer>
@@ -46475,7 +46486,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="ncommand" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="ncommand" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Ninja Commando</description>
 		<year>1992</year>
 		<manufacturer>Alpha Denshi Co.</manufacturer>
@@ -46734,13 +46745,13 @@
 		<rom name="400-a01.fse" size="256" crc="5827b1e8" sha1="fa8cf5f868cfb08bce203baaebb6c4055ee2a000" region="k005289" offset="0"/>
 		<rom name="400-a02.fse" size="256" crc="2f44f970" sha1="7ab46f9d5d587665782cefc623b8de0124a6d38a" region="k005289" offset="100"/>
 		<device_ref tag=":maincpu" name="m68000"/>
-		<device_ref tag=":audiocpu" name="z80"/>
 		<device_ref tag=":outlatch" name="ls259"/>
 		<device_ref tag=":intlatch" name="ls259"/>
 		<device_ref tag=":watchdog" name="watchdog"/>
 		<device_ref tag=":screen" name="screen"/>
 		<device_ref tag=":gfxdecode" name="gfxdecode"/>
 		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="z80"/>
 		<device_ref tag=":mono" name="speaker"/>
 		<device_ref tag=":soundlatch" name="generic_latch_8"/>
 		<device_ref tag=":ay1" name="ay8910"/>
@@ -46873,10 +46884,10 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="neobombe" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="neobombe" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Neo Bomberman</description>
 		<year>1997</year>
-		<manufacturer>Hudson</manufacturer>
+		<manufacturer>Hudson Soft</manufacturer>
 		<biosset name="euro" description="Europe MVS (Ver. 2)"/>
 		<biosset name="euro-s1" description="Europe MVS (Ver. 1)"/>
 		<biosset name="asia-mv1c" description="Asia NEO-MVH MV1C"/>
@@ -47044,7 +47055,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="neocup98" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="neocup98" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Neo-Geo Cup '98 - The Road to the Victory</description>
 		<year>1998</year>
 		<manufacturer>SNK</manufacturer>
@@ -47213,7 +47224,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="neogeo" sourcefile="neogeo/neogeo.cpp" isbios="yes">
+	<machine name="neogeo" sourcefile="snk/neogeo.cpp" isbios="yes">
 		<description>Neo-Geo MV-6F</description>
 		<year>1990</year>
 		<manufacturer>SNK</manufacturer>
@@ -47425,7 +47436,7 @@
 		</slot>
 		<softwarelist tag="cart_list" name="neogeo" status="original"/>
 	</machine>
-	<machine name="neomrdo" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="neomrdo" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Neo Mr. Do!</description>
 		<year>1996</year>
 		<manufacturer>Visco</manufacturer>
@@ -47726,7 +47737,7 @@
 	<machine name="nightstr" sourcefile="taito/taito_z.cpp">
 		<description>Night Striker (World)</description>
 		<year>1989</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="b91-45.bin" size="131072" crc="7ad63421" sha1="4ecfc3c8cd691d878e5d9212ccff0d225bb06bd9" region="maincpu" offset="0"/>
 		<rom name="b91-44.bin" size="131072" crc="4bc30adf" sha1="531d6ee9c8ff0d4ed07c15465ec7cb78cf976115" region="maincpu" offset="1"/>
 		<rom name="b91-43.bin" size="131072" crc="3e6f727a" sha1="ae837131a4c0c9bc5deba155c2a5b7ae72f1d070" region="maincpu" offset="40000"/>
@@ -48590,7 +48601,7 @@
 	<machine name="ninjaw" sourcefile="taito/ninjaw.cpp">
 		<description>The Ninja Warriors (World, later version)</description>
 		<year>1987</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="b31_45.35" size="65536" crc="107902c3" sha1="026f71a918059e3374ae262304a2ee1270f5c5bd" region="maincpu" offset="0"/>
 		<rom name="b31_47.32" size="65536" crc="bd536b1e" sha1="39c86cbb3a33fc77a0141b5648a1aca862e0a5fd" region="maincpu" offset="1"/>
 		<rom name="b31_29.34" size="65536" crc="f2941a37" sha1="cf1f231d9caddc903116a8b654f49181ca459697" region="maincpu" offset="20000"/>
@@ -48752,7 +48763,7 @@
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="nitd" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="nitd" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Nightmare in the Dark</description>
 		<year>2000</year>
 		<manufacturer>Eleven / Gavaking</manufacturer>
@@ -49964,7 +49975,7 @@
 		<device_ref tag=":segaic16road" name="segaic16_road"/>
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":ymsnd" name="ym2151"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="sega_315_5218"/>
 		<device_ref tag=":bankmotor" name="timer"/>
 		<device_ref tag=":sprites" name="sega_outrun_sprite"/>
 		<device_ref tag=":nvram" name="nvram"/>
@@ -49973,7 +49984,7 @@
 		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag="pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.054389" pixclock="6293700" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -50591,10 +50602,10 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="panicbom" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="panicbom" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Panic Bomber</description>
 		<year>1994</year>
-		<manufacturer>Eighting / Hudson</manufacturer>
+		<manufacturer>Eighting / Hudson Soft</manufacturer>
 		<biosset name="euro" description="Europe MVS (Ver. 2)"/>
 		<biosset name="euro-s1" description="Europe MVS (Ver. 1)"/>
 		<biosset name="asia-mv1c" description="Asia NEO-MVH MV1C"/>
@@ -50822,7 +50833,7 @@
 		<chip type="audio" tag="tms" name="TMS5220C" clock="625000"/>
 		<display tag="screen" type="raster" rotate="0" width="512" height="384" refresh="60.096154" pixclock="16000000" htotal="640" hbend="0" hbstart="512" vtotal="416" vbend="0" vbstart="384" />
 		<sound channels="1"/>
-		<input players="1" coins="3">
+		<input players="1" coins="2">
 			<control type="stick" buttons="2" minimum="16" maximum="240" sensitivity="100" keydelta="10"/>
 		</input>
 		<dipswitch name="Coinage" tag="DSW0" mask="3">
@@ -51190,7 +51201,7 @@
 		<driver status="imperfect" emulation="good" cocktail="preliminary" savestate="supported"/>
 		<feature type="graphics" status="imperfect"/>
 	</machine>
-	<machine name="pbobbl2n" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="pbobbl2n" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)</description>
 		<year>1999</year>
 		<manufacturer>Taito (SNK license)</manufacturer>
@@ -51361,7 +51372,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="pbobblen" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="pbobblen" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Puzzle Bobble / Bust-A-Move (Neo-Geo, NGM-083)</description>
 		<year>1994</year>
 		<manufacturer>Taito</manufacturer>
@@ -51616,14 +51627,14 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":soundlatch" name="generic_latch_8"/>
 		<device_ref tag=":ymsnd" name="ym2151"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="sega_315_5218"/>
 		<chip type="cpu" tag="maincpu" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="subx" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="suby" name="Motorola MC68000 (Musashi)" clock="12500000"/>
 		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="4026987"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4026987"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="4026987"/>
+		<chip type="audio" tag="pcm" name="Sega 315-5218 PCM" clock="4026987"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.000000" pixclock="5376240" htotal="342" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -52129,7 +52140,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="pigskin" sourcefile="midway/mcr68.cpp">
+	<machine name="pigskin" sourcefile="bally/mcr68.cpp">
 		<description>Pigskin 621AD (rev 1.1K 8/01/90)</description>
 		<year>1990</year>
 		<manufacturer>Midway</manufacturer>
@@ -53248,7 +53259,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="preisle2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="preisle2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Prehistoric Isle 2</description>
 		<year>1999</year>
 		<manufacturer>Yumekobo / Saurus</manufacturer>
@@ -53952,7 +53963,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="pspikes2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="pspikes2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Power Spikes II (NGM-068)</description>
 		<year>1994</year>
 		<manufacturer>Video System Co.</manufacturer>
@@ -54603,7 +54614,7 @@
 	<machine name="pulirula" sourcefile="taito/taito_f2.cpp">
 		<description>PuLiRuLa (World, dual PCB)</description>
 		<year>1991</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="c98-12.rom" size="262144" crc="816d6cde" sha1="cac583440cca9aa57373f4a6c9a68c5442a5258b" region="maincpu" offset="0"/>
 		<rom name="c98-16.rom" size="262144" crc="59df5c77" sha1="e6f222589dd8d046fb92dcf5f68ab0f6cd1b725b" region="maincpu" offset="1"/>
 		<rom name="c98-06.rom" size="131072" crc="64a71b45" sha1="40734c378f15cd47d4128f9713bf19b0d42c0517" region="maincpu" offset="80000"/>
@@ -54718,7 +54729,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="pulstar" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="pulstar" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Pulstar</description>
 		<year>1995</year>
 		<manufacturer>Aicom</manufacturer>
@@ -55764,20 +55775,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="racingj" sourcefile="konami/nwk-tr.cpp">
@@ -56519,7 +56532,7 @@
 			<dipvalue name="1000000 3000000" value="4096"/>
 			<dipvalue name="No Extend" value="0"/>
 		</dipswitch>
-		<dipswitch name="Demo Sound" tag="DSW" mask="16384">
+		<dipswitch name="Demo Sounds" tag="DSW" mask="16384">
 			<diplocation name="SW2" number="7" inverted="yes"/>
 			<dipvalue name="Off" value="0"/>
 			<dipvalue name="On" value="16384" default="yes"/>
@@ -56646,7 +56659,7 @@
 			<dipvalue name="Off" value="8192" default="yes"/>
 			<dipvalue name="On" value="0"/>
 		</dipswitch>
-		<dipswitch name="Demo Sound" tag="DSW" mask="16384">
+		<dipswitch name="Demo Sounds" tag="DSW" mask="16384">
 			<diplocation name="SW2" number="7" inverted="yes"/>
 			<dipvalue name="Off" value="0"/>
 			<dipvalue name="On" value="16384" default="yes"/>
@@ -56666,7 +56679,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="rampage" sourcefile="midway/mcr3.cpp">
+	<machine name="rampage" sourcefile="bally/mcr3.cpp">
 		<description>Rampage (Rev 3, 8/27/86)</description>
 		<year>1986</year>
 		<manufacturer>Bally Midway</manufacturer>
@@ -56765,7 +56778,7 @@
 	<machine name="rastan" sourcefile="taito/rastan.cpp">
 		<description>Rastan (World Rev 1)</description>
 		<year>1987</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="b04-38.19" size="65536" crc="1c91dbb1" sha1="17fc55e8546cc0b847aebd67fb4570a1e9f128f3" region="maincpu" offset="0"/>
 		<rom name="b04-37.7" size="65536" crc="ecf20bdd" sha1="92e46b1edef40a19be17091c09daba598d77bca8" region="maincpu" offset="1"/>
 		<rom name="b04-40.20" size="65536" crc="0930d4b3" sha1="c269b3856040ed9409de99cca48f22a2f355fc4c" region="maincpu" offset="20000"/>
@@ -57072,7 +57085,7 @@
 		<feature type="lan" status="unemulated"/>
 	</machine>
 	<machine name="raycris" sourcefile="sony/taitogn.cpp" romof="coh3002t">
-		<description>Ray Crisis (V2.03O 1998/11/15 15:43)</description>
+		<description>RayCrisis (V2.03O 1998/11/15 15:43)</description>
 		<year>1998</year>
 		<manufacturer>Taito</manufacturer>
 		<biosset name="v1" description="G NET BIOS v1 flasher"/>
@@ -57202,7 +57215,7 @@
 		</slot>
 	</machine>
 	<machine name="raystorm" sourcefile="sony/zn.cpp" romof="coh1000t">
-		<description>Ray Storm (Ver 2.06A)</description>
+		<description>RayStorm (Ver 2.06A)</description>
 		<year>1996</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="m534002c-14.ic353" merge="m534002c-14.ic353" size="524288" crc="e3f23b6e" sha1="e18907cf8c6ba54d96edba0a9a00487a90219e0d" region="maincpu:rom" offset="0"/>
@@ -57297,7 +57310,7 @@
 		<feature type="graphics" overall="imperfect"/>
 		<feature type="sound" overall="imperfect"/>
 	</machine>
-	<machine name="rbff1" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="rbff1" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Real Bout Fatal Fury / Real Bout Garou Densetsu (NGM-095 ~ NGH-095)</description>
 		<year>1995</year>
 		<manufacturer>SNK</manufacturer>
@@ -57474,7 +57487,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="rbff2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="rbff2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - The Newcomers (NGM-2400)</description>
 		<year>1998</year>
 		<manufacturer>SNK</manufacturer>
@@ -57650,7 +57663,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="rbffspec" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="rbffspec" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Real Bout Fatal Fury Special / Real Bout Garou Densetsu Special</description>
 		<year>1996</year>
 		<manufacturer>SNK</manufacturer>
@@ -57830,7 +57843,7 @@
 	<machine name="rbisland" sourcefile="taito/rbisland.cpp">
 		<description>Rainbow Islands (rev 1)</description>
 		<year>1987</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="b22-10-1.19" size="65536" crc="e34a50ca" sha1="17a92cd7182db1e18000b1ae689758fcfd70fe16" region="maincpu" offset="0"/>
 		<rom name="b22-11-1.20" size="65536" crc="6a31a093" sha1="1e99ae47811c0d3774d138dab02ac50bc1b92173" region="maincpu" offset="1"/>
 		<rom name="b22-08-1.21" size="65536" crc="15d6e17a" sha1="7b0339180239e75adf1437aee276b652a1bfee51" region="maincpu" offset="20000"/>
@@ -57979,7 +57992,7 @@
 	<machine name="rbislande" sourcefile="taito/rbisland.cpp">
 		<description>Rainbow Islands - Extra Version</description>
 		<year>1988</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="b39-01.19" size="65536" crc="50690880" sha1="88cd8739eaa6e4e5988be225c31d2a6605173d39" region="maincpu" offset="0"/>
 		<rom name="b39-02.20" size="65536" crc="4dead71f" sha1="03e9df33fc8fc64d6eeb1c3a763acac00b10c071" region="maincpu" offset="1"/>
 		<rom name="b39-03.21" size="65536" crc="4a4cb785" sha1="6ba7de3901a001cbb31713664ccb68b943a5578f" region="maincpu" offset="20000"/>
@@ -58270,7 +58283,7 @@
 	<machine name="recalh" sourcefile="taito/taito_f3.cpp">
 		<description>Recalhorn (Ver 1.42J 1994/5/11, prototype)</description>
 		<year>1994</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="rh_mpr3.bin" size="524288" crc="65202dd4" sha1="8d5748d03868b127a7d727e00c1bce51a5bae129" region="maincpu" offset="0"/>
 		<rom name="rh_mpr2.bin" size="524288" crc="3eda66db" sha1="6d726762404d85008d6bebe5a77cebe505b650fc" region="maincpu" offset="1"/>
 		<rom name="rh_mpr1.bin" size="524288" crc="536e74ca" sha1="2a50bb2e93563273c4b0c0c59143893fe25d007e" region="maincpu" offset="2"/>
@@ -59068,7 +59081,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="rmpgwt" sourcefile="midway/midwunit.cpp">
+	<machine name="rmpgwt" sourcefile="williams/midwunit.cpp">
 		<description>Rampage: World Tour (rev 1.3)</description>
 		<year>1997</year>
 		<manufacturer>Midway</manufacturer>
@@ -59290,7 +59303,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
 	</machine>
-	<machine name="roboarmy" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="roboarmy" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Robo Army</description>
 		<year>1991</year>
 		<manufacturer>SNK</manufacturer>
@@ -59461,8 +59474,8 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="robotron" sourcefile="midway/williams.cpp">
-		<description>Robotron: 2084 (Solid Blue label)</description>
+	<machine name="robotron" sourcefile="williams/williams.cpp">
+		<description>Robotron: 2084 (Release 5, solid blue label)</description>
 		<year>1982</year>
 		<manufacturer>Williams / Vid Kidz</manufacturer>
 		<rom name="2084_rom_1b_3005-13.e4" size="4096" crc="66c7d3ef" sha1="f6d60e26c209c1df2cc01ac07ad5559daa1b7118" region="maincpu" offset="0"/>
@@ -59685,7 +59698,7 @@
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="sound" overall="imperfect"/>
 	</machine>
-	<machine name="rotd" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="rotd" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Rage of the Dragons (NGM-2640?)</description>
 		<year>2002</year>
 		<manufacturer>Evoga / Playmore</manufacturer>
@@ -61395,7 +61408,7 @@
 		</port>
 		<driver status="good" emulation="good" cocktail="preliminary" savestate="supported"/>
 	</machine>
-	<machine name="s1945p" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="s1945p" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Strikers 1945 Plus</description>
 		<year>1999</year>
 		<manufacturer>Psikyo</manufacturer>
@@ -61574,7 +61587,7 @@
 		</slot>
 	</machine>
 	<machine name="sailormn" sourcefile="atlus/cave.cpp">
-		<description>Pretty Soldier Sailor Moon (Version 95/03/22B, Europe)</description>
+		<description>Bishoujo Senshi Sailor Moon (Version 95/03/22B, Japan)</description>
 		<year>1995</year>
 		<manufacturer>Gazelle (Banpresto license)</manufacturer>
 		<rom name="bpsm945a.u45" size="524288" crc="898c9515" sha1="0fe8d7f13f5cfe2f6e79a0a21b2e8e7e70e65c4b" region="maincpu" offset="0"/>
@@ -61594,7 +61607,7 @@
 		<rom name="bpsm.u63" size="2097152" crc="d57a56b4" sha1="e039b336887b66eba4e0630a3cb04cbd8fe14073" region="layer2" offset="e00000"/>
 		<rom name="bpsm.u48" size="2097152" crc="498e4ed1" sha1="28d45a41702d9e5af4e214c1800b2e513ec84d51" region="oki1" offset="0"/>
 		<rom name="bpsm.u47" size="524288" crc="0f2901b9" sha1="ebd3e9e39e8d2bc91688dac19b99548a28b4733c" region="oki2" offset="0"/>
-		<rom name="sailormn_europe.nv" size="128" crc="59a7dc50" sha1="6b116bdfbde42192b01678cb0b9bab0f2e56fd28" region="eeprom" offset="0"/>
+		<rom name="sailormn_japan.nv" size="128" crc="ea03c30a" sha1="2afc71f932674e34fc4491db0e2027e0371569fc" region="eeprom" offset="0"/>
 		<device_ref tag=":maincpu" name="m68000"/>
 		<device_ref tag=":int_timer" name="timer"/>
 		<device_ref tag=":screen.0" name="screen"/>
@@ -61892,7 +61905,7 @@
 		<feature type="graphics" status="imperfect"/>
 		<feature type="sound" overall="imperfect"/>
 	</machine>
-	<machine name="samsh5sp" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="samsh5sp" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Samurai Shodown V Special / Samurai Spirits Zero Special (NGM-2720)</description>
 		<year>2004</year>
 		<manufacturer>Yuki Enterprise / SNK Playmore</manufacturer>
@@ -62070,7 +62083,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="samsho" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="samsho" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Samurai Shodown / Samurai Spirits (NGM-045)</description>
 		<year>1993</year>
 		<manufacturer>SNK</manufacturer>
@@ -62244,7 +62257,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="samsho2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="samsho2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen (NGM-063 ~ NGH-063)</description>
 		<year>1994</year>
 		<manufacturer>SNK</manufacturer>
@@ -62421,7 +62434,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="samsho3" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="samsho3" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Samurai Shodown III / Samurai Spirits - Zankurou Musouken (NGM-087)</description>
 		<year>1995</year>
 		<manufacturer>SNK</manufacturer>
@@ -62600,7 +62613,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="samsho4" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="samsho4" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Samurai Shodown IV - Amakusa's Revenge / Samurai Spirits - Amakusa Kourin (NGM-222 ~ NGH-222)</description>
 		<year>1996</year>
 		<manufacturer>SNK</manufacturer>
@@ -62777,7 +62790,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="samsho5" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="samsho5" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Samurai Shodown V / Samurai Spirits Zero (NGM-2700, set 1)</description>
 		<year>2003</year>
 		<manufacturer>Yuki Enterprise / SNK Playmore</manufacturer>
@@ -63073,7 +63086,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="saurnfrnt" sourcefile="midway/midyunit.cpp" cloneof="strkforc" romof="strkforc">
+	<machine name="saurnfrnt" sourcefile="williams/midyunit.cpp" cloneof="strkforc" romof="strkforc">
 		<description>Saurian Front (proto v5.0 8/07/90)</description>
 		<year>1991</year>
 		<manufacturer>Williams</manufacturer>
@@ -63547,7 +63560,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="sdodgeb" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="sdodgeb" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Super Dodge Ball / Kunio no Nekketsu Toukyuu Densetsu</description>
 		<year>1996</year>
 		<manufacturer>Technos Japan</manufacturer>
@@ -63816,7 +63829,7 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="graphics" status="imperfect"/>
 	</machine>
-	<machine name="sengoku" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="sengoku" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Sengoku / Sengoku Denshou (NGM-017 ~ NGH-017)</description>
 		<year>1991</year>
 		<manufacturer>SNK</manufacturer>
@@ -63988,7 +64001,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="sengoku2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="sengoku2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Sengoku 2 / Sengoku Denshou 2</description>
 		<year>1993</year>
 		<manufacturer>SNK</manufacturer>
@@ -64159,7 +64172,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="sengoku3" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="sengoku3" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Sengoku 3 / Sengoku Densho 2001 (set 1)</description>
 		<year>2001</year>
 		<manufacturer>Noise Factory / SNK</manufacturer>
@@ -64883,8 +64896,8 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="sf2049" sourcefile="midway/vegas.cpp">
-		<description>San Francisco Rush 2049</description>
+	<machine name="sf2049" sourcefile="williams/vegas.cpp">
+		<description>San Francisco Rush 2049 (Version 1.04, EPROM 1.02 Jul 9 1999, GUTS 1.03 Sep 3 1999, GAME Sep 8 1999)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
 		<rom name="sf2049.u27" size="524288" crc="174ba8fe" sha1="baba83b811eca659f00514a008a86ef0ac9680ee" region="pci:00.0:rom" offset="0"/>
@@ -65111,20 +65124,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 		<slot name="ttys01">
 			<slotoption name="terminal" devname="serial_terminal"/>
@@ -65132,20 +65147,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 		<slot name="ttys02">
 			<slotoption name="terminal" devname="serial_terminal"/>
@@ -65153,24 +65170,26 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
-	<machine name="sf2049se" sourcefile="midway/vegas.cpp">
-		<description>San Francisco Rush 2049: Special Edition</description>
+	<machine name="sf2049se" sourcefile="williams/vegas.cpp">
+		<description>San Francisco Rush 2049: Special Edition (Version 1.00, GUTS 1.61 Sep 16 2003, GAME Sep 16 2003)</description>
 		<year>2003</year>
 		<manufacturer>Atari Games</manufacturer>
 		<rom name="sf2049se.u27" size="524288" crc="da4ecd9c" sha1="2574ff3d608ebcc59a63cf6dea13ee7650ae8921" region="pci:00.0:rom" offset="0"/>
@@ -65369,20 +65388,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 		<slot name="ttys01">
 			<slotoption name="terminal" devname="serial_terminal"/>
@@ -65390,20 +65411,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 		<slot name="ttys02">
 			<slotoption name="terminal" devname="serial_terminal"/>
@@ -65411,20 +65434,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="sf2ce" sourcefile="capcom/cps1.cpp">
@@ -66733,7 +66758,7 @@
 			<extension name="cdr"/>
 		</device>
 	</machine>
-	<machine name="sfrush" sourcefile="midway/seattle.cpp">
+	<machine name="sfrush" sourcefile="williams/seattle.cpp">
 		<description>San Francisco Rush</description>
 		<year>1996</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -66949,7 +66974,7 @@
 			<extension name="cdr"/>
 		</device>
 	</machine>
-	<machine name="sfrushrk" sourcefile="midway/seattle.cpp">
+	<machine name="sfrushrk" sourcefile="williams/seattle.cpp">
 		<description>San Francisco Rush: The Rock (boot rom L 1.0, GUTS Oct 6 1997 / MAIN Oct 16 1997)</description>
 		<year>1997</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -67675,7 +67700,7 @@
 		<device_ref tag=":segaic16road" name="segaic16_road"/>
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":ymsnd" name="ym2151"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="sega_315_5218"/>
 		<device_ref tag=":nvram" name="nvram"/>
 		<device_ref tag=":sprites" name="sega_sys16b_sprite"/>
 		<chip type="cpu" tag="maincpu" name="Motorola MC68000" clock="10000000"/>
@@ -67683,7 +67708,7 @@
 		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag="pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.054389" pixclock="6293700" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -67862,7 +67887,7 @@
 		<device_ref tag=":soundcpu" name="z80"/>
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":ymsnd" name="ym2203"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="segapcm_discrete"/>
 		<device_ref tag=":mcu" name="i8751"/>
 		<chip type="cpu" tag="maincpu" name="Motorola MC68000" clock="10000000"/>
 		<chip type="cpu" tag="subcpu" name="Motorola MC68000" clock="10000000"/>
@@ -67870,7 +67895,7 @@
 		<chip type="cpu" tag="mcu" name="Intel 8751" clock="8000000"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2203 OPN" clock="4000000"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="8000000"/>
+		<chip type="audio" tag="pcm" name="Sega PCM (Discrete logic)" clock="4000000"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.054389" pixclock="6293700" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -68555,7 +68580,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="shocktr2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="shocktr2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Shock Troopers - 2nd Squad</description>
 		<year>1998</year>
 		<manufacturer>Saurus</manufacturer>
@@ -68730,7 +68755,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="shocktro" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="shocktro" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Shock Troopers (set 1)</description>
 		<year>1997</year>
 		<manufacturer>Saurus</manufacturer>
@@ -69166,7 +69191,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="sinistar" sourcefile="midway/williams.cpp">
+	<machine name="sinistar" sourcefile="williams/williams.cpp">
 		<description>Sinistar (revision 3, upright)</description>
 		<year>1982</year>
 		<manufacturer>Williams</manufacturer>
@@ -69493,7 +69518,7 @@
 		<feature type="graphics" status="imperfect"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="smashtv" sourcefile="midway/midyunit.cpp">
+	<machine name="smashtv" sourcefile="williams/midyunit.cpp">
 		<description>Smash T.V. (rev 8.00)</description>
 		<year>1990</year>
 		<manufacturer>Williams</manufacturer>
@@ -69700,12 +69725,12 @@
 		<device_ref tag=":mainpcb:segaic16road" name="segaic16_road"/>
 		<device_ref tag=":mainpcb:speaker" name="speaker"/>
 		<device_ref tag=":mainpcb:ymsnd" name="ym2151"/>
-		<device_ref tag=":mainpcb:pcm" name="segapcm"/>
+		<device_ref tag=":mainpcb:pcm" name="sega_315_5218"/>
 		<device_ref tag=":mainpcb:soundcpu2" name="z80"/>
 		<device_ref tag=":mainpcb:commcpu" name="z80"/>
 		<device_ref tag=":mainpcb:motorcpu" name="z80"/>
 		<device_ref tag=":mainpcb:rear" name="speaker"/>
-		<device_ref tag=":mainpcb:pcm2" name="segapcm"/>
+		<device_ref tag=":mainpcb:pcm2" name="sega_315_5218"/>
 		<chip type="cpu" tag="mainpcb:maincpu" name="Hitachi FD1094 Encrypted CPU" clock="12500000"/>
 		<chip type="cpu" tag="mainpcb:subcpu" name="Motorola MC68000" clock="12500000"/>
 		<chip type="cpu" tag="mainpcb:soundcpu" name="Zilog Z80" clock="4000000"/>
@@ -69714,9 +69739,9 @@
 		<chip type="cpu" tag="mainpcb:motorcpu" name="Zilog Z80" clock="8000000"/>
 		<chip type="audio" tag="mainpcb:speaker" name="Speaker"/>
 		<chip type="audio" tag="mainpcb:ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag="mainpcb:pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag="mainpcb:pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<chip type="audio" tag="mainpcb:rear" name="Speaker"/>
-		<chip type="audio" tag="mainpcb:pcm2" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag="mainpcb:pcm2" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag="mainpcb:screen" type="raster" rotate="0" width="320" height="224" refresh="59.637405" pixclock="6250000" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="2"/>
 		<input players="1" coins="2" service="yes">
@@ -70121,7 +70146,7 @@
 		</port>
 		<driver status="good" emulation="good" cocktail="preliminary" savestate="supported"/>
 	</machine>
-	<machine name="sonicwi2" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="sonicwi2" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Aero Fighters 2 / Sonic Wings 2</description>
 		<year>1994</year>
 		<manufacturer>Video System Co.</manufacturer>
@@ -70292,7 +70317,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="sonicwi3" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="sonicwi3" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Aero Fighters 3 / Sonic Wings 3</description>
 		<year>1995</year>
 		<manufacturer>Video System Co.</manufacturer>
@@ -71147,7 +71172,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
 	</machine>
-	<machine name="spyhunt" sourcefile="midway/mcr3.cpp">
+	<machine name="spyhunt" sourcefile="bally/mcr3.cpp">
 		<description>Spy Hunter</description>
 		<year>1983</year>
 		<manufacturer>Bally Midway</manufacturer>
@@ -71301,6 +71326,8 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":scsp1" name="scsp"/>
 		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
 		<device_ref tag=":billboard" name="segabill"/>
 		<device_ref tag=":billboard:billcpu" name="z80"/>
 		<device_ref tag=":billboard:io" name="315_5338a"/>
@@ -71311,8 +71338,6 @@
 		<device_ref tag=":dsb2:mpegcpu" name="m68000"/>
 		<device_ref tag=":dsb2:uart" name="i8251"/>
 		<device_ref tag=":dsb2:uart_clock" name="clock"/>
-		<device_ref tag=":uart" name="i8251"/>
-		<device_ref tag=":uart_clock" name="clock"/>
 		<chip type="cpu" tag="maincpu" name="IBM PowerPC 603R" clock="166000000"/>
 		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
 		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
@@ -72984,20 +73009,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="stmblade" sourcefile="seta/ssv.cpp">
@@ -73503,7 +73530,7 @@
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="graphics" overall="imperfect"/>
 	</machine>
-	<machine name="strkforc" sourcefile="midway/midyunit.cpp">
+	<machine name="strkforc" sourcefile="williams/midyunit.cpp">
 		<description>Strike Force (rev 1 02/25/91)</description>
 		<year>1991</year>
 		<manufacturer>Midway</manufacturer>
@@ -73785,20 +73812,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="stvbios" sourcefile="sega/stv.cpp" isbios="yes">
@@ -73993,7 +74022,7 @@
 	<machine name="superchs" sourcefile="taito/superchs.cpp">
 		<description>Super Chase - Criminal Termination (World)</description>
 		<year>1992</year>
-		<manufacturer>Taito Corporation Japan</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="d46-35+.ic27" size="262144" crc="1575c9a7" sha1="e3441d6018ed3315c62c5e5c4534d8712b025ae2" region="maincpu" offset="0"/>
 		<rom name="d46-34+.ic25" size="262144" crc="c72a4d2b" sha1="6ef64de15e52007406ce3255071a1f856e0e8b49" region="maincpu" offset="1"/>
 		<rom name="d46-33+.ic23" size="262144" crc="3094bcd0" sha1="b6779b81a3ebec440a9359868dc43fc3a631ee11" region="maincpu" offset="2"/>
@@ -74246,7 +74275,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="superspy" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="superspy" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The Super Spy (NGM-011 ~ NGH-011)</description>
 		<year>1990</year>
 		<manufacturer>SNK</manufacturer>
@@ -74559,7 +74588,7 @@
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="graphics" status="imperfect"/>
 	</machine>
-	<machine name="svcpcb" sourcefile="neogeo/neopcb.cpp">
+	<machine name="svcpcb" sourcefile="snk/neopcb.cpp">
 		<description>SNK vs. Capcom - SVC Chaos (JAMMA PCB, NEO-MVH MVO PCB)</description>
 		<year>2003</year>
 		<manufacturer>Playmore / Capcom</manufacturer>
@@ -74772,8 +74801,8 @@
 		<feature type="sound" status="imperfect"/>
 	</machine>
 	<machine name="swa" sourcefile="sega/model1.cpp">
-		<description>Star Wars Arcade (US)</description>
-		<year>1993</year>
+		<description>Star Wars (Sega, US)</description>
+		<year>1994</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="opr14742.bin" size="131072" crc="446a1085" sha1="51b3f4d3a35a36087ea0ba4e26d6e7d17b6418e2" region="copro_tables" offset="0"/>
 		<rom name="opr14743.bin" size="131072" crc="e8953554" sha1="1499f8e30ac15affc66e6f04ae031bb8680d9260" region="copro_tables" offset="2"/>
@@ -74787,7 +74816,7 @@
 		<rom name="epr-16669.14" size="524288" crc="52e5e7e4" sha1="0eb584299d821a61ed2c27c615356eaeb18b41c6" region="maincpu" offset="200000"/>
 		<rom name="epr-16670.15" size="524288" crc="1e7ecabd" sha1="62e8dd5d3a053426a1f3d94d15b04621d36d6a2c" region="maincpu" offset="200001"/>
 		<rom name="epr-16668.5" size="524288" crc="9e112425" sha1="fc7be83b33b586780444e3426164e1cb5125f794" region="maincpu" offset="f80000"/>
-		<rom name="315-5711.bin" size="8192" crc="c5ddb8fc" sha1="9e21d3a07ffa315e0139483b664e3fa283ef4e06" status="baddump" region="tgp_copro" offset="0"/>
+		<rom name="315-5711.bin" size="8192" crc="6a21f304" sha1="d5c61ea6e4744f10170ea556068c248bd43bb111" status="baddump" region="tgp_copro" offset="0"/>
 		<rom name="epr-16470.7" size="131072" crc="7da18cf7" sha1="bd432d882d217277faee120e2577357a32eb4a6e" region="m1audio:sndcpu" offset="0"/>
 		<rom name="mpr-16486.32" size="2097152" crc="7df50533" sha1="f2fb876738e37d70eb9005e5629a9ae89aa413a8" region="m1audio:pcm1" offset="0"/>
 		<rom name="mpr-16487.33" size="2097152" crc="31b28dfa" sha1="bd1ac11bf2f9161f61f8af3b9ff4c2709b7ee700" region="m1audio:pcm1" offset="200000"/>
@@ -75150,7 +75179,7 @@
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="tapper" sourcefile="midway/mcr.cpp">
+	<machine name="tapper" sourcefile="bally/mcr.cpp">
 		<description>Tapper (Budweiser, 1/27/84)</description>
 		<year>1983</year>
 		<manufacturer>Bally Midway</manufacturer>
@@ -76394,13 +76423,13 @@
 		<device_ref tag=":mainpcb:segaic16road" name="segaic16_road"/>
 		<device_ref tag=":mainpcb:speaker" name="speaker"/>
 		<device_ref tag=":mainpcb:ymsnd" name="ym2151"/>
-		<device_ref tag=":mainpcb:pcm" name="segapcm"/>
+		<device_ref tag=":mainpcb:pcm" name="sega_315_5218"/>
 		<chip type="cpu" tag="mainpcb:maincpu" name="Hitachi FD1094 Encrypted CPU" clock="12500000"/>
 		<chip type="cpu" tag="mainpcb:subcpu" name="Motorola MC68000" clock="12500000"/>
 		<chip type="cpu" tag="mainpcb:soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag="mainpcb:speaker" name="Speaker"/>
 		<chip type="audio" tag="mainpcb:ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag="mainpcb:pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag="mainpcb:pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag="mainpcb:screen" type="raster" rotate="0" width="320" height="224" refresh="59.637405" pixclock="6250000" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -77223,7 +77252,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="tophuntr" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="tophuntr" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Top Hunter - Roddy &amp; Cathy (NGM-046)</description>
 		<year>1994</year>
 		<manufacturer>SNK</manufacturer>
@@ -77401,7 +77430,7 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
-	<machine name="totcarn" sourcefile="midway/midyunit.cpp">
+	<machine name="totcarn" sourcefile="williams/midyunit.cpp">
 		<description>Total Carnage (rev LA1 03/10/92)</description>
 		<year>1992</year>
 		<manufacturer>Midway</manufacturer>
@@ -77598,7 +77627,7 @@
 		<device_ref tag=":segaic16road" name="segaic16_road"/>
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":ymsnd" name="ym2151"/>
-		<device_ref tag=":pcm" name="segapcm"/>
+		<device_ref tag=":pcm" name="sega_315_5218"/>
 		<device_ref tag=":bankmotor" name="timer"/>
 		<device_ref tag=":sprites" name="sega_outrun_sprite"/>
 		<device_ref tag=":nvram" name="nvram"/>
@@ -77607,7 +77636,7 @@
 		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag="speaker" name="Speaker"/>
 		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag="pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag="pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag="screen" type="raster" rotate="0" width="320" height="224" refresh="60.054389" pixclock="6293700" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 		<input players="1" coins="2" service="yes">
@@ -78141,7 +78170,7 @@
 	<machine name="truxton" sourcefile="toaplan/toaplan1.cpp">
 		<description>Truxton (Europe, US) / Tatsujin (Japan)</description>
 		<year>1988</year>
-		<manufacturer>Toaplan / Taito Corporation</manufacturer>
+		<manufacturer>Toaplan / Taito</manufacturer>
 		<rom name="b65_11.7k" size="131072" crc="1a62379a" sha1="b9470d4b70c38f2523b22636874d742abe4099eb" region="maincpu" offset="0"/>
 		<rom name="b65_10.7l" size="131072" crc="aff5195d" sha1="a7f379dc35e3acf9e7a8ae8a47a9b5b4193f93a1" region="maincpu" offset="1"/>
 		<rom name="b65_09.2f" size="16384" crc="1bdd4ddc" sha1="6bf7e3a7ca42f79082503ef471f30f271e2f0f99" region="audiocpu" offset="0"/>
@@ -78662,7 +78691,7 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="turfmast" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="turfmast" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Neo Turf Masters / Big Tournament Golf</description>
 		<year>1996</year>
 		<manufacturer>Nazca</manufacturer>
@@ -78839,20 +78868,20 @@
 		<manufacturer>Konami</manufacturer>
 		<rom name="400-a06.15l" size="32768" crc="b99d8cff" sha1="18e277827a534bab2b3b8b81e51d886b8382d435" region="maincpu" offset="0"/>
 		<rom name="400-a04.10l" size="32768" crc="d02c9552" sha1="ec0aaa093541dab98412c11f666161cd558c383a" region="maincpu" offset="1"/>
-		<rom name="412-a07.17l" size="131072" crc="d93c5499" sha1="4555b9232ce86192360ea5b5092643ff51446aa0" region="maincpu" offset="80000"/>
-		<rom name="412-a05.12l" size="131072" crc="2b357069" sha1="409cf3aa174f5d7dc5efc8b8b1c925fcb677fc98" region="maincpu" offset="80001"/>
+		<rom name="412-a07.17l" size="131072" crc="d93c5499" sha1="4555b9232ce86192360ea5b5092643ff51446aa0" region="maindata" offset="0"/>
+		<rom name="412-a05.12l" size="131072" crc="2b357069" sha1="409cf3aa174f5d7dc5efc8b8b1c925fcb677fc98" region="maindata" offset="1"/>
 		<rom name="400-e03.5l" size="8192" crc="a5a8e57d" sha1="f4236770093392dec3f76835a5766e9b3ed64e2e" region="audiocpu" offset="0"/>
 		<rom name="400-a01.fse" size="256" crc="5827b1e8" sha1="fa8cf5f868cfb08bce203baaebb6c4055ee2a000" region="k005289" offset="0"/>
 		<rom name="400-a02.fse" size="256" crc="2f44f970" sha1="7ab46f9d5d587665782cefc623b8de0124a6d38a" region="k005289" offset="100"/>
 		<device_ref tag=":maincpu" name="m68000"/>
 		<device_ref tag=":scantimer" name="timer"/>
-		<device_ref tag=":audiocpu" name="z80"/>
 		<device_ref tag=":outlatch" name="ls259"/>
 		<device_ref tag=":intlatch" name="ls259"/>
 		<device_ref tag=":watchdog" name="watchdog"/>
 		<device_ref tag=":screen" name="screen"/>
 		<device_ref tag=":gfxdecode" name="gfxdecode"/>
 		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="z80"/>
 		<device_ref tag=":mono" name="speaker"/>
 		<device_ref tag=":soundlatch" name="generic_latch_8"/>
 		<device_ref tag=":ay1" name="ay8910"/>
@@ -78987,7 +79016,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="twinspri" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="twinspri" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Twinkle Star Sprites</description>
 		<year>1996</year>
 		<manufacturer>ADK / SNK</manufacturer>
@@ -79353,7 +79382,7 @@
 		</port>
 		<driver status="good" emulation="good" cocktail="preliminary" savestate="supported"/>
 	</machine>
-	<machine name="umk3" sourcefile="midway/midwunit.cpp">
+	<machine name="umk3" sourcefile="williams/midwunit.cpp">
 		<description>Ultimate Mortal Kombat 3 (rev 1.2)</description>
 		<year>1994</year>
 		<manufacturer>Midway</manufacturer>
@@ -80532,6 +80561,8 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":scsp1" name="scsp"/>
 		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
 		<device_ref tag=":billboard" name="segabill"/>
 		<device_ref tag=":billboard:billcpu" name="z80"/>
 		<device_ref tag=":billboard:io" name="315_5338a"/>
@@ -81060,7 +81091,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="viewpoin" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="viewpoin" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Viewpoint</description>
 		<year>1992</year>
 		<manufacturer>Sammy / Aicom</manufacturer>
@@ -81450,7 +81481,7 @@
 		<feature type="graphics" status="imperfect"/>
 		<feature type="sound" overall="imperfect"/>
 	</machine>
-	<machine name="vliner" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="vliner" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>V-Liner (v0.7a)</description>
 		<year>2001</year>
 		<manufacturer>Dyna / BrezzaSoft</manufacturer>
@@ -81822,6 +81853,8 @@
 		<device_ref tag=":speaker" name="speaker"/>
 		<device_ref tag=":scsp1" name="scsp"/>
 		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
 		<device_ref tag=":billboard" name="segabill"/>
 		<device_ref tag=":billboard:billcpu" name="z80"/>
 		<device_ref tag=":billboard:io" name="315_5338a"/>
@@ -83160,7 +83193,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="wakuwak7" sourcefile="neogeo/neogeo.cpp" romof="neogeo">
+	<machine name="wakuwak7" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Waku Waku 7</description>
 		<year>1996</year>
 		<manufacturer>Sunsoft</manufacturer>
@@ -83337,7 +83370,7 @@
 	<machine name="warriorb" sourcefile="taito/warriorb.cpp">
 		<description>Warrior Blade - Rastan Saga Episode III (Japan)</description>
 		<year>1991</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="d24_20-1.74" size="262144" crc="4452dc25" sha1="bbb4fbc25a3f263ce2716698cacaca201cb9591b" region="maincpu" offset="0"/>
 		<rom name="d24_19-1.73" size="262144" crc="15c16016" sha1="5b28834d8d5296c562c90a861c6ccdd46cc3c204" region="maincpu" offset="1"/>
 		<rom name="d24_21-1.76" size="262144" crc="783ef8e1" sha1="28a43d5231031b2ff3e437c3b6b8604f0d2b521b" region="maincpu" offset="80000"/>
@@ -85067,7 +85100,7 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
-	<machine name="xenophob" sourcefile="midway/mcr68.cpp">
+	<machine name="xenophob" sourcefile="bally/mcr68.cpp">
 		<description>Xenophobe</description>
 		<year>1987</year>
 		<manufacturer>Bally Midway</manufacturer>
@@ -87076,7 +87109,7 @@
 			<dipvalue name="Every 1000000" value="4096"/>
 			<dipvalue name="No Extend" value="0"/>
 		</dipswitch>
-		<dipswitch name="Demo Sound" tag="DSW" mask="16384">
+		<dipswitch name="Demo Sounds" tag="DSW" mask="16384">
 			<diplocation name="SW2" number="7" inverted="yes"/>
 			<dipvalue name="Off" value="0"/>
 			<dipvalue name="On" value="16384" default="yes"/>
@@ -87189,7 +87222,7 @@
 	<machine name="zookeep" sourcefile="taito/qix.cpp">
 		<description>Zoo Keeper (set 1)</description>
 		<year>1982</year>
-		<manufacturer>Taito America Corporation</manufacturer>
+		<manufacturer>Taito America</manufacturer>
 		<rom name="za12.u12" size="4096" crc="4e40d8dc" sha1="dd7923dcb55a2a1ae0f2029caf5a8904a9ebe8b1" region="maincpu" offset="8000"/>
 		<rom name="za13.u13" size="4096" crc="eebd5248" sha1="ebe7f8c436bfefa4236f603fbcbd38d2f4cfd2bd" region="maincpu" offset="9000"/>
 		<rom name="za14.u14" size="4096" crc="fab43297" sha1="daa5a780bc9f171da0f6db5319b1519caa09c6c9" region="maincpu" offset="a000"/>
@@ -87500,6 +87533,143 @@
 		<sound channels="0"/>
 		<input players="1" coins="2" tilt="yes">
 		</input>
+	</machine>
+	<machine name="auto3a_terminal" sourcefile="devices/bus/rs232/auto3a.cpp" isdevice="yes" runnable="no">
+		<description>Auto-baud ADM-3A Terminal</description>
+		<device_ref tag=":_tmp:terminal_screen" name="screen"/>
+		<device_ref tag=":_tmp:keyboard" name="generic_keyboard"/>
+		<device_ref tag=":_tmp:bell" name="speaker"/>
+		<device_ref tag=":_tmp:beeper" name="beep"/>
+		<chip type="audio" tag=":bell" name="Speaker"/>
+		<chip type="audio" tag=":beeper" name="Beep" clock="2000"/>
+		<display tag=":terminal_screen" type="raster" rotate="0" width="640" height="240" refresh="50.000000" />
+		<sound channels="1"/>
+		<input players="1">
+			<control type="keyboard" buttons="73"/>
+		</input>
+		<configuration name="Data Bits (until lock)" tag=":RS232_DATABITS" mask="255">
+			<confsetting name="5" value="0"/>
+			<confsetting name="6" value="1"/>
+			<confsetting name="7" value="2"/>
+			<confsetting name="8" value="3" default="yes"/>
+		</configuration>
+		<configuration name="Parity" tag=":RS232_PARITY" mask="255">
+			<confsetting name="None" value="0" default="yes"/>
+			<confsetting name="Odd" value="1"/>
+			<confsetting name="Even" value="2"/>
+			<confsetting name="Mark" value="3"/>
+			<confsetting name="Space" value="4"/>
+		</configuration>
+		<configuration name="Stop Bits (until lock)" tag=":RS232_STOPBITS" mask="255">
+			<confsetting name="0" value="0"/>
+			<confsetting name="1" value="1" default="yes"/>
+			<confsetting name="1.5" value="2"/>
+			<confsetting name="2" value="3"/>
+		</configuration>
+		<configuration name="TX Baud (until lock)" tag=":RS232_TXBAUD" mask="255">
+			<confsetting name="50" value="14"/>
+			<confsetting name="75" value="15"/>
+			<confsetting name="110" value="0"/>
+			<confsetting name="134.5" value="16"/>
+			<confsetting name="150" value="1"/>
+			<confsetting name="200" value="17"/>
+			<confsetting name="300" value="2"/>
+			<confsetting name="600" value="3"/>
+			<confsetting name="1200" value="4"/>
+			<confsetting name="1800" value="18"/>
+			<confsetting name="2000" value="19"/>
+			<confsetting name="2400" value="5"/>
+			<confsetting name="3600" value="20"/>
+			<confsetting name="4800" value="6"/>
+			<confsetting name="7200" value="21"/>
+			<confsetting name="9600" value="7" default="yes"/>
+			<confsetting name="14400" value="8"/>
+			<confsetting name="19200" value="9"/>
+			<confsetting name="28800" value="10"/>
+			<confsetting name="38400" value="11"/>
+			<confsetting name="57600" value="12"/>
+			<confsetting name="76800" value="23"/>
+			<confsetting name="78125" value="24"/>
+			<confsetting name="111900" value="22"/>
+			<confsetting name="115200" value="13"/>
+		</configuration>
+		<configuration name="Cursor" tag=":TERM_CONF" mask="1">
+			<confsetting name="No" value="0"/>
+			<confsetting name="Yes" value="1" default="yes"/>
+		</configuration>
+		<configuration name="Type" tag=":TERM_CONF" mask="2">
+			<confsetting name="Underline" value="0"/>
+			<confsetting name="Block" value="2" default="yes"/>
+		</configuration>
+		<configuration name="Blinking" tag=":TERM_CONF" mask="4">
+			<confsetting name="No" value="0"/>
+			<confsetting name="Yes" value="4" default="yes"/>
+		</configuration>
+		<configuration name="Invert" tag=":TERM_CONF" mask="8">
+			<confsetting name="No" value="0"/>
+			<confsetting name="Yes" value="8" default="yes"/>
+		</configuration>
+		<configuration name="Color" tag=":TERM_CONF" mask="48">
+			<confsetting name="Green" value="0" default="yes"/>
+			<confsetting name="Amber" value="16"/>
+			<confsetting name="White" value="32"/>
+		</configuration>
+		<configuration name="Auto CR on LF" tag=":TERM_CONF" mask="64">
+			<confsetting name="No" value="0"/>
+			<confsetting name="Yes" value="64" default="yes"/>
+		</configuration>
+		<configuration name="Auto LF on CR" tag=":TERM_CONF" mask="128">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="128"/>
+		</configuration>
+		<configuration name="Local echo" tag=":TERM_CONF" mask="256">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="256"/>
+		</configuration>
+		<configuration name="Layout" tag=":keyboard:GENKBD_CFG" mask="1">
+			<confsetting name="ANSI" value="0" default="yes"/>
+			<confsetting name="JIS" value="1"/>
+		</configuration>
+		<configuration name="Typematic Delay" tag=":keyboard:GENKBD_CFG" mask="6">
+			<confsetting name="0.25s" value="0"/>
+			<confsetting name="0.5s" value="2"/>
+			<confsetting name="0.75s" value="4" default="yes"/>
+			<confsetting name="1.0s" value="6"/>
+		</configuration>
+		<configuration name="Typematic Rate" tag=":keyboard:GENKBD_CFG" mask="248">
+			<confsetting name="2.0cps" value="0"/>
+			<confsetting name="2.1cps" value="8"/>
+			<confsetting name="2.5cps" value="16"/>
+			<confsetting name="2.7cps" value="24"/>
+			<confsetting name="2.0cps" value="32"/>
+			<confsetting name="2.1cps" value="40"/>
+			<confsetting name="2.5cps" value="48"/>
+			<confsetting name="2.7cps" value="56"/>
+			<confsetting name="3.3cps" value="64"/>
+			<confsetting name="3.8cps" value="72"/>
+			<confsetting name="4.0cps" value="80"/>
+			<confsetting name="4.3cps" value="88"/>
+			<confsetting name="4.6cps" value="96"/>
+			<confsetting name="5.0cps" value="104"/>
+			<confsetting name="5.5cps" value="112"/>
+			<confsetting name="6.0cps" value="120"/>
+			<confsetting name="8.0cps" value="128"/>
+			<confsetting name="8.6cps" value="136"/>
+			<confsetting name="9.2cps" value="144"/>
+			<confsetting name="10.0cps" value="152" default="yes"/>
+			<confsetting name="10.9cps" value="160"/>
+			<confsetting name="12.0cps" value="168"/>
+			<confsetting name="13.3cps" value="176"/>
+			<confsetting name="15.0cps" value="184"/>
+			<confsetting name="16.0cps" value="192"/>
+			<confsetting name="17.1cps" value="200"/>
+			<confsetting name="18.5cps" value="208"/>
+			<confsetting name="20.0cps" value="216"/>
+			<confsetting name="21.8cps" value="224"/>
+			<confsetting name="24.0cps" value="232"/>
+			<confsetting name="26.7cps" value="240"/>
+			<confsetting name="30.0cps" value="248"/>
+		</configuration>
 	</machine>
 	<machine name="avg_tempest" sourcefile="devices/video/avgdvg.cpp" isdevice="yes" runnable="no">
 		<description>Atari AVG (Tempest)</description>
@@ -88346,20 +88516,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="harddriv_sound" sourcefile="atari/harddriv_a.cpp" isdevice="yes" runnable="no">
@@ -88419,6 +88591,12 @@
 		<description>Imagetek I4220 071 VDP</description>
 		<device_ref tag=":_tmp:palette" name="palette"/>
 		<device_ref tag=":_tmp:spriteram" name="buffered_spriteram16"/>
+	</machine>
+	<machine name="i8031" sourcefile="devices/cpu/mcs51/i8051.cpp" isdevice="yes" runnable="no">
+		<description>Intel 8031</description>
+	</machine>
+	<machine name="i8035" sourcefile="devices/cpu/mcs48/mcs48.cpp" isdevice="yes" runnable="no">
+		<description>Intel 8035</description>
 	</machine>
 	<machine name="i8039" sourcefile="devices/cpu/mcs48/mcs48.cpp" isdevice="yes" runnable="no">
 		<description>Intel 8039</description>
@@ -89127,7 +89305,7 @@
 	<machine name="mc8123" sourcefile="devices/cpu/z80/mc8123.cpp" isdevice="yes" runnable="no">
 		<description>MC-8123</description>
 	</machine>
-	<machine name="midcsd" sourcefile="midway/csd.cpp" isdevice="yes" runnable="no">
+	<machine name="midcsd" sourcefile="bally/csd.cpp" isdevice="yes" runnable="no">
 		<description>Cheap Squeak Deluxe Sound Board</description>
 		<rom name="0304-00803-0052.u15" size="74" crc="8b401aee" sha1="360f3f59877f0bc25b4154782a2011963dd80a52" region="pal" offset="0"/>
 		<device_ref tag=":_tmp:cpu" name="m68000"/>
@@ -89137,7 +89315,7 @@
 		<chip type="audio" tag=":dac" name="AD7533 DAC"/>
 		<sound channels="0"/>
 	</machine>
-	<machine name="midsg" sourcefile="midway/midway.cpp" isdevice="yes" runnable="no">
+	<machine name="midsg" sourcefile="bally/midway_sound.cpp" isdevice="yes" runnable="no">
 		<description>Midway Sounds Good Sound Board</description>
 		<device_ref tag=":_tmp:cpu" name="m68000"/>
 		<device_ref tag=":_tmp:pia" name="pia6821"/>
@@ -89152,7 +89330,7 @@
 		<chip type="audio" tag=":dac_filter0" name="Biquad Filter"/>
 		<sound channels="0"/>
 	</machine>
-	<machine name="midssio" sourcefile="midway/midway.cpp" isdevice="yes" runnable="no">
+	<machine name="midssio" sourcefile="bally/midway_sound.cpp" isdevice="yes" runnable="no">
 		<description>Midway SSIO Sound Board</description>
 		<rom name="82s123.12d" size="32" crc="e1281ee9" sha1="9ac9b01d24affc0ee9227a4364c4fd8f8290343a" region="proms" offset="0"/>
 		<device_ref tag=":_tmp:cpu" name="z80"/>
@@ -89163,7 +89341,7 @@
 		<chip type="audio" tag=":ay1" name="AY-3-8910A PSG"/>
 		<sound channels="0"/>
 	</machine>
-	<machine name="midway_ioasic" sourcefile="midway/midwayic.cpp" isdevice="yes" runnable="no">
+	<machine name="midway_ioasic" sourcefile="williams/midwayic.cpp" isdevice="yes" runnable="no">
 		<description>Midway IOASIC</description>
 		<dipswitch name="Serial Low Digit" tag=":SERIAL_DIGIT" mask="15">
 			<dipvalue name="0" value="0"/>
@@ -89178,12 +89356,12 @@
 			<dipvalue name="9" value="9"/>
 		</dipswitch>
 	</machine>
-	<machine name="midway_serial_pic_emu" sourcefile="midway/midwayic.cpp" isdevice="yes" runnable="no">
+	<machine name="midway_serial_pic_emu" sourcefile="williams/midwayic.cpp" isdevice="yes" runnable="no">
 		<description>Midway Serial PIC Emulation</description>
 		<device_ref tag=":_tmp:pic" name="pic16c57"/>
 		<chip type="cpu" tag=":pic" name="Microchip PIC16C57" clock="4000000"/>
 	</machine>
-	<machine name="midway_serial_pic_sim" sourcefile="midway/midwayic.cpp" isdevice="yes" runnable="no">
+	<machine name="midway_serial_pic_sim" sourcefile="williams/midwayic.cpp" isdevice="yes" runnable="no">
 		<description>Midway Serial PIC Simulation</description>
 		<dipswitch name="Serial Low Digit" tag=":SERIAL_DIGIT" mask="15">
 			<dipvalue name="0" value="0"/>
@@ -90852,7 +91030,7 @@
 			<control type="mahjong" buttons="19"/>
 		</input>
 	</machine>
-	<machine name="neosprite_opt" sourcefile="neogeo/neogeo_spr.cpp" isdevice="yes" runnable="no">
+	<machine name="neosprite_opt" sourcefile="snk/neogeo_spr.cpp" isdevice="yes" runnable="no">
 		<description>Neo-Geo Sprites (optimized)</description>
 	</machine>
 	<machine name="nes_zapper_sensor" sourcefile="devices/bus/nes_ctrl/zapper_sensor.cpp" isdevice="yes" runnable="no">
@@ -90881,7 +91059,7 @@
 	<machine name="ng_kof98_prot" sourcefile="devices/bus/neogeo/prot_kof98.cpp" isdevice="yes" runnable="no">
 		<description>Neo Geo KoF 98 Protection</description>
 	</machine>
-	<machine name="ng_memcard" sourcefile="neogeo/ng_memcard.cpp" isdevice="yes" runnable="no">
+	<machine name="ng_memcard" sourcefile="snk/ng_memcard.cpp" isdevice="yes" runnable="no">
 		<description>NeoGeo Memory Card</description>
 	</machine>
 	<machine name="ng_mslugx_prot" sourcefile="devices/bus/neogeo/prot_mslugx.cpp" isdevice="yes" runnable="no">
@@ -91349,20 +91527,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="raiden2cop" sourcefile="seibu/seibucop.cpp" isdevice="yes" runnable="no">
@@ -91640,20 +91820,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="rs232_sync_io" sourcefile="devices/bus/rs232/rs232_sync_io.cpp" isdevice="yes" runnable="no">
@@ -91828,6 +92010,82 @@
 	<machine name="s32comm" sourcefile="sega/s32comm.cpp" isdevice="yes" runnable="no">
 		<description>System 32 Communication Board</description>
 	</machine>
+	<machine name="s97801_device" sourcefile="devices/machine/s97801.cpp" isdevice="yes" runnable="no">
+		<description>Siemens 97801 Terminal</description>
+		<rom name="010_d26__0118_04.d26" size="8192" crc="fcf045d7" sha1="4a98e7d2d98272970d627ce5c10e9572b87293d1" region="maincpu" offset="0"/>
+		<rom name="010_d21__0118_04.d21" size="8192" crc="b9b9df32" sha1="9a3ba060ebcf00b1ed9112493a1d73212c04d8e5" region="unk" offset="0"/>
+		<rom name="010_d23__0118_03.d23" size="8192" crc="23b22a7d" sha1="649abcfde9752f427ec7d1efdc013a4f01dc271c" region="chargen" offset="0"/>
+		<device_ref tag=":_tmp:maincpu" name="i8031"/>
+		<device_ref tag=":_tmp:kbd" name="s97801_kbd"/>
+		<device_ref tag=":_tmp:kbd:mcu" name="i8035"/>
+		<device_ref tag=":_tmp:kbd:mono" name="speaker"/>
+		<device_ref tag=":_tmp:kbd:beep" name="beep"/>
+		<device_ref tag=":_tmp:screen" name="screen"/>
+		<device_ref tag=":_tmp:avdc" name="scn2672"/>
+		<device_ref tag=":_tmp:epci" name="scn2661b"/>
+		<chip type="cpu" tag=":maincpu" name="Intel 8031" clock="11059200"/>
+		<chip type="cpu" tag=":kbd:mcu" name="Intel 8035" clock="5760000"/>
+		<chip type="audio" tag=":kbd:mono" name="Speaker"/>
+		<chip type="audio" tag=":kbd:beep" name="Beep" clock="1500"/>
+		<display tag=":screen" type="raster" rotate="0" width="640" height="400" refresh="57.334826" pixclock="22118400" htotal="912" hbend="0" hbstart="640" vtotal="423" vbend="0" vbstart="400" />
+		<sound channels="1"/>
+		<input players="1">
+			<control type="keyboard" buttons="130"/>
+		</input>
+		<configuration name="Keylock switch" tag=":kbd:MOD" mask="96">
+			<confsetting name="Position 1 (status DC)" value="96" default="yes"/>
+			<confsetting name="Position 2 (status DD)" value="64"/>
+			<confsetting name="Position 3 (status DE)" value="32"/>
+			<confsetting name="Position 4 (status DF)" value="0"/>
+		</configuration>
+	</machine>
+	<machine name="s97801_kbd" sourcefile="devices/machine/s97801_kbd.cpp" isdevice="yes" runnable="no">
+		<description>Siemens 97801 Keyboard (International V1)</description>
+		<rom name="p26361_k111_v1_3.d3" size="4096" crc="aba8f4b7" sha1="970a45b509081603e25319e1bbf0f7941f91a056" region="mcu" offset="0"/>
+		<device_ref tag=":_tmp:mcu" name="i8035"/>
+		<device_ref tag=":_tmp:mono" name="speaker"/>
+		<device_ref tag=":_tmp:beep" name="beep"/>
+		<chip type="cpu" tag=":mcu" name="Intel 8035" clock="5760000"/>
+		<chip type="audio" tag=":mono" name="Speaker"/>
+		<chip type="audio" tag=":beep" name="Beep" clock="1500"/>
+		<sound channels="1"/>
+		<input players="1">
+			<control type="keyboard" buttons="130"/>
+		</input>
+		<configuration name="Keylock switch" tag=":MOD" mask="96">
+			<confsetting name="Position 1 (status DC)" value="96" default="yes"/>
+			<confsetting name="Position 2 (status DD)" value="64"/>
+			<confsetting name="Position 3 (status DE)" value="32"/>
+			<confsetting name="Position 4 (status DF)" value="0"/>
+		</configuration>
+	</machine>
+	<machine name="s97801_terminal" sourcefile="devices/bus/rs232/s97801.cpp" isdevice="yes" runnable="no">
+		<description>Siemens 97801 Terminal (RS-232)</description>
+		<device_ref tag=":_tmp:term" name="s97801_device"/>
+		<device_ref tag=":_tmp:term:maincpu" name="i8031"/>
+		<device_ref tag=":_tmp:term:kbd" name="s97801_kbd"/>
+		<device_ref tag=":_tmp:term:kbd:mcu" name="i8035"/>
+		<device_ref tag=":_tmp:term:kbd:mono" name="speaker"/>
+		<device_ref tag=":_tmp:term:kbd:beep" name="beep"/>
+		<device_ref tag=":_tmp:term:screen" name="screen"/>
+		<device_ref tag=":_tmp:term:avdc" name="scn2672"/>
+		<device_ref tag=":_tmp:term:epci" name="scn2661b"/>
+		<chip type="cpu" tag=":term:maincpu" name="Intel 8031" clock="11059200"/>
+		<chip type="cpu" tag=":term:kbd:mcu" name="Intel 8035" clock="5760000"/>
+		<chip type="audio" tag=":term:kbd:mono" name="Speaker"/>
+		<chip type="audio" tag=":term:kbd:beep" name="Beep" clock="1500"/>
+		<display tag=":term:screen" type="raster" rotate="0" width="640" height="400" refresh="57.334826" pixclock="22118400" htotal="912" hbend="0" hbstart="640" vtotal="423" vbend="0" vbstart="400" />
+		<sound channels="1"/>
+		<input players="1">
+			<control type="keyboard" buttons="130"/>
+		</input>
+		<configuration name="Keylock switch" tag=":term:kbd:MOD" mask="96">
+			<confsetting name="Position 1 (status DC)" value="96" default="yes"/>
+			<confsetting name="Position 2 (status DD)" value="64"/>
+			<confsetting name="Position 3 (status DE)" value="32"/>
+			<confsetting name="Position 4 (status DF)" value="0"/>
+		</configuration>
+	</machine>
 	<machine name="samples" sourcefile="devices/sound/samples.cpp" isdevice="yes" runnable="no">
 		<description>Samples</description>
 		<sound channels="0"/>
@@ -91839,6 +92097,12 @@
 		<description>Sega Saturn System Control Unit</description>
 		<device_ref tag=":_tmp:scudsp" name="scudsp"/>
 		<chip type="cpu" tag=":scudsp" name="Sega SCUDSP" clock="14318181"/>
+	</machine>
+	<machine name="scn2661b" sourcefile="devices/machine/scn_pci.cpp" isdevice="yes" runnable="no">
+		<description>Signetics SCN2661B EPCI</description>
+	</machine>
+	<machine name="scn2672" sourcefile="devices/video/scn2674.cpp" isdevice="yes" runnable="no">
+		<description>Signetics SCN2672 PVTC</description>
 	</machine>
 	<machine name="scorpion_ic" sourcefile="devices/bus/rs232/scorpion.cpp" isdevice="yes" runnable="no">
 		<description>Micro-Robotics Scorpion Intelligent Controller</description>
@@ -91935,6 +92199,10 @@
 	</machine>
 	<machine name="sega_315_5195" sourcefile="sega/315_5195.cpp" isdevice="yes" runnable="no">
 		<description>Sega 315-5195 Memory Mapper</description>
+	</machine>
+	<machine name="sega_315_5218" sourcefile="devices/sound/segapcm.cpp" isdevice="yes" runnable="no">
+		<description>Sega 315-5218 PCM</description>
+		<sound channels="0"/>
 	</machine>
 	<machine name="sega_315_5248" sourcefile="sega/segaic16_m.cpp" isdevice="yes" runnable="no">
 		<description>Sega 315-5248 Multiplier</description>
@@ -92036,8 +92304,8 @@
 		<sound channels="1"/>
 		<feature type="sound" overall="imperfect"/>
 	</machine>
-	<machine name="segapcm" sourcefile="devices/sound/segapcm.cpp" isdevice="yes" runnable="no">
-		<description>Sega PCM</description>
+	<machine name="segapcm_discrete" sourcefile="devices/sound/segapcm.cpp" isdevice="yes" runnable="no">
+		<description>Sega PCM (Discrete logic)</description>
 		<sound channels="0"/>
 	</machine>
 	<machine name="segapsg" sourcefile="devices/sound/sn76496.cpp" isdevice="yes" runnable="no">
@@ -92193,13 +92461,13 @@
 		<device_ref tag=":_tmp:segaic16road" name="segaic16_road"/>
 		<device_ref tag=":_tmp:speaker" name="speaker"/>
 		<device_ref tag=":_tmp:ymsnd" name="ym2151"/>
-		<device_ref tag=":_tmp:pcm" name="segapcm"/>
+		<device_ref tag=":_tmp:pcm" name="sega_315_5218"/>
 		<chip type="cpu" tag=":maincpu" name="Motorola MC68000" clock="12500000"/>
 		<chip type="cpu" tag=":subcpu" name="Motorola MC68000" clock="12500000"/>
 		<chip type="cpu" tag=":soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag=":speaker" name="Speaker"/>
 		<chip type="audio" tag=":ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag=":pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag=":pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag=":screen" type="raster" rotate="0" width="320" height="224" refresh="59.637405" pixclock="6250000" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 	</machine>
@@ -92228,13 +92496,13 @@
 		<device_ref tag=":_tmp:segaic16road" name="segaic16_road"/>
 		<device_ref tag=":_tmp:speaker" name="speaker"/>
 		<device_ref tag=":_tmp:ymsnd" name="ym2151"/>
-		<device_ref tag=":_tmp:pcm" name="segapcm"/>
+		<device_ref tag=":_tmp:pcm" name="sega_315_5218"/>
 		<chip type="cpu" tag=":maincpu" name="Hitachi FD1094 Encrypted CPU" clock="12500000"/>
 		<chip type="cpu" tag=":subcpu" name="Motorola MC68000" clock="12500000"/>
 		<chip type="cpu" tag=":soundcpu" name="Zilog Z80" clock="4000000"/>
 		<chip type="audio" tag=":speaker" name="Speaker"/>
 		<chip type="audio" tag=":ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag=":pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag=":pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag=":screen" type="raster" rotate="0" width="320" height="224" refresh="59.637405" pixclock="6250000" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="1"/>
 	</machine>
@@ -92263,12 +92531,12 @@
 		<device_ref tag=":_tmp:segaic16road" name="segaic16_road"/>
 		<device_ref tag=":_tmp:speaker" name="speaker"/>
 		<device_ref tag=":_tmp:ymsnd" name="ym2151"/>
-		<device_ref tag=":_tmp:pcm" name="segapcm"/>
+		<device_ref tag=":_tmp:pcm" name="sega_315_5218"/>
 		<device_ref tag=":_tmp:soundcpu2" name="z80"/>
 		<device_ref tag=":_tmp:commcpu" name="z80"/>
 		<device_ref tag=":_tmp:motorcpu" name="z80"/>
 		<device_ref tag=":_tmp:rear" name="speaker"/>
-		<device_ref tag=":_tmp:pcm2" name="segapcm"/>
+		<device_ref tag=":_tmp:pcm2" name="sega_315_5218"/>
 		<chip type="cpu" tag=":maincpu" name="Hitachi FD1094 Encrypted CPU" clock="12500000"/>
 		<chip type="cpu" tag=":subcpu" name="Motorola MC68000" clock="12500000"/>
 		<chip type="cpu" tag=":soundcpu" name="Zilog Z80" clock="4000000"/>
@@ -92277,9 +92545,9 @@
 		<chip type="cpu" tag=":motorcpu" name="Zilog Z80" clock="8000000"/>
 		<chip type="audio" tag=":speaker" name="Speaker"/>
 		<chip type="audio" tag=":ymsnd" name="YM2151 OPM" clock="4000000"/>
-		<chip type="audio" tag=":pcm" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag=":pcm" name="Sega 315-5218 PCM" clock="4000000"/>
 		<chip type="audio" tag=":rear" name="Speaker"/>
-		<chip type="audio" tag=":pcm2" name="Sega PCM" clock="4000000"/>
+		<chip type="audio" tag=":pcm2" name="Sega 315-5218 PCM" clock="4000000"/>
 		<display tag=":screen" type="raster" rotate="0" width="320" height="224" refresh="59.637405" pixclock="6250000" htotal="400" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="224" />
 		<sound channels="2"/>
 	</machine>
@@ -92756,20 +93024,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="stunrun_board" sourcefile="atari/harddriv.cpp" isdevice="yes" runnable="no">
@@ -92811,20 +93081,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="sunkbd" sourcefile="devices/bus/sunkbd/sunkbd.cpp" isdevice="yes" runnable="no">
@@ -93340,7 +93612,7 @@
 	<machine name="ttl74181" sourcefile="devices/machine/74181.cpp" isdevice="yes" runnable="no">
 		<description>74181 TTL</description>
 	</machine>
-	<machine name="tunitvid" sourcefile="midway/midtunit_v.cpp" isdevice="yes" runnable="no">
+	<machine name="tunitvid" sourcefile="williams/midtunit_v.cpp" isdevice="yes" runnable="no">
 		<description>Midway T-Unit Video</description>
 	</machine>
 	<machine name="upd4701a" sourcefile="devices/machine/upd4701.cpp" isdevice="yes" runnable="no">
@@ -93453,20 +93725,22 @@
 			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
 			<slotoption name="rs_printer" devname="rs_serial_printer"/>
 			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
-			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="printer" devname="serial_printer"/>
 			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
 			<slotoption name="mockingboard" devname="mockingboardd"/>
 			<slotoption name="loopback" devname="rs232_loopback"/>
-			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
-			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
 			<slotoption name="keyboard" devname="serial_keyboard"/>
 			<slotoption name="ie15" devname="ie15_terminal"/>
 			<slotoption name="null_modem" devname="null_modem"/>
 			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
 			<slotoption name="h19" devname="serial_heath_h19"/>
 			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
 	<machine name="vsystem_gga" sourcefile="vsystem/vsystem_gga.cpp" isdevice="yes" runnable="no">
@@ -93478,10 +93752,10 @@
 	<machine name="wd33c93a" sourcefile="devices/machine/wd33c9x.cpp" isdevice="yes" runnable="no">
 		<description>Western Digital WD33C93A SCSI Controller</description>
 	</machine>
-	<machine name="williams_blitter_sc1_device" sourcefile="midway/williamsblitter.cpp" isdevice="yes" runnable="no">
+	<machine name="williams_blitter_sc1_device" sourcefile="williams/williamsblitter.cpp" isdevice="yes" runnable="no">
 		<description>Williams Blitter (SC1)</description>
 	</machine>
-	<machine name="williams_blitter_sc2_device" sourcefile="midway/williamsblitter.cpp" isdevice="yes" runnable="no">
+	<machine name="williams_blitter_sc2_device" sourcefile="williams/williamsblitter.cpp" isdevice="yes" runnable="no">
 		<description>Williams Blitter (SC2)</description>
 	</machine>
 	<machine name="wmsadpcm" sourcefile="shared/williamssound.cpp" isdevice="yes" runnable="no">
@@ -93525,7 +93799,7 @@
 		<chip type="audio" tag=":cvsd" name="HC-55516"/>
 		<sound channels="0"/>
 	</machine>
-	<machine name="wunitvid" sourcefile="midway/midtunit_v.cpp" isdevice="yes" runnable="no">
+	<machine name="wunitvid" sourcefile="williams/midtunit_v.cpp" isdevice="yes" runnable="no">
 		<description>Midway W-Unit Video</description>
 	</machine>
 	<machine name="x1_001" sourcefile="devices/video/x1_001.cpp" isdevice="yes" runnable="no">
