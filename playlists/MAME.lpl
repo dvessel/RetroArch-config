@@ -20,7 +20,7 @@
   "scan_db_usage": 2,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1~tate/1941.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1/1941.zip",
       "label": "1941: Counter Attack (World 900227)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -28,7 +28,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-1942~tate/1942.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-1942/1942.zip",
       "label": "1942 (Revision B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -36,7 +36,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-1943~tate/1943.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-1943/1943.zip",
       "label": "1943: The Battle of Midway (Euro)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -52,7 +52,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-promat-1945kiii~tate/1945kiii.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-promat-1945kiii/1945kiii.zip",
       "label": "1945k III (newer, OPCX2 PCB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -60,7 +60,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps2~tate/19xx.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps2/19xx.zip",
       "label": "19XX: The War Against Destiny (Europe 960104)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -108,7 +108,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-zn~tate/aerofgts.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-zn/aerofgts.zip",
       "label": "Aero Fighters Special (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -132,7 +132,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave~tate/agallet.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave/agallet.zip",
       "label": "Air Gallet (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -228,7 +228,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing_batrider~tate/batrider.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing_batrider/batrider.zip",
       "label": "Armed Police Batrider (Europe) (Fri Feb 13 1998)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -292,7 +292,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-misc-dreamwld~tate/baryon.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-misc-dreamwld/baryon.zip",
       "label": "Baryon - Future Assault (set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -316,7 +316,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-batsugun~tate/batsugun.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-batsugun/batsugun.zip",
       "label": "Batsugun",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -324,7 +324,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing_batrider~tate/bbakraid.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing_batrider/bbakraid.zip",
       "label": "Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -340,7 +340,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing~tate/bgaregga.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing/bgaregga.zip",
       "label": "Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -412,7 +412,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-zn~tate/brvblade.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-zn/brvblade.zip",
       "label": "Brave Blade (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -444,7 +444,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-dataeast-btime~tate/btime.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-dataeast-btime/btime.zip",
       "label": "Burger Time (Data East set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -524,7 +524,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atari-centiped~tate/centiped.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atari-centiped/centiped.zip",
       "label": "Centipede (revision 4)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -532,7 +532,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-ssv~tate/cairblad.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-ssv/cairblad.zip",
       "label": "Change Air Blade (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -580,7 +580,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-commando~tate/commando.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-commando/commando.zip",
       "label": "Commando (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -588,7 +588,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-zaxxon~tate/congo.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-zaxxon/congo.zip",
       "label": "Congo Bongo (Rev C, 2 board stack)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -596,7 +596,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-contra~tate/contra.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-contra/contra.zip",
       "label": "Contra (US / Asia, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -724,7 +724,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-kaneko-suprnova~tate/cyvern.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-kaneko-suprnova/cyvern.zip",
       "label": "Cyvern - The Dragon Weapons (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -732,7 +732,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-seta~tate/daioh.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-seta/daioh.zip",
       "label": "Daioh",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -860,7 +860,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-galaga~tate/digdug.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-galaga/digdug.zip",
       "label": "Dig Dug (rev 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -868,7 +868,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-mappy~tate/digdug2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-mappy/digdug2.zip",
       "label": "Dig Dug II (New Ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -876,7 +876,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps2~tate/dimahoo.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps2/dimahoo.zip",
       "label": "Dimahoo (Europe 000121)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -892,7 +892,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos2~tate/dirtfoxj.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos2/dirtfoxj.zip",
       "label": "Dirt Fox (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -900,7 +900,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave~tate/ddonpach.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave/ddonpach.zip",
       "label": "DoDonPachi (World, 1997 2/ 5 Master Ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -908,7 +908,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/dfkbl.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/dfkbl.zip",
       "label": "DoDonPachi Dai-Fukkatsu Black Label (Japan, 2010/1/18 BLACK LABEL)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -916,7 +916,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/ddpdfk10.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/ddpdfk10.zip",
       "label": "DoDonPachi Dai-Fukkatsu Ver 1.0 (Japan, 2008/05/16 MASTER VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -924,7 +924,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/ddpdfk.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/ddpdfk.zip",
       "label": "DoDonPachi Dai-Fukkatsu Ver 1.5 (Japan, 2008/06/23 MASTER VER 1.5)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -932,7 +932,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddpdojb.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddpdojb.zip",
       "label": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05 Master Ver)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -940,7 +940,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddpdojp.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddpdojp.zip",
       "label": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05 Master Ver, location test)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -948,7 +948,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddpdoja.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddpdoja.zip",
       "label": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V100)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -956,7 +956,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddpdoj.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddpdoj.zip",
       "label": "DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V101)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -964,7 +964,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddpdojblkbl.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddpdojblkbl.zip",
       "label": "DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07 Black Ver., bootleg Knights of Valour Super Heroes conversion)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -972,7 +972,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddpdojblk.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddpdojblk.zip",
       "label": "DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07.Black Ver, newer)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -980,7 +980,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddpdojblka.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddpdojblka.zip",
       "label": "DoDonPachi Dai-Ou-Jou Black Label (Japan, 2002.10.07.Black Ver, older)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -988,7 +988,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddp2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddp2.zip",
       "label": "DoDonPachi II - Bee Storm (World, ver. 102)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -996,7 +996,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ddp3.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ddp3.zip",
       "label": "DoDonPachi III (World, 2002.05.15 Master Ver)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1004,7 +1004,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/ddpsdoj.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/ddpsdoj.zip",
       "label": "DoDonPachi SaiDaiOuJou (2012/ 4/20)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1012,7 +1012,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-dogyuun~tate/dogyuun.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-dogyuun/dogyuun.zip",
       "label": "Dogyuun",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1020,7 +1020,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nintendo-dkong~tate/dkong.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nintendo-dkong/dkong.zip",
       "label": "Donkey Kong (US set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1028,7 +1028,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nintendo-dkong~tate/dkongjr.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nintendo-dkong/dkongjr.zip",
       "label": "Donkey Kong Junior (US set F-2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1036,7 +1036,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave~tate/donpachi.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave/donpachi.zip",
       "label": "DonPachi (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1076,7 +1076,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyosh~tate/dragnblz.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyosh/dragnblz.zip",
       "label": "Dragon Blaze",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1092,7 +1092,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos2~tate/dsaber.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos2/dsaber.zip",
       "label": "Dragon Saber (World, DO2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1100,7 +1100,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos1~tate/dspirit.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos1/dspirit.zip",
       "label": "Dragon Spirit (new version (DS3))",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1196,7 +1196,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave~tate/esprade.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave/esprade.zip",
       "label": "ESP Ra.De. (World, 1998 4/22 International Ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1204,7 +1204,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/espgal.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/espgal.zip",
       "label": "Espgaluda (2003/10/15 Master Ver)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1212,7 +1212,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/espgal2a.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/espgal2a.zip",
       "label": "Espgaluda II (Japan, 2005/11/14 MASTER VER, newer CV1000-B PCB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1220,7 +1220,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/espgal2b.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/espgal2b.zip",
       "label": "Espgaluda II (Japan, 2005/11/14 MASTER VER, original CV1000-B PCB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1228,7 +1228,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/espgal2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/espgal2.zip",
       "label": "Espgaluda II (Japan, 2005/11/14.MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1292,7 +1292,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave~tate/feversos.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave/feversos.zip",
       "label": "Fever SOS (World, 98/09/25 VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1364,7 +1364,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-galaxian-galaxian~tate/frogger.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-galaxian-galaxian/frogger.zip",
       "label": "Frogger",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1388,7 +1388,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-promat-gstream~tate/gstream.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-promat-gstream/gstream.zip",
       "label": "G-Stream G2020",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1404,7 +1404,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-segas24~tate/gground.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-segas24/gground.zip",
       "label": "Gain Ground (World, 3 Players, Floppy Based, FD1094 317-0058-03d Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1412,7 +1412,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos1~tate/galaga88.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos1/galaga88.zip",
       "label": "Galaga '88",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1420,7 +1420,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-galaga~tate/galaga.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-galaga/galaga.zip",
       "label": "Galaga (Namco rev. B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1428,7 +1428,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-galaxian-galaxian~tate/galaxian.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-galaxian-galaxian/galaxian.zip",
       "label": "Galaxian (Namco set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1460,7 +1460,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-gaplus~tate/gaplus.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-gaplus/gaplus.zip",
       "label": "Gaplus (GP2 rev. B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1612,7 +1612,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-taito-taito_f2~tate/gunfront.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-taito-taito_f2/gunfront.zip",
       "label": "Gun & Frontier (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1628,7 +1628,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-gunsmoke~tate/gunsmoke.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-gunsmoke/gunsmoke.zip",
       "label": "Gun.Smoke (World, 1985-11-15)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1636,7 +1636,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyo~tate/gunbird.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyo/gunbird.zip",
       "label": "Gunbird (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1644,7 +1644,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyosh~tate/gunbird2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyosh/gunbird2.zip",
       "label": "Gunbird 2 (set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1660,7 +1660,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-seta~tate/gundhara.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-seta/gundhara.zip",
       "label": "Gundhara",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1676,7 +1676,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-taito-taito_f3~tate/gunlock.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-taito-taito_f3/gunlock.zip",
       "label": "Gunlock (Ver 2.3O 1994/01/20)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1684,7 +1684,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nmk-nmk16~tate/gunnail.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nmk-nmk16/gunnail.zip",
       "label": "GunNail (28th May. 1992)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1692,7 +1692,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave~tate/guwange.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave/guwange.zip",
       "label": "Guwange (Japan, 1999 6/24 Master Ver 16:55)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1700,7 +1700,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave~tate/guwanges.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave/guwanges.zip",
       "label": "Guwange (Japan, 2000 7/ 7 Special Ver 13:22)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1708,7 +1708,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-gyruss~tate/gyruss.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-gyruss/gyruss.zip",
       "label": "Gyruss",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1756,7 +1756,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/ibarao.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/ibarao.zip",
       "label": "Ibara (Japan, 2005/03/22 MASTER VER..)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1764,7 +1764,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/ibara.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/ibara.zip",
       "label": "Ibara (Japan, 2005/03/22 MASTER VER.., '06. 3. 7 ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1772,7 +1772,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/ibarablka.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/ibarablka.zip",
       "label": "Ibara Kuro Black Label (Japan, 2006/02/06 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1780,7 +1780,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/ibarablk.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/ibarablk.zip",
       "label": "Ibara Kuro Black Label (Japan, 2006/02/06. MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1788,7 +1788,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-snk-snk~tate/ikari.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-snk-snk/ikari.zip",
       "label": "Ikari Warriors (US JAMMA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1860,7 +1860,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-williams-williams~tate/joust2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-williams-williams/joust2.zip",
       "label": "Joust 2 - Survival of the Fittest (revision 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1868,7 +1868,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-jrpacman~tate/jrpacman.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-jrpacman/jrpacman.zip",
       "label": "Jr. Pac-Man (11/9/83)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1876,7 +1876,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-jrpacman~tate/jrpacmanf.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-jrpacman/jrpacmanf.zip",
       "label": "Jr. Pac-Man (speedup hack)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1900,7 +1900,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-junofrst~tate/junofrst.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-junofrst/junofrst.zip",
       "label": "Juno First",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1908,7 +1908,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-dataeast-kchamp~tate/kchamp.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-dataeast-kchamp/kchamp.zip",
       "label": "Karate Champ (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1916,7 +1916,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ketb.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ketb.zip",
       "label": "Ketsui: Kizuna Jigoku Tachi (2003/01/01 Master Ver)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1924,7 +1924,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/keta.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/keta.zip",
       "label": "Ketsui: Kizuna Jigoku Tachi (2003/01/01 Master Ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1932,7 +1932,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ket.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ket.zip",
       "label": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1940,7 +1940,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm~tate/ket1.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-igs-pgm/ket1.zip",
       "label": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.) (alt ROM fill)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -1964,7 +1964,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing~tate/kingdmgp.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing/kingdmgp.zip",
       "label": "Kingdom Grandprix",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2044,7 +2044,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-lwings~tate/lwings.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-lwings/lwings.zip",
       "label": "Legendary Wings (US, rev. C)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2060,7 +2060,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-videogames-looping~tate/looping.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-videogames-looping/looping.zip",
       "label": "Looping (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2076,7 +2076,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nmk-macrossp~tate/macrossp.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nmk-macrossp/macrossp.zip",
       "label": "Macross Plus",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2124,7 +2124,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-technos-matmania~tate/maniach.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-technos-matmania/maniach.zip",
       "label": "Mania Challenge (set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2132,7 +2132,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-mappy~tate/mappy.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-mappy/mappy.zip",
       "label": "Mappy (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2204,7 +2204,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave~tate/mazinger.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atlus-cave/mazinger.zip",
       "label": "Mazinger Z (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2220,7 +2220,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1~tate/mercs.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1/mercs.zip",
       "label": "Mercs (World 900302)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2300,7 +2300,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atari-centiped~tate/milliped.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atari-centiped/milliped.zip",
       "label": "Millipede",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2316,7 +2316,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-galaxian-galaxian~tate/mooncrst.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-galaxian-galaxian/mooncrst.zip",
       "label": "Moon Cresta (Nichibutsu)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2356,7 +2356,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-universal-mrdo~tate/mrdo.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-universal-mrdo/mrdo.zip",
       "label": "Mr. Do!",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2364,7 +2364,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-universal-docastle~tate/docastle.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-universal-docastle/docastle.zip",
       "label": "Mr. Do's Castle (set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2380,7 +2380,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman~tate/mspacman.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman/mspacman.zip",
       "label": "Ms. Pac-Man",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2388,7 +2388,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman~tate/mspacmnf.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman/mspacmnf.zip",
       "label": "Ms. Pac-Man (speedup hack)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2396,7 +2396,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/mmpork.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/mmpork.zip",
       "label": "Muchi Muchi Pork! (Japan, 2007/ 4/17 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2412,7 +2412,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/mushisamb.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/mushisamb.zip",
       "label": "Mushihime-Sama (Japan, 2004/10/12 MASTER VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2420,7 +2420,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/mushisama.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/mushisama.zip",
       "label": "Mushihime-Sama (Japan, 2004/10/12 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2428,7 +2428,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/mushisam.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/mushisam.zip",
       "label": "Mushihime-Sama (Japan, 2004/10/12.MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2436,7 +2436,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/futariblj.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/futariblj.zip",
       "label": "Mushihime-Sama Futari Black Label (Japan, 2007/12/11 BLACK LABEL VER)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2444,7 +2444,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/futaribl.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/futaribl.zip",
       "label": "Mushihime-Sama Futari Black Label - Another Ver (World, 2009/11/27 INTERNATIONAL BL)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2452,7 +2452,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/futari10.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/futari10.zip",
       "label": "Mushihime-Sama Futari Ver 1.0 (Japan, 2006/10/23 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2460,7 +2460,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/futari15a.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/futari15a.zip",
       "label": "Mushihime-Sama Futari Ver 1.5 (Japan, 2006/12/8 MASTER VER 1.54)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2468,7 +2468,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/futari15.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/futari15.zip",
       "label": "Mushihime-Sama Futari Ver 1.5 (Japan, 2006/12/8.MASTER VER. 1.54.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2532,7 +2532,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namconb1~tate/nebulray.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namconb1/nebulray.zip",
       "label": "Nebulas Ray (World, NR2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2660,7 +2660,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-dataeast-rohga~tate/nitrobal.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-dataeast-rohga/nitrobal.zip",
       "label": "Nitro Ball (World, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2700,7 +2700,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-toaplan1~tate/outzone.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-toaplan1/outzone.zip",
       "label": "Out Zone",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2732,7 +2732,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman~tate/pacman.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman/pacman.zip",
       "label": "Pac-Man (Midway)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2740,7 +2740,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman~tate/pacmanf.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman/pacmanf.zip",
       "label": "Pac-Man (Midway, speedup hack)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2788,7 +2788,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos2~tate/phelios.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos2/phelios.zip",
       "label": "Phelios",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2796,7 +2796,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-phoenix-phoenix~tate/phoenix.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-phoenix-phoenix/phoenix.zip",
       "label": "Phoenix (Amstar, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2812,7 +2812,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/pinkswtsb.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/pinkswtsb.zip",
       "label": "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2820,7 +2820,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/pinkswtsa.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/pinkswtsa.zip",
       "label": "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER...)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2828,7 +2828,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/pinkswts.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/pinkswts.zip",
       "label": "Pink Sweets: Ibara Sorekara (Japan, 2006/04/06 MASTER VER....)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2836,7 +2836,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/pinkswtsx.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/pinkswtsx.zip",
       "label": "Pink Sweets: Ibara Sorekara (Japan, 2006/xx/xx MASTER VER.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2844,7 +2844,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k~tate/pinkswtssc.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cave-cv1k/pinkswtssc.zip",
       "label": "Pink Sweets: Suicide Club (2017/10/31 SUICIDECLUB VER., bootleg)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2940,7 +2940,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-jaleco-psychic5~tate/psychic5.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-jaleco-psychic5/psychic5.zip",
       "label": "Psychic 5 (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2948,7 +2948,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn~tate/psyvaria.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn/psyvaria.zip",
       "label": "Psyvariar -Medium Unit- (V2.02O 2000/02/22 13:00)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2956,7 +2956,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn~tate/psyvarrv.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn/psyvarrv.zip",
       "label": "Psyvariar -Revision- (V2.04J 2000/08/11 22:00)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -2964,7 +2964,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman~tate/puckman.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-pacman-pacman/puckman.zip",
       "label": "Puck Man (Japan, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3036,7 +3036,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-gottlieb-gottlieb~tate/qbert.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-gottlieb-gottlieb/qbert.zip",
       "label": "Q*bert (US set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3108,7 +3108,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nintendo-dkong~tate/radarscp.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nintendo-dkong/radarscp.zip",
       "label": "Radar Scope (TRS02, rev. D)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3140,7 +3140,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-raiden~tate/raiden.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-raiden/raiden.zip",
       "label": "Raiden (World set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3148,7 +3148,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-raiden2~tate/raidendx.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-raiden2/raidendx.zip",
       "label": "Raiden DX (UK)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3156,7 +3156,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-seibuspi~tate/rdft.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-seibuspi/rdft.zip",
       "label": "Raiden Fighters (Germany)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3164,7 +3164,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-seibuspi~tate/rdft2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-seibuspi/rdft2.zip",
       "label": "Raiden Fighters 2 - Operation Hell Dive (Germany)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3172,7 +3172,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-raiden2~tate/raiden2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-raiden2/raiden2.zip",
       "label": "Raiden II (US, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3420,7 +3420,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyo~tate/samuraia.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyo/samuraia.zip",
       "label": "Samurai Aces (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3556,7 +3556,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-kaneko-suprnova~tate/sengekis.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-kaneko-suprnova/sengekis.zip",
       "label": "Sengeki Striker (Asia)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3620,7 +3620,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-stv~tate/shienryu.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-stv/shienryu.zip",
       "label": "Shienryu (JUET 961226 V1.000)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3628,7 +3628,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn~tate/shikigam.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn/shikigam.zip",
       "label": "Shikigami no Shiro (V2.03J 2001/08/07 18:11)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3660,7 +3660,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-williams-williams~tate/sinistar.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-williams-williams/sinistar.zip",
       "label": "Sinistar (revision 3, upright)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3708,7 +3708,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-zn~tate/sncwgltd.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-zn/sncwgltd.zip",
       "label": "Sonic Wings Limited (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3716,7 +3716,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing~tate/sstriker.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-raizing/sstriker.zip",
       "label": "Sorcer Striker",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3756,7 +3756,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-midw8080-mw8080bw~tate/invaders.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-midw8080-mw8080bw/invaders.zip",
       "label": "Space Invaders / Space Invaders M",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3780,7 +3780,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-bally-mcr3~tate/spyhunt.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-bally-mcr3/spyhunt.zip",
       "label": "Spy Hunter",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3828,7 +3828,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-ssv~tate/stmblade.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-ssv/stmblade.zip",
       "label": "Storm Blade (US)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3948,7 +3948,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyo~tate/s1945.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyo/s1945.zip",
       "label": "Strikers 1945 (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3956,7 +3956,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyosh~tate/s1945ii.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyosh/s1945ii.zip",
       "label": "Strikers 1945 II",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3964,7 +3964,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyosh~tate/s1945iii.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-psikyo-psikyosh/s1945iii.zip",
       "label": "Strikers 1945 III (World) / Strikers 1999 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -3996,7 +3996,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-thunderx~tate/scontra.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-thunderx/scontra.zip",
       "label": "Super Contra (set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4036,7 +4036,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-mappy~tate/superpac.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-mappy/superpac.zip",
       "label": "Super Pac-Man",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4076,7 +4076,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-zaxxon~tate/szaxxon.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-zaxxon/szaxxon.zip",
       "label": "Super Zaxxon (315-5013)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4172,7 +4172,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atari-tempest~tate/tempest.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atari-tempest/tempest.zip",
       "label": "Tempest (rev 3, Revised Hardware)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4372,7 +4372,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-mappy~tate/todruaga.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-mappy/todruaga.zip",
       "label": "The Tower of Druaga (New Ver.)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4404,7 +4404,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-timeplt~tate/timeplt.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-timeplt/timeplt.zip",
       "label": "Time Pilot",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4412,7 +4412,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-tp84~tate/tp84.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-tp84/tp84.zip",
       "label": "Time Pilot '84 (set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4452,7 +4452,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-toaplan1~tate/truxton.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-toaplan1/truxton.zip",
       "label": "Truxton (Europe, US) / Tatsujin (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4460,7 +4460,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-truxton2~tate/truxton2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-toaplan-truxton2/truxton2.zip",
       "label": "Truxton II / Tatsujin Oh",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4468,7 +4468,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-turbo~tate/turbo.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-turbo/turbo.zip",
       "label": "Turbo (program 1513-1515)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4492,7 +4492,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-nemesis~tate/twinbee.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-nemesis/twinbee.zip",
       "label": "TwinBee (ROM version)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4572,7 +4572,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1~tate/varth.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1/varth.zip",
       "label": "Varth: Operation Thunderstorm (World 920714)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4580,7 +4580,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-ssv~tate/vasara.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-ssv/vasara.zip",
       "label": "Vasara",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4588,7 +4588,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-ssv~tate/vasara2.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seta-ssv/vasara2.zip",
       "label": "Vasara 2 (set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4620,7 +4620,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-seibuspi~tate/viprp1.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-seibu-seibuspi/viprp1.zip",
       "label": "Viper Phase 1 (New Version, World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4836,7 +4836,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-galaga~tate/xevious.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-galaga/xevious.zip",
       "label": "Xevious (Namco)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4860,7 +4860,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn~tate/xiistag.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn/xiistag.zip",
       "label": "XII Stag (V2.01J 2002/6/26 22:27)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
@@ -4884,7 +4884,7 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-zaxxon~tate/zaxxon.zip",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-zaxxon/zaxxon.zip",
       "label": "Zaxxon (set 1, rev D)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",

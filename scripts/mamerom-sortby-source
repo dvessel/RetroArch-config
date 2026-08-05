@@ -69,10 +69,10 @@ do
     continue
   fi
 
-	read -d '' source rotate < <( mamerom-info --get $rom |
+	read -d '' source < <( mamerom-info --get $rom |
     jq -r --arg name $rom:t:r '.machine[] | select(
 		  .name == $name and .isbios != "yes" and .isdevice != "yes"
-	  ) | .source, ( [.display] | flatten | .[0] | .rotate )'
+	  ) | .source'
   )
   if [[ -z $source ]]
   then
@@ -80,12 +80,7 @@ do
     continue
   fi
 
-  container=-${${source:r}/\//-}
-  if [[ $rotate =~ (90|270) ]]
-  then
-    container+='~tate'
-  fi
-  link=$sortdir/$container/$rom:t
+  link=$sortdir/-${${source:r}/\//-}/$rom:t
   mkdir -p $link:h
   ln -f $rom $link
   s.print +linked $link
