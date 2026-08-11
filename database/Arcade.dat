@@ -632,6 +632,162 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
+	<machine name="1943kai" sourcefile="capcom/1943.cpp">
+		<description>1943 Kai: Midway Kaisen (Japan)</description>
+		<year>1987</year>
+		<manufacturer>Capcom</manufacturer>
+		<rom name="bmk01.12d" size="32768" crc="7d2211db" sha1="b02a0b3daf7e1e224b7cad8fbe93439bd5ec9f0b" region="maincpu" offset="0"/>
+		<rom name="bmk02.13d" size="65536" crc="2ebbc8c5" sha1="3be5ad061411642723e3f2bcb7b3c3caa11ee15f" region="maincpu" offset="10000"/>
+		<rom name="bmk03.14d" size="65536" crc="475a6ac5" sha1="fa07a855ba9173b6f81641c806ec7d938b0c282e" region="maincpu" offset="20000"/>
+		<rom name="bmk05.4k" size="32768" crc="25f37957" sha1="1e50c2a920eb3b5c881843686db857e9fee5ba1d" region="audiocpu" offset="0"/>
+		<rom name="bm.7k" size="4096" crc="cf4781bf" sha1="4d63da5bf39a892499c02a79c7daf33d3a94234a" region="mcu" offset="0"/>
+		<rom name="bmk04.5h" size="32768" crc="884a8692" sha1="027aa8c868dc07ccd9e27705031107881aef4b91" region="gfx1" offset="0"/>
+		<rom name="bm15.10f" size="32768" crc="6b1a0443" sha1="32337c840ccd6815fd5844c194365c58d708f6dc" region="gfx2" offset="0"/>
+		<rom name="bmk16.11f" size="32768" crc="9416fe0d" sha1="92fbc8fffa4497747ab80abe20eef361f6525114" region="gfx2" offset="8000"/>
+		<rom name="bmk17.12f" size="32768" crc="3d5acab9" sha1="887d45b648fda952ae2137579f383ab8ede1facd" region="gfx2" offset="10000"/>
+		<rom name="bmk18.14f" size="32768" crc="7b62da1d" sha1="1926109a2ab2f550ca87b0d2af73abd2b4a7498d" region="gfx2" offset="18000"/>
+		<rom name="bm19.10j" size="32768" crc="868ababc" sha1="1c7be905f53c63bad25fbbd9b3cf82d2c7749bc3" region="gfx2" offset="20000"/>
+		<rom name="bmk20.11j" size="32768" crc="b90364c1" sha1="104bc02237eeead84c7f35462186d0a1af8761bc" region="gfx2" offset="28000"/>
+		<rom name="bmk21.12j" size="32768" crc="8c7fe74a" sha1="8846b57d7f47c10ab1f505c359ecf36dcbacb011" region="gfx2" offset="30000"/>
+		<rom name="bmk22.14j" size="32768" crc="d5ef8a0e" sha1="2e42b1fbbfe823a33740a56d1334657db56d24d2" region="gfx2" offset="38000"/>
+		<rom name="bmk24.14k" size="32768" crc="bf186ef2" sha1="cacbb8a61f8a64c3ba4ffde5ca6f07fe120b9a7e" region="gfx3" offset="0"/>
+		<rom name="bmk25.14l" size="32768" crc="a755faf1" sha1="8ee286d6ad7454ae34971f5891ddba4b76c244b0" region="gfx3" offset="8000"/>
+		<rom name="bmk06.10a" size="32768" crc="5f7e38b3" sha1="33f69ebe91a0ee45d9107171fed26da475aaab3a" region="gfx4" offset="0"/>
+		<rom name="bmk07.11a" size="32768" crc="ff3751fd" sha1="bc942ddd46e7b147115e8ac22d24c2d018a7c373" region="gfx4" offset="8000"/>
+		<rom name="bmk08.12a" size="32768" crc="159d51bd" sha1="746aa49b18aff0eaf2fb875c573d455416d45a1d" region="gfx4" offset="10000"/>
+		<rom name="bmk09.14a" size="32768" crc="8683e3d2" sha1="591dc4811b226fe11cd5441ecb51aa3e95e68ac5" region="gfx4" offset="18000"/>
+		<rom name="bmk10.10c" size="32768" crc="1e0d9571" sha1="44ea9603020e9ab717e3e506f7ecf288506c0502" region="gfx4" offset="20000"/>
+		<rom name="bmk11.11c" size="32768" crc="f1fc5ee1" sha1="4ffc8e57734d3b59df695b86070511f1c447b992" region="gfx4" offset="28000"/>
+		<rom name="bmk12.12c" size="32768" crc="0f50c001" sha1="0e6367d3f0ba39a00ee0fa6e42ae9d43d12da23d" region="gfx4" offset="30000"/>
+		<rom name="bmk13.14c" size="32768" crc="fd1acf8e" sha1="88477ff1e5fbbca251d8cd4f241b42618ba64a80" region="gfx4" offset="38000"/>
+		<rom name="bmk14.5f" size="32768" crc="cf0f5a53" sha1="dc50f3f937f52910dbd0cedbc232acfed0aa6a42" region="tilerom" offset="0"/>
+		<rom name="bmk23.8k" size="32768" crc="17f77ef9" sha1="8ebb4b440042436ec2db52bad808cced832db77c" region="tilerom" offset="8000"/>
+		<rom name="bmk1.12a" size="256" crc="e001ea33" sha1="4204bdf87820ac84bab2a1b5571a2ee28c4cdfc5" region="proms" offset="0"/>
+		<rom name="bmk2.13a" size="256" crc="af34d91a" sha1="94bc6514c980fdd1cb013ff0819d6f32464c581c" region="proms" offset="100"/>
+		<rom name="bmk3.14a" size="256" crc="43e9f6ef" sha1="e1f58368fe0bd9b53f6c286ce5009b218a5197dc" region="proms" offset="200"/>
+		<rom name="bmk5.7f" size="256" crc="41878934" sha1="8f28210ab1d409c89600169a136b74a706001cdf" region="proms" offset="300"/>
+		<rom name="bmk10.7l" size="256" crc="de44b748" sha1="0694fb19d98ccda728424436fc7350da7b5bd05e" region="proms" offset="400"/>
+		<rom name="bmk9.6l" size="256" crc="59ea57c0" sha1="f961c7e9981cc819c2adf4efdc977841d284a3a2" region="proms" offset="500"/>
+		<rom name="bmk12.12m" size="256" crc="8765f8b0" sha1="f32bab8e3587434b864fe97da9423f2335ccba2e" region="proms" offset="600"/>
+		<rom name="bmk11.12l" size="256" crc="87a8854e" sha1="0cbc601b736d566d625867d65e0f7b2abb535c65" region="proms" offset="700"/>
+		<rom name="bmk8.8c" size="256" crc="dad17e2d" sha1="fdb18ddc7574153bb7e27ba08b04b9dc87061c02" region="proms" offset="800"/>
+		<rom name="bmk7.7c" size="256" crc="76307f8d" sha1="8d655e2a5c50541795316d924b2f18b55f4b9571" region="proms" offset="900"/>
+		<rom name="bm4.12c" size="256" crc="91a8a2e1" sha1="9583c87eff876f04bc2ccf7218cd8081f1bcdb94" region="proms" offset="a00"/>
+		<rom name="bm6.4b" size="256" crc="0eaf5158" sha1="bafd4108708f66cd7b280e47152b108f3e254fc9" region="proms" offset="b00"/>
+		<device_ref tag=":maincpu" name="z80"/>
+		<device_ref tag=":audiocpu" name="z80"/>
+		<device_ref tag=":mcu" name="i8751"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":spriteram" name="buffered_spriteram8"/>
+		<device_ref tag=":mono" name="speaker"/>
+		<device_ref tag=":soundlatch" name="generic_latch_8"/>
+		<device_ref tag=":ym1" name="ym2203"/>
+		<device_ref tag=":ym2" name="ym2203"/>
+		<chip type="cpu" tag="maincpu" name="Zilog Z80" clock="6000000"/>
+		<chip type="cpu" tag="audiocpu" name="Zilog Z80" clock="3000000"/>
+		<chip type="cpu" tag="mcu" name="Intel 8751" clock="3000000"/>
+		<chip type="audio" tag="mono" name="Speaker"/>
+		<chip type="audio" tag="ym1" name="YM2203 OPN" clock="1500000"/>
+		<chip type="audio" tag="ym2" name="YM2203 OPN" clock="1500000"/>
+		<display tag="screen" type="raster" rotate="270" width="256" height="224" refresh="59.637405" pixclock="6000000" htotal="384" hbend="0" hbstart="256" vtotal="262" vbend="16" vbstart="240" />
+		<sound channels="1"/>
+		<input players="2" coins="2">
+			<control type="joy" player="1" buttons="2" ways="8"/>
+			<control type="joy" player="2" buttons="2" ways="8"/>
+		</input>
+		<dipswitch name="Difficulty" tag="DSWA" mask="15">
+			<diplocation name="SWA" number="8"/>
+			<diplocation name="SWA" number="7"/>
+			<diplocation name="SWA" number="6"/>
+			<diplocation name="SWA" number="5"/>
+			<dipvalue name="1 (Easy)" value="15"/>
+			<dipvalue name="2" value="14"/>
+			<dipvalue name="3" value="13"/>
+			<dipvalue name="4" value="12"/>
+			<dipvalue name="5" value="11"/>
+			<dipvalue name="6" value="10"/>
+			<dipvalue name="7" value="9"/>
+			<dipvalue name="8 (Normal)" value="8" default="yes"/>
+			<dipvalue name="9" value="7"/>
+			<dipvalue name="10" value="6"/>
+			<dipvalue name="11" value="5"/>
+			<dipvalue name="12" value="4"/>
+			<dipvalue name="13" value="3"/>
+			<dipvalue name="14" value="2"/>
+			<dipvalue name="15" value="1"/>
+			<dipvalue name="16 (Difficult)" value="0"/>
+		</dipswitch>
+		<dipswitch name="2 Player Game" tag="DSWA" mask="16">
+			<diplocation name="SWA" number="4"/>
+			<dipvalue name="1 Credit/2 Players" value="0"/>
+			<dipvalue name="2 Credits/2 Players" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Flip Screen" tag="DSWA" mask="32">
+			<diplocation name="SWA" number="3"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Screen Stop" tag="DSWA" mask="64">
+			<diplocation name="SWA" number="2"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Service Mode" tag="DSWA" mask="128">
+			<diplocation name="SWA" number="1"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Coin A" tag="DSWB" mask="7">
+			<diplocation name="SWB" number="8"/>
+			<diplocation name="SWB" number="7"/>
+			<diplocation name="SWB" number="6"/>
+			<dipvalue name="4 Coins/1 Credit" value="0"/>
+			<dipvalue name="3 Coins/1 Credit" value="1"/>
+			<dipvalue name="2 Coins/1 Credit" value="2"/>
+			<dipvalue name="1 Coin/1 Credit" value="7" default="yes"/>
+			<dipvalue name="1 Coin/2 Credits" value="6"/>
+			<dipvalue name="1 Coin/3 Credits" value="5"/>
+			<dipvalue name="1 Coin/4 Credits" value="4"/>
+			<dipvalue name="1 Coin/5 Credits" value="3"/>
+		</dipswitch>
+		<dipswitch name="Coin B" tag="DSWB" mask="56">
+			<diplocation name="SWB" number="5"/>
+			<diplocation name="SWB" number="4"/>
+			<diplocation name="SWB" number="3"/>
+			<dipvalue name="4 Coins/1 Credit" value="0"/>
+			<dipvalue name="3 Coins/1 Credit" value="8"/>
+			<dipvalue name="2 Coins/1 Credit" value="16"/>
+			<dipvalue name="1 Coin/1 Credit" value="56" default="yes"/>
+			<dipvalue name="1 Coin/2 Credits" value="48"/>
+			<dipvalue name="1 Coin/3 Credits" value="40"/>
+			<dipvalue name="1 Coin/4 Credits" value="32"/>
+			<dipvalue name="1 Coin/5 Credits" value="24"/>
+		</dipswitch>
+		<dipswitch name="Allow Continue" tag="DSWB" mask="64">
+			<diplocation name="SWB" number="2"/>
+			<dipvalue name="No" value="0"/>
+			<dipvalue name="Yes" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Demo Sounds" tag="DSWB" mask="128">
+			<diplocation name="SWB" number="1"/>
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<port tag=":DSWA">
+		</port>
+		<port tag=":DSWB">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":SYSTEM">
+		</port>
+		<driver status="good" emulation="good" savestate="supported"/>
+	</machine>
 	<machine name="1944" sourcefile="capcom/cps2.cpp">
 		<description>1944: The Loop Master (Europe 000620)</description>
 		<year>2000</year>
