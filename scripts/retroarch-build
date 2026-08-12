@@ -91,7 +91,8 @@ done
 print "Builds completed for the following: ${(j:, :)builds}."
 print "Restoring repo states:"
 # reset self-signing stash.
-git reset --hard HEAD
+git restore pkg/apple/RetroArch_Metal.xcodeproj/project.pbxproj
+
 # restore previously stashed.
 for repo in $stashed; [[ $PWD != $base_dir/$repo ]] && {
   cd $base_dir/$repo
