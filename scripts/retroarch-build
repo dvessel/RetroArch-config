@@ -27,13 +27,10 @@ if (( ${#zupdate} ))
 then
   for repo in $repos
   do
-    if ! () {
-      cd $base_dir/$repo || return 1
-      print "Updating repo: $repo"
-    }
-    then
-      return 1
-    elif ! git fetch
+    cd $base_dir/$repo || return 1
+    print "Updating repo: $repo"
+
+    if ! git fetch
     then
       print "fetch failed." >&2
       return 1
