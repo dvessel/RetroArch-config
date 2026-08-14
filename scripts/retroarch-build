@@ -44,9 +44,12 @@ then
       then
         stashed+=$repo
       fi
-      if ! git pull
+      # A `pull` merge commits by default but there's no difference with a rebase
+      # when there are no locally made commits. A rebase also allows local commits
+      # by replaying them back on top of the updated remote commits.
+      if ! git rebase
       then
-        print "pull failed." >&2
+        print "rebase failed." >&2
         return 1
       fi
       if [[ -n $( git submodule status ) ]] &&
