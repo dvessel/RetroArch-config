@@ -41,9 +41,10 @@ then
       then
         stashed+=$repo
       fi
-      # A `pull` merge commits by default but there's no difference with a rebase
-      # when there are no locally made commits. A rebase also allows local commits
-      # by replaying them back on top of the updated remote commits.
+      # A pull *merge commits* by default but there's no difference with a rebase
+      # when there are no locally made commits. A rebase on the other hand allows
+      # local commits by replaying them back on top of the upstream commits. It is
+      # more flexible so use rebase.
       if ! git rebase
       then
         print "rebase failed." >&2
