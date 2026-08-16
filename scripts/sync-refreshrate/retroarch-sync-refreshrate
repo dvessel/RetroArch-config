@@ -70,7 +70,7 @@ typeset -a av_search=(
   '([0-9]+x[0-9]+)'
   'Aspect: ([0-9]\.[0-9]+)'
   'FPS: ([0-9]+\.[0-9]+)'
-  'Sample rate: ([0-9]+\.[0-9]+)'
+  'Sample rate: ([0-9]+(\.[0-9]+)?)'
 )
 
 # Required logging options for the script to function.
@@ -150,7 +150,12 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
     # cores is common.
     elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]; then
       dprint -ok "Start Synchronous Audio - Emulation Started"
-      set_hz $emuhz
+      if [[ -z $emuhz ]]
+      then
+        print "Could not determine emulated refresh rate due to unexpected log output." >&2
+        continue
+      fi
+      set_hz $emuhz; unset emuhz
       loading=0
       running=1
       closing=0
@@ -195,7 +200,12 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
     elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]; then
       if (( switch )); then
         dprint -ok "Switch Refresh Rate"
-        set_hz $emuhz
+        if [[ -z $emuhz ]]
+        then
+          print "Could not determine emulated refresh rate due to unexpected log output." >&2
+          continue
+        fi
+        set_hz $emuhz; unset emuhz
       fi
 
     # Unload Core or Close -> Release Refresh Rates:
