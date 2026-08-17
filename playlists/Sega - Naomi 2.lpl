@@ -10,7 +10,7 @@
   "sort_mode": 0,
   "scan_content_dir": "/Users/joon/Games/Emulation/Sega Naomi 2",
   "scan_file_exts": "",
-  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/Sega Naomi 2.dat",
+  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/Sega Naomi 2.xml",
   "scan_database_name": "Sega - Naomi 2.lpl",
   "scan_search_recursively": true,
   "scan_search_archives": true,

@@ -10,8 +10,8 @@ autoconfig/*
 cht
 cores
 database/*
-!database/*.dat
 !database/*.xml
+!database/*-append
 downloads
 info
 logs

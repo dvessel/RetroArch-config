@@ -36,12 +36,12 @@ info_path=$rom_path:h/.rominfo/info/$name.json
 
 if [[ ! -s $info_path ]]
 then
-  xml_path=~/Library/Application\ Support/RetroArch/database/${rom_path:h:t}.xml
+  append_dir=~/Library/Application\ Support/RetroArch/database/${rom_path:h:t}-append
   if ! mame -listxml $name | mamexml-to-json $info_path &&
-  [[ -f $xml_path/$name.xml ]]
+  [[ -f $append_dir/$name.xml ]]
   then
-    print "found fallback in '$xml_path/$name.xml'" >&2
-    mamexml-to-json $xml_path/$name.xml $info_path
+    print "found fallback in '$append_dir/$name.xml'" >&2
+    mamexml-to-json $append_dir/$name.xml $info_path
   fi
 fi
 
