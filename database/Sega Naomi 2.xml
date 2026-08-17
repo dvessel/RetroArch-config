@@ -1,0 +1,3078 @@
+<?xml version="1.0"?>
+<!DOCTYPE mame [
+<!ELEMENT mame (machine+)>
+	<!ATTLIST mame build CDATA #IMPLIED>
+	<!ATTLIST mame debug (yes|no) "no">
+	<!ATTLIST mame mameconfig CDATA #REQUIRED>
+	<!ELEMENT machine (description, year?, manufacturer?, biosset*, rom*, disk*, device_ref*, sample*, chip*, display*, sound?, input?, dipswitch*, configuration*, port*, adjuster*, driver?, feature*, device*, slot*, softwarelist*, ramoption*)>
+		<!ATTLIST machine name CDATA #REQUIRED>
+		<!ATTLIST machine sourcefile CDATA #IMPLIED>
+		<!ATTLIST machine isbios (yes|no) "no">
+		<!ATTLIST machine isdevice (yes|no) "no">
+		<!ATTLIST machine ismechanical (yes|no) "no">
+		<!ATTLIST machine runnable (yes|no) "yes">
+		<!ATTLIST machine cloneof CDATA #IMPLIED>
+		<!ATTLIST machine romof CDATA #IMPLIED>
+		<!ATTLIST machine sampleof CDATA #IMPLIED>
+		<!ELEMENT description (#PCDATA)>
+		<!ELEMENT year (#PCDATA)>
+		<!ELEMENT manufacturer (#PCDATA)>
+		<!ELEMENT biosset EMPTY>
+			<!ATTLIST biosset name CDATA #REQUIRED>
+			<!ATTLIST biosset description CDATA #REQUIRED>
+			<!ATTLIST biosset default (yes|no) "no">
+		<!ELEMENT rom EMPTY>
+			<!ATTLIST rom name CDATA #REQUIRED>
+			<!ATTLIST rom bios CDATA #IMPLIED>
+			<!ATTLIST rom size CDATA #REQUIRED>
+			<!ATTLIST rom crc CDATA #IMPLIED>
+			<!ATTLIST rom sha1 CDATA #IMPLIED>
+			<!ATTLIST rom merge CDATA #IMPLIED>
+			<!ATTLIST rom region CDATA #IMPLIED>
+			<!ATTLIST rom offset CDATA #IMPLIED>
+			<!ATTLIST rom status (baddump|nodump|good) "good">
+			<!ATTLIST rom optional (yes|no) "no">
+		<!ELEMENT disk EMPTY>
+			<!ATTLIST disk name CDATA #REQUIRED>
+			<!ATTLIST disk sha1 CDATA #IMPLIED>
+			<!ATTLIST disk merge CDATA #IMPLIED>
+			<!ATTLIST disk region CDATA #IMPLIED>
+			<!ATTLIST disk index CDATA #IMPLIED>
+			<!ATTLIST disk writable (yes|no) "no">
+			<!ATTLIST disk status (baddump|nodump|good) "good">
+			<!ATTLIST disk optional (yes|no) "no">
+		<!ELEMENT device_ref EMPTY>
+			<!ATTLIST device_ref tag CDATA #REQUIRED>
+			<!ATTLIST device_ref name CDATA #REQUIRED>
+		<!ELEMENT sample EMPTY>
+			<!ATTLIST sample name CDATA #REQUIRED>
+		<!ELEMENT chip EMPTY>
+			<!ATTLIST chip name CDATA #REQUIRED>
+			<!ATTLIST chip tag CDATA #IMPLIED>
+			<!ATTLIST chip type (cpu|audio) #REQUIRED>
+			<!ATTLIST chip clock CDATA #IMPLIED>
+		<!ELEMENT display EMPTY>
+			<!ATTLIST display tag CDATA #IMPLIED>
+			<!ATTLIST display type (raster|vector|lcd|svg|unknown) #REQUIRED>
+			<!ATTLIST display rotate (0|90|180|270) #IMPLIED>
+			<!ATTLIST display flipx (yes|no) "no">
+			<!ATTLIST display width CDATA #IMPLIED>
+			<!ATTLIST display height CDATA #IMPLIED>
+			<!ATTLIST display refresh CDATA #REQUIRED>
+			<!ATTLIST display pixclock CDATA #IMPLIED>
+			<!ATTLIST display htotal CDATA #IMPLIED>
+			<!ATTLIST display hbend CDATA #IMPLIED>
+			<!ATTLIST display hbstart CDATA #IMPLIED>
+			<!ATTLIST display vtotal CDATA #IMPLIED>
+			<!ATTLIST display vbend CDATA #IMPLIED>
+			<!ATTLIST display vbstart CDATA #IMPLIED>
+		<!ELEMENT sound EMPTY>
+			<!ATTLIST sound channels CDATA #REQUIRED>
+		<!ELEMENT condition EMPTY>
+			<!ATTLIST condition tag CDATA #REQUIRED>
+			<!ATTLIST condition mask CDATA #REQUIRED>
+			<!ATTLIST condition relation (eq|ne|gt|le|lt|ge) #REQUIRED>
+			<!ATTLIST condition value CDATA #REQUIRED>
+		<!ELEMENT input (control*)>
+			<!ATTLIST input service (yes|no) "no">
+			<!ATTLIST input tilt (yes|no) "no">
+			<!ATTLIST input players CDATA #REQUIRED>
+			<!ATTLIST input coins CDATA #IMPLIED>
+			<!ELEMENT control EMPTY>
+				<!ATTLIST control type CDATA #REQUIRED>
+				<!ATTLIST control player CDATA #IMPLIED>
+				<!ATTLIST control buttons CDATA #IMPLIED>
+				<!ATTLIST control minimum CDATA #IMPLIED>
+				<!ATTLIST control maximum CDATA #IMPLIED>
+				<!ATTLIST control sensitivity CDATA #IMPLIED>
+				<!ATTLIST control keydelta CDATA #IMPLIED>
+				<!ATTLIST control reverse (yes|no) "no">
+				<!ATTLIST control ways CDATA #IMPLIED>
+				<!ATTLIST control ways2 CDATA #IMPLIED>
+				<!ATTLIST control ways3 CDATA #IMPLIED>
+		<!ELEMENT dipswitch (condition?, diplocation*, dipvalue*)>
+			<!ATTLIST dipswitch name CDATA #REQUIRED>
+			<!ATTLIST dipswitch tag CDATA #REQUIRED>
+			<!ATTLIST dipswitch mask CDATA #REQUIRED>
+			<!ELEMENT diplocation EMPTY>
+				<!ATTLIST diplocation name CDATA #REQUIRED>
+				<!ATTLIST diplocation number CDATA #REQUIRED>
+				<!ATTLIST diplocation inverted (yes|no) "no">
+			<!ELEMENT dipvalue (condition?)>
+				<!ATTLIST dipvalue name CDATA #REQUIRED>
+				<!ATTLIST dipvalue value CDATA #REQUIRED>
+				<!ATTLIST dipvalue default (yes|no) "no">
+		<!ELEMENT configuration (condition?, conflocation*, confsetting*)>
+			<!ATTLIST configuration name CDATA #REQUIRED>
+			<!ATTLIST configuration tag CDATA #REQUIRED>
+			<!ATTLIST configuration mask CDATA #REQUIRED>
+			<!ELEMENT conflocation EMPTY>
+				<!ATTLIST conflocation name CDATA #REQUIRED>
+				<!ATTLIST conflocation number CDATA #REQUIRED>
+				<!ATTLIST conflocation inverted (yes|no) "no">
+			<!ELEMENT confsetting (condition?)>
+				<!ATTLIST confsetting name CDATA #REQUIRED>
+				<!ATTLIST confsetting value CDATA #REQUIRED>
+				<!ATTLIST confsetting default (yes|no) "no">
+		<!ELEMENT port (analog*)>
+			<!ATTLIST port tag CDATA #REQUIRED>
+			<!ELEMENT analog EMPTY>
+				<!ATTLIST analog mask CDATA #REQUIRED>
+		<!ELEMENT adjuster (condition?)>
+			<!ATTLIST adjuster name CDATA #REQUIRED>
+			<!ATTLIST adjuster default CDATA #REQUIRED>
+		<!ELEMENT driver EMPTY>
+			<!ATTLIST driver status (good|imperfect|preliminary) #REQUIRED>
+			<!ATTLIST driver emulation (good|imperfect|preliminary) #REQUIRED>
+			<!ATTLIST driver cocktail (good|imperfect|preliminary) #IMPLIED>
+			<!ATTLIST driver savestate (supported|unsupported) #REQUIRED>
+			<!ATTLIST driver requiresartwork (yes|no) "no">
+			<!ATTLIST driver unofficial (yes|no) "no">
+			<!ATTLIST driver nosoundhardware (yes|no) "no">
+			<!ATTLIST driver incomplete (yes|no) "no">
+		<!ELEMENT feature EMPTY>
+			<!ATTLIST feature type (protection|timing|graphics|palette|sound|capture|camera|microphone|controls|keyboard|mouse|media|disk|printer|tape|punch|drum|rom|comms|lan|wan) #REQUIRED>
+			<!ATTLIST feature status (unemulated|imperfect) #IMPLIED>
+			<!ATTLIST feature overall (unemulated|imperfect) #IMPLIED>
+		<!ELEMENT device (instance?, extension*)>
+			<!ATTLIST device type CDATA #REQUIRED>
+			<!ATTLIST device tag CDATA #IMPLIED>
+			<!ATTLIST device fixed_image CDATA #IMPLIED>
+			<!ATTLIST device mandatory CDATA #IMPLIED>
+			<!ATTLIST device interface CDATA #IMPLIED>
+			<!ELEMENT instance EMPTY>
+				<!ATTLIST instance name CDATA #REQUIRED>
+				<!ATTLIST instance briefname CDATA #REQUIRED>
+			<!ELEMENT extension EMPTY>
+				<!ATTLIST extension name CDATA #REQUIRED>
+		<!ELEMENT slot (slotoption*)>
+			<!ATTLIST slot name CDATA #REQUIRED>
+			<!ELEMENT slotoption EMPTY>
+				<!ATTLIST slotoption name CDATA #REQUIRED>
+				<!ATTLIST slotoption devname CDATA #REQUIRED>
+				<!ATTLIST slotoption default (yes|no) "no">
+		<!ELEMENT softwarelist EMPTY>
+			<!ATTLIST softwarelist tag CDATA #REQUIRED>
+			<!ATTLIST softwarelist name CDATA #REQUIRED>
+			<!ATTLIST softwarelist status (original|compatible) #REQUIRED>
+			<!ATTLIST softwarelist filter CDATA #IMPLIED>
+		<!ELEMENT ramoption (#PCDATA)>
+			<!ATTLIST ramoption name CDATA #REQUIRED>
+			<!ATTLIST ramoption default CDATA #IMPLIED>
+]>
+
+<mame build="0.287 (unknown)" debug="no" mameconfig="10">
+	<machine name="beachspi" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Beach Spikers (GDS-0014)</description>
+		<year>2001</year>
+		<manufacturer>CRI / Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="317-0317-com.pic" size="16384" crc="ef65fe73" sha1="2c02d1570c1fdad56bc684c60bb17255c73c6d45" region="pic" offset="0"/>
+		<disk name="gds-0014" sha1="2d784ed2f5c00189af8480c9ab5ae9d8b7a152d2" region="gdrom" index="0" writable="no"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="segadimm"/>
+		<device_ref tag=":rom_board:dimmcpu" name="sh7091"/>
+		<device_ref tag=":rom_board:pci" name="pci_root"/>
+		<device_ref tag=":rom_board:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":rom_board:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom" name="gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:image" name="gdrom_image"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:cdda" name="cdda"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":rom_board:pic" name="pic16c622"/>
+		<device_ref tag=":rom_board:i2c_0" name="24c01"/>
+		<device_ref tag=":rom_board:i2c_1" name="24c01"/>
+		<device_ref tag=":rom_board:eeprom" name="93c46_8"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="rom_board:dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="rom_board:pic" name="Microchip PIC16C622" clock="20000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<chip type="audio" tag="rom_board:pci:01.0:ide:0:gdrom:cdda" name="CD/DA" clock="44100"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Full emulation" tag="rom_board:DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag="rom_board:DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<port tag=":rom_board:DEBUG_ONLY">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<device type="cdrom" tag="rom_board:pci:01.0:ide:0:gdrom:image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="clubk2k3" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Club Kart: European Session (2003, Rev A)</description>
+		<year>2003</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="epr-24173a.ic11" size="4194304" crc="d35ae42a" sha1="5602bb4ca87b950daee7532e0b70592432b8d5d8" region="rom_board" offset="0"/>
+		<rom name="opr-24151.ic17s" size="8388608" crc="91594439" sha1="a195bfe0c70a0c7048b547af0a92c98d126230c6" region="rom_board" offset="1000000"/>
+		<rom name="opr-24152.ic18" size="8388608" crc="fd131f88" sha1="bc27b3ab5b41a3fe33b541b7cca28d6baed157b3" region="rom_board" offset="1000002"/>
+		<rom name="opr-24153.ic19s" size="8388608" crc="795df2a6" sha1="80f740806dcaacc28752cea98b254cbee51972a4" region="rom_board" offset="2000000"/>
+		<rom name="opr-24154.ic20" size="8388608" crc="7bba9a33" sha1="e50199ce5c893ea81668cbf2972500803265dc19" region="rom_board" offset="2000002"/>
+		<rom name="opr-24155.ic21s" size="8388608" crc="9e3b358d" sha1="3dec18be49b2271f013e4f4a02f32fa515a4ca69" region="rom_board" offset="3000000"/>
+		<rom name="opr-24156.ic22" size="8388608" crc="dd5286f7" sha1="37ea254997cef1c45b53786c8abb2521acf24b56" region="rom_board" offset="3000002"/>
+		<rom name="opr-24157.ic23s" size="8388608" crc="7edc4a7d" sha1="f4ffa20c83226c0c0dccc3b1e9ec6601f145b01b" region="rom_board" offset="4000000"/>
+		<rom name="opr-24158.ic24" size="8388608" crc="4d546427" sha1="74a399c40f56af76077d47f996629a7fb650c804" region="rom_board" offset="4000002"/>
+		<rom name="opr-24159.ic25s" size="8388608" crc="ae8d7de1" sha1="15dadd9c5449d65310647e247a07da165c9e3d5e" region="rom_board" offset="5000000"/>
+		<rom name="opr-24160.ic26" size="8388608" crc="e75210c9" sha1="315c077201023740f63eab5de1d81eb71613b06f" region="rom_board" offset="5000002"/>
+		<rom name="opr-24161.ic27s" size="8388608" crc="aeecf812" sha1="d683f1c7f200481cf2342a387d7558d0d76f89f4" region="rom_board" offset="6000000"/>
+		<rom name="opr-24162.ic28" size="8388608" crc="0e349c02" sha1="4d0b4efeb125e23b1e73db2febf99565969d71d2" region="rom_board" offset="6000002"/>
+		<rom name="opr-24163.ic29" size="8388608" crc="dab7f365" sha1="9a707c8992ddfa58f81bb5278f66713e424b0f4f" region="rom_board" offset="7000000"/>
+		<rom name="opr-24164.ic30s" size="8388608" crc="03be6b1d" sha1="40792314fada46648f4f98a3d5a14822e6b1cf36" region="rom_board" offset="7000002"/>
+		<rom name="opr-24165.ic31" size="8388608" crc="8fdb66a5" sha1="32d2926328d9d804dcff781e2b758dd2a4b1a753" region="rom_board" offset="8000000"/>
+		<rom name="opr-24166.ic32s" size="8388608" crc="790a1b5e" sha1="bb0ad6de62d758f6869b3bb62cce9947f8b08681" region="rom_board" offset="8000002"/>
+		<rom name="opr-24167.ic33" size="8388608" crc="15de1d97" sha1="26a96644f183713a556a5ff2d491510589c9d7c8" region="rom_board" offset="9000000"/>
+		<rom name="opr-24168.ic34s" size="8388608" crc="90dfdd5a" sha1="5c98bc84b310fa70e6bceee190508e9eaa60c82c" region="rom_board" offset="9000002"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_m1_board"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="initd" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Initial D Arcade Stage (Japan, Rev B) (GDS-0020B)</description>
+		<year>2002</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="317-0331-jpn.pic" size="16384" crc="0a3bf606" sha1="7c0e22df4a43a440571ac55fd0a6575931e8f959" region="pic" offset="0"/>
+		<rom name="crp1231br10_ver0107.ic2" size="131072" crc="3198f0ac" sha1="fa38bce7ca217ed6df558dc2456b010f690d0729" region="card_reader" offset="0"/>
+		<disk name="gds-0020b" sha1="08a594af2933144d341a299e3160d3c8281b7241" region="gdrom" index="0" writable="no"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="segadimm"/>
+		<device_ref tag=":rom_board:dimmcpu" name="sh7091"/>
+		<device_ref tag=":rom_board:pci" name="pci_root"/>
+		<device_ref tag=":rom_board:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":rom_board:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom" name="gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:image" name="gdrom_image"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:cdda" name="cdda"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":rom_board:pic" name="pic16c622"/>
+		<device_ref tag=":rom_board:i2c_0" name="24c01"/>
+		<device_ref tag=":rom_board:i2c_1" name="24c01"/>
+		<device_ref tag=":rom_board:eeprom" name="93c46_8"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="rom_board:dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="rom_board:pic" name="Microchip PIC16C622" clock="20000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<chip type="audio" tag="rom_board:pci:01.0:ide:0:gdrom:cdda" name="CD/DA" clock="44100"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Full emulation" tag="rom_board:DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag="rom_board:DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<port tag=":rom_board:DEBUG_ONLY">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<device type="cdrom" tag="rom_board:pci:01.0:ide:0:gdrom:image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="initdexp" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Initial D Arcade Stage (Export, Rev A) (GDS-0025A)</description>
+		<year>2002</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="317-0343-com.pic" size="16384" crc="80eea4eb" sha1="5aedc0d52a2a8a2d186ca591094835d972574092" region="pic" offset="0"/>
+		<disk name="gds-0025a" sha1="d6ec4295122e3d69b9e109778ab1cb0cb0dfc839" region="gdrom" index="0" writable="no"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="segadimm"/>
+		<device_ref tag=":rom_board:dimmcpu" name="sh7091"/>
+		<device_ref tag=":rom_board:pci" name="pci_root"/>
+		<device_ref tag=":rom_board:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":rom_board:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom" name="gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:image" name="gdrom_image"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:cdda" name="cdda"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":rom_board:pic" name="pic16c622"/>
+		<device_ref tag=":rom_board:i2c_0" name="24c01"/>
+		<device_ref tag=":rom_board:i2c_1" name="24c01"/>
+		<device_ref tag=":rom_board:eeprom" name="93c46_8"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="rom_board:dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="rom_board:pic" name="Microchip PIC16C622" clock="20000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<chip type="audio" tag="rom_board:pci:01.0:ide:0:gdrom:cdda" name="CD/DA" clock="44100"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Full emulation" tag="rom_board:DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag="rom_board:DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<port tag=":rom_board:DEBUG_ONLY">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<device type="cdrom" tag="rom_board:pci:01.0:ide:0:gdrom:image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="initdv2e" sourcefile="sega/naomi.cpp" cloneof="initdv2j" romof="initdv2j">
+		<description>Initial D Arcade Stage Ver. 2 (Export) (GDS-0027)</description>
+		<year>2003</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="317-0357-exp.pic" size="16384" crc="38f84b4d" sha1="03c12d8580da1a4b3a554e62fd8b1f3447b7ebbd" region="pic" offset="0"/>
+		<disk name="gds-0027" sha1="c146e8c4d71d1a0cbe836a0b50dea87797869da8" region="gdrom" index="0" writable="no"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="segadimm"/>
+		<device_ref tag=":rom_board:dimmcpu" name="sh7091"/>
+		<device_ref tag=":rom_board:pci" name="pci_root"/>
+		<device_ref tag=":rom_board:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":rom_board:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom" name="gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:image" name="gdrom_image"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:cdda" name="cdda"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":rom_board:pic" name="pic16c622"/>
+		<device_ref tag=":rom_board:i2c_0" name="24c01"/>
+		<device_ref tag=":rom_board:i2c_1" name="24c01"/>
+		<device_ref tag=":rom_board:eeprom" name="93c46_8"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="rom_board:dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="rom_board:pic" name="Microchip PIC16C622" clock="20000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<chip type="audio" tag="rom_board:pci:01.0:ide:0:gdrom:cdda" name="CD/DA" clock="44100"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Full emulation" tag="rom_board:DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag="rom_board:DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<port tag=":rom_board:DEBUG_ONLY">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<device type="cdrom" tag="rom_board:pci:01.0:ide:0:gdrom:image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="initdv2j" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Initial D Arcade Stage Ver. 2 (Japan, Rev B) (GDS-0026B)</description>
+		<year>2003</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="317-0345-jpn.pic" size="16384" crc="56e1274a" sha1="735a6071226f3297de64bc0a38be741e87f5d023" region="pic" offset="0"/>
+		<disk name="gds-0026b" sha1="54cc643e1f850cfaea7d39f6778b662125cba111" region="gdrom" index="0" writable="no"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="segadimm"/>
+		<device_ref tag=":rom_board:dimmcpu" name="sh7091"/>
+		<device_ref tag=":rom_board:pci" name="pci_root"/>
+		<device_ref tag=":rom_board:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":rom_board:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom" name="gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:image" name="gdrom_image"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:cdda" name="cdda"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":rom_board:pic" name="pic16c622"/>
+		<device_ref tag=":rom_board:i2c_0" name="24c01"/>
+		<device_ref tag=":rom_board:i2c_1" name="24c01"/>
+		<device_ref tag=":rom_board:eeprom" name="93c46_8"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="rom_board:dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="rom_board:pic" name="Microchip PIC16C622" clock="20000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<chip type="audio" tag="rom_board:pci:01.0:ide:0:gdrom:cdda" name="CD/DA" clock="44100"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Full emulation" tag="rom_board:DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag="rom_board:DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<port tag=":rom_board:DEBUG_ONLY">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<device type="cdrom" tag="rom_board:pci:01.0:ide:0:gdrom:image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="initdv3e" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Initial D Arcade Stage Ver. 3 (Export) (GDS-0033)</description>
+		<year>2004</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="317-0384-com.pic" size="17152" crc="081ccd51" sha1="598b3bd9e8b16f5954d15738c1ca55703609b690" region="pic" offset="0"/>
+		<disk name="gds-0033" sha1="98fb1bd119fc33ef14fcaba3eb2347836469a75b" region="gdrom" index="0" writable="no"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="segadimm"/>
+		<device_ref tag=":rom_board:dimmcpu" name="sh7091"/>
+		<device_ref tag=":rom_board:pci" name="pci_root"/>
+		<device_ref tag=":rom_board:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":rom_board:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom" name="gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:image" name="gdrom_image"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:cdda" name="cdda"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":rom_board:pic" name="pic16c622"/>
+		<device_ref tag=":rom_board:i2c_0" name="24c01"/>
+		<device_ref tag=":rom_board:i2c_1" name="24c01"/>
+		<device_ref tag=":rom_board:eeprom" name="93c46_8"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="rom_board:dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="rom_board:pic" name="Microchip PIC16C622" clock="20000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<chip type="audio" tag="rom_board:pci:01.0:ide:0:gdrom:cdda" name="CD/DA" clock="44100"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Full emulation" tag="rom_board:DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag="rom_board:DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<port tag=":rom_board:DEBUG_ONLY">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<device type="cdrom" tag="rom_board:pci:01.0:ide:0:gdrom:image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="initdv3j" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Initial D Arcade Stage Ver. 3 (Japan, Rev C) (GDS-0032C)</description>
+		<year>2004</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="317-0379-jpn.pic" size="16384" crc="7f024ff6" sha1="8a6a44f2c5db147355946f6c5e90e545926595da" region="pic" offset="0"/>
+		<disk name="gds-0032c" sha1="d92bca7c8a7920c99b23710f5bdbeed1fbec12d2" region="gdrom" index="0" writable="no"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="segadimm"/>
+		<device_ref tag=":rom_board:dimmcpu" name="sh7091"/>
+		<device_ref tag=":rom_board:pci" name="pci_root"/>
+		<device_ref tag=":rom_board:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":rom_board:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom" name="gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:image" name="gdrom_image"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:cdda" name="cdda"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":rom_board:pic" name="pic16c622"/>
+		<device_ref tag=":rom_board:i2c_0" name="24c01"/>
+		<device_ref tag=":rom_board:i2c_1" name="24c01"/>
+		<device_ref tag=":rom_board:eeprom" name="93c46_8"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="rom_board:dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="rom_board:pic" name="Microchip PIC16C622" clock="20000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<chip type="audio" tag="rom_board:pci:01.0:ide:0:gdrom:cdda" name="CD/DA" clock="44100"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Full emulation" tag="rom_board:DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag="rom_board:DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<port tag=":rom_board:DEBUG_ONLY">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<device type="cdrom" tag="rom_board:pci:01.0:ide:0:gdrom:image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="kingrt66" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>The King of Route 66 (Rev A)</description>
+		<year>2002</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="epr-23819a.ic22" size="4194304" crc="92f11b29" sha1="b33f7eefb849754cfe194be1d48d770ed77ff69a" region="rom_board" offset="0"/>
+		<rom name="mpr-23808.ic1" size="16777216" crc="e911bc86" sha1="0dc658851e20425b2e697e538bb4297a221f6ae8" region="rom_board" offset="800000"/>
+		<rom name="mpr-23809.ic2" size="16777216" crc="2716aba0" sha1="4c245874da244926bf9ac6636af4fa67e07a21e8" region="rom_board" offset="1800000"/>
+		<rom name="mpr-23810.ic3" size="16777216" crc="2226accb" sha1="c4dc71e87c2ccd866f4180129181b7ced8caf22c" region="rom_board" offset="2800000"/>
+		<rom name="mpr-23811.ic4" size="16777216" crc="bbad4a93" sha1="724c3376102b2dc79b852af1e90748b2e0023b82" region="rom_board" offset="3800000"/>
+		<rom name="mpr-23812.ic5" size="16777216" crc="7beabe22" sha1="d3cd926fc768d480ff45f1e30024bb0e31bd7d2c" region="rom_board" offset="4800000"/>
+		<rom name="mpr-23813.ic6" size="16777216" crc="fe0b94ea" sha1="0e46dff932036bec49c78a612bcfd27e07b516e8" region="rom_board" offset="5800000"/>
+		<rom name="mpr-23814.ic7" size="16777216" crc="0cdf7325" sha1="41668f873b7842dac1bc85aa2b6bd6512edc9b64" region="rom_board" offset="6800000"/>
+		<rom name="mpr-23815.ic8" size="16777216" crc="ef327ab8" sha1="9dfc564084a75b9c3935374347f1709d2e86e469" region="rom_board" offset="7800000"/>
+		<rom name="mpr-23816.ic9" size="16777216" crc="bbaf0765" sha1="3b79a4eff504b2156bea8b86c6cdd8e41e7bf268" region="rom_board" offset="8800000"/>
+		<rom name="mpr-23817.ic10" size="16777216" crc="e179cfb6" sha1="1120036238439f8ac1041150396e4b60e4a243bc" region="rom_board" offset="9800000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_m2_board"/>
+		<device_ref tag=":rom_board:segam2crypt" name="sega315_5881"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="naomi2" sourcefile="sega/naomi.cpp" isbios="yes">
+		<description>NAOMI 2 BIOS</description>
+		<year>2001</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_rom_board"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="soulsurf" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Soul Surfer (Rev A)</description>
+		<year>2002</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="epr-23838c.ic22" size="4194304" crc="5e5fb00f" sha1="c5e81ebead9072cc08f09d1715d609cb0f7631ba" region="rom_board" offset="0"/>
+		<rom name="rom1.ic1s" size="8388608" crc="4f12f789" sha1="7b79b687fc61e2e981b9e5e8e0939c4ad24a98f0" region="rom_board" offset="800000"/>
+		<rom name="rom2.ic2s" size="8388608" crc="a255d41a" sha1="3e932527eb68edf3e8538c1ad264a1c599f6a9d5" region="rom_board" offset="1000000"/>
+		<rom name="rom3.ic3s" size="8388608" crc="0f8d6577" sha1="afaf440e667bacc941c0a5418a0e3b0f2bb725b7" region="rom_board" offset="1800000"/>
+		<rom name="rom4.ic4s" size="8388608" crc="bdf25bd0" sha1="f79b1fdba9c48969c49617c43c1919637adb13ba" region="rom_board" offset="2000000"/>
+		<rom name="rom5.ic5s" size="8388608" crc="a74b3bb4" sha1="0ce7cef849061a9af7a61d69dc633f6971a3a63d" region="rom_board" offset="2800000"/>
+		<rom name="rom6.ic6s" size="8388608" crc="3cd1f5d5" sha1="77573c3a60af64e6e6a0eb85d5b8176ed98b0723" region="rom_board" offset="3000000"/>
+		<rom name="rom7.ic7s" size="8388608" crc="00d240f5" sha1="43010fc596f2cdffdff35a6122f2ab02a5251bc0" region="rom_board" offset="3800000"/>
+		<rom name="rom8.ic8s" size="8388608" crc="d4907fa1" sha1="79b1c771819f6e4baa048010bfb940a45370eba2" region="rom_board" offset="4000000"/>
+		<rom name="rom9.ic9s" size="8388608" crc="6327d49e" sha1="a10e3c27f70dbf18e63cf51962b6a79a52eba26c" region="rom_board" offset="4800000"/>
+		<rom name="rom10.ic10s" size="8388608" crc="7975dc80" sha1="81bda50968f0153a0c4432d8d81e817c1e82e5b2" region="rom_board" offset="5000000"/>
+		<rom name="rom11.ic11s" size="8388608" crc="a242f682" sha1="435ea5bb1b3667f9ef3d7de081b15f4e8e6a0d01" region="rom_board" offset="5800000"/>
+		<rom name="rom12.ic12s" size="8388608" crc="45fa259e" sha1="8d7e708e7a2cbc2d60b68715dd79bac28d894d4c" region="rom_board" offset="6000000"/>
+		<rom name="rom13.ic13s" size="8388608" crc="e9578063" sha1="618f66d01f6bdacbf2a3242774a316b130594e02" region="rom_board" offset="6800000"/>
+		<rom name="rom14.ic14s" size="8388608" crc="2edc1311" sha1="bceb54dd29012580e2e6f15f16c6b31195010153" region="rom_board" offset="7000000"/>
+		<rom name="rom15.ic15s" size="8388608" crc="416db320" sha1="34536716a35260d9457703704bb9174fb1616d60" region="rom_board" offset="7800000"/>
+		<rom name="rom16.ic16s" size="8388608" crc="2530cc04" sha1="6425c031e5a129a3c9451bc694b5da8553f154c2" region="rom_board" offset="8000000"/>
+		<rom name="rom17.ic17s" size="8388608" crc="9e6afcc2" sha1="4fb69d834ea12c82e897af47a22dcc47f3c83768" region="rom_board" offset="8800000"/>
+		<rom name="rom18.ic18s" size="8388608" crc="854ed5e5" sha1="e445599f6a9e9d05c279259307edc08bce5d6d1f" region="rom_board" offset="9000000"/>
+		<rom name="rom19.ic19s" size="8388608" crc="4f8ec86a" sha1="406ab9eeccd99fa5515d4a2c229c8db1a5cb8f83" region="rom_board" offset="9800000"/>
+		<rom name="rom20.ic20s" size="8388608" crc="c90b960d" sha1="66e9f09d1f7f6a991371574a2e095c0e22fb7031" region="rom_board" offset="a000000"/>
+		<rom name="rom21.ic21s" size="8388608" crc="1477c064" sha1="87fb8d8a91d6bed70b246a8df88fa77fbf3db443" region="rom_board" offset="a800000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_m2_board"/>
+		<device_ref tag=":rom_board:segam2crypt" name="sega315_5881"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="vf4cart" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Virtua Fighter 4 (World)</description>
+		<year>2002</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="epr-23785.ic22" size="4194304" crc="9bd98d4b" sha1="3b0622625317cd6b2736c5b4a23484fb8bf39e4b" region="rom_board" offset="0"/>
+		<rom name="mpr-23774.ic1" size="16777216" crc="0fe7b864" sha1="357ca3a5d96d7ff27e06367e115ddfd00cb260e3" region="rom_board" offset="800000"/>
+		<rom name="mpr-23775.ic2" size="16777216" crc="a11cd9e5" sha1="7fd8f634d0d14a91dfe9f39b5643b9c761dc7053" region="rom_board" offset="1800000"/>
+		<rom name="mpr-23776.ic3" size="16777216" crc="44b8429e" sha1="0ec6b6156bef1621700791651903a4589f4b5f84" region="rom_board" offset="2800000"/>
+		<rom name="mpr-23777.ic4" size="16777216" crc="78a4264e" sha1="40d045240173f330ac6f108b132f9a87884922be" region="rom_board" offset="3800000"/>
+		<rom name="mpr-23778.ic5" size="16777216" crc="02dee78b" sha1="e08ce0fc0b1db2dcef957c2edb6d51db400a38cb" region="rom_board" offset="4800000"/>
+		<rom name="mpr-23779.ic6" size="16777216" crc="6e458eea" sha1="4c85fcacf4ff46d4a137afcf5906092fd88fe4b1" region="rom_board" offset="5800000"/>
+		<rom name="mpr-23780.ic7" size="16777216" crc="a775a51c" sha1="b3eae20e5e7d74252368fd902c4e94a6ba6cb154" region="rom_board" offset="6800000"/>
+		<rom name="mpr-23781.ic8" size="16777216" crc="401bca00" sha1="10c6011fae7076ea0dc5ab0ebca9cb88659a93e9" region="rom_board" offset="7800000"/>
+		<rom name="mpr-23782.ic9" size="16777216" crc="4f72e901" sha1="a1d231c446d2c34e5a7e7145754b2313a2d03fd4" region="rom_board" offset="8800000"/>
+		<rom name="mpr-23783.ic10" size="16777216" crc="c8d4f6f9" sha1="9e9df605c050b3780d7df34bd5041d30bc084d2d" region="rom_board" offset="9800000"/>
+		<rom name="mpr-23784.ic11" size="16777216" crc="f74f2fee" sha1="84b07baa6d116727e66ef27e24ba6484c3393891" region="rom_board" offset="a800000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_m2_board"/>
+		<device_ref tag=":rom_board:segam2crypt" name="sega315_5881"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="vf4evoct" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Virtua Fighter 4: Evolution (World)</description>
+		<year>2002</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="epr-23934.ic11" size="4194304" crc="656a7d84" sha1="e407ddc923b399de99cb06a8831ef8fb328cfe64" region="rom_board" offset="0"/>
+		<rom name="mpr-23912.ic17s" size="8388608" crc="b2b13d97" sha1="978bcdab7e4f220b464d5b9fa27870b5176283ca" region="rom_board" offset="1000000"/>
+		<rom name="mpr-23913.ic18" size="8388608" crc="560de9d2" sha1="e065abb62346f5e50f654ac77beb54ee1bfc1a08" region="rom_board" offset="1000002"/>
+		<rom name="mpr-23914.ic19s" size="8388608" crc="a2104728" sha1="48b752b6266b4d44fcb16fe179fb44ca58e11db0" region="rom_board" offset="2000000"/>
+		<rom name="mpr-23915.ic20" size="8388608" crc="295d32f0" sha1="4cabb1ab54dad2cef7207f8d7a78f609d35800fb" region="rom_board" offset="2000002"/>
+		<rom name="mpr-23916.ic21s" size="8388608" crc="d725fdd3" sha1="ab3a79dfcbaa65b5a085a429bcb76c1d3940d590" region="rom_board" offset="3000000"/>
+		<rom name="mpr-23917.ic22" size="8388608" crc="8794c8e8" sha1="a2542ad8c063f77749fbc4429ec74bba26939556" region="rom_board" offset="3000002"/>
+		<rom name="mpr-23918.ic23s" size="8388608" crc="7a3da170" sha1="72d05430cd8cd12c47ccd36bf171eaadfb987708" region="rom_board" offset="4000000"/>
+		<rom name="mpr-23919.ic24" size="8388608" crc="59601746" sha1="514b00ee44d64593c2d257b48ac20b42ee2a402a" region="rom_board" offset="4000002"/>
+		<rom name="mpr-23920.ic25s" size="8388608" crc="6ae07021" sha1="b018db4f868d9ebcde44759d8aea44d789958087" region="rom_board" offset="5000000"/>
+		<rom name="mpr-23921.ic26" size="8388608" crc="42028253" sha1="aa5a3953e4306f4f69c1be568d515af249e6ab1e" region="rom_board" offset="5000002"/>
+		<rom name="mpr-23922.ic27s" size="8388608" crc="baf47df2" sha1="d5c04e03a69a4ac8c8c066c0c750bef236e8c172" region="rom_board" offset="6000000"/>
+		<rom name="mpr-23923.ic28" size="8388608" crc="5c31b7e7" sha1="cf1307400f7bd4b8dda840544a348eee34710256" region="rom_board" offset="6000002"/>
+		<rom name="mpr-23924.ic29" size="8388608" crc="6dfe19d9" sha1="99b13ef752c7b8f7812ea5c3bce19cbf122008b6" region="rom_board" offset="7000000"/>
+		<rom name="mpr-23925.ic30s" size="8388608" crc="e9ec870a" sha1="cdf385096e7fe15de98cea6ae5aabf3016e007a9" region="rom_board" offset="7000002"/>
+		<rom name="mpr-23926.ic31" size="8388608" crc="2c650728" sha1="328748b2c786eb77c9d05280e88367cfb7b79777" region="rom_board" offset="8000000"/>
+		<rom name="mpr-23927.ic32s" size="8388608" crc="f36a765b" sha1="ecd09db0961b0d11000c8744a2cfcf3fa473eea6" region="rom_board" offset="8000002"/>
+		<rom name="mpr-23928.ic33" size="8388608" crc="0ee92b02" sha1="d0d26f4257a022b42b59cf4f9305a3cb2dc67f4b" region="rom_board" offset="9000000"/>
+		<rom name="mpr-23929.ic34s" size="8388608" crc="d768f242" sha1="3ade29b094308d870ecac53cfe77b843d50af85a" region="rom_board" offset="9000002"/>
+		<rom name="mpr-23930.ic35" size="8388608" crc="0e45e4c4" sha1="974b83d4cc35e8ac9f83d04ebd395f1e2196e829" region="rom_board" offset="a000000"/>
+		<rom name="mpr-23931.ic36s" size="8388608" crc="12ecd2f0" sha1="3222d4d9d3e30c297a072a8888c28503306db40c" region="rom_board" offset="a000002"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_m1_board"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="vf4tuned" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Virtua Fighter 4: Final Tuned (Ver. B) (GDS-0036F)</description>
+		<year>2004</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="317-0387-com.pic" size="16384" crc="8728aeaa" sha1="07983ab41d143f845c3150dfc9b7301968708e18" region="pic" offset="0"/>
+		<disk name="gds-0036f" sha1="68edece4239e5adfef9df143defb711ff2b4db72" region="gdrom" index="0" writable="no"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="segadimm"/>
+		<device_ref tag=":rom_board:dimmcpu" name="sh7091"/>
+		<device_ref tag=":rom_board:pci" name="pci_root"/>
+		<device_ref tag=":rom_board:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":rom_board:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom" name="gdrom"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:image" name="gdrom_image"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:0:gdrom:cdda" name="cdda"/>
+		<device_ref tag=":rom_board:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":rom_board:pic" name="pic16c622"/>
+		<device_ref tag=":rom_board:i2c_0" name="24c01"/>
+		<device_ref tag=":rom_board:i2c_1" name="24c01"/>
+		<device_ref tag=":rom_board:eeprom" name="93c46_8"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="rom_board:dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="rom_board:pic" name="Microchip PIC16C622" clock="20000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<chip type="audio" tag="rom_board:pci:01.0:ide:0:gdrom:cdda" name="CD/DA" clock="44100"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Full emulation" tag="rom_board:DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag="rom_board:DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<port tag=":rom_board:DEBUG_ONLY">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<device type="cdrom" tag="rom_board:pci:01.0:ide:0:gdrom:image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="vstrik3c" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Virtua Striker 3 (World, Rev B)</description>
+		<year>2001</year>
+		<manufacturer>Amusement Vision / Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="epr-23663b.ic22" size="4194304" crc="15733e44" sha1="5040c518279283b76da6d9f75bb0a48953146ca9" region="rom_board" offset="0"/>
+		<rom name="mpr-23652.ic1" size="16777216" crc="992758a2" sha1="5e2a25c520c1795128e5026fc00d355c24852ded" region="rom_board" offset="800000"/>
+		<rom name="mpr-23653.ic2" size="16777216" crc="e210e932" sha1="2f6f0a31c3e98b21f1ff3af1680e50b3535b130f" region="rom_board" offset="1800000"/>
+		<rom name="mpr-23654.ic3" size="16777216" crc="91335971" sha1="fc7599b836fb7995dd7da940e64b08b3c09cb180" region="rom_board" offset="2800000"/>
+		<rom name="mpr-23655.ic4" size="16777216" crc="1afe03b2" sha1="43446188cc4a939663212159ea24eeed50de27e2" region="rom_board" offset="3800000"/>
+		<rom name="mpr-23656.ic5" size="16777216" crc="5e5fca1c" sha1="e29d6b7d24acb5e0210ad9ba6f7f6ebca7ea3bf5" region="rom_board" offset="4800000"/>
+		<rom name="mpr-23657.ic6" size="16777216" crc="d97602bf" sha1="1e79daa7acc787f3f6e55b8d92e4489db8861794" region="rom_board" offset="5800000"/>
+		<rom name="mpr-23658.ic7" size="16777216" crc="c912eacb" sha1="715401264657a770eaa6165c7db6d588a493f745" region="rom_board" offset="6800000"/>
+		<rom name="mpr-23659.ic8" size="16777216" crc="db87ff9a" sha1="9759b0885fa9d443f62129e062f631bcf46846d2" region="rom_board" offset="7800000"/>
+		<rom name="mpr-23660.ic9" size="16777216" crc="e49e65f5" sha1="a46cea1c482211048aef375de8324273f6b06f27" region="rom_board" offset="8800000"/>
+		<rom name="mpr-23661.ic10" size="16777216" crc="7d44dc74" sha1="cfd6253eab3c1a039629b4873946c9dbc7ed6872" region="rom_board" offset="9800000"/>
+		<rom name="mpr-23662.ic11" size="8388608" crc="d6ef7d68" sha1="4ee396af6c5caf4c5af6e9ad0e03a7ac2c5039f4" region="rom_board" offset="a800000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_m2_board"/>
+		<device_ref tag=":rom_board:segam2crypt" name="sega315_5881"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="wldrider" sourcefile="sega/naomi.cpp" romof="naomi2">
+		<description>Wild Riders</description>
+		<year>2001</year>
+		<manufacturer>Wow Entertainment / Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
+		<rom name="epr-23605c.ic27" merge="epr-23605c.ic27" bios="bios0" size="2097152" crc="297ea6ed" sha1="cfbfe57c80e6ee86a101fa83aec0a01e00c0f42a" region="maincpu" offset="0"/>
+		<rom name="epr-23605b.ic27" merge="epr-23605b.ic27" bios="bios1" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484" region="maincpu" offset="0"/>
+		<rom name="epr-23605a.ic27" merge="epr-23605a.ic27" bios="bios2" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392" region="maincpu" offset="0"/>
+		<rom name="epr-23605.ic27" merge="epr-23605.ic27" bios="bios3" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6" region="maincpu" offset="0"/>
+		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" bios="bios4" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5" region="maincpu" offset="0"/>
+		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" bios="bios5" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155" region="maincpu" offset="0"/>
+		<rom name="epr-23608a.ic27" merge="epr-23608a.ic27" bios="bios6" size="2097152" crc="e8f884d1" sha1="28f4de747bb3cf860b9ebf897322fbc5d7c1e156" region="maincpu" offset="0"/>
+		<rom name="epr-23608.ic27" merge="epr-23608.ic27" bios="bios8" size="2097152" crc="929cc3a6" sha1="47d00c818de23f733a4a33b1bbc72eb8aa729246" region="maincpu" offset="0"/>
+		<rom name="epr-23607c.ic27" merge="epr-23607c.ic27" bios="bios8" size="2097152" crc="750e254b" sha1="81d0b1a076c274c6bd7c53b65e7b80e14fe039e1" region="maincpu" offset="0"/>
+		<rom name="epr-23607b.ic27" merge="epr-23607b.ic27" bios="bios9" size="2097152" crc="f308c5e9" sha1="5470ab1cee6afecbd8ca8cf40f8fbe4ec2cb1471" region="maincpu" offset="0"/>
+		<rom name="epr-23607.ic27" merge="epr-23607.ic27" bios="bios10" size="2097152" crc="2b55add2" sha1="547de5f97d3183c8cd069c4fa3c09f13d8b637d9" region="maincpu" offset="0"/>
+		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" bios="bios11" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e" region="maincpu" offset="0"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" bios="bios12" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1" region="maincpu" offset="0"/>
+		<rom name="epr-23605c_multi.ic27" merge="epr-23605c_multi.ic27" bios="bios13" size="2097152" crc="353fdbcd" sha1="a8b7dce572b74e02e65cb949b2c366c87625157f" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="epr-23622.ic22" size="4194304" crc="8acafa5b" sha1="c92bcd40bad6ba8efd1edbfd7e439fb2b3c67fb0" region="rom_board" offset="0"/>
+		<rom name="mpr-23611.ic1" size="16777216" crc="943bc32a" sha1="11ced99e9dbd7cc93031779e00d4ee1f2dff9086" region="rom_board" offset="800000"/>
+		<rom name="mpr-23612.ic2" size="16777216" crc="f71d87e5" sha1="c36d1d07702642db282278f1cf556ed472e930d3" region="rom_board" offset="1800000"/>
+		<rom name="mpr-23613.ic3" size="16777216" crc="689e783e" sha1="1264c3389610bbf2745b7e6d50f327b1df33b63b" region="rom_board" offset="2800000"/>
+		<rom name="mpr-23614.ic4" size="16777216" crc="e5b8c5e5" sha1="4b81ecc6375bf731dc3423cf87c2228eb304f2b5" region="rom_board" offset="3800000"/>
+		<rom name="mpr-23615.ic5" size="16777216" crc="95c35866" sha1="a3dd4cd2c8818a3c5de7aa6c4afc74f872d52b37" region="rom_board" offset="4800000"/>
+		<rom name="mpr-23616.ic6" size="16777216" crc="6288848f" sha1="a69ddde96d15cee9154ed3e87514286db6bbb622" region="rom_board" offset="5800000"/>
+		<rom name="mpr-23617.ic7" size="16777216" crc="19298892" sha1="78493587dc49c7c99c5a98f152b17500003316b3" region="rom_board" offset="6800000"/>
+		<rom name="mpr-23618.ic8" size="16777216" crc="67d7b659" sha1="44e75e16f2740c6e147e101a8714be8c5d9b71f3" region="rom_board" offset="7800000"/>
+		<rom name="mpr-23619.ic9" size="16777216" crc="a5f4f6af" sha1="bb89d3f0f5bbaf7c40fa43680c7e51ef93f7ed26" region="rom_board" offset="8800000"/>
+		<rom name="mpr-23620.ic10" size="16777216" crc="67aa15a9" sha1="42c24cbf7069c27430a71509a872cd1c4224aaeb" region="rom_board" offset="9800000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_m2_board"/>
+		<device_ref tag=":rom_board:segam2crypt" name="sega315_5881"/>
+		<device_ref tag=":powervr2_slave" name="powervr2"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<configuration name="Bilinear Filtering" tag="powervr2_slave:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2_slave:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<port tag=":powervr2_slave:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="24c01" sourcefile="devices/machine/i2cmem.cpp" isdevice="yes" runnable="no">
+		<description>24C01 I2C Memory</description>
+	</machine>
+	<machine name="93c46_16" sourcefile="devices/machine/eepromser.cpp" isdevice="yes" runnable="no">
+		<description>Serial EEPROM 93C46 (64x16)</description>
+	</machine>
+	<machine name="93c46_8" sourcefile="devices/machine/eepromser.cpp" isdevice="yes" runnable="no">
+		<description>Serial EEPROM 93C46 (128x8)</description>
+	</machine>
+	<machine name="aica" sourcefile="devices/sound/aica.cpp" isdevice="yes" runnable="no">
+		<description>Yamaha AICA</description>
+		<sound channels="0"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="aicartc" sourcefile="devices/machine/aicartc.cpp" isdevice="yes" runnable="no">
+		<description>AICA RTC</description>
+	</machine>
+	<machine name="arm7_le" sourcefile="devices/cpu/arm7/arm7.cpp" isdevice="yes" runnable="no">
+		<description>ARM7 (little)</description>
+	</machine>
+	<machine name="ata_slot" sourcefile="devices/bus/ata/atadev.cpp" isdevice="yes" runnable="no">
+		<description>ATA Connector</description>
+	</machine>
+	<machine name="cdda" sourcefile="devices/sound/cdda.cpp" isdevice="yes" runnable="no">
+		<description>CD/DA</description>
+		<sound channels="0"/>
+	</machine>
+	<machine name="dc_g2if" sourcefile="sega/dc_g2if.cpp" isdevice="yes" runnable="no">
+		<description>Sega Dreamcast G2 I/F System Bus</description>
+	</machine>
+	<machine name="gdrom" sourcefile="devices/bus/ata/gdrom.cpp" isdevice="yes" runnable="no">
+		<description>GD-ROM</description>
+		<device_ref tag=":_tmp:image" name="gdrom_image"/>
+		<device_ref tag=":_tmp:cdda" name="cdda"/>
+		<chip type="audio" tag=":cdda" name="CD/DA" clock="44100"/>
+		<sound channels="0"/>
+		<device type="cdrom" tag=":image" interface="cdrom">
+			<instance name="cdrom" briefname="cdrm"/>
+			<extension name="chd"/>
+			<extension name="cue"/>
+			<extension name="toc"/>
+			<extension name="nrg"/>
+			<extension name="gdi"/>
+			<extension name="iso"/>
+			<extension name="cdr"/>
+		</device>
+	</machine>
+	<machine name="gdrom_image" sourcefile="devices/imagedev/cdromimg.cpp" isdevice="yes" runnable="no">
+		<description>CD/GD-ROM Image</description>
+	</machine>
+	<machine name="ide_gdrom" sourcefile="sega/naomigd.cpp" isdevice="yes" runnable="no">
+		<description>ide gdrom controller</description>
+		<device_ref tag=":_tmp:ide" name="idectrl32bm"/>
+		<device_ref tag=":_tmp:ide:0" name="ata_slot"/>
+		<device_ref tag=":_tmp:ide:1" name="ata_slot"/>
+	</machine>
+	<machine name="idectrl32bm" sourcefile="devices/machine/idectrl.cpp" isdevice="yes" runnable="no">
+		<description>Bus Master IDE Controller</description>
+		<device_ref tag=":_tmp:0" name="ata_slot"/>
+		<device_ref tag=":_tmp:1" name="ata_slot"/>
+		<slot name=":0">
+		</slot>
+		<slot name=":1">
+		</slot>
+	</machine>
+	<machine name="jvs13551" sourcefile="sega/jvs13551.cpp" isdevice="yes" runnable="no">
+		<description>Sega 837-13551 I/O Board</description>
+		<rom name="sp5001.bin" size="16384" crc="3456c8cc" sha1="f3b66ab1d2eab32e97b46077e3ed2ab5b2982325" region="iomcu" offset="0"/>
+		<rom name="sp5001-a.bin" size="16384" crc="b52d3777" sha1="eb882a0d4fde5d8a9fb118cb6e3547b0e9f7bfea" region="iomcu" offset="0"/>
+		<rom name="sp5001-b.bin" size="16384" crc="28b5fb84" sha1="8784024548d24b6a43057f06de1d53ce3a34eb12" region="iomcu" offset="0"/>
+		<rom name="sp5002-a.bin" size="16384" crc="72983a0f" sha1="aa13276347bc643ef93e81e9ab7c905deb16c415" region="iomcu" offset="0"/>
+		<rom name="315-6215.bin" size="16384" crc="98202738" sha1="8c4dc85438298e31e25f69542804a78ff0e20962" region="iomcu" offset="0"/>
+		<device_ref tag=":_tmp:iomcu" name="tmp90ph44"/>
+		<chip type="cpu" tag=":iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<input players="1" coins="2">
+		</input>
+	</machine>
+	<machine name="m3comm" sourcefile="sega/m3comm.cpp" isdevice="yes" runnable="no">
+		<description>Model 3 Communication Board</description>
+		<device_ref tag=":_tmp:m3commcpu" name="m68000"/>
+		<device_ref tag=":_tmp:ram" name="ram"/>
+		<chip type="cpu" tag=":m3commcpu" name="Motorola MC68000" clock="10000000"/>
+	</machine>
+	<machine name="m68000" sourcefile="devices/cpu/m68000/m68000.cpp" isdevice="yes" runnable="no">
+		<description>Motorola MC68000</description>
+	</machine>
+	<machine name="maple_dc" sourcefile="sega/maple-dc.cpp" isdevice="yes" runnable="no">
+		<description>Dreamcast Maple Bus</description>
+	</machine>
+	<machine name="mie" sourcefile="sega/mie.cpp" isdevice="yes" runnable="no">
+		<description>Sega 315-6146 MIE</description>
+		<rom name="315-6146.bin" size="2048" crc="9b197e35" sha1="864d14d58732dd4e2ee538ccc71fa8df7013ba06" region="mie" offset="0"/>
+		<device_ref tag=":_tmp:mie" name="z80"/>
+		<chip type="cpu" tag=":mie" name="Zilog Z80" clock="0"/>
+	</machine>
+	<machine name="mie_jvs" sourcefile="sega/mie.cpp" isdevice="yes" runnable="no">
+		<description>JVS (MIE)</description>
+	</machine>
+	<machine name="naomi_m1_board" sourcefile="sega/naomim1.cpp" isdevice="yes" runnable="no">
+		<description>Sega NAOMI M1 Board</description>
+	</machine>
+	<machine name="naomi_m2_board" sourcefile="sega/naomim2.cpp" isdevice="yes" runnable="no">
+		<description>Sega NAOMI M2 Board</description>
+		<device_ref tag=":_tmp:segam2crypt" name="sega315_5881"/>
+	</machine>
+	<machine name="naomi_rom_board" sourcefile="sega/naomirom.cpp" isdevice="yes" runnable="no">
+		<description>Sega NAOMI ROM Board</description>
+	</machine>
+	<machine name="nvram" sourcefile="devices/machine/nvram.cpp" isdevice="yes" runnable="no">
+		<description>NVRAM</description>
+	</machine>
+	<machine name="pci_root" sourcefile="devices/machine/pci.cpp" isdevice="yes" runnable="no">
+		<description>PCI virtual root</description>
+	</machine>
+	<machine name="pic16c622" sourcefile="devices/cpu/pic16c62x/pic16c62x.cpp" isdevice="yes" runnable="no">
+		<description>Microchip PIC16C622</description>
+	</machine>
+	<machine name="powervr2" sourcefile="sega/powervr2.cpp" isdevice="yes" runnable="no">
+		<description>PowerVR 2</description>
+		<configuration name="Bilinear Filtering" tag=":PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag=":PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<feature type="graphics" status="imperfect"/>
+	</machine>
+	<machine name="ram" sourcefile="devices/machine/ram.cpp" isdevice="yes" runnable="no">
+		<description>RAM</description>
+	</machine>
+	<machine name="screen" sourcefile="emu/screen.cpp" isdevice="yes" runnable="no">
+		<description>Video Screen</description>
+	</machine>
+	<machine name="sega315_5881" sourcefile="sega/315-5881_crypt.cpp" isdevice="yes" runnable="no">
+		<description>Sega 315-5881 Encryption</description>
+	</machine>
+	<machine name="sega315_6154" sourcefile="sega/315-6154.cpp" isdevice="yes" runnable="no">
+		<description>Sega 315-6154 Northbridge</description>
+	</machine>
+	<machine name="segadimm" sourcefile="sega/naomigd.cpp" isdevice="yes" runnable="no">
+		<description>Sega DIMM Board</description>
+		<biosset name="fpr-23489c.ic14" description="BIOS 0"/>
+		<biosset name="203_203.bin" description="BIOS 1"/>
+		<biosset name="fpr23718.ic36" description="BIOS 2"/>
+		<biosset name="213_203.bin" description="BIOS 3"/>
+		<biosset name="217_203.bin" description="BIOS 4"/>
+		<biosset name="3.01" description="BIOS 5"/>
+		<biosset name="3.03" description="BIOS 6"/>
+		<biosset name="317_312.bin" description="BIOS 7"/>
+		<biosset name="401_203.bin" description="BIOS 8"/>
+		<rom name="fpr-23489c.ic14" bios="fpr-23489c.ic14" size="2097152" crc="bc38bea1" sha1="b36fcc6902f397d9749e9d02de1bbb7a5e29d468" region="bios" offset="0"/>
+		<rom name="203_203.bin" bios="203_203.bin" size="2097152" crc="a738ea1c" sha1="6f55f1ae0606816a4eca6645ed36eb7f9c7ad9cf" region="bios" offset="0"/>
+		<rom name="fpr23718.ic36" bios="fpr23718.ic36" size="2097152" crc="a738ea1c" sha1="b7b5a55a6a4cf0aa2df1b3dff62ff67f864c55e8" region="bios" offset="0"/>
+		<rom name="213_203.bin" bios="213_203.bin" size="2097152" crc="a738ea1c" sha1="17131f318632610b87bc095156ffad4597fed4ca" region="bios" offset="0"/>
+		<rom name="217_203.bin" bios="217_203.bin" size="2097152" crc="a738ea1c" sha1="e5a229ae7ed48b2955cad63529fd938c6db555e5" region="bios" offset="0"/>
+		<rom name="fpr23905c.ic36" bios="3.01" size="2097152" crc="ffffffff" sha1="972b3b73aa1eabb1091e9096b57a7e5e1d0436d8" region="bios" offset="0"/>
+		<rom name="fpr23905.ic36" bios="3.03" size="2097152" crc="ffffffff" sha1="acade4362807c7571b1c2a48ed6067e4bddd404b" region="bios" offset="0"/>
+		<rom name="317_312.bin" bios="317_312.bin" size="2097152" crc="a738ea1c" sha1="31d698cd659446ee09a2eeedec6e4bc6a19d05e8" region="bios" offset="0"/>
+		<rom name="401_203.bin" bios="401_203.bin" size="2097152" crc="a738ea1c" sha1="edb52597108462bcea8eb2a47c19e51e5fb60638" region="bios" offset="0"/>
+		<rom name="315-6301.ic11" size="130907" crc="cc7735c7" sha1="1afb442b5918c0d60f98688ed0a7117b0d068722" region="segadimm" offset="0"/>
+		<rom name="315-6334.ic11" size="130817" crc="534c342d" sha1="3e879f432c82305487922ab28c07107cf0f3c5cf" region="segadimm" offset="0"/>
+		<rom name="317-0352-exp.pic" size="16384" crc="b216fbfc" sha1="da2341003b35d1600d63fbe34d13ff3b42bdc939" region="segadimm" offset="0"/>
+		<rom name="317-0422-jpn.pic" size="16384" crc="54197fbf" sha1="a18b5b7aec0498c7a62cacf9f2298ddefb7482c9" region="segadimm" offset="0"/>
+		<rom name="317-unknown.pic" size="16384" crc="7dc07733" sha1="b223dc44718fa71e7b420c3b44ce4ab961445461" region="segadimm" offset="0"/>
+		<rom name="dimmspd.bin" size="128" crc="45dac6d7" sha1="4548675f8d31348fa6828d5b4f247af1f072b62d" region="i2c_0" offset="0"/>
+		<rom name="dimmspd.bin" size="128" crc="45dac6d7" sha1="4548675f8d31348fa6828d5b4f247af1f072b62d" region="i2c_1" offset="0"/>
+		<rom name="93c46.bin" size="128" crc="daafbccd" sha1="1e39983779a62ebc6801ec6f2a5138717a7a5259" region="eeprom" offset="0"/>
+		<device_ref tag=":_tmp:dimmcpu" name="sh7091"/>
+		<device_ref tag=":_tmp:pci" name="pci_root"/>
+		<device_ref tag=":_tmp:pci:00.0" name="sega315_6154"/>
+		<device_ref tag=":_tmp:pci:01.0" name="ide_gdrom"/>
+		<device_ref tag=":_tmp:pci:01.0:ide" name="idectrl32bm"/>
+		<device_ref tag=":_tmp:pci:01.0:ide:0" name="ata_slot"/>
+		<device_ref tag=":_tmp:pci:01.0:ide:1" name="ata_slot"/>
+		<device_ref tag=":_tmp:pic" name="pic16c622"/>
+		<device_ref tag=":_tmp:i2c_0" name="24c01"/>
+		<device_ref tag=":_tmp:i2c_1" name="24c01"/>
+		<device_ref tag=":_tmp:eeprom" name="93c46_8"/>
+		<chip type="cpu" tag=":dimmcpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag=":pic" name="Microchip PIC16C622" clock="20000000"/>
+		<configuration name="Full emulation" tag=":DEBUG_ONLY" mask="1">
+			<confsetting name="Enabled" value="1"/>
+			<confsetting name="Disabled" value="0" default="yes"/>
+		</configuration>
+		<configuration name="Initialized" tag=":DEBUG_ONLY" mask="2">
+			<confsetting name="Yes" value="2" default="yes"/>
+			<confsetting name="No" value="0"/>
+		</configuration>
+	</machine>
+	<machine name="sh7091" sourcefile="devices/cpu/sh/sh4.cpp" isdevice="yes" runnable="no">
+		<description>Hitachi SH7091</description>
+	</machine>
+	<machine name="speaker" sourcefile="emu/speaker.cpp" isdevice="yes" runnable="no">
+		<description>Speaker</description>
+		<sound channels="1"/>
+	</machine>
+	<machine name="timer" sourcefile="devices/machine/timer.cpp" isdevice="yes" runnable="no">
+		<description>Timer</description>
+	</machine>
+	<machine name="tmp90ph44" sourcefile="devices/cpu/tlcs90/tlcs90.cpp" isdevice="yes" runnable="no">
+		<description>Toshiba TMP90PH44</description>
+	</machine>
+	<machine name="x76f100" sourcefile="devices/machine/x76f100.cpp" isdevice="yes" runnable="no">
+		<description>X76F100 Secure SerialFlash</description>
+	</machine>
+	<machine name="z80" sourcefile="devices/cpu/z80/z80.cpp" isdevice="yes" runnable="no">
+		<description>Zilog Z80</description>
+	</machine>
+</mame>

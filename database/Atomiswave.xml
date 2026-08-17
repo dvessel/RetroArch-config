@@ -1,0 +1,1300 @@
+<?xml version="1.0"?>
+<!DOCTYPE mame [
+<!ELEMENT mame (machine+)>
+	<!ATTLIST mame build CDATA #IMPLIED>
+	<!ATTLIST mame debug (yes|no) "no">
+	<!ATTLIST mame mameconfig CDATA #REQUIRED>
+	<!ELEMENT machine (description, year?, manufacturer?, biosset*, rom*, disk*, device_ref*, sample*, chip*, display*, sound?, input?, dipswitch*, configuration*, port*, adjuster*, driver?, feature*, device*, slot*, softwarelist*, ramoption*)>
+		<!ATTLIST machine name CDATA #REQUIRED>
+		<!ATTLIST machine sourcefile CDATA #IMPLIED>
+		<!ATTLIST machine isbios (yes|no) "no">
+		<!ATTLIST machine isdevice (yes|no) "no">
+		<!ATTLIST machine ismechanical (yes|no) "no">
+		<!ATTLIST machine runnable (yes|no) "yes">
+		<!ATTLIST machine cloneof CDATA #IMPLIED>
+		<!ATTLIST machine romof CDATA #IMPLIED>
+		<!ATTLIST machine sampleof CDATA #IMPLIED>
+		<!ELEMENT description (#PCDATA)>
+		<!ELEMENT year (#PCDATA)>
+		<!ELEMENT manufacturer (#PCDATA)>
+		<!ELEMENT biosset EMPTY>
+			<!ATTLIST biosset name CDATA #REQUIRED>
+			<!ATTLIST biosset description CDATA #REQUIRED>
+			<!ATTLIST biosset default (yes|no) "no">
+		<!ELEMENT rom EMPTY>
+			<!ATTLIST rom name CDATA #REQUIRED>
+			<!ATTLIST rom bios CDATA #IMPLIED>
+			<!ATTLIST rom size CDATA #REQUIRED>
+			<!ATTLIST rom crc CDATA #IMPLIED>
+			<!ATTLIST rom sha1 CDATA #IMPLIED>
+			<!ATTLIST rom merge CDATA #IMPLIED>
+			<!ATTLIST rom region CDATA #IMPLIED>
+			<!ATTLIST rom offset CDATA #IMPLIED>
+			<!ATTLIST rom status (baddump|nodump|good) "good">
+			<!ATTLIST rom optional (yes|no) "no">
+		<!ELEMENT disk EMPTY>
+			<!ATTLIST disk name CDATA #REQUIRED>
+			<!ATTLIST disk sha1 CDATA #IMPLIED>
+			<!ATTLIST disk merge CDATA #IMPLIED>
+			<!ATTLIST disk region CDATA #IMPLIED>
+			<!ATTLIST disk index CDATA #IMPLIED>
+			<!ATTLIST disk writable (yes|no) "no">
+			<!ATTLIST disk status (baddump|nodump|good) "good">
+			<!ATTLIST disk optional (yes|no) "no">
+		<!ELEMENT device_ref EMPTY>
+			<!ATTLIST device_ref tag CDATA #REQUIRED>
+			<!ATTLIST device_ref name CDATA #REQUIRED>
+		<!ELEMENT sample EMPTY>
+			<!ATTLIST sample name CDATA #REQUIRED>
+		<!ELEMENT chip EMPTY>
+			<!ATTLIST chip name CDATA #REQUIRED>
+			<!ATTLIST chip tag CDATA #IMPLIED>
+			<!ATTLIST chip type (cpu|audio) #REQUIRED>
+			<!ATTLIST chip clock CDATA #IMPLIED>
+		<!ELEMENT display EMPTY>
+			<!ATTLIST display tag CDATA #IMPLIED>
+			<!ATTLIST display type (raster|vector|lcd|svg|unknown) #REQUIRED>
+			<!ATTLIST display rotate (0|90|180|270) #IMPLIED>
+			<!ATTLIST display flipx (yes|no) "no">
+			<!ATTLIST display width CDATA #IMPLIED>
+			<!ATTLIST display height CDATA #IMPLIED>
+			<!ATTLIST display refresh CDATA #REQUIRED>
+			<!ATTLIST display pixclock CDATA #IMPLIED>
+			<!ATTLIST display htotal CDATA #IMPLIED>
+			<!ATTLIST display hbend CDATA #IMPLIED>
+			<!ATTLIST display hbstart CDATA #IMPLIED>
+			<!ATTLIST display vtotal CDATA #IMPLIED>
+			<!ATTLIST display vbend CDATA #IMPLIED>
+			<!ATTLIST display vbstart CDATA #IMPLIED>
+		<!ELEMENT sound EMPTY>
+			<!ATTLIST sound channels CDATA #REQUIRED>
+		<!ELEMENT condition EMPTY>
+			<!ATTLIST condition tag CDATA #REQUIRED>
+			<!ATTLIST condition mask CDATA #REQUIRED>
+			<!ATTLIST condition relation (eq|ne|gt|le|lt|ge) #REQUIRED>
+			<!ATTLIST condition value CDATA #REQUIRED>
+		<!ELEMENT input (control*)>
+			<!ATTLIST input service (yes|no) "no">
+			<!ATTLIST input tilt (yes|no) "no">
+			<!ATTLIST input players CDATA #REQUIRED>
+			<!ATTLIST input coins CDATA #IMPLIED>
+			<!ELEMENT control EMPTY>
+				<!ATTLIST control type CDATA #REQUIRED>
+				<!ATTLIST control player CDATA #IMPLIED>
+				<!ATTLIST control buttons CDATA #IMPLIED>
+				<!ATTLIST control minimum CDATA #IMPLIED>
+				<!ATTLIST control maximum CDATA #IMPLIED>
+				<!ATTLIST control sensitivity CDATA #IMPLIED>
+				<!ATTLIST control keydelta CDATA #IMPLIED>
+				<!ATTLIST control reverse (yes|no) "no">
+				<!ATTLIST control ways CDATA #IMPLIED>
+				<!ATTLIST control ways2 CDATA #IMPLIED>
+				<!ATTLIST control ways3 CDATA #IMPLIED>
+		<!ELEMENT dipswitch (condition?, diplocation*, dipvalue*)>
+			<!ATTLIST dipswitch name CDATA #REQUIRED>
+			<!ATTLIST dipswitch tag CDATA #REQUIRED>
+			<!ATTLIST dipswitch mask CDATA #REQUIRED>
+			<!ELEMENT diplocation EMPTY>
+				<!ATTLIST diplocation name CDATA #REQUIRED>
+				<!ATTLIST diplocation number CDATA #REQUIRED>
+				<!ATTLIST diplocation inverted (yes|no) "no">
+			<!ELEMENT dipvalue (condition?)>
+				<!ATTLIST dipvalue name CDATA #REQUIRED>
+				<!ATTLIST dipvalue value CDATA #REQUIRED>
+				<!ATTLIST dipvalue default (yes|no) "no">
+		<!ELEMENT configuration (condition?, conflocation*, confsetting*)>
+			<!ATTLIST configuration name CDATA #REQUIRED>
+			<!ATTLIST configuration tag CDATA #REQUIRED>
+			<!ATTLIST configuration mask CDATA #REQUIRED>
+			<!ELEMENT conflocation EMPTY>
+				<!ATTLIST conflocation name CDATA #REQUIRED>
+				<!ATTLIST conflocation number CDATA #REQUIRED>
+				<!ATTLIST conflocation inverted (yes|no) "no">
+			<!ELEMENT confsetting (condition?)>
+				<!ATTLIST confsetting name CDATA #REQUIRED>
+				<!ATTLIST confsetting value CDATA #REQUIRED>
+				<!ATTLIST confsetting default (yes|no) "no">
+		<!ELEMENT port (analog*)>
+			<!ATTLIST port tag CDATA #REQUIRED>
+			<!ELEMENT analog EMPTY>
+				<!ATTLIST analog mask CDATA #REQUIRED>
+		<!ELEMENT adjuster (condition?)>
+			<!ATTLIST adjuster name CDATA #REQUIRED>
+			<!ATTLIST adjuster default CDATA #REQUIRED>
+		<!ELEMENT driver EMPTY>
+			<!ATTLIST driver status (good|imperfect|preliminary) #REQUIRED>
+			<!ATTLIST driver emulation (good|imperfect|preliminary) #REQUIRED>
+			<!ATTLIST driver cocktail (good|imperfect|preliminary) #IMPLIED>
+			<!ATTLIST driver savestate (supported|unsupported) #REQUIRED>
+			<!ATTLIST driver requiresartwork (yes|no) "no">
+			<!ATTLIST driver unofficial (yes|no) "no">
+			<!ATTLIST driver nosoundhardware (yes|no) "no">
+			<!ATTLIST driver incomplete (yes|no) "no">
+		<!ELEMENT feature EMPTY>
+			<!ATTLIST feature type (protection|timing|graphics|palette|sound|capture|camera|microphone|controls|keyboard|mouse|media|disk|printer|tape|punch|drum|rom|comms|lan|wan) #REQUIRED>
+			<!ATTLIST feature status (unemulated|imperfect) #IMPLIED>
+			<!ATTLIST feature overall (unemulated|imperfect) #IMPLIED>
+		<!ELEMENT device (instance?, extension*)>
+			<!ATTLIST device type CDATA #REQUIRED>
+			<!ATTLIST device tag CDATA #IMPLIED>
+			<!ATTLIST device fixed_image CDATA #IMPLIED>
+			<!ATTLIST device mandatory CDATA #IMPLIED>
+			<!ATTLIST device interface CDATA #IMPLIED>
+			<!ELEMENT instance EMPTY>
+				<!ATTLIST instance name CDATA #REQUIRED>
+				<!ATTLIST instance briefname CDATA #REQUIRED>
+			<!ELEMENT extension EMPTY>
+				<!ATTLIST extension name CDATA #REQUIRED>
+		<!ELEMENT slot (slotoption*)>
+			<!ATTLIST slot name CDATA #REQUIRED>
+			<!ELEMENT slotoption EMPTY>
+				<!ATTLIST slotoption name CDATA #REQUIRED>
+				<!ATTLIST slotoption devname CDATA #REQUIRED>
+				<!ATTLIST slotoption default (yes|no) "no">
+		<!ELEMENT softwarelist EMPTY>
+			<!ATTLIST softwarelist tag CDATA #REQUIRED>
+			<!ATTLIST softwarelist name CDATA #REQUIRED>
+			<!ATTLIST softwarelist status (original|compatible) #REQUIRED>
+			<!ATTLIST softwarelist filter CDATA #IMPLIED>
+		<!ELEMENT ramoption (#PCDATA)>
+			<!ATTLIST ramoption name CDATA #REQUIRED>
+			<!ATTLIST ramoption default CDATA #IMPLIED>
+]>
+
+<mame build="0.287 (unknown)" debug="no" mameconfig="10">
+	<machine name="awbios" sourcefile="sega/dc_atomiswave.cpp" isbios="yes">
+		<description>Atomiswave BIOS</description>
+		<year>2001</year>
+		<manufacturer>Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="demofist" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Demolish Fist</description>
+		<year>2003</year>
+		<manufacturer>Polygon Magic / Dimps</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax0601p01.ic18" size="8388608" crc="0efb38ad" sha1="9400e37efe3e936474d74400ebdf28ad0869b67b" region="rom_board" offset="0"/>
+		<rom name="ax0601m01.ic11" size="16777216" crc="12fda2c7" sha1="3afbac221ffe249386e4cb50b4edd013d9a40062" region="rom_board" offset="1000000"/>
+		<rom name="ax0602m01.ic12" size="16777216" crc="aea61fdf" sha1="0a088848bbf7a47df8b44b69bf72ed0d4a1088f8" region="rom_board" offset="2000000"/>
+		<rom name="ax0603m01.ic13" size="16777216" crc="d5879d35" sha1="977cd3b373c6f94eb21ffb24ff564971d3d633e5" region="rom_board" offset="3000000"/>
+		<rom name="ax0604m01.ic14" size="16777216" crc="a7b09048" sha1="229fa2332b58fec2a712c3ebd672662f35a9485a" region="rom_board" offset="4000000"/>
+		<rom name="ax0605m01.ic15" size="16777216" crc="18d8437e" sha1="fe2e189e40a89141335e754268d29d46e3eb3bb8" region="rom_board" offset="5000000"/>
+		<rom name="ax0606m01.ic16" size="16777216" crc="42c81617" sha1="1cc686af5e3fc56143836e3dcc0067893f82fcf9" region="rom_board" offset="6000000"/>
+		<rom name="ax0607m01.ic17" size="16777216" crc="96e5aa84" sha1="e9841f550f2ef409d97004542bcadabb6b9e84af" region="rom_board" offset="7000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="dolphin" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Dolphin Blue</description>
+		<year>2003</year>
+		<manufacturer>Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax0401p01.ic18" size="8388608" crc="195d6328" sha1="cf3b5699f81235919dd3b1974d2ecb0376cb4552" region="rom_board" offset="0"/>
+		<rom name="ax0401m01.ic11" size="16777216" crc="5e5dca57" sha1="e0623c84f66cada37d4c9399a7a8fc6866933144" region="rom_board" offset="1000000"/>
+		<rom name="ax0402m01.ic12" size="16777216" crc="77dd4771" sha1="dcd23b8ddc82eab2f325266ffd7ed3fbc1bcdf71" region="rom_board" offset="2000000"/>
+		<rom name="ax0403m01.ic13" size="16777216" crc="911d0674" sha1="eec35badcfbfe412b7104a86c2111f5a1b5fb5cd" region="rom_board" offset="3000000"/>
+		<rom name="ax0404m01.ic14" size="16777216" crc="f82a4ca3" sha1="da686d86e176a9f24874d2916b1932f03a99a52d" region="rom_board" offset="4000000"/>
+		<rom name="ax0405m01.ic15" size="16777216" crc="b88298d7" sha1="490c3ec471018895b7268ee33498dddaccbbfd5a" region="rom_board" offset="5000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="fotns" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Fist Of The North Star / Hokuto no Ken</description>
+		<year>2005</year>
+		<manufacturer>Arc System Works / Sega</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax1901p01.ic18" size="8388608" crc="a06998b0" sha1="d617691db5170f6db176e40fc732966d523fd8cf" region="rom_board" offset="0"/>
+		<rom name="ax1901m01.ic11" size="16777216" crc="ff5a1642" sha1="49cefcce173f9a811fe9c0c07bee53aeba2bc3a8" region="rom_board" offset="1000000"/>
+		<rom name="ax1902m01.ic12" size="16777216" crc="d9aae8a9" sha1="bf87034088be0847b6e297b7665e0ea4d8cba631" region="rom_board" offset="2000000"/>
+		<rom name="ax1903m01.ic13" size="16777216" crc="1711b23d" sha1="ab628b2ec678839c75245e245297818ef1592d3b" region="rom_board" offset="3000000"/>
+		<rom name="ax1904m01.ic14" size="16777216" crc="443bfb26" sha1="6f7751afa0ca55dd0679758b27bed92b31c1b050" region="rom_board" offset="4000000"/>
+		<rom name="ax1905m01.ic15" size="16777216" crc="eb1cada0" sha1="459d21d622c72606f1d3095e8a25b6c4adccf8ab" region="rom_board" offset="5000000"/>
+		<rom name="ax1906m01.ic16" size="16777216" crc="fe6da168" sha1="d4ab6443383469bb5a4337005de917627a2e21cc" region="rom_board" offset="6000000"/>
+		<rom name="ax1907m01.ic17" size="16777216" crc="9d3a0520" sha1="78583fd171b34439f77a04a97ebe3c9d1bab61cc" region="rom_board" offset="7000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="ftspeed" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Faster Than Speed</description>
+		<year>2004</year>
+		<manufacturer>Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax1701p01.ic18" size="8388608" crc="480cade7" sha1="487d4b27d7e5196d8321c5a80175ec7b1b32c1e8" region="rom_board" offset="0"/>
+		<rom name="ax1701m01.ic11" size="16777216" crc="7dcdc784" sha1="5eeef9a760a0b090ed5aad8b7bdee2baa69a088b" region="rom_board" offset="1000000"/>
+		<rom name="ax1702m01.ic12" size="16777216" crc="06c9bf85" sha1="636262dca7140397436646754fb204b97aa08ce9" region="rom_board" offset="2000000"/>
+		<rom name="ax1703m01.ic13" size="16777216" crc="8f8e0224" sha1="2a9a17ed726913c00bf1c6a94bdd4fb32e800868" region="rom_board" offset="3000000"/>
+		<rom name="ax1704m01.ic14" size="16777216" crc="fbb4bb16" sha1="b582680a880166c5bbdd2ad77b7903fedf9b01ad" region="rom_board" offset="4000000"/>
+		<rom name="ax1705m01.ic15" size="16777216" crc="996f68e1" sha1="3fa505c641127d9027bfc7ec0ab16905344a4e2c" region="rom_board" offset="5000000"/>
+		<rom name="ax1706m01.ic16" size="16777216" crc="804b2eb2" sha1="fcca02a5a8c09eb16548255115fb105c9c49c4e0" region="rom_board" offset="6000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="2" minimum="0" maximum="255" sensitivity="100" keydelta="4"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="100" keydelta="40"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.A0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A3">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A4">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A5">
+			<analog mask="255"/>
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="ggisuka" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Guilty Gear Isuka</description>
+		<year>2004</year>
+		<manufacturer>Arc System Works / Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax1201p01.ic18" size="8388608" crc="0a78d52c" sha1="e9006dc43cd11d5ba49a092a1dff31dc10700c28" region="rom_board" offset="0"/>
+		<rom name="ax1201m01.ic10" size="16777216" crc="df96ce30" sha1="25a9f743b1c2b11896d0c7a2dc1c198fc977aaca" region="rom_board" offset="800000"/>
+		<rom name="ax1202m01.ic11" size="16777216" crc="dfc6fd67" sha1="f9d35b18a03d22f70feda42d314b0f9dd54eea55" region="rom_board" offset="1000000"/>
+		<rom name="ax1203m01.ic12" size="16777216" crc="bf623df9" sha1="8b9a8e8100ff6d2ce9a982ab8eb1d542f1c7af03" region="rom_board" offset="2000000"/>
+		<rom name="ax1204m01.ic13" size="16777216" crc="c80c3930" sha1="5c39fde36e2ebbfe72967d7d0202eb454a8d3bbe" region="rom_board" offset="3000000"/>
+		<rom name="ax1205m01.ic14" size="16777216" crc="e99a269d" sha1="a52148b82b0338b8bad8b52985302eaf81a4cfde" region="rom_board" offset="4000000"/>
+		<rom name="ax1206m01.ic15" size="16777216" crc="807ab795" sha1="17c86b1a56333c05b68ff84f83e964d013c1819c" region="rom_board" offset="5000000"/>
+		<rom name="ax1207m01.ic16" size="16777216" crc="6636d1b8" sha1="9bd8fc114557f6fbe772f85eeb246f7336d4255e" region="rom_board" offset="6000000"/>
+		<rom name="ax1208m01.ic17" size="16777216" crc="38bda476" sha1="0234a6f5fbaf5e958b3ba0db311dff157f80addc" region="rom_board" offset="7000000"/>
+		<rom name="am3aht.u1" size="524288" crc="c4a21dbf" sha1="3200fdf209f8a6c8c9acdb60a2bc1d70af28fc5b" region="awmpsystem" offset="0"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<device_ref tag=":dcctrl2" name="dcctrl"/>
+		<device_ref tag=":dcctrl3" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="4" coins="4" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+			<control type="joy" player="3" buttons="6" ways="8"/>
+			<control type="joy" player="4" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":EXID_IN">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":P3.0">
+		</port>
+		<port tag=":P3.1">
+		</port>
+		<port tag=":P4.0">
+		</port>
+		<port tag=":P4.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="ggx15" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Guilty Gear X ver. 1.5</description>
+		<year>2003</year>
+		<manufacturer>Arc System Works / Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax0801p01.ic18" size="8388608" crc="d920c6bb" sha1="ab34bbef3c71396447bc5322d8e8786041fc832a" region="rom_board" offset="0"/>
+		<rom name="ax0801m01.ic11" size="16777216" crc="61879b2d" sha1="9592fbd979cef9d8f465cd92d0f00b9c13ecf7ba" region="rom_board" offset="1000000"/>
+		<rom name="ax0802m01.ic12" size="16777216" crc="c0ff124d" sha1="dd403d10de2f097fbaa6b93bc311e2b9e893828d" region="rom_board" offset="2000000"/>
+		<rom name="ax0803m01.ic13" size="16777216" crc="4400c89a" sha1="4e13536c01103ecfbfc9e3e33746ceae7a91a520" region="rom_board" offset="3000000"/>
+		<rom name="ax0804m01.ic14" size="16777216" crc="70f58ab4" sha1="cd2def19bbad945c87567f8d28f3a2a179a7f7f6" region="rom_board" offset="4000000"/>
+		<rom name="ax0805m01.ic15" size="16777216" crc="72740e45" sha1="646eded89f10008c9176cd6772a8ac9d1bf4271a" region="rom_board" offset="5000000"/>
+		<rom name="ax0806m01.ic16" size="16777216" crc="3bf8ecba" sha1="43e7fbf21d8ee60bab72ce558640730fd9c3e3b8" region="rom_board" offset="6000000"/>
+		<rom name="ax0807m01.ic17" size="16777216" crc="e397dd79" sha1="5fec32dc19dd71ef0d451f8058186f998015723b" region="rom_board" offset="7000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="kofnw" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>The King of Fighters Neowave</description>
+		<year>2004</year>
+		<manufacturer>Sammy / SNK Playmore</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax2201en_p01.ic18" size="8388608" crc="27aab918" sha1="41c5ddd8bd4c91481750606ab44aa115b5fe01d0" region="rom_board" offset="0"/>
+		<rom name="ax2201m01.ic11" size="16777216" crc="22ea665b" sha1="292c92c9ae43eea2d1c27cedfb89c3956b8dea32" region="rom_board" offset="1000000"/>
+		<rom name="ax2202m01.ic12" size="16777216" crc="7fad1bea" sha1="89f3f88af48973a4685955d86ef97a1487b8e7a8" region="rom_board" offset="2000000"/>
+		<rom name="ax2203m01.ic13" size="16777216" crc="78986ca4" sha1="5a6c8c12955573f33361d2c6f20f85de35ac7bae" region="rom_board" offset="3000000"/>
+		<rom name="ax2204m01.ic14" size="16777216" crc="6ffbeb04" sha1="975062cf364589dbdd5c5cb5ca945f76d87fc120" region="rom_board" offset="4000000"/>
+		<rom name="ax2205m01.ic15" size="16777216" crc="2851b791" sha1="566ef95ea066b7bf548986085670242be217befc" region="rom_board" offset="5000000"/>
+		<rom name="ax2206m01.ic16" size="16777216" crc="e53eb965" sha1="f50cd53a5859f081d8a278d24a519c9d9b49ab96" region="rom_board" offset="6000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="kofxi" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>The King of Fighters XI</description>
+		<year>2005</year>
+		<manufacturer>Sammy / SNK Playmore</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax3201p01.fmem1" size="8388608" crc="6dbdd71b" sha1="cce3897b104f5d923d8136485fc80eb9717ff4b5" region="rom_board" offset="0"/>
+		<rom name="ax3201m01.mrom1" size="33554432" crc="7f9d6af9" sha1="001064ad1b8c3408efe799dc766c2728dc6512a9" region="rom_board" offset="2000000"/>
+		<rom name="ax3202m01.mrom2" size="33554432" crc="1ae40afa" sha1="9ee7957c86cc3a71e6971ddcd906a82c5b1e16f1" region="rom_board" offset="4000000"/>
+		<rom name="ax3203m01.mrom3" size="33554432" crc="8c5e3bfd" sha1="b5443e2a1b88642cc57c5287a3122376c2d48de9" region="rom_board" offset="6000000"/>
+		<rom name="ax3204m01.mrom4" size="33554432" crc="ba97f80c" sha1="36f672fe833e13f0bab036b02c39123066327e20" region="rom_board" offset="a000000"/>
+		<rom name="ax3205m01.mrom5" size="33554432" crc="3c747067" sha1="54b7ff73d618e2e4e40c125c6cfe99016e69ad1a" region="rom_board" offset="c000000"/>
+		<rom name="ax3206m01.mrom6" size="33554432" crc="cb81e5f5" sha1="07faee02a58ac9c600ab3cdd525d22c16b35222d" region="rom_board" offset="e000000"/>
+		<rom name="ax3207m01.mrom7" size="33554432" crc="164f6329" sha1="a72c8cbe4ac7b98edda3d4434f6c81a370b8c39b" region="rom_board" offset="12000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="kov7sprt" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Knights of Valour - The Seven Spirits</description>
+		<year>2003</year>
+		<manufacturer>IGS / Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax1301p01.ic18" size="8388608" crc="6833a334" sha1="646aaa578e09ad23bc9c7f4fbdfb3c1486916fd3" region="rom_board" offset="0"/>
+		<rom name="ax1301m01.ic11" size="16777216" crc="58ae7ca1" sha1="e91975697b797ea05488ace649cbb9964b4cd500" region="rom_board" offset="1000000"/>
+		<rom name="ax1301m02.ic12" size="16777216" crc="871ea03f" sha1="6806910832ca271a9240aca8e91279556e5b0cb7" region="rom_board" offset="2000000"/>
+		<rom name="ax1301m03.ic13" size="16777216" crc="abc328bc" sha1="d9271d4e5abe76d31de0f60a5c106260338d42e9" region="rom_board" offset="3000000"/>
+		<rom name="ax1301m04.ic14" size="16777216" crc="25a176d1" sha1="6d815bf6acb645fead060733660e24fb0d44282d" region="rom_board" offset="4000000"/>
+		<rom name="ax1301m05.ic15" size="16777216" crc="e6573a93" sha1="0666e52d0088263f28938e4c8aae201e604ec1f2" region="rom_board" offset="5000000"/>
+		<rom name="ax1301m06.ic16" size="16777216" crc="cb8cacb4" sha1="5d008e8a934451b9bfa33fedfd492c86d9226ef5" region="rom_board" offset="6000000"/>
+		<rom name="ax1301m07.ic17" size="16777216" crc="0ca92213" sha1="115c50fa55e6de3439de23e74621695510c6a7ba" region="rom_board" offset="7000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="maxspeed" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Maximum Speed</description>
+		<year>2003</year>
+		<manufacturer>SIMS / Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax0501p01.ic18" size="8388608" crc="e1651867" sha1="49caf82f4b111da312b14bb0a9c31e3732b4b24e" region="rom_board" offset="0"/>
+		<rom name="ax0501m01.ic11" size="16777216" crc="4a847a59" sha1="7808bcd357b85861082b426dbe34a20ae7016f6a" region="rom_board" offset="1000000"/>
+		<rom name="ax0502m01.ic12" size="16777216" crc="2580237f" sha1="2e92c940f95edae33d6a7e8a071544a9083a0fd6" region="rom_board" offset="2000000"/>
+		<rom name="ax0503m01.ic13" size="16777216" crc="e5a3766b" sha1="1fe6e072adad27ac43c0bff04e3c448678aabc18" region="rom_board" offset="3000000"/>
+		<rom name="ax0504m01.ic14" size="16777216" crc="7955b55a" sha1="927f58d6961e702c2a8afce79bac5e5cff3dfed6" region="rom_board" offset="4000000"/>
+		<rom name="ax0505m01.ic15" size="16777216" crc="e8ccc660" sha1="a5f414f200a0d41e958430d0fc2d4e1fda1cc67c" region="rom_board" offset="5000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="2" minimum="0" maximum="255" sensitivity="100" keydelta="4"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="100" keydelta="40"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.A0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A3">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A4">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2.A5">
+			<analog mask="255"/>
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="mslug6" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Metal Slug 6</description>
+		<year>2006</year>
+		<manufacturer>Sega / SNK Playmore</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax3001p01.fmem1" size="8388608" crc="af67dbce" sha1="5aba108caf3e4ced6994bc26e752d4e225c231e8" region="rom_board" offset="0"/>
+		<rom name="ax3001m01.mrom1" size="33554432" crc="e56417ee" sha1="27692ad5c1093aff0973d2aafd01a5e30c7bfbbe" region="rom_board" offset="2000000"/>
+		<rom name="ax3002m01.mrom2" size="33554432" crc="1be3bbc1" sha1="d75ce5c855c9c4eeacdbf84d440c73a94de060fe" region="rom_board" offset="4000000"/>
+		<rom name="ax3003m01.mrom3" size="33554432" crc="4fe37370" sha1="85d51db94c3e34265e37b636d6545ed2801ba5a6" region="rom_board" offset="6000000"/>
+		<rom name="ax3004m01.mrom4" size="33554432" crc="2f4c4c6f" sha1="5815c28fdaf0429003986e725c0015fe4c08721f" region="rom_board" offset="a000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="ngbc" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>NeoGeo Battle Coliseum</description>
+		<year>2005</year>
+		<manufacturer>Sammy / SNK Playmore</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax3301en_p01.fmem1" size="8388608" crc="f7e24e67" sha1="8eef26d44b294faa509304b1b04f4d801337bc99" region="rom_board" offset="0"/>
+		<rom name="ax3301m01.mrom1" size="33554432" crc="e6013de9" sha1="ccbc7c2e76153348646d75938d5c008dc80df17d" region="rom_board" offset="2000000"/>
+		<rom name="ax3302m01.mrom2" size="33554432" crc="f7cfef6c" sha1="c9e6231499a9c9c8650d9e61f34ff1fcce8d442c" region="rom_board" offset="4000000"/>
+		<rom name="ax3303m01.mrom3" size="33554432" crc="0cdf8647" sha1="0423f96842bef2c2ff454318dc6960b5052c0551" region="rom_board" offset="6000000"/>
+		<rom name="ax3304m01.mrom4" size="33554432" crc="2f031db0" sha1="3214735f04fadf160137f0585bfc1a27eeecfac6" region="rom_board" offset="a000000"/>
+		<rom name="ax3305m01.mrom5" size="33554432" crc="f6668aaa" sha1="6a78f8f0c7d7a71854ff87329290d38970cfb476" region="rom_board" offset="c000000"/>
+		<rom name="ax3306m01.mrom6" size="33554432" crc="5cf32fbd" sha1="b6ae0abe5791b3d6f8db07b8c8ca22219a153801" region="rom_board" offset="e000000"/>
+		<rom name="ax3307m01.mrom7" size="33554432" crc="26d9da53" sha1="0015b4be670005a451274de68279b4302fc42a97" region="rom_board" offset="12000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="rumblef" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>The Rumble Fish</description>
+		<year>2004</year>
+		<manufacturer>Sammy / Dimps</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax1801p01.ic18" size="8388608" crc="2f7fb163" sha1="bf819d798d9a3a7bc754e111a3f53b9db6d6042a" region="rom_board" offset="0"/>
+		<rom name="ax1801m01.ic11" size="16777216" crc="c38aa61c" sha1="e2f688a0aa8b0119f5fd3d53c8904e035d43a4b1" region="rom_board" offset="1000000"/>
+		<rom name="ax1802m01.ic12" size="16777216" crc="72e0ebc8" sha1="e85300a405ea14c4c9d857eb9685c93faaca1d56" region="rom_board" offset="2000000"/>
+		<rom name="ax1803m01.ic13" size="16777216" crc="d0f59d98" sha1="b854796087e9f76a13a21da8249f7224e451e129" region="rom_board" offset="3000000"/>
+		<rom name="ax1804m01.ic14" size="16777216" crc="15595cba" sha1="8dd06d1f986cd21a58d20b662b11ed7ba8a6ff7a" region="rom_board" offset="4000000"/>
+		<rom name="ax1805m01.ic15" size="16777216" crc="3d3f8e0d" sha1="364a0bda890722b9fb72171f96c742b8f3fef23e" region="rom_board" offset="5000000"/>
+		<rom name="ax1806m01.ic16" size="16777216" crc="ac2751bb" sha1="5070fa12bf109ab87e8f7ea46ac4ae78a73105da" region="rom_board" offset="6000000"/>
+		<rom name="ax1807m01.ic17" size="16777216" crc="3b2fbdb0" sha1="f9f7e06785d3a07282247aaedd9999aa7c2670b9" region="rom_board" offset="7000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="rumblef2" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>The Rumble Fish 2</description>
+		<year>2005</year>
+		<manufacturer>Sammy / Dimps</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax3401p01.fmem1" size="8388608" crc="a33601cf" sha1="2dd60a9c3a2517f2257ab69288fa95645de133fa" region="rom_board" offset="0"/>
+		<rom name="ax3401m01.mrom1" size="33554432" crc="60894d4c" sha1="5b21af3c7c82d4d64bfd8498c26283111ada1298" region="rom_board" offset="2000000"/>
+		<rom name="ax3402m01.mrom2" size="33554432" crc="e4224cc9" sha1="dcab06fcf48cda286f93d2b37f03a83abf3230cb" region="rom_board" offset="4000000"/>
+		<rom name="ax3403m01.mrom3" size="33554432" crc="081c0edb" sha1="63a3f1b5f9d7ca4367868c492236406f23996cc3" region="rom_board" offset="6000000"/>
+		<rom name="ax3404m01.mrom4" size="33554432" crc="a426b443" sha1="617aab42e432a80b0663281fb7faa6c14ef4f149" region="rom_board" offset="a000000"/>
+		<rom name="ax3405m01.mrom5" size="33554432" crc="4766ce56" sha1="349b82013a75905ae5520b14a87702c9038a5def" region="rom_board" offset="c000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="samsptk" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Samurai Spirits Tenkaichi Kenkakuden</description>
+		<year>2005</year>
+		<manufacturer>Sammy / SNK Playmore</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ax2901p01.fmem1" size="8388608" crc="58e0030b" sha1="ed8a66833beeb56d83770123eff28df0f25221d1" region="rom_board" offset="0"/>
+		<rom name="ax2901m01.mrom1" size="33554432" crc="dbbbd90d" sha1="102ee0b249a3e0ca2f659b6c515816c522ad78d0" region="rom_board" offset="2000000"/>
+		<rom name="ax2902m01.mrom2" size="33554432" crc="a3bd7890" sha1="9b8d934d6ebc3ef688cd8a6de47657a0663fea10" region="rom_board" offset="4000000"/>
+		<rom name="ax2903m01.mrom3" size="33554432" crc="56f50fdd" sha1="8a5a4a99108c0279056998046c7b332e80121dee" region="rom_board" offset="6000000"/>
+		<rom name="ax2904m01.mrom4" size="33554432" crc="8a3ae175" sha1="966f527a92e24c8eb770344697f2edf6140cf971" region="rom_board" offset="a000000"/>
+		<rom name="ax2905m01.mrom5" size="33554432" crc="429877ba" sha1="88e1f3bc682b18d331e328ef8754065109cf9bda" region="rom_board" offset="c000000"/>
+		<rom name="ax2906m01.mrom6" size="33554432" crc="cb95298d" sha1="5fb5d5a0d6801df61101a1b23de0c14ff29ef654" region="rom_board" offset="e000000"/>
+		<rom name="ax2907m01.mrom7" size="33554432" crc="48015081" sha1="3c0a0a6dc9ab7bf889579477699e612c3092f9bf" region="rom_board" offset="12000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="aica" sourcefile="devices/sound/aica.cpp" isdevice="yes" runnable="no">
+		<description>Yamaha AICA</description>
+		<sound channels="0"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="aicartc" sourcefile="devices/machine/aicartc.cpp" isdevice="yes" runnable="no">
+		<description>AICA RTC</description>
+	</machine>
+	<machine name="arm7_le" sourcefile="devices/cpu/arm7/arm7.cpp" isdevice="yes" runnable="no">
+		<description>ARM7 (little)</description>
+	</machine>
+	<machine name="aw_rom_board" sourcefile="sega/awboard.cpp" isdevice="yes" runnable="no">
+		<description>Sammy Atomiswave ROM Board</description>
+	</machine>
+	<machine name="dc_g2if" sourcefile="sega/dc_g2if.cpp" isdevice="yes" runnable="no">
+		<description>Sega Dreamcast G2 I/F System Bus</description>
+	</machine>
+	<machine name="dcctrl" sourcefile="sega/dc-ctrl.cpp" isdevice="yes" runnable="no">
+		<description>Dreamcast Controller</description>
+	</machine>
+	<machine name="macronix_29l001mc" sourcefile="devices/machine/intelfsh.cpp" isdevice="yes" runnable="no">
+		<description>Macronix 29L001MC Flash</description>
+	</machine>
+	<machine name="maple_dc" sourcefile="sega/maple-dc.cpp" isdevice="yes" runnable="no">
+		<description>Dreamcast Maple Bus</description>
+	</machine>
+	<machine name="nvram" sourcefile="devices/machine/nvram.cpp" isdevice="yes" runnable="no">
+		<description>NVRAM</description>
+	</machine>
+	<machine name="powervr2" sourcefile="sega/powervr2.cpp" isdevice="yes" runnable="no">
+		<description>PowerVR 2</description>
+		<configuration name="Bilinear Filtering" tag=":PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag=":PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<feature type="graphics" status="imperfect"/>
+	</machine>
+	<machine name="screen" sourcefile="emu/screen.cpp" isdevice="yes" runnable="no">
+		<description>Video Screen</description>
+	</machine>
+	<machine name="sh7091" sourcefile="devices/cpu/sh/sh4.cpp" isdevice="yes" runnable="no">
+		<description>Hitachi SH7091</description>
+	</machine>
+	<machine name="speaker" sourcefile="emu/speaker.cpp" isdevice="yes" runnable="no">
+		<description>Speaker</description>
+		<sound channels="1"/>
+	</machine>
+	<machine name="timer" sourcefile="devices/machine/timer.cpp" isdevice="yes" runnable="no">
+		<description>Timer</description>
+	</machine>
+</mame>
