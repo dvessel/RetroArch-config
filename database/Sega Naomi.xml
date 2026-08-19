@@ -161,7 +161,7 @@
 			<!ATTLIST ramoption default CDATA #IMPLIED>
 ]>
 
-<mame build="0.287 (unknown)" debug="no" mameconfig="10">
+<mame build="0.289 (unknown)" debug="no" mameconfig="10">
 	<machine name="bdrdown" sourcefile="sega/naomi.cpp" romof="naomigd">
 		<description>Border Down (Rev A) (GDL-0023A)</description>
 		<year>2003</year>
@@ -3313,6 +3313,255 @@
 		<port tag=":A6">
 		</port>
 		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="hod2bios" sourcefile="sega/naomi.cpp" isbios="yes">
+		<description>NAOMI The House of the Dead 2 BIOS</description>
+		<year>1998</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="HOTD2 (Export)"/>
+		<biosset name="bios1" description="HOTD2 (USA)"/>
+		<biosset name="bios2" description="HOTD2 (Japan)"/>
+		<biosset name="bios3" description="HOTD2 (Korea)"/>
+		<biosset name="bios4" description="HOTD2 (Proto)"/>
+		<rom name="epr-21331.ic27" bios="bios0" size="2097152" crc="065f8500" sha1="49a3881e8d76f952ef5e887200d77b4a415d47fe" region="maincpu" offset="0"/>
+		<rom name="epr-21330.ic27" bios="bios1" size="2097152" crc="9e3bfa1b" sha1="b539d38c767b0551b8e7956c1ff795de8bbe2fbc" region="maincpu" offset="0"/>
+		<rom name="epr-21329.ic27" bios="bios2" size="2097152" crc="d99e5b9b" sha1="453ffb41b6197cac6d12e7814bb1d7281ccf1659" region="maincpu" offset="0"/>
+		<rom name="epr-21332.ic27" bios="bios3" size="2097152" crc="bd6ce0ec" sha1="3d1ce5cb6978afe57967d8b53bc969259dd64749" region="maincpu" offset="0"/>
+		<rom name="hotd2biosproto.ic27" bios="bios4" size="2097152" crc="ea74e967" sha1="e4d037480eb6555d335a8ab9cd6c56122335586d" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_rom_board"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+		</port>
+		<port tag=":A1">
+		</port>
+		<port tag=":A2">
+		</port>
+		<port tag=":A3">
+		</port>
+		<port tag=":A4">
+		</port>
+		<port tag=":A5">
+		</port>
+		<port tag=":A6">
+		</port>
+		<port tag=":A7">
+		</port>
+		<port tag=":MIE.3">
+		</port>
+		<port tag=":MIE.5">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":TILT">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="hotd2" sourcefile="sega/naomi.cpp" romof="hod2bios">
+		<description>The House of the Dead 2 (USA)</description>
+		<year>1998</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="HOTD2 (Export)"/>
+		<biosset name="bios1" description="HOTD2 (USA)"/>
+		<biosset name="bios2" description="HOTD2 (Japan)"/>
+		<biosset name="bios3" description="HOTD2 (Korea)"/>
+		<biosset name="bios4" description="HOTD2 (Proto)"/>
+		<rom name="epr-21331.ic27" merge="epr-21331.ic27" bios="bios0" size="2097152" crc="065f8500" sha1="49a3881e8d76f952ef5e887200d77b4a415d47fe" region="maincpu" offset="0"/>
+		<rom name="epr-21330.ic27" merge="epr-21330.ic27" bios="bios1" size="2097152" crc="9e3bfa1b" sha1="b539d38c767b0551b8e7956c1ff795de8bbe2fbc" region="maincpu" offset="0"/>
+		<rom name="epr-21329.ic27" merge="epr-21329.ic27" bios="bios2" size="2097152" crc="d99e5b9b" sha1="453ffb41b6197cac6d12e7814bb1d7281ccf1659" region="maincpu" offset="0"/>
+		<rom name="epr-21332.ic27" merge="epr-21332.ic27" bios="bios3" size="2097152" crc="bd6ce0ec" sha1="3d1ce5cb6978afe57967d8b53bc969259dd64749" region="maincpu" offset="0"/>
+		<rom name="hotd2biosproto.ic27" merge="hotd2biosproto.ic27" bios="bios4" size="2097152" crc="ea74e967" sha1="e4d037480eb6555d335a8ab9cd6c56122335586d" region="maincpu" offset="0"/>
+		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" region="main_eeprom" offset="0"/>
+		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" region="naomibd_eeprom" offset="0"/>
+		<rom name="epr-21585.ic22" size="2097152" crc="b23d1a0c" sha1="9e77980d1aa980c879886e53cc76a16d7a9d43a1" region="rom_board" offset="0"/>
+		<rom name="mpr-21386.ic1" size="8388608" crc="88fb0562" sha1="185a0eab68d86617cb6325d64c48a2dd4854622b" region="rom_board" offset="800000"/>
+		<rom name="mpr-21387.ic2" size="8388608" crc="5f4dd576" sha1="5483c3949e587bbcca7e8fc7db9aff4cd2a33f02" region="rom_board" offset="1000000"/>
+		<rom name="mpr-21388.ic3" size="8388608" crc="3e62fca4" sha1="8cdebdebabc88160f458e1e779d9ebb4e6a14523" region="rom_board" offset="1800000"/>
+		<rom name="mpr-21389.ic4" size="8388608" crc="6f73a852" sha1="d5fd4c0800b3a1ea04231018fcaba79184fa1d87" region="rom_board" offset="2000000"/>
+		<rom name="mpr-21390.ic5" size="8388608" crc="c7950445" sha1="4f56768f07703452ef92d183e4ee654ab9711283" region="rom_board" offset="2800000"/>
+		<rom name="mpr-21391.ic6" size="8388608" crc="5a812247" sha1="7636661da0cc9bd5a1a2062f9f3ef65889c86fd5" region="rom_board" offset="3000000"/>
+		<rom name="mpr-21392.ic7" size="8388608" crc="17e9414a" sha1="9f291c4dd9a049eeed88d80867f7fca1d15c6095" region="rom_board" offset="3800000"/>
+		<rom name="mpr-21393.ic8" size="8388608" crc="5d2d8134" sha1="a2941b6afd0302822133d932064d1aad873b1c04" region="rom_board" offset="4000000"/>
+		<rom name="mpr-21394.ic9" size="8388608" crc="eacaf26d" sha1="21e35def0ed998a70cc982f373feb50b7974612a" region="rom_board" offset="4800000"/>
+		<rom name="mpr-21395.ic10" size="8388608" crc="1e3686be" sha1="7ec1b3c9c94882c5fe7b6ba6ffe9220e90824870" region="rom_board" offset="5000000"/>
+		<rom name="mpr-21396.ic11" size="8388608" crc="5ada00a2" sha1="981c65310c89e7a26e2b2c3e57623e78f6ad33d0" region="rom_board" offset="5800000"/>
+		<rom name="mpr-21397.ic12s" size="8388608" crc="9eff6247" sha1="9257492fc3e48516897002dd3ff247093af27d87" region="rom_board" offset="6000000"/>
+		<rom name="mpr-21398.ic13s" size="8388608" crc="8a80b16a" sha1="ffeb061b31027ac322c14b9050c686b2b844d2e1" region="rom_board" offset="6800000"/>
+		<rom name="mpr-21399.ic14s" size="8388608" crc="7ae20daf" sha1="b36d8e490ac477db178b8df08f7997448308d3fd" region="rom_board" offset="7000000"/>
+		<rom name="mpr-21400.ic15s" size="8388608" crc="fbb8641b" sha1="6cb44f0a3f80eb68a218bba97b2395961c596b9c" region="rom_board" offset="7800000"/>
+		<rom name="mpr-21401.ic16s" size="8388608" crc="3881ec23" sha1="e4b87a6c6fd6a2eeda8e0e5ae7bed01b18386e54" region="rom_board" offset="8000000"/>
+		<rom name="mpr-21402.ic17s" size="8388608" crc="66bff6e4" sha1="f87d618231b71b65952fc7ea7ccabdd208622a00" region="rom_board" offset="8800000"/>
+		<rom name="mpr-21403.ic18s" size="8388608" crc="8cd2f654" sha1="77eb7061caaf0288aad04ed88c4247d27617f338" region="rom_board" offset="9000000"/>
+		<rom name="mpr-21404.ic19s" size="8388608" crc="6cf6e705" sha1="68d7e9becefe27b556e0c5d7ba00efd2d1fb71ca" region="rom_board" offset="9800000"/>
+		<rom name="mpr-21405.ic20s" size="8388608" crc="495e6265" sha1="57936367fec0000691641525682fb8aefc4e4f56" region="rom_board" offset="a000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":main_eeprom" name="93c46_16"/>
+		<device_ref tag=":mie_maple" name="mie"/>
+		<device_ref tag=":mie_maple:mie" name="z80"/>
+		<device_ref tag=":mie" name="mie_jvs"/>
+		<device_ref tag=":837_13551" name="jvs13551"/>
+		<device_ref tag=":837_13551:iomcu" name="tmp90ph44"/>
+		<device_ref tag=":mie_eeprom" name="93c46_8"/>
+		<device_ref tag=":naomibd_eeprom" name="x76f100"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":rom_board" name="naomi_m2_board"/>
+		<device_ref tag=":rom_board:segam2crypt" name="sega315_5881"/>
+		<device_ref tag=":gun_board" name="gunsense"/>
+		<device_ref tag=":gun_board:gunmcu" name="upd78213"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="cpu" tag="mie_maple:mie" name="Zilog Z80" clock="16000000"/>
+		<chip type="cpu" tag="837_13551:iomcu" name="Toshiba TMP90PH44" clock="10000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="gun_board:gunmcu" name="NEC uPD78213" clock="12000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes" tilt="yes">
+			<control type="lightgun" player="1" buttons="2" minimum="0" maximum="65280" sensitivity="25" keydelta="10"/>
+			<control type="lightgun" player="2" buttons="2" minimum="0" maximum="65280" sensitivity="25" keydelta="10"/>
+		</input>
+		<dipswitch name="Monitor" tag="MIE.5" mask="1">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="31 kHz" value="1"/>
+			<dipvalue name="15 kHz" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="2">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="4">
+			<diplocation name="SW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="MIE.5" mask="8">
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":837_13551:COINS">
+		</port>
+		<port tag=":A0">
+			<analog mask="65280"/>
+		</port>
+		<port tag=":A1">
+			<analog mask="65280"/>
+		</port>
+		<port tag=":A2">
+			<analog mask="65280"/>
+		</port>
+		<port tag=":A3">
+			<analog mask="65280"/>
 		</port>
 		<port tag=":MIE.3">
 		</port>
@@ -9624,8 +9873,16 @@
 	<machine name="gdrom_image" sourcefile="devices/imagedev/cdromimg.cpp" isdevice="yes" runnable="no">
 		<description>CD/GD-ROM Image</description>
 	</machine>
+	<machine name="gunsense" sourcefile="sega/gunsense.cpp" isdevice="yes" runnable="no">
+		<description>Sega 838-13143 Gun Sense Board</description>
+		<rom name="epr-20006a.ic2" size="65536" crc="45f310dc" sha1="b7cf40a1671dc351b607d8d6bba0d51ea128eb75" region="gunmcu" offset="0"/>
+		<rom name="epr-21262.ic2" size="65536" crc="c9adf9b6" sha1="fc2a331430ef2f009f653b242220599c824cd1d2" region="gunmcu" offset="0"/>
+		<rom name="tg12.ic2" size="65536" crc="2c9600b1" sha1="91813a43851c48d400fde41b1198dabf55bade2d" region="gunmcu" offset="0"/>
+		<device_ref tag=":_tmp:gunmcu" name="upd78213"/>
+		<chip type="cpu" tag=":gunmcu" name="NEC uPD78213" clock="12000000"/>
+	</machine>
 	<machine name="ide_gdrom" sourcefile="sega/naomigd.cpp" isdevice="yes" runnable="no">
-		<description>ide gdrom controller</description>
+		<description>IDE GDROM controller</description>
 		<device_ref tag=":_tmp:ide" name="idectrl32bm"/>
 		<device_ref tag=":_tmp:ide:0" name="ata_slot"/>
 		<device_ref tag=":_tmp:ide:1" name="ata_slot"/>
@@ -9780,6 +10037,9 @@
 	</machine>
 	<machine name="tmp90ph44" sourcefile="devices/cpu/tlcs90/tlcs90.cpp" isdevice="yes" runnable="no">
 		<description>Toshiba TMP90PH44</description>
+	</machine>
+	<machine name="upd78213" sourcefile="devices/cpu/upd78k/upd78k2.cpp" isdevice="yes" runnable="no">
+		<description>NEC uPD78213</description>
 	</machine>
 	<machine name="x76f100" sourcefile="devices/machine/x76f100.cpp" isdevice="yes" runnable="no">
 		<description>X76F100 Secure SerialFlash</description>

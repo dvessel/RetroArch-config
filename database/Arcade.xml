@@ -34101,6 +34101,134 @@
 			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
+	<machine name="hotd" sourcefile="sega/model2.cpp">
+		<description>The House of the Dead (Revision A)</description>
+		<year>1997</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-19696a.15" size="524288" crc="42adc32e" sha1="92931e8339dbba23d7ade178fcc56d37291411cb" region="maincpu" offset="0"/>
+		<rom name="epr-19697a.16" size="524288" crc="1e247cd5" sha1="693e929d543bad880ea69d781155949f0aa246de" region="maincpu" offset="2"/>
+		<rom name="epr-19694.13" size="524288" crc="e85ca1a3" sha1="3d688be98f78fe40c2af1e91df6decd500400ae9" region="maincpu" offset="100000"/>
+		<rom name="epr-19695.14" size="524288" crc="cd52b461" sha1="bc96ab2a4ba7f30c0b89814acc8931c8bf800a82" region="maincpu" offset="100002"/>
+		<rom name="mpr-19704.11" size="4194304" crc="aa80dbb0" sha1="24e63f4392847f288971469cd10448536eb435d4" region="main_data" offset="0"/>
+		<rom name="mpr-19705.12" size="4194304" crc="f906843b" sha1="bee4f43b3ad15d93a2f9f07b873c9cf5d228e2f9" region="main_data" offset="2"/>
+		<rom name="mpr-19702.9" size="4194304" crc="fc8aa3b7" sha1="b64afb17d9c97277d8c4f20811f14f65a61cbb56" region="main_data" offset="800000"/>
+		<rom name="mpr-19703.10" size="4194304" crc="208d993d" sha1="e5c45ea5621f99661a87ffe88e24764d2bbcb51e" region="main_data" offset="800002"/>
+		<rom name="mpr-19700.7" size="4194304" crc="0558cfd3" sha1="94440839d3325176c2d03f39a78949d0ef040bba" region="main_data" offset="1000000"/>
+		<rom name="mpr-19701.8" size="4194304" crc="224a8929" sha1="933770546d46abca400e7f524eff2ae89241e56d" region="main_data" offset="1000002"/>
+		<rom name="epr-19698.5" size="524288" crc="e7a7b6ea" sha1="77cb53f8730fdb55080b70910ab8c750d79acb02" region="main_data" offset="1800000"/>
+		<rom name="epr-19699.6" size="524288" crc="8160b3d9" sha1="9dab483c60624dddba8085e94a4325739592ec17" region="main_data" offset="1800002"/>
+		<rom name="epr-19707.29" size="524288" crc="384fd133" sha1="6d060378d0f801b04d12e7ee874f2fa0572992d9" region="copro_data" offset="0"/>
+		<rom name="epr-19706.30" size="524288" crc="1277531c" sha1="08d3e733ba9989fcd32290634171c73f26ab6e2b" region="copro_data" offset="2"/>
+		<rom name="mpr-19715.17" size="4194304" crc="3ff7dda7" sha1="0a61b091bb0bc659f0cbca8ad401d0925a1dc2ea" region="polygons" offset="0"/>
+		<rom name="mpr-19711.21" size="4194304" crc="080d13f1" sha1="4167428a2a903aea2c14631ccf924afb81338b89" region="polygons" offset="2"/>
+		<rom name="mpr-19714.18" size="4194304" crc="3e55ab49" sha1="70b4c1627db80e6734112c02265495e2b4a53278" region="polygons" offset="800000"/>
+		<rom name="mpr-19710.22" size="4194304" crc="80df1036" sha1="3cc59bb4910aa5382e95762f63325c06b763bd23" region="polygons" offset="800002"/>
+		<rom name="mpr-19713.19" size="4194304" crc="4d092cd3" sha1="b6d0be283c25235249186751c7f025a7c38d2f36" region="polygons" offset="1000000"/>
+		<rom name="mpr-19709.23" size="4194304" crc="d08937bf" sha1="c92571e35960f27dc8b0b059f12167026d0666d1" region="polygons" offset="1000002"/>
+		<rom name="mpr-19712.20" size="4194304" crc="41577943" sha1="25a0d921c8662043c5860dc7a226d4895ff9fff6" region="polygons" offset="1800000"/>
+		<rom name="mpr-19708.24" size="4194304" crc="5cb790f2" sha1="d3cae450186bc62fd746b14d6a05cb397efcfe40" region="polygons" offset="1800002"/>
+		<rom name="mpr-19718.27" size="4194304" crc="a9de5924" sha1="3ebac2aeb1467939337c9a5c87ad9c293560dae2" region="textures" offset="0"/>
+		<rom name="mpr-19716.25" size="4194304" crc="45c7dcce" sha1="f602cabd879c69afee544848feafb9fb9f5d51e2" region="textures" offset="2"/>
+		<rom name="mpr-19719.28" size="4194304" crc="838f8343" sha1="fe6622b5917f9a99c097fd60d9446ac6b481fa75" region="textures" offset="800000"/>
+		<rom name="mpr-19717.26" size="4194304" crc="393e440b" sha1="927ac9cad22f87b339cc86043678470ff139ce1f" region="textures" offset="800002"/>
+		<rom name="epr-19720.31" size="524288" crc="b367d21d" sha1="1edaed489a3518ddad85728e416319f940ea02bb" region="audiocpu" offset="0"/>
+		<rom name="mpr-19721.32" size="4194304" crc="f5d8fa9a" sha1="6836973a687c59dd80f8e6c30d33155e306be199" region="samples" offset="0"/>
+		<rom name="mpr-19722.34" size="4194304" crc="a56fa539" sha1="405a892bc368ba862ba71bda7525b421d6973c0e" region="samples" offset="400000"/>
+		<device_ref tag=":maincpu" name="i80960kb"/>
+		<device_ref tag=":copro_tgpx4" name="mb86235"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup1" name="nvram"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":timer0" name="timer"/>
+		<device_ref tag=":timer1" name="timer"/>
+		<device_ref tag=":timer2" name="timer"/>
+		<device_ref tag=":timer3" name="timer"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":m2comm" name="m2comm"/>
+		<chip type="cpu" tag="maincpu" name="Intel 80960KB" clock="25000000"/>
+		<chip type="cpu" tag="copro_tgpx4" name="Fujitsu MB86235 &quot;TGPx4&quot;" clock="20000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="lightgun" player="1" buttons="1" minimum="87" maximum="380" sensitivity="50" keydelta="10"/>
+			<control type="lightgun" player="2" buttons="1" minimum="87" maximum="380" sensitivity="50" keydelta="10"/>
+		</input>
+		<dipswitch name="Unknown" tag="SW" mask="1">
+			<diplocation name="SW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="2">
+			<diplocation name="SW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="4">
+			<diplocation name="SW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="8">
+			<diplocation name="SW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="16">
+			<diplocation name="SW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="32">
+			<diplocation name="SW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="64">
+			<diplocation name="SW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="128">
+			<diplocation name="SW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":P1_X">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P1_Y">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P2_X">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P2_Y">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":SW">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
 	<machine name="hsf2" sourcefile="capcom/cps2.cpp">
 		<description>Hyper Street Fighter II: The Anniversary Edition (USA 040202)</description>
 		<year>2004</year>

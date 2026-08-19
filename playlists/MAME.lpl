@@ -4292,6 +4292,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/hotd.zip",
+      "label": "The House of the Dead (Revision A)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1/kod.zip",
       "label": "The King of Dragons (World 910805)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",

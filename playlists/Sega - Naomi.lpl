@@ -380,6 +380,14 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Naomi/hotd2.zip",
+      "label": "The House of the Dead 2 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Naomi.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Naomi/totd.zip",
       "label": "The Typing of the Dead (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
