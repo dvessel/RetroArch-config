@@ -28,10 +28,10 @@ if [[ ! -f $playlist ]]; then
   return 1
 fi
 
-# DAT's or XML sources for generating playlists are often for MAME rom sets.
+# XML sources for generating playlists are typically for MAME rom sets.
 # Their file names are independent of labels. Renaming them would break it.
-if [[ ${$( jq -r '.scan_dat_file_path' $playlist ):e} =~ (dat|xml) ]]; then
-  p.error "dat or xml generated playlists are not supported:" \
+if [[ ${$( jq -r '.scan_dat_file_path' $playlist ):e} =~ xml ]]; then
+  p.error "mame/xml generated playlists are not supported:" \
           "- $playlist:t"
   return 1
 fi
