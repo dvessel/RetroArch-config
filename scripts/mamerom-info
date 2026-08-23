@@ -1,51 +1,102 @@
 #!/usr/bin/env zsh
 #
-# Usage: mamerom-info --[init|exists|get] [path]
-# requires standalone mame
+# outputs mame info for a given rom as json.
 #
+# Usage: mamerom-info --init <path/to/romfolder>
+#        mamerom-info --exists|--get <path/to/romfoler/rom.zip>
+# requires standalone mame and oq.
+#
+typeset -a missing
+for req in mame oq; type $req &>/dev/null || missing+=$req
+(( ${#missing} )) && { print "missing ${(j/, /)missing}." >&2; return 1 }
 
-local {init,rom,info,xml}_path version name
-zparseopts -D -F - -init:=init_path {-exists,-get}:=rom_path|| return 1
+zparseopts -D -F - -init:=zinit_dir {-exists,-get}:=zrom_file|| return 1
 
-if [[ -n $init_path ]]
+if (( ${#zinit_dir} ))
 then
-  init_path=${init_path[-1]}
-  if [[ ! -d $init_path ]]
+  init_dir=${zinit_dir[-1]}
+  if [[ ! -d $init_dir ]]
   then
     print "init path does not exist." >&2
     return 1
   fi
-  if type mame &>/dev/null
-  then
-    # Remove decimals and truncate. MAME version 0.250.0.1 results in 0250.
-    version=`mame -version | awk -F'[ .]' '{print $1$2}'`
-  else
-    print "mame not found." >&2
-    return 1
-  fi
+  # Remove decimals and truncate. MAME version 0.250.0.1 results in 0250.
+  version=`mame -version | awk -F'[ .]' '{print $1$2}'`
 
-  mkdir -p $init_path/.rominfo/$version
-  ln -sF $version $init_path/.rominfo/info
+  mkdir -p $init_dir/.rominfo/$version
+  ln -sF $version $init_dir/.rominfo/info
   return
 fi
 
-flag=${rom_path[1]}
-name=${rom_path[-1]:t:r}
-rom_path=${rom_path[-1]}
-info_path=$rom_path:h/.rominfo/info/$name.json
-
-if [[ ! -s $info_path ]]
+# absolute path required to prevent an endless loop.
+rom_file=${zrom_file[-1]:a}
+if [[ ! -f $rom_file ]]
 then
-  append_dir=~/Library/Application\ Support/RetroArch/database/${rom_path:h:t}-append
-  if ! mame -listxml $name | mamexml-to-json $info_path &&
+  print "${rom_file:t} does not exist." >&2
+  return 1
+fi
+
+# locate parent directory containing .rominfo.
+init_dir=${rom_file:h}
+while [[ ! -s $init_dir/.rominfo/info ]]
+do
+  init_dir=$init_dir:h
+  if [[ $init_dir == / ]]
+  then
+    print "rom path must be initialized." >&2
+    return 1
+  fi
+done
+
+flag=${zrom_file[1]}
+name=${rom_file:t:r}
+info_file=$init_dir/.rominfo/info/$name.json
+
+if [[ ! -s $info_file ]]
+then
+  append_dir=~/Library/Application\ Support/RetroArch/database/${init_dir:t}-append
+  if ! mamexml=`mame -listxml $name 2>/dev/null` &&
   [[ -f $append_dir/$name.xml ]]
   then
-    print "found fallback in '$append_dir/$name.xml'" >&2
-    mamexml-to-json $append_dir/$name.xml $info_path
+    mamexml=`cat -- $append_dir/$name.xml`
+  fi
+
+  if [[ -n $mamexml ]]
+  then
+    echo $mamexml | oq -i xml -o json '
+    def arrayofobjects: if type == "object" then [.] else . end;
+    def scrub: walk(if type == "object" then with_entries(
+      select(.key != "#text" and .value != null) | .key |= ltrimstr("@")
+    ) else . end );
+    { version: .mame."@build" | match("^[0-9.]+").string,
+      machine:[ .mame.machine | arrayofobjects | .[] |
+        { name: ."@name",
+          description: .description,
+          manufacturer: .manufacturer,
+          year: .year,
+          runnable: ."@runnable",
+          isbios: ."@isbios",
+          isdevice: ."@isdevice",
+          ismechanical: ."@ismechanical",
+          romof: ."@romof",
+          cloneof: ."@cloneof",
+          sampleof: ."@sampleof",
+          source: ."@sourcefile",
+          driver: .driver,
+          feature: .feature | arrayofobjects,
+          display: .display | arrayofobjects,
+          sound: .sound,
+          input: .input,
+          disk: .disk | arrayofobjects,
+          rom: .rom | arrayofobjects,
+          sample: .sample | arrayofobjects,
+          biosset: .biosset | arrayofobjects,
+          device: .device | arrayofobjects,
+          device_ref: .device_ref | arrayofobjects } | scrub ]}' > $info_file
   fi
 fi
 
 case $flag in
-  --exists) return $( test -s $info_path ) ;;
-  --get)    cat -- $info_path ;;
+  --exists) return $( test -s $info_file ) ;;
+  --get)    cat -- $info_file ;;
 esac
