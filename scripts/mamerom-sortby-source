@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 #
-# Hardlinks MAME roms to the .sorted directory based on the 'source' key
-# within `mame -listxml`. This enables directory based cfg overrides,
+# Hardlinks MAME roms to the .sorted directory based on the 'sourcefile'
+# key within `mame -listxml`. This enables directory based cfg overrides,
 # core options and controller remapping. A group of MAME "machines" or
 # games for a given source are more likely to share specific settings.
 #
@@ -69,18 +69,18 @@ do
     continue
   fi
 
-	read -d '' source < <( mamerom-info --get $rom |
+	read -d '' sourcefile < <( mamerom-info --get $rom |
     jq -r --arg name $rom:t:r '.machine[] | select(
 		  .name == $name and .isbios != "yes" and .isdevice != "yes"
-	  ) | .source'
-  )
-  if [[ -z $source ]]
+	  ) | .sourcefile' )
+
+  if [[ -z $sourcefile ]]
   then
     # skip bios and devices.
     continue
   fi
 
-  link=$sortdir/-${${source:r}/\//-}/$rom:t
+  link=$sortdir/-${${sourcefile:r}/\//-}/$rom:t
   mkdir -p $link:h
   ln -f $rom $link
   s.print +linked $link

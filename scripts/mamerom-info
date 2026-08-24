@@ -81,7 +81,7 @@ then
           romof: ."@romof",
           cloneof: ."@cloneof",
           sampleof: ."@sampleof",
-          source: ."@sourcefile",
+          sourcefile: ."@sourcefile",
           driver: .driver,
           feature: .feature | arrayofobjects,
           display: .display | arrayofobjects,
