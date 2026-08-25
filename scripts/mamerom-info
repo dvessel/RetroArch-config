@@ -3,14 +3,15 @@
 # outputs mame info for a given rom as json.
 #
 # Usage: mamerom-info --init <path/to/romfolder>
-#        mamerom-info --exists|--get <path/to/romfoler/rom.zip>
-# requires standalone mame and oq.
+#        mamerom-info --exists|--get <path/to/romfoler/rom.zip> [jq options]
 #
-typeset -a missing
-for req in mame oq; type $req &>/dev/null || missing+=$req
-(( ${#missing} )) && { print "missing ${(j/, /)missing}." >&2; return 1 }
+# requires standalone mame and oq.
+# oq is a wrapper for jq and shares the same options.
+#
+for req in mame oq; type $req &>/dev/null || mis+=($req)
+(( ${#mis} )) && { echo "${(j/, /)mis} required." >&2; return 1 }
 
-zparseopts -D -F - -init:=zinit_dir {-exists,-get}:=zrom_file|| return 1
+zparseopts -D -E - -init:=zinit_dir {-exists,-get,-get-all}:=zrom_file || return 1
 
 if (( ${#zinit_dir} ))
 then
@@ -30,14 +31,15 @@ fi
 
 # absolute path required to prevent an endless loop.
 rom_file=${zrom_file[-1]:a}
-if [[ ! -f $rom_file ]]
+init_dir=${rom_file:h}
+
+if [[ ! -d $init_dir ]]
 then
-  print "${rom_file:t} does not exist." >&2
+  print "missing directory: $init_dir" >&2
   return 1
 fi
 
 # locate parent directory containing .rominfo.
-init_dir=${rom_file:h}
 while [[ ! -s $init_dir/.rominfo/info ]]
 do
   init_dir=$init_dir:h
@@ -58,7 +60,7 @@ then
   if ! mamexml=`mame -listxml $name 2>/dev/null` &&
   [[ -f $append_dir/$name.xml ]]
   then
-    mamexml=`cat -- $append_dir/$name.xml`
+    mamexml=`< $append_dir/$name.xml`
   fi
 
   if [[ -n $mamexml ]]
@@ -97,6 +99,13 @@ then
 fi
 
 case $flag in
-  --exists) return $( test -s $info_file ) ;;
-  --get)    cat -- $info_file ;;
+  --exists)
+    return $( test -s $info_file )
+    ;;
+  --get)
+    oq --arg name $info_file:t:r '.machine[] | select(.name == $name )' $info_file | oq ${@:-.}
+    ;;
+  --get-all)
+    oq ${@:-.} $info_file
+    ;;
 esac

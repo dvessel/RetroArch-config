@@ -5,10 +5,6 @@
 # core options and controller remapping. A group of MAME "machines" or
 # games for a given source are more likely to share specific settings.
 #
-# Usage: mamerom-sortby-source [-r|--reset]
-#
-
-zparseopts -D -E -F - {r,-reset}=reset
 
 PATH=$( dirname `realpath $0` ):$PATH
 
@@ -28,10 +24,8 @@ then
   tmutil addexclusion $sortdir
 fi
 
-if (( ${#reset} ))
-then
-  rm -rf $sortdir/*(N)
-fi
+# managing dependencies is too complicated, so wipe it on each run.
+rm -rf $sortdir/*(N)
 
 s.print() {
   local c1=00
@@ -39,64 +33,43 @@ s.print() {
     +)  c1=32 ;;
     -)  c1=33 ;;
   esac
-  printf "\e[1;30m%s\e[0m\n  \e[0;${c1}m%s\e[0m%s\n" "$( mamerom-info --get $scandir/$2:t |
-    jq -r --arg name $2:t:r '.machine[] | select(.name == $name) | .description'
+  printf "\e[1;30m%s\e[0m\n  \e[0;${c1}m%s\e[0m%s\n" "$(
+    mamerom-info --get $scandir/$2:t -r .description
   )" "$1:" "${2#$scandir/}"
 }
 
-for rom in $scandir/*.zip(N)
+for rom in $scandir/*.(7z|zip)(N)
 do
-
   if ! mamerom-info --exists $rom
   then
     print "unrecognized '$rom'" >&2
     continue
   fi
 
-  if tag -Nlg $rom | grep -q "^Ignore$"
-  then
-    # when tagged with "Ignore", find in .sorted and remove.
-    find $sortdir -type f -name $rom:t | while read -r ignored
-    do
-      s.print -ignore $ignored
-      rm $ignored
-    done
-    continue
-  fi
-  # speedup by ignoring roms already hardlined to .sorted.
-  if find $sortdir -inum `stat -Lf %i $rom` | grep -q "$rom:t"
+  if type tag &>/dev/null && tag -Nlg $rom | grep -q "^Ignore$"
   then
     continue
   fi
 
-	read -d '' sourcefile < <( mamerom-info --get $rom |
-    jq -r --arg name $rom:t:r '.machine[] | select(
-		  .name == $name and .isbios != "yes" and .isdevice != "yes"
-	  ) | .sourcefile' )
-
-  if [[ -z $sourcefile ]]
-  then
+	read -d '' sourcefile isbios isdevice < <(
+    mamerom-info --get $rom -r .sourcefile,.isbios,.isdevice
+  )
+  case yes in
     # skip bios and devices.
-    continue
-  fi
+    $isbios|$isdevice) continue ;;
+  esac
 
-  link=$sortdir/-${${sourcefile:r}/\//-}/$rom:t
-  mkdir -p $link:h
-  ln -f $rom $link
-  s.print +linked $link
+  name=$rom:t:r
+  extension=$rom:e
+  sourcefolder=$rom:h
+  targetfolder=$sortdir/-${${sourcefile:r}/\//-}
 
-done
 
-# when deleting roms from $scandir, .sorted should follow while ignoring
-# dotfiles. must be escaped `\\\.` or it will fail due to the double quoting
-# required for variable expansion.
-excluded=( $scandir/*.zip(N:t:r) )
-if [[ -n $excluded ]]
-then
-  find -E $sortdir -type f ! -regex ".+/(\\\..+|(${(j:|:)excluded})\.zip)$" |
-    while read -r remove
-    do
-      rm $remove
-      print "removed: $remove"
-    done
-fi
+  source=$rom
+  target=$targetfolder/$rom:t
+
+  mkdir -p $target:h
+  ln -f $source $target
+  s.print +linked $target
+
+  continue
