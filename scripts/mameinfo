@@ -2,8 +2,8 @@
 #
 # outputs mame info for a given rom as json.
 #
-# Usage: mamerom-info --init-dir <path/romfolder>
-#        mamerom-info -x,-g,-l <path/romfoler/rom.zip> [jq options]
+# Usage: mameinfo --init-dir <path/romfolder>
+#        mameinfo -x,-g,-l <path/romfoler/rom.zip> [jq options]
 #
 # requires standalone mame and oq.
 # oq is a wrapper for jq and shares the same options.
