@@ -2,8 +2,8 @@
 #
 # outputs mame info for a given rom as json.
 #
-# Usage: mamerom-info --init <path/to/romfolder>
-#        mamerom-info --exists|--get <path/to/romfoler/rom.zip> [jq options]
+# Usage: mamerom-info --init-dir <path/romfolder>
+#        mamerom-info -x,-g,-l <path/romfoler/rom.zip> [jq options]
 #
 # requires standalone mame and oq.
 # oq is a wrapper for jq and shares the same options.
@@ -11,7 +11,8 @@
 for req in mame oq; type $req &>/dev/null || mis+=($req)
 (( ${#mis} )) && { echo "${(j/, /)mis} required." >&2; return 1 }
 
-zparseopts -D -E - -init:=zinit_dir {-exists,-get,-get-all}:=zrom_file || return 1
+zparseopts -D -E - {d,-init-dir}:=zinit_dir \
+  {x,-exists,g,-get,l,-get-all}:=zrom_file || return 1
 
 if (( ${#zinit_dir} ))
 then
@@ -99,13 +100,13 @@ then
 fi
 
 case $flag in
-  --exists)
-    return $( test -s $info_file )
+  -x|--exists)
+    return $( test -f $info_file )
     ;;
-  --get)
+  -g|--get)
     oq --arg name $info_file:t:r '.machine[] | select(.name == $name )' $info_file | oq ${@:-.}
     ;;
-  --get-all)
+  -l|--get-all)
     oq ${@:-.} $info_file
     ;;
 esac

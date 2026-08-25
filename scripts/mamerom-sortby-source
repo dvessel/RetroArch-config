@@ -11,7 +11,7 @@ PATH=$( dirname `realpath $0` ):$PATH
 local scandir=~/Games/Emulation/Arcade
 local sortdir=$scandir/.sorted
 
-if ! mamerom-info --init $scandir
+if ! mamerom-info --init-dir $scandir
 then
   echo "Failed to initialize." >&2
   return 1
@@ -34,7 +34,7 @@ s.print() {
     -)  c1=33 ;;
   esac
   printf "\e[1;30m%s\e[0m\n  \e[0;${c1}m%s\e[0m%s\n" "$(
-    mamerom-info --get $scandir/$2:t -r .description
+    mamerom-info -r .description -g $scandir/$2:t
   )" "$1:" "${2#$scandir/}"
 }
 
@@ -52,7 +52,7 @@ do
   fi
 
 	read -d '' sourcefile isbios isdevice < <(
-    mamerom-info --get $rom -r .sourcefile,.isbios,.isdevice
+    mamerom-info -r .sourcefile,.isbios,.isdevice -g $rom
   )
   case yes in
     # skip bios and devices.
