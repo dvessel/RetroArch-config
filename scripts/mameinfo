@@ -2,8 +2,10 @@
 #
 # outputs mame info for a given rom as json.
 #
-# Usage: mameinfo --init-dir <path/romfolder>
-#        mameinfo -x,-g,-l <path/romfoler/rom.zip> [jq options]
+# Usage: mameinfo [-d|--init-dir] <./romdir>
+#        mameinfo [-x|--exists] <./romdir/rom.zip>
+#        mameinfo [jq options] [-g|--get,-l|--get-all] <./romdir/rom.zip>
+# see oq --help
 #
 # requires standalone mame and oq.
 # oq is a wrapper for jq and shares the same options.
@@ -13,6 +15,17 @@ for req in mame oq; type $req &>/dev/null || mis+=($req)
 
 zparseopts -D -E - {d,-init-dir}:=zinit_dir \
   {x,-exists,g,-get,l,-get-all}:=zrom_file || return 1
+
+if ! (( ${#zinit_dir} + ${#zrom_file} ))
+then
+	cat <<-EOF >&2
+	Usage: mameinfo [-d|--init-dir] <./romdir>
+	       mameinfo [-x|--exists] <./romdir/rom.zip>
+	       mameinfo [jq options] [-g|--get,-l|--get-all] <./romdir/rom.zip>
+	see oq --help
+	EOF
+  return 1
+fi
 
 if (( ${#zinit_dir} ))
 then
