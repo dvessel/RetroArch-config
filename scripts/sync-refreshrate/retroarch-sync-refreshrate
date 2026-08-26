@@ -7,7 +7,8 @@ PATH=$( dirname `realpath $0` )/bin:$PATH
 RACONFIG=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
 
 function dprint {
-  if (( ${#zdebug} )); then
+  if (( ${#zdebug} ))
+  then
     local flag cn zl l=-
     zparseopts -D -F - l=zl {ok,no,c0,c1,c2,c3,c4,c5,c6,c7}=flag || exit 1
     (( ${#zl} )) && l=' '
@@ -27,12 +28,14 @@ function cfg_dir {
 function set_hz {
   local serial=`rascreen --serial` retry=0 hz
 
-  while [[ -z $serial ]]; do
+  while [[ -z $serial ]]
+  do
     # rascreen called to early, so wait a second.
     dprint -no "rascreen not ready, waiting..."
     sleep 1
     serial=`rascreen --serial`
-    if (( retry++ && retry >= 5 )); then
+    if (( retry++ && retry >= 5 ))
+    then
       dprint -no "rascreen is not responding."
       exit 1
     fi
@@ -40,9 +43,11 @@ function set_hz {
 
   print "Requested: ${1}Hz"
 
-  if ! type screen-$serial &>/dev/null; then
+  if ! type screen-$serial &>/dev/null
+  then
     print "Screen not recognized (serial: $serial)." >&2
-  elif hz=`screen-$serial $1`; then
+  elif hz=`screen-$serial $1`
+  then
     # Don't block. To be cleaned up later when unloading the running core.
     rascreen --set-hz $hz &
     RASCREEN_PIDS+=$!
@@ -52,7 +57,8 @@ function set_hz {
 }
 
 function watch_exit {
-  while pgrep -x RetroArch &>/dev/null; do
+  while pgrep -x RetroArch &>/dev/null
+  do
     sleep 2
   done
   dprint -ok "Stop: watch_exit"
@@ -61,7 +67,8 @@ function watch_exit {
   # a *-last.log suffix so it creates a new one on next launch.
   # `tail -F` in the main loop will follow the new log file.
   local log_dir=`cfg_dir log_dir`
-  if [[ -f $log_dir/retroarch.log ]]; then
+  if [[ -f $log_dir/retroarch.log ]]
+  then
     mv -f $log_dir/retroarch.log $log_dir/retroarch-last.log
   fi
 }
@@ -80,9 +87,11 @@ typeset -A log_options=(
   log_to_file_timestamp false
   log_verbosity         true
 )
-for key value in ${(@kv)log_options}; do
+for key value in ${(@kv)log_options}
+do
   sed -i '' "s/^$key = .*/$key = \"$value\"/" $RACONFIG
-  if ! grep -q "^$key = \"$value\"" $RACONFIG; then
+  if ! grep -q "^$key = \"$value\"" $RACONFIG
+  then
     print -- "$key = \"$value\"" >> $RACONFIG
   fi
 done
@@ -99,8 +108,8 @@ done
 # - unloading core or quit        -> set closing context.
 #   - release refresh rates!
 
-tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
-
+tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line
+do
   # Content Loading:
   # - When run from the menu system, loads as "[INFO] [Core] Using content:"
   # - When run from the cli, loads as "[INFO] [Content] Loading content file:"
@@ -113,7 +122,8 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
     print "loading: ${content_path/#$HOME/~}"
 
   # Core Loading:
-  elif [[ $line =~ '\[Core\] Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]; then
+  elif [[ $line =~ '\[Core\] Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]
+  then
     core=$( sed -En 's/^corename = "(.+)"/\1/p' "`cfg_dir libretro_info_path`/${match[1]}.info" )
     dprint -ok "Core Loading: $core"
     loading=1
@@ -123,32 +133,37 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
   fi
 
   # Loading Context:
-  if (( loading )); then
-
+  if (( loading ))
+  then
     # Get Refresh Rate:
-    if [[ $line =~ "\[Core\] Geometry: ${(j:, :)av_search}" ]]; then
+    if [[ $line =~ "\[Core\] Geometry: ${(j:, :)av_search}" ]]
+    then
       dprint "AV Information"
       dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
       # Emulated machine's refresh rate.
       emuhz=${match[3]}
       srate=${match[4]}
 
-    elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]; then
+    elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
+    then
       arate=${match[1]}
-      if [[ -n $srate ]]; then
+      if [[ -n $srate ]]
+      then
         printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
           $arate $(( (arate - srate) / srate * 100 ))
       fi
 
     # Warning! `video_refresh_rate` is not properly set.
-    elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]; then
+    elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
+    then
       printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
         ${match[2]} ${match[1]}
 
     # Start Synchronous Audio -> Set Refresh Rate & Running Context:
     # When the audio system is ready, the game is ready. Long delays for heavier
     # cores is common.
-    elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]; then
+    elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]
+    then
       dprint -ok "Start Synchronous Audio - Emulation Started"
       if [[ -z $emuhz ]]
       then
@@ -162,22 +177,26 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
     fi
 
   # Running Context:
-  elif (( running )); then
-
+  elif (( running ))
+  then
     # Get Refresh Rate:
     # Mid-run refresh rate changes. Mainly applies to MAME emulation.
-    if [[ $line =~ "\[Environ\] SET_SYSTEM_AV_INFO: ${(j:, :)av_search}" ]]; then
-      if [[ -n $emuhz && $emuhz != ${match[3]} ]]; then
+    if [[ $line =~ "\[Environ\] SET_SYSTEM_AV_INFO: ${(j:, :)av_search}" ]]
+    then
+      if [[ -n $emuhz && $emuhz != ${match[3]} ]]
+      then
         dprint -c3 "AV Information - Update"
         dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
         emuhz=${match[3]}
         srate=${match[4]}
       fi
 
-    elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]; then
+    elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
+    then
       # MAME can get noisy with some emulated machines, e.g., sega/stv.cpp->cotton2.
       # Surpress repeated attempts that doesn't change anything at all.
-      if [[ -n $srate && $arate != ${match[1]} ]]; then
+      if [[ -n $srate && $arate != ${match[1]} ]]
+      then
         arate=${match[1]}
         printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
           $arate $(( (arate - srate) / srate * 100 ))
@@ -189,16 +208,20 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
     # Warning! `video_refresh_rate` is not properly set or the core has not settled
     # to the correct refresh rate. This can happen with some systems in MAME, e.g.,
     # sega/stv.cpp->cotton2 switches refresh rates multiple times while booting.
-    elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]; then
-      if [[ $requestedhz != ${match[2]} ]]; then
+    elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
+    then
+      if [[ $requestedhz != ${match[2]} ]]
+      then
         requestedhz=${match[2]}
         printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
           ${match[2]} ${match[1]}
       fi
 
     # Set Refresh Rate:
-    elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]; then
-      if (( switch )); then
+    elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]
+    then
+      if (( switch ))
+      then
         dprint -ok "Switch Refresh Rate"
         if [[ -z $emuhz ]]
         then
@@ -209,8 +232,10 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
       fi
 
     # Unload Core or Close -> Release Refresh Rates:
-    elif [[ $line =~ "(\[Core\] Unloading core...|\[NS\] stopping draw observer)" ]]; then
-      if [[ -n $core ]]; then
+    elif [[ $line =~ "(\[Core\] Unloading core...|\[NS\] stopping draw observer)" ]]
+    then
+      if [[ -n $core ]]
+      then
         dprint -ok "Unloading Core: $core"
       fi
       loading=0
@@ -220,10 +245,13 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
   fi
 
   # Closing Context:
-  if (( closing )); then
-    for pid in $RASCREEN_PIDS; do
+  if (( closing ))
+  then
+    for pid in $RASCREEN_PIDS
+    do
       # kill rascreen from this load cycle.
-      if [[ `ps -p $pid -o comm= 2>/dev/null` == rascreen ]]; then
+      if [[ `ps -p $pid -o comm= 2>/dev/null` == rascreen ]]
+      then
         dprint "kill $pid: rascreen"
         kill $pid
         print "refresh rate released."
@@ -232,7 +260,8 @@ tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line; do
   fi
 
   # A singleton to detect when RetroArch has exited.
-  if ! kill -0 $watch_exit_id 2>/dev/null; then
+  if ! kill -0 $watch_exit_id 2>/dev/null
+  then
     dprint -ok "Start: watch_exit"
     watch_exit &
     watch_exit_id=$!
