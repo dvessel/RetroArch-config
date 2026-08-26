@@ -72,4 +72,4 @@ do
   ln -f $source $target
   s.print +linked $target
 
-  continue
+done
