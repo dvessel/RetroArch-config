@@ -165,12 +165,7 @@ do
     elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]
     then
       dprint -ok "Start Synchronous Audio - Emulation Started"
-      if [[ -z $emuhz ]]
-      then
-        print "Could not determine emulated refresh rate due to unexpected log output." >&2
-        continue
-      fi
-      set_hz $emuhz; unset emuhz
+      set_hz $emuhz
       loading=0
       running=1
       closing=0
@@ -223,12 +218,7 @@ do
       if (( switch ))
       then
         dprint -ok "Switch Refresh Rate"
-        if [[ -z $emuhz ]]
-        then
-          print "Could not determine emulated refresh rate due to unexpected log output." >&2
-          continue
-        fi
-        set_hz $emuhz; unset emuhz
+        set_hz $emuhz
       fi
 
     # Unload Core or Close -> Release Refresh Rates:
