@@ -99592,13 +99592,6 @@
 		<sound channels="0"/>
 		<feature type="sound" status="imperfect"/>
 	</machine>
-	<machine name="qsound" sourcefile="devices/sound/qsound.cpp" isdevice="yes" runnable="no">
-		<description>QSound</description>
-		<rom name="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501" region="dsp" offset="0"/>
-		<device_ref tag=":_tmp:dsp" name="dsp16a"/>
-		<chip type="cpu" tag=":dsp" name="WE|AT&amp;T DSP16A" clock="0"/>
-		<sound channels="0"/>
-	</machine>
 	<machine name="qsound_hle" sourcefile="devices/sound/qsoundhle.cpp" isdevice="yes" runnable="no" romof="qsound">
 		<description>QSound (HLE)</description>
 		<rom name="dl-1425.bin" merge="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501" region="dsp" offset="0"/>
