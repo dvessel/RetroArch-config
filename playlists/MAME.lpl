@@ -740,14 +740,6 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-naomi/vonot.zip",
-      "label": "Cyber Troopers Virtual-On: Oratorio Tangram M.S.B.S. ver 5.66 2000 Edition",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-snk-neogeo/cyberlip.zip",
       "label": "Cyber-Lip (NGM-010)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -4990,14 +4982,6 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/zerogun.zip",
       "label": "Zero Gunner (Export, Model 2B)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-naomi/zerogu2.zip",
-      "label": "Zero Gunner 2",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
