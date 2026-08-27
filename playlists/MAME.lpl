@@ -734,8 +734,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/von2.zip",
       "label": "Cyber Troopers Virtual-On: Oratorio Tangram (Revision B)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
@@ -854,8 +854,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/daytona2.zip",
       "label": "Daytona USA 2: Battle on the Edge (Revision A)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/dayto2pe.zip",
+      "label": "Daytona USA 2: Power Edition",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
@@ -1246,8 +1254,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/eca.zip",
       "label": "Emergency Call Ambulance (Export)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
@@ -2070,8 +2078,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/lemans24.zip",
       "label": "Le Mans 24 (Revision B)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
@@ -3596,16 +3604,16 @@
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-segas16a/sdi.zip",
-      "label": "SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/scud.zip",
+      "label": "Scud Race / Sega Super GT - Twin/DX",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/srally2.zip",
-      "label": "Sega Rally 2: Sega Rally Championship",
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-segas16a/sdi.zip",
+      "label": "SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3852,6 +3860,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/srally2.zip",
+      "label": "Sega Rally 2: Sega Rally Championship",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-cinematronics-cinemat/starcas.zip",
       "label": "Star Castle (version 3)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3878,8 +3894,8 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/swtrilgy.zip",
       "label": "Star Wars Trilogy Arcade (Revision A)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
@@ -4726,8 +4742,16 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/vf3.zip",
       "label": "Virtua Fighter 3 (Revision D)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
-      "core_name": "Arcade (MAME)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/vf3tb.zip",
+      "label": "Virtua Fighter 3 Team Battle",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },
