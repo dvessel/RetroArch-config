@@ -17,7 +17,7 @@ do
         then
                 input=sans-outlines/$svg:t
         fi
-        swiftdraw $input --format png --size 500x500 --output $output
+        swiftdraw $input --format png --size 512x512 --output $output
 done
 ```
 
