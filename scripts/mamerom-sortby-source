@@ -59,17 +59,9 @@ do
     $isbios|$isdevice) continue ;;
   esac
 
-  name=$rom:t:r
-  extension=$rom:e
-  sourcefolder=$rom:h
-  targetfolder=$sortdir/-${${sourcefile:r}/\//-}
-
-
-  source=$rom
-  target=$targetfolder/$rom:t
-
+  target=$sortdir/-${${sourcefile:r}/\//-}/$rom:t
   mkdir -p $target:h
-  ln -f $source $target
+  ln -f $rom $target
   s.print +linked $target
 
 done
