@@ -11,7 +11,7 @@ PATH=$( dirname `realpath $0` ):$PATH
 local scandir=~/Games/Emulation/Arcade
 local sortdir=$scandir/.sorted
 
-if ! mameinfo --init-dir $scandir
+if ! mameinfo --init-path $scandir
 then
   echo "Failed to initialize." >&2
   return 1

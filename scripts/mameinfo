@@ -2,79 +2,88 @@
 #
 # outputs mame info for a given rom as json.
 #
-# Usage: mameinfo [-d|--init-dir] <./romdir>
-#        mameinfo [-x|--exists] <./romdir/rom.zip>
-#        mameinfo [jq options] [-g|--get,-l|--get-all] <./romdir/rom.zip>
+# Usage: mameinfo [-d|--init-path] <rompath>
+#        mameinfo [-x|--exists] <rompath/rom.zip>
+#        mameinfo [jq options] [-g|--get,-l|--get-all] <rompath/rom.zip>
+#        mameinfo [--info-file] <rompath/rom.zip>
 # see oq --help
 #
 # requires standalone mame and oq.
 # oq is a wrapper for jq and shares the same options.
 #
-for req in mame oq; type $req &>/dev/null || mis+=($req)
-(( ${#mis} )) && { echo "${(j/, /)mis} required." >&2; return 1 }
+for r in mame oq; type $r &>/dev/null || missing+=($r)
+if (( ${#missing} ))
+then
+  echo "${(j/, /)missing} required." >&2
+  return 1
+fi
 
-zparseopts -D -E - {d,-init-dir}:=zinit_dir \
-  {x,-exists,g,-get,l,-get-all}:=zrom_file || return 1
+zparseopts -D -E - {d,-init-path}:=zinit_path \
+  {x,-exists,g,-get,l,-get-all,-info-path}:=zrom_file || return 1
 
-if ! (( ${#zinit_dir} + ${#zrom_file} ))
+if ! (( ${#zinit_path} + ${#zrom_file} ))
 then
 	cat <<-EOF >&2
-	Usage: mameinfo [-d|--init-dir] <./romdir>
-	       mameinfo [-x|--exists] <./romdir/rom.zip>
-	       mameinfo [jq options] [-g|--get,-l|--get-all] <./romdir/rom.zip>
+	Usage: mameinfo [-d|--init-path] <rompath>
+	       mameinfo [-x|--exists] <rompath/rom.zip>
+	       mameinfo [jq options] [-g|--get,-l|--get-all] <rompath/rom.zip>
+	       mameinfo [--info-file] <rompath/rom.zip>
 	see oq --help
 	EOF
   return 1
 fi
 
-if (( ${#zinit_dir} ))
+if (( ${#zinit_path} ))
 then
-  init_dir=${zinit_dir[-1]}
-  if [[ ! -d $init_dir ]]
+  init_path=${zinit_path[-1]}
+  if [[ ! -d $init_path ]]
   then
-    print "init path does not exist." >&2
+    echo "init path does not exist." >&2
     return 1
   fi
   # Remove decimals and truncate. MAME version 0.250.0.1 results in 0250.
-  version=`mame -version | awk -F'[ .]' '{print $1$2}'`
-
-  mkdir -p $init_dir/.rominfo/$version
-  ln -sF $version $init_dir/.rominfo/info
+  version=$( mame -version | awk -F'[ .]' '{print $1$2}' )
+  if [[ -z $version ]]
+  then
+    version=unknown
+  fi
+  mkdir -p $init_path/.rominfo/$version
+  ln -sF $version $init_path/.rominfo/info
   return
 fi
 
 # absolute path required to prevent an endless loop.
 rom_file=${zrom_file[-1]:a}
-init_dir=${rom_file:h}
+init_path=${rom_file:h}
 
-if [[ ! -d $init_dir ]]
+if [[ ! -d $init_path ]]
 then
-  print "missing directory: $init_dir" >&2
+  echo "missing directory: $init_path" >&2
   return 1
 fi
 
 # locate parent directory containing .rominfo.
-while [[ ! -s $init_dir/.rominfo/info ]]
+while [[ ! -s $init_path/.rominfo/info ]]
 do
-  init_dir=$init_dir:h
-  if [[ $init_dir == / ]]
+  init_path=$init_path:h
+  if [[ $init_path == / ]]
   then
-    print "rom path must be initialized." >&2
+    echo "rom path must be initialized." >&2
     return 1
   fi
 done
 
 flag=${zrom_file[1]}
 name=${rom_file:t:r}
-info_file=$init_dir/.rominfo/info/$name.json
+info_file=$init_path/.rominfo/info/$name.json
 
 if [[ ! -s $info_file ]]
 then
-  append_dir=~/Library/Application\ Support/RetroArch/database/${init_dir:t}-append
-  if ! mamexml=`mame -listxml $name 2>/dev/null` &&
-  [[ -f $append_dir/$name.xml ]]
+  append_path=~/Library/Application\ Support/RetroArch/database/${init_path:t}-append
+  if ! mamexml=$( mame -listxml $name 2>/dev/null ) &&
+  [[ -f $append_path/$name.xml ]]
   then
-    mamexml=`< $append_dir/$name.xml`
+    mamexml=$( < $append_path/$name.xml )
   fi
 
   if [[ -n $mamexml ]]
@@ -112,14 +121,24 @@ then
   fi
 fi
 
+# if you don't want this message, use --exists.
+if [[ $flag != (-x|--exists) && ! -f $info_file ]]
+then
+  echo "info missing for $rom_file:t" >&2
+  return 1
+fi
+
 case $flag in
   -x|--exists)
     return $( test -f $info_file )
     ;;
   -g|--get)
-    oq --arg name $info_file:t:r '.machine[] | select(.name == $name )' $info_file | oq ${@:-.}
+    oq --arg name $info_file:t:r '.machine[]|select(.name == $name)' $info_file | oq ${@:-.}
     ;;
   -l|--get-all)
     oq ${@:-.} $info_file
+    ;;
+  --info-path)
+    echo $( realpath $info_file )
     ;;
 esac
