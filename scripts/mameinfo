@@ -8,8 +8,9 @@
 #        mameinfo [--info-file] <rompath/rom.zip>
 # see oq --help
 #
-# requires standalone mame and oq.
-# oq is a wrapper for jq and shares the same options.
+# requires standalone mame and oq. oq is a wrapper for jq with the ability to
+# convert from xml. if jq is available, it will be used but oq is necessary for
+# the conversion from xml to json. jq is faster when querying for results.
 #
 for r in mame oq; type $r &>/dev/null || missing+=($r)
 if (( ${#missing} ))
@@ -128,15 +129,22 @@ then
   return 1
 fi
 
+if type jq &>/dev/null
+then
+  jq=jq
+else
+  jq=oq
+fi
+
 case $flag in
   -x|--exists)
     return $( test -f $info_file )
     ;;
   -g|--get)
-    oq --arg name $info_file:t:r '.machine[]|select(.name == $name)' $info_file | oq ${@:-.}
+    $jq --arg name $info_file:t:r '.machine[]|select(.name == $name)' $info_file | $jq ${@:-.}
     ;;
   -l|--get-all)
-    oq ${@:-.} $info_file
+    $jq ${@:-.} $info_file
     ;;
   --info-path)
     echo $( realpath $info_file )
