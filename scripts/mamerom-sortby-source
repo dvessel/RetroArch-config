@@ -1,21 +1,18 @@
 #!/usr/bin/env zsh
 #
-# Hardlinks MAME roms to the .sorted directory based on the 'sourcefile'
-# key within `mame -listxml`. This enables directory based cfg overrides,
-# core options and controller remapping. A group of MAME "machines" or
-# games for a given source are more likely to share specific settings.
+# Hardlinks MAME roms to the .sorted directory based on `mame -sourcelist`
+# This enables directory based cfg overrides, core options and controller
+# remapping. A set of games for a given source are likely to share settings.
 #
 
-PATH=$( dirname `realpath $0` ):$PATH
+if ! type mame &>/dev/null
+then
+  echo "mame required" >&2
+  return 1
+fi
 
 local scandir=~/Games/Emulation/Arcade
 local sortdir=$scandir/.sorted
-
-if ! mameinfo --init-path $scandir
-then
-  echo "Failed to initialize." >&2
-  return 1
-fi
 
 if [[ ! -d $sortdir ]]
 then
@@ -24,44 +21,39 @@ then
   tmutil addexclusion $sortdir
 fi
 
-# managing dependencies is too complicated, so wipe it on each run.
 rm -rf $sortdir/*(N)
 
-s.print() {
-  local c1=00
-  case ${1[1]} in
-    +)  c1=32 ;;
-    -)  c1=33 ;;
-  esac
-  printf "\e[1;30m%s\e[0m\n  \e[0;${c1}m%s\e[0m%s\n" "$(
-    mameinfo -r .description -g $scandir/$2:t
-  )" "$1:" "${2#$scandir/}"
-}
+typeset -A missing=(
+  akatana cave/cv1k.cpp
+  ddpsdoj cave/cv1k.cpp
+)
+typeset -aU names=(
+  $scandir/*.(7z|zip)(N:t:r)
+)
 
-for rom in $scandir/*.(7z|zip)(N)
-do
-  if ! mameinfo --exists $rom
-  then
-    print "unrecognized '$rom'" >&2
-    continue
-  fi
+if (( ${#names} ))
+then
+  sources=( ${(f)"$( mame -listsource $names 2>/dev/null )"} )
+  for key in ${(k)missing}; [[ -n ${names[(r)$key]} ]] && {
+    sources+="$key $missing[$key]"
+  }
+  for listsource in $sources
+  do
+    set -- ${(s: :)listsource}
 
-  if type tag &>/dev/null && tag -Nlg $rom | grep -q "^Ignore$"
-  then
-    continue
-  fi
+    name=$1
+    scpp=-${${2:r}/\//-}
+    source=$scandir/$name.zip
+    target=$sortdir/$scpp/$name.zip
 
-	read -d '' sourcefile isbios isdevice < <(
-    mameinfo -r .sourcefile,.isbios,.isdevice -g $rom
-  )
-  case yes in
-    # skip bios and devices.
-    $isbios|$isdevice) continue ;;
-  esac
+    # optional tags to ignore.
+    if type tag &>/dev/null && tag -Nlg $source | grep -Eq "^(Ignore|Device|BIOS)$"
+    then
+      continue
+    fi
 
-  target=$sortdir/-${${sourcefile:r}/\//-}/$rom:t
-  mkdir -p $target:h
-  ln -f $rom $target
-  s.print +linked $target
-
-done
+    test -d $target:h || mkdir -p $target:h
+    ln $source $target
+    printf "\e[0;34m%s\e[0;37m/\e[0m%s\n" $scpp $name.zip
+  done
+fi
