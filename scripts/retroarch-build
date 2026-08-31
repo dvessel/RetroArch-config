@@ -68,6 +68,8 @@ then
     print "stash apply ::self-sign:: failed" >&2
     return 1
   fi
+  # reset self-signing stash on exit.
+  trap 'git restore pkg/apple/RetroArch_Metal.xcodeproj/project.pbxproj' INT TERM EXIT
 else
   print "Nothing to update."
   return 0
@@ -88,11 +90,7 @@ do
     return 1
   fi
 done
-
-print "Builds completed for the following: ${(j:, :)builds}."
-print "Restoring repo states:"
-# reset self-signing stash.
-git restore pkg/apple/RetroArch_Metal.xcodeproj/project.pbxproj
+print "Build completed for ${(j:, :)builds}."
 
 # restore previously stashed.
 for repo in $stashed; [[ $PWD != $base_dir/$repo ]] && {
