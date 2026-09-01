@@ -159,12 +159,12 @@ do
       printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
         ${match[2]} ${match[1]}
 
-    # Start Synchronous Audio -> Set Refresh Rate & Running Context:
+    # Start Audio -> Set Refresh Rate & Running Context:
     # When the audio system is ready, the game is ready. Long delays for heavier
-    # cores is common.
-    elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]
+    # cores is common. Line reads synchronous or threaded. coreaudio3 restricted to synchronous.
+    elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
     then
-      dprint -ok "Start Synchronous Audio - Emulation Started"
+      dprint -ok "${match[1]} - Emulation Started"
       set_hz $emuhz
       loading=0
       running=1
