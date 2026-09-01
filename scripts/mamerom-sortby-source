@@ -12,23 +12,22 @@ then
 fi
 
 local scandir=~/Games/Emulation/Arcade
-local sortdir=$scandir/.sorted
 
-if [[ ! -d $sortdir ]]
+if [[ ! -d $scandir/.sorted ]]
 then
-  mkdir $sortdir
+  mkdir $scandir/.sorted
   # exclude from time machine backups.
-  tmutil addexclusion $sortdir
+  tmutil addexclusion $scandir/.sorted
 fi
 
-rm -rf $sortdir/*(N)
+rm -rf $scandir/.sorted/*(N)
 
+typeset -aU names=(
+  $scandir/*.zip(N:t:r)
+)
 typeset -A missing=(
   akatana cave/cv1k.cpp
   ddpsdoj cave/cv1k.cpp
-)
-typeset -aU names=(
-  $scandir/*.(7z|zip)(N:t:r)
 )
 
 if (( ${#names} ))
@@ -37,23 +36,26 @@ then
   for key in ${(k)missing}; [[ -n ${names[(r)$key]} ]] && {
     sources+="$key $missing[$key]"
   }
-  for listsource in $sources
+  # normalize spacing and sort by the second field.
+  for listsource in ${(f)"$( printf '%s\n' ${sources[@]} | awk '{$1=$1};1' | sort -k2 )"}
   do
     set -- ${(s: :)listsource}
 
     name=$1
     scpp=-${${2:r}/\//-}
-    source=$scandir/$name.zip
-    target=$sortdir/$scpp/$name.zip
+    sdir=$scandir/.sorted/$scpp
 
     # optional tags to ignore.
-    if type tag &>/dev/null && tag -Nlg $source | grep -Eq "^(Ignore|Device|BIOS)$"
+    if  type tag &>/dev/null &&
+        tag -Nlg $scandir/$name.zip | grep -Eq "^(Ignore|Device|BIOS)$"
     then
       continue
     fi
 
-    test -d $target:h || mkdir -p $target:h
-    ln $source $target
+    test -d $sdir || mkdir -p $sdir
+    ln $scandir/$name.zip $sdir/$name.zip
+
+    # highlight the containing folder.
     printf "\e[0;34m%s\e[0;37m/\e[0m%s\n" $scpp $name.zip
   done
 fi
