@@ -28,6 +28,13 @@ typeset -aU names=(
 
 if (( ${#names} ))
 then
+  if type tag &>/dev/null
+  then
+    # tagged files that shouldn't be linked.
+    for tag in BIOS Device Ignore; ignore+=(
+      ${${(f)"$( tag -m $tag $scandir/*.zip )"}:t:r}
+    )
+  fi
   sources=(
     ${(f)"$( mame -listsource $names 2>/dev/null )"}
     "akatana  cave/cv1k.cpp"
@@ -42,12 +49,8 @@ then
     scpp=-${${2:r}/\//-}
     sdir=$scandir/.sorted/$scpp
 
-    # optional tags to ignore.
-    if  type tag &>/dev/null &&
-        tag -Nlg $scandir/$name.zip | grep -Eq "^(Ignore|Device|BIOS)$"
-    then
-      continue
-    fi
+    # tagged roms to ignore.
+    test -z ${ignore[(r)$name]} || continue
 
     test -d $sdir || mkdir -p $sdir
     ln $scandir/$name.zip $sdir/$name.zip
