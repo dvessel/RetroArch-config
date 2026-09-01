@@ -25,17 +25,14 @@ rm -rf $scandir/.sorted/*(N)
 typeset -aU names=(
   $scandir/*.zip(N:t:r)
 )
-typeset -A missing=(
-  akatana cave/cv1k.cpp
-  ddpsdoj cave/cv1k.cpp
-)
 
 if (( ${#names} ))
 then
-  sources=( ${(f)"$( mame -listsource $names 2>/dev/null )"} )
-  for key in ${(k)missing}; [[ -n ${names[(r)$key]} ]] && {
-    sources+="$key $missing[$key]"
-  }
+  sources=(
+    ${(f)"$( mame -listsource $names 2>/dev/null )"}
+    "akatana  cave/cv1k.cpp"
+    "ddpsdoj  cave/cv1k.cpp"
+  )
   # normalize spacing and sort by the second field.
   for listsource in ${(f)"$( printf '%s\n' ${sources[@]} | awk '{$1=$1};1' | sort -k2 )"}
   do
