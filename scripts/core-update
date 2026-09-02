@@ -25,25 +25,27 @@ then
 fi
 
 dylib=$1:t
+name=${${dylib:t}%_libretro.dylib}
 
 if [[ `cat $index_cache` =~ "([0-9a-z]+) $dylib.zip" ]]
 then
   if [[ `crc32 $1` == ${match[1]} ]]
   then
-    echo "core is up to date."
+    echo "$name is up to date."
     exit 0
   fi
 else
-  echo "failed to determine remote revision." >&2
+  echo "failed to determine remote revision for $name." >&2
   exit 1
 fi
 
 tmpdir=`mktemp -d`
 trap 'rm -rf $tmpdir' INT TERM EXIT
 
+echo "downloading $name core..."
 if ! curl -#Lo $tmpdir/$dylib.zip https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/$dylib.zip
 then
-  echo "failed to download core." >&2
+  echo "download failed." >&2
   exit 1
 fi
 
