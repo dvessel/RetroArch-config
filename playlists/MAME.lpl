@@ -396,6 +396,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-gaelco-gaelco/bigkarnk.zip",
+      "label": "Big Karnak (ver. 1.0, checksum 1e38c94)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-bionicc/bionicc2.zip",
       "label": "Bionic Commando (US set 2)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3612,6 +3620,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/srally2.zip",
+      "label": "Sega Rally 2: Sega Rally Championship",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/srallyc.zip",
       "label": "Sega Rally Championship - Twin/DX (Revision C)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -3848,14 +3864,6 @@
       "label": "Spy Hunter",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
-      "crc32": "00000000|crc",
-      "db_name": "MAME.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/srally2.zip",
-      "label": "Sega Rally 2: Sega Rally Championship",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
-      "core_name": "Sega - Model 3 (Supermodel)",
       "crc32": "00000000|crc",
       "db_name": "MAME.lpl"
     },

@@ -8268,6 +8268,127 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
+	<machine name="bigkarnk" sourcefile="gaelco/gaelco.cpp">
+		<description>Big Karnak (ver. 1.0, checksum 1e38c94)</description>
+		<year>1991</year>
+		<manufacturer>Gaelco</manufacturer>
+		<rom name="d16" size="262144" crc="44fb9c73" sha1="c33852b37afea15482f4a43cb045434660e7a056" region="maincpu" offset="0"/>
+		<rom name="d19" size="262144" crc="ff79dfdd" sha1="2bfa440299317967ba2018d3a148291ae0c144ae" region="maincpu" offset="1"/>
+		<rom name="d5" size="65536" crc="3b73b9c5" sha1="1b1c5545609a695dab87d611bd53e0c3dd91e6b7" region="audiocpu" offset="0"/>
+		<rom name="h5" size="524288" crc="20e239ff" sha1="685059340f0f3a8e3c98702bd760dae685a58ddb" region="gfx" offset="0"/>
+		<rom name="h10" size="524288" crc="ab442855" sha1="bcd69d4908ff8dc1b2215d2c2d2e54b950e0c015" region="gfx" offset="80000"/>
+		<rom name="h8" size="524288" crc="83dce5a3" sha1="b4f9473e93c96f4b86c446e89d13fd3ef2b03996" region="gfx" offset="100000"/>
+		<rom name="h6" size="524288" crc="24e84b24" sha1="c0ad6ce1e4b8aa7b9c9a3db8bb0165e90f4b48ed" region="gfx" offset="180000"/>
+		<rom name="d1" size="262144" crc="26444ad1" sha1="804101b9bbb6e1b6d43a1e9d91737f9c3b27802a" region="oki" offset="0"/>
+		<rom name="bigkarnak_gal16v8.d6" size="279" crc="587fe895" sha1="bc244a50820ceff9bfbdc7f04bcac030198371ec" status="baddump" region="plds" offset="0"/>
+		<rom name="bigkarnak_gal20v8.d21" size="343" crc="0dcb286e" sha1="4071af05ba0fd17446691e53bdbba736e416bf4a" status="baddump" region="plds" offset="117"/>
+		<device_ref tag=":maincpu" name="m68000"/>
+		<device_ref tag=":audiocpu" name="mc6809e"/>
+		<device_ref tag=":outlatch" name="ls259"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":mono" name="speaker"/>
+		<device_ref tag=":soundlatch" name="generic_latch_8"/>
+		<device_ref tag=":ymsnd" name="ym3812"/>
+		<device_ref tag=":oki" name="okim6295"/>
+		<chip type="cpu" tag="maincpu" name="Motorola MC68000" clock="12000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC6809E" clock="2000000"/>
+		<chip type="audio" tag="mono" name="Speaker"/>
+		<chip type="audio" tag="ymsnd" name="YM3812 OPL2" clock="4000000"/>
+		<chip type="audio" tag="oki" name="OKI MSM6295 ADPCM" clock="1000000"/>
+		<display tag="screen" type="raster" rotate="0" width="320" height="240" refresh="58.740000" />
+		<sound channels="1"/>
+		<input players="2" coins="2">
+			<control type="joy" player="1" buttons="2" ways="8"/>
+			<control type="joy" player="2" buttons="2" ways="8"/>
+		</input>
+		<dipswitch name="Coin A" tag="DSW1" mask="15">
+			<diplocation name="SW1" number="8"/>
+			<diplocation name="SW1" number="7"/>
+			<diplocation name="SW1" number="6"/>
+			<diplocation name="SW1" number="5"/>
+			<dipvalue name="4 Coins/1 Credit" value="7"/>
+			<dipvalue name="3 Coins/1 Credit" value="8"/>
+			<dipvalue name="2 Coins/1 Credit" value="9"/>
+			<dipvalue name="1 Coin/1 Credit" value="15" default="yes"/>
+			<dipvalue name="2 Coins/3 Credits" value="6"/>
+			<dipvalue name="1 Coin/2 Credits" value="14"/>
+			<dipvalue name="1 Coin/3 Credits" value="13"/>
+			<dipvalue name="1 Coin/4 Credits" value="12"/>
+			<dipvalue name="1 Coin/5 Credits" value="11"/>
+			<dipvalue name="1 Coin/6 Credits" value="10"/>
+			<dipvalue name="Free Play (if Coin B too)" value="0"/>
+		</dipswitch>
+		<dipswitch name="Coin B" tag="DSW1" mask="240">
+			<diplocation name="SW1" number="4"/>
+			<diplocation name="SW1" number="3"/>
+			<diplocation name="SW1" number="2"/>
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="4 Coins/1 Credit" value="112"/>
+			<dipvalue name="3 Coins/1 Credit" value="128"/>
+			<dipvalue name="2 Coins/1 Credit" value="144"/>
+			<dipvalue name="1 Coin/1 Credit" value="240" default="yes"/>
+			<dipvalue name="2 Coins/3 Credits" value="96"/>
+			<dipvalue name="1 Coin/2 Credits" value="224"/>
+			<dipvalue name="1 Coin/3 Credits" value="208"/>
+			<dipvalue name="1 Coin/4 Credits" value="192"/>
+			<dipvalue name="1 Coin/5 Credits" value="176"/>
+			<dipvalue name="1 Coin/6 Credits" value="160"/>
+			<dipvalue name="Free Play (if Coin A too)" value="0"/>
+		</dipswitch>
+		<dipswitch name="Difficulty" tag="DSW2" mask="7">
+			<diplocation name="SW2" number="8"/>
+			<diplocation name="SW2" number="7"/>
+			<diplocation name="SW2" number="6"/>
+			<dipvalue name="0" value="7"/>
+			<dipvalue name="1" value="6" default="yes"/>
+			<dipvalue name="2" value="5"/>
+			<dipvalue name="3" value="4"/>
+			<dipvalue name="4" value="3"/>
+			<dipvalue name="5" value="2"/>
+			<dipvalue name="6" value="1"/>
+			<dipvalue name="7" value="0"/>
+		</dipswitch>
+		<dipswitch name="Lives" tag="DSW2" mask="24">
+			<diplocation name="SW2" number="5"/>
+			<diplocation name="SW2" number="4"/>
+			<dipvalue name="1" value="24"/>
+			<dipvalue name="2" value="16"/>
+			<dipvalue name="3" value="8" default="yes"/>
+			<dipvalue name="4" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo Sounds" tag="DSW2" mask="32">
+			<diplocation name="SW2" number="3"/>
+			<dipvalue name="Off" value="32"/>
+			<dipvalue name="On" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Impact" tag="DSW2" mask="64">
+			<diplocation name="SW2" number="2"/>
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Service Mode" tag="DSW2" mask="128">
+			<diplocation name="SW2" number="1"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Go to test mode now" tag="SERVICE" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":DSW1">
+		</port>
+		<port tag=":DSW2">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":SERVICE">
+		</port>
+		<driver status="good" emulation="good" savestate="supported"/>
+	</machine>
 	<machine name="bionicc" sourcefile="capcom/bionicc.cpp">
 		<description>Bionic Commando (Euro)</description>
 		<year>1987</year>
