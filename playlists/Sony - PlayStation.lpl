@@ -924,6 +924,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Linda^3 Again (English Translation v0.95.9).chd",
+      "label": "Linda^3 Again (English Translation v0.95.9)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SCPS-10039|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Lode Runner (USA).chd",
       "label": "Lode Runner (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -1185,14 +1193,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94403|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Policenauts (Japan)/Policenauts (Japan).m3u",
-      "label": "Policenauts (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-00215-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
