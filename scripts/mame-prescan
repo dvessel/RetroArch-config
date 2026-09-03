@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+PATH=$( dirname `realpath $0` ):$PATH
+
+mamexml-generate ~/Games/Emulation/Arcade
+mamesort-rom
