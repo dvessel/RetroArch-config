@@ -4,8 +4,6 @@ zparseopts -D -F - -debug=zdebug || exit 1
 
 PATH=$( dirname `realpath $0` )/bin:$PATH
 
-RACONFIG=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
-
 function dprint {
   if (( ${#zdebug} ))
   then
@@ -19,10 +17,6 @@ function dprint {
         *) printf "$l \e[0;3${cn}m%s\e[0m\n" $@ ;;
     esac
   fi
-}
-
-function cfg_dir {
-  printf %s "${$( sed -En "s/^$1 = \"(.+)\"/\1/p" $RACONFIG )/#\~\//$HOME/}"
 }
 
 function set_hz {
@@ -66,7 +60,7 @@ function watch_exit {
   # It misses a few lines and places the script in an unknown state. Move it with
   # a *-last.log suffix so it creates a new one on next launch.
   # `tail -F` in the main loop will follow the new log file.
-  local log_dir=`cfg_dir log_dir`
+  local log_dir=$( raconfig --get log_dir )
   if [[ -f $log_dir/retroarch.log ]]
   then
     mv -f $log_dir/retroarch.log $log_dir/retroarch-last.log
@@ -81,20 +75,10 @@ typeset -a av_search=(
 )
 
 # Required logging options for the script to function.
-typeset -A log_options=(
-  frontend_log_level    1
-  log_to_file           true
-  log_to_file_timestamp false
-  log_verbosity         true
-)
-for key value in ${(@kv)log_options}
-do
-  sed -i '' "s/^$key = .*/$key = \"$value\"/" $RACONFIG
-  if ! grep -q "^$key = \"$value\"" $RACONFIG
-  then
-    print -- "$key = \"$value\"" >> $RACONFIG
-  fi
-done
+raconfig --set frontend_log_level=1
+raconfig --set log_to_file=true
+raconfig --set log_to_file_timestamp=false
+raconfig --set log_verbosity=true
 
 # Log parsing loop:
 # - content loading
@@ -108,7 +92,7 @@ done
 # - unloading core or quit        -> set closing context.
 #   - release refresh rates!
 
-tail -Fn-1 "`cfg_dir log_dir`/retroarch.log" | while read line
+tail -Fn-1 "$( raconfig --get log_dir )/retroarch.log" | while read line
 do
   # Content Loading:
   # - When run from the menu system, loads as "[INFO] [Core] Using content:"
@@ -124,7 +108,7 @@ do
   # Core Loading:
   elif [[ $line =~ '\[Core\] Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]
   then
-    core=$( sed -En 's/^corename = "(.+)"/\1/p' "`cfg_dir libretro_info_path`/${match[1]}.info" )
+    core=$( sed -En 's/^corename = "(.+)"/\1/p' "$( raconfig --get libretro_info_path )/${match[1]}.info" )
     dprint -ok "Core Loading: $core"
     loading=1
     running=0

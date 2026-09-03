@@ -2,16 +2,14 @@
 
 zparseopts -D -F - {p,-playlist}:=playlist || return 1
 
+PATH=$( dirname `realpath $0` ):$PATH
+
 # Print with style.
 p.header(){ printf "\n\e[1;30m%s\e[0m\n" $@ }
 p.info()  { printf   "%s\n" $@              }
 p.ok()    { printf   "\e[0;32m%s\e[0m\n" $@ }
 p.warn()  { printf   "\e[0;33m%s\e[0m\n" $@ }
 p.error() { printf   "\e[0;31m%s\e[0m\n" $@ >&2 }
-get_cfg() {
-  local cfg=( ~/Library/Application\ Support/RetroArch/config/retroarch.cfg )
-  printf %s "${$( sed -En "s/^$1 = \"(.+)\"/\1/p" $cfg )/#\~\//$HOME/}"
-}
 
 for dep in jq 7z; if ! type $dep &>/dev/null; then
   p.error "$dep is required!"
@@ -53,7 +51,7 @@ limit=`print -- $items | jq 'length'`
 typeset -A fscores=(
   Dolphin dolphin-emu
 )
-info_path=`get_cfg libretro_info_path`
+info_path=$( raconfig --get libretro_info_path )
 default_gcore=`jq -r '.default_core_path|split("/")|last|sub(".dylib"; "")' $playlist`
 dfscore=$( sed -En 's/^corename = "(.+)"/\1/p' $info_path/$default_gcore.info )
 dfscore=${fscores[$dfscore]:-$dfscore}
@@ -61,7 +59,7 @@ dfscore=${fscores[$dfscore]:-$dfscore}
 # Search paths for renaming support files.
 typeset -aU search_paths
 for k in {input_remapping,rgui_config,savefile,playlist}_directory; do
-  search_paths+=`get_cfg $k`
+  search_paths+=$( raconfig --get $k )
 done
 
 IFS=$'\n'
