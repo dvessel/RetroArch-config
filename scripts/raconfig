@@ -1,0 +1,118 @@
+#!/usr/bin/env zsh
+#
+# Commands:
+# Get from retroarch.cfg. All commands includes it.
+#   config --get key
+# Get from first config file with a value, retroarch.cfg included.
+#   config --get key name.cfg container.cfg core.cfg
+#
+# Set value to a key in retroarch.cfg, can be set for specific cfg files
+# but using --override is the recommended method.
+#   config --set key=value
+# Set value to a key in a config file but only when it's an override.
+# The value is applied to the first cfg. Rest are for comparing values.
+#   config --override key=value name.cfg container.cfg core.cfg
+#
+# RetroArch order of prescedence:
+# 1. rom-name.cfg
+# 2. rom-container.cfg
+# 3. core-name.cfg
+# 4. retroarch.cfg  <- always available
+#
+zparseopts -D -F - -get:=zget {-set,-override}:=zset || return 1
+
+ra_dir=~/Library/Application\ Support/RetroArch
+ra_cfg=$ra_dir/config/retroarch.cfg
+
+op=${${zget[1]#--}:-${zset[1]#--}}
+
+# Get value for a key across multiple cfg files with retroarch.cfg as a
+# fallback. Each cfg will always return a value even if it does not exist.
+# if it does not exist, it will be a 'null' string.
+get_values() {
+  local key=$1 value
+  shift
+  argv+=$ra_cfg
+  for cfg in $@
+  do
+    value=
+    if [[ -f $cfg ]]
+    then
+      value=$(
+        sed -nE "s/^${key}[[:space:]]*=[[:space:]]*\"(.*)\"/\1/p" $cfg
+      )
+    fi
+    if [[ $value =~ "^~/(.+)" ]]
+    then
+      echo $HOME/${match[1]}
+    else
+      echo ${value:-null}
+    fi
+  done
+}
+
+set_value() {
+  local key=$1 value=$2 cfg=$3
+  touch $cfg
+  # Find existing key and set new value. Append the `key = value` pair otherwise.
+  sed -i '' -E "s/^${key}[[:space:]]*=.+/${key} = \"${value}\"/" $cfg
+  if [[ $(
+    sed -nE "s/^${key}[[:space:]]*=[[:space:]]*\"(.*)\"/\1/p" $cfg
+  ) != $value ]]
+  then
+    printf '%s = "%s"\n' $key $value >> $cfg
+  fi
+}
+
+if [[ $op == get ]]
+then
+  key=${zget[-1]}
+  for value in ${(f)"$( get_values $key $@ )"}; [[ $value != null ]] && {
+    echo $value
+    return
+  }
+  echo "$key does not exist." >&2
+  return 1
+
+else
+  # Extract key/value
+  if [[ ${zset[-1]} =~ ^([[:alnum:]_]+)[[:space:]]*=[[:space:]]*[\"\']?([^\"\']*) ]]
+  then
+    key=${match[1]} value=${match[2]}
+  else
+    echo "Invalid argument: ${zset[-1]}" >&2
+    return 1
+  fi
+
+  if [[ $op == set ]]
+  then
+    set_value $key $value ${1:-$ra_cfg}
+
+  elif [[ $op == override ]]
+  then
+    cfg=$1
+    shift
+    for parent_value in ${(f)"$( get_values $key $@ )"}
+    do
+      # Skip until first parent with a value.
+      if [[ $parent_value == null ]]
+      then
+        continue
+      fi
+
+      if [[ $parent_value != $value ]]
+      then
+        set_value $key $value $cfg
+
+      elif [[ -f $cfg ]]
+      then
+        # Parent value is the same, so clear it
+        sed -i '' -E "/^${key}[[:space:]]*=.+/d" $cfg
+        # Remove config when empty.
+        test -s $cfg || rm -f $cfg
+      fi
+
+      break
+    done
+  fi
+fi
