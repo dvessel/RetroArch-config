@@ -1,0 +1,68 @@
+#!/usr/bin/env zsh
+
+PATH=$( dirname `realpath $0` ):$PATH
+
+for dylib in "$( raconfig --get libretro_directory )"/*.dylib
+do
+  name=${${dylib:t}%_libretro.dylib}
+  info=$( raconfig --get libretro_info_path )/$dylib:t:r.info
+  if [[ -f $info ]]
+  then
+    name=${$( raconfig --get corename $info ):-$name}
+  fi
+
+  if [[ -f $dylib:r.lck ]]
+  then
+    echo "$name is locked."
+    continue
+  fi
+
+  # host_arch: arm64 or x86_64
+  # core_arch: arm64 and/or x86_64
+  # arch: hardware aligned core arch with fallsback. arm64 or x86_64
+  host_arch=($( uname -m ))
+  core_arch=($( lipo -archs $dylib ))
+  arch=${${core_arch:*host_arch}:-$core_arch}
+
+  index_cache=$TMPDIR/core-update-index-$arch.txt
+  # index_cache updated when older than 10 minutes.
+  if [[ ! -f $index_cache || $(( `date +%s` - `date -r $index_cache +%s` )) -gt 600 ]]
+  then
+    if ! curl -so $index_cache https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/.index-extended
+    then
+      echo "failed to fetch remote index." >&2
+      exit 1
+    fi
+  fi
+
+  if [[ $( cat $index_cache ) =~ "([0-9a-z]+) $dylib:t.zip" ]]
+  then
+    if [[ $( crc32 $dylib ) == ${match[1]} ]]
+    then
+      echo "$name is up to date."
+      continue
+    fi
+  else
+    echo "failed to determine remote revision for $name." >&2
+    exit 1
+  fi
+
+  tmpdir=$( mktemp -d )
+  trap 'rm -rf $tmpdir' INT TERM EXIT
+
+  echo "downloading $name core..."
+  if ! curl -#Lo $tmpdir/$dylib:t.zip https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/$dylib:t.zip
+  then
+    echo "download failed." >&2
+    exit 1
+  fi
+
+  if unzip -q $tmpdir/$dylib:t.zip -d $tmpdir
+  then
+    mv -f $tmpdir/$dylib:t $dylib
+  else
+    echo "failed to extract core." >&2
+    exit 1
+  fi
+
+done
