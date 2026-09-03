@@ -9,8 +9,8 @@ fi
 # host_arch: arm64 or x86_64
 # core_arch: arm64 and/or x86_64
 # arch: hardware aligned core arch with fallsback. arm64 or x86_64
-host_arch=( `uname -m` )
-core_arch=( `lipo -archs $1` )
+host_arch=($( uname -m ))
+core_arch=($( lipo -archs $1 ))
 arch=${${core_arch:*host_arch}:-$core_arch}
 
 index_cache=$TMPDIR/core-update-index-$arch.txt
@@ -27,9 +27,9 @@ fi
 dylib=$1:t
 name=${${dylib:t}%_libretro.dylib}
 
-if [[ `cat $index_cache` =~ "([0-9a-z]+) $dylib.zip" ]]
+if [[ $( cat $index_cache ) =~ "([0-9a-z]+) $dylib.zip" ]]
 then
-  if [[ `crc32 $1` == ${match[1]} ]]
+  if [[ $( crc32 $1 ) == ${match[1]} ]]
   then
     echo "$name is up to date."
     exit 0
@@ -39,7 +39,7 @@ else
   exit 1
 fi
 
-tmpdir=`mktemp -d`
+tmpdir=$( mktemp -d )
 trap 'rm -rf $tmpdir' INT TERM EXIT
 
 echo "downloading $name core..."

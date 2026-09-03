@@ -20,14 +20,14 @@ function dprint {
 }
 
 function set_hz {
-  local serial=`rascreen --serial` retry=0 hz
+  local serial=$( rascreen --serial ) retry=0 hz
 
   while [[ -z $serial ]]
   do
     # rascreen called to early, so wait a second.
     dprint -no "rascreen not ready, waiting..."
     sleep 1
-    serial=`rascreen --serial`
+    serial=$( rascreen --serial )
     if (( retry++ && retry >= 5 ))
     then
       dprint -no "rascreen is not responding."
@@ -40,7 +40,7 @@ function set_hz {
   if ! type screen-$serial &>/dev/null
   then
     print "Screen not recognized (serial: $serial)." >&2
-  elif hz=`screen-$serial $1`
+  elif hz=$( screen-$serial $1 )
   then
     # Don't block. To be cleaned up later when unloading the running core.
     rascreen --set-hz $hz &
@@ -224,7 +224,7 @@ do
     for pid in $RASCREEN_PIDS
     do
       # kill rascreen from this load cycle.
-      if [[ `ps -p $pid -o comm= 2>/dev/null` == rascreen ]]
+      if [[ $( ps -p $pid -o comm= 2>/dev/null ) == rascreen ]]
       then
         dprint "kill $pid: rascreen"
         kill $pid

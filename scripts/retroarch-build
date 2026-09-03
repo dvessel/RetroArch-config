@@ -63,7 +63,7 @@ fi
 if (( updates > 0 || ${#zforce} ))
 then
   # self-sign stash required for local build.
-  if ! git stash apply refs/`git stash list | sed -En 's/^(.+):.+: self-sign$/\1/p'`
+  if ! git stash apply "refs/$( git stash list | sed -En 's/^(.+):.+: self-sign$/\1/p' )"
   then
     print "stash apply ::self-sign:: failed" >&2
     return 1

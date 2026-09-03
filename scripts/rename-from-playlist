@@ -44,7 +44,7 @@ items=$(
     system:.db_name|sub(".lpl"; "")
   }' $playlist | jq -n '[inputs]'
 )
-limit=`print -- $items | jq 'length'`
+limit=$( print -- $items | jq 'length' )
 
 # Core names used in the file system. It matches 'corename' in the info data.
 # Dolphin is the exception.
@@ -52,7 +52,7 @@ typeset -A fscores=(
   Dolphin dolphin-emu
 )
 info_path=$( raconfig --get libretro_info_path )
-default_gcore=`jq -r '.default_core_path|split("/")|last|sub(".dylib"; "")' $playlist`
+default_gcore=$( jq -r '.default_core_path|split("/")|last|sub(".dylib"; "")' $playlist )
 dfscore=$( sed -En 's/^corename = "(.+)"/\1/p' $info_path/$default_gcore.info )
 dfscore=${fscores[$dfscore]:-$dfscore}
 

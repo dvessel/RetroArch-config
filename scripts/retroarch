@@ -21,9 +21,9 @@ then
   )
 fi
 
-if (( `mdfind -count kMDItemCFBundleIdentifier = com.libretro.dist.RetroArch` > 0 ))
+if (( $( mdfind -count kMDItemCFBundleIdentifier = com.libretro.dist.RetroArch ) > 0 ))
 then
-  if appdir=`mdfind kMDItemCFBundleIdentifier = com.libretro.dist.RetroArch | fzf --select-1`
+  if appdir=$( mdfind kMDItemCFBundleIdentifier = com.libretro.dist.RetroArch | fzf --select-1 )
   then
     arch $aargs $appdir/Contents/MacOS/RetroArch $@
   else

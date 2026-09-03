@@ -142,7 +142,7 @@ then
     echo "building xml files..."
   fi
 
-  mamexml=mamexml/`mame -version | awk -F'[ .]' '{print $1$2}'`.xml
+  mamexml=mamexml/$( mame -version | awk -F'[ .]' '{print $1$2}' ).xml
   ln -sf $mamexml:t mamexml/current.xml
 
   local all_names=( roms/*.zip*(:t:r:r) )
@@ -183,7 +183,7 @@ do
   fi
 done
 
-local report_file=`date "+%y%m%d%H%M%S"`-v${$(readlink $mamexml):r}-${command}.txt
+local report_file=$( date "+%y%m%d%H%M%S" )-v${$(readlink $mamexml):r}-${command}.txt
 
 mkdir -p reports
 
@@ -263,7 +263,7 @@ perl -pe '/^([a-z]+_)?(good|bad|miss|text|binary|garbage)/; print (
 )'
 
 # remove empty reports file.
-if [[ `wc -l < reports/$report_file` -le 1 ]]
+if [[ $( wc -l < reports/$report_file ) -le 1 ]]
 then
   rm reports/$report_file
 else
