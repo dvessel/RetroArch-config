@@ -39,12 +39,14 @@ then
       let updates++
       if git stash | grep -q '^Saved working directory'
       then
-        stashed+=$repo
+        stashed=1
+      else
+        stashed=0
       fi
-      # A pull *merge commits* by default but there's no difference with a rebase
-      # when there are no locally made commits. A rebase on the other hand allows
-      # local commits by replaying them back on top of the upstream commits. It is
-      # more flexible so use rebase.
+      # A pull *merge commits* by default but there's no difference with
+      # a rebase when there are no locally made commits. A rebase on the
+      # other hand allows local commits by replaying them back on top of
+      # the upstream commits. It is more flexible so use rebase.
       if ! git rebase
       then
         print "rebase failed." >&2
@@ -56,6 +58,10 @@ then
         print "submodule update failed." >&2
         return 1
       fi
+      if (( ${#stashed} ))
+      then
+        git stash pop || return 1
+      fi
     fi
   done
 fi
@@ -63,7 +69,7 @@ fi
 if (( updates > 0 || ${#zforce} ))
 then
   # self-sign stash required for local build.
-  if ! git stash apply "refs/$( git stash list | sed -En 's/^(.+):.+: self-sign$/\1/p' )"
+  if ! git stash apply refs/$( git stash list | sed -nE 's/^(.+):.+: self-sign$/\1/p' )
   then
     print "stash apply ::self-sign:: failed" >&2
     return 1
@@ -76,12 +82,8 @@ else
 fi
 
 project=pkg/apple/RetroArch_Metal.xcodeproj
-if [[ ! -d $project ]]
-then
-  print "Project doesn't exist: $project" >&2
-  return 1
-fi
 xcodebuild clean -project $project
+
 for config in $builds
 do
   if ! xcodebuild -target RetroArch -configuration $config -project $project
@@ -91,12 +93,3 @@ do
   fi
 done
 print "Build completed for ${(j:, :)builds}."
-
-# restore previously stashed.
-for repo in $stashed; [[ $PWD != $base_dir/$repo ]] && {
-  cd $base_dir/$repo
-  if ! git stash pop
-  then
-    return 1
-  fi
-}
