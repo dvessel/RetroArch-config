@@ -1,0 +1,131 @@
+#!/usr/bin/env zsh
+
+zparseopts -D -E - -restore-savestates=zrestore_savestates || return 1
+
+PATH=$( dirname `realpath $0` ):$PATH
+
+local scandir=~/Games/Emulation/Arcade
+cdir=$( raconfig --get rgui_config_directory )/MAME
+
+if ! mameinfo --init-path $scandir
+then
+  echo "Failed to initialize." >&2
+  return 1
+fi
+
+# raconfig can't retrieve values from specific files. Do it here.
+cfg_value() {
+  if [[ -f $2 ]]
+  then
+    sed -nE "s/^$1[[:space:]]*=[[:space:]]*\"(.*)\"/\1/p" $2
+  fi
+}
+set_refreshrate() {
+  local hz=$1
+  shift
+  (( hz == 120 )) && vrr=true || vrr=false
+  raconfig --override video_refresh_rate=$hz $@
+  raconfig --override vrr_runloop_enable=$vrr $@
+}
+
+settings_keys=(
+  menu_show_latency
+  menu_show_rewind
+  quick_menu_show_replay
+  quick_menu_show_save_load_state
+  quick_menu_show_savestate_submenu
+  quick_menu_show_undo_save_load_state
+  savestate_auto_load
+  savestate_auto_save
+)
+# Disabled save state related settings.
+typeset -a savestate_related_unsupported
+for key in $settings_keys preemptive_frames_enable run_ahead_enabled
+do
+  savestate_related_unsupported+="$key = false"
+done
+# Restore when supported with --restore-savestates.
+typeset -a savestate_related_supported
+for key in $settings_keys
+do
+  if (( ${#zrestore_savestates} ))
+  then
+    savestate_related_supported+="$key = $(raconfig --get $key $cdir/MAME.cfg)"
+  fi
+done
+
+for source_dir in $scandir/.sorted/-*
+do
+  typeset -A refresh_rates=() refresh_counts=()
+
+  for rom in $source_dir/*.zip
+  do
+    if ! mameinfo --exists $rom
+    then
+      print "unrecognized '$rom'" >&2
+      continue
+    fi
+
+    read -d '' isbios isdevice savestate refresh < <(
+      mameinfo -r '.isbios,.isdevice,.driver.savestate,.display[0].refresh' -g $rom
+    )
+    case yes in
+      # skip bios and devices.
+      $isbios|$isdevice) continue ;;
+    esac
+
+    name=$rom:t:r
+    hz=$( screen-builtin $refresh )
+    refresh_counts[$hz]=$(( refresh_counts[$hz] + 1 ))
+    refresh_rates[$name]=$hz
+  done
+
+  source=${source_dir:t}
+
+  # Get existing `quick_menu_show_save_load_state` setting before the override.
+  # This is set by the script when save state is not supported.
+  savestate_was_supported=''
+  if (( ${#zrestore_savestates} ))
+  then
+    savestate_was_supported=$( cfg_value quick_menu_show_save_load_state $cdir/$source.cfg )
+  fi
+  keyvalues="savestate_related_${savestate}"
+  for kv in ${(P)keyvalues}
+  do
+    raconfig --override $kv $cdir/$source.cfg $cdir/MAME.cfg
+  done
+  if [[ $savestate == unsupported ]]
+  then
+    printf "%s:\e[0;31m save states not supported. Disabled all related settings.\e[0m\n" $source
+  elif (( ${#zrestore_savestates} )) && [[ $savestate_was_supported == false ]]
+  then
+    # Save state can only be `supported` or `unsupported`. Give notice about the restored support.
+    printf "%s:\e[0;32m save state support was restored.\e[0m\n" $source
+  fi
+
+  if (( ${#refresh_counts} > 1 ))
+  then
+    # Reset source config refresh rate.
+    if [[ -n $( cfg_value video_refresh_rate $cdir/$source.cfg ) ]]
+    then
+      set_refreshrate $( raconfig --get video_refresh_rate $cdir/MAME.cfg ) $cdir/$source.cfg $cdir/MAME.cfg
+      printf "%s:\e[0;33m refresh rate was reset. %s will have their own values.\e[0m\n" $source ${(kj:,:)refresh_rates}
+    fi
+    # Set individual game refresh rates.
+    for name hz in ${(kv)refresh_rates}
+    do
+      set_refreshrate $hz $cdir/$name.cfg $cdir/$source.cfg $cdir/MAME.cfg
+      if [[ $hz != $( raconfig --get video_refresh_rate $cdir/MAME.cfg ) ]]
+      then
+        printf " %s: refresh rate set to %s.\n" $name $hz
+      fi
+    done
+  else
+    # All games use a common refresh rate for the source.
+    set_refreshrate ${(k)refresh_counts} $cdir/$source.cfg $cdir/MAME.cfg
+    if [[ $hz != $( raconfig --get video_refresh_rate $cdir/MAME.cfg ) ]]
+    then
+      printf "%s: refresh rate set to %s.\n" $source $hz
+    fi
+  fi
+done
