@@ -2,16 +2,16 @@
 #
 # Commands:
 # Get from retroarch.cfg. All commands includes it.
-#   config --get key
+#   raconfig --get key
 # Get from first config file with a value, retroarch.cfg included.
-#   config --get key name.cfg container.cfg core.cfg
+#   raconfig --get key name.cfg container.cfg core.cfg
 #
 # Set value to a key in retroarch.cfg, can be set for specific cfg files
 # but using --override is the recommended method.
-#   config --set key=value
+#   raconfig --set key=value
 # Set value to a key in a config file but only when it's an override.
 # The value is applied to the first cfg. Rest are for comparing values.
-#   config --override key=value name.cfg container.cfg core.cfg
+#   raconfig --override key=value name.cfg container.cfg core.cfg
 #
 # RetroArch order of prescedence:
 # 1. rom-name.cfg
