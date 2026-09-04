@@ -1,0 +1,3 @@
+#reference "../../shaders/Koko-aio [2] TVL410.slangp"
+AUTOCROP_MAX = "0.010000"
+AUTOCROP_MIN = "4.000000"
