@@ -80,6 +80,11 @@ do
     refresh_rates[$name]=$hz
   done
 
+  if (( ${#refresh_counts} < 1 ))
+  then
+    continue
+  fi
+
   source=${source_dir:t}
 
   # Get existing `quick_menu_show_save_load_state` setting before the override.
