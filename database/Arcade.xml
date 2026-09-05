@@ -21262,6 +21262,192 @@
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="graphics" status="imperfect"/>
 	</machine>
+	<machine name="dirtdvls" sourcefile="sega/model3.cpp">
+		<description>Dirt Devils (Export, Revision A)</description>
+		<year>1998</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-21062a.17" size="2097152" crc="64b55254" sha1="0e5de3786edad77dde08652ac837dc9125e7851c" region="user1" offset="6"/>
+		<rom name="epr-21063a.18" size="2097152" crc="6ab7eb32" sha1="3a4226d4c786e7b64688af3b8883b4039b8c8407" region="user1" offset="4"/>
+		<rom name="epr-21064a.19" size="2097152" crc="2a01f9ad" sha1="d936d8eeecbcc502e35799d484c36f5da9457013" region="user1" offset="2"/>
+		<rom name="epr-21065a.20" size="2097152" crc="3223db1a" sha1="ad34d16475a571ffed48539ef98736357cb327b0" region="user1" offset="0"/>
+		<rom name="mpr-21023.1" size="4194304" crc="932a3724" sha1="146dfe897caa8a4385c527bc7c649e9dbd2ce0c0" region="user1" offset="800006"/>
+		<rom name="mpr-21024.2" size="4194304" crc="ede859b0" sha1="cecd595a6ba60e248b7bf47778ba4da7658dcf93" region="user1" offset="800004"/>
+		<rom name="mpr-21025.3" size="4194304" crc="6591c66e" sha1="feaae431692a3bab867b79d52bc3934f77c4022b" region="user1" offset="800002"/>
+		<rom name="mpr-21026.4" size="4194304" crc="f4937e3f" sha1="21559ef991789ede4b4e7297e2a71f33f7cc7090" region="user1" offset="800000"/>
+		<rom name="mpr-21027.5" size="4194304" crc="74e1496a" sha1="0988058a109216e8b97045dde9d1099688193a13" region="user1" offset="1800006"/>
+		<rom name="mpr-21028.6" size="4194304" crc="db11f50a" sha1="78bf2418bcea1ed30da9af936e9f95e9c76ce919" region="user1" offset="1800004"/>
+		<rom name="mpr-21029.7" size="4194304" crc="89867d8a" sha1="89ebd5bc5d98fbd63d4cad407033419a39b1d60a" region="user1" offset="1800002"/>
+		<rom name="mpr-21030.8" size="4194304" crc="f8e51bec" sha1="fe8a06ef21dd646e3ad6fa382e3f3d30db4cbd91" region="user1" offset="1800000"/>
+		<rom name="mpr-21034.26" size="4194304" crc="acba5ca6" sha1="be213ca40d17f18e725349585f95d677e53c1bfc" region="user3" offset="2"/>
+		<rom name="mpr-21035.27" size="4194304" crc="618b7d6a" sha1="0968b72c8d7fc4b2635062647da5d36a58e69b08" region="user3" offset="0"/>
+		<rom name="mpr-21036.28" size="4194304" crc="0e665bb2" sha1="3b18ea93ed1d71873ff635358c3143e4f515bab9" region="user3" offset="6"/>
+		<rom name="mpr-21037.29" size="4194304" crc="90b98493" sha1="3f98855caec5895c8651ed88e07f2dcec5a6c66a" region="user3" offset="4"/>
+		<rom name="mpr-21038.30" size="4194304" crc="9b59d2c2" sha1="3f14cfc905a018e0aa2b2ad4918cd4ee2ef65c7b" region="user3" offset="a"/>
+		<rom name="mpr-21039.31" size="4194304" crc="61407b07" sha1="d7676a03110ca694cc53c1d3a6c781d2f8cee98b" region="user3" offset="8"/>
+		<rom name="mpr-21040.32" size="4194304" crc="b550c229" sha1="b13ea462914bb13388e11bed9a9b2e696a8eb759" region="user3" offset="e"/>
+		<rom name="mpr-21041.33" size="4194304" crc="8f1ac988" sha1="11b628c85533a307298765641eb87c305bde64d1" region="user3" offset="c"/>
+		<rom name="mpr-21042.34" size="4194304" crc="1dab621d" sha1="cf0e59be7b5a12146f5562e208009054074151cd" region="user4" offset="2"/>
+		<rom name="mpr-21043.35" size="4194304" crc="707015c8" sha1="125ff08cc555a4c8d9863e7433fad7949230630d" region="user4" offset="0"/>
+		<rom name="mpr-21044.36" size="4194304" crc="776f9580" sha1="0529532975d74da851a2fd1ce9810e218d751d5f" region="user4" offset="6"/>
+		<rom name="mpr-21045.37" size="4194304" crc="a28ad02f" sha1="8734568153dbf304193491e746b19a423a547f0d" region="user4" offset="4"/>
+		<rom name="mpr-21046.38" size="4194304" crc="05c995ae" sha1="d96391360692d30c456324dcd51511bf095a58cb" region="user4" offset="a"/>
+		<rom name="mpr-21047.39" size="4194304" crc="06b7826f" sha1="cfdeb56964bd31196fde01b1f5cc294c8b49c215" region="user4" offset="8"/>
+		<rom name="mpr-21048.40" size="4194304" crc="96849974" sha1="347e2216ea1225eda92693dcd80eb97df88caabf" region="user4" offset="e"/>
+		<rom name="mpr-21049.41" size="4194304" crc="91e8161a" sha1="1edc0bc856e5d72f714bd0544814727f4ff12e7a" region="user4" offset="c"/>
+		<rom name="epr-21066.21" size="524288" crc="f7ed2582" sha1="a4f80d5f82c86f0bdb74bcda5dc69b83b475c542" region="audiocpu" offset="0"/>
+		<rom name="mpr-21031.22" size="4194304" crc="32f6b23a" sha1="8cd092733b85aecf607c2f4b683c42e388a70906" region="samples" offset="0"/>
+		<rom name="mpr-21033.24" size="4194304" crc="253d3c70" sha1="bfbc42d08cf46d89c87505f53e31b8a53e8a729a" region="samples" offset="400000"/>
+		<rom name="mpr-21032.23" size="4194304" crc="3d3ff407" sha1="5e298e24cb3050f8683658cef41ce59948e79166" region="samples" offset="800000"/>
+		<rom name="epr-19338a.bin" size="65536" crc="c9fac464" sha1="47b9ab7921a685c01629afb592d597faa11d2bd6" region="drivebd" offset="0"/>
+		<device_ref tag=":maincpu" name="ppc603r"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup" name="nvram"/>
+		<device_ref tag=":rtc" name="rtc72421"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp1" name="scsp"/>
+		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":billboard" name="segabill"/>
+		<device_ref tag=":billboard:billcpu" name="z80"/>
+		<device_ref tag=":billboard:io" name="315_5338a"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":315_5881" name="sega315_5881"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC 603R" clock="166000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp1" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<chip type="audio" tag="scsp2" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="8" minimum="0" maximum="255" sensitivity="30" keydelta="10"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="30" keydelta="10"/>
+		</input>
+		<dipswitch name="Unknown" tag="DSW" mask="1">
+			<diplocation name="SW" number="8"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="2">
+			<diplocation name="SW" number="7"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="4">
+			<diplocation name="SW" number="6"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="8">
+			<diplocation name="SW" number="5"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="16">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="32">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="64">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="128">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P1" tag="billboard:dsw" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P2" tag="billboard:dsw" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P1" tag="billboard:dsw" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P2" tag="billboard:dsw" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo" tag="billboard:dsw" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="64"/>
+		</dipswitch>
+		<dipswitch name="Testmode" tag="billboard:dsw" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="128"/>
+		</dipswitch>
+		<port tag=":AN0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":AN4">
+		</port>
+		<port tag=":AN5">
+		</port>
+		<port tag=":AN6">
+		</port>
+		<port tag=":AN7">
+		</port>
+		<port tag=":DSW">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":billboard:dsw">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
 	<machine name="dirtfoxj" sourcefile="namco/namcos2.cpp">
 		<description>Dirt Fox (Japan)</description>
 		<year>1989</year>
@@ -28071,6 +28257,359 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="timing" status="imperfect"/>
 	</machine>
+	<machine name="fvipers" sourcefile="sega/model2.cpp">
+		<description>Fighting Vipers (Revision D)</description>
+		<year>1995</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-18606d.15" size="131072" crc="7334de7d" sha1="d10355198a3f62b503701f44dc49bfe018c787d1" region="maincpu" offset="0"/>
+		<rom name="epr-18607d.16" size="131072" crc="700d2ade" sha1="656e25a6389f04f7fb9099f0b41fb03fa645a2f0" region="maincpu" offset="2"/>
+		<rom name="epr-18604d.13" size="131072" crc="704fdfcf" sha1="52b6ae90231d40a3ece133debaeb210fc36c6fcb" region="maincpu" offset="40000"/>
+		<rom name="epr-18605d.14" size="131072" crc="7dddf81f" sha1="3e0da0eaf1f98dbbd4ca5f78c04052b347b234b2" region="maincpu" offset="40002"/>
+		<rom name="mpr-18614.11" size="4194304" crc="0ebc899f" sha1="49c80b11b207cba4ec10fbb7cc140f3a5b039e82" region="main_data" offset="0"/>
+		<rom name="mpr-18615.12" size="4194304" crc="018abdb7" sha1="59e5b6378404e10ace4f3675428d61d3ae9d1963" region="main_data" offset="2"/>
+		<rom name="mpr-18612.9" size="4194304" crc="1f174cd1" sha1="89b56dd2f350edd093dc06f4cc258652c26b1d45" region="main_data" offset="800000"/>
+		<rom name="mpr-18613.10" size="4194304" crc="f057cdf2" sha1="e16d5de2a00670aba4fbe0dc88ccf317de9842be" region="main_data" offset="800002"/>
+		<rom name="epr-18610d.7" size="524288" crc="a1871703" sha1="8d7b362a8fd9d63f5cea2f3fab97e5fe3fa30d87" region="main_data" offset="1000000"/>
+		<rom name="epr-18611d.8" size="524288" crc="39a75fee" sha1="c962805f03e2503dd1671ba3e906c6e306a92e48" region="main_data" offset="1000002"/>
+		<rom name="epr-18608d.5" size="524288" crc="5bc11881" sha1="97ce5faf9719cb02dd3a15d47245cc4634f08fcb" region="main_data" offset="1800000"/>
+		<rom name="epr-18609d.6" size="524288" crc="cd426035" sha1="94c85a656c86bc4880db6bff2ef795ec30f62f39" region="main_data" offset="1800002"/>
+		<rom name="mpr-18622.29" size="2097152" crc="c74d99e3" sha1="9914be9925b86af6af670745b5eba3a9e4f24af9" region="copro_data" offset="0"/>
+		<rom name="mpr-18623.30" size="2097152" crc="746ae931" sha1="a6f0f589ad174a34493ee24dc0cb509ead3aed70" region="copro_data" offset="2"/>
+		<rom name="mpr-18616.17" size="2097152" crc="15a239be" sha1="1a33c48f99eed20da4b622219d21ec5995acc9aa" region="polygons" offset="0"/>
+		<rom name="mpr-18619.21" size="2097152" crc="9d5e8e2b" sha1="f79ae0a7b966ddb0948b464d233845d4f362a2e7" region="polygons" offset="2"/>
+		<rom name="mpr-18617.18" size="2097152" crc="a62cab7d" sha1="f20a545148f2a1d6f4f1c897f1ed82ad17429dce" region="polygons" offset="400000"/>
+		<rom name="mpr-18620.22" size="2097152" crc="4d432afd" sha1="30a1ef1e309a163b2d8756810fc33debf069141c" region="polygons" offset="400002"/>
+		<rom name="mpr-18618.19" size="2097152" crc="adab589f" sha1="67818ec4185da17f1549fb3a125cade267a46a48" region="polygons" offset="800000"/>
+		<rom name="mpr-18621.23" size="2097152" crc="f5eeaa95" sha1="38d7019afcef6dbe292354d717fd49da511cbc2b" region="polygons" offset="800002"/>
+		<rom name="mpr-18626.27" size="2097152" crc="9df0a961" sha1="d8fb4bbbdc00303330047be380a79da7838d4fd5" region="textures" offset="0"/>
+		<rom name="mpr-18624.25" size="2097152" crc="1d74433e" sha1="5b6d2d17609ae741546d99d40f575bb24d62b5d3" region="textures" offset="2"/>
+		<rom name="mpr-18627.28" size="2097152" crc="946175a0" sha1="8b6e5e1342f98c9c6f2f7d61e843275d244f331a" region="textures" offset="800000"/>
+		<rom name="mpr-18625.26" size="2097152" crc="182fd572" sha1="b09a682eff7e835ff8c33aaece12f3727a91dd5e" region="textures" offset="800002"/>
+		<rom name="epr-18628.31" size="524288" crc="aa7dd79f" sha1="d8bd1485273652d7c2a303bbdcdf607d3b530283" region="audiocpu" offset="0"/>
+		<rom name="mpr-18629.32" size="2097152" crc="5d0006cc" sha1="f6d2552ffc5473836aafb06735b62f65ef8f5ef5" region="samples" offset="0"/>
+		<rom name="mpr-18630.33" size="2097152" crc="9d405615" sha1="7e7ffbb4ec080a0815c6ca49b9d8efe1f676203b" region="samples" offset="200000"/>
+		<rom name="mpr-18631.34" size="2097152" crc="9dae5b45" sha1="055ac989eafb81749326520d0be264f7a984c627" region="samples" offset="400000"/>
+		<rom name="mpr-18632.35" size="2097152" crc="39da6805" sha1="9e9523b7c2bc50f869d062f80955da1281951299" region="samples" offset="600000"/>
+		<device_ref tag=":maincpu" name="i80960kb"/>
+		<device_ref tag=":copro_adsp" name="adsp21062"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup1" name="nvram"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":timer0" name="timer"/>
+		<device_ref tag=":timer1" name="timer"/>
+		<device_ref tag=":timer2" name="timer"/>
+		<device_ref tag=":timer3" name="timer"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":m2comm" name="m2comm"/>
+		<device_ref tag=":billboard" name="segabill"/>
+		<device_ref tag=":billboard:billcpu" name="z80"/>
+		<device_ref tag=":billboard:io" name="315_5338a"/>
+		<chip type="cpu" tag="maincpu" name="Intel 80960KB" clock="25000000"/>
+		<chip type="cpu" tag="copro_adsp" name="Analog Devices ADSP21062 &quot;SHARC&quot;" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="3" ways="8"/>
+			<control type="joy" player="2" buttons="3" ways="8"/>
+		</input>
+		<dipswitch name="Unknown" tag="SW" mask="1">
+			<diplocation name="SW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="2">
+			<diplocation name="SW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="4">
+			<diplocation name="SW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="8">
+			<diplocation name="SW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="16">
+			<diplocation name="SW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="32">
+			<diplocation name="SW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="64">
+			<diplocation name="SW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="128">
+			<diplocation name="SW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P1" tag="billboard:dsw" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P2" tag="billboard:dsw" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P1" tag="billboard:dsw" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P2" tag="billboard:dsw" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo" tag="billboard:dsw" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="64"/>
+		</dipswitch>
+		<dipswitch name="Testmode" tag="billboard:dsw" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="128"/>
+		</dipswitch>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":SW">
+		</port>
+		<port tag=":billboard:dsw">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="fvipers2" sourcefile="sega/model3.cpp">
+		<description>Fighting Vipers 2 (Revision A)</description>
+		<year>1998</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-20596a.17" size="2097152" crc="969ab801" sha1="a7a2aa71204d1c38a6a8c0605331fd859cb224f1" region="user1" offset="6"/>
+		<rom name="epr-20597a.18" size="2097152" crc="6fcee322" sha1="d65303f2551902ac5446a35656241628d67f4a63" region="user1" offset="4"/>
+		<rom name="epr-20598a.19" size="2097152" crc="87bd070f" sha1="270840e828a59f74d41a852d26f0c44e74775100" region="user1" offset="2"/>
+		<rom name="epr-20599a.20" size="2097152" crc="9df02ab9" sha1="772185e0cd8b481ac62fee0dd472a155126c1fac" region="user1" offset="0"/>
+		<rom name="mpr-20560.1" size="4194304" crc="b0f6584d" sha1="e776a47fae42e43189840418945d33cf23a1f5fe" region="user1" offset="800006"/>
+		<rom name="mpr-20561.2" size="4194304" crc="38a0f112" sha1="6ad9ee6a9f08ef379acce2360b3e861f574101f0" region="user1" offset="800004"/>
+		<rom name="mpr-20562.3" size="4194304" crc="96e4942e" sha1="2567671fe9d7e207634464d08e5789f4521ffed2" region="user1" offset="800002"/>
+		<rom name="mpr-20563.4" size="4194304" crc="999848ac" sha1="55b37ea0cfa7989871f88d89d9a13df5b1ec4e92" region="user1" offset="800000"/>
+		<rom name="mpr-20564.5" size="4194304" crc="be69fca0" sha1="8a0c4449b5742235f8e5eaf6d168e7512ed96fa6" region="user1" offset="1800006"/>
+		<rom name="mpr-20565.6" size="4194304" crc="d6bbe638" sha1="725f53b087c65d09e28ad3cec8634d5e7e63158a" region="user1" offset="1800004"/>
+		<rom name="mpr-20566.7" size="4194304" crc="2901883b" sha1="f086587578e4f4931da8a18ff53adf8b3d665a09" region="user1" offset="1800002"/>
+		<rom name="mpr-20567.8" size="4194304" crc="80f4eba7" sha1="ead30d57e3ca39dcd4195eeb2b4c6ee71c968769" region="user1" offset="1800000"/>
+		<rom name="mpr-20568.9" size="4194304" crc="ff23cf1c" sha1="54b8a38c8deda1ddd0e26aa47504bfb0e2ed4b79" region="user1" offset="2800006"/>
+		<rom name="mpr-20569.10" size="4194304" crc="136c014f" sha1="c11b9b93ec6189ca745e6de9697bb274f07c6b1c" region="user1" offset="2800004"/>
+		<rom name="mpr-20570.11" size="4194304" crc="2c0d91fc" sha1="5ab896272da3650dbc482629ef7bdaccfa8eba54" region="user1" offset="2800002"/>
+		<rom name="mpr-20571.12" size="4194304" crc="40b459af" sha1="f2bca8783a787df45d4142436245d343a1a13fa7" region="user1" offset="2800000"/>
+		<rom name="mpr-20572.13" size="4194304" crc="d4a41a0b" sha1="2ceb45e5ff22e2539d52a960713606742e11ed18" region="user1" offset="3800006"/>
+		<rom name="mpr-20573.14" size="4194304" crc="e0dee793" sha1="be80a5ca9d3cd910b15a4372883e047c2cc6b267" region="user1" offset="3800004"/>
+		<rom name="mpr-20574.15" size="4194304" crc="68567771" sha1="6183f588092d079c10e002adf641520183148143" region="user1" offset="3800002"/>
+		<rom name="mpr-20575.16" size="4194304" crc="ebc99d8a" sha1="66bd76738d76f42e32d3a27db4a8586dbb694f36" region="user1" offset="3800000"/>
+		<rom name="mpr-20580.26" size="4194304" crc="6d42775e" sha1="9cd77ee6a317dcac67466920f59ac5cac98f67e2" region="user3" offset="2"/>
+		<rom name="mpr-20581.27" size="4194304" crc="ac9eec04" sha1="0d4af895bc7cc100f9618c52e989aadbc0aa6d6e" region="user3" offset="0"/>
+		<rom name="mpr-20582.28" size="4194304" crc="b202f7bd" sha1="6600f4bf49795c2821a2119f1251348782bcbdb2" region="user3" offset="6"/>
+		<rom name="mpr-20583.29" size="4194304" crc="0d6d508a" sha1="bf7e419b097b0c90ee278766a3ee527beb860e71" region="user3" offset="4"/>
+		<rom name="mpr-20584.30" size="4194304" crc="eccf4de6" sha1="b5508aab6fd28f8b55aae495920382259b4c75e5" region="user3" offset="a"/>
+		<rom name="mpr-20585.31" size="4194304" crc="b383f4e5" sha1="4a0d02de7fc41c66862917c35b0c2026ad06dfd0" region="user3" offset="8"/>
+		<rom name="mpr-20586.32" size="4194304" crc="e7cd5dfb" sha1="b33698792b3a1190712ad1c8c337f1f7fe67a1cb" region="user3" offset="e"/>
+		<rom name="mpr-20587.33" size="4194304" crc="e2b2abe1" sha1="32a6253948b852eb647a28438e8928684fc57b72" region="user3" offset="c"/>
+		<rom name="mpr-20588.34" size="4194304" crc="84f4162d" sha1="efb7c632399616052e39f21dd399eba78563d83a" region="user4" offset="2"/>
+		<rom name="mpr-20589.35" size="4194304" crc="4e653d02" sha1="120161ed82d882daa90b5637aa84714de7b26c95" region="user4" offset="0"/>
+		<rom name="mpr-20590.36" size="4194304" crc="527049be" sha1="541bba0101baacfae3de7d998a5f29da61b2b956" region="user4" offset="6"/>
+		<rom name="mpr-20591.37" size="4194304" crc="3be20243" sha1="83797b50f368843462dc46401940eda1a5c2acbd" region="user4" offset="4"/>
+		<rom name="mpr-20592.38" size="4194304" crc="d7985b28" sha1="a7a15757802d88e8ded363bad4d1d673bfc53a76" region="user4" offset="a"/>
+		<rom name="mpr-20593.39" size="4194304" crc="e670c4d3" sha1="bc180de98757972b322f4f0d461a8c8d8094ac05" region="user4" offset="8"/>
+		<rom name="mpr-20594.40" size="4194304" crc="35578240" sha1="7902f41d376dd3449a17fb4d907e0bd84d70272b" region="user4" offset="e"/>
+		<rom name="mpr-20595.41" size="4194304" crc="1d4a2cad" sha1="0ee9eef0bb969e715a98ca1c212a02d413f36145" region="user4" offset="c"/>
+		<rom name="epr-20600a.21" size="524288" crc="f0e7db7e" sha1="980c1c6d3e8534c414d8b8016531e90f77e00f90" region="audiocpu" offset="0"/>
+		<rom name="mpr-20576" size="4194304" crc="1eeb540b" sha1="f8de2ff302757aad38b61e2093e3783857d5d0fb" region="samples" offset="0"/>
+		<rom name="mpr-20578" size="4194304" crc="d222f2d4" sha1="f6128f8267e91242d7fc3d85beb2cd35124dd018" region="samples" offset="400000"/>
+		<rom name="mpr-20577" size="4194304" crc="3b236187" sha1="0ba1513e0652f6686b306a4f600a565570b1ebcc" region="samples" offset="800000"/>
+		<rom name="mpr-20579" size="4194304" crc="08788436" sha1="6c9af2cf65e803882d6f4c0d57eb9e95cdeb5818" region="samples" offset="c00000"/>
+		<device_ref tag=":maincpu" name="ppc603r"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup" name="nvram"/>
+		<device_ref tag=":rtc" name="rtc72421"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp1" name="scsp"/>
+		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":billboard" name="segabill"/>
+		<device_ref tag=":billboard:billcpu" name="z80"/>
+		<device_ref tag=":billboard:io" name="315_5338a"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":315_5881" name="sega315_5881"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC 603R" clock="166000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp1" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<chip type="audio" tag="scsp2" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="4" ways="8"/>
+			<control type="joy" player="2" buttons="4" ways="8"/>
+		</input>
+		<dipswitch name="Unknown" tag="DSW" mask="1">
+			<diplocation name="SW" number="8"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="2">
+			<diplocation name="SW" number="7"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="4">
+			<diplocation name="SW" number="6"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="8">
+			<diplocation name="SW" number="5"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="16">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="32">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="64">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="128">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P1" tag="billboard:dsw" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P2" tag="billboard:dsw" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P1" tag="billboard:dsw" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P2" tag="billboard:dsw" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo" tag="billboard:dsw" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="64"/>
+		</dipswitch>
+		<dipswitch name="Testmode" tag="billboard:dsw" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="128"/>
+		</dipswitch>
+		<port tag=":AN0">
+		</port>
+		<port tag=":AN1">
+		</port>
+		<port tag=":AN2">
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":AN4">
+		</port>
+		<port tag=":AN5">
+		</port>
+		<port tag=":AN6">
+		</port>
+		<port tag=":AN7">
+		</port>
+		<port tag=":DSW">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":billboard:dsw">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
 	<machine name="ga2" sourcefile="sega/segas32.cpp">
 		<description>Golden Axe: The Revenge of Death Adder (World, Rev B)</description>
 		<year>1992</year>
@@ -32798,6 +33337,168 @@
 		</port>
 		<driver status="good" emulation="good" cocktail="preliminary" savestate="supported"/>
 	</machine>
+	<machine name="gunblade" sourcefile="sega/model2.cpp">
+		<description>Gunblade NY (Revision A)</description>
+		<year>1995</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-18988a.15" size="524288" crc="f63f1ad2" sha1="fcfb0a4691cd7d66168c421e4e1694ecaea56ab2" region="maincpu" offset="0"/>
+		<rom name="epr-18989a.16" size="524288" crc="c1c84d65" sha1="92bffbf1250c53499c37a53f9e2a054fc7bf256f" region="maincpu" offset="2"/>
+		<rom name="mpr-18974.11" size="4194304" crc="e29ecaff" sha1="dcdfe9f59158cec2f02b213ee13f5e40cdb92e55" region="main_data" offset="0"/>
+		<rom name="mpr-18975.12" size="4194304" crc="d8187582" sha1="34a0b32eeed1a9f41bca8b9261851881b2ba79f2" region="main_data" offset="2"/>
+		<rom name="mpr-18976.9" size="4194304" crc="c95c15eb" sha1="892063e91b2ed20e0600d4b188da1e9f45a19692" region="main_data" offset="800000"/>
+		<rom name="mpr-18977.10" size="4194304" crc="db8f5b6f" sha1="c11d2c9e1e215aa7b2ebb777639c8cd651901f52" region="main_data" offset="800002"/>
+		<rom name="mpr-18986.29" size="4194304" crc="04820f7b" sha1="5eb6682399b358d77658d82e612b02b724e3f3e1" region="copro_data" offset="0"/>
+		<rom name="mpr-18987.30" size="4194304" crc="2419367f" sha1="0a04a1049d2da486dc9dbb97b383bd24259b78c8" region="copro_data" offset="2"/>
+		<rom name="mpr-18980.17" size="4194304" crc="22345534" sha1="7b8bdcfe88953ce1b2d75af2ce4712ab6507e2cf" region="polygons" offset="0"/>
+		<rom name="mpr-18981.21" size="4194304" crc="2544a33d" sha1="a76193f70adb6abeba02328b290af5cca47d4e25" region="polygons" offset="2"/>
+		<rom name="mpr-18982.18" size="4194304" crc="d0a92b2a" sha1="95404baed88cc95b75ff9b9084d09622961d3e57" region="polygons" offset="800000"/>
+		<rom name="mpr-18983.22" size="4194304" crc="1b4af982" sha1="550f8248699b9267da7d2e64002be56972381714" region="polygons" offset="800002"/>
+		<rom name="mpr-18985.27" size="4194304" crc="ad6166e3" sha1="2c487fb743730cacf92dbea952b1efada0f073df" region="textures" offset="0"/>
+		<rom name="mpr-18984.25" size="4194304" crc="756f6f37" sha1="095964de773f515d64d65dbc8f8ef9bae97e5ba9" region="textures" offset="2"/>
+		<rom name="epr-18990.31" size="524288" crc="02b1b0d1" sha1="759b4683dc7149e04f41ddac7bd395e8d07ea858" region="audiocpu" offset="0"/>
+		<rom name="mpr-18978.32" size="4194304" crc="0f78b3e3" sha1="6c2cd6236cb001bb8d487a9b1e9907519dc43daa" region="samples" offset="0"/>
+		<rom name="mpr-18979.34" size="4194304" crc="f13ea36f" sha1="a8165116b5e07e031ff960201dd8c9a441544961" region="samples" offset="400000"/>
+		<device_ref tag=":maincpu" name="i80960kb"/>
+		<device_ref tag=":copro_adsp" name="adsp21062"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup1" name="nvram"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":timer0" name="timer"/>
+		<device_ref tag=":timer1" name="timer"/>
+		<device_ref tag=":timer2" name="timer"/>
+		<device_ref tag=":timer3" name="timer"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":m2comm" name="m2comm"/>
+		<device_ref tag=":billboard" name="segabill"/>
+		<device_ref tag=":billboard:billcpu" name="z80"/>
+		<device_ref tag=":billboard:io" name="315_5338a"/>
+		<chip type="cpu" tag="maincpu" name="Intel 80960KB" clock="25000000"/>
+		<chip type="cpu" tag="copro_adsp" name="Analog Devices ADSP21062 &quot;SHARC&quot;" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="stick" player="1" buttons="1" minimum="17" maximum="174" sensitivity="50" keydelta="5"/>
+			<control type="stick" player="2" buttons="1" minimum="17" maximum="174" sensitivity="50" keydelta="5"/>
+		</input>
+		<dipswitch name="Unknown" tag="SW" mask="1">
+			<diplocation name="SW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="2">
+			<diplocation name="SW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="4">
+			<diplocation name="SW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="8">
+			<diplocation name="SW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="16">
+			<diplocation name="SW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="32">
+			<diplocation name="SW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="64">
+			<diplocation name="SW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="128">
+			<diplocation name="SW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P1" tag="billboard:dsw" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P2" tag="billboard:dsw" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P1" tag="billboard:dsw" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P2" tag="billboard:dsw" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo" tag="billboard:dsw" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="64"/>
+		</dipswitch>
+		<dipswitch name="Testmode" tag="billboard:dsw" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="128"/>
+		</dipswitch>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":P1_X">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P1_Y">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2_X">
+			<analog mask="255"/>
+		</port>
+		<port tag=":P2_Y">
+			<analog mask="255"/>
+		</port>
+		<port tag=":SW">
+		</port>
+		<port tag=":billboard:dsw">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
 	<machine name="gunbustr" sourcefile="taito/gunbustr.cpp">
 		<description>Gunbuster (World)</description>
 		<year>1992</year>
@@ -35225,6 +35926,169 @@
 		<port tag=":IN3">
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
+	</machine>
+	<machine name="indy500" sourcefile="sega/model2.cpp">
+		<description>INDY 500 Twin (Revision A, Newer)</description>
+		<year>1995</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-18598a.15" size="524288" crc="3cdcac0f" sha1="2f616e363f4d246fece309e81325e5e3c4e9d9f8" region="maincpu" offset="0"/>
+		<rom name="epr-18599a.16" size="524288" crc="32bde9a2" sha1="0982952ab3c5b035f37beb9304ac950c0e78aea8" region="maincpu" offset="2"/>
+		<rom name="mpr-18237.11" size="4194304" crc="37e4255a" sha1="3ee69a5b9364048dfab242773d97f3af430845b7" region="main_data" offset="0"/>
+		<rom name="mpr-18238.12" size="4194304" crc="bf837bac" sha1="6624417b65f15f20427bc42c27283f10342c76b5" region="main_data" offset="2"/>
+		<rom name="mpr-18239.9" size="4194304" crc="9a2db86e" sha1="0b81f6037657af7d96ed5e9bfef407d87cbcc294" region="main_data" offset="800000"/>
+		<rom name="mpr-18240.10" size="4194304" crc="ab46a35f" sha1="67da857db7155a858a1fa575b6c50f4be3c9ab7c" region="main_data" offset="800002"/>
+		<rom name="epr-18596.7" size="524288" crc="8be1a5cd" sha1="56ed21234c6494d95b4efda6c3374199c5ac65db" region="main_data" offset="1000000"/>
+		<rom name="epr-18597.8" size="524288" crc="44824e38" sha1="f0fb0d73c1e72ce77c3931d436c54c034d2107a8" region="main_data" offset="1000002"/>
+		<rom name="epr-18249.29" size="524288" crc="a399f023" sha1="8b453313c16d935701ed7dbf71c1607c40aede63" region="copro_data" offset="0"/>
+		<rom name="epr-18250.30" size="524288" crc="7479ad52" sha1="d453e25709cd5970cd21bdc8b4785bc8eb5a50d7" region="copro_data" offset="2"/>
+		<rom name="mpr-18233.17" size="4194304" crc="48a024d3" sha1="501c6ab969713187025331942f922cb0e8efa69a" region="polygons" offset="0"/>
+		<rom name="mpr-18234.21" size="4194304" crc="1178bfc8" sha1="4a9982fdce08f9d375371763dd5287e8485c24b1" region="polygons" offset="2"/>
+		<rom name="mpr-18235.18" size="4194304" crc="e7d70d59" sha1="6081739c15a634d5cc7680a4fc7decead93540ed" region="polygons" offset="800000"/>
+		<rom name="mpr-18236.22" size="4194304" crc="6ca29e0e" sha1="5de8b569d2a91047836f4a251c21db82fd7841c9" region="polygons" offset="800002"/>
+		<rom name="mpr-18232.27" size="4194304" crc="f962347d" sha1="79f07ee6b821724294ca9e7a079cb33249102508" region="textures" offset="0"/>
+		<rom name="mpr-18231.25" size="4194304" crc="673d5338" sha1="ce592857496ccc0a51efb377cf7cccc000b4296b" region="textures" offset="2"/>
+		<rom name="epr-18600.31" size="262144" crc="269ee4a0" sha1="8ebabfcd27d634ff0bead0a1f138efc8708575e7" region="audiocpu" offset="0"/>
+		<rom name="mpr-18241.32" size="2097152" crc="3a380ae1" sha1="114113325e9e5262af8750c05089f24818943cde" region="samples" offset="0"/>
+		<rom name="mpr-18242.33" size="2097152" crc="1cc3deae" sha1="5c9cb8ce43a909b25b4e734c6a4ffd786f4dde31" region="samples" offset="200000"/>
+		<rom name="mpr-18243.34" size="2097152" crc="a00a0053" sha1="9c24fbcd0318c7e195dd153d6ba05e8c1e052968" region="samples" offset="400000"/>
+		<rom name="mpr-18244.35" size="2097152" crc="bfa75beb" sha1="fec89260d887e90ee9c2803e2eaf937cf9bfa10b" region="samples" offset="600000"/>
+		<device_ref tag=":maincpu" name="i80960kb"/>
+		<device_ref tag=":copro_adsp" name="adsp21062"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup1" name="nvram"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":timer0" name="timer"/>
+		<device_ref tag=":timer1" name="timer"/>
+		<device_ref tag=":timer2" name="timer"/>
+		<device_ref tag=":timer3" name="timer"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":m2comm" name="m2comm"/>
+		<device_ref tag=":billboard" name="segabill"/>
+		<device_ref tag=":billboard:billcpu" name="z80"/>
+		<device_ref tag=":billboard:io" name="315_5338a"/>
+		<chip type="cpu" tag="maincpu" name="Intel 80960KB" clock="25000000"/>
+		<chip type="cpu" tag="copro_adsp" name="Analog Devices ADSP21062 &quot;SHARC&quot;" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="4" minimum="0" maximum="255" sensitivity="30" keydelta="10"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="30" keydelta="10"/>
+		</input>
+		<dipswitch name="Unknown" tag="SW" mask="1">
+			<diplocation name="SW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="2">
+			<diplocation name="SW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="4">
+			<diplocation name="SW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="8">
+			<diplocation name="SW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="16">
+			<diplocation name="SW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="32">
+			<diplocation name="SW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="64">
+			<diplocation name="SW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="128">
+			<diplocation name="SW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P1" tag="billboard:dsw" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P2" tag="billboard:dsw" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P1" tag="billboard:dsw" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P2" tag="billboard:dsw" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo" tag="billboard:dsw" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="64"/>
+		</dipswitch>
+		<dipswitch name="Testmode" tag="billboard:dsw" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="128"/>
+		</dipswitch>
+		<port tag=":ACCEL">
+			<analog mask="255"/>
+		</port>
+		<port tag=":BRAKE">
+			<analog mask="255"/>
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":STEER">
+			<analog mask="255"/>
+		</port>
+		<port tag=":SW">
+		</port>
+		<port tag=":billboard:dsw">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
 	</machine>
 	<machine name="indytemp" sourcefile="atari/atarisy1.cpp" romof="atarisy1">
 		<description>Indiana Jones and the Temple of Doom (set 1)</description>
@@ -69591,6 +70455,232 @@
 		<slot name="scsi:7">
 		</slot>
 	</machine>
+	<machine name="scudplus" sourcefile="sega/model3.cpp" cloneof="scud" romof="scud">
+		<description>Scud Race Plus / Sega Super GT Plus - Twin/DX (Revision A)</description>
+		<year>1997</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-20092a.17" size="524288" crc="a94ec57e" sha1="bda1d9cb38e10a25f7cdde38f30ae13541fdbc5e" region="user1" offset="600006"/>
+		<rom name="epr-20093a.18" size="524288" crc="4ed2e35d" sha1="ac149b369db9fc80e63e1ed943d42ccd056dab1b" region="user1" offset="600004"/>
+		<rom name="epr-20094a.19" size="524288" crc="dbf17a43" sha1="fd719515c8ed78dea80fef20f3af9b72461f81d7" region="user1" offset="600002"/>
+		<rom name="epr-20095a.20" size="524288" crc="58c7e393" sha1="7e25101f72daa271f680a39042341d06249fd104" region="user1" offset="600000"/>
+		<rom name="mpr-19658.01" merge="mpr-19658.01" size="4194304" crc="d523235c" sha1="0dbfe746b2bdc185768d82c50a329c4c58ad4a29" region="user1" offset="800006"/>
+		<rom name="mpr-19659.02" merge="mpr-19659.02" size="4194304" crc="c47e7002" sha1="9644694e6d117564f92650f32f94ce4d7b5523fa" region="user1" offset="800004"/>
+		<rom name="mpr-19660.03" merge="mpr-19660.03" size="4194304" crc="d999c935" sha1="ef5429e90314d7a789d8ccbad4d0efaeaff9741a" region="user1" offset="800002"/>
+		<rom name="mpr-19661.04" merge="mpr-19661.04" size="4194304" crc="8e3fd241" sha1="df2596f483c759f068c75337320d369d80189ea1" region="user1" offset="800000"/>
+		<rom name="mpr-19662.05" merge="mpr-19662.05" size="4194304" crc="3c700eff" sha1="2ebb149a3d8a9de95afe091b3a1776f4dc3fc579" region="user1" offset="1800006"/>
+		<rom name="mpr-19663.06" merge="mpr-19663.06" size="4194304" crc="f6af1ca4" sha1="c78237b8f568792202d927ba0af86df6df80f87a" region="user1" offset="1800004"/>
+		<rom name="mpr-19664.07" merge="mpr-19664.07" size="4194304" crc="b9d11294" sha1="69b6f5708f423fb11337184a3646597356554058" region="user1" offset="1800002"/>
+		<rom name="mpr-19665.08" merge="mpr-19665.08" size="4194304" crc="f97c78f9" sha1="39aa69e365bf597e5e9185aaf4a044b485ebad8d" region="user1" offset="1800000"/>
+		<rom name="mpr-19666.09" merge="mpr-19666.09" size="4194304" crc="b53dc97f" sha1="a4fbc7aade153e6f5fc1dd40ba97d462f643c2c4" region="user1" offset="2800006"/>
+		<rom name="mpr-19667.10" merge="mpr-19667.10" size="4194304" crc="a8676799" sha1="78734b194e2797ac7efc40f3d0a2ff09dc93409e" region="user1" offset="2800004"/>
+		<rom name="mpr-19668.11" merge="mpr-19668.11" size="4194304" crc="0b4dd8d5" sha1="b5668ce7ac5a4ac844a0a5a07df9649df9ad9615" region="user1" offset="2800002"/>
+		<rom name="mpr-19669.12" merge="mpr-19669.12" size="4194304" crc="cdc43c61" sha1="b096d0eb302a9285a8ee396fdbd7b8c546049fd4" region="user1" offset="2800000"/>
+		<rom name="mpr-20097.13" size="4194304" crc="269a9dbe" sha1="df804ec1df87c1ab6387cd1bbd5dd224adc8d528" region="user1" offset="3800006"/>
+		<rom name="mpr-20098.14" size="4194304" crc="8355fa41" sha1="e6ac03fd7f1ab882a2861f65f6fea977c106dc15" region="user1" offset="3800004"/>
+		<rom name="mpr-20099.15" size="4194304" crc="fc9bd7d9" sha1="2dbcbb4b7f8fbeeeeacab51179003d8a4a9e771b" region="user1" offset="3800002"/>
+		<rom name="mpr-20100.16" size="4194304" crc="c99e2c01" sha1="074d4b5e85f00f5b7550e9944664fdfba8666569" region="user1" offset="3800000"/>
+		<rom name="mpr-19672.26" merge="mpr-19672.26" size="2097152" crc="588c29fd" sha1="5f58c885b506592106aa15208fc1db9d55ab4481" region="user3" offset="2"/>
+		<rom name="mpr-19673.27" merge="mpr-19673.27" size="2097152" crc="156abaa9" sha1="6ef9c042e9ee34090192c1c99c98d19f18efcfba" region="user3" offset="0"/>
+		<rom name="mpr-19674.28" merge="mpr-19674.28" size="2097152" crc="c7b0f98c" sha1="632dbc4cb225d91c82f6a1874517ed0b03b7a0c5" region="user3" offset="6"/>
+		<rom name="mpr-19675.29" merge="mpr-19675.29" size="2097152" crc="ff113396" sha1="af90bb696a3c1585318150cb83ea2ed85cdb67a1" region="user3" offset="4"/>
+		<rom name="mpr-19676.30" merge="mpr-19676.30" size="2097152" crc="fd852ead" sha1="854204c33aec8fb9c014db06e4106be37ecdaf0d" region="user3" offset="a"/>
+		<rom name="mpr-19677.31" merge="mpr-19677.31" size="2097152" crc="c6ac0347" sha1="c792da72af8bf9d011305c9ab7a6230b9e2c5316" region="user3" offset="8"/>
+		<rom name="mpr-19678.32" merge="mpr-19678.32" size="2097152" crc="b8819cfe" sha1="b99f8d0626bc38c75058e94d2461dbec6029589d" region="user3" offset="e"/>
+		<rom name="mpr-19679.33" merge="mpr-19679.33" size="2097152" crc="e126c3e3" sha1="5440540c2432a9ff5bd8e36467af46c456d16844" region="user3" offset="c"/>
+		<rom name="mpr-19680.34" merge="mpr-19680.34" size="2097152" crc="00ea5cef" sha1="3aed46182c0e99c0b72b26c718e2fa20fa7d2e44" region="user4" offset="2"/>
+		<rom name="mpr-19681.35" merge="mpr-19681.35" size="2097152" crc="c949325f" sha1="146de7abf764adc1840b84294cbd473f191cbcb8" region="user4" offset="0"/>
+		<rom name="mpr-19682.36" merge="mpr-19682.36" size="2097152" crc="ce5ca065" sha1="2f518186b29e7cf5fa1c6b036427b8015cfb681e" region="user4" offset="6"/>
+		<rom name="mpr-19683.37" merge="mpr-19683.37" size="2097152" crc="e5856419" sha1="3f8f5b8b36d417090955d34553dcf6d8d9f34558" region="user4" offset="4"/>
+		<rom name="mpr-19684.38" merge="mpr-19684.38" size="2097152" crc="56f6ec97" sha1="dfd251dba77b39342457036fcbe4683d24029600" region="user4" offset="a"/>
+		<rom name="mpr-19685.39" merge="mpr-19685.39" size="2097152" crc="42b49304" sha1="4e185d0f97de44a25b5f982a46f0c3d1dab406c2" region="user4" offset="8"/>
+		<rom name="mpr-19686.40" merge="mpr-19686.40" size="2097152" crc="84eed592" sha1="cc03094770945096d81bc981bff77b540452b045" region="user4" offset="e"/>
+		<rom name="mpr-19687.41" merge="mpr-19687.41" size="2097152" crc="776ce694" sha1="d1e56ebd0011aa3a54a5829c6bd0f5343b283fa0" region="user4" offset="c"/>
+		<rom name="epr-20096a.21" size="524288" crc="0fef288b" sha1="d6842108d1baea5fffba679d81179c8ffaa87b93" region="audiocpu" offset="0"/>
+		<rom name="mpr-19670.22" merge="mpr-19670.22" size="4194304" crc="bd31cc06" sha1="d1c85d0cf79b92de5bcbe20dfb8b626ad72de019" region="samples" offset="0"/>
+		<rom name="mpr-20101.24" size="4194304" crc="66d1e31f" sha1="cbc06e9aebcdf82f14bef1c35cbb3203530ef6ae" region="samples" offset="400000"/>
+		<rom name="epr-19612.2" merge="epr-19612.2" size="131072" crc="13978fd4" sha1="bb597914a34308376239afab6e04fc231e39e379" region="dsbz80:mpegcpu" offset="0"/>
+		<rom name="mpr-19603.57" merge="mpr-19603.57" size="2097152" crc="b1b1765f" sha1="cdcb4d6e6507322f84ac5153b386c3eb5d031e22" region="dsbz80:mpeg" offset="0"/>
+		<rom name="mpr-19604.58" merge="mpr-19604.58" size="2097152" crc="6ac85b49" sha1="3e74ae6e9ac7b208e2cd5ebdf80bb3cee19d436d" region="dsbz80:mpeg" offset="200000"/>
+		<rom name="mpr-19605.59" merge="mpr-19605.59" size="2097152" crc="bec891eb" sha1="357849d2842ac77f9945eb4a0ca89253e474f617" region="dsbz80:mpeg" offset="400000"/>
+		<rom name="mpr-19606.60" merge="mpr-19606.60" size="2097152" crc="adad46b2" sha1="360b23870f1d15ab527fae1bb731da6e7a8b19c1" region="dsbz80:mpeg" offset="600000"/>
+		<rom name="epr-19338.bin" size="65536" crc="dbf88de6" sha1="8f5c83e82c26a37a1ed0476d7dfeb698b8417899" region="drivebd" offset="0"/>
+		<device_ref tag=":maincpu" name="ppc603e"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup" name="nvram"/>
+		<device_ref tag=":rtc" name="rtc72421"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp1" name="scsp"/>
+		<device_ref tag=":scsp2" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":billboard" name="segabill"/>
+		<device_ref tag=":billboard:billcpu" name="z80"/>
+		<device_ref tag=":billboard:io" name="315_5338a"/>
+		<device_ref tag=":scsi" name="scsi"/>
+		<device_ref tag=":scsi:1" name="scsi_slot"/>
+		<device_ref tag=":scsi:2" name="scsi_slot"/>
+		<device_ref tag=":scsi:3" name="scsi_slot"/>
+		<device_ref tag=":scsi:4" name="scsi_slot"/>
+		<device_ref tag=":scsi:5" name="scsi_slot"/>
+		<device_ref tag=":scsi:6" name="scsi_slot"/>
+		<device_ref tag=":scsi:7" name="scsi_slot"/>
+		<device_ref tag=":lsi53c810" name="lsi53c810"/>
+		<device_ref tag=":comm_board" name="m3comm"/>
+		<device_ref tag=":comm_board:m3commcpu" name="m68000"/>
+		<device_ref tag=":comm_board:ram" name="ram"/>
+		<device_ref tag=":dsbz80" name="dsbz80_device"/>
+		<device_ref tag=":dsbz80:mpegcpu" name="z80"/>
+		<device_ref tag=":dsbz80:uart" name="i8251"/>
+		<device_ref tag=":dsbz80:uart_clock" name="clock"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC 603E" clock="100000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="cpu" tag="comm_board:m3commcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="dsbz80:mpegcpu" name="Zilog Z80" clock="4000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp1" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<chip type="audio" tag="scsp2" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<chip type="audio" tag="dsbz80" name="Sega Z80-based Digital Sound Board"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="8" minimum="0" maximum="255" sensitivity="30" keydelta="10"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="30" keydelta="10"/>
+		</input>
+		<dipswitch name="Unknown" tag="DSW" mask="1">
+			<diplocation name="SW" number="8"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="2">
+			<diplocation name="SW" number="7"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="4">
+			<diplocation name="SW" number="6"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="8">
+			<diplocation name="SW" number="5"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="16">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="32">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="64">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="128">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P1" tag="billboard:dsw" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P2" tag="billboard:dsw" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P1" tag="billboard:dsw" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P2" tag="billboard:dsw" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo" tag="billboard:dsw" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="64"/>
+		</dipswitch>
+		<dipswitch name="Testmode" tag="billboard:dsw" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="128"/>
+		</dipswitch>
+		<port tag=":AN0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":AN4">
+		</port>
+		<port tag=":AN5">
+		</port>
+		<port tag=":AN6">
+		</port>
+		<port tag=":AN7">
+		</port>
+		<port tag=":DSW">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":billboard:dsw">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<slot name="scsi:1">
+		</slot>
+		<slot name="scsi:2">
+		</slot>
+		<slot name="scsi:3">
+		</slot>
+		<slot name="scsi:4">
+		</slot>
+		<slot name="scsi:5">
+		</slot>
+		<slot name="scsi:6">
+		</slot>
+		<slot name="scsi:7">
+		</slot>
+	</machine>
 	<machine name="sdi" sourcefile="sega/segas16a.cpp">
 		<description>SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)</description>
 		<year>1987</year>
@@ -74269,6 +75359,161 @@
 		<port tag=":IN2">
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
+	</machine>
+	<machine name="sgt24h" sourcefile="sega/model2.cpp">
+		<description>Super GT 24h</description>
+		<year>1996</year>
+		<manufacturer>Jaleco</manufacturer>
+		<rom name="epr-19155.15" size="524288" crc="593952fd" sha1="1fc4afc6e3910cc8adb0688542e61a9efb442e56" region="maincpu" offset="0"/>
+		<rom name="epr-19156.16" size="524288" crc="a91fc4ee" sha1="a37611da0295f7d7e5d2411c3f9b73140d311f74" region="maincpu" offset="2"/>
+		<rom name="mpr-19146.11" size="4194304" crc="d66b5b0f" sha1="c2a5b83c9041d8f46dfac4a3ff8cfdefb96d02b3" region="main_data" offset="0"/>
+		<rom name="mpr-19147.12" size="4194304" crc="d5558f48" sha1="c9f40328d6974b7767fa6ba719d0d2b7a173c210" region="main_data" offset="2"/>
+		<rom name="mpr-19148.9" size="4194304" crc="a14c86db" sha1="66cd8672c00e4e2572de7c5648de595674ffa8f8" region="main_data" offset="800000"/>
+		<rom name="mpr-19149.10" size="4194304" crc="94ef5849" sha1="3e1748dc5e61c93eedbf0ca6b1946a30be722403" region="main_data" offset="800002"/>
+		<rom name="mpr-19150.17" size="4194304" crc="e0ad870e" sha1="3429d9f9434d75ddb5fa05d4b493828adfe826a4" region="polygons" offset="0"/>
+		<rom name="mpr-19151.21" size="4194304" crc="e2a1b125" sha1="cc5c2d9ab8a01f52e66969464f53ae3cefca6a09" region="polygons" offset="2"/>
+		<rom name="mpr-19153.27" size="2097152" crc="136adfd0" sha1="70ce4e609c8b003ff04518044c18d29089e6a353" region="textures" offset="0"/>
+		<rom name="mpr-19152.25" size="2097152" crc="363769a2" sha1="51b2f11a01fb72e151025771f8a8496993e605c2" region="textures" offset="2"/>
+		<rom name="epr-18643a.7" size="131072" crc="b5e048ec" sha1="8182e05a2ffebd590a936c1359c81e60caa79c2a" region="cpu4" offset="0"/>
+		<rom name="epr-19157.31" size="524288" crc="8ffea0cf" sha1="439e784081329db2fe03419681150f3216f4ccff" region="audiocpu" offset="0"/>
+		<rom name="mpr-19154.32" size="4194304" crc="7cd9e679" sha1="b9812c4f3042f95febc96bcdd46e3b0724ad4b4f" region="samples" offset="0"/>
+		<device_ref tag=":maincpu" name="i80960kb"/>
+		<device_ref tag=":copro_adsp" name="adsp21062"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup1" name="nvram"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":timer0" name="timer"/>
+		<device_ref tag=":timer1" name="timer"/>
+		<device_ref tag=":timer2" name="timer"/>
+		<device_ref tag=":timer3" name="timer"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":m2comm" name="m2comm"/>
+		<device_ref tag=":billboard" name="segabill"/>
+		<device_ref tag=":billboard:billcpu" name="z80"/>
+		<device_ref tag=":billboard:io" name="315_5338a"/>
+		<chip type="cpu" tag="maincpu" name="Intel 80960KB" clock="25000000"/>
+		<chip type="cpu" tag="copro_adsp" name="Analog Devices ADSP21062 &quot;SHARC&quot;" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="3" minimum="0" maximum="255" sensitivity="30" keydelta="10"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="30" keydelta="30" reverse="yes"/>
+		</input>
+		<dipswitch name="Unknown" tag="SW" mask="1">
+			<diplocation name="SW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="2">
+			<diplocation name="SW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="4">
+			<diplocation name="SW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="8">
+			<diplocation name="SW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="16">
+			<diplocation name="SW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="32">
+			<diplocation name="SW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="64">
+			<diplocation name="SW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="128">
+			<diplocation name="SW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P1" tag="billboard:dsw" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P2" tag="billboard:dsw" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P1" tag="billboard:dsw" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P2" tag="billboard:dsw" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo" tag="billboard:dsw" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="64"/>
+		</dipswitch>
+		<dipswitch name="Testmode" tag="billboard:dsw" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="128"/>
+		</dipswitch>
+		<port tag=":ACCEL">
+			<analog mask="255"/>
+		</port>
+		<port tag=":BRAKE">
+			<analog mask="255"/>
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":STEER">
+			<analog mask="255"/>
+		</port>
+		<port tag=":SW">
+		</port>
+		<port tag=":billboard:dsw">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
 	</machine>
 	<machine name="shadfrce" sourcefile="technos/shadfrce.cpp">
 		<description>Shadow Force (World, Version 3)</description>
@@ -87622,6 +88867,478 @@
 		</port>
 		<driver status="good" emulation="good" cocktail="preliminary" savestate="supported"/>
 	</machine>
+	<machine name="vcop" sourcefile="sega/model2.cpp">
+		<description>Virtua Cop (Revision B)</description>
+		<year>1994</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-17166b.12" size="131072" crc="a5647c59" sha1="0a9e0be447d3591e82efd40ef4acbfe7ae211579" region="maincpu" offset="0"/>
+		<rom name="epr-17167b.13" size="131072" crc="f5dde26a" sha1="95db029bc4206a44ea216afbcd1c19689f79115a" region="maincpu" offset="2"/>
+		<rom name="epr-17160a.14" size="131072" crc="267f3242" sha1="40ec09cda984bb80969bfae2278432153137c213" region="maincpu" offset="40000"/>
+		<rom name="epr-17161a.15" size="131072" crc="f7126876" sha1="b0ceb1206edaa507ec15723497fcd447a511f423" region="maincpu" offset="40002"/>
+		<rom name="mpr-17164.10" size="2097152" crc="ac5fc501" sha1="e60deec1e79d207d37d3f4ddd83a1b2125c411ac" region="main_data" offset="0"/>
+		<rom name="mpr-17165.11" size="2097152" crc="82296d00" sha1="23327137b36c98dfb9175ea9d36478e7385dfac2" region="main_data" offset="2"/>
+		<rom name="mpr-17162.8" size="2097152" crc="60ddd41e" sha1="0894c9bcdedeb09f921419a309858e242cb8db3a" region="main_data" offset="400000"/>
+		<rom name="mpr-17163.9" size="2097152" crc="8c1f9dc8" sha1="cf99a5bb4f343d59c8d6f5716287b6e16bef6412" region="main_data" offset="400002"/>
+		<rom name="epr-17168a.6" size="524288" crc="59091a37" sha1="14591c7015aaf126755be584aa94c04e6de222fa" region="main_data" offset="800000"/>
+		<rom name="epr-17169a.7" size="524288" crc="0495808d" sha1="5b86a9a68c2b52f942aa8d858ee7a491f546a921" region="main_data" offset="800002"/>
+		<rom name="mpr-17159.16" size="2097152" crc="e218727d" sha1="1458d01d49936a0b8d497b62ff9ea940ca753b37" region="polygons" offset="0"/>
+		<rom name="mpr-17156.20" size="2097152" crc="c4f4aabf" sha1="8814cd329609cc8a188fedd770230bb9a5d00361" region="polygons" offset="2"/>
+		<rom name="mpr-17158.25" size="2097152" crc="1108d1ec" sha1="e95d4166bd4b26c5f21b85821b410f53045f4309" region="textures" offset="0"/>
+		<rom name="mpr-17157.24" size="2097152" crc="cf31e33d" sha1="0cb62d4f28b5ad8a7e4c82b0ca8aea3037b05455" region="textures" offset="2"/>
+		<rom name="epr-17170.7" size="131072" crc="06a38ae2" sha1="a2c3d14d9266449ebfc6d976a956e0a8a602cfb0" region="m1audio:sndcpu" offset="0"/>
+		<rom name="epr-17171.8" size="131072" crc="b5e436f8" sha1="1da3cb52d64f52d03a8de9954afffbc6e1549a5b" region="m1audio:sndcpu" offset="20000"/>
+		<rom name="mpr-17172.32" size="1048576" crc="ab22cac3" sha1="0e872158faeb8c0404b10cdf0a3fa36f89a5093e" region="m1audio:pcm1" offset="0"/>
+		<rom name="mpr-17173.33" size="1048576" crc="3cb4005c" sha1="a56f436ea6dfe0968b73ae7bc92bb2f4c612460d" region="m1audio:pcm1" offset="200000"/>
+		<rom name="mpr-17174.4" size="2097152" crc="a50369cc" sha1="69807157baf6e3679adc95633c82b0236db01247" region="m1audio:pcm2" offset="0"/>
+		<rom name="mpr-17175.5" size="2097152" crc="9136d43c" sha1="741f80a8ff8165ffe171dc568e0da4ad0bde4809" region="m1audio:pcm2" offset="200000"/>
+		<rom name="opr-14742a.45" size="131072" crc="90c6b117" sha1="f46429fffcee17d056f56d5fe035a33f1fd6c27e" region="copro_tgp_tables" offset="0"/>
+		<rom name="opr-14743a.46" size="131072" crc="ae7f446b" sha1="5b9f1fc47caf21e061e930c0d72804e4ec8c7bca" region="copro_tgp_tables" offset="2"/>
+		<rom name="opr-14744.58" size="131072" crc="730ea9e0" sha1="651f1db4089a400d073b19ada299b4b08b08f372" region="other_data" offset="0"/>
+		<rom name="opr-14745.59" size="131072" crc="4c934d96" sha1="e3349ece0e47f684d61ad11bfea4a90602287350" region="other_data" offset="2"/>
+		<rom name="opr-14746.62" size="131072" crc="2a266cbd" sha1="34e047a93459406c22acf4c25089d1a4955f94ca" region="other_data" offset="40000"/>
+		<rom name="opr-14747.63" size="131072" crc="a4ad5e19" sha1="7d7ec300eeb9a8de1590011e37108688c092f329" region="other_data" offset="40002"/>
+		<device_ref tag=":maincpu" name="i80960kb"/>
+		<device_ref tag=":copro_tgp" name="mb86234"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":backup1" name="nvram"/>
+		<device_ref tag=":timer0" name="timer"/>
+		<device_ref tag=":timer1" name="timer"/>
+		<device_ref tag=":timer2" name="timer"/>
+		<device_ref tag=":timer3" name="timer"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":ioboard" name="model1io2"/>
+		<device_ref tag=":ioboard:iocpu" name="tmpz84c015"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_sio" name="z80sio"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_sio:cha" name="z80sio_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_sio:chb" name="z80sio_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc" name="z80ctc"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc:ch0" name="z80ctc_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc:ch1" name="z80ctc_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc:ch2" name="z80ctc_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc:ch3" name="z80ctc_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_pio" name="z80pio"/>
+		<device_ref tag=":ioboard:cn7" name="rs232"/>
+		<device_ref tag=":ioboard:cn8" name="rs232"/>
+		<device_ref tag=":ioboard:io" name="315_5338a"/>
+		<device_ref tag=":ioboard:eeprom" name="93c46_16"/>
+		<device_ref tag=":ioboard:watchdog" name="mb3773"/>
+		<device_ref tag=":ioboard:adc" name="msm6253"/>
+		<device_ref tag=":ioboard:screen" name="screen"/>
+		<device_ref tag=":ioboard:palette" name="palette"/>
+		<device_ref tag=":ioboard:lcd" name="hd44780"/>
+		<device_ref tag=":dpram" name="mb8421"/>
+		<device_ref tag=":m1audio" name="segam1audio"/>
+		<device_ref tag=":m1audio:sndcpu" name="m68000"/>
+		<device_ref tag=":m1audio:speaker" name="speaker"/>
+		<device_ref tag=":m1audio:ymsnd" name="ym3438"/>
+		<device_ref tag=":m1audio:pcm1" name="ymw258f"/>
+		<device_ref tag=":m1audio:pcm2" name="ymw258f"/>
+		<device_ref tag=":m1audio:uart" name="i8251"/>
+		<device_ref tag=":m1audio:uart_clock" name="clock"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":m2comm" name="m2comm"/>
+		<chip type="cpu" tag="maincpu" name="Intel 80960KB" clock="25000000"/>
+		<chip type="cpu" tag="copro_tgp" name="Fujitsu MB86234 (TGP)" clock="50000000"/>
+		<chip type="cpu" tag="ioboard:iocpu" name="Toshiba TMPZ84C015" clock="9830400"/>
+		<chip type="cpu" tag="m1audio:sndcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="audio" tag="m1audio:speaker" name="Speaker"/>
+		<chip type="audio" tag="m1audio:ymsnd" name="YM3438 OPN2C" clock="8000000"/>
+		<chip type="audio" tag="m1audio:pcm1" name="Yamaha YMW-258-F" clock="10000000"/>
+		<chip type="audio" tag="m1audio:pcm2" name="Yamaha YMW-258-F" clock="10000000"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<display tag="ioboard:screen" type="lcd" rotate="0" width="121" height="19" refresh="50.000000" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="lightgun" player="1" buttons="1" minimum="36" maximum="425" sensitivity="50" keydelta="10"/>
+			<control type="lightgun" player="2" buttons="1" minimum="39" maximum="425" sensitivity="50" keydelta="10"/>
+		</input>
+		<dipswitch name="No Enemies" tag="IN2" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="ROM_EMU" tag="ioboard:board" mask="16">
+			<dipvalue name="On" value="0"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="MODE" tag="ioboard:board" mask="32">
+			<dipvalue name="On" value="0"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Reloading" tag="ioboard:dsw1" mask="1">
+			<diplocation name="DSW1" number="1"/>
+			<dipvalue name="Normal" value="1" default="yes"/>
+			<dipvalue name="Auto Reload" value="0"/>
+		</dipswitch>
+		<dipswitch name="Enemy Character" tag="ioboard:dsw1" mask="2">
+			<diplocation name="DSW1" number="2"/>
+			<dipvalue name="Normal" value="2" default="yes"/>
+			<dipvalue name="Robot" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="4">
+			<diplocation name="DSW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="8">
+			<diplocation name="DSW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="16">
+			<diplocation name="DSW1" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="32">
+			<diplocation name="DSW1" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="64">
+			<diplocation name="DSW1" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="128">
+			<diplocation name="DSW1" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="1">
+			<diplocation name="DSW2" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="2">
+			<diplocation name="DSW2" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="4">
+			<diplocation name="DSW2" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="8">
+			<diplocation name="DSW2" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="16">
+			<diplocation name="DSW2" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="32">
+			<diplocation name="DSW2" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="64">
+			<diplocation name="DSW2" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="128">
+			<diplocation name="DSW2" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="1">
+			<diplocation name="DSW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="2">
+			<diplocation name="DSW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="4">
+			<diplocation name="DSW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="8">
+			<diplocation name="DSW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="16">
+			<diplocation name="DSW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="32">
+			<diplocation name="DSW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="64">
+			<diplocation name="DSW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="128">
+			<diplocation name="DSW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":P1_X">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P1_Y">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P2_X">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P2_Y">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":ioboard:board">
+		</port>
+		<port tag=":ioboard:dsw1">
+		</port>
+		<port tag=":ioboard:dsw2">
+		</port>
+		<port tag=":ioboard:dsw3">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" overall="imperfect"/>
+		<slot name="ioboard:cn7">
+			<slotoption name="terminal" devname="serial_terminal"/>
+			<slotoption name="swtpc8212" devname="swtpc8212_terminal"/>
+			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
+			<slotoption name="rs_printer" devname="rs_serial_printer"/>
+			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
+			<slotoption name="printer" devname="serial_printer"/>
+			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
+			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
+			<slotoption name="mockingboard" devname="mockingboardd"/>
+			<slotoption name="loopback" devname="rs232_loopback"/>
+			<slotoption name="keyboard" devname="serial_keyboard"/>
+			<slotoption name="ie15" devname="ie15_terminal"/>
+			<slotoption name="null_modem" devname="null_modem"/>
+			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
+			<slotoption name="h19" devname="serial_heath_h19"/>
+			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
+		</slot>
+		<slot name="ioboard:cn8">
+			<slotoption name="terminal" devname="serial_terminal"/>
+			<slotoption name="swtpc8212" devname="swtpc8212_terminal"/>
+			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
+			<slotoption name="rs_printer" devname="rs_serial_printer"/>
+			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
+			<slotoption name="printer" devname="serial_printer"/>
+			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
+			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
+			<slotoption name="mockingboard" devname="mockingboardd"/>
+			<slotoption name="loopback" devname="rs232_loopback"/>
+			<slotoption name="keyboard" devname="serial_keyboard"/>
+			<slotoption name="ie15" devname="ie15_terminal"/>
+			<slotoption name="null_modem" devname="null_modem"/>
+			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
+			<slotoption name="h19" devname="serial_heath_h19"/>
+			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
+		</slot>
+	</machine>
+	<machine name="vcop2" sourcefile="sega/model2.cpp">
+		<description>Virtua Cop 2</description>
+		<year>1995</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="epr-18524.12" size="524288" crc="1858988b" sha1="2979f8470cc31e6c5c32c6fec1a87dbd29b52309" region="maincpu" offset="0"/>
+		<rom name="epr-18525.13" size="524288" crc="0c13df3f" sha1="6b4188f04aad80b89f1826e8ca47cff763980410" region="maincpu" offset="2"/>
+		<rom name="epr-18518.14" size="524288" crc="7842951b" sha1="bed4ec9a5e59807d17e5e602bdaf3c68fcba08b6" region="maincpu" offset="100000"/>
+		<rom name="epr-18519.15" size="524288" crc="31a30edc" sha1="caf3c2676508a2ed032d3657ac640a257f04bdd4" region="maincpu" offset="100002"/>
+		<rom name="mpr-18516.10" size="2097152" crc="a3928ff0" sha1="5a9695fb5eda394a1111a05ee5fb9cce29970e91" region="main_data" offset="0"/>
+		<rom name="mpr-18517.11" size="2097152" crc="4bd73da4" sha1="a4434bce019729e2148a95e3a6dea38de7f789c1" region="main_data" offset="2"/>
+		<rom name="mpr-18514.8" size="2097152" crc="791283c5" sha1="006fb22eefdd9205ede9a74fe53cbffe8c8fd45b" region="main_data" offset="400000"/>
+		<rom name="mpr-18515.9" size="2097152" crc="6ba1ffec" sha1="70f493aa4eb93edce8dd5b7b532d1f50f81069ce" region="main_data" offset="400002"/>
+		<rom name="mpr-18522.6" size="2097152" crc="61d18536" sha1="cc467cb26a8fccc48837d000fe9e1c41b0c0f4f9" region="main_data" offset="800000"/>
+		<rom name="mpr-18523.7" size="2097152" crc="61d08dc4" sha1="40d8231d184582c0fc01ad874371aaec7dfcc337" region="main_data" offset="800002"/>
+		<rom name="epr-18520.4" size="524288" crc="1d4ec5e8" sha1="44c4b5560d150909342e4182496f136c8c5e2edb" region="main_data" offset="c00000"/>
+		<rom name="epr-18521.5" size="524288" crc="b8b3781c" sha1="11956fe912c34d6a86a6b91d55987f6bead73473" region="main_data" offset="c00002"/>
+		<rom name="mpr-18513.16" size="2097152" crc="777a3633" sha1="edc2798c4d88975ce67b54fc0db008e7d24db6ef" region="polygons" offset="0"/>
+		<rom name="mpr-18510.20" size="2097152" crc="e83de997" sha1="8a8597aa31609663869e584cc5fad6e4b84f7dbe" region="polygons" offset="2"/>
+		<rom name="mpr-18511.24" size="2097152" crc="cae77a4f" sha1="f21474486f0dc4092cbad4566deea8a952862ab7" region="textures" offset="2"/>
+		<rom name="mpr-18512.25" size="2097152" crc="d9bc7e71" sha1="774eba886083b0dad9a47519c5801e44346312cf" region="textures" offset="0"/>
+		<rom name="epr-18530.30" size="524288" crc="ac9c8357" sha1="ad297c7fecaa9b877f0dd31e859983816947e437" region="audiocpu" offset="0"/>
+		<rom name="mpr-18529.31" size="2097152" crc="f76715b1" sha1="258418c1cb37338a694e48f3b48fadfae5f40239" region="samples" offset="0"/>
+		<rom name="mpr-18528.32" size="2097152" crc="287a2f9a" sha1="78ba93ab90322152efc37f7130073b0dc516ef5d" region="samples" offset="200000"/>
+		<rom name="mpr-18527.36" size="2097152" crc="e6a49314" sha1="26563f425f2f0906ae9278fe5de02955653d49fe" region="samples" offset="400000"/>
+		<rom name="mpr-18526.37" size="2097152" crc="6516d9b5" sha1="8f13cb02c76f7b7cd11f3c3772ff13302d55e9c3" region="samples" offset="600000"/>
+		<rom name="opr-14742a.45" size="131072" crc="90c6b117" sha1="f46429fffcee17d056f56d5fe035a33f1fd6c27e" region="copro_tgp_tables" offset="0"/>
+		<rom name="opr-14743a.46" size="131072" crc="ae7f446b" sha1="5b9f1fc47caf21e061e930c0d72804e4ec8c7bca" region="copro_tgp_tables" offset="2"/>
+		<rom name="opr-14744.58" size="131072" crc="730ea9e0" sha1="651f1db4089a400d073b19ada299b4b08b08f372" region="other_data" offset="0"/>
+		<rom name="opr-14745.59" size="131072" crc="4c934d96" sha1="e3349ece0e47f684d61ad11bfea4a90602287350" region="other_data" offset="2"/>
+		<rom name="opr-14746.62" size="131072" crc="2a266cbd" sha1="34e047a93459406c22acf4c25089d1a4955f94ca" region="other_data" offset="40000"/>
+		<rom name="opr-14747.63" size="131072" crc="a4ad5e19" sha1="7d7ec300eeb9a8de1590011e37108688c092f329" region="other_data" offset="40002"/>
+		<rom name="mpr-16310.15" size="524288" crc="c078a780" sha1="0ad5b49774172743e2708b7ca4c061acfe10957a" region="video_unk" offset="0"/>
+		<rom name="mpr-16311.16" size="524288" crc="452a492b" sha1="88c2f6c2dbfd0c1b39a7bf15c74455fb68c7274e" region="video_unk" offset="1"/>
+		<rom name="mpr-16312.14" size="524288" crc="a25fef5b" sha1="c6a37856b97f5bc4996cb6b66209f47af392cc38" region="video_unk" offset="2"/>
+		<device_ref tag=":maincpu" name="i80960kb"/>
+		<device_ref tag=":copro_tgp" name="mb86234"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":backup1" name="nvram"/>
+		<device_ref tag=":io" name="315_5649"/>
+		<device_ref tag=":timer0" name="timer"/>
+		<device_ref tag=":timer1" name="timer"/>
+		<device_ref tag=":timer2" name="timer"/>
+		<device_ref tag=":timer3" name="timer"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":scsp" name="scsp"/>
+		<device_ref tag=":uart" name="i8251"/>
+		<device_ref tag=":uart_clock" name="clock"/>
+		<device_ref tag=":m2comm" name="m2comm"/>
+		<device_ref tag=":billboard" name="segabill"/>
+		<device_ref tag=":billboard:billcpu" name="z80"/>
+		<device_ref tag=":billboard:io" name="315_5338a"/>
+		<chip type="cpu" tag="maincpu" name="Intel 80960KB" clock="25000000"/>
+		<chip type="cpu" tag="copro_tgp" name="Fujitsu MB86234 (TGP)" clock="50000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="11289600"/>
+		<chip type="cpu" tag="billboard:billcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="scsp" name="Yamaha YMF292-F SCSP" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="lightgun" player="1" buttons="1" minimum="36" maximum="425" sensitivity="50" keydelta="10"/>
+			<control type="lightgun" player="2" buttons="1" minimum="36" maximum="425" sensitivity="50" keydelta="10"/>
+		</input>
+		<dipswitch name="Unknown" tag="SW" mask="1">
+			<diplocation name="SW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="2">
+			<diplocation name="SW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="4">
+			<diplocation name="SW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="8">
+			<diplocation name="SW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="16">
+			<diplocation name="SW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="32">
+			<diplocation name="SW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="64">
+			<diplocation name="SW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="SW" mask="128">
+			<diplocation name="SW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P1" tag="billboard:dsw" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Winner LED P2" tag="billboard:dsw" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P1" tag="billboard:dsw" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test 7-Segment P2" tag="billboard:dsw" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="billboard:dsw" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo" tag="billboard:dsw" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="64"/>
+		</dipswitch>
+		<dipswitch name="Testmode" tag="billboard:dsw" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+			<dipvalue name="On" value="128"/>
+		</dipswitch>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":P1_X">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P1_Y">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P2_X">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":P2_Y">
+			<analog mask="1023"/>
+		</port>
+		<port tag=":SW">
+		</port>
+		<port tag=":billboard:dsw">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
 	<machine name="vendetta" sourcefile="konami/vendetta.cpp">
 		<description>Vendetta (World, 4 Players, ver. T)</description>
 		<year>1991</year>
@@ -88478,6 +90195,241 @@
 		</slot>
 		<slot name="scsi:7">
 		</slot>
+	</machine>
+	<machine name="vformula" sourcefile="sega/model1.cpp" cloneof="vr" romof="vr">
+		<description>Virtua Formula</description>
+		<year>1993</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="opr14742.bin" merge="opr14742.bin" size="131072" crc="446a1085" sha1="51b3f4d3a35a36087ea0ba4e26d6e7d17b6418e2" region="copro_tables" offset="0"/>
+		<rom name="opr14743.bin" merge="opr14743.bin" size="131072" crc="e8953554" sha1="1499f8e30ac15affc66e6f04ae031bb8680d9260" region="copro_tables" offset="2"/>
+		<rom name="opr-14744.58" merge="opr-14744.58" size="131072" crc="730ea9e0" sha1="651f1db4089a400d073b19ada299b4b08b08f372" region="other_data" offset="0"/>
+		<rom name="opr-14745.59" merge="opr-14745.59" size="131072" crc="4c934d96" sha1="e3349ece0e47f684d61ad11bfea4a90602287350" region="other_data" offset="2"/>
+		<rom name="opr-14746.62" merge="opr-14746.62" size="131072" crc="2a266cbd" sha1="34e047a93459406c22acf4c25089d1a4955f94ca" region="other_data" offset="40000"/>
+		<rom name="opr-14747.63" merge="opr-14747.63" size="131072" crc="a4ad5e19" sha1="7d7ec300eeb9a8de1590011e37108688c092f329" region="other_data" offset="40002"/>
+		<rom name="opr14748.bin" merge="opr14748.bin" size="131072" crc="4a532cb8" sha1="23280ebbcd6b2bc8a8e643a2d07a58d6598301b8" region="other_other_data" offset="0"/>
+		<rom name="315-5571.bin" merge="315-5571.bin" size="8192" crc="1233db2a" sha1="06760409d40f3d9117fd3e7c7ab62dfd70aa2a4d" region="315_5571" offset="0"/>
+		<rom name="315-5572.bin" merge="315-5572.bin" size="8192" crc="66785906" sha1="d94a51eced65b0073fb39625927782bf264d271a" region="315_5572" offset="0"/>
+		<rom name="epr-15638.14" size="524288" crc="b9db21a2" sha1="db58c047977f5fc37f278afe7159a78e3fa6c015" region="maincpu" offset="200000"/>
+		<rom name="epr-15639.15" size="524288" crc="4c3796f5" sha1="1bf312a4999a15fbc5d194627f9c0ad9dbc1f2c0" region="maincpu" offset="200001"/>
+		<rom name="epr-15623.4" size="131072" crc="155fa5be" sha1="a0a3fd8980c52279adbc1c64aa22e42a0b196dd9" region="maincpu" offset="fc0000"/>
+		<rom name="epr-15622.5" size="131072" crc="18007f6f" sha1="61573742627ec027abd2cc700e79f04da5215bfd" region="maincpu" offset="fe0000"/>
+		<rom name="epr-15641.6" size="524288" crc="bf01e4d5" sha1="53ad9ecd2de2ea1d7b446f9db61352e10a55ea05" region="maincpu" offset="1000000"/>
+		<rom name="epr-15640.7" size="524288" crc="3e6d83dc" sha1="62aa552a38ee193e0dfab5d1261756fe237db42c" region="maincpu" offset="1000001"/>
+		<rom name="mpr-14884.8" merge="mpr-14884.8" size="524288" crc="6cf9c026" sha1="f4d717958dba6b6402f5ffe7638fe0bf353b61ed" region="maincpu" offset="1100000"/>
+		<rom name="mpr-14885.9" merge="mpr-14885.9" size="524288" crc="f65c9262" sha1="511a22bcfaf199737bfc5a809fd66cb4439dd386" region="maincpu" offset="1100001"/>
+		<rom name="mpr-14886.10" merge="mpr-14886.10" size="524288" crc="92868734" sha1="e1dfb134dc3ba7e0b1d40681621e09ac5a222518" region="maincpu" offset="1200000"/>
+		<rom name="mpr-14887.11" merge="mpr-14887.11" size="524288" crc="10c7c636" sha1="c77d55460bba4354349e473e129f21afeed05e91" region="maincpu" offset="1200001"/>
+		<rom name="mpr-14888.12" merge="mpr-14888.12" size="524288" crc="04bfdc5b" sha1="bb8788a761620d0440a62ae51c3b41f70a04b5e4" region="maincpu" offset="1300000"/>
+		<rom name="mpr-14889.13" merge="mpr-14889.13" size="524288" crc="c49f0486" sha1="cc2bb9059c016ba2c4f6e7508bd1687df07b8b48" region="maincpu" offset="1300001"/>
+		<rom name="315-5573.bin" merge="315-5573.bin" size="8192" crc="3335a19b" sha1="72eedfcc799ec4c7534fd7415de6631087ff6731" region="tgp_copro" offset="0"/>
+		<rom name="epr-14870a.7" merge="epr-14870a.7" size="131072" crc="919d9b75" sha1="27be79881cc9a2b5cf37e18f1e2d87251426b428" region="m1audio:sndcpu" offset="0"/>
+		<rom name="mpr-14873.32" merge="mpr-14873.32" size="2097152" crc="b1965190" sha1="fc47e9ed4a44d48477bd9a35e42c26508c0f4a0c" region="m1audio:pcm1" offset="0"/>
+		<rom name="mpr-14876.4" merge="mpr-14876.4" size="2097152" crc="ba6b2327" sha1="02285520624a4e612cb4b65510e3458b13b1c6ba" region="m1audio:pcm2" offset="0"/>
+		<rom name="mpr-14890.26" merge="mpr-14890.26" size="2097152" crc="dcbe006b" sha1="195be7fabec405ca1b4e1338d3b8d7bb4a06dd73" region="polygons" offset="0"/>
+		<rom name="mpr-14891.27" merge="mpr-14891.27" size="2097152" crc="25832b38" sha1="a8d74538149c92bae661334e327b031eaca2a8f2" region="polygons" offset="2"/>
+		<rom name="mpr-14892.28" merge="mpr-14892.28" size="2097152" crc="5136f3ba" sha1="ce8312975764db09bbfa2068b99559a5c1798a36" region="polygons" offset="400000"/>
+		<rom name="mpr-14893.29" merge="mpr-14893.29" size="2097152" crc="1c531ada" sha1="8b373ac97a3649c64f48eb3d1dd95c5833f330b6" region="polygons" offset="400002"/>
+		<rom name="mpr-14894.30" merge="mpr-14894.30" size="2097152" crc="830a71bc" sha1="884378e8a5afeb819daf5285d0d205986d566340" region="polygons" offset="800000"/>
+		<rom name="mpr-14895.31" merge="mpr-14895.31" size="2097152" crc="af027ac5" sha1="523f03d90358ddb7d0e96fd06b9a65cebfc09f24" region="polygons" offset="800002"/>
+		<rom name="mpr-14896.32" merge="mpr-14896.32" size="2097152" crc="382091dc" sha1="efa266f0f6bfe36ad1c365e588fff33b01e166dd" region="polygons" offset="c00000"/>
+		<rom name="mpr-14897.33" merge="mpr-14897.33" size="2097152" crc="74873195" sha1="80705ec577d14570f9bba77cc26766f831c41f42" region="polygons" offset="c00002"/>
+		<rom name="mpr-14898.39" merge="mpr-14898.39" size="524288" crc="61da2bb6" sha1="7a12ba522d64a1aeec1ca6f5a87ee063692131f9" region="copro_data" offset="0"/>
+		<rom name="mpr-14899.40" merge="mpr-14899.40" size="524288" crc="2cd58bee" sha1="73defec823de4244a387af55fea7210edc1b314f" region="copro_data" offset="1"/>
+		<rom name="mpr-14900.41" merge="mpr-14900.41" size="524288" crc="aa7c017d" sha1="0fa2b59a8bb5f5907b2b2567e69d11c73b398dc1" region="copro_data" offset="2"/>
+		<rom name="mpr-14901.42" merge="mpr-14901.42" size="524288" crc="175b7a9a" sha1="c86602e771cd49bab425b4ba7926d2f44858bd39" region="copro_data" offset="3"/>
+		<rom name="epr-15624.17" size="131072" crc="9b3ba315" sha1="0cd0983cc8b2f2d6b41617d0d0a24cc6c188e62a" region="commboard" offset="0"/>
+		<device_ref tag=":maincpu" name="v60"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":tgp_copro" name="mb86233"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":ioboard" name="model1io"/>
+		<device_ref tag=":ioboard:iocpu" name="z80"/>
+		<device_ref tag=":ioboard:eeprom" name="93c46_16"/>
+		<device_ref tag=":ioboard:io" name="315_5338a"/>
+		<device_ref tag=":ioboard:adc" name="msm6253"/>
+		<device_ref tag=":dpram" name="mb8421"/>
+		<device_ref tag=":m1audio" name="segam1audio"/>
+		<device_ref tag=":m1audio:sndcpu" name="m68000"/>
+		<device_ref tag=":m1audio:speaker" name="speaker"/>
+		<device_ref tag=":m1audio:ymsnd" name="ym3438"/>
+		<device_ref tag=":m1audio:pcm1" name="ymw258f"/>
+		<device_ref tag=":m1audio:pcm2" name="ymw258f"/>
+		<device_ref tag=":m1audio:uart" name="i8251"/>
+		<device_ref tag=":m1audio:uart_clock" name="clock"/>
+		<device_ref tag=":m1uart" name="i8251"/>
+		<device_ref tag=":m1uart_clock" name="clock"/>
+		<device_ref tag=":m1comm" name="m1comm"/>
+		<device_ref tag=":m1comm:commcpu" name="z80"/>
+		<device_ref tag=":m1comm:commdma" name="am9517a"/>
+		<device_ref tag=":m1comm:commdlc" name="mb89374"/>
+		<chip type="cpu" tag="maincpu" name="NEC V60" clock="16000000"/>
+		<chip type="cpu" tag="tgp_copro" name="Fujitsu MB86233 (TGP)" clock="40000000"/>
+		<chip type="cpu" tag="ioboard:iocpu" name="Zilog Z80" clock="4000000"/>
+		<chip type="cpu" tag="m1audio:sndcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="m1comm:commcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="cpu" tag="m1comm:commdma" name="AM9517A" clock="8000000"/>
+		<chip type="cpu" tag="m1comm:commdlc" name="MB89374 Data Link Controller" clock="8000000"/>
+		<chip type="audio" tag="m1audio:speaker" name="Speaker"/>
+		<chip type="audio" tag="m1audio:ymsnd" name="YM3438 OPN2C" clock="8000000"/>
+		<chip type="audio" tag="m1audio:pcm1" name="Yamaha YMW-258-F" clock="10000000"/>
+		<chip type="audio" tag="m1audio:pcm2" name="Yamaha YMW-258-F" clock="10000000"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="6" minimum="0" maximum="255" sensitivity="100" keydelta="3"/>
+			<control type="pedal" minimum="1" maximum="255" sensitivity="100" keydelta="16"/>
+		</input>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="1">
+			<diplocation name="DSW1" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="2">
+			<diplocation name="DSW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="4">
+			<diplocation name="DSW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="8">
+			<diplocation name="DSW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="16">
+			<diplocation name="DSW1" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="32">
+			<diplocation name="DSW1" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="64">
+			<diplocation name="DSW1" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="128">
+			<diplocation name="DSW1" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="1">
+			<diplocation name="DSW2" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="2">
+			<diplocation name="DSW2" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="4">
+			<diplocation name="DSW2" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="8">
+			<diplocation name="DSW2" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="16">
+			<diplocation name="DSW2" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="32">
+			<diplocation name="DSW2" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="64">
+			<diplocation name="DSW2" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="128">
+			<diplocation name="DSW2" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="1">
+			<diplocation name="DSW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="2">
+			<diplocation name="DSW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="4">
+			<diplocation name="DSW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="8">
+			<diplocation name="DSW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="16">
+			<diplocation name="DSW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="32">
+			<diplocation name="DSW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="64">
+			<diplocation name="DSW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="128">
+			<diplocation name="DSW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":ACCEL">
+			<analog mask="255"/>
+		</port>
+		<port tag=":BRAKE">
+			<analog mask="255"/>
+		</port>
+		<port tag=":IN.0">
+		</port>
+		<port tag=":IN.1">
+		</port>
+		<port tag=":IN.2">
+		</port>
+		<port tag=":WHEEL">
+			<analog mask="255"/>
+		</port>
+		<port tag=":ioboard:buttons">
+		</port>
+		<port tag=":ioboard:dsw1">
+		</port>
+		<port tag=":ioboard:dsw2">
+		</port>
+		<port tag=":ioboard:dsw3">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" overall="imperfect"/>
 	</machine>
 	<machine name="vfremix" sourcefile="sega/stv.cpp" romof="stvbios">
 		<description>Virtua Fighter Remix (JUETBKAL 950428 V1.000)</description>
@@ -92467,6 +94419,308 @@
 		<port tag=":IN1">
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
+	</machine>
+	<machine name="wingwar" sourcefile="sega/model1.cpp">
+		<description>Wing War (World)</description>
+		<year>1994</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="opr14742.bin" size="131072" crc="446a1085" sha1="51b3f4d3a35a36087ea0ba4e26d6e7d17b6418e2" region="copro_tables" offset="0"/>
+		<rom name="opr14743.bin" size="131072" crc="e8953554" sha1="1499f8e30ac15affc66e6f04ae031bb8680d9260" region="copro_tables" offset="2"/>
+		<rom name="opr-14744.58" size="131072" crc="730ea9e0" sha1="651f1db4089a400d073b19ada299b4b08b08f372" region="other_data" offset="0"/>
+		<rom name="opr-14745.59" size="131072" crc="4c934d96" sha1="e3349ece0e47f684d61ad11bfea4a90602287350" region="other_data" offset="2"/>
+		<rom name="opr-14746.62" size="131072" crc="2a266cbd" sha1="34e047a93459406c22acf4c25089d1a4955f94ca" region="other_data" offset="40000"/>
+		<rom name="opr-14747.63" size="131072" crc="a4ad5e19" sha1="7d7ec300eeb9a8de1590011e37108688c092f329" region="other_data" offset="40002"/>
+		<rom name="opr14748.bin" size="131072" crc="4a532cb8" sha1="23280ebbcd6b2bc8a8e643a2d07a58d6598301b8" region="other_other_data" offset="0"/>
+		<rom name="315-5571.bin" size="8192" crc="1233db2a" sha1="06760409d40f3d9117fd3e7c7ab62dfd70aa2a4d" region="315_5571" offset="0"/>
+		<rom name="315-5572.bin" size="8192" crc="66785906" sha1="d94a51eced65b0073fb39625927782bf264d271a" region="315_5572" offset="0"/>
+		<rom name="epr-16729.14" size="524288" crc="7edec2cc" sha1="3e423a868ca7c8475fbb5bc1a10526e69d94d865" region="maincpu" offset="200000"/>
+		<rom name="epr-16730.15" size="524288" crc="bab24dee" sha1="26c95139c1aa7f34b6a5cce39e5bd1dd2ef0dd49" region="maincpu" offset="200001"/>
+		<rom name="epr-16953.4" size="131072" crc="c821a920" sha1="7fc9ea5d828aac664514fa6d38f708f1ffd26220" region="maincpu" offset="fc0000"/>
+		<rom name="epr-16952.5" size="131072" crc="03a3ecc5" sha1="5c4aa221302b0a0800e1af99a41ab46fe4325184" region="maincpu" offset="fe0000"/>
+		<rom name="mpr-16738.6" size="524288" crc="51518ffa" sha1="e4674ddfed4205957b14e133c6fdf6454872f324" region="maincpu" offset="1000000"/>
+		<rom name="mpr-16737.7" size="524288" crc="37b1379c" sha1="98620c324268e1dd906c077ac8a8cd903b9de1f7" region="maincpu" offset="1000001"/>
+		<rom name="mpr-16736.8" size="524288" crc="10b6a025" sha1="7a4f624ceb7c0b92044a5db8ff55440562ef836b" region="maincpu" offset="1100000"/>
+		<rom name="mpr-16735.9" size="524288" crc="c82fd198" sha1="d9e53ae1e14dfc8e84a14c0026ef0b904863bb1b" region="maincpu" offset="1100001"/>
+		<rom name="mpr-16734.10" size="524288" crc="f76371c1" sha1="0ff082db3877383d0dd977dc60c932b725e3d164" region="maincpu" offset="1200000"/>
+		<rom name="mpr-16733.11" size="524288" crc="e105847b" sha1="8489a6c91fd6d1e9ba81e8eaf36c514da30dccbe" region="maincpu" offset="1200001"/>
+		<rom name="315-5711.bin" size="8192" crc="6a21f304" sha1="d5c61ea6e4744f10170ea556068c248bd43bb111" status="baddump" region="tgp_copro" offset="0"/>
+		<rom name="epr-17126.7" size="131072" crc="50178e40" sha1="fb01aecfbe4e90adc997de0d45a63c16ef353b37" region="m1audio:sndcpu" offset="0"/>
+		<rom name="epr-16752.8" size="131072" crc="6541c48f" sha1="9341eff160e31a8574b9545fafc1c4059323fa0c" region="m1audio:sndcpu" offset="20000"/>
+		<rom name="mpr-16753.32" size="2097152" crc="324a8333" sha1="960342e08db637c6f72615d49cffd9fb0889620b" region="m1audio:pcm1" offset="0"/>
+		<rom name="mpr-16754.33" size="2097152" crc="144f3cf5" sha1="d2f8cc9086affbbc5ef2195272200230f724e5d1" region="m1audio:pcm1" offset="200000"/>
+		<rom name="mpr-16755.4" size="2097152" crc="4baaf878" sha1="661d4ea9be6a4952852d0ef94becee7ed42bf4a1" region="m1audio:pcm2" offset="0"/>
+		<rom name="mpr-16756.5" size="2097152" crc="d9c40672" sha1="83e6f1156b30888d3a00103f079dc74f4fca8446" region="m1audio:pcm2" offset="200000"/>
+		<rom name="mpr-16743.26" size="2097152" crc="a710d33c" sha1="1d0184545b34789ed511caaa25d57db3cd9a8e2f" region="polygons" offset="0"/>
+		<rom name="mpr-16744.27" size="2097152" crc="de796e1f" sha1="397efb86a21b178770f29d2464bacf5f893619a0" region="polygons" offset="2"/>
+		<rom name="mpr-16745.28" size="2097152" crc="905b689c" sha1="685dec2a65d5b3a386bda0af1bb5ae7e2b73a01a" region="polygons" offset="400000"/>
+		<rom name="mpr-16746.29" size="2097152" crc="163b312e" sha1="6b45007d6a9d17c8a0b46d81ec84ce9bfefb1695" region="polygons" offset="400002"/>
+		<rom name="mpr-16747.30" size="2097152" crc="7353bb12" sha1="608c5d561e909b8ba31d53db18e6e199855eaaec" region="polygons" offset="800000"/>
+		<rom name="mpr-16748.31" size="2097152" crc="8ce98d3a" sha1="1978776a0e2ea817508e30ba232d5f8d9c158f70" region="polygons" offset="800002"/>
+		<rom name="mpr-16749.32" size="2097152" crc="0e36dc1a" sha1="4939177a6ac51ca57d0acd118ff14af4f4e438bb" region="polygons" offset="c00000"/>
+		<rom name="mpr-16750.33" size="2097152" crc="e4f0b98d" sha1="e69de2e5ccea2834fb8326bdd61fc6b517bc60b7" region="polygons" offset="c00002"/>
+		<rom name="mpr-16741.39" size="524288" crc="84b2ffd8" sha1="0eba3855d20b88567c6fa08046e12429664d87cb" region="copro_data" offset="0"/>
+		<rom name="mpr-16742.40" size="524288" crc="e9cc12bb" sha1="40c83c968be3b11fad193a00e7b760f074450683" region="copro_data" offset="1"/>
+		<rom name="mpr-16739.41" size="524288" crc="6c73e98f" sha1="7b31e62922ab6d0df97c3ecc52b78e6d086c8635" region="copro_data" offset="2"/>
+		<rom name="mpr-16740.42" size="524288" crc="44b31007" sha1="4bb265fea25a7bbcbb8ab080fdcf09849b18f1de" region="copro_data" offset="3"/>
+		<device_ref tag=":maincpu" name="v60"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":copro_fifo_in" name="generic_fifo_u32_device"/>
+		<device_ref tag=":copro_fifo_out" name="generic_fifo_u32_device"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":tgp_copro" name="mb86233"/>
+		<device_ref tag=":tile" name="segas24_tile"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":ioboard" name="model1io2"/>
+		<device_ref tag=":ioboard:iocpu" name="tmpz84c015"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_sio" name="z80sio"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_sio:cha" name="z80sio_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_sio:chb" name="z80sio_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc" name="z80ctc"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc:ch0" name="z80ctc_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc:ch1" name="z80ctc_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc:ch2" name="z80ctc_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_ctc:ch3" name="z80ctc_channel"/>
+		<device_ref tag=":ioboard:iocpu:tmpz84c015_pio" name="z80pio"/>
+		<device_ref tag=":ioboard:cn7" name="rs232"/>
+		<device_ref tag=":ioboard:cn8" name="rs232"/>
+		<device_ref tag=":ioboard:io" name="315_5338a"/>
+		<device_ref tag=":ioboard:eeprom" name="93c46_16"/>
+		<device_ref tag=":ioboard:watchdog" name="mb3773"/>
+		<device_ref tag=":ioboard:adc" name="msm6253"/>
+		<device_ref tag=":ioboard:screen" name="screen"/>
+		<device_ref tag=":ioboard:palette" name="palette"/>
+		<device_ref tag=":ioboard:lcd" name="hd44780"/>
+		<device_ref tag=":dpram" name="mb8421"/>
+		<device_ref tag=":m1audio" name="segam1audio"/>
+		<device_ref tag=":m1audio:sndcpu" name="m68000"/>
+		<device_ref tag=":m1audio:speaker" name="speaker"/>
+		<device_ref tag=":m1audio:ymsnd" name="ym3438"/>
+		<device_ref tag=":m1audio:pcm1" name="ymw258f"/>
+		<device_ref tag=":m1audio:pcm2" name="ymw258f"/>
+		<device_ref tag=":m1audio:uart" name="i8251"/>
+		<device_ref tag=":m1audio:uart_clock" name="clock"/>
+		<device_ref tag=":m1uart" name="i8251"/>
+		<device_ref tag=":m1uart_clock" name="clock"/>
+		<device_ref tag=":m1comm" name="m1comm"/>
+		<device_ref tag=":m1comm:commcpu" name="z80"/>
+		<device_ref tag=":m1comm:commdma" name="am9517a"/>
+		<device_ref tag=":m1comm:commdlc" name="mb89374"/>
+		<chip type="cpu" tag="maincpu" name="NEC V60" clock="16000000"/>
+		<chip type="cpu" tag="tgp_copro" name="Fujitsu MB86233 (TGP)" clock="40000000"/>
+		<chip type="cpu" tag="ioboard:iocpu" name="Toshiba TMPZ84C015" clock="9830400"/>
+		<chip type="cpu" tag="m1audio:sndcpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="m1comm:commcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="cpu" tag="m1comm:commdma" name="AM9517A" clock="8000000"/>
+		<chip type="cpu" tag="m1comm:commdlc" name="MB89374 Data Link Controller" clock="8000000"/>
+		<chip type="audio" tag="m1audio:speaker" name="Speaker"/>
+		<chip type="audio" tag="m1audio:ymsnd" name="YM3438 OPN2C" clock="8000000"/>
+		<chip type="audio" tag="m1audio:pcm1" name="Yamaha YMW-258-F" clock="10000000"/>
+		<chip type="audio" tag="m1audio:pcm2" name="Yamaha YMW-258-F" clock="10000000"/>
+		<display tag="screen" type="raster" rotate="0" width="496" height="384" refresh="57.524160" pixclock="16000000" htotal="656" hbend="0" hbstart="496" vtotal="424" vbend="0" vbstart="384" />
+		<display tag="ioboard:screen" type="lcd" rotate="0" width="121" height="19" refresh="50.000000" />
+		<sound channels="1"/>
+		<input players="1" coins="1" service="yes">
+			<control type="stick" buttons="7" minimum="0" maximum="255" sensitivity="100" keydelta="4" reverse="yes"/>
+			<control type="pedal" minimum="1" maximum="255" sensitivity="100" keydelta="16"/>
+		</input>
+		<dipswitch name="ROM_EMU" tag="ioboard:board" mask="16">
+			<dipvalue name="On" value="0"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="MODE" tag="ioboard:board" mask="32">
+			<dipvalue name="On" value="0"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="1">
+			<diplocation name="DSW1" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="2">
+			<diplocation name="DSW1" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="4">
+			<diplocation name="DSW1" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="8">
+			<diplocation name="DSW1" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="16">
+			<diplocation name="DSW1" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="32">
+			<diplocation name="DSW1" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="64">
+			<diplocation name="DSW1" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw1" mask="128">
+			<diplocation name="DSW1" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="1">
+			<diplocation name="DSW2" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="2">
+			<diplocation name="DSW2" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="4">
+			<diplocation name="DSW2" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="8">
+			<diplocation name="DSW2" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="16">
+			<diplocation name="DSW2" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="32">
+			<diplocation name="DSW2" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="64">
+			<diplocation name="DSW2" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw2" mask="128">
+			<diplocation name="DSW2" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="1">
+			<diplocation name="DSW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="2">
+			<diplocation name="DSW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="4">
+			<diplocation name="DSW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="8">
+			<diplocation name="DSW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="16">
+			<diplocation name="DSW3" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="32">
+			<diplocation name="DSW3" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="64">
+			<diplocation name="DSW3" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="ioboard:dsw3" mask="128">
+			<diplocation name="DSW3" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":IN.0">
+		</port>
+		<port tag=":IN.1">
+		</port>
+		<port tag=":STICKX">
+			<analog mask="255"/>
+		</port>
+		<port tag=":STICKY">
+			<analog mask="255"/>
+		</port>
+		<port tag=":THROTTLE">
+			<analog mask="255"/>
+		</port>
+		<port tag=":ioboard:board">
+		</port>
+		<port tag=":ioboard:dsw1">
+		</port>
+		<port tag=":ioboard:dsw2">
+		</port>
+		<port tag=":ioboard:dsw3">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="sound" overall="imperfect"/>
+		<slot name="ioboard:cn7">
+			<slotoption name="terminal" devname="serial_terminal"/>
+			<slotoption name="swtpc8212" devname="swtpc8212_terminal"/>
+			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
+			<slotoption name="rs_printer" devname="rs_serial_printer"/>
+			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
+			<slotoption name="printer" devname="serial_printer"/>
+			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
+			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
+			<slotoption name="mockingboard" devname="mockingboardd"/>
+			<slotoption name="loopback" devname="rs232_loopback"/>
+			<slotoption name="keyboard" devname="serial_keyboard"/>
+			<slotoption name="ie15" devname="ie15_terminal"/>
+			<slotoption name="null_modem" devname="null_modem"/>
+			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
+			<slotoption name="h19" devname="serial_heath_h19"/>
+			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
+		</slot>
+		<slot name="ioboard:cn8">
+			<slotoption name="terminal" devname="serial_terminal"/>
+			<slotoption name="swtpc8212" devname="swtpc8212_terminal"/>
+			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
+			<slotoption name="rs_printer" devname="rs_serial_printer"/>
+			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
+			<slotoption name="printer" devname="serial_printer"/>
+			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
+			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
+			<slotoption name="mockingboard" devname="mockingboardd"/>
+			<slotoption name="loopback" devname="rs232_loopback"/>
+			<slotoption name="keyboard" devname="serial_keyboard"/>
+			<slotoption name="ie15" devname="ie15_terminal"/>
+			<slotoption name="null_modem" devname="null_modem"/>
+			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
+			<slotoption name="h19" devname="serial_heath_h19"/>
+			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
+		</slot>
 	</machine>
 	<machine name="winrun" sourcefile="namco/namcos21.cpp">
 		<description>Winning Run (World) (89/06/06, Ver.09)</description>
@@ -96836,6 +99090,11 @@
 		<description>HC-55516</description>
 		<sound channels="0"/>
 	</machine>
+	<machine name="hd44780" sourcefile="devices/video/hd44780.cpp" isdevice="yes" runnable="no">
+		<description>Hitachi HD44780 LCD Controller</description>
+		<biosset name="a00" description="A00" default="yes"/>
+		<rom name="hd44780_a00.bin" bios="a00" size="4096" crc="e459877c" sha1="65cf075a988cdcbb316b9afdd0529b374a1a65ec" status="baddump" region="cgrom" offset="0"/>
+	</machine>
 	<machine name="hd6303r" sourcefile="devices/cpu/m6800/m6801.cpp" isdevice="yes" runnable="no">
 		<description>Hitachi HD6303R</description>
 	</machine>
@@ -97676,6 +99935,90 @@
 		<device_ref tag=":_tmp:io" name="315_5338a"/>
 		<device_ref tag=":_tmp:adc" name="msm6253"/>
 		<chip type="cpu" tag=":iocpu" name="Zilog Z80" clock="4000000"/>
+	</machine>
+	<machine name="model1io2" sourcefile="sega/model1io2.cpp" isdevice="yes" runnable="no">
+		<description>Sega Model 1 I/O Board (Advanced)</description>
+		<biosset name="epr16891" description="EPR-16891"/>
+		<biosset name="epr18021" description="EPR-18021"/>
+		<biosset name="epr17181" description="EPR-17181"/>
+		<rom name="epr-16891.6" bios="epr16891" size="65536" crc="a33f84d1" sha1="3079397c7241c1a6f494fa310faff0989dfa04a0" region="iocpu" offset="0"/>
+		<rom name="epr-18021.6" bios="epr18021" size="65536" crc="5551837e" sha1="bf5b9aad99c0f8f5e262e0855796f39119d11a97" region="iocpu" offset="0"/>
+		<rom name="epr-17181.6" bios="epr17181" size="65536" crc="1add2b82" sha1="81892251d466f630a96af25bde652c20e47d7ede" region="iocpu" offset="0"/>
+		<device_ref tag=":_tmp:iocpu" name="tmpz84c015"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_sio" name="z80sio"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_sio:cha" name="z80sio_channel"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_sio:chb" name="z80sio_channel"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_ctc" name="z80ctc"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_ctc:ch0" name="z80ctc_channel"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_ctc:ch1" name="z80ctc_channel"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_ctc:ch2" name="z80ctc_channel"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_ctc:ch3" name="z80ctc_channel"/>
+		<device_ref tag=":_tmp:iocpu:tmpz84c015_pio" name="z80pio"/>
+		<device_ref tag=":_tmp:cn7" name="rs232"/>
+		<device_ref tag=":_tmp:cn8" name="rs232"/>
+		<device_ref tag=":_tmp:io" name="315_5338a"/>
+		<device_ref tag=":_tmp:eeprom" name="93c46_16"/>
+		<device_ref tag=":_tmp:watchdog" name="mb3773"/>
+		<device_ref tag=":_tmp:adc" name="msm6253"/>
+		<device_ref tag=":_tmp:screen" name="screen"/>
+		<device_ref tag=":_tmp:palette" name="palette"/>
+		<device_ref tag=":_tmp:lcd" name="hd44780"/>
+		<chip type="cpu" tag=":iocpu" name="Toshiba TMPZ84C015" clock="9830400"/>
+		<display tag=":screen" type="lcd" rotate="0" width="121" height="19" refresh="50.000000" />
+		<dipswitch name="ROM_EMU" tag=":board" mask="16">
+			<dipvalue name="On" value="0"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="MODE" tag=":board" mask="32">
+			<dipvalue name="On" value="0"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+		</dipswitch>
+		<slot name=":cn7">
+			<slotoption name="terminal" devname="serial_terminal"/>
+			<slotoption name="swtpc8212" devname="swtpc8212_terminal"/>
+			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
+			<slotoption name="rs_printer" devname="rs_serial_printer"/>
+			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
+			<slotoption name="printer" devname="serial_printer"/>
+			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
+			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
+			<slotoption name="mockingboard" devname="mockingboardd"/>
+			<slotoption name="loopback" devname="rs232_loopback"/>
+			<slotoption name="keyboard" devname="serial_keyboard"/>
+			<slotoption name="ie15" devname="ie15_terminal"/>
+			<slotoption name="null_modem" devname="null_modem"/>
+			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
+			<slotoption name="h19" devname="serial_heath_h19"/>
+			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
+		</slot>
+		<slot name=":cn8">
+			<slotoption name="terminal" devname="serial_terminal"/>
+			<slotoption name="swtpc8212" devname="swtpc8212_terminal"/>
+			<slotoption name="sunkbd" devname="sunkbd_adaptor"/>
+			<slotoption name="rs_printer" devname="rs_serial_printer"/>
+			<slotoption name="rs232_sync_io" devname="rs232_sync_io"/>
+			<slotoption name="printer" devname="serial_printer"/>
+			<slotoption name="patch" devname="rs232_patch_box"/>
+			<slotoption name="s97801" devname="s97801_terminal"/>
+			<slotoption name="msystems_mouse" devname="rs232_mouse_hle_msystems"/>
+			<slotoption name="scorpion" devname="scorpion_ic"/>
+			<slotoption name="nss_tvi" devname="nss_tvinterface"/>
+			<slotoption name="mockingboard" devname="mockingboardd"/>
+			<slotoption name="loopback" devname="rs232_loopback"/>
+			<slotoption name="keyboard" devname="serial_keyboard"/>
+			<slotoption name="ie15" devname="ie15_terminal"/>
+			<slotoption name="null_modem" devname="null_modem"/>
+			<slotoption name="votraxtnt" devname="serial_votraxtnt"/>
+			<slotoption name="h19" devname="serial_heath_h19"/>
+			<slotoption name="dec_loopback" devname="dec_rs232_loopback"/>
+			<slotoption name="pty" devname="pseudo_terminal"/>
+			<slotoption name="auto3a" devname="auto3a_terminal"/>
+		</slot>
 	</machine>
 	<machine name="mooncrst_sound" sourcefile="galaxian/galaxian_a.cpp" isdevice="yes" runnable="no">
 		<description>Moon Cresta Custom Sound</description>
@@ -101779,6 +104122,18 @@
 	<machine name="tmp90840" sourcefile="devices/cpu/tlcs90/tlcs90.cpp" isdevice="yes" runnable="no">
 		<description>Toshiba TMP90840</description>
 	</machine>
+	<machine name="tmpz84c015" sourcefile="devices/cpu/z80/tmpz84c015.cpp" isdevice="yes" runnable="no">
+		<description>Toshiba TMPZ84C015</description>
+		<device_ref tag=":_tmp:tmpz84c015_sio" name="z80sio"/>
+		<device_ref tag=":_tmp:tmpz84c015_sio:cha" name="z80sio_channel"/>
+		<device_ref tag=":_tmp:tmpz84c015_sio:chb" name="z80sio_channel"/>
+		<device_ref tag=":_tmp:tmpz84c015_ctc" name="z80ctc"/>
+		<device_ref tag=":_tmp:tmpz84c015_ctc:ch0" name="z80ctc_channel"/>
+		<device_ref tag=":_tmp:tmpz84c015_ctc:ch1" name="z80ctc_channel"/>
+		<device_ref tag=":_tmp:tmpz84c015_ctc:ch2" name="z80ctc_channel"/>
+		<device_ref tag=":_tmp:tmpz84c015_ctc:ch3" name="z80ctc_channel"/>
+		<device_ref tag=":_tmp:tmpz84c015_pio" name="z80pio"/>
+	</machine>
 	<machine name="tms1025" sourcefile="devices/machine/tms1024.cpp" isdevice="yes" runnable="no">
 		<description>TMS1025 I/O Expander</description>
 	</machine>
@@ -102165,6 +104520,14 @@
 	</machine>
 	<machine name="z80pio" sourcefile="devices/machine/z80pio.cpp" isdevice="yes" runnable="no">
 		<description>Z80 PIO</description>
+	</machine>
+	<machine name="z80sio" sourcefile="devices/machine/z80sio.cpp" isdevice="yes" runnable="no">
+		<description>Z80 SIO</description>
+		<device_ref tag=":_tmp:cha" name="z80sio_channel"/>
+		<device_ref tag=":_tmp:chb" name="z80sio_channel"/>
+	</machine>
+	<machine name="z80sio_channel" sourcefile="devices/machine/z80sio.cpp" isdevice="yes" runnable="no">
+		<description>Z80 SIO channel</description>
 	</machine>
 	<machine name="zip100_ide" sourcefile="devices/bus/ata/zip100.cpp" isdevice="yes" runnable="no">
 		<description>Iomega Zip 100MB IDE Drive</description>

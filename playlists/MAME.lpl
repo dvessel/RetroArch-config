@@ -956,6 +956,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/dirtdvls.zip",
+      "label": "Dirt Devils (Export, Revision A)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-namco-namcos2/dirtfoxj.zip",
       "label": "Dirt Fox (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -1372,6 +1380,22 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/fvipers.zip",
+      "label": "Fighting Vipers (Revision D)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/fvipers2.zip",
+      "label": "Fighting Vipers 2 (Revision A)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1/ffight.zip",
       "label": "Final Fight (World, set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -1716,6 +1740,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/gunblade.zip",
+      "label": "Gunblade NY (Revision A)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-taito-gunbustr/gunbustr.zip",
       "label": "Gunbuster (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -1870,6 +1902,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atari-atarisy1/indytemp.zip",
       "label": "Indiana Jones and the Temple of Doom (set 1)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/indy500.zip",
+      "label": "INDY 500 Twin (Revision A, Newer)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -3612,6 +3652,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model3/scudplus.zip",
+      "label": "Scud Race Plus / Sega Super GT Plus - Twin/DX (Revision A)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/supermodel_libretro.dylib",
+      "core_name": "Sega - Model 3 (Supermodel)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-segas16a/sdi.zip",
       "label": "SDI - Strategic Defense Initiative (Japan, newer, System 16A, FD1089B 317-0027)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -4102,6 +4150,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps2/sgemf.zip",
       "label": "Super Gem Fighter: Mini Mix (USA 970904)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/sgt24h.zip",
+      "label": "Super GT 24h",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4724,6 +4780,22 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/vcop.zip",
+      "label": "Virtua Cop (Revision B)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model2/vcop2.zip",
+      "label": "Virtua Cop 2",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model1/vf.zip",
       "label": "Virtua Fighter",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -4758,6 +4830,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-stv/vfremix.zip",
       "label": "Virtua Fighter Remix (JUETBKAL 950428 V1.000)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model1/vformula.zip",
+      "label": "Virtua Formula",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4830,6 +4910,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-capcom-cps1/willow.zip",
       "label": "Willow (World)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-model1/wingwar.zip",
+      "label": "Wing War (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
