@@ -46,7 +46,7 @@ then
     set -- ${(s: :)listsource}
 
     name=$1
-    scpp=-${${2:r}/\//-}
+    scpp=-${${2:r}//\//-}
     sdir=$scandir/.sorted/$scpp
 
     # tagged roms to ignore.
