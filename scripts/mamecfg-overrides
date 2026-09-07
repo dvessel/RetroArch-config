@@ -4,6 +4,12 @@ zparseopts -D -E - -restore-savestates=zrestore_savestates || return 1
 
 PATH=$( dirname `realpath $0` ):$PATH
 
+if [[ $( raconfig --get config_save_minimal ) == true ]]
+then
+  echo "Incompatible with 'config_save_minimal'." >&2
+  return 1
+fi
+
 local scandir=~/Games/Emulation/Arcade
 cdir=$( raconfig --get rgui_config_directory )/MAME
 

@@ -2,6 +2,12 @@
 
 PATH=$( dirname `realpath $0` ):$PATH
 
+if [[ $( raconfig --get config_save_minimal ) == true ]]
+then
+  p.error "Incompatible with 'config_save_minimal'."
+  return 1
+fi
+
 for dylib in "$( raconfig --get libretro_directory )"/*.dylib
 do
   name=${${dylib:t}%_libretro.dylib}

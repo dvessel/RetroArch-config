@@ -16,6 +16,15 @@ for dep in jq 7z; if ! type $dep &>/dev/null; then
   return 1
 fi
 
+for key in config_save_minimal playlist_compression playlist_use_old_format
+do
+  if [[ $( raconfig --get $key ) == true ]]
+  then
+    p.error "Incompatible with '$key'."
+    return 1
+  fi
+done
+
 if [[ -n $playlist ]]; then
   playlist=${playlist[-1]}
 fi

@@ -4,6 +4,11 @@ zparseopts -D -F - -debug=zdebug || exit 1
 
 PATH=$( dirname `realpath $0` )/bin:$PATH
 
+if [[ $( raconfig --get config_save_minimal ) == true ]]
+then
+  print "Incompatible with 'config_save_minimal'." >&2
+fi
+
 function dprint {
   if (( ${#zdebug} ))
   then
