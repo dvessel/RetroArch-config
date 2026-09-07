@@ -244,14 +244,6 @@
       "db_name": "Sega - Naomi.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Naomi/mvsc2.zip",
-      "label": "Marvel Vs. Capcom 2: New Age of Heroes (Export, Korea, Rev A)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "00000000|crc",
-      "db_name": "Sega - Naomi.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Naomi/mvsc2u.zip",
       "label": "Marvel Vs. Capcom 2: New Age of Heroes (USA, Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
