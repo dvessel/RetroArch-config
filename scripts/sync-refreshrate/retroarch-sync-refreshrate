@@ -25,33 +25,18 @@ function dprint {
 }
 
 function set_hz {
-  local serial=$( rascreen --serial ) retry=0 hz
-
-  while [[ -z $serial ]]
-  do
-    # rascreen called to early, so wait a second.
-    dprint -no "rascreen not ready, waiting..."
-    sleep 1
-    serial=$( rascreen --serial )
-    if (( retry++ && retry >= 5 ))
-    then
-      dprint -no "rascreen is not responding."
-      exit 1
-    fi
-  done
+  local match_hz all_hz=($( rascreen --all-hz ))
 
   print "Requested: ${1}Hz"
-
-  if ! type screen-$serial &>/dev/null
+  if (( ${#all_hz} ))
   then
-    print "Screen not recognized (serial: $serial)." >&2
-  elif hz=$( screen-$serial $1 )
-  then
+    match_hz=$( screenhz-match $1 $all_hz )
     # Don't block. To be cleaned up later when unloading the running core.
-    rascreen --set-hz $hz &
+    rascreen --set-hz $match_hz &
     RASCREEN_PIDS+=$!
   else
-    print "Unhandled refresh rate (serial: $serial, requested: ${1}hz)." >&2
+    print "Supported refresh rates not reported." 2>&1
+    return 1
   fi
 }
 
