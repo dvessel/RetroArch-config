@@ -32,14 +32,8 @@ func setRefreshRate(displayID: CGDirectDisplayID, displayModes: [CGDisplayMode],
   return CGDisplaySetDisplayMode(displayID, targetMode, nil) == .success
 }
 
-func getScreenForAppWindow(window: WindowInfo) -> ScreenInfo? {
-  // Get a single display containing the app window.
-  var displayIDs = [CGDirectDisplayID](repeating: 0, count: 1)
-  CGGetDisplaysWithRect(window.bounds, 1, &displayIDs, nil)
-  guard
-    let displayID  = displayIDs.first,
-    let activeMode = CGDisplayCopyDisplayMode(displayID)
-  else {
+func getScreenInfo(displayID: CGDirectDisplayID) -> ScreenInfo? {
+  guard let activeMode = CGDisplayCopyDisplayMode(displayID) else {
     return nil
   }
   // Filter out non-matching resolutions, all we care about are the modes with
@@ -58,6 +52,30 @@ func getScreenForAppWindow(window: WindowInfo) -> ScreenInfo? {
     mode: activeMode,
     modes: filteredModes
   )
+}
+
+func getScreenForAppWindow(window: WindowInfo) -> ScreenInfo? {
+  var displayIDs = [CGDirectDisplayID](repeating: 0, count: 1)
+  CGGetDisplaysWithRect(window.bounds, 1, &displayIDs, nil)
+  guard let displayID = displayIDs.first else {
+    return nil
+  }
+  return getScreenInfo(displayID: displayID)
+}
+
+func getScreenForSerialNumber(serial: UInt32, displayID: UInt32?) -> ScreenInfo? {
+  var allDisplays = [CGDirectDisplayID](repeating: 0, count: 16)
+  var count: UInt32 = 0
+  CGGetActiveDisplayList(16, &allDisplays, &count)
+  allDisplays = Array(allDisplays.prefix(Int(count)))
+
+  for display in allDisplays where CGDisplaySerialNumber(display) == serial {
+    if let displayID = displayID, display != displayID {
+      continue
+    }
+    return getScreenInfo(displayID: display)
+  }
+  return nil
 }
 
 func getAppWindows(appName: String) -> [WindowInfo] {
@@ -91,25 +109,73 @@ func getAppWindows(appName: String) -> [WindowInfo] {
 
 // MARK: - Main Execution
 
+let argCount = CommandLine.arguments.count
+var args = [String]()
+var i = 1
+var screen: ScreenInfo?
+
+while i < argCount {
+  switch CommandLine.arguments[i] {
+  case "--all-screens":
+    // Return all connected display serial numbers with their id's.
+    var allDisplays = [CGDirectDisplayID](repeating: 0, count: 16)
+    var count: UInt32 = 0
+    CGGetActiveDisplayList(16, &allDisplays, &count)
+    allDisplays = Array(allDisplays.prefix(Int(count)))
+    for displayID in allDisplays {
+      printOutput("\(CGDisplaySerialNumber(displayID)) \(displayID)")
+    }
+    exit(0)
+  case "--get-screen":
+    i += 1
+    guard i < argCount, let serial = UInt32(CommandLine.arguments[i]) else {
+      printError("--get-screen requires a numeric serial id. <UInt32>")
+      exit(1)
+    }
+    // displayID is optional; read it if a second argument is present.
+    var displayID: UInt32?
+    if i + 1 < argCount, let parsed = UInt32(CommandLine.arguments[i + 1]) {
+      displayID = parsed
+      i += 1
+    }
+    if let foundScreen = getScreenForSerialNumber(serial: serial, displayID: displayID) {
+      screen = foundScreen
+    } else {
+      let idMsg = displayID.map { " and display id '\($0)'" } ?? ""
+      printError("display with serial id '\(serial)'\(idMsg) not found.")
+      exit(1)
+    }
+    i += 1
+    continue
+  default:
+    args.append(CommandLine.arguments[i])
+    i += 1
+  }
+}
+
 let targetAppName = "RetroArch"
 let targetBundleID = "com.libretro.dist.RetroArch"
 
-guard
-  let targetWindow = getAppWindows(appName: targetAppName).first
-else {
-  printError("\(targetAppName) is not active")
+if screen != nil, args.contains("--set-hz") {
+  // --set-hz only meant for running RetroArch.
+  printError("cannot set refresh rate with --get-screen.")
   exit(1)
+} else if
+    screen == nil,
+    let targetWindow = getAppWindows(appName: targetAppName).first,
+    let foundScreen = getScreenForAppWindow(window: targetWindow) {
+  screen = foundScreen
 }
 
-if let screen = getScreenForAppWindow(window: targetWindow) {
+if let screen = screen {
   var found = false
-  var i = 1
-  while i < CommandLine.arguments.count {
-    let arg = CommandLine.arguments[i]
+  var i = 0
+  while i < args.count {
+    let arg = args[i]
     switch arg {
     case "--set-hz":
       i += 1
-      if i < CommandLine.arguments.count, let rate = Double(CommandLine.arguments[i]) {
+      if i < args.count, let rate = Double(args[i]) {
         if abs(screen.mode.refreshRate - rate) < 0.01 {
           printOutput("Refresh rate already set to \(rate)Hz.")
           exit(0)
@@ -129,13 +195,13 @@ if let screen = getScreenForAppWindow(window: targetWindow) {
         printError("--set-hz requires a numeric value")
         exit(1)
       }
-    case "--serial":    printOutput(String(screen.serial))
-    case "--id":        printOutput(String(screen.id))
-    case "--resolution":printOutput("\(screen.mode.width)x\(screen.mode.height)")
-    case "--hz":        printOutput(String(screen.mode.refreshRate))
-    case "--all-hz":    printOutput(screen.modes.map { String($0.refreshRate) }.joined(separator: " "))
-    case "--mode":      printOutput(String(screen.mode.ioDisplayModeID))
-    case "--all-modes": printOutput(screen.modes.map { String($0.ioDisplayModeID) }.joined(separator: " "))
+    case "--serial":     printOutput(String(screen.serial))
+    case "--id":         printOutput(String(screen.id))
+    case "--resolution": printOutput("\(screen.mode.width)x\(screen.mode.height)")
+    case "--hz":         printOutput(String(screen.mode.refreshRate))
+    case "--all-hz":     printOutput(screen.modes.map { String($0.refreshRate) }.joined(separator: " "))
+    case "--mode":       printOutput(String(screen.mode.ioDisplayModeID))
+    case "--all-modes":  printOutput(screen.modes.map { String($0.ioDisplayModeID) }.joined(separator: " "))
     default:
       printError("Unknown argument: \(arg)")
       exit(1)
@@ -144,10 +210,15 @@ if let screen = getScreenForAppWindow(window: targetWindow) {
     i += 1
   }
   if !found {
-    printError("Valid options: --serial, --id, --resolution, --hz, --all-hz, --set-hz <rate> --mode --all-modes")
+    printError("Valid options: --serial, --id, --resolution, --hz, --all-hz, --set-hz <rate>, --mode, --all-modes, --all-screens")
+    printError("When RetroArch is not active, specify a display with --get-screen <serial> <displayID?>")
     exit(1)
   }
 } else {
-  printError("Could not determine which screen \(targetAppName) is in")
+  if args.contains("--set-hz") {
+    printError("\(targetAppName) is not active")
+  } else {
+    printError("Could not determine which screen to query. \(targetAppName) is not active and --get-screen was not provided.")
+  }
   exit(1)
 }
