@@ -8,6 +8,7 @@ assets/xmb/*
 autoconfig/*
 !autoconfig/mfi-custom.cfg
 cht
+config/retroarch-keychain.cfg
 cores
 database/*
 !database/*.xml
