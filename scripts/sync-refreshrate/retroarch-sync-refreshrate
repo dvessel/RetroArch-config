@@ -84,6 +84,12 @@ raconfig --set log_verbosity=true
 
 tail -Fn-1 "$( raconfig --get log_dir )/retroarch.log" | while read line
 do
+  # Skip lines not prefixed with the following (speedup):
+  if [[ ! $line =~ '^\[INFO\] \[(Core|Audio|Video|Environ)\].*' ]]
+  then
+    continue
+  fi
+
   # Content Loading:
   # - When run from the menu system, loads as "[INFO] [Core] Using content:"
   # - When run from the cli, loads as "[INFO] [Content] Loading content file:"
