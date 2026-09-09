@@ -1,6 +1,8 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -E - -restore-savestates=zrestore_savestates || return 1
+zparseopts -D -E - \
+  -display-serial:=zdisplay_serial \
+  -restore-savestates=zrestore_savestates || return 1
 
 PATH=$( dirname `realpath $0` ):$PATH
 
@@ -33,6 +35,25 @@ set_refreshrate() {
   raconfig --override video_refresh_rate=$hz $@
   raconfig --override vrr_runloop_enable=$vrr $@
 }
+
+if (( ${#zdisplay_serial} ))
+then
+  supported_rates=($(
+    rascreen --get-screen ${zdisplay_serial[-1]} --all-hz
+  ))
+else
+  # Get the display serial id for the main display. If RetroArch runs on a secondary
+  # screen, this will likely produce the wrong results. Pass in --display-serial
+  # when using a secondary screen. rascreen --all-screens to get all the serial id's.
+  supported_rates=($(
+    rascreen --get-screen $( rascreen --all-screens | grep -E ".* 1$" ) --all-hz
+  ))
+fi
+if ! (( ${#supported_rates} ))
+then
+  echo "Supported refresh rates could not be determined." >&2
+  return 1
+fi
 
 settings_keys=(
   menu_show_latency
@@ -81,7 +102,7 @@ do
     esac
 
     name=$rom:t:r
-    hz=$( screen-builtin $refresh )
+    hz=$( screenhz-match $refresh $supported_rates )
     refresh_counts[$hz]=$(( refresh_counts[$hz] + 1 ))
     refresh_rates[$name]=$hz
   done
