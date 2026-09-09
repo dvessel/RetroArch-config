@@ -185,7 +185,7 @@ if let screen = screen {
           found = true
           // Refresh rate resets when the script exits, so wait for the app to end.
           while NSRunningApplication.runningApplications(withBundleIdentifier: targetBundleID).count > 0 {
-            Thread.sleep(forTimeInterval: 1.0)
+            Thread.sleep(forTimeInterval: 0.5)
           }
         } else {
           printError("Failed to set refresh rate to \(rate)Hz. Mode not supported.")
