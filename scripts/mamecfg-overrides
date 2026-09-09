@@ -31,7 +31,15 @@ cfg_value() {
 set_refreshrate() {
   local hz=$1
   shift
-  (( hz == 120 )) && vrr=true || vrr=false
+  if (( hz == 120 ))
+  then
+    tfd=false
+    vrr=true
+  else
+    tfd=true
+    vrr=false
+  fi
+  raconfig --override video_present_timing_from_display=$tfd $@
   raconfig --override video_refresh_rate=$hz $@
   raconfig --override vrr_runloop_enable=$vrr $@
 }
