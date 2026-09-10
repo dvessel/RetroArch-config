@@ -126,9 +126,9 @@ do
 
     elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
     then
-      arate=${match[1]}
       if [[ -n $srate ]]
       then
+        arate=${match[1]}
         printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
           $arate $(( (arate - srate) / srate * 100 ))
       fi
@@ -158,48 +158,30 @@ do
     # Mid-run refresh rate changes. Mainly applies to MAME emulation.
     if [[ $line =~ "\[Environ\] SET_SYSTEM_AV_INFO: ${(j:, :)av_search}" ]]
     then
-      if [[ -n $emuhz && $emuhz != ${match[3]} ]]
-      then
-        dprint -c3 "AV Information - Update"
-        dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
-        emuhz=${match[3]}
-        srate=${match[4]}
-      fi
+      dprint -c3 "AV Information - Update"
+      dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
+      emuhz=${match[3]}
+      srate=${match[4]}
 
     elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
     then
-      # MAME can get noisy with some emulated machines, e.g., sega/stv.cpp->cotton2.
-      # Surpress repeated attempts that doesn't change anything at all.
-      if [[ -n $srate && $arate != ${match[1]} ]]
-      then
-        arate=${match[1]}
-        printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
-          $arate $(( (arate - srate) / srate * 100 ))
-        switch=1
-      else
-        switch=0
-      fi
+      arate=${match[1]}
+      printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
+        $arate $(( (arate - srate) / srate * 100 ))
 
     # Warning! `video_refresh_rate` is not properly set or the core has not settled
     # to the correct refresh rate. This can happen with some systems in MAME, e.g.,
     # sega/stv.cpp->cotton2 switches refresh rates multiple times while booting.
     elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
     then
-      if [[ $requestedhz != ${match[2]} ]]
-      then
-        requestedhz=${match[2]}
-        printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
-          ${match[2]} ${match[1]}
-      fi
+      printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
+        ${match[2]} ${match[1]}
 
     # Set Refresh Rate:
     elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
     then
-      if (( switch ))
-      then
-        dprint -ok "Switch Refresh Rate"
-        set_hz $emuhz
-      fi
+      dprint -ok "Switch Refresh Rate"
+      set_hz $emuhz
 
     # Unload Core or Close -> Release Refresh Rates:
     elif [[ $line =~ "(\[Core\] Unloading core...|\[NS\] stopping draw observer)" ]]
