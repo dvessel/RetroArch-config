@@ -3,6 +3,22 @@
 import Foundation
 import AppKit
 
+// Tuning knobs (mirrors the old screenhz-match script).
+// MAX_DEVIATION_PP10k = max allowed relative deviation in parts-per-10,000
+//    10 -> 0.0001% (very strict) | 500 -> 0.005%
+// HARMONICS = sub-multiples of each fixed rate to also check (rate / N).
+// Both are overridable on the command line via --tolerance / --no-harmonics.
+let MAX_DEVIATION_PP10k = 500 // 0.005%
+let HARMONICS: [Int] = [2, 3, 4]
+// Scale a Hz value to a fixed-point integer to avoid floating-point drift
+// (e.g. 59.94 -> 59940000). Integer arithmetic keeps the comparison exact.
+let SCALE = 1_000_000
+// Cap on the display buffer we request from CoreGraphics.
+let MAX_DISPLAYS = 16
+// Minimum window dimensions to consider a window "real" (filters panels, etc.)
+let MIN_WINDOW_WIDTH = 100
+let MIN_WINDOW_HEIGHT = 100
+
 struct WindowInfo {
   let appName: String
   let bounds: CGRect
@@ -18,14 +34,77 @@ struct ScreenInfo {
 func printError(_ message: String) {
   FileHandle.standardError.write((message + "\n").data(using: .utf8)!)
 }
-
 func printOutput(_ message: String) {
   FileHandle.standardOutput.write((message + "\n").data(using: .utf8)!)
 }
+func decimalToScaled(_ raw: Double) -> Int {
+  // Guard against overflow for extreme values
+  guard raw.isFinite, raw > 0, raw < 100000 else { return 0 }
+  return Int((raw * Double(SCALE)).rounded())
+}
+// For each supported fixed rate, the display can also produce its integer
+// sub-multiples (a 60 Hz panel emulates 30, 20, 15 Hz, ...). We score each
+// fixed rate by how close any of its sub-multiples is to `requested`, then
+// pick the best. Ties are broken toward the lower fixed rate, so a real
+// 60 Hz mode beats the 120 Hz mode's 120/2 harmonic.
+func matchRefreshRate(
+  requested: Double,
+  rates: [Double],
+  maxDeviation: Int = MAX_DEVIATION_PP10k,
+  harmonics: [Int] = HARMONICS
+) -> Double? {
+  let target = decimalToScaled(requested)
+  guard target > 0 else { return nil }
+
+  var best = (rate: 0, deviation: maxDeviation)
+
+  for rate in rates {
+    let srate = decimalToScaled(rate)
+    guard srate > 0 else { continue }
+
+    // The set of effective refresh rates this fixed mode can produce.
+    var effective = [srate]
+    for n in harmonics where srate / n > 0 {
+      effective.append(srate / n)
+    }
+    // Best (closest) sub-multiple for this fixed rate.
+    guard let closest = effective.min(by: {
+      abs(target - $0) * 10000 / $0 < abs(target - $1) * 10000 / $1
+    }) else { continue }
+    let pp = abs(target - closest) * 10000 / closest
+
+    // Keep the best; break ties by lower fixed rate.
+    if pp < best.deviation || (pp == best.deviation && srate < best.rate) {
+      best = (rate: srate, deviation: pp)
+    }
+  }
+
+  guard best.rate > 0 else { return nil }
+  return Double(best.rate) / Double(SCALE)
+}
+
+// Resolve an arbitrary requested rate to a concrete rate to apply: the
+// closest supported fixed rate, or the VRR max (fallback) if none is
+// within tolerance.
+func resolveRate(
+  requested: Double,
+  rates: [Double],
+  vrrFallback: Double,
+  maxDeviation: Int = MAX_DEVIATION_PP10k,
+  harmonics: [Int] = HARMONICS
+) -> Double {
+  return matchRefreshRate(
+    requested: requested,
+    rates: rates,
+    maxDeviation: maxDeviation,
+    harmonics: harmonics
+  ) ?? vrrFallback
+}
 
 func setRefreshRate(displayID: CGDirectDisplayID, displayModes: [CGDisplayMode], rate: Double) -> Bool {
+  let target = decimalToScaled(rate)
   guard
-    let targetMode = displayModes.first(where: { abs($0.refreshRate - rate) < 0.01 })
+    let targetMode = displayModes.first(where: { decimalToScaled($0.refreshRate) == target })
   else {
     return false
   }
@@ -64,9 +143,9 @@ func getScreenForAppWindow(window: WindowInfo) -> ScreenInfo? {
 }
 
 func getScreenForSerialNumber(serial: UInt32, displayID: UInt32?) -> ScreenInfo? {
-  var allDisplays = [CGDirectDisplayID](repeating: 0, count: 16)
+  var allDisplays = [CGDirectDisplayID](repeating: 0, count: MAX_DISPLAYS)
   var count: UInt32 = 0
-  CGGetActiveDisplayList(16, &allDisplays, &count)
+  CGGetActiveDisplayList(UInt32(MAX_DISPLAYS), &allDisplays, &count)
   allDisplays = Array(allDisplays.prefix(Int(count)))
 
   for display in allDisplays where CGDisplaySerialNumber(display) == serial {
@@ -87,23 +166,20 @@ func getAppWindows(appName: String) -> [WindowInfo] {
   return windowList.compactMap { window in
     guard
       let ownerName = window[kCGWindowOwnerName as String] as? String,
-          ownerName == appName,
-      let boundsDict = window[kCGWindowBounds as String] as? [String: CGFloat]
+      ownerName == appName,
+      let boundsDict = window[kCGWindowBounds as String] as? [String: Any]
     else {
       return nil
     }
-    let bounds = CGRect(
-      x: boundsDict["X"] ?? 0,
-      y: boundsDict["Y"] ?? 0,
-      width: boundsDict["Width"] ?? 0,
-      height: boundsDict["Height"] ?? 0
-    )
-    guard
-      bounds.width > 100, bounds.height > 100
-    else {
+    // Use CGFloat conversion more safely
+    let x = boundsDict["X"] as? CGFloat ?? 0
+    let y = boundsDict["Y"] as? CGFloat ?? 0
+    let width = boundsDict["Width"] as? CGFloat ?? 0
+    let height = boundsDict["Height"] as? CGFloat ?? 0
+    guard width > CGFloat(MIN_WINDOW_WIDTH), height > CGFloat(MIN_WINDOW_HEIGHT) else {
       return nil
     }
-    return WindowInfo(appName: appName, bounds: bounds)
+    return WindowInfo(appName: appName, bounds: CGRect(x: x, y: y, width: width, height: height))
   }
 }
 
@@ -114,13 +190,42 @@ var args = [String]()
 var i = 1
 var screen: ScreenInfo?
 
+// Tuning knobs, overridable on the command line.
+var maxDeviation = MAX_DEVIATION_PP10k
+var harmonics = HARMONICS
+
+// Handle --help early
+if CommandLine.arguments.contains("--help") || CommandLine.arguments.contains("-h") {
+  printOutput("""
+  Usage: rascreen [options] <command>
+
+  Commands:
+    --set-hz <rate>          Set refresh rate (waits for RetroArch to close)
+    --match-hz <rate>        Print the closest supported rate to <rate>
+    --serial                 Print the display serial number
+    --id                     Print the display ID
+    --resolution             Print current resolution
+    --hz                     Print current refresh rate
+    --all-hz                 Print all available refresh rates
+    --mode                   Print current display mode ID
+    --all-modes              Print all available display mode IDs
+    --all-screens            List all displays with serial and ID
+    --get-screen <serial> [displayID]  Specify a display by serial number
+    --tolerance <pp10k>      Set max deviation (default: \(MAX_DEVIATION_PP10k))
+    --no-harmonics           Disable harmonic matching
+
+  When RetroArch is not active, use --get-screen to specify a display.
+  """)
+  exit(0)
+}
+
 while i < argCount {
   switch CommandLine.arguments[i] {
   case "--all-screens":
     // Return all connected display serial numbers with their id's.
-    var allDisplays = [CGDirectDisplayID](repeating: 0, count: 16)
+    var allDisplays = [CGDirectDisplayID](repeating: 0, count: MAX_DISPLAYS)
     var count: UInt32 = 0
-    CGGetActiveDisplayList(16, &allDisplays, &count)
+    CGGetActiveDisplayList(UInt32(MAX_DISPLAYS), &allDisplays, &count)
     allDisplays = Array(allDisplays.prefix(Int(count)))
     for displayID in allDisplays {
       printOutput("\(CGDisplaySerialNumber(displayID)) \(displayID)")
@@ -147,6 +252,19 @@ while i < argCount {
     }
     i += 1
     continue
+  case "--tolerance":
+    i += 1
+    guard i < argCount, let value = Int(CommandLine.arguments[i]), value > 0 else {
+      printError("--tolerance requires a positive integer value (parts-per-10,000)")
+      exit(1)
+    }
+    maxDeviation = value
+    i += 1
+    continue
+  case "--no-harmonics":
+    harmonics = []
+    i += 1
+    continue
   default:
     args.append(CommandLine.arguments[i])
     i += 1
@@ -168,50 +286,90 @@ if screen != nil, args.contains("--set-hz") {
 }
 
 if let screen = screen {
-  var found = false
+  // VRR fallback is the highest available rate (VRR max). No assumptions:
+  // if there are no rates, fail rather than guess a default.
+  let rates = screen.modes.map({ $0.refreshRate })
+  guard let vrrFallback = rates.max() else {
+    printError("No refresh rates available for display serial '\(screen.serial)'.")
+    exit(1)
+  }
   var i = 0
   while i < args.count {
     let arg = args[i]
     switch arg {
     case "--set-hz":
       i += 1
-      if i < args.count, let rate = Double(args[i]) {
-        if abs(screen.mode.refreshRate - rate) < 0.01 {
-          printOutput("Refresh rate already set to \(rate)Hz.")
-          exit(0)
-        }
-        if setRefreshRate(displayID: screen.id, displayModes: screen.modes, rate: rate) {
-          printOutput("Successfully set refresh rate to \(rate)Hz.")
-          found = true
-          // Refresh rate resets when the script exits, so wait for the app to end.
-          while NSRunningApplication.runningApplications(withBundleIdentifier: targetBundleID).count > 0 {
-            Thread.sleep(forTimeInterval: 0.5)
-          }
-        } else {
-          printError("Failed to set refresh rate to \(rate)Hz. Mode not supported.")
-          exit(1)
-        }
-      } else {
+      guard i < args.count, let requested = Double(args[i]) else {
         printError("--set-hz requires a numeric value")
         exit(1)
       }
+      // Resolve the arbitrary request to the closest supported fixed rate.
+      // Fall back to the VRR max rate if nothing is within tolerance.
+      let targetRate = resolveRate(
+        requested: requested,
+        rates: rates,
+        vrrFallback: vrrFallback,
+        maxDeviation: maxDeviation,
+        harmonics: harmonics
+      )
+      if decimalToScaled(screen.mode.refreshRate) == decimalToScaled(targetRate) {
+        printOutput("Refresh rate already set to \(targetRate)Hz.")
+        exit(0)
+      }
+      if setRefreshRate(displayID: screen.id, displayModes: screen.modes, rate: targetRate) {
+        printOutput("Successfully set refresh rate to \(targetRate)Hz (requested \(requested)Hz).")
+        // Refresh rate resets when the script exits, so wait for the app to end.
+        // Handle SIGINT/SIGTERM to restore gracefully
+        let sigint = signal(SIGINT) { _ in
+          printOutput("\nInterrupted. Restoring display...")
+          exit(0)
+        }
+        while NSRunningApplication.runningApplications(withBundleIdentifier: targetBundleID).count > 0 {
+          Thread.sleep(forTimeInterval: 0.5)
+        }
+        signal(SIGINT, sigint) // Restore original handler
+      } else {
+        printError(
+          "Failed to set display to \(targetRate)Hz (requested \(requested)Hz) " +
+          "on serial '\(screen.serial)'. CGDisplaySetDisplayMode failed."
+        )
+        exit(1)
+      }
+    case "--match-hz":
+      // Query: print the supported fixed rate closest to the argument,
+      // or the VRR fallback if the deviation is too far.
+      i += 1
+      guard i < args.count, let requested = Double(args[i]) else {
+        printError("--match-hz requires a numeric value")
+        exit(1)
+      }
+      let result = resolveRate(
+        requested: requested,
+        rates: rates,
+        vrrFallback: vrrFallback,
+        maxDeviation: maxDeviation,
+        harmonics: harmonics
+      )
+      // Always print 6 decimal places so callers get a stable, fixed-width
+      // numeric format (e.g. "59.940000", "60.000000").
+      printOutput(String(format: "%.6f", result))
     case "--serial":     printOutput(String(screen.serial))
     case "--id":         printOutput(String(screen.id))
     case "--resolution": printOutput("\(screen.mode.width)x\(screen.mode.height)")
-    case "--hz":         printOutput(String(screen.mode.refreshRate))
-    case "--all-hz":     printOutput(screen.modes.map { String($0.refreshRate) }.joined(separator: " "))
+    case "--hz":         printOutput(String(format: "%.6f", screen.mode.refreshRate))
+    case "--all-hz":     printOutput(rates.map { String(format: "%.6f", $0) }.joined(separator: " "))
     case "--mode":       printOutput(String(screen.mode.ioDisplayModeID))
-    case "--all-modes":  printOutput(screen.modes.map { String($0.ioDisplayModeID) }.joined(separator: " "))
+    case "--all-modes":  printOutput(screen.modes.map({ String($0.ioDisplayModeID) }).joined(separator: " "))
     default:
       printError("Unknown argument: \(arg)")
       exit(1)
     }
-    found = true
     i += 1
   }
-  if !found {
-    printError("Valid options: --serial, --id, --resolution, --hz, --all-hz, --set-hz <rate>, --mode, --all-modes, --all-screens")
+  if args.isEmpty {
+    printError("Valid options: --serial, --id, --resolution, --hz, --all-hz, --set-hz <rate>, --match-hz <rate>, --mode, --all-modes, --all-screens, --tolerance <pp10k>, --no-harmonics")
     printError("When RetroArch is not active, specify a display with --get-screen <serial> <displayID?>")
+    printError("Run with --help for usage information.")
     exit(1)
   }
 } else {
@@ -219,6 +377,7 @@ if let screen = screen {
     printError("\(targetAppName) is not active")
   } else {
     printError("Could not determine which screen to query. \(targetAppName) is not active and --get-screen was not provided.")
+    printError("Run with --help for usage information.")
   }
   exit(1)
 }

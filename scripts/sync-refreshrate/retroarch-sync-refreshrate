@@ -25,17 +25,13 @@ function dprint {
 }
 
 function set_hz {
-  local match_hz all_hz=($( rascreen --all-hz ))
-
   print "Requested: ${1}Hz"
-  if (( ${#all_hz} ))
+  # Don't block. To be cleaned up later when unloading the running core.
+  if rascreen --set-hz $1 &
   then
-    match_hz=$( screenhz-match $1 $all_hz )
-    # Don't block. To be cleaned up later when unloading the running core.
-    rascreen --set-hz $match_hz &
     RASCREEN_PIDS+=$!
   else
-    print "Supported refresh rates not reported." 2>&1
+    print "Failed to set refreshrate." 2>&1
     return 1
   fi
 }
