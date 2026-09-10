@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 zparseopts -D -E - \
-  -display-serial:=zdisplay_serial \
+  -display-id:=zdisplayid \
   -restore-savestates=zrestore_savestates || return 1
 
 PATH=$( dirname `realpath $0` ):$PATH
@@ -44,22 +44,22 @@ set_refreshrate() {
   raconfig --override vrr_runloop_enable=$vrr $@
 }
 
-if (( ${#zdisplay_serial} ))
+if (( ${#zdisplayid} ))
 then
-  supported_rates=($(
-    rascreen --get-screen ${zdisplay_serial[-1]} --all-hz
+  displayid=($(
+    rascreen --get-screen ${(s:,:)${zdisplayid[-1]}} --serial --id
   ))
 else
-  # Get the display serial id for the main display. If RetroArch runs on a secondary
+  # Get the display serial+id for the main display. If RetroArch runs on a secondary
   # screen, this will likely produce the wrong results. Pass in --display-serial
-  # when using a secondary screen. rascreen --all-screens to get all the serial id's.
-  supported_rates=($(
-    rascreen --get-screen $( rascreen --all-screens | grep -E ".* 1$" ) --all-hz
+  # when using a secondary screen. rascreen --all-screens to see what's available.
+  displayid=($(
+    rascreen --get-screen $( rascreen --all-screens | grep -E ".* 1$" ) --serial --id
   ))
 fi
-if ! (( ${#supported_rates} ))
+if ! (( ${#displayid} ))
 then
-  echo "Supported refresh rates could not be determined." >&2
+  echo "Display could not be identified." >&2
   return 1
 fi
 
@@ -110,7 +110,7 @@ do
     esac
 
     name=$rom:t:r
-    hz=$( screenhz-match $refresh $supported_rates )
+    hz=$( rascreen --get-screen $displayid --match-hz $refresh )
     refresh_counts[$hz]=$(( refresh_counts[$hz] + 1 ))
     refresh_rates[$name]=$hz
   done
