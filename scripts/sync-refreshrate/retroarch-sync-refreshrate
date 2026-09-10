@@ -85,7 +85,7 @@ raconfig --set log_verbosity=true
 tail -Fn-1 "$( raconfig --get log_dir )/retroarch.log" | while read line
 do
   # Skip lines not prefixed with the following (speedup):
-  if [[ ! $line =~ '^\[INFO\] \[(Core|Audio|Video|Environ)\].*' ]]
+  if [[ ! $line =~ '^\[INFO\] \[(Core|Audio|Video|Environ|NS)\].*' ]]
   then
     continue
   fi
