@@ -188,22 +188,6 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/GigaWing (USA).chd",
-      "label": "GigaWing (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-1209N|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/GigaWing 2 (USA).chd",
-      "label": "GigaWing 2 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-1222N|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Grandia II (USA).chd",
       "label": "Grandia II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
@@ -252,14 +236,6 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Karous (Japan).chd",
-      "label": "Karous (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-47803M|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Last Hope - Pink Bullets (Europe) (Unl)/Last Hope - Pink Bullets (Europe) (Unl).cue",
       "label": "Last Hope - Pink Bullets (Europe) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
@@ -292,14 +268,6 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Outtrigger (USA).chd",
-      "label": "Outtrigger (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "51102|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Phantasy Star Online (USA).chd",
       "label": "Phantasy Star Online (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
@@ -313,30 +281,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "51193|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Power Stone (USA).chd",
-      "label": "Power Stone (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-1201N|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Power Stone 2 (USA).chd",
-      "label": "Power Stone 2 (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-1211N|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Psyvariar 2 - The Will to Fabricate (Japan).chd",
-      "label": "Psyvariar 2 - The Will to Fabricate (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-9907M|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
@@ -425,14 +369,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "MK-51184-50-0|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Shikigami no Shiro II (Japan).chd",
-      "label": "Shikigami no Shiro II (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-47702M|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
@@ -540,14 +476,6 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Tokyo Bus Guide (Japan) (Rev A).chd",
-      "label": "Tokyo Bus Guide (Japan) (Rev A)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-35402M|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Tokyo Xtreme Racer (USA).chd",
       "label": "Tokyo Xtreme Racer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
@@ -572,43 +500,11 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Triggerheart Exelica (Japan).chd",
-      "label": "Triggerheart Exelica (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-29102M|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Trizeal (Japan).chd",
-      "label": "Trizeal (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-47901M|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Typing of the Dead, The (USA).chd",
       "label": "Typing of the Dead, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "51144|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Under Defeat (Japan).chd",
-      "label": "Under Defeat (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-46705M|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/V-Rally 2 - Expert Edition (Europe) (En,Fr,De).chd",
-      "label": "V-Rally 2 - Expert Edition (Europe) (En,Fr,De)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-15105D-50|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
@@ -625,14 +521,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "51001|serial",
-      "db_name": "Sega - Dreamcast.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Zero Gunner 2 (Japan).chd",
-      "label": "Zero Gunner 2 (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
-      "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "T-20401M|serial",
       "db_name": "Sega - Dreamcast.lpl"
     }
   ]
