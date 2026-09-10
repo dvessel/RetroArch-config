@@ -193,7 +193,7 @@ do
       fi
 
     # Set Refresh Rate:
-    elif [[ $line =~ '\[Audio\] Started synchronous audio driver.' ]]
+    elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
     then
       if (( switch ))
       then
