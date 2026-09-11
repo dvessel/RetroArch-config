@@ -99,7 +99,9 @@ do
   # Core Loading:
   elif [[ $line =~ '\[Core\] Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]
   then
-    core=$( sed -En 's/^corename = "(.+)"/\1/p' "$( raconfig --get libretro_info_path )/${match[1]}.info" )
+    core=$(
+      sed -En 's/^corename = "(.+)"/\1/p' "$( raconfig --get libretro_info_path )/${match[1]}.info"
+    )
     dprint -ok "Core Loading: $core"
     loading=1
     running=0
@@ -114,19 +116,17 @@ do
     if [[ $line =~ "\[Core\] Geometry: ${(j:, :)av_search}" ]]
     then
       dprint "AV Information"
-      dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
+      dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} \
+                refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
       # Emulated machine's refresh rate.
       emuhz=${match[3]}
       srate=${match[4]}
 
     elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
     then
-      if [[ -n $srate ]]
-      then
-        arate=${match[1]}
-        printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
-          $arate $(( (arate - srate) / srate * 100 ))
-      fi
+      arate=${match[1]}
+      printf 'Dynamic Rate Control: sample rate %sHz->%sHz, deviation %+.4f%%.\n' \
+        $srate $arate $(( (arate - srate) / srate * 100 ))
 
     # Warning! `video_refresh_rate` is not properly set.
     elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
@@ -134,15 +134,15 @@ do
       printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
         ${match[2]} ${match[1]}
 
-    # Start Audio -> Set Refresh Rate & Running Context:
-    # When the audio system is ready, the game is ready. Long delays for heavier
-    # cores is common. Line reads synchronous or threaded. coreaudio3 restricted to synchronous.
+    # Start Audio -> Set Refresh Rate & Running Context: When the audio system
+    # is ready, the game is ready. Long delays for heavier cores is common.
     elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
     then
       dprint -ok "${match[1]} - Emulation Started"
       set_hz $emuhz
       loading=0
       running=1
+      mswitch=0
       closing=0
     fi
 
@@ -153,30 +153,39 @@ do
     # Mid-run refresh rate changes. Mainly applies to MAME emulation.
     if [[ $line =~ "\[Environ\] SET_SYSTEM_AV_INFO: ${(j:, :)av_search}" ]]
     then
-      dprint -c3 "AV Information - Update"
-      dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
-      emuhz=${match[3]}
-      srate=${match[4]}
+      if [[ ${match[3]} != $emuhz ]]
+      then
+        dprint -c3 "AV Information - Update"
+        dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} \
+                  refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
+        emuhz=${match[3]}
+        srate=${match[4]}
+        mswitch=1
+      fi
 
-    elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
+    elif (( mswitch ))
     then
-      arate=${match[1]}
-      printf 'Dynamic Rate Control: sample rate %sHz, deviation %+.4f%%.\n' \
-        $arate $(( (arate - srate) / srate * 100 ))
+      if [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
+      then
+        arate=${match[1]}
+        printf 'Dynamic Rate Control: sample rate %sHz->%sHz, deviation %+.4f%%.\n' \
+          $srate $arate $(( (arate - srate) / srate * 100 ))
 
-    # Warning! `video_refresh_rate` is not properly set or the core has not settled
-    # to the correct refresh rate. This can happen with some systems in MAME, e.g.,
-    # sega/stv.cpp->cotton2 switches refresh rates multiple times while booting.
-    elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
-    then
-      printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
-        ${match[2]} ${match[1]}
+      # Warning! `video_refresh_rate` is not properly set or the core has not settled
+      # to the correct refresh rate. This can happen with some systems in MAME, e.g.,
+      # sega/stv.cpp->cotton2 switches refresh rates multiple times while booting.
+      elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
+      then
+        printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
+          ${match[2]} ${match[1]}
 
-    # Set Refresh Rate:
-    elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
-    then
-      dprint -ok "Switch Refresh Rate"
-      set_hz $emuhz
+      # Set Refresh Rate:
+      elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
+      then
+        dprint -ok "Switch Refresh Rate"
+        set_hz $emuhz
+        mswitch=0
+      fi
 
     # Unload Core or Close -> Release Refresh Rates:
     elif [[ $line =~ "(\[Core\] Unloading core...|\[NS\] stopping draw observer)" ]]
@@ -187,6 +196,7 @@ do
       fi
       loading=0
       running=0
+      mswitch=0
       closing=1
     fi
   fi
