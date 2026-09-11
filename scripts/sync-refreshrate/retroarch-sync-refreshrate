@@ -25,7 +25,6 @@ function dprint {
 }
 
 function set_hz {
-  print "Requested: ${1}Hz"
   # Don't block. To be cleaned up later when unloading the running core.
   if rascreen --set-hz $1 &
   then

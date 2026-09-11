@@ -13,6 +13,7 @@ let HARMONICS: [Int] = [2, 3, 4]
 // Scale a Hz value to a fixed-point integer to avoid floating-point drift
 // (e.g. 59.94 -> 59940000). Integer arithmetic keeps the comparison exact.
 let SCALE = 1_000_000
+
 // Cap on the display buffer we request from CoreGraphics.
 let MAX_DISPLAYS = 16
 // Minimum window dimensions to consider a window "real" (filters panels, etc.)
@@ -37,6 +38,7 @@ func printError(_ message: String) {
 func printOutput(_ message: String) {
   FileHandle.standardOutput.write((message + "\n").data(using: .utf8)!)
 }
+
 func decimalToScaled(_ raw: Double) -> Int {
   // Guard against overflow for extreme values
   guard raw.isFinite, raw > 0, raw < 100000 else { return 0 }
@@ -179,7 +181,10 @@ func getAppWindows(appName: String) -> [WindowInfo] {
     guard width > CGFloat(MIN_WINDOW_WIDTH), height > CGFloat(MIN_WINDOW_HEIGHT) else {
       return nil
     }
-    return WindowInfo(appName: appName, bounds: CGRect(x: x, y: y, width: width, height: height))
+    return WindowInfo(
+      appName: appName,
+      bounds: CGRect(x: x, y: y, width: width, height: height)
+    )
   }
 }
 
@@ -194,33 +199,30 @@ var screen: ScreenInfo?
 var maxDeviation = MAX_DEVIATION_PP10k
 var harmonics = HARMONICS
 
-// Handle --help early
-if CommandLine.arguments.contains("--help") || CommandLine.arguments.contains("-h") {
-  printOutput("""
-  Usage: rascreen [options] <command>
-
-  Commands:
-    --set-hz <rate>          Set refresh rate (waits for RetroArch to close)
-    --match-hz <rate>        Print the closest supported rate to <rate>
-    --serial                 Print the display serial number
-    --id                     Print the display ID
-    --resolution             Print current resolution
-    --hz                     Print current refresh rate
-    --all-hz                 Print all available refresh rates
-    --mode                   Print current display mode ID
-    --all-modes              Print all available display mode IDs
-    --all-screens            List all displays with serial and ID
-    --get-screen <serial> [displayID]  Specify a display by serial number
-    --tolerance <pp10k>      Set max deviation (default: \(MAX_DEVIATION_PP10k))
-    --no-harmonics           Disable harmonic matching
-
-  When RetroArch is not active, use --get-screen to specify a display.
-  """)
-  exit(0)
-}
-
 while i < argCount {
   switch CommandLine.arguments[i] {
+  case "-h","--help":
+    printOutput("""
+    Usage: rascreen [options] <command>
+
+    Commands:
+      --set-hz <rate>          Set refresh rate (waits for RetroArch to close)
+      --match-hz <rate>        Print the closest supported rate to <rate>
+      --serial                 Print the display serial number
+      --id                     Print the display ID
+      --resolution             Print current resolution
+      --hz                     Print current refresh rate
+      --all-hz                 Print all available refresh rates
+      --mode                   Print current display mode ID
+      --all-modes              Print all available display mode IDs
+      --all-screens            List all displays with serial and ID
+      --get-screen <serial> [displayID]  Specify a display by serial number
+      --tolerance <pp10k>      Set max deviation (default: \(MAX_DEVIATION_PP10k))
+      --no-harmonics           Disable harmonic matching
+
+    When RetroArch is not active, use --get-screen to specify a display.
+    """)
+    exit(0)
   case "--all-screens":
     // Return all connected display serial numbers with their id's.
     var allDisplays = [CGDirectDisplayID](repeating: 0, count: MAX_DISPLAYS)
@@ -286,8 +288,7 @@ if screen != nil, args.contains("--set-hz") {
 }
 
 if let screen = screen {
-  // VRR fallback is the highest available rate (VRR max). No assumptions:
-  // if there are no rates, fail rather than guess a default.
+  // VRR fallback is the highest available rate (VRR max).
   let rates = screen.modes.map({ $0.refreshRate })
   guard let vrrFallback = rates.max() else {
     printError("No refresh rates available for display serial '\(screen.serial)'.")
@@ -327,7 +328,7 @@ if let screen = screen {
         while NSRunningApplication.runningApplications(withBundleIdentifier: targetBundleID).count > 0 {
           Thread.sleep(forTimeInterval: 0.5)
         }
-        signal(SIGINT, sigint) // Restore original handler
+        signal(SIGINT, sigint)
       } else {
         printError(
           "Failed to set display to \(targetRate)Hz (requested \(requested)Hz) " +
