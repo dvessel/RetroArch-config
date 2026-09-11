@@ -7,13 +7,18 @@ PATH=$( dirname `realpath $0` )/bin:$PATH
 if [[ $( raconfig --get config_save_minimal ) == true ]]
 then
   print "Incompatible with 'config_save_minimal'." >&2
+  exit 1
 fi
 
+log_dir=$( raconfig --get log_dir )
+libretro_info_path=$( raconfig --get libretro_info_path )
+
+# --debug printer
 function dprint {
   if (( ${#zdebug} ))
   then
     local flag cn zl l=-
-    zparseopts -D -F - l=zl {ok,no,c0,c1,c2,c3,c4,c5,c6,c7}=flag || exit 1
+    zparseopts -D -F - l=zl {ok,no,c0,c1,c2,c3,c4,c5,c6,c7}=flag || return 1
     (( ${#zl} )) && l=' '
     cn=${${flag#-c}:-0}
     case ${flag[-1]} in
@@ -24,27 +29,47 @@ function dprint {
   fi
 }
 
+# Set refresh rate to the closest matching fixed rate of the display.
 function set_hz {
-  # Don't block. To be cleaned up later when unloading the running core.
-  if rascreen --set-hz $1 &
+  rascreen --set-hz $1 &
+  local pid=$!
+  if kill -0 $pid 2>/dev/null
   then
-    RASCREEN_PIDS+=$!
+    RASCREEN_PIDS+=$pid
   else
-    print "Failed to set refreshrate." 2>&1
+    print "Failed to set refreshrate." >&2
     return 1
   fi
 }
 
-function watch_exit {
+# Release refresh rate changes to previous state.
+# They will self-release when RetroArch quits but this function releases
+# them when a core unloads.
+function release_hz {
+  local pid
+  for pid in $RASCREEN_PIDS
+  do
+    if [[ $( ps -p $pid -o comm= 2>/dev/null ) == rascreen ]]
+    then
+      dprint "kill $pid: rascreen"
+      kill -TERM $pid 2>/dev/null
+      print "refresh rate released."
+    fi
+  done
+  RASCREEN_PIDS=()
+}
+
+# Monitors for when RetroArch quits then cleans up.
+function retroarch_exit_cleanup {
   while pgrep -x RetroArch &>/dev/null
   do
     sleep 2
   done
-  dprint -ok "Stop: watch_exit"
-  # The log gets truncated when RetroArch launches causing confusion with tail.
-  # It misses a few lines and places the script in an unknown state. Move it with
-  # a *-last.log suffix so it creates a new one on next launch.
-  # `tail -F` in the main loop will follow the new log file.
+  dprint -ok "Stop: retroarch_exit_cleanup"
+  # The log gets truncated when RetroArch launches, causing confusion with tail.
+  # It misses a few lines and places the script in an unknown state. Move it
+  # with a *-last.log suffix so it creates a new one on next launch. `tail -F`
+  # will wait and resume as RetroArch creates a new log file.
   local log_dir=$( raconfig --get log_dir )
   if [[ -f $log_dir/retroarch.log ]]
   then
@@ -52,6 +77,25 @@ function watch_exit {
   fi
 }
 
+# Required logging options for the script to function.
+raconfig --set frontend_log_level=1
+raconfig --set log_to_file=true
+raconfig --set log_to_file_timestamp=false
+raconfig --set log_verbosity=true
+
+# State variables
+local loading=0 running=0 mswitch=0
+# emuhz: refresh rate of emulated machine
+# srate: sample rate of emulated machine
+# arate: adjusted sample rate to match adjusted refresh rate.
+local emuhz= srate= arate= content_path= core=
+# pid of RetroArch exit monitor.
+local retroarch_exit_cleanup_pid=
+# running rascreen holding onto refresh rate changes.
+typeset -a RASCREEN_PIDS=()
+# Cache core name lookups to avoid repeated sed invocations.
+typeset -A core_cache=()
+# Search strings for AV changes.
 typeset -a av_search=(
   '([0-9]+x[0-9]+)'
   'Aspect: ([0-9]\.[0-9]+)'
@@ -59,11 +103,17 @@ typeset -a av_search=(
   'Sample rate: ([0-9]+(\.[0-9]+)?)'
 )
 
-# Required logging options for the script to function.
-raconfig --set frontend_log_level=1
-raconfig --set log_to_file=true
-raconfig --set log_to_file_timestamp=false
-raconfig --set log_verbosity=true
+# Clean up before exiting the script.
+trap '
+  print -u2 "Cleaning up."
+  pkill -P $$ -f "tail .*retroarch.log" 2>/dev/null
+  if kill -0 $retroarch_exit_cleanup_pid 2>/dev/null
+  then
+    kill -TERM $retroarch_exit_cleanup_pid 2>/dev/null
+  fi
+  release_hz
+  exit
+' HUP INT TERM
 
 # Log parsing loop:
 # - content loading
@@ -74,12 +124,11 @@ raconfig --set log_verbosity=true
 #     - get refresh rate          1. running context loop.
 #     - start synchronous audio   2. running context loop.
 #       - set refresh rate!       3. running context loop.
-# - unloading core or quit        -> set closing context.
+# - unloading core or quit        -> reset context.
 #   - release refresh rates!
-
-tail -Fn-1 "$( raconfig --get log_dir )/retroarch.log" | while read line
+while IFS= read -r line < <( tail -Fn-1 $log_dir/retroarch.log )
 do
-  # Skip lines not prefixed with the following (speedup):
+   # Skip lines not prefixed with the following (speedup):
   if [[ ! $line =~ '^\[INFO\] \[(Core|Audio|Video|Environ|NS)\].*' ]]
   then
     continue
@@ -90,8 +139,8 @@ do
   # - When run from the cli, loads as "[INFO] [Content] Loading content file:"
   #   if it does at all. It depends on the media type.
   # - Some cores will log both forms when run from the menu.
-  # [[ $gpath:t =~ "(.*\.[[:alnum:]]{2,3})\#(.*)\.[[:alnum:]]{2,4}$" ]]
-  if [[ $line =~ '\[Core\] Using content: "(.+)"' ]]; then
+  if [[ $line =~ '\[Core\] Using content: "(.+)"' ]]
+  then
     dprint -ok "Content Loading"
     content_path=${match[1]}
     print "loading: ${content_path/#$HOME/~}"
@@ -99,13 +148,19 @@ do
   # Core Loading:
   elif [[ $line =~ '\[Core\] Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]
   then
-    core=$(
-      sed -En 's/^corename = "(.+)"/\1/p' "$( raconfig --get libretro_info_path )/${match[1]}.info"
-    )
+    local core_key=${match[1]}
+    core=${core_cache[$core_key]:-}
+    if [[ -z $core ]]
+    then
+      core=${$(
+        sed -En 's/^corename = "(.+)"/\1/p' $libretro_info_path/$core_key.info 2>/dev/null
+      ):-${core_key%_libretro}}
+      core_cache[$core_key]=$core
+    fi
     dprint -ok "Core Loading: $core"
     loading=1
     running=0
-    closing=0
+    mswitch=0
     RASCREEN_PIDS=()
   fi
 
@@ -118,7 +173,6 @@ do
       dprint "AV Information"
       dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} \
                 refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
-      # Emulated machine's refresh rate.
       emuhz=${match[3]}
       srate=${match[4]}
 
@@ -134,8 +188,8 @@ do
       printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
         ${match[2]} ${match[1]}
 
-    # Start Audio -> Set Refresh Rate & Running Context: When the audio system
-    # is ready, the game is ready. Long delays for heavier cores is common.
+    # Set Refresh Rate:
+    # When the audio driver starts, emulation starts.
     elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
     then
       dprint -ok "${match[1]} - Emulation Started"
@@ -143,7 +197,6 @@ do
       loading=0
       running=1
       mswitch=0
-      closing=0
     fi
 
   # Running Context:
@@ -163,6 +216,16 @@ do
         mswitch=1
       fi
 
+    # Unload & Reset...
+    elif [[ $line =~ '(\[Core\] Unloading core|\[NS\] stopping draw observer)' ]]
+    then
+      dprint -ok "Unloading Core: $core"
+      release_hz
+      loading=0
+      running=0
+      mswitch=0
+
+    # Mid-run Refresh Rate Switch Context:
     elif (( mswitch ))
     then
       if [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
@@ -186,43 +249,17 @@ do
         set_hz $emuhz
         mswitch=0
       fi
-
-    # Unload Core or Close -> Release Refresh Rates:
-    elif [[ $line =~ "(\[Core\] Unloading core...|\[NS\] stopping draw observer)" ]]
-    then
-      if [[ -n $core ]]
-      then
-        dprint -ok "Unloading Core: $core"
-      fi
-      loading=0
-      running=0
-      mswitch=0
-      closing=1
     fi
   fi
 
-  # Closing Context:
-  if (( closing ))
+  # Singleton to detect when RetroArch has exited.
+  # retroarch_exit_cleanup_pid is pre-initialized to "" so the trap is always safe.
+  # kill -0 returns non-zero when the process has exited or the PID is unset. When
+  # RetroArch relaunches, retroarch_exit_cleanup will have exited, so this re-spawns it.
+  if ! kill -0 $retroarch_exit_cleanup_pid 2>/dev/null
   then
-    for pid in $RASCREEN_PIDS
-    do
-      # kill rascreen from this load cycle.
-      if [[ $( ps -p $pid -o comm= 2>/dev/null ) == rascreen ]]
-      then
-        dprint "kill $pid: rascreen"
-        kill $pid
-        print "refresh rate released."
-      fi
-    done
-  fi
-
-  # A singleton to detect when RetroArch has exited.
-  if ! kill -0 $watch_exit_id 2>/dev/null
-  then
-    dprint -ok "Start: watch_exit"
-    watch_exit &
-    watch_exit_id=$!
-    # Trap and kill when the script exits or is interrupted.
-    trap 'kill $watch_exit_id 2>/dev/null && dprint -no "kill $!: watch_exit"' INT TERM EXIT
+    dprint -ok "Start: retroarch_exit_cleanup"
+    retroarch_exit_cleanup &
+    retroarch_exit_cleanup_pid=$!
   fi
 done
