@@ -103,18 +103,6 @@ typeset -a av_search=(
   'Sample rate: ([0-9]+(\.[0-9]+)?)'
 )
 
-# Clean up before exiting the script.
-trap '
-  print -u2 "Cleaning up."
-  pkill -P $$ -f "tail .*retroarch.log" 2>/dev/null
-  if kill -0 $retroarch_exit_cleanup_pid 2>/dev/null
-  then
-    kill -TERM $retroarch_exit_cleanup_pid 2>/dev/null
-  fi
-  release_hz
-  exit
-' HUP INT TERM
-
 # Log parsing loop:
 # - content loading
 # - core loading                  -> set loading context.
@@ -126,7 +114,7 @@ trap '
 #       - set refresh rate!       3. running context loop.
 # - unloading core or quit        -> reset context.
 #   - release refresh rates!
-while IFS= read -r line < <( tail -Fn-1 $log_dir/retroarch.log )
+while IFS= read -r line
 do
    # Skip lines not prefixed with the following (speedup):
   if [[ ! $line =~ '^\[INFO\] \[(Core|Audio|Video|Environ|NS)\].*' ]]
@@ -262,4 +250,5 @@ do
     retroarch_exit_cleanup &
     retroarch_exit_cleanup_pid=$!
   fi
-done
+
+done < <( tail -Fn-1 $log_dir/retroarch.log )
