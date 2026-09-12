@@ -83,36 +83,25 @@ raconfig --set log_to_file=true
 raconfig --set log_to_file_timestamp=false
 raconfig --set log_verbosity=true
 
-# State variables
-local loading=0 running=0 mswitch=0
-# emuhz: refresh rate of emulated machine
-# srate: sample rate of emulated machine
-# arate: adjusted sample rate to match adjusted refresh rate.
-local emuhz= srate= arate= content_path= core=
-# pid of RetroArch exit monitor.
-local retroarch_exit_cleanup_pid=
-# running rascreen holding onto refresh rate changes.
-typeset -a RASCREEN_PIDS=()
 # Cache core name lookups to avoid repeated sed invocations.
 typeset -A core_cache=()
-# Search strings for AV changes.
-typeset -a av_search=(
-  '([0-9]+x[0-9]+)'
-  'Aspect: ([0-9]\.[0-9]+)'
-  'FPS: ([0-9]+\.[0-9]+)'
-  'Sample rate: ([0-9]+(\.[0-9]+)?)'
-)
+
+# running rascreen holding onto refresh rate changes.
+typeset -a RASCREEN_PIDS=()
+
+# pid of RetroArch exit monitor.
+local retroarch_exit_cleanup_pid=
 
 # Log parsing loop:
 # - content loading
-# - core loading                  -> set loading context.
+# - core loading                  -> set running context.
 #   - get refresh rate
-#   - start synchronous audio     -> set running context.
+#   - start synchronous audio     -> emulation starts.
 #     - set refresh rate!
 #     - get refresh rate          1. running context loop.
 #     - start synchronous audio   2. running context loop.
 #       - set refresh rate!       3. running context loop.
-# - unloading core or quit        -> reset context.
+# - unloading core or quit        -> reset run context.
 #   - release refresh rates!
 while IFS= read -r line
 do
@@ -127,123 +116,87 @@ do
   # - When run from the cli, loads as "[INFO] [Content] Loading content file:"
   #   if it does at all. It depends on the media type.
   # - Some cores will log both forms when run from the menu.
-  if [[ $line =~ '\[Core\] Using content: "(.+)"' ]]
+  if [[ $line =~ 'Using content: "(.+)"' ]]
   then
     dprint -ok "Content Loading"
-    content_path=${match[1]}
-    print "loading: ${content_path/#$HOME/~}"
+    print "loading: ${match[1]/#$HOME/~}"
 
-  # Core Loading:
-  elif [[ $line =~ '\[Core\] Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]
+  # Core Loading, Set Run State:
+  elif [[ $line =~ 'Loading dynamic libretro core from: ".+\/(.+)\.dylib"' ]]
   then
-    local core_key=${match[1]}
-    core=${core_cache[$core_key]:-}
+    core=${core_cache[${match[1]}]:-}
     if [[ -z $core ]]
     then
+      corelib=${match[1]}
       core=${$(
-        sed -En 's/^corename = "(.+)"/\1/p' $libretro_info_path/$core_key.info 2>/dev/null
-      ):-${core_key%_libretro}}
-      core_cache[$core_key]=$core
+        sed -En 's/^corename = "(.+)"/\1/p' $libretro_info_path/$corelib.info 2>/dev/null
+      ):-${corelib%_libretro}}
+      core_cache[$corelib]=$core
     fi
     dprint -ok "Core Loading: $core"
-    loading=1
-    running=0
-    mswitch=0
-    RASCREEN_PIDS=()
-  fi
+    emuhz=
+    srate=
+    run=1
 
-  # Loading Context:
-  if (( loading ))
+  # Run State:
+  elif (( run ))
   then
-    # Get Refresh Rate:
-    if [[ $line =~ "\[Core\] Geometry: ${(j:, :)av_search}" ]]
+    # Get AV Info. Set Refresh Rate Change State:
+    if [[ $line =~ '([0-9]+x[0-9]+),.+: ([0-9]\.[0-9]+),.+: ([0-9]+\.[0-9]+),.+: ([0-9]+(\.[0-9]+)?)' ]]
     then
-      dprint "AV Information"
-      dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} \
-                refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
-      emuhz=${match[3]}
-      srate=${match[4]}
-
-    elif [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
-    then
-      arate=${match[1]}
-      printf 'Dynamic Rate Control: sample rate %sHz->%sHz, deviation %+.4f%%.\n' \
-        $srate $arate $(( (arate - srate) / srate * 100 ))
-
-    # Warning! `video_refresh_rate` is not properly set.
-    elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
-    then
-      printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
-        ${match[2]} ${match[1]}
-
-    # Set Refresh Rate:
-    # When the audio driver starts, emulation starts.
-    elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
-    then
-      dprint -ok "${match[1]} - Emulation Started"
-      set_hz $emuhz
-      loading=0
-      running=1
-      mswitch=0
-    fi
-
-  # Running Context:
-  elif (( running ))
-  then
-    # Get Refresh Rate:
-    # Mid-run refresh rate changes. Mainly applies to MAME emulation.
-    if [[ $line =~ "\[Environ\] SET_SYSTEM_AV_INFO: ${(j:, :)av_search}" ]]
-    then
-      if [[ ${match[3]} != $emuhz ]]
+      if [[ -z $emuhz || ${match[3]} != $emuhz ]]
       then
-        dprint -c3 "AV Information - Update"
+        dprint "AV Information"
         dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} \
                   refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
         emuhz=${match[3]}
         srate=${match[4]}
-        mswitch=1
+        sethz=1
       fi
 
-    # Unload & Reset...
-    elif [[ $line =~ '(\[Core\] Unloading core|\[NS\] stopping draw observer)' ]]
+    # Refresh Rate Change State:
+    elif (( sethz ))
     then
-      dprint -ok "Unloading Core: $core"
-      release_hz
-      loading=0
-      running=0
-      mswitch=0
-
-    # Mid-run Refresh Rate Switch Context:
-    elif (( mswitch ))
-    then
-      if [[ $line =~ '\[Audio\] Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
+      # Dynamic Rate Control Info:
+      if [[ $line =~ 'Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
       then
         arate=${match[1]}
         printf 'Dynamic Rate Control: sample rate %sHz->%sHz, deviation %+.4f%%.\n' \
           $srate $arate $(( (arate - srate) / srate * 100 ))
 
-      # Warning! `video_refresh_rate` is not properly set or the core has not settled
-      # to the correct refresh rate. This can happen with some systems in MAME, e.g.,
-      # sega/stv.cpp->cotton2 switches refresh rates multiple times while booting.
-      elif [[ $line =~ '\[Video\] Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
+      # Warning! `video_refresh_rate` is not properly set or the core has not
+      # settled to the correct refresh rate. This can happen with some systems
+      # in MAME, e.g., sega/stv.cpp->cotton2 switches refresh rates multiple
+      # times while booting.
+      elif [[ $line =~ 'Timings deviate too much.+= ([0-9]+\.[0-9]+).+ = ([0-9]+\.[0-9]+)' ]]
       then
         printf 'Dynamic Rate Control: requested rate (%sHz) deviates too far from setting (%sHz).\n' \
           ${match[2]} ${match[1]}
 
       # Set Refresh Rate:
-      elif [[ $line =~ '\[Audio\] (Start.+ audio) driver' ]]
+      # When the audio driver starts, emulation starts.
+      elif [[ $line =~ '(Start.+ audio) driver' ]]
       then
-        dprint -ok "Switch Refresh Rate"
+        dprint -ok "${match[1]} - Emulation Started"
         set_hz $emuhz
-        mswitch=0
+        sethz=0
       fi
+    fi
+
+    # Unload...
+    if [[ $line =~ '(Unloading core|stopping draw observer)' ]]
+    then
+      dprint -ok "Unloading Core: $core"
+      release_hz
+      run=0
     fi
   fi
 
   # Singleton to detect when RetroArch has exited.
-  # retroarch_exit_cleanup_pid is pre-initialized to "" so the trap is always safe.
-  # kill -0 returns non-zero when the process has exited or the PID is unset. When
-  # RetroArch relaunches, retroarch_exit_cleanup will have exited, so this re-spawns it.
+  # retroarch_exit_cleanup_pid is pre-initialized so the trap is always safe.
+  # kill -0 returns non-zero when the process has exited or the PID is unset.
+  # When RetroArch relaunches, retroarch_exit_cleanup will have exited, so this
+  # re-spawns it.
   if ! kill -0 $retroarch_exit_cleanup_pid 2>/dev/null
   then
     dprint -ok "Start: retroarch_exit_cleanup"
