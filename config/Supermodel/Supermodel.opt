@@ -1,5 +1,5 @@
 supermodel_accelerator_output_range = "100"
-supermodel_av_timing = "60hz"
+supermodel_av_timing = "native"
 supermodel_brake_output_range = "100"
 supermodel_crosshairs = "0"
 supermodel_crt_colors = "4"
