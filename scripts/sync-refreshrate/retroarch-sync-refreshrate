@@ -32,12 +32,19 @@ function dprint {
 # Set refresh rate to the closest matching fixed rate of the display.
 function set_hz {
   rascreen --set-hz $1 &
-  local pid=$!
-  if kill -0 $pid 2>/dev/null
+  local pid=$! ret=$?
+  sleep .2
+  if (( ret ))
+  then
+    print "Failed to set refreshrate." >&2
+    dprint -c1 "rascreen --set-hz $1 - failed"
+    return 1
+  elif kill -0 $pid 2>/dev/null
   then
     RASCREEN_PIDS+=$pid
+    dprint -c5 "rascreen --set-hz $1 - tracking $pid."
   else
-    print "Failed to set refreshrate." >&2
+    dprint -c7 "rascreen --set-hz $1 - not tracked."
     return 1
   fi
 }
@@ -51,9 +58,9 @@ function release_hz {
   do
     if [[ $( ps -p $pid -o comm= 2>/dev/null ) == rascreen ]]
     then
-      dprint "kill $pid: rascreen"
       kill -TERM $pid 2>/dev/null
       print "refresh rate released."
+      dprint -c5 "kill $pid: rascreen"
     fi
   done
   RASCREEN_PIDS=()
@@ -65,7 +72,7 @@ function retroarch_exit_cleanup {
   do
     sleep 2
   done
-  dprint -ok "Stop: retroarch_exit_cleanup"
+  dprint -ok "RetroArch exit cleanup."
   # The log gets truncated when RetroArch launches, causing confusion with tail.
   # It misses a few lines and places the script in an unknown state. Move it
   # with a *-last.log suffix so it creates a new one on next launch. `tail -F`
@@ -78,7 +85,11 @@ function retroarch_exit_cleanup {
 }
 
 # Required logging options for the script to function.
-raconfig --set frontend_log_level=1
+if [[ $( raconfig --get frontend_log_level ) > 1 ]]
+then
+  # Info logging level or lower required.
+  raconfig --set frontend_log_level=1
+fi
 raconfig --set log_to_file=true
 raconfig --set log_to_file_timestamp=false
 raconfig --set log_verbosity=true
@@ -144,11 +155,11 @@ do
     # Get AV Info. Set Refresh Rate Change State:
     if [[ $line =~ '([0-9]+x[0-9]+),.+: ([0-9]\.[0-9]+),.+: ([0-9]+\.[0-9]+),.+: ([0-9]+(\.[0-9]+)?)' ]]
     then
+      dprint -l -c3 "AV Information"
+      dprint    -c3 dimensions:${match[1]} aspect-ratio:${match[2]} \
+                    refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
       if [[ -z $emuhz || ${match[3]} != $emuhz ]]
       then
-        dprint "AV Information"
-        dprint -l dimensions:${match[1]} aspect-ratio:${match[2]} \
-                  refresh-rate:${match[3]}Hz sample-rate:${match[4]}Hz
         emuhz=${match[3]}
         srate=${match[4]}
         sethz=1
@@ -161,7 +172,7 @@ do
       if [[ $line =~ 'Set audio input rate to: ([0-9]+\.[0-9]+)' ]]
       then
         arate=${match[1]}
-        printf 'Dynamic Rate Control: sample rate %sHz->%sHz, deviation %+.4f%%.\n' \
+        printf 'Dynamic Rate Control: sample rate %s->%sHz, deviation %+.4f%%.\n' \
           $srate $arate $(( (arate - srate) / srate * 100 ))
 
       # Warning! `video_refresh_rate` is not properly set or the core has not
@@ -199,9 +210,9 @@ do
   # re-spawns it.
   if ! kill -0 $retroarch_exit_cleanup_pid 2>/dev/null
   then
-    dprint -ok "Start: retroarch_exit_cleanup"
     retroarch_exit_cleanup &
     retroarch_exit_cleanup_pid=$!
+    dprint -ok "Watching RetroArch $!"
   fi
 
 done < <( tail -Fn-1 $log_dir/retroarch.log )
