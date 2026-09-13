@@ -244,6 +244,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Clock Tower II - The Struggle Within (USA).chd",
+      "label": "Clock Tower II - The Struggle Within (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-00695|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Colin McRae Rally 2.0 (USA) (En,Fr,Es).chd",
       "label": "Colin McRae Rally 2.0 (USA) (En,Fr,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -588,6 +596,38 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Front Mission 1st (Japan).chd",
+      "label": "Front Mission 1st (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLPM-87317|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Front Mission 2 (Japan, Asia).chd",
+      "label": "Front Mission 2 (Japan, Asia)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLPS-01000|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Front Mission 3 (USA).chd",
+      "label": "Front Mission 3 (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-01011|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Front Mission Alternative (Japan).chd",
+      "label": "Front Mission Alternative (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLPS-00953|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Future Cop - L.A.P.D. (USA).chd",
       "label": "Future Cop - L.A.P.D. (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -884,6 +924,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/King's Field III (Japan) (Rev 1).chd",
+      "label": "King's Field III (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLPS-00377|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Klonoa - Door to Phantomile (USA).chd",
       "label": "Klonoa - Door to Phantomile (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -996,6 +1044,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X3 (Europe).chd",
+      "label": "Mega Man X3 (Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLES-00503|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X4 (USA).chd",
       "label": "Mega Man X4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -1049,6 +1105,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCUS-94355|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Motor Toon Grand Prix 2 (Japan)/Motor Toon Grand Prix 2 (Japan).m3u",
+      "label": "Motor Toon Grand Prix 2 (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SCPS-10018-0|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
@@ -1484,6 +1548,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Star Trek - Invasion (USA).chd",
+      "label": "Star Trek - Invasion (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-00924|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Star Wars - Dark Forces (USA).chd",
       "label": "Star Wars - Dark Forces (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -1724,6 +1796,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tony Hawk's Pro Skater (USA).chd",
+      "label": "Tony Hawk's Pro Skater (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-00860|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Tony Hawk's Pro Skater 2 (USA).chd",
       "label": "Tony Hawk's Pro Skater 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -1892,6 +1972,22 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vandal Hearts (USA).chd",
+      "label": "Vandal Hearts (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-00447|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vandal Hearts II (USA).chd",
+      "label": "Vandal Hearts II (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLUS-00940|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vanishing Point (USA).chd",
       "label": "Vanishing Point (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -1905,6 +2001,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCES-02873|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Vib-Ribbon (Japan, Asia).chd",
+      "label": "Vib-Ribbon (Japan, Asia)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SCPS-18012|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {

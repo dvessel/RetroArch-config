@@ -276,14 +276,6 @@
       "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Dezaemon (Japan).zip#Dezaemon (Japan).sfc",
-      "label": "Dezaemon (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
-      "core_name": "Nintendo - SNES / SFC (bsnes-jg)",
-      "crc32": "052167CC|crc",
-      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Nintendo Super Nintendo (SNES)/Dirt Trax FX (USA).zip#Dirt Trax FX (USA).sfc",
       "label": "Dirt Trax FX (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/bsnes-jg_libretro.dylib",
