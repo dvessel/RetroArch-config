@@ -204,7 +204,6 @@ do
   fi
 
   # Singleton to detect when RetroArch has exited.
-  # retroarch_exit_cleanup_pid is pre-initialized so the trap is always safe.
   # kill -0 returns non-zero when the process has exited or the PID is unset.
   # When RetroArch relaunches, retroarch_exit_cleanup will have exited, so this
   # re-spawns it.
