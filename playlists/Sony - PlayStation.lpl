@@ -940,7 +940,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/King's Field III (Japan) (Rev 1).chd",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/King's Field III (Japan).chd",
       "label": "King's Field III (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -988,8 +988,8 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Linda^3 Again (English Translation v0.95.9).chd",
-      "label": "Linda^3 Again (English Translation v0.95.9)",
+      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Linda^3 Again (English Translation).chd",
+      "label": "Linda^3 Again (English Translation)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SCPS-10039|serial",
