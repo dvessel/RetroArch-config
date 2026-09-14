@@ -197,7 +197,7 @@ for (( i=0; i!=$limit; i++ )); do
       continue
 
     # account for stacked extensions, e.g. Mario.state1.png.
-    ext=${${old_path:t}#${${old_path:t}%%.*}}
+    ext=${${old_path:t}##*.}
     new_path=$old_path:h/${fslabel}$ext
 
     if [[ -f $new_path ]]; then
