@@ -804,14 +804,6 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Hokuto no Ken (Japan).chd",
-      "label": "Hokuto no Ken (Japan)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLPS-00369|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
       "path": "/Users/joon/Games/Emulation/Sony PlayStation/I.Q - Intelligent Qube (USA).chd",
       "label": "I.Q - Intelligent Qube (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
@@ -1041,14 +1033,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
       "crc32": "SLUS-00453|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sony PlayStation/Mega Man X3 (Europe).chd",
-      "label": "Mega Man X3 (Europe)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLES-00503|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
