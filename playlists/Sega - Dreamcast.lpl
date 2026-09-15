@@ -20,7 +20,7 @@
   "scan_db_usage": 0,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Alien Front Online (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Alien Front Online (USA).chd",
       "label": "Alien Front Online (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -28,7 +28,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Baldr Force EXE (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Baldr Force EXE (Japan).chd",
       "label": "Baldr Force EXE (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -36,7 +36,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Bangai-O (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Bangai-O (USA).chd",
       "label": "Bangai-O (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -44,7 +44,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Border Down (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Border Down (Japan).chd",
       "label": "Border Down (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -52,7 +52,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Cannon Spike (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Cannon Spike (USA).chd",
       "label": "Cannon Spike (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -60,7 +60,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Capcom vs. SNK (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Capcom vs. SNK (USA).chd",
       "label": "Capcom vs. SNK (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -68,7 +68,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Capcom vs. SNK - Millennium Fight 2000 Pro (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Capcom vs. SNK - Millennium Fight 2000 Pro (Japan).chd",
       "label": "Capcom vs. SNK - Millennium Fight 2000 Pro (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -76,7 +76,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan).chd",
       "label": "Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -84,7 +84,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Chaos Field (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Chaos Field (Japan).chd",
       "label": "Chaos Field (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -92,7 +92,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/ChuChu Rocket! (USA) (En,Ja,Fr,De,Es).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/ChuChu Rocket! (USA) (En,Ja,Fr,De,Es).chd",
       "label": "ChuChu Rocket! (USA) (En,Ja,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -100,15 +100,15 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Crazy Taxi (USA).chd",
-      "label": "Crazy Taxi (USA)",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Crazy Taxi (USA) (En,Ja).chd",
+      "label": "Crazy Taxi (USA) (En,Ja)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "51035|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Crazy Taxi 2 (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Crazy Taxi 2 (USA).chd",
       "label": "Crazy Taxi 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -116,7 +116,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Cyber Troopers - Virtual-On - Oratorio Tangram (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Cyber Troopers - Virtual-On - Oratorio Tangram (USA).chd",
       "label": "Cyber Troopers - Virtual-On - Oratorio Tangram (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -124,7 +124,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Daytona USA (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Daytona USA (USA).chd",
       "label": "Daytona USA (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -132,7 +132,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Dead or Alive 2 (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Dead or Alive 2 (USA).chd",
       "label": "Dead or Alive 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -140,7 +140,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Ecco the Dolphin - Defender of the Future (USA) (En,Fr,De,Es).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Ecco the Dolphin - Defender of the Future (USA) (En,Fr,De,Es).chd",
       "label": "Ecco the Dolphin - Defender of the Future (USA) (En,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -148,7 +148,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Elemental Gimmick Gear (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Elemental Gimmick Gear (USA).chd",
       "label": "Elemental Gimmick Gear (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -156,7 +156,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Evil Dead - Hail to the King (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Evil Dead - Hail to the King (USA).chd",
       "label": "Evil Dead - Hail to the King (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -164,7 +164,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/F1 World Grand Prix II for Dreamcast (Europe) (En,Fr,De,Es,It).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/F1 World Grand Prix II for Dreamcast (Europe) (En,Fr,De,Es,It).chd",
       "label": "F1 World Grand Prix II for Dreamcast (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -172,7 +172,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/F355 Challenge - Passione Rossa (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/F355 Challenge - Passione Rossa (USA).chd",
       "label": "F355 Challenge - Passione Rossa (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -180,15 +180,15 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Fast Striker Ver. 1.5 (Europe) (Unl) (Rerelease)/Fast Striker Ver. 1.5 (Europe) (Unl) (Rerelease).cue",
-      "label": "Fast Striker Ver. 1.5 (Europe) (Unl) (Rerelease)",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Fast Striker Ver. 1.5 (Europe) (Rerelease).chd",
+      "label": "Fast Striker Ver. 1.5 (Europe) (Rerelease)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "8383FE0F|crc",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Grandia II (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Grandia II (USA).chd",
       "label": "Grandia II (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -196,7 +196,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Gunlord (Europe) (Unl)/Gunlord (Europe) (Unl).cue",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Gunlord (Europe) (Unl).chd",
       "label": "Gunlord (Europe) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -204,7 +204,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/House of the Dead 2, The (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/House of the Dead 2, The (USA).chd",
       "label": "House of the Dead 2, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -212,7 +212,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Hydro Thunder (USA) (Rev 1).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Hydro Thunder (USA) (Rev 1).chd",
       "label": "Hydro Thunder (USA) (Rev 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -220,7 +220,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Ikaruga (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Ikaruga (Japan).chd",
       "label": "Ikaruga (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -228,7 +228,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Jet Grind Radio (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Jet Grind Radio (USA).chd",
       "label": "Jet Grind Radio (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -236,15 +236,15 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Last Hope - Pink Bullets (Europe) (Unl)/Last Hope - Pink Bullets (Europe) (Unl).cue",
-      "label": "Last Hope - Pink Bullets (Europe) (Unl)",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Last Hope - Pink Bullets (Europe).chd",
+      "label": "Last Hope - Pink Bullets (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "06273462|crc",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Maken X (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Maken X (USA).chd",
       "label": "Maken X (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -252,15 +252,15 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/MSR - Metropolis Street Racer (USA) (Rev A).chd",
-      "label": "MSR - Metropolis Street Racer (USA) (Rev A)",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/MSR - Metropolis Street Racer (USA).chd",
+      "label": "MSR - Metropolis Street Racer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "51012|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Neo XYX (Europe) (Unl)/Neo XYX (Europe) (Unl).cue",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Neo XYX (Europe) (Unl).chd",
       "label": "Neo XYX (Europe) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -268,15 +268,15 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Phantasy Star Online (USA).chd",
-      "label": "Phantasy Star Online (USA)",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Phantasy Star Online (USA) (En,Ja,Fr,De,Es) (Rev B).chd",
+      "label": "Phantasy Star Online (USA) (En,Ja,Fr,De,Es) (Rev B)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
       "crc32": "51100|serial",
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Phantasy Star Online Ver. 2 (USA) (En,Ja,Fr,De,Es).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Phantasy Star Online Ver. 2 (USA) (En,Ja,Fr,De,Es).chd",
       "label": "Phantasy Star Online Ver. 2 (USA) (En,Ja,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -284,7 +284,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Quake III - Arena (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Quake III - Arena (USA).chd",
       "label": "Quake III - Arena (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -292,7 +292,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Re-Volt (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Re-Volt (USA).chd",
       "label": "Re-Volt (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -300,7 +300,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Ready 2 Rumble Boxing (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Ready 2 Rumble Boxing (USA).chd",
       "label": "Ready 2 Rumble Boxing (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -308,7 +308,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Ready 2 Rumble Boxing - Round 2 (USA) (En,Fr,De).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Ready 2 Rumble Boxing - Round 2 (USA) (En,Fr,De).chd",
       "label": "Ready 2 Rumble Boxing - Round 2 (USA) (En,Fr,De)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -316,7 +316,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Redux - Dark Matters (Europe).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Redux - Dark Matters (Europe).chd",
       "label": "Redux - Dark Matters (Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -324,7 +324,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Resident Evil - Code - Veronica (USA)/Resident Evil - Code - Veronica (USA).m3u",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Resident Evil - Code - Veronica (USA)/Resident Evil - Code - Veronica (USA).m3u",
       "label": "Resident Evil - Code - Veronica (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -332,7 +332,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Rez (Europe) (En,Ja,Fr,De,Es,It).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Rez (Europe) (En,Ja,Fr,De,Es,It).chd",
       "label": "Rez (Europe) (En,Ja,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -340,7 +340,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Sega GT (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Sega GT (USA).chd",
       "label": "Sega GT (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -348,7 +348,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Sega Rally 2 (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Sega Rally 2 (USA).chd",
       "label": "Sega Rally 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -356,7 +356,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Shenmue (USA)/Shenmue (USA).m3u",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Shenmue (USA)/Shenmue (USA).m3u",
       "label": "Shenmue (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -364,7 +364,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Shenmue II (Europe) (En,Fr,De,Es)/Shenmue II (Europe) (En,Fr,De,Es).m3u",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Shenmue II (Europe) (En,Fr,De,Es)/Shenmue II (Europe) (En,Fr,De,Es).m3u",
       "label": "Shenmue II (Europe) (En,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -372,7 +372,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Skies of Arcadia (USA)/Skies of Arcadia (USA).m3u",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Skies of Arcadia (USA)/Skies of Arcadia (USA).m3u",
       "label": "Skies of Arcadia (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -380,7 +380,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Sonic Adventure (USA) (En,Ja,Fr,De,Es) (Rev A).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Sonic Adventure (USA) (En,Ja,Fr,De,Es) (Rev A).chd",
       "label": "Sonic Adventure (USA) (En,Ja,Fr,De,Es) (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -388,7 +388,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es).chd",
       "label": "Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -396,7 +396,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Soulcalibur (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Soulcalibur (USA).chd",
       "label": "Soulcalibur (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -404,7 +404,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Space Channel 5 (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Space Channel 5 (USA).chd",
       "label": "Space Channel 5 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -412,7 +412,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Space Channel 5 Part 2 (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Space Channel 5 Part 2 (Japan).chd",
       "label": "Space Channel 5 Part 2 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -420,7 +420,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Speed Devils - Online Racing (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Speed Devils - Online Racing (USA).chd",
       "label": "Speed Devils - Online Racing (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -428,7 +428,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Star Wars - Episode I - Racer (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Star Wars - Episode I - Racer (USA).chd",
       "label": "Star Wars - Episode I - Racer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -436,7 +436,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/StarLancer (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/StarLancer (USA).chd",
       "label": "StarLancer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -444,7 +444,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Sturmwind (Europe) (Unl) (Rerelease)/Sturmwind (Europe) (Unl) (Rerelease).cue",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Sturmwind (Europe) (Unl) (Rerelease).chd",
       "label": "Sturmwind (Europe) (Unl) (Rerelease)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -452,7 +452,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Sword of the Berserk - Guts' Rage (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Sword of the Berserk - Guts' Rage (USA).chd",
       "label": "Sword of the Berserk - Guts' Rage (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -460,7 +460,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Taxi 2 - Le Jeu (France).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Taxi 2 - Le Jeu (France).chd",
       "label": "Taxi 2 - Le Jeu (France)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -468,7 +468,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Test Drive Le Mans (USA) (En,Fr,Es).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Test Drive Le Mans (USA) (En,Fr,Es).chd",
       "label": "Test Drive Le Mans (USA) (En,Fr,Es)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -476,7 +476,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Tokyo Xtreme Racer (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Tokyo Xtreme Racer (USA).chd",
       "label": "Tokyo Xtreme Racer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -484,7 +484,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Tokyo Xtreme Racer 2 (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Tokyo Xtreme Racer 2 (USA).chd",
       "label": "Tokyo Xtreme Racer 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -492,7 +492,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Tony Hawk's Pro Skater 2 (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Tony Hawk's Pro Skater 2 (USA).chd",
       "label": "Tony Hawk's Pro Skater 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -500,7 +500,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Typing of the Dead, The (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Typing of the Dead, The (USA).chd",
       "label": "Typing of the Dead, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -508,7 +508,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Vigilante 8 - 2nd Offense (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Vigilante 8 - 2nd Offense (USA).chd",
       "label": "Vigilante 8 - 2nd Offense (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -516,7 +516,7 @@
       "db_name": "Sega - Dreamcast.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Dreamcast/Virtua Fighter 3tb (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Dreamcast/Virtua Fighter 3tb (USA).chd",
       "label": "Virtua Fighter 3tb (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",

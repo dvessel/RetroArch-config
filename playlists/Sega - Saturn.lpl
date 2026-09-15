@@ -20,7 +20,7 @@
   "scan_db_usage": 0,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Albert Odyssey - Legend of Eldean (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Albert Odyssey - Legend of Eldean (USA).chd",
       "label": "Albert Odyssey - Legend of Eldean (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -28,7 +28,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Astal (USA) (2S).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Astal (USA) (2S).chd",
       "label": "Astal (USA) (2S)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -36,7 +36,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Astra Superstars (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Astra Superstars (Japan).chd",
       "label": "Astra Superstars (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -44,7 +44,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Baroque (English Translated).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Baroque (English Translated).chd",
       "label": "Baroque (English Translated)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -52,7 +52,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Baroque (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Baroque (Japan).chd",
       "label": "Baroque (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -60,7 +60,15 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Bulk Slash (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Bulk Slash (English Translated).chd",
+      "label": "Bulk Slash (English Translated)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-14310G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Bulk Slash (Japan).chd",
       "label": "Bulk Slash (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -68,7 +76,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Burning Rangers (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Burning Rangers (USA).chd",
       "label": "Burning Rangers (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -76,15 +84,15 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Christmas NiGHTS into Dreams... (USA).chd",
-      "label": "Christmas NiGHTS into Dreams... (USA)",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Christmas Nights into Dreams... (USA).chd",
+      "label": "Christmas Nights into Dreams... (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "81067|serial",
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Daytona USA - Championship Circuit Edition (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Daytona USA - Championship Circuit Edition (USA).chd",
       "label": "Daytona USA - Championship Circuit Edition (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -92,15 +100,15 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/-Saturn-EU/Deep Fear (Europe).m3u",
-      "label": "Deep Fear (Europe)",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Deep Fear (USA) (Unl)/Deep Fear (USA) (Unl).m3u",
+      "label": "Deep Fear (USA) (Unl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "00000000|crc",
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Dragon Force (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Dragon Force (USA).chd",
       "label": "Dragon Force (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -108,7 +116,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Game Tengoku - The Game Paradise! (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Game Tengoku - The Game Paradise! (Japan).chd",
       "label": "Game Tengoku - The Game Paradise! (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -116,7 +124,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Guardian Heroes (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Guardian Heroes (USA).chd",
       "label": "Guardian Heroes (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -124,7 +132,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Hyper Duel (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Hyper Duel (Japan).chd",
       "label": "Hyper Duel (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -132,7 +140,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Legend of Oasis, The (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Legend of Oasis, The (USA).chd",
       "label": "Legend of Oasis, The (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -140,7 +148,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Lode Runner - The Legend Returns (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Lode Runner - The Legend Returns (Japan).chd",
       "label": "Lode Runner - The Legend Returns (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -148,15 +156,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/-Saturn-EU/Lost Vikings 2 - Norse by Norsewest (Europe) (En,Fr,De).chd",
-      "label": "Lost Vikings 2 - Norse by Norsewest (Europe) (En,Fr,De)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
-      "core_name": "Sega - Saturn (Beetle Saturn)",
-      "crc32": "00000000|crc",
-      "db_name": "Sega - Saturn.lpl"
-    },
-    {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Magic Knight Rayearth (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Magic Knight Rayearth (USA).chd",
       "label": "Magic Knight Rayearth (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -164,7 +164,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Magical Night Dreams - Cotton 2 (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Magical Night Dreams - Cotton 2 (Japan).chd",
       "label": "Magical Night Dreams - Cotton 2 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -172,7 +172,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Magical Night Dreams - Cotton Boomerang (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Magical Night Dreams - Cotton Boomerang (Japan).chd",
       "label": "Magical Night Dreams - Cotton Boomerang (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -180,23 +180,31 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/NiGHTS into Dreams... (USA) (with 3D Control Pad).chd",
-      "label": "NiGHTS into Dreams... (USA) (with 3D Control Pad)",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Nights into Dreams... (USA) (with 3D Control Pad) (RE).chd",
+      "label": "Nights into Dreams... (USA) (with 3D Control Pad) (RE)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "00000000|crc",
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon (USA).chd",
-      "label": "Panzer Dragoon (USA)",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Norse by Norsewest - The Return of the Lost Vikings (USA).chd",
+      "label": "Norse by Norsewest - The Return of the Lost Vikings (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "00000000|crc",
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon II Zwei (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Panzer Dragoon (USA) (5S).chd",
+      "label": "Panzer Dragoon (USA) (5S)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "81009|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Panzer Dragoon II Zwei (USA).chd",
       "label": "Panzer Dragoon II Zwei (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -204,7 +212,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Panzer Dragoon Saga (USA)/Panzer Dragoon Saga (USA).m3u",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Panzer Dragoon Saga (USA)/Panzer Dragoon Saga (USA).m3u",
       "label": "Panzer Dragoon Saga (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -212,7 +220,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Radiant Silvergun (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Radiant Silvergun (Japan).chd",
       "label": "Radiant Silvergun (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -220,23 +228,23 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/-Saturn-EU/Saturn Bomberman (Europe).chd",
-      "label": "Saturn Bomberman (Europe)",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Saturn Bomberman (USA) (1S).chd",
+      "label": "Saturn Bomberman (USA) (1S)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
-      "crc32": "00000000|crc",
+      "crc32": "81070|serial",
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Sega Rally Championship (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Sega Rally Championship (USA).chd",
       "label": "Sega Rally Championship (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
-      "crc32": "00000000|crc",
+      "crc32": "81207|serial",
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Shining Force III (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Shining Force III (USA).chd",
       "label": "Shining Force III (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -244,7 +252,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Shining the Holy Ark (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Shining the Holy Ark (USA).chd",
       "label": "Shining the Holy Ark (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -252,7 +260,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Thunder Force Gold Pack 1 (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Thunder Force Gold Pack 1 (Japan).chd",
       "label": "Thunder Force Gold Pack 1 (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -260,7 +268,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Thunder Force Gold Pack 2 (Japan) (Rev A).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Thunder Force Gold Pack 2 (Japan) (Rev A).chd",
       "label": "Thunder Force Gold Pack 2 (Japan) (Rev A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -268,7 +276,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Thunder Force V (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Thunder Force V (Japan).chd",
       "label": "Thunder Force V (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -276,7 +284,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Tryrush Deppy (Japan).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Tryrush Deppy (Japan).chd",
       "label": "Tryrush Deppy (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -284,15 +292,15 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtua Fighter 2 (Japan).chd",
-      "label": "Virtua Fighter 2 (Japan)",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Virtua Fighter 2 (USA).chd",
+      "label": "Virtua Fighter 2 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
-      "crc32": "00000000|crc",
+      "crc32": "81014|serial",
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtua Fighter Remix (USA).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Virtua Fighter Remix (USA).chd",
       "label": "Virtua Fighter Remix (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
@@ -300,7 +308,7 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Sega Saturn/Virtua Racing (USA) (15S).chd",
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Virtua Racing (USA) (15S).chd",
       "label": "Virtua Racing (USA) (15S)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
