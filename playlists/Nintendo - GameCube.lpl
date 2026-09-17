@@ -60,6 +60,14 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Nintendo GameCube/Custom Robo (USA).rvz",
+      "label": "Custom Robo (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "DL-DOL-GXCE-USA|serial",
+      "db_name": "Nintendo - GameCube.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Nintendo GameCube/Disney's Piglet's Big Game (USA).rvz",
       "label": "Disney's Piglet's Big Game (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
@@ -273,6 +281,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
       "crc32": "DL-DOL-GRJE-USA|serial",
+      "db_name": "Nintendo - GameCube.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Nintendo GameCube/Rayman 3 - Hoodlum Havoc (USA) (En,Fr,De,Es,It).rvz",
+      "label": "Rayman 3 - Hoodlum Havoc (USA) (En,Fr,De,Es,It)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "DL-DOL-GRHE-USA|serial",
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
