@@ -91,7 +91,7 @@ done
 
 for source_dir in $scandir/.sorted/-*
 do
-  typeset -A refresh_rates=() refresh_counts=()
+  typeset -A refresh_rates=() refresh_counts=() refresh_outofbounds=()
 
   for rom in $source_dir/*.zip
   do
@@ -113,6 +113,14 @@ do
     hz=$( rascreen --get-screen $displayid --match-hz $refresh )
     refresh_counts[$hz]=$(( refresh_counts[$hz] + 1 ))
     refresh_rates[$name]=$hz
+    # vrr 120hz cannot handle > 60hz gracefully when vrr_runloop_enable is true.
+    # vrr run loop must be disabled.
+    if (( $refresh > 60.000000 ))
+    then
+      refresh_outofbounds[$name]=true
+    else
+      refresh_outofbounds[$name]=false
+    fi
   done
 
   if (( ${#refresh_counts} < 1 ))
@@ -143,29 +151,21 @@ do
     printf "%s:\e[0;32m save state support was restored.\e[0m\n" $source
   fi
 
-  if (( ${#refresh_counts} > 1 ))
+  typeset -au oob=( ${(u)refresh_outofbounds} )
+
+  if [[ $oob == true ]]
   then
-    # Reset source config refresh rate.
-    if [[ -n $( cfg_value video_refresh_rate $cdir/$source.cfg ) ]]
-    then
-      set_refreshrate $( raconfig --get video_refresh_rate $cdir/MAME.cfg ) $cdir/$source.cfg $cdir/MAME.cfg
-      printf "%s:\e[0;33m refresh rate was reset. %s will have their own values.\e[0m\n" $source ${(kj:,:)refresh_rates}
-    fi
-    # Set individual game refresh rates.
-    for name hz in ${(kv)refresh_rates}
+    raconfig --override vrr_runloop_enable=false $cdir/$source.cfg $cdir/MAME.cfg
+    printf "%s: vrr run loop was %s.\n" $source disabled
+  else
+    # mixed set
+    for name value in ${(kv)refresh_outofbounds}
     do
-      set_refreshrate $hz $cdir/$name.cfg $cdir/$source.cfg $cdir/MAME.cfg
-      if [[ $hz != $( raconfig --get video_refresh_rate $cdir/MAME.cfg ) ]]
+      if [[ $value == true ]]
       then
-        printf " %s: refresh rate set to %s.\n" $name $hz
+        raconfig --override vrr_runloop_enable=false $cdir/$name.cfg $cdir/$source.cfg $cdir/MAME.cfg
+        printf "%s: vrr run loop was %s.\n" $name disabled
       fi
     done
-  else
-    # All games use a common refresh rate for the source.
-    set_refreshrate ${(k)refresh_counts} $cdir/$source.cfg $cdir/MAME.cfg
-    if [[ $hz != $( raconfig --get video_refresh_rate $cdir/MAME.cfg ) ]]
-    then
-      printf "%s: refresh rate set to %s.\n" $source $hz
-    fi
   fi
 done
