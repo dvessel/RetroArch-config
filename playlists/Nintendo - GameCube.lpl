@@ -76,6 +76,14 @@
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Nintendo GameCube/Doshin the Giant (Europe) (En,Fr,De,Es,It).rvz",
+      "label": "Doshin the Giant (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "DL-DOL-GKDP-EUR|serial",
+      "db_name": "Nintendo - GameCube.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Nintendo GameCube/Eternal Darkness - Sanity's Requiem (USA).rvz",
       "label": "Eternal Darkness - Sanity's Requiem (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
@@ -97,6 +105,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
       "core_name": "Nintendo - GameCube / Wii (Dolphin)",
       "crc32": "DL-DOL-GFEE-USA|serial",
+      "db_name": "Nintendo - GameCube.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Nintendo GameCube/Geist (USA).rvz",
+      "label": "Geist (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/dolphin_libretro.dylib",
+      "core_name": "Nintendo - GameCube / Wii (Dolphin)",
+      "crc32": "DL-DOL-GITE-USA|serial",
       "db_name": "Nintendo - GameCube.lpl"
     },
     {
