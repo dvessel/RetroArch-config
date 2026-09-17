@@ -1,9 +1,5 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -E - \
-  -display-id:=zdisplayid \
-  -restore-savestates=zrestore_savestates || return 1
-
 PATH=$( dirname `realpath $0` ):$PATH
 
 if [[ $( raconfig --get config_save_minimal ) == true ]]
@@ -18,48 +14,6 @@ cdir=$( raconfig --get rgui_config_directory )/MAME
 if ! mameinfo --init-path $scandir
 then
   echo "Failed to initialize." >&2
-  return 1
-fi
-
-# raconfig can't retrieve values from specific files. Do it here.
-cfg_value() {
-  if [[ -f $2 ]]
-  then
-    sed -nE "s/^$1[[:space:]]*=[[:space:]]*\"(.*)\"/\1/p" $2
-  fi
-}
-set_refreshrate() {
-  local hz=$1
-  shift
-  if (( hz == 120 ))
-  then
-    tfd=false
-    vrr=true
-  else
-    tfd=true
-    vrr=false
-  fi
-  raconfig --override video_present_timing_from_display=$tfd $@
-  raconfig --override video_refresh_rate=$hz $@
-  raconfig --override vrr_runloop_enable=$vrr $@
-}
-
-if (( ${#zdisplayid} ))
-then
-  displayid=($(
-    rascreen --get-screen ${(s:,:)${zdisplayid[-1]}} --serial --id
-  ))
-else
-  # Get the display serial+id for the main display. If RetroArch runs on a secondary
-  # screen, this will likely produce the wrong results. Pass in --display-serial
-  # when using a secondary screen. rascreen --all-screens to see what's available.
-  displayid=($(
-    rascreen --get-screen $( rascreen --all-screens | grep -E ".* 1$" ) --serial --id
-  ))
-fi
-if ! (( ${#displayid} ))
-then
-  echo "Display could not be identified." >&2
   return 1
 fi
 
@@ -79,19 +33,16 @@ for key in $settings_keys preemptive_frames_enable run_ahead_enabled
 do
   savestate_related_unsupported+="$key = false"
 done
-# Restore when supported with --restore-savestates.
+# Re-enable when it's supported.
 typeset -a savestate_related_supported
 for key in $settings_keys
 do
-  if (( ${#zrestore_savestates} ))
-  then
-    savestate_related_supported+="$key = $(raconfig --get $key $cdir/MAME.cfg)"
-  fi
+  savestate_related_supported+="$key = $(raconfig --get $key $cdir/MAME.cfg)"
 done
 
 for source_dir in $scandir/.sorted/-*
 do
-  typeset -A refresh_rates=() refresh_counts=() refresh_outofbounds=()
+  typeset -A vrr_runloop=()
 
   for rom in $source_dir/*.zip
   do
@@ -110,62 +61,45 @@ do
     esac
 
     name=$rom:t:r
-    hz=$( rascreen --get-screen $displayid --match-hz $refresh )
-    refresh_counts[$hz]=$(( refresh_counts[$hz] + 1 ))
-    refresh_rates[$name]=$hz
     # vrr 120hz cannot handle > 60hz gracefully when vrr_runloop_enable is true.
     # vrr run loop must be disabled.
-    if (( $refresh > 60.000000 ))
+    if (( $refresh <= 60.000000 ))
     then
-      refresh_outofbounds[$name]=true
+      vrr_runloop[$name]=true
     else
-      refresh_outofbounds[$name]=false
+      vrr_runloop[$name]=false
     fi
   done
 
-  if (( ${#refresh_counts} < 1 ))
+  if (( ${#vrr_runloop} < 1 ))
   then
     continue
   fi
 
   source=${source_dir:t}
 
-  # Get existing `quick_menu_show_save_load_state` setting before the override.
-  # This is set by the script when save state is not supported.
-  savestate_was_supported=''
-  if (( ${#zrestore_savestates} ))
+  typeset -au oob=( ${(u)vrr_runloop} )
+  if [[ $oob == (true|false) ]]
   then
-    savestate_was_supported=$( cfg_value quick_menu_show_save_load_state $cdir/$source.cfg )
+    raconfig --override vrr_runloop_enable=$oob $cdir/$source.cfg $cdir/MAME.cfg
+    printf "%s: %s = %s\n" $source vrr_runloop_enable $oob
+  else
+    # mixed set
+    for name value in ${(kv)vrr_runloop}
+    do
+      raconfig --override vrr_runloop_enable=$value $cdir/$name.cfg $cdir/$source.cfg $cdir/MAME.cfg
+      printf " %s: %s = %s\n" $name vrr_runloop_enable $value
+    done
   fi
+
   keyvalues="savestate_related_${savestate}"
   for kv in ${(P)keyvalues}
   do
     raconfig --override $kv $cdir/$source.cfg $cdir/MAME.cfg
+    if [[ $savestate == unsupported ]]
+    then
+      printf "%s: %s\n" $source $kv
+    fi
   done
-  if [[ $savestate == unsupported ]]
-  then
-    printf "%s:\e[0;31m save states not supported. Disabled all related settings.\e[0m\n" $source
-  elif (( ${#zrestore_savestates} )) && [[ $savestate_was_supported == false ]]
-  then
-    # Save state can only be `supported` or `unsupported`. Give notice about the restored support.
-    printf "%s:\e[0;32m save state support was restored.\e[0m\n" $source
-  fi
 
-  typeset -au oob=( ${(u)refresh_outofbounds} )
-
-  if [[ $oob == true ]]
-  then
-    raconfig --override vrr_runloop_enable=false $cdir/$source.cfg $cdir/MAME.cfg
-    printf "%s: vrr run loop was %s.\n" $source disabled
-  else
-    # mixed set
-    for name value in ${(kv)refresh_outofbounds}
-    do
-      if [[ $value == true ]]
-      then
-        raconfig --override vrr_runloop_enable=false $cdir/$name.cfg $cdir/$source.cfg $cdir/MAME.cfg
-        printf "%s: vrr run loop was %s.\n" $name disabled
-      fi
-    done
-  fi
 done
