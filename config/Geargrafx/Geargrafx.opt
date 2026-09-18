@@ -1,3 +1,5 @@
+geargrafx_adpcm_clock_mode = "Auto"
+geargrafx_adpcm_clock_speed = "32100"
 geargrafx_adpcm_volume = "120"
 geargrafx_aspect_ratio = "4:3 DAR"
 geargrafx_avenue_pad_3_switch = "Auto"
