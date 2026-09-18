@@ -11,7 +11,7 @@ then
   return 1
 fi
 
-local scandir=~/Games/Emulation/Arcade
+scandir=$1
 
 if [[ ! -d $scandir/.sorted ]]
 then

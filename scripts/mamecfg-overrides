@@ -8,7 +8,7 @@ then
   return 1
 fi
 
-local scandir=~/Games/Emulation/Arcade
+scandir=$1
 cdir=$( raconfig --get rgui_config_directory )/MAME
 
 if ! mameinfo --init-path $scandir

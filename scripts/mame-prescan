@@ -3,4 +3,5 @@
 PATH=$( dirname `realpath $0` ):$PATH
 
 mamexml-generate ~/Games/Emulation/Arcade
-mamesort-rom
+mamerom-sort ~/Games/Emulation/Arcade
+mamecfg-overrides ~/Games/Emulation/Arcade
