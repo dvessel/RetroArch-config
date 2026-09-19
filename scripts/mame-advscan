@@ -1,13 +1,5 @@
 #!/usr/bin/env zsh
 
-# output is piped through multiple commands. allow passing exit status for the script.
-setopt PIPEFAIL
-
-# commands:
-# - init
-# - scan
-# - repair
-
 local command scandir mamezip samples appendxml preview verbose reset
 
 zparseopts -D -F -E - \
@@ -21,20 +13,15 @@ zparseopts -D -F -E - \
 # TODO: handle commands when it's not given but the scandir is.
 command=${1:-scan}; shift 2>/dev/null
 scandir=${${1:a}:-$PWD}; shift 2>/dev/null
-
-if [[ ! -d $scandir ]]
-then
-  echo "scan directory doesn't exist." >&2
-  return 1
-fi
-
 samples=${samples[-1]:a}
 mamezip=${${mamezip[-1]:a}:-$XDG_DATA_HOME/advscan/mamezip}
 appendxml=${${appendxml[-1]:a}:-$XDG_DATA_HOME/advscan/mamexml/_append}
 
-# Go back to current directory when done.
-# advscan can't resolve paths when run outside advscan.rc.
-trap 'cd $PWD' INT TERM EXIT
+if [[ ! -d $scandir ]]
+then
+  echo "scan directory doesn't exist." >&2
+  exit 1
+fi
 
 if [[ ! -d $scandir/.advscan ]]
 then
