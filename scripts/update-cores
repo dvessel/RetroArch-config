@@ -50,7 +50,7 @@ do
     fi
   else
     echo "failed to determine remote revision for $name." >&2
-    exit 1
+    continue
   fi
 
   tmpdir=$( mktemp -d )
@@ -60,7 +60,7 @@ do
   if ! curl -#Lo $tmpdir/$dylib:t.zip https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/$dylib:t.zip
   then
     echo "download failed." >&2
-    exit 1
+    continue
   fi
 
   if unzip -q $tmpdir/$dylib:t.zip -d $tmpdir
@@ -68,7 +68,7 @@ do
     mv -f $tmpdir/$dylib:t $dylib
   else
     echo "failed to extract core." >&2
-    exit 1
+    continue
   fi
 
 done
