@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -F - -all=zall -force=zforce -update=zupdate || return 1
+zparseopts -D -F - -all=zall -clean=zclean -force=zforce -update=zupdate || return 1
 
 configs=( Release Debug )
 if [[ -n ${@:|configs} ]]
@@ -74,7 +74,10 @@ else
 fi
 
 project=pkg/apple/RetroArch_Metal.xcodeproj
-xcodebuild clean -project $project
+if (( ${#zclean} ))
+then
+  xcodebuild clean -project $project
+fi
 
 for config in $builds
 do
