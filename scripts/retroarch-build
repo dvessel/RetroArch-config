@@ -66,9 +66,8 @@ then
   done
 fi
 
-if (( updates > 0 || ${#zforce} ))
+if ! (( updates > 0 || ${#zforce} ))
 then
-else
   print "Nothing to update."
   return 0
 fi
@@ -81,33 +80,33 @@ fi
 
 for config in $builds
 do
-  # Sharing Metal caches invalidates it when switching between arches. It
-  # causes significant startup delays when launching LRPS2 under x86_64.
-  # Then it happens again when launching Dolphin under arm64. Keep each
-  # arch build seperated with a unique bundle id which Metal uses for
-  # caching under: /private/var/folders/yt/hjxkrfvs1mz2nsb2_dtfwftw0000gn/C
-  for arch in arm64 x86_64
-  do
-    # - self-sign stash required for local build.
-    # - stach specific to arch. x86_64 uses bundle id of: com.libretro.dist.RetroArchX86
-    if ! git stash apply refs/$( git stash list | sed -nE "s/^(.+):.+: local build ${arch}$/\1/p" )
-    then
-      print "stash apply ::local build $arch:: failed" >&2
-      return 1
-    fi
+  if [[ $config == Release ]]
+  then
+    # Sharing Metal caches invalidates it when switching between arches. It
+    # causes significant startup delays when launching LRPS2 under x86_64.
+    # Then it happens again when launching Dolphin under arm64. Keep each
+    # arch build seperated with a unique bundle id which Metal uses for
+    # caching under: /private/var/folders/yt/hjxkrfvs1mz2nsb2_dtfwftw0000gn/C
+    for arch in arm64 x86_64
+    do
+      # - self-sign stash required for local build.
+      # - stach specific to arch. x86_64 uses bundle id of: com.libretro.dist.RetroArchX86
+      if ! git stash apply refs/$( git stash list | sed -nE "s/^(.+):.+: local build ${arch}$/\1/p" )
+      then
+        print "stash apply ::local build $arch:: failed" >&2
+        return 1
+      fi
 
-    xcodebuild -target RetroArch -configuration $config ARCHS=$arch -project $project
-    ret=$?
-    git restore $project/project.pbxproj
-    if (( ret ))
-    then
-      print "xcode build failed for '-configuration $config ARCHS=$arch'." >&2
-      return 1
-    fi
+      xcodebuild -target RetroArch -configuration $config ARCHS=$arch -project $project
+      ret=$?
+      git restore $project/project.pbxproj
+      if (( ret ))
+      then
+        print "xcode build failed for '-configuration $config ARCHS=$arch'." >&2
+        return 1
+      fi
 
-    # Copy to the /Application directory only for Release builds.
-    if [[ $config == Release ]]
-    then
+      # Copy to the /Application directory only for Release builds.
       mkdir -p /Applications/RetroArch
       if [[ $arch == x86_64 ]]
       then
@@ -117,7 +116,24 @@ do
         rm -rf /Applications/RetroArch/RetroArch.app
         mv pkg/apple/build/Release/RetroArch.app /Applications/RetroArch
       fi
+    done
+  elif [[ $config == Debug ]]
+  then
+    # - self-sign stash required for local build.
+    if ! git stash apply refs/$( git stash list | sed -nE 's/^(.+):.+: local build arm64$/\1/p' )
+    then
+      print 'stash apply ::local build arm64:: failed' >&2
+      return 1
     fi
-  done
+
+    xcodebuild -target RetroArch -configuration $config -project $project
+    ret=$?
+    git restore $project/project.pbxproj
+    if (( ret ))
+    then
+      print "xcode build failed for '-configuration $config'." >&2
+      return 1
+    fi
+  fi
 done
 print "Build completed for ${(j:, :)builds}."
