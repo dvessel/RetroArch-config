@@ -1,19 +1,19 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -F - -all=zall -clean=zclean -force=zforce -update=zupdate || return 1
+zparseopts -D -F - \
+  {-debug-arm64,-debug-x86_64}=zdebug_arch \
+  -clean=zclean \
+  -update=zupdate || return 1
 
-configs=( Release Debug )
-if [[ -n ${@:|configs} ]]
+if (( ${#zdebug_arch} ))
 then
-  print "Unknown build configuration: ${@:|configs}" >&2
-  return 1
+  arches=( ${zdebug_arch#--debug-} )
+  build=Debug
+else
+  arches=( arm64 x86_64 )
+  build=Release
 fi
-builds=( ${@:-Release} )
-if (( ${#zall} ))
-then
-  builds=( $configs )
-fi
-print "Building for the following: ${(j:, :)builds}"
+print "Building for $build [${(j:,:)arches}]."
 
 base_dir=~/Projects/emulation/libretro
 repos=(
@@ -64,12 +64,12 @@ then
       fi
     fi
   done
-fi
 
-if ! (( updates > 0 || ${#zforce} ))
-then
-  print "Nothing to update."
-  return 0
+  if (( updates == 0 ))
+  then
+    print "Nothing to update."
+    return 0
+  fi
 fi
 
 project=pkg/apple/RetroArch_Metal.xcodeproj
@@ -78,62 +78,42 @@ then
   xcodebuild clean -project $project
 fi
 
-for config in $builds
+# Sharing Metal caches invalidates it when switching between arches. It
+# causes significant startup delays when launching LRPS2 under x86_64.
+# Then it happens again when launching Dolphin under arm64. Keep each
+# arch build seperated with a unique bundle id which Metal uses for
+# caching under: /private/var/folders/yt/hjxkrfvs1mz2nsb2_dtfwftw0000gn/C
+for arch in $arches
 do
-  if [[ $config == Release ]]
+  # - self-sign stash required for local build.
+  # - stach specific to arch. x86_64 uses bundle id of: com.libretro.dist.RetroArchX86
+  if ! git stash apply refs/$( git stash list | sed -nE "s/^(.+):.+: local build ${arch}$/\1/p" )
   then
-    # Sharing Metal caches invalidates it when switching between arches. It
-    # causes significant startup delays when launching LRPS2 under x86_64.
-    # Then it happens again when launching Dolphin under arm64. Keep each
-    # arch build seperated with a unique bundle id which Metal uses for
-    # caching under: /private/var/folders/yt/hjxkrfvs1mz2nsb2_dtfwftw0000gn/C
-    for arch in arm64 x86_64
-    do
-      # - self-sign stash required for local build.
-      # - stach specific to arch. x86_64 uses bundle id of: com.libretro.dist.RetroArchX86
-      if ! git stash apply refs/$( git stash list | sed -nE "s/^(.+):.+: local build ${arch}$/\1/p" )
-      then
-        print "stash apply ::local build $arch:: failed" >&2
-        return 1
-      fi
+    print "stash apply ::local build $arch:: failed" >&2
+    return 1
+  fi
 
-      xcodebuild -target RetroArch -configuration $config ARCHS=$arch -project $project
-      ret=$?
-      git restore $project/project.pbxproj
-      if (( ret ))
-      then
-        print "xcode build failed for '-configuration $config ARCHS=$arch'." >&2
-        return 1
-      fi
-
-      # Copy to the /Application directory only for Release builds.
-      mkdir -p /Applications/RetroArch
-      if [[ $arch == x86_64 ]]
-      then
-        rm -rf /Applications/RetroArch/RetroArchX86.app
-        mv pkg/apple/build/Release/RetroArch.app /Applications/RetroArch/RetroArchX86.app
-      else
-        rm -rf /Applications/RetroArch/RetroArch.app
-        mv pkg/apple/build/Release/RetroArch.app /Applications/RetroArch
-      fi
-    done
-  elif [[ $config == Debug ]]
+  xcodebuild -target RetroArch -configuration $build ARCHS=$arch -project $project
+  ret=$?
+  git restore $project/project.pbxproj
+  if (( ret ))
   then
-    # - self-sign stash required for local build.
-    if ! git stash apply refs/$( git stash list | sed -nE 's/^(.+):.+: local build arm64$/\1/p' )
-    then
-      print 'stash apply ::local build arm64:: failed' >&2
-      return 1
-    fi
+    print "xcode build failed for '-configuration $build ARCHS=$arch'." >&2
+    return 1
+  fi
 
-    xcodebuild -target RetroArch -configuration $config -project $project
-    ret=$?
-    git restore $project/project.pbxproj
-    if (( ret ))
+  # Copy to the /Application directory only for Release builds.
+  if [[ $build == Release ]]
+  then
+    mkdir -p /Applications/RetroArch
+    if [[ $arch == x86_64 ]]
     then
-      print "xcode build failed for '-configuration $config'." >&2
-      return 1
+      rm -rf /Applications/RetroArch/RetroArchX86.app
+      mv pkg/apple/build/Release/RetroArch.app /Applications/RetroArch/RetroArchX86.app
+    else
+      rm -rf /Applications/RetroArch/RetroArch.app
+      mv pkg/apple/build/Release/RetroArch.app /Applications/RetroArch
     fi
   fi
 done
-print "Build completed for ${(j:, :)builds}."
+print "Build completed for $build [${(j:,:)arches}]."
