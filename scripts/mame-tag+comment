@@ -1,0 +1,40 @@
+#!/usr/bin/env zsh
+
+for rom in $1/*.(zip|7z)(N)
+do
+	if [[ -L $rom ]]
+	then
+		# ignore symlinks.
+		continue
+	fi
+	read -d '' isbios isdevice driver_status description < <(
+		mameinfo -r '.isbios,.isdevice,.driver.status,.description' -g $rom
+	)
+	echo $description
+
+	case "yes" in
+		($isbios) tag -a "BIOS" $rom ;;
+		($isdevice) tag -a "Device" $rom ;;
+	esac
+	case $driver_status in
+		(preliminary) tag -a "Preliminary" $rom ;;
+	esac
+
+	for item in $rom $rom:r
+	do
+		test -e $item || continue
+		comment=$(
+			xattr -xp com.apple.metadata:kMDItemFinderComment $item 2>/dev/null | xxd -r -p | plutil -p - 2> /dev/null
+		)
+		if [[ $comment != $description ]]
+		then
+		  osargs=(
+				-e 'on run {f, d}'
+				-e 'tell app "Finder" to set comment of (POSIX file f as alias) to d'
+				-e 'end'
+				"file:///$item:a" "$description"
+			)
+			osascript $osargs &> /dev/null
+		fi
+	done
+done
