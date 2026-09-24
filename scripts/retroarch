@@ -1,7 +1,6 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -E - \
-  {-arm64,-x86_64}=zarch -metal-hud::=zmetal_hud -build=zbuild \
+zparseopts -D -E - -x86_64=zX86 -build=zbuild || return 1
 
 if (( ${#zbuild} ))
 then
@@ -10,27 +9,14 @@ then
   return $?
 fi
 
-aargs=(
-  ${zarch:---arm64}
-)
-if (( ${#zmetal_hud} ))
+if appdir=$( mdfind kMDItemCFBundleIdentifier = $(
+  (( ${#zX86} )) &&
+    print com.libretro.dist.RetroArchX86 ||
+    print com.libretro.dist.RetroArch
+) | fzf --select-1 )
 then
-  aargs+=(
-    -e MTL_HUD_ENABLED=1
-    -e MTL_HUD_CONFIG_FILE=$HOME/.config/metal-hud/${${${zmetal_hud#--metal-hud}#=}:-default}.plist
-  )
-fi
-
-if (( $( mdfind -count kMDItemCFBundleIdentifier = com.libretro.dist.RetroArch ) > 0 ))
-then
-  if appdir=$( mdfind kMDItemCFBundleIdentifier = com.libretro.dist.RetroArch | fzf --select-1 )
-  then
-    arch $aargs $appdir/Contents/MacOS/RetroArch $@
-  else
-    print "None selected." >&2
-    exit 1
-  fi
+  $appdir/Contents/MacOS/RetroArch $@
 else
-  print "RetroArch not found." >&2
+  print "None selected." >&2
   exit 1
 fi
