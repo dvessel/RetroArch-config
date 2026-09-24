@@ -44,6 +44,14 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Cold Fear (USA) (En,Fr,Es).chd",
+      "label": "Cold Fear (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-21047|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Devil May Cry (USA).chd",
       "label": "Devil May Cry (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
@@ -73,6 +81,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-21419|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Disaster Report (USA).chd",
+      "label": "Disaster Report (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20561|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
@@ -188,6 +204,38 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Grand Theft Auto - San Andreas (USA, Canada) (v3.00).chd",
+      "label": "Grand Theft Auto - San Andreas (USA, Canada) (v3.00)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20946|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Grand Theft Auto - Vice City (USA) (v2.01).chd",
+      "label": "Grand Theft Auto - Vice City (USA) (v2.01)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20552|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Grand Theft Auto III (USA, Canada).chd",
+      "label": "Grand Theft Auto III (USA, Canada)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20062|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Gregory Horror Show (Europe) (En,Fr,De).chd",
+      "label": "Gregory Horror Show (Europe) (En,Fr,De)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLES-51933|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Gungrave (USA).chd",
       "label": "Gungrave (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
@@ -276,6 +324,14 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Killzone (USA).chd",
+      "label": "Killzone (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SCUS-97402|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Kingdom Hearts (USA).chd",
       "label": "Kingdom Hearts (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
@@ -297,6 +353,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-21005|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Klonoa 2 - Lunatea's Veil (USA).chd",
+      "label": "Klonoa 2 - Lunatea's Veil (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20151|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
@@ -348,6 +412,14 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Musashi - Samurai Legend (USA).chd",
+      "label": "Musashi - Samurai Legend (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20983|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/-PS2-JAPAN/Mushihimesama (Japan).chd",
       "label": "Mushihimesama (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
@@ -361,6 +433,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-21577|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Oni (USA).chd",
+      "label": "Oni (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20064|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
@@ -489,6 +569,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-20344|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Rogue Galaxy (USA).chd",
+      "label": "Rogue Galaxy (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SCUS-97490|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
@@ -652,6 +740,14 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Stretch Panic (USA).chd",
+      "label": "Stretch Panic (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20182|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Tekken 4 (USA).chd",
       "label": "Tekken 4 (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
@@ -665,6 +761,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-21059|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Tekken Tag Tournament (USA) (v2.00).chd",
+      "label": "Tekken Tag Tournament (USA) (v2.00)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20001|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
