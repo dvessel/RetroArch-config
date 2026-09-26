@@ -42,8 +42,7 @@ done
 
 for source_dir in $scandir/.sorted/-*
 do
-  typeset -A vrr_runloop=()
-
+  source=${source_dir:t}
   for rom in $source_dir/*.zip
   do
     if ! mameinfo --exists $rom
@@ -52,29 +51,51 @@ do
       continue
     fi
 
-    read -d '' isbios isdevice savestate < <(
-      mameinfo -r '.isbios,.isdevice,.driver.savestate' -g $rom
+    read -d '' isbios isdevice savestate rotate < <(
+      mameinfo -r '.isbios,.isdevice,.driver.savestate,.display[0].rotate' -g $rom
     )
     case yes in
       # skip bios and devices.
       $isbios|$isdevice) continue ;;
     esac
 
-    # Info for a single rom is all that's needed. savestate support is
-    # shared between all roms of the same source.
-    break
-  done
+    name=$rom:t:r
 
-  source=${source_dir:t}
-
-  keyvalues="savestate_related_${savestate}"
-  for kv in ${(P)keyvalues}
-  do
-    raconfig --override $kv $cdir/$source.cfg $cdir/MAME.cfg
-    if [[ $savestate == unsupported ]]
+    if [[ $rotate == (90|270) ]]
     then
-      printf "%s: %s\n" $source $kv
+      configs=( $cdir/$name.cfg $cdir/$source.cfg $cdir/MAME.cfg )
+      if [[ $( raconfig --get video_scale_integer_axis $configs ) != 4 ||
+            $( raconfig --get video_scale_integer_scaling $configs ) != 2 ]]
+      then
+        # Scaling for TATE mode. axis: x, scaling: smart
+        raconfig --override video_scale_integer_axis=4 $configs
+        raconfig --override video_scale_integer_scaling=2 $configs
+        printf " %s.cfg: %s\n" $name 'Scaling for TATE mode. axis: x, scaling: smart'
+      fi
     fi
   done
 
+  changes=0
+  keyvalues="savestate_related_${savestate}"
+  configs=( $cdir/$source.cfg $cdir/MAME.cfg )
+
+  for kv in ${(P)keyvalues}
+  do
+    if [[ $( raconfig --get ${kv% =*} $configs ) != ${kv#*= } ]]
+    then
+      raconfig --override $kv $configs
+      changes=1
+    fi
+  done
+  if (( changes ))
+  then
+    case $savestate in
+      supported)
+        printf "%s.cfg: %s\n" $source 'Save State supported. Enabling related settings.'
+        ;;
+      unsupported)
+        printf "%s.cfg: %s\n" $source 'Save State unsupported. Disabling related settings.'
+        ;;
+    esac
+  fi
 done
