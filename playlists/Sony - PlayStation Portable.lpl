@@ -60,14 +60,6 @@
       "db_name": "Sony - PlayStation Portable.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PSP/Goku Makaimura (Japan) (v1.01).chd",
-      "label": "Goku Makaimura (Japan) (v1.01)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
-      "core_name": "Sony - PlayStation Portable (PPSSPP)",
-      "crc32": "ULJM-05147|serial",
-      "db_name": "Sony - PlayStation Portable.lpl"
-    },
-    {
       "path": "/Volumes/980Pro/Emulation/Sony PSP/Goku Makaimura Kai (Japan).chd",
       "label": "Goku Makaimura Kai (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/ppsspp_libretro.dylib",
