@@ -44,6 +44,22 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Boktai - The Sun Is in Your Hand (USA).zip#Boktai - The Sun Is in Your Hand (USA).gba",
+      "label": "Boktai - The Sun Is in Your Hand (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E715AC45|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Boktai 2 - Solar Boy Django (USA).zip#Boktai 2 - Solar Boy Django (USA).gba",
+      "label": "Boktai 2 - Solar Boy Django (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E1FFB2D1|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Castlevania - Aria of Sorrow (USA).zip#Castlevania - Aria of Sorrow (USA).gba",
       "label": "Castlevania - Aria of Sorrow (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
@@ -164,6 +180,14 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Gekido Advance - Kintaro's Revenge (USA).zip#Gekido Advance - Kintaro's Revenge (USA).gba",
+      "label": "Gekido Advance - Kintaro's Revenge (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6BBC5F4D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Golden Sun (USA, Europe).zip#Golden Sun (USA, Europe).gba",
       "label": "Golden Sun (USA, Europe)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
@@ -177,6 +201,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "606A1C4D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Gunstar Super Heroes (USA).zip#Gunstar Super Heroes (USA).gba",
+      "label": "Gunstar Super Heroes (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7CD86B02|crc",
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
@@ -201,6 +233,22 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "326E7A8E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Klonoa - Empire of Dreams (USA).zip#Klonoa - Empire of Dreams (USA).gba",
+      "label": "Klonoa - Empire of Dreams (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F74E1036|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Klonoa 2 - Dream Champ Tournament (USA).zip#Klonoa 2 - Dream Champ Tournament (USA).gba",
+      "label": "Klonoa 2 - Dream Champ Tournament (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "8BD23A7F|crc",
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
@@ -425,6 +473,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "E9339304|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Scurge - Hive (USA) (En,Fr,Es).zip#Scurge - Hive (USA) (En,Fr,Es).gba",
+      "label": "Scurge - Hive (USA) (En,Fr,Es)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "1AE38AC0|crc",
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {

@@ -748,6 +748,14 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Magical Taruruuto-kun (Japan).zip#Magical Taruruuto-kun (Japan).md",
+      "label": "Magical Taruruuto-kun (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F11060A5|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Mazin Saga - Mutant Fighter (USA).zip#Mazin Saga - Mutant Fighter (USA).md",
       "label": "Mazin Saga - Mutant Fighter (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -1548,6 +1556,14 @@
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Warlock (USA, Europe).zip#Warlock (USA, Europe).md",
+      "label": "Warlock (USA, Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0A46539B|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Genesis/Wings of Wor (USA).zip#Wings of Wor (USA).md",
       "label": "Wings of Wor (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -1609,6 +1625,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "EA27976E|crc",
+      "db_name": "Sega - Mega Drive - Genesis.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Sega Genesis/Yu Yu Hakusho - Makyou Toitsusen (Japan).zip#Yu Yu Hakusho - Makyou Toitsusen (Japan).md",
+      "label": "Yu Yu Hakusho - Makyou Toitsusen (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "71CEAC6F|crc",
       "db_name": "Sega - Mega Drive - Genesis.lpl"
     },
     {

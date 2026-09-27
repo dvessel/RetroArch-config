@@ -60,6 +60,14 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Akagawa Jirou - Yasoukyoku (Japan) (Shokai Genteiban).chd",
+      "label": "Akagawa Jirou - Yasoukyoku (Japan) (Shokai Genteiban)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
+      "core_name": "Sony - PlayStation (SwanStation)",
+      "crc32": "SLPS-01415|serial",
+      "db_name": "Sony - PlayStation.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Alien Resurrection (USA).chd",
       "label": "Alien Resurrection (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
