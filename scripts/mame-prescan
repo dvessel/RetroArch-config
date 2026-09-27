@@ -1,7 +1,15 @@
 #!/usr/bin/env zsh
 
 PATH=$( dirname `realpath $0` ):$PATH
+scandir=~/Games/Emulation/Arcade
 
-mamexml-generate ~/Games/Emulation/Arcade
-mamerom-sort ~/Games/Emulation/Arcade
-mamecfg-overrides ~/Games/Emulation/Arcade
+printf '\e[0;30mUpdating %s file for MAME.lpl...\e[0m\n' $scandir:t.xml
+mamexml-generate $scandir
+
+printf '\e[0;30m%s\e[0m\n' 'Sorting ROMs...'
+mamerom-sort $scandir
+printf '\e[0;33m%s\e[0m\n' 'Sorting complete. Ready to rescan MAME.lpl'
+
+printf '\e[0;30m%s\e[0m\n' 'Processing MAME config overrides...'
+mamecfg-overrides $scandir
+printf '\e[0;30m%s\e[0m\n' 'Done.'

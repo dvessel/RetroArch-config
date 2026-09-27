@@ -1,11 +1,10 @@
 #!/usr/bin/env zsh
 #
-# outputs mame info for a given rom as json.
+# Outputs mame info for a given rom as json. More than one file is accepted.
 #
-# Usage: mameinfo [-d|--init-path] <rompath>
-#        mameinfo [-x|--exists] <rompath/rom.zip>
-#        mameinfo [jq options] [-g|--get,-l|--get-all] <rompath/rom.zip>
-#        mameinfo [--info-file] <rompath/rom.zip>
+# Usage: mameinfo --init-path <romdir>
+#        mameinfo --info-file <romdir/rom1.zip> ...
+#        mameinfo [jq options] <romdir/rom1.zip> ...
 # see oq --help
 #
 # requires standalone mame and oq. oq is a wrapper for jq with the ability to
@@ -19,24 +18,57 @@ then
   return 1
 fi
 
-zparseopts -D -E - {d,-init-path}:=zinit_path \
-  {x,-exists,g,-get,l,-get-all,-info-path}:=zrom_file || return 1
+zparseopts -D -E - -init-path:=zinit_path -info-path=zinfo_path || return 1
 
-if ! (( ${#zinit_path} + ${#zrom_file} ))
-then
-	cat <<-EOF >&2
-	Usage: mameinfo [-d|--init-path] <rompath>
-	       mameinfo [-x|--exists] <rompath/rom.zip>
-	       mameinfo [jq options] [-g|--get,-l|--get-all] <rompath/rom.zip>
-	       mameinfo [--info-file] <rompath/rom.zip>
-	see oq --help
-	EOF
-  return 1
-fi
+# Write to name.json info files from mame xml output.
+function mamexml_to_json_file {
+  local line json_write=0 json_file
+  while read -r line
+  do
+    if (( json_write ))
+    then
+      echo $line > $json_file
+    else
+      json_file=$init_path/.rominfo/info/$line.json
+    fi
+    json_write=$(( ! json_write ))
+  done < <( oq -i xml -o json -cr '
+    def arrayofobjects: if type == "object" then [.] else . end;
+    def scrub: walk(if type == "object" then with_entries(
+      select(.key != "#text" and .value != null) | .key |= ltrimstr("@")
+    ) else . end );
+    ( .mame."@build" | match("^[0-9.]+").string ) as $version |
+    .mame.machine | arrayofobjects | .[] |
+    ."@name",
+    { version: $version,
+      name: ."@name",
+      description: .description,
+      manufacturer: .manufacturer,
+      year: .year,
+      runnable: ."@runnable",
+      isbios: ."@isbios",
+      isdevice: ."@isdevice",
+      ismechanical: ."@ismechanical",
+      romof: ."@romof",
+      cloneof: ."@cloneof",
+      sampleof: ."@sampleof",
+      sourcefile: ."@sourcefile",
+      driver: .driver,
+      feature: .feature | arrayofobjects,
+      display: .display | arrayofobjects,
+      sound: .sound,
+      input: .input,
+      disk: .disk | arrayofobjects,
+      rom: .rom | arrayofobjects,
+      sample: .sample | arrayofobjects,
+      biosset: .biosset | arrayofobjects,
+      device: .device | arrayofobjects,
+      device_ref: .device_ref | arrayofobjects } | scrub' <<< $@ )
+}
 
 if (( ${#zinit_path} ))
 then
-  init_path=${zinit_path[-1]}
+  init_path=${zinit_path[-1]:a}
   if [[ ! -d $init_path ]]
   then
     echo "init path does not exist." >&2
@@ -50,103 +82,69 @@ then
   fi
   mkdir -p $init_path/.rominfo/$version
   ln -sF $version $init_path/.rominfo/info
+
+  existing=( $init_path/.rominfo/info/*.json(N:t:r) )
+  rom_names=( $init_path/*.(7z|zip)(N:t:r) )
+  new_names=( ${rom_names:|existing} )
+
+  if (( ${#new_names} ))
+  then
+    # Some ROMs are not recognized by MAME due to its removal but the libretro
+    # core still recognizes it. Use seperate xml files to process them.
+    append_path=~/Library/Application\ Support/RetroArch/database/${init_path:t}-append
+    append_names=( $append_path/*.xml(N:t:r) )
+    new_append_names=( ${append_names:|existing} )
+    for append in $new_append_names
+    do
+      mamexml_to_json_file $( < $append_path/$append.xml )
+    done
+    # Filter out what was already processed through appended xml files.
+    if [[ -n ${new_names:|new_append_names} ]]
+    then
+      mamexml_to_json_file $( mame -listxml ${new_names:|new_append_names} )
+    fi
+  fi
+
   return
 fi
 
-# absolute path required to prevent an endless loop.
-rom_file=${zrom_file[-1]:a}
-init_path=${rom_file:h}
-
-if [[ ! -d $init_path ]]
-then
-  echo "missing directory: $init_path" >&2
-  return 1
-fi
-
-# locate parent directory containing .rominfo.
-while [[ ! -s $init_path/.rominfo/info ]]
+typeset -a jqargs
+for arg in $@
 do
-  init_path=$init_path:h
-  if [[ $init_path == / ]]
+  if [[ ${arg:e} == (7z|zip) ]]
   then
-    echo "rom path must be initialized." >&2
-    return 1
+    # Use the first encountered rom path to find the .rominfo/info path.
+    if [[ -z $romdir ]]
+    then
+      romdir=${arg:a:h}
+      while [[ ! -s $romdir/.rominfo/info ]]
+      do
+        romdir=$romdir:h
+        [[ $romdir == / ]] && {
+          echo "rom path must be initialized with --init-path." >&2
+          return 1
+        }
+      done
+    fi
+    if [[ -f $romdir/.rominfo/info/${arg:t:r}.json ]]
+    then
+      jqargs+=$romdir/.rominfo/info/${arg:t:r}.json
+    else
+      echo "Info file not found for ${arg:t}." >&2
+    fi
+  else
+    jqargs+=$arg
   fi
 done
 
-flag=${zrom_file[1]}
-name=${rom_file:t:r}
-info_file=$init_path/.rominfo/info/$name.json
-
-if [[ ! -s $info_file ]]
+if (( ${#zinfo_path} ))
 then
-  append_path=~/Library/Application\ Support/RetroArch/database/${init_path:t}-append
-  if ! mamexml=$( mame -listxml $name 2>/dev/null ) &&
-  [[ -f $append_path/$name.xml ]]
-  then
-    mamexml=$( < $append_path/$name.xml )
-  fi
-
-  if [[ -n $mamexml ]]
-  then
-    echo $mamexml | oq -i xml -o json '
-    def arrayofobjects: if type == "object" then [.] else . end;
-    def scrub: walk(if type == "object" then with_entries(
-      select(.key != "#text" and .value != null) | .key |= ltrimstr("@")
-    ) else . end );
-    { version: .mame."@build" | match("^[0-9.]+").string,
-      machine:[ .mame.machine | arrayofobjects | .[] |
-        { name: ."@name",
-          description: .description,
-          manufacturer: .manufacturer,
-          year: .year,
-          runnable: ."@runnable",
-          isbios: ."@isbios",
-          isdevice: ."@isdevice",
-          ismechanical: ."@ismechanical",
-          romof: ."@romof",
-          cloneof: ."@cloneof",
-          sampleof: ."@sampleof",
-          sourcefile: ."@sourcefile",
-          driver: .driver,
-          feature: .feature | arrayofobjects,
-          display: .display | arrayofobjects,
-          sound: .sound,
-          input: .input,
-          disk: .disk | arrayofobjects,
-          rom: .rom | arrayofobjects,
-          sample: .sample | arrayofobjects,
-          biosset: .biosset | arrayofobjects,
-          device: .device | arrayofobjects,
-          device_ref: .device_ref | arrayofobjects } | scrub ]}' > $info_file
-  fi
-fi
-
-# if you don't want this message, use --exists.
-if [[ $flag != (-x|--exists) && ! -f $info_file ]]
-then
-  echo "info missing for $rom_file:t" >&2
-  return 1
-fi
-
-if type jq &>/dev/null
-then
-  jq=jq
+  realpath $jqargs
 else
-  jq=oq
+  if [[ -n ${commands[jq]} ]]
+  then
+    jq $jqargs
+  else
+    oq $jqargs
+  fi
 fi
-
-case $flag in
-  -x|--exists)
-    return $( test -f $info_file )
-    ;;
-  -g|--get)
-    $jq --arg name $info_file:t:r '.machine[]|select(.name == $name)' $info_file | $jq ${@:-.}
-    ;;
-  -l|--get-all)
-    $jq ${@:-.} $info_file
-    ;;
-  --info-path)
-    echo $( realpath $info_file )
-    ;;
-esac

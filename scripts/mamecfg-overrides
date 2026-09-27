@@ -1,7 +1,16 @@
 #!/usr/bin/env zsh
-
+#
+# MAME config overrides:
+# - Save state related settings disabled when a machine doesn't support it.
+# - TATE mode sets `video_scale_integer_axis` to X.
+#
 PATH=$( dirname `realpath $0` ):$PATH
 
+if ! mameinfo --init-path $1
+then
+  echo "Failed to initialize." >&2
+  return 1
+fi
 if [[ $( raconfig --get config_save_minimal ) == true ]]
 then
   echo "Incompatible with 'config_save_minimal'." >&2
@@ -9,81 +18,93 @@ then
 fi
 
 scandir=$1
-cdir=$( raconfig --get rgui_config_directory )/MAME
+cfgdir=$( raconfig --get rgui_config_directory )/MAME
 
-if ! mameinfo --init-path $scandir
-then
-  echo "Failed to initialize." >&2
-  return 1
-fi
-
-settings_keys=(
-  menu_show_latency
-  menu_show_rewind
-  quick_menu_show_replay
-  quick_menu_show_save_load_state
-  quick_menu_show_savestate_submenu
-  quick_menu_show_undo_save_load_state
-  savestate_auto_load
-  savestate_auto_save
-)
-# Disabled save state related settings.
-typeset -a savestate_related_unsupported
-for key in $settings_keys preemptive_frames_enable run_ahead_enabled
+typeset -a savestate_related_supported savestate_related_unsupported
+# Prefixed `-keys` to disable only. Will not be restored to defaults.
+for skey in menu_show_latency \
+            menu_show_rewind \
+           -preemptive_frames_enable \
+            quick_menu_show_replay \
+            quick_menu_show_save_load_state \
+            quick_menu_show_savestate_submenu \
+            quick_menu_show_undo_save_load_state \
+           -run_ahead_enabled \
+            savestate_auto_load \
+            savestate_auto_save
 do
-  savestate_related_unsupported+="$key = false"
-done
-# Reset to defaults when it's supported.
-typeset -a savestate_related_supported
-for key in $settings_keys
-do
-  savestate_related_supported+="$key = $(raconfig --get $key $cdir/MAME.cfg)"
-done
-
-for source_dir in $scandir/.sorted/-*
-do
-  source=${source_dir:t}
-  for rom in $source_dir/*.zip
-  do
-    if ! mameinfo --exists $rom
-    then
-      print "unrecognized '$rom'" >&2
-      continue
-    fi
-
-    read -d '' isbios isdevice savestate < <(
-      mameinfo -r '.isbios,.isdevice,.driver.savestate' -g $rom
-    )
-    case yes in
-      # skip bios and devices.
-      $isbios|$isdevice) continue ;;
-    esac
-
-    # Save state status shared for each source.
-    continue
-  done
-
-  changes=0
-  keyvalues="savestate_related_${savestate}"
-  configs=( $cdir/$source.cfg $cdir/MAME.cfg )
-
-  for kv in ${(P)keyvalues}
-  do
-    if [[ $( raconfig --get ${kv% =*} $configs ) != ${kv#*= } ]]
-    then
-      raconfig --override $kv $configs
-      changes=1
-    fi
-  done
-  if (( changes ))
+  # To be used to reset when it's supported.
+  if [[ $skey[1] != - ]]
   then
-    case $savestate in
-      supported)
-        printf "%s.cfg: %s\n" $source 'Save State supported. Enabling related settings.'
-        ;;
-      unsupported)
-        printf "%s.cfg: %s\n" $source 'Save State unsupported. Disabling related settings.'
-        ;;
-    esac
+    savestate_related_supported+=${skey#-}=$( raconfig --get ${skey#-} $cfgdir/MAME.cfg )
   fi
+  # And disabled when it's not.
+  savestate_related_unsupported+=${skey#-}=false
 done
+
+# TATE Integer Axis: X
+tate_ia=4
+typeset -A map_sia=(
+  0 'Scale Integer Axis Y'
+  1 'Scale Integer Axis Y+X'
+  2 'Scale Integer Axis Y+X.5'
+  3 'Scale Integer Axis Y.5+X.5'
+  4 'Scale Integer Axis X'
+  5 'Scale Integer Axis X.5'
+)
+
+typeset -A processed
+counter=0
+while read -r line
+do
+  # Modulus matches the number of items queried in mameinfo. @see bottom of loop.
+  case $(( ++counter % 6 )) in
+    1)  name=$line ;;
+    2)  isbios=$line ;;
+    3)  isdevice=$line ;;
+    4)  savestate=$line ;;
+    5)  scpp=-${${line:r}//\//-} ;;
+    0)  if [[ $line == (90|270) ]]
+        then
+          scpp+=\~tate
+        fi
+        # Ignore processed "source" containers, bios and devices.
+        if [[ -n $processed[$scpp] || yes == ($isbios|$isdevice) ]]
+        then
+          continue
+        fi
+
+        changes=0
+        keyvalues="savestate_related_${savestate}"
+        for kv in ${(P)keyvalues}
+        do
+          if [[ $( raconfig --get ${kv%=*} $cfgdir/$scpp.cfg ) != ${kv#*=} ]]
+          then
+            raconfig --override $kv $cfgdir/$scpp.cfg &
+            changes=1
+          fi
+        done
+        if (( changes ))
+        then
+          printf '%s.cfg: Save State %s. %s\n' $scpp $savestate 'Related settings were updated.'
+        fi
+
+        if [[ $line == (90|270) ]]
+        then
+          if [[ $(
+            raconfig --get video_scale_integer_axis $cfgdir/$scpp.cfg
+          ) != $tate_ia ]]
+          then
+            raconfig --override video_scale_integer_axis=$tate_ia $cfgdir/$scpp.cfg &
+            printf '%s.cfg: %s\n' $scpp ${map_sia[$tate_ia]}
+          fi
+        fi
+        processed[$scpp]=1
+      ;;
+  esac
+done < <( mameinfo -r ' .name,
+                        .isbios,
+                        .isdevice,
+                        .driver.savestate,
+                        .sourcefile,
+                        .display[0].rotate ' $scandir/*.zip )

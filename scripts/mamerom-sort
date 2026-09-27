@@ -1,17 +1,17 @@
 #!/usr/bin/env zsh
 #
-# Hardlinks MAME roms to the .sorted directory based on `mame -sourcelist`
+# Hardlinks MAME roms to the .sorted directory based on mameinfo .sourcefile.
 # This enables directory based cfg overrides, core options and controller
 # remapping. A set of games for a given source are likely to share settings.
 #
+PATH=$( dirname `realpath $0` ):$PATH
+scandir=$1
 
-if ! type mame &>/dev/null
+if ! mameinfo --init-path $scandir
 then
-  echo "mame required" >&2
+  echo "Failed to initialize." >&2
   return 1
 fi
-
-scandir=$1
 
 if [[ ! -d $scandir/.sorted ]]
 then
@@ -19,43 +19,39 @@ then
   # exclude from time machine backups.
   tmutil addexclusion $scandir/.sorted
 fi
-
 rm -rf $scandir/.sorted/*(N)
 
-typeset -aU names=(
-  $scandir/*.zip(N:t:r)
-)
-
-if (( ${#names} ))
+if [[ -n ${commands[tag]} ]]
 then
-  if type tag &>/dev/null
-  then
-    # tagged files that shouldn't be linked.
-    for tag in BIOS Device Ignore; ignore+=(
-      ${${(f)"$( tag -m $tag $scandir/*.zip )"}:t:r}
-    )
-  fi
-  sources=(
-    ${(f)"$( mame -listsource $names 2>/dev/null )"}
-    "akatana  cave/cv1k.cpp"
-    "ddpsdoj  cave/cv1k.cpp"
+  # Tagged files to ignore
+  ignore=(
+    ${${(f)"$( tag -m Ignore $scandir/*.(7z|zip) )"}:t:r}
   )
-  # normalize spacing and sort by the second field.
-  for listsource in ${(f)"$( printf '%s\n' ${sources[@]} | awk '{$1=$1};1' | sort -k2 )"}
-  do
-    set -- ${(s: :)listsource}
-
-    name=$1
-    scpp=-${${2:r}//\//-}
-    sdir=$scandir/.sorted/$scpp
-
-    # tagged roms to ignore.
-    test -z ${ignore[(r)$name]} || continue
-
-    test -d $sdir || mkdir -p $sdir
-    ln $scandir/$name.zip $sdir/$name.zip
-
-    # highlight the containing folder.
-    printf "\e[0;34m%s\e[0;37m/\e[0m%s\n" $scpp $name.zip
-  done
 fi
+
+counter=0
+while read -r line
+do
+  # Modulus matches the number of items queried in mameinfo. @see bottom of loop.
+  case $(( ++counter % 6 )) in
+    1)  name=$line ;;
+    2)  isbios=$line ;;
+    3)  isdevice=$line ;;
+    4)  scpp=-${${line:r}//\//-} ;;
+    5)  [[ $line == (90|270) ]] && scpp+=\~tate ;;
+    0)
+        # Ignore bios, devices and tagged for ignore.
+        [[ yes == ($isbios|$isdevice) || -n ${ignore[(r)$name]} ]] && continue
+        sdir=$scandir/.sorted/$scpp
+        [[ -d $sdir ]] || mkdir -p $sdir
+        ln $scandir/$name.zip $sdir/$name.zip
+        # highlight containing folder.
+        printf "%s\n\e[0;34m%s\e[0;37m/\e[0m%s\n" $line $scpp $name.zip
+      ;;
+  esac
+done < <( mameinfo -r ' .name,
+                        .isbios,
+                        .isdevice,
+                        .sourcefile,
+                        .display[0].rotate,
+                        .description ' $scandir/*.zip )
