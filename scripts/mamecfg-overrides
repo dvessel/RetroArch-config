@@ -33,7 +33,7 @@ for key in $settings_keys preemptive_frames_enable run_ahead_enabled
 do
   savestate_related_unsupported+="$key = false"
 done
-# Re-enable when it's supported.
+# Reset to defaults when it's supported.
 typeset -a savestate_related_supported
 for key in $settings_keys
 do
@@ -51,28 +51,16 @@ do
       continue
     fi
 
-    read -d '' isbios isdevice savestate rotate < <(
-      mameinfo -r '.isbios,.isdevice,.driver.savestate,.display[0].rotate' -g $rom
+    read -d '' isbios isdevice savestate < <(
+      mameinfo -r '.isbios,.isdevice,.driver.savestate' -g $rom
     )
     case yes in
       # skip bios and devices.
       $isbios|$isdevice) continue ;;
     esac
 
-    name=$rom:t:r
-
-    if [[ $rotate == (90|270) ]]
-    then
-      configs=( $cdir/$name.cfg $cdir/$source.cfg $cdir/MAME.cfg )
-      if [[ $( raconfig --get video_scale_integer_axis $configs ) != 4 ||
-            $( raconfig --get video_scale_integer_scaling $configs ) != 2 ]]
-      then
-        # Scaling for TATE mode. axis: x, scaling: smart
-        raconfig --override video_scale_integer_axis=4 $configs
-        raconfig --override video_scale_integer_scaling=2 $configs
-        printf " %s.cfg: %s\n" $name 'Scaling for TATE mode. axis: x, scaling: smart'
-      fi
-    fi
+    # Save state status shared for each source.
+    continue
   done
 
   changes=0
