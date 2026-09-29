@@ -1,4 +1,7 @@
 #!/usr/bin/env zsh
+# TODO: use new structure for speed ups post mameinfo update.
+
+PATH=$( dirname `realpath $0` ):$PATH
 
 for rom in $1/*.(zip|7z)(N)
 do
@@ -8,7 +11,7 @@ do
 		continue
 	fi
 	read -d '' isbios isdevice driver_status description < <(
-		mameinfo -r '.isbios,.isdevice,.driver.status,.description' -g $rom
+		mameinfo -r '.isbios,.isdevice,.driver.status,.description' $rom
 	)
 	echo $description
 
