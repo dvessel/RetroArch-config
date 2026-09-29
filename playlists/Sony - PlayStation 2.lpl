@@ -148,11 +148,11 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/-PS2-EU/Forbidden Siren (Europe).chd",
-      "label": "Forbidden Siren (Europe)",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/-PS2-EU/Forbidden Siren 2 (Europe) (En,Fr,De,Es,It).chd",
+      "label": "Forbidden Siren 2 (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
-      "crc32": "SCES-51920|serial",
+      "crc32": "SCES-53851|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
@@ -612,6 +612,14 @@
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Rule of Rose (USA).chd",
+      "label": "Rule of Rose (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-21448|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Scaler (USA) (En,Fr).chd",
       "label": "Scaler (USA) (En,Fr)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
@@ -745,6 +753,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-20085|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Siren (USA).chd",
+      "label": "Siren (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SCUS-97355|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {

@@ -124,14 +124,6 @@
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sega CD/Flashback - The Quest for Identity (USA).chd",
-      "label": "Flashback - The Quest for Identity (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
-      "db_name": "Sega - Mega-CD - Sega CD.lpl"
-    },
-    {
       "path": "/Volumes/980Pro/Emulation/Sega CD/Flink (USA) (En,Fr,De,Es,Nl).chd",
       "label": "Flink (USA) (En,Fr,De,Es,Nl)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
@@ -153,14 +145,6 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
       "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
       "crc32": "T-60185|serial",
-      "db_name": "Sega - Mega-CD - Sega CD.lpl"
-    },
-    {
-      "path": "/Volumes/980Pro/Emulation/Sega CD/Lords of Thunder (USA).chd",
-      "label": "Lords of Thunder (USA)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/genesis_plus_gx_libretro.dylib",
-      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
-      "crc32": "00000000|crc",
       "db_name": "Sega - Mega-CD - Sega CD.lpl"
     },
     {
