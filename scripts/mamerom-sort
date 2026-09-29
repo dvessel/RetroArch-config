@@ -21,15 +21,13 @@ then
 fi
 rm -rf $scandir/.sorted/*(N)
 
-if [[ -n ${commands[tag]} ]]
+if (( $+commands[tag] ))
 then
   # Tagged files to ignore
-  ignore=(
-    ${${(f)"$( tag -m Ignore $scandir/*.(7z|zip) )"}:t:r}
-  )
+  ignore=( ${${(f)"$( tag -m Ignore $scandir/*.(7z|zip) )"}:t:r} )
 fi
 
-counter=0
+local counter=0
 while read -r line
 do
   # Modulus matches the number of items queried in mameinfo. @see bottom of loop.
@@ -40,7 +38,7 @@ do
     4)  scpp=-${${line:r}//\//-} ;;
     5)  [[ $line == (90|270) ]] && scpp+=\~tate ;;
     0)
-        # Ignore bios, devices and tagged for ignore.
+        # Ignore bios, devices and items tagged for ignore.
         [[ yes == ($isbios|$isdevice) || -n ${ignore[(r)$name]} ]] && continue
         sdir=$scandir/.sorted/$scpp
         [[ -d $sdir ]] || mkdir -p $sdir

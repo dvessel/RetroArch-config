@@ -2,7 +2,7 @@
 
 zparseopts -D -E - -x86_64=zX86 -build=zbuild || return 1
 
-if (( ${#zbuild} ))
+if (( #zbuild ))
 then
   PATH=$( dirname `realpath $0` ):$PATH
   retroarch-build $@
@@ -10,7 +10,7 @@ then
 fi
 
 if appdir=$( mdfind kMDItemCFBundleIdentifier = $(
-  (( ${#zX86} )) &&
+  (( #zX86 )) &&
     print com.libretro.dist.RetroArchX86 ||
     print com.libretro.dist.RetroArch
 ) | fzf --select-1 )

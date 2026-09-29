@@ -10,9 +10,17 @@ romsdir=${1:a}
 basedir=~/Library/Application\ Support/RetroArch
 mamexml=$basedir/database/${romsdir:t}.xml
 append_dir=$basedir/database/${romsdir:t}-append
-append_names=( $append_dir/*.xml(N:t:r) )
 
-mame -listxml $romsdir/*.zip(:t:r) > $mamexml
+all_names=( $romsdir/*.(7z|zip)(N:t:r) )
+# Get names to append, specific to the rom directory being scanned.
+append_all=( $append_dir/*.xml(N:t:r) )
+append_names=( ${all_names:*append_all} )
+
+# Filter out appended names. It will be processed later.
+if [[ -n ${all_names:|append_names} ]]
+then
+  mame -listxml ${all_names:|append_names} > $mamexml
+fi
 
 if [[ -n $append_names ]]
 then

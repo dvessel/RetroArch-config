@@ -5,7 +5,7 @@ zparseopts -D -F - \
   -clean=zclean \
   -update=zupdate || return 1
 
-if (( ${#zdebug_arch} ))
+if (( #zdebug_arch ))
 then
   arches=( ${zdebug_arch#--debug-} )
   build=Debug
@@ -23,7 +23,7 @@ repos=(
 updates=0
 stashed=()
 
-if (( ${#zupdate} ))
+if (( #zupdate ))
 then
   for repo in $repos
   do
@@ -65,15 +65,15 @@ then
     fi
   done
 
-  if (( updates == 0 ))
+  if ! (( updates ))
   then
     print "Nothing to update."
-    return 0
+    return
   fi
 fi
 
 project=pkg/apple/RetroArch_Metal.xcodeproj
-if (( ${#zclean} ))
+if (( #zclean ))
 then
   xcodebuild clean -project $project
 fi

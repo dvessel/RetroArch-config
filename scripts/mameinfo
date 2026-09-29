@@ -11,8 +11,8 @@
 # convert from xml. if jq is available, it will be used but oq is necessary for
 # the conversion from xml to json. jq is faster when querying for results.
 #
-for r in mame oq; type $r &>/dev/null || missing+=($r)
-if (( ${#missing} ))
+for r in mame oq; (( $+commands[$r] )) || missing+=($r)
+if (( $+missing ))
 then
   echo "${(j/, /)missing} required." >&2
   return 1
@@ -66,7 +66,7 @@ function mamexml_to_json_file {
       device_ref: .device_ref | arrayofobjects } | scrub' <<< $@ )
 }
 
-if (( ${#zinit_path} ))
+if (( #zinit_path ))
 then
   init_path=${zinit_path[-1]:a}
   if [[ ! -d $init_path ]]
@@ -87,7 +87,7 @@ then
   rom_names=( $init_path/*.(7z|zip)(N:t:r) )
   new_names=( ${rom_names:|existing} )
 
-  if (( ${#new_names} ))
+  if (( #new_names ))
   then
     # Some ROMs are not recognized by MAME due to its removal but the libretro
     # core still recognizes it. Use seperate xml files to process them.
@@ -111,12 +111,12 @@ fi
 typeset -a jqargs
 for arg in $@
 do
-  if [[ ${arg:e} == (7z|zip) ]]
+  if [[ $arg:e == (7z|zip) ]]
   then
     # Use the first encountered rom path to find the .rominfo/info path.
     if [[ -z $romdir ]]
     then
-      romdir=${arg:a:h}
+      romdir=$arg:a:h
       while [[ ! -s $romdir/.rominfo/info ]]
       do
         romdir=$romdir:h
@@ -126,22 +126,17 @@ do
         }
       done
     fi
-    if [[ -f $romdir/.rominfo/info/${arg:t:r}.json ]]
-    then
-      jqargs+=$romdir/.rominfo/info/${arg:t:r}.json
-    else
-      echo "Info file not found for ${arg:t}." >&2
-    fi
+    jqargs+=$romdir/.rominfo/info/${arg:t:r}.json
   else
     jqargs+=$arg
   fi
 done
 
-if (( ${#zinfo_path} ))
+if (( #zinfo_path ))
 then
   realpath $jqargs
 else
-  if [[ -n ${commands[jq]} ]]
+  if (( $+commands[jq] ))
   then
     jq $jqargs
   else

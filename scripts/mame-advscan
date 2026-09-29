@@ -16,18 +16,18 @@ if [[ -n $1 && $command == $1 ]]
 then
   shift
 else
-  echo "available commands: ${(j:, :)all_commands}" >&2
+  echo "Available commands: ${(j/, /)all_commands}" >&2
   return 1
 fi
 
 scandir=${${1:a}:-$PWD}
-if [[ $scandir == ${1:a} ]]
+if [[ $scandir == $1:a ]]
 then
   shift
 fi
 if [[ ! -d $scandir ]]
 then
-  echo "not a valid scan directory: $scandir" >&2
+  echo "Not a valid scan directory: $scandir" >&2
   return 1
 fi
 
@@ -113,35 +113,39 @@ EOF
 fi
 
 # Add disk sub-directories to the advscan.rc file so it can be seen.
-chdir=( ${$(print -- roms/*/(N)):-roms} )
-sed -i '' -E "s|^(disk ).*|\1${(j[:])chdir}|" advscan.rc
+chdir=( roms/*/(N) )
+sed -i '' -E "s|^(disk ).*|\1${(j[:])chdir:-roms}|" advscan.rc
 
 mamexml=mamexml/current.xml
 
 if [[ ! -e $mamexml || $scandir -nt $mamexml ]]
 then
-  echo "building xml files..."
+  echo "Building xml files..."
 
   mamexml=mamexml/$( mame -version | awk -F'[ .]' '{print $1$2}' ).xml
   ln -sf $mamexml:t mamexml/current.xml
 
   all_names=( roms/*.zip(N:t:r) )
-  # get names to append, specific to the rom directory being scanned.
+  # Get names to append, specific to the rom directory being scanned.
   append_all=( mamexml/_append/*.xml(N:t:r) )
-  append_roms=( ${all_names:*append_all} )
+  append_names=( ${all_names:*append_all} )
 
-  mame -listxml $all_names > $mamexml
-
-  if [[ -n $append_roms ]]
+  # Filter out appended names. It will be processed later.
+  if [[ -n ${all_names:|append_names} ]]
   then
-    echo "Appending ${(j/,/)append_roms}..."
+    mame -listxml ${all_names:|append_names} > $mamexml
+  fi
+
+  if [[ -n $append_names ]]
+  then
+    echo "Appending ${(j/,/)append_names}..."
     {
-      # print main xml file, but omit closing </mame> tag.
+      # Print main xml file, but omit closing </mame> tag.
       sed '/<\/mame>/d' $mamexml
 
-      for name in $append_roms
+      for name in $append_names
       do
-        # print `/mame/machine` and omits the following:
+        # Print `/mame/machine` and omits the following:
         # 1. xml declaration line
         # 2. doctype & specs
         # 3. opening <mame> line
@@ -149,14 +153,14 @@ then
         sed '/<?xml/d;/<!/d;/]>/d;/<mame/d;/<\/mame>/d' mamexml/_append/$name.xml
       done
 
-      # print the closing tag.
+      # Print the closing tag.
       echo "</mame>"
     } > $mamexml.tmp && mv -f $mamexml.tmp $mamexml
   fi
 fi
 
 mkdir -p reports
-report_file=$( date "+%y%m%d%H%M%S" )-v${$(readlink $mamexml):r}-${command}.txt
+report_file=$( date "+%y%m%d%H%M%S" )-v${$( readlink $mamexml ):r}-${command}.txt
 
 # Modes:
 #   -r, --rom          Operate on rom sets
@@ -191,31 +195,31 @@ case $command in
     return
   ;;
   scan)
-    echo "scanning..."
+    echo "Scanning..."
     advscan -rsk -Pv < mamexml/current.xml
   ;;
   scan-verbose)
-    echo "scanning... (verbose)"
+    echo "Scanning... (verbose)"
     advscan -rsk -Ppv < mamexml/current.xml
   ;;
   repair)
-    echo "repairing..."
+    echo "Repairing..."
     advscan -rsk -bugt -v < mamexml/current.xml
   ;;
   repair-preview)
-    echo "repairing... (preview)"
+    echo "Repairing... (preview)"
     advscan -rsk -bugt -v --print-only < mamexml/current.xml
   ;;
   cleanup)
-    echo "cleaning..."
+    echo "Cleaning..."
     advscan -rsk -dugt < mamexml/current.xml
   ;;
   cleanup-preview)
-    echo "cleaning... (preview)"
+    echo "Cleaning... (preview)"
     advscan -rsk -dugt --print-only < mamexml/current.xml
   ;;
 esac 2> >( sed -l '/Missing.*sampleof/d' >&2 ) | tee reports/$report_file |
-# colorize -p option output.
+# Colorize -p option output.
 # nodump bad/miss : yellow
 # rom miss/bad    : red
 # various others  : gray
@@ -229,8 +233,8 @@ perl -pe '/^([a-z]+_)?(good|bad|miss|text|binary|garbage)/; print (
       "\033[0m"
 )'
 
-# remove empty reports file.
-if [[ $( wc -l < reports/$report_file ) -le 1 ]]
+# Remove empty reports file.
+if [[ $( wc -l < reports/$report_file ) <= 1 ]]
 then
   rm reports/$report_file
 else

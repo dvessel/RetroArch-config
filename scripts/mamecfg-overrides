@@ -54,7 +54,7 @@ typeset -A map_sia=(
 )
 
 typeset -A processed
-counter=0
+local counter=0
 while read -r line
 do
   # Modulus matches the number of items queried in mameinfo. @see bottom of loop.
@@ -69,7 +69,7 @@ do
           scpp+=\~tate
         fi
         # Ignore processed "source" containers, bios and devices.
-        if [[ -n $processed[$scpp] || yes == ($isbios|$isdevice) ]]
+        if [[ $processed[$scpp] == 1 || yes == ($isbios|$isdevice) ]]
         then
           continue
         fi
@@ -86,7 +86,7 @@ do
         done
         if (( changes ))
         then
-          printf '%s.cfg: Save State %s. %s\n' $scpp $savestate 'Related settings were updated.'
+          printf '%s.cfg: Save State %s. Related settings were updated.\n' $scpp $savestate
         fi
 
         if [[ $line == (90|270) ]]
