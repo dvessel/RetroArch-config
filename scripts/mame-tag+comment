@@ -1,43 +1,52 @@
 #!/usr/bin/env zsh
-# TODO: use new structure for speed ups post mameinfo update.
 
 PATH=$( dirname `realpath $0` ):$PATH
+scandir=$1
+shift
 
-for rom in $1/*.(zip|7z)(N)
+while read -r line
 do
-	if [[ -L $rom ]]
-	then
-		# ignore symlinks.
-		continue
-	fi
-	read -d '' isbios isdevice driver_status description < <(
-		mameinfo -r '.isbios,.isdevice,.driver.status,.description' $rom
-	)
-	echo $description
+  while read -r key value
+  do
+    typeset "$key"="$value"
+  done < <( jq -r 'to_entries[] | "\(.key) \(.value)"' <<< $line )
 
-	case "yes" in
-		($isbios) tag -a "BIOS" $rom ;;
-		($isdevice) tag -a "Device" $rom ;;
-	esac
-	case $driver_status in
-		(preliminary) tag -a "Preliminary" $rom ;;
-	esac
+  rom=( $scandir/$name.(zip|7z) )
+  # ignore symlinks.
+  if [[ -L $rom ]]
+  then continue
+  fi
+  echo $description
 
-	for item in $rom $rom:r
-	do
-		test -e $item || continue
-		comment=$(
-			xattr -xp com.apple.metadata:kMDItemFinderComment $item 2>/dev/null | xxd -r -p | plutil -p - 2> /dev/null
-		)
-		if [[ $comment != $description ]]
-		then
-		  osargs=(
-				-e 'on run {f, d}'
-				-e 'tell app "Finder" to set comment of (POSIX file f as alias) to d'
-				-e 'end'
-				"file:///$item:a" "$description"
-			)
-			osascript $osargs &> /dev/null
-		fi
-	done
-done
+  if [[ $emustatus == preliminary ]]
+  then ispreliminary=yes
+  else ispreliminary=null
+  fi
+  case yes in
+    $isbios)         tag -a 'BIOS' $rom ;;
+    $isdevice)       tag -a 'Device' $rom ;;
+    $ispreliminary)  tag -a 'Preliminary' $rom ;;
+  esac
+
+  for item in $rom $rom:r
+  do
+    test -e $item || continue
+    comment=$(
+      xattr -xp com.apple.metadata:kMDItemFinderComment $item 2>/dev/null | xxd -r -p | plutil -p - 2> /dev/null
+    )
+    if [[ $comment != $description ]]
+    then
+      osargs=(
+        -e 'on run {f, d}'
+        -e 'tell app "Finder" to set comment of (POSIX file f as alias) to d'
+        -e 'end'
+        "file:///$item:a" "$description"
+      )
+      osascript $osargs &> /dev/null
+    fi
+  done
+done < <( mameinfo -cr '{ description:.description,
+                          name:.name,
+                          isbios:.isbios,
+                          isdevice:.isdevice,
+                          emustatus:.driver.status }' $scandir/*.(7z|zip) )

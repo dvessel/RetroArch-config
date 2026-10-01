@@ -15,10 +15,10 @@ for r in mame oq; (( $+commands[$r] )) || missing+=($r)
 if (( $+missing ))
 then
   echo "${(j/, /)missing} required." >&2
-  return 1
+  exit 1
 fi
 
-zparseopts -D -E - -init-path:=zinit_path -info-path=zinfo_path || return 1
+zparseopts -D -E - -init-path:=zinit_path -info-path=zinfo_path || exit 1
 
 # Write to name.json info files from mame xml output.
 function mamexml_to_json_file {
@@ -26,10 +26,8 @@ function mamexml_to_json_file {
   while read -r line
   do
     if (( json_write ))
-    then
-      echo $line > $json_file
-    else
-      json_file=$init_path/.rominfo/info/$line.json
+    then echo $line > $json_file
+    else json_file=$init_path/.rominfo/info/$line.json
     fi
     json_write=$(( ! json_write ))
   done < <( oq -i xml -o json -cr '
@@ -72,13 +70,12 @@ then
   if [[ ! -d $init_path ]]
   then
     echo "init path does not exist." >&2
-    return 1
+    exit 1
   fi
   # Remove decimals and truncate. MAME version 0.250.0.1 results in 0250.
   version=$( mame -version | awk -F'[ .]' '{print $1$2}' )
   if [[ -z $version ]]
-  then
-    version=unknown
+  then version=unknown
   fi
   mkdir -p $init_path/.rominfo/$version
   ln -sF $version $init_path/.rominfo/info
@@ -91,21 +88,19 @@ then
   then
     # Some ROMs are not recognized by MAME due to its removal but the libretro
     # core still recognizes it. Use seperate xml files to process them.
-    append_path=~/Library/Application\ Support/RetroArch/database/${init_path:t}-append
+    append_path=$HOME/Games/Support/RetroArch/database/mame-append
     append_names=( $append_path/*.xml(N:t:r) )
     new_append_names=( ${append_names:|existing} )
     for append in $new_append_names
-    do
-      mamexml_to_json_file $( < $append_path/$append.xml )
+    do mamexml_to_json_file $( < $append_path/$append.xml )
     done
     # Filter out what was already processed through appended xml files.
     if [[ -n ${new_names:|new_append_names} ]]
-    then
-      mamexml_to_json_file $( mame -listxml ${new_names:|new_append_names} )
+    then mamexml_to_json_file $( mame -listxml ${new_names:|new_append_names} )
     fi
   fi
 
-  return
+  exit 0
 fi
 
 typeset -a jqargs
@@ -113,7 +108,11 @@ for arg in $@
 do
   if [[ $arg:e == (7z|zip) ]]
   then
-    # Use the first encountered rom path to find the .rominfo/info path.
+    # Use the first encountered rom path to locate `.rominfo/info`. Each rom is
+    # replaced with a corresponding json file. This script will then cd into the
+    # json directory to minimize the argument length being passed to jq. This
+    # prevents the *argument list is too long* error when globbing a massive
+    # collection of roms.
     if [[ -z $romdir ]]
     then
       romdir=$arg:a:h
@@ -122,11 +121,12 @@ do
         romdir=$romdir:h
         [[ $romdir == / ]] && {
           echo "rom path must be initialized with --init-path." >&2
-          return 1
+          exit 1
         }
       done
+      cd $romdir/.rominfo/info
     fi
-    jqargs+=$romdir/.rominfo/info/${arg:t:r}.json
+    jqargs+=${arg:t:r}.json
   else
     jqargs+=$arg
   fi
@@ -134,12 +134,10 @@ done
 
 if (( #zinfo_path ))
 then
-  realpath $jqargs
+  print -l -- $jqargs:A
 else
   if (( $+commands[jq] ))
-  then
-    jq $jqargs
-  else
-    oq $jqargs
+  then jq $jqargs
+  else oq $jqargs
   fi
 fi

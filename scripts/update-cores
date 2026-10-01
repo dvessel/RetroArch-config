@@ -3,8 +3,7 @@
 PATH=$( dirname `realpath $0` ):$PATH
 
 if [[ $( raconfig --get config_save_minimal ) == true ]]
-then
-  p.error "Incompatible with 'config_save_minimal'."
+then p.error "Incompatible with 'config_save_minimal'."
   return 1
 fi
 
@@ -13,13 +12,11 @@ do
   name=${${dylib:t}%_libretro.dylib}
   info=$( raconfig --get libretro_info_path )/$dylib:t:r.info
   if [[ -f $info ]]
-  then
-    name=${$( raconfig --get corename $info ):-$name}
+  then name=${$( raconfig --get corename $info ):-$name}
   fi
 
   if [[ -f $dylib:r.lck ]]
-  then
-    echo "$name is locked."
+  then echo "$name is locked."
     continue
   fi
 
@@ -58,16 +55,13 @@ do
 
   echo "downloading $name core..."
   if ! curl -#Lo $tmpdir/$dylib:t.zip https://buildbot.libretro.com/nightly/apple/osx/$arch/latest/$dylib:t.zip
-  then
-    echo "download failed." >&2
+  then echo "download failed." >&2
     continue
   fi
 
   if unzip -q $tmpdir/$dylib:t.zip -d $tmpdir
-  then
-    mv -f $tmpdir/$dylib:t $dylib
-  else
-    echo "failed to extract core." >&2
+  then mv -f $tmpdir/$dylib:t $dylib
+  else echo "failed to extract core." >&2
     continue
   fi
 

@@ -10,7 +10,7 @@ scandir=$1
 if ! mameinfo --init-path $scandir
 then
   echo "Failed to initialize." >&2
-  return 1
+  exit 1
 fi
 
 if [[ ! -d $scandir/.sorted ]]
@@ -21,35 +21,87 @@ then
 fi
 rm -rf $scandir/.sorted/*(N)
 
+# Tagged files to ignore. Requires tag command.
 if (( $+commands[tag] ))
-then
-  # Tagged files to ignore
-  ignore=( ${${(f)"$( tag -m Ignore $scandir/*.(7z|zip) )"}:t:r} )
+then ignore=( ${${(f)"$( tag -m Ignore $scandir/*.(zip|7z) )"}:t:r} )
 fi
 
-local counter=0
+typeset -A parent_child
+while read -r name romof
+do parent_child[$name]=$romof
+done < <(
+  mameinfo -sr '[.[]|select(.romof!=null)]|.[]|"\(.name) \(.romof)"' $scandir/*.(zip|7z)
+)
+
 while read -r line
 do
-  # Modulus matches the number of items queried in mameinfo. @see bottom of loop.
-  case $(( ++counter % 6 )) in
-    1)  name=$line ;;
-    2)  isbios=$line ;;
-    3)  isdevice=$line ;;
-    4)  scpp=-${${line:r}//\//-} ;;
-    5)  [[ $line == (90|270) ]] && scpp+=\~tate ;;
-    0)
-        # Ignore bios, devices and items tagged for ignore.
-        [[ yes == ($isbios|$isdevice) || -n ${ignore[(r)$name]} ]] && continue
-        sdir=$scandir/.sorted/$scpp
-        [[ -d $sdir ]] || mkdir -p $sdir
-        ln $scandir/$name.zip $sdir/$name.zip
-        # highlight containing folder.
-        printf "%s\n\e[0;34m%s\e[0;37m/\e[0m%s\n" $line $scpp $name.zip
-      ;;
-  esac
-done < <( mameinfo -r ' .name,
-                        .isbios,
-                        .isdevice,
-                        .sourcefile,
-                        .display[0].rotate,
-                        .description ' $scandir/*.zip )
+  while read -r key value
+  do typeset $key=$value
+  done < <( jq -r 'to_entries[] | "\(.key) \(.value)"' <<< $line )
+
+  if [[ ${ignore[(r)$name]} ]]
+  then continue
+  fi
+
+  typeset -A link_list=()
+  while read -r device
+  do
+    for ext in zip 7z; [[ -f $scandir/$device.$ext ]] && {
+      link_list+=( $scandir/$device.$ext $device.$ext )
+      break
+    }
+  done < <( jq -r '.[]' <<< $devices )
+
+  _name=$name
+  while [[ -n $_name ]]
+  do
+    for ext in zip 7z; [[ -f $scandir/$_name.$ext ]] && {
+      link_list+=( $scandir/$_name.$ext $_name.$ext )
+      # Special case for `naomigd` where it doesn't reference `naomi` bios.
+      if [[ $_name == naomigd && -f $scandir/naomi.$ext ]]
+      then link_list+=( $scandir/naomi.$ext naomi.$ext )
+      fi
+      break
+    }
+    _name=${parent_child[$_name]}
+  done
+
+  while read -r disk merge
+  do
+    if [[ $disk == $merge ]]
+    then owner=${parent_child[$name]}
+    else owner=$name
+    fi
+    if [[ -f $scandir/$owner/$disk.chd ]]
+    then link_list+=( $scandir/$owner/$disk.chd $owner/$disk.chd )
+    fi
+  done < <( jq -r '.[] | "\(.name) \(.merge)"' <<< $disk )
+
+  scpp=-${${sourcefile:r}//\//-}
+  if [[ $rotate == (90|270) ]]
+  then scpp+=\~tate
+  fi
+
+  for src dest in ${(kv)link_list}
+  do
+    sorted=$scandir/.sorted/$scpp/$dest
+    [[ -d $sorted:h ]] || mkdir -p $sorted:h
+    # Hard link current rom, symlink dependencies.
+    if [[ $src:t == $name.$src:e && $src:e != chd ]]
+    then
+      ln -f $src $sorted || exit 1
+      # highlight containing folder.
+      printf "%s\n\e[0;34m%s\e[0;37m/\e[0m%s\n" $description $scpp $name.$src:e
+    elif [[ ! -f $sorted ]]
+    then
+      ln -s $src $sorted || exit 1
+    fi
+  done
+
+done < <( mameinfo -cr 'select( .isbios != "yes" and .isdevice != "yes" ) |
+        { description:.description,
+          name:.name,
+          sourcefile:.sourcefile,
+          rotate:.display[0].rotate,
+          devices:[(.device_ref//[])[].name]|unique,
+          disk:(.disk//[]) }' $scandir/*.(7z|zip) )

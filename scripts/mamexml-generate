@@ -1,34 +1,27 @@
 #!/usr/bin/env zsh
 #
-# Generates database/[scan directory].xml specific to the roms directory.
-# For use with playlists to get proper names.
+# Generates xml data specific to the roms directory being scanned.
 #
 # requires standalone mame
 #
 
-romsdir=${1:a}
-basedir=~/Library/Application\ Support/RetroArch
-mamexml=$basedir/database/${romsdir:t}.xml
-append_dir=$basedir/database/${romsdir:t}-append
+rom_names=( $1/*.(7z|zip)(N:t:r) )
+(( #rom_names )) || exit 1
 
-all_names=( $romsdir/*.(7z|zip)(N:t:r) )
+append_dir=$HOME/Games/Support/RetroArch/database/mame-append
 # Get names to append, specific to the rom directory being scanned.
 append_all=( $append_dir/*.xml(N:t:r) )
-append_names=( ${all_names:*append_all} )
-
+append_names=( ${rom_names:*append_all} )
 # Filter out appended names. It will be processed later.
-if [[ -n ${all_names:|append_names} ]]
-then
-  mame -listxml ${all_names:|append_names} > $mamexml
+if [[ -n ${rom_names:|append_names} ]]
+then mame -listxml ${rom_names:|append_names} > $2
 fi
-
 if [[ -n $append_names ]]
 then
   echo "Appending ${(j/,/)append_names}..."
   {
     # print main xml file, but omit closing </mame> tag.
-    sed '/<\/mame>/d' $mamexml
-
+    sed '/<\/mame>/d' $2
     for name in $append_names
     do
       # print `/mame/machine` and omits the following:
@@ -38,8 +31,7 @@ then
       # 4. closing </mame> line
       sed '/<?xml/d;/<!/d;/]>/d;/<mame/d;/<\/mame>/d' $append_dir/$name.xml
     done
-
     # print the closing tag.
     echo "</mame>"
-  } > $mamexml.tmp && mv -f $mamexml.tmp $mamexml
+  } > $2.tmp && mv -f $2.tmp $2
 fi

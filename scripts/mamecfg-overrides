@@ -9,12 +9,12 @@ PATH=$( dirname `realpath $0` ):$PATH
 if ! mameinfo --init-path $1
 then
   echo "Failed to initialize." >&2
-  return 1
+  exit 1
 fi
 if [[ $( raconfig --get config_save_minimal ) == true ]]
 then
   echo "Incompatible with 'config_save_minimal'." >&2
-  return 1
+  exit 1
 fi
 
 scandir=$1
@@ -35,8 +35,7 @@ for skey in menu_show_latency \
 do
   # To be used to reset when it's supported.
   if [[ $skey[1] != - ]]
-  then
-    savestate_related_supported+=${skey#-}=$( raconfig --get ${skey#-} $cfgdir/MAME.cfg )
+  then savestate_related_supported+=${skey#-}=$( raconfig --get ${skey#-} $cfgdir/MAME.cfg )
   fi
   # And disabled when it's not.
   savestate_related_unsupported+=${skey#-}=false
@@ -53,58 +52,50 @@ typeset -A map_sia=(
   5 'Scale Integer Axis X.5'
 )
 
-typeset -A processed
-local counter=0
 while read -r line
 do
-  # Modulus matches the number of items queried in mameinfo. @see bottom of loop.
-  case $(( ++counter % 6 )) in
-    1)  name=$line ;;
-    2)  isbios=$line ;;
-    3)  isdevice=$line ;;
-    4)  savestate=$line ;;
-    5)  scpp=-${${line:r}//\//-} ;;
-    0)  if [[ $line == (90|270) ]]
-        then
-          scpp+=\~tate
-        fi
-        # Ignore processed "source" containers, bios and devices.
-        if [[ $processed[$scpp] == 1 || yes == ($isbios|$isdevice) ]]
-        then
-          continue
-        fi
+  typeset -A processed
+  while read -r key value
+  do typeset $key=$value
+  done < <( jq -r 'to_entries[] | "\(.key) \(.value)"' <<< $line )
 
-        changes=0
-        keyvalues="savestate_related_${savestate}"
-        for kv in ${(P)keyvalues}
-        do
-          if [[ $( raconfig --get ${kv%=*} $cfgdir/$scpp.cfg ) != ${kv#*=} ]]
-          then
-            raconfig --override $kv $cfgdir/$scpp.cfg &
-            changes=1
-          fi
-        done
-        if (( changes ))
-        then
-          printf '%s.cfg: Save State %s. Related settings were updated.\n' $scpp $savestate
-        fi
+  scpp=-${${sourcefile:r}//\//-}
+  if [[ $rotate == (90|270) ]]
+  then scpp+=\~tate
+  fi
 
-        if [[ $line == (90|270) ]]
-        then
-          if [[ $(
-            raconfig --get video_scale_integer_axis $cfgdir/$scpp.cfg
-          ) != $tate_ia ]]
-          then
-            raconfig --override video_scale_integer_axis=$tate_ia $cfgdir/$scpp.cfg &
-            printf '%s.cfg: %s\n' $scpp ${map_sia[$tate_ia]}
-          fi
-        fi
-        processed[$scpp]=1
-      ;;
-  esac
-done < <( mameinfo -r ' .name,
-                        .isbios,
-                        .isdevice,
-                        .driver.savestate,
-                        .sourcefile,
-                        .display[0].rotate ' $scandir/*.zip )
+  if (( $processed[$scpp] ))
+  then continue
+  fi
+
+  changes=0
+  keyvalues="savestate_related_${savestate}"
+  for kv in ${(P)keyvalues}
+  do
+    if [[ $( raconfig --get ${kv%=*} $cfgdir/$scpp.cfg ) != ${kv#*=} ]]
+    then
+      raconfig --override $kv $cfgdir/$scpp.cfg &
+      changes=1
+    fi
+  done
+  if (( changes ))
+  then printf '%s.cfg: Save State %s. Related settings were updated.\n' $scpp $savestate
+  fi
+
+  if [[ $rotate == (90|270) ]]
+  then
+    if [[ $(
+      raconfig --get video_scale_integer_axis $cfgdir/$scpp.cfg
+    ) != $tate_ia ]]
+    then
+      raconfig --override video_scale_integer_axis=$tate_ia $cfgdir/$scpp.cfg &
+      printf '%s.cfg: %s\n' $scpp ${map_sia[$tate_ia]}
+    fi
+  fi
+  processed[$scpp]=1
+
+done < <( mameinfo -cr 'select( .isbios != "yes" and .isdevice != "yes" ) |
+        { name:.name,
+          sourcefile:.sourcefile,
+          savestate:.driver.savestate,
+          rotate:.display[0].rotate }' $scandir/*.(7z|zip) )

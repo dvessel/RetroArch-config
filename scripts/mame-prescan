@@ -1,15 +1,86 @@
 #!/usr/bin/env zsh
 
-PATH=$( dirname `realpath $0` ):$PATH
-scandir=~/Games/Emulation/Arcade
+PATH=${0:A:h}:$PATH
 
-printf '\e[0;30mUpdating %s file for MAME.lpl...\e[0m\n' $scandir:t.xml
-mamexml-generate $scandir
+p.header() { printf '\e[1;30m%s\e[0m\n' $@ }
+p.notice() { printf '\e[0;30m%s\e[0m\n' $@ }
+p.error()  { printf '\e[0;30m%s\e[0m\n' $@ >&2 }
 
-printf '\e[0;30m%s\e[0m\n' 'Sorting ROMs...'
-mamerom-sort $scandir
-printf '\e[0;33m%s\e[0m\n' 'Sorting complete. Ready to rescan MAME.lpl'
+typeset -A systems=(
+  atomiswave  Atomiswave.lpl
+  mame        MAME.lpl
+  naomi       Sega\ -\ Naomi.lpl
+  naomi2      Sega\ -\ Naomi\ 2.lpl
+)
+for system in ${@:-${(k)systems}}
+do
+  playlist=${systems[$system]}
+  if [[ ! -n $playlist ]]
+  then
+    p.error "$system not recognized." "available systems: [${(kj/|/)systems}]"
+    exit 1
+  fi
+  playlist_path=$( raconfig -g playlist_directory )/$playlist
 
-printf '\e[0;30m%s\e[0m\n' 'Processing MAME config overrides...'
-mamecfg-overrides $scandir
-printf '\e[0;30m%s\e[0m\n' 'Done.'
+  # Get and validate required paths from playlist.
+  for key in scan_content_dir scan_dat_file_path
+  do
+    value=${$( jq -r .$key $playlist_path ):-null}
+    if [[ $value == null ]]
+    then
+      p.error "$playlist -> $key: has no value."
+      exit 1
+    elif [[ ! -s ${value:h} ]]
+    then
+      p.error "$playlist -> $key: points to a non-existing directory:"
+      p.error "'$value'"
+      exit 1
+    fi
+    case $key in
+      scan_content_dir)
+        scandir=${value%\/.sorted}
+        update_scan_content_dir=$(( $#value - $#scandir == 0 ))
+        ;;
+      scan_dat_file_path)
+        scandat=$value
+        ;;
+    esac
+  done
+
+  p.header "Updating ${scandat:t} -> $playlist"
+  if ! mamexml-generate $scandir $scandat
+  then
+    p.error "Failed to generate xml for rom path:"
+    p.error "'$scandir'"
+    exit 1
+  fi
+
+  p.header "Sorting '$scandir'"
+  if mamerom-sort $scandir
+  then
+    if (( update_scan_content_dir ))
+    then
+      temp=`mktemp -u`
+      if jq '.scan_content_dir += "/.sorted"' $playlist_path > $temp
+      then
+        mv -f $temp $playlist_path
+        p.notice "Updated $playlist -> scan_content_dir:"
+        p.notice "'$scandir/.sorted'"
+      else
+        p.error "Failed to update $playlist -> scan_content_dir."
+      fi
+    fi
+  else
+    p.error "Sorting failed."
+    exit 1
+  fi
+
+  if [[ $system == mame ]]
+  then
+    p.header "Processing MAME config overrides…"
+    if mamecfg-overrides $scandir
+    then p.notice Done.
+    else exit 1
+    fi
+  fi
+done
