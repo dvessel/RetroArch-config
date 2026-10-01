@@ -11,8 +11,8 @@ cht
 config/retroarch-keychain.cfg
 cores
 database/*
-!database/*.xml
-!database/*-append
+!database/scan-dats
+!database/mame-append
 downloads
 info
 logs

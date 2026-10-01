@@ -8,9 +8,9 @@
   "left_thumbnail_mode": 0,
   "thumbnail_match_mode": 0,
   "sort_mode": 0,
-  "scan_content_dir": "/Users/joon/Games/Emulation/Atomiswave",
+  "scan_content_dir": "/Users/joon/Games/Emulation/Atomiswave/.sorted",
   "scan_file_exts": "",
-  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/Atomiswave.xml",
+  "scan_dat_file_path": "/Users/joon/Games/Support/RetroArch/database/scan-dats/atomiswave.xml",
   "scan_database_name": "Atomiswave.lpl",
   "scan_search_recursively": true,
   "scan_search_archives": true,
@@ -20,7 +20,7 @@
   "scan_db_usage": 2,
   "items": [
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/demofist.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/demofist.zip",
       "label": "Demolish Fist",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -28,7 +28,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/dolphin.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/dolphin.zip",
       "label": "Dolphin Blue",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -36,7 +36,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/ftspeed.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/ftspeed.zip",
       "label": "Faster Than Speed",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -44,15 +44,15 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/fotns.zip",
-      "label": "Fist Of The North Star",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/fotns.zip",
+      "label": "Fist Of The North Star / Hokuto no Ken",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
-      "crc32": "FF5A1642|crc",
+      "crc32": "00000000|crc",
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/ggisuka.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/ggisuka.zip",
       "label": "Guilty Gear Isuka",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -60,7 +60,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/ggx15.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/ggx15.zip",
       "label": "Guilty Gear X ver. 1.5",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -68,7 +68,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/kov7sprt.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/kov7sprt.zip",
       "label": "Knights of Valour - The Seven Spirits",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -76,7 +76,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/maxspeed.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/maxspeed.zip",
       "label": "Maximum Speed",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -84,7 +84,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/mslug6.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/mslug6.zip",
       "label": "Metal Slug 6",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -92,7 +92,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/ngbc.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/ngbc.zip",
       "label": "NeoGeo Battle Coliseum",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -100,7 +100,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/samsptk.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/samsptk.zip",
       "label": "Samurai Spirits Tenkaichi Kenkakuden",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -108,7 +108,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/kofnw.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/kofnw.zip",
       "label": "The King of Fighters Neowave",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -116,7 +116,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/kofxi.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/kofxi.zip",
       "label": "The King of Fighters XI",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -124,7 +124,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/rumblef.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/rumblef.zip",
       "label": "The Rumble Fish",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
@@ -132,7 +132,7 @@
       "db_name": "Atomiswave.lpl"
     },
     {
-      "path": "/Users/joon/Games/Emulation/Atomiswave/rumblef2.zip",
+      "path": "/Users/joon/Games/Emulation/Atomiswave/.sorted/-sega-dc_atomiswave/rumblef2.zip",
       "label": "The Rumble Fish 2",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/flycast_libretro.dylib",
       "core_name": "Sega - Dreamcast/Naomi (Flycast)",
