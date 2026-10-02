@@ -4,6 +4,7 @@
 #
 # Usage: mameinfo --init-path <romdir>
 #        mameinfo --info-file <romdir/rom1.zip> ...
+#        mameinfo --exists <romdir/rom1.zip> ...
 #        mameinfo [jq options] <romdir/rom1.zip> ...
 # see oq --help
 #
@@ -18,7 +19,7 @@ then
   exit 1
 fi
 
-zparseopts -D -E - -init-path:=zinit_path -info-path=zinfo_path || exit 1
+zparseopts -D -E - -init-path:=zinit_path -info-path=zinfo_path -exists=zexists || exit 1
 
 # Write to name.json info files from mame xml output.
 function mamexml_to_json_file {
@@ -135,6 +136,12 @@ done
 if (( #zinfo_path ))
 then
   print -l -- $jqargs:A
+elif (( #zexists ))
+then
+  for json in $jqargs
+  do [[ -f $json ]] || exit 1
+  done
+  exit 0
 else
   if (( $+commands[jq] ))
   then jq $jqargs
