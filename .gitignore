@@ -9,6 +9,7 @@ autoconfig/*
 !autoconfig/mfi-custom.cfg
 cht
 config/retroarch-keychain.cfg
+config/retroarch-keychain.key
 cores
 database/*
 !database/scan-dats
