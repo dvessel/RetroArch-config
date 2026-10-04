@@ -37,32 +37,37 @@ function mamexml_to_json_file {
       select(.key != "#text" and .value != null) | .key |= ltrimstr("@")
     ) else . end );
     ( .mame."@build" | match("^[0-9.]+").string ) as $version |
-    .mame.machine | arrayofobjects | .[] |
+    .mame.machine | arrayofobjects[] |
     ."@name",
-    { version: $version,
-      name: ."@name",
-      description: .description,
-      manufacturer: .manufacturer,
-      year: .year,
-      runnable: ."@runnable",
-      isbios: ."@isbios",
-      isdevice: ."@isdevice",
-      ismechanical: ."@ismechanical",
-      romof: ."@romof",
-      cloneof: ."@cloneof",
-      sampleof: ."@sampleof",
-      sourcefile: ."@sourcefile",
-      driver: .driver,
-      feature: .feature | arrayofobjects,
-      display: .display | arrayofobjects,
-      sound: .sound,
-      input: .input,
-      disk: .disk | arrayofobjects,
-      rom: .rom | arrayofobjects,
-      sample: .sample | arrayofobjects,
-      biosset: .biosset | arrayofobjects,
-      device: .device | arrayofobjects,
-      device_ref: .device_ref | arrayofobjects } | scrub' <<< $@ )
+    { version:$version,
+      name:."@name",
+      sourcefile:."@sourcefile",
+      isbios:."@isbios",
+      isdevice:."@isdevice",
+      ismechanical:."@ismechanical",
+      runnable:."@runnable",
+      cloneof:."@cloneof",
+      romof:."@romof",
+      sampleof:."@sampleof",
+      description:.description,
+      year:.year,
+      manufacturer:.manufacturer,
+      biosset:.biosset | arrayofobjects,
+      rom:.rom | arrayofobjects,
+      disk:.disk | arrayofobjects,
+      device_ref:.device_ref | arrayofobjects,
+      sample:.sample | arrayofobjects,
+      display:.display | arrayofobjects,
+      sound:.sound,
+      input:.input | {
+        service:."@service",
+        tilt:."@tilt",
+        players:."@players",
+        coins:."@coins",
+        control:.control | arrayofobjects
+      },
+      driver:.driver,
+      feature:.feature | arrayofobjects } | scrub' <<< $@ )
 }
 
 if (( #zinit_path ))
@@ -93,11 +98,11 @@ then
     append_names=( $append_path/*.xml(N:t:r) )
     new_append_names=( ${append_names:|existing} )
     for append in $new_append_names
-    do mamexml_to_json_file $( < $append_path/$append.xml )
+    do mamexml_to_json_file $( < $append_path/$append.xml ) || exit 1
     done
     # Filter out what was already processed through appended xml files.
     if [[ -n ${new_names:|new_append_names} ]]
-    then mamexml_to_json_file $( mame -listxml ${new_names:|new_append_names} )
+    then mamexml_to_json_file $( mame -listxml ${new_names:|new_append_names} ) || exit 1
     fi
   fi
 
