@@ -1,12 +1,19 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -E - -x86_64=zX86 -build=zbuild || return 1
+PATH=${0:A:h}:$PATH
+zparseopts -D -E - \
+  -x86_64=zX86 \
+  -update-cores=zupdate_cores \
+  -build=zbuild || exit 1
 
 if (( #zbuild ))
-then
-  PATH=${0:A:h}:$PATH
-  retroarch-build $@
-  return $?
+then retroarch-build $@
+fi
+if ! (( ? )) && (( #zupdate_cores ))
+then update-cores
+fi
+if (( #zbuild + #zupdate_cores ))
+then exit $?
 fi
 
 if appdir=$( mdfind kMDItemCFBundleIdentifier = $(

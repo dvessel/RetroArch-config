@@ -3,7 +3,7 @@
 zparseopts -D -F - \
   {-debug-arm64,-debug-x86_64}=zdebug_arch \
   -clean=zclean \
-  -update=zupdate || return 1
+  -update=zupdate || exit 1
 
 if (( #zdebug_arch ))
 then
@@ -27,13 +27,13 @@ if (( #zupdate ))
 then
   for repo in $repos
   do
-    cd $base_dir/$repo || return 1
+    cd $base_dir/$repo || exit 1
     print "Updating repo: $repo"
 
     if ! git fetch
     then
       print "fetch failed." >&2
-      return 1
+      exit 1
     elif (( $( git rev-list --count HEAD..@{u} ) > 0 ))
     then
       let updates++
@@ -50,17 +50,17 @@ then
       if ! git rebase
       then
         print "rebase failed." >&2
-        return 1
+        exit 1
       fi
       if [[ -n $( git submodule status ) ]] &&
         ! git submodule update --init --recursive
       then
         print "submodule update failed." >&2
-        return 1
+        exit 1
       fi
       if (( stashed ))
       then
-        git stash pop || return 1
+        git stash pop || exit 1
       fi
     fi
   done
@@ -68,7 +68,7 @@ then
   if ! (( updates ))
   then
     print "Nothing to update."
-    return
+    exit 0
   fi
 fi
 
@@ -90,7 +90,7 @@ do
   if ! git stash apply refs/$( git stash list | sed -nE "s/^(.+):.+: local build ${arch}$/\1/p" )
   then
     print "stash apply ::local build $arch:: failed" >&2
-    return 1
+    exit 1
   fi
 
   xcodebuild -target RetroArch -configuration $build ARCHS=$arch -project $project
@@ -99,7 +99,7 @@ do
   if (( ret ))
   then
     print "xcode build failed for '-configuration $build ARCHS=$arch'." >&2
-    return 1
+    exit 1
   fi
 
   # Copy to the /Application directory only for Release builds.
