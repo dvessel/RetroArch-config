@@ -4,7 +4,7 @@
 # - Save state related settings disabled when a machine doesn't support it.
 # - TATE mode sets `video_scale_integer_axis` to X.
 #
-PATH=$( dirname `realpath $0` ):$PATH
+PATH=${0:A:h}:$PATH
 
 if ! mameinfo --init-path $1
 then

@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-PATH=$( dirname `realpath $0` ):$PATH
+PATH=${0:A:h}:$PATH
 
 if [[ $( raconfig --get config_save_minimal ) == true ]]
 then p.error "Incompatible with 'config_save_minimal'."

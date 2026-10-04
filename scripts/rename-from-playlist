@@ -2,7 +2,7 @@
 
 zparseopts -D -F - {p,-playlist}:=playlist || return 1
 
-PATH=$( dirname `realpath $0` ):$PATH
+PATH=${0:A:h}:$PATH
 
 # Print with style.
 p.header(){ printf "\n\e[1;30m%s\e[0m\n" $@ }

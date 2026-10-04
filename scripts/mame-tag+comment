@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-PATH=$( dirname `realpath $0` ):$PATH
+PATH=${0:A:h}:$PATH
 scandir=$1
 shift
 

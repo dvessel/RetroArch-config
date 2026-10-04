@@ -4,7 +4,7 @@
 # This enables directory based cfg overrides, core options and controller
 # remapping. A set of games for a given source are likely to share settings.
 #
-PATH=$( dirname `realpath $0` ):$PATH
+PATH=${0:A:h}:$PATH
 scandir=$1
 
 if ! mameinfo --init-path $scandir
