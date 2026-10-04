@@ -1,4 +1,4 @@
-#reference "Megatron AEG CTV-4800-VT [1].slangp"
+#reference "Megatron AEG CTV-4800-VT [2] Composite.slangp"
 quality = "2.000000"
 hcrt_red_scanline_min = "0.900000"
 hcrt_green_scanline_min = "0.900000"

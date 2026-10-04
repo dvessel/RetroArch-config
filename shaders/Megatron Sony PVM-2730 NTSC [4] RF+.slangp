@@ -1,0 +1,8 @@
+#reference "Megatron Sony PVM-2730 NTSC [3] RF.slangp"
+cust_fringing = "2.200001"
+ntsc_phase = "2.000000"
+ntsc_scale = "0.875000"
+nscale = "1.200000"
+RFNOISE = "0.400000"
+RFNOISE1 = "0.400000"
+RFNOISE2 = "0.400000"

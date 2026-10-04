@@ -1,5 +1,0 @@
-#reference "Megatron Sony PVM-2730 NTSC [1].slangp"
-ntsc_scale = "0.900000"
-nscale = "0.900000"
-RFNOISE1 = "0.300000"
-RFNOISE2 = "0.300000"

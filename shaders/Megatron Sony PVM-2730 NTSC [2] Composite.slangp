@@ -1,0 +1,5 @@
+#reference "Megatron Sony PVM-2730 NTSC [1] S-Video.slangp"
+cust_artifacting = "1.000000"
+cust_fringing = "1.000000"
+ntsc_scale = "0.900000"
+nscale = "0.900000"

@@ -1,1 +1,2 @@
 #reference "shaders_slang/hdr/sony_megatron_v1_presets/crt-sony-megatron-jvc-professional-TM-H1950CG-hdr.slangp"
+hcrt_brightness = "0.200000"
