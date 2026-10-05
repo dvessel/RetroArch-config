@@ -204,7 +204,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/-PS1-EU/Chaos Break (Europe) (En,Fr,De,It).chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Chaos Break (Europe) (En,Fr,De,It).chd",
       "label": "Chaos Break (Europe) (En,Fr,De,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -2060,7 +2060,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/-PS1-EU/Vib-Ribbon (Europe) (En,Fr,De,Es,It) (Beta).chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Vib-Ribbon (Europe) (En,Fr,De,Es,It) (Beta).chd",
       "label": "Vib-Ribbon (Europe) (En,Fr,De,Es,It) (Beta)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -2092,7 +2092,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/-PS1-EU/Viper (Europe) (En,Fr,De,Es,It).chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Viper (Europe) (En,Fr,De,Es,It).chd",
       "label": "Viper (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -2100,7 +2100,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/-PS1-EU/Virus - It Is Aware (Europe) (En,Fr,De,Es,It).chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Virus - It Is Aware (Europe) (En,Fr,De,Es,It).chd",
       "label": "Virus - It Is Aware (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
@@ -2148,7 +2148,7 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/-PS1-EU/Wipeout 3 - Special Edition (Europe) (En,Fr,De,Es,It).chd",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Wipeout 3 - Special Edition (Europe) (En,Fr,De,Es,It).chd",
       "label": "Wipeout 3 - Special Edition (Europe) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
