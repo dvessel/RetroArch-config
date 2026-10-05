@@ -204,14 +204,6 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/Garou Densetsu Special (Japan) (FABT).chd",
-      "label": "Garou Densetsu Special (Japan) (FABT)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
-      "crc32": "54232E7C|crc",
-      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
-    },
-    {
       "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/Gate of Thunder (Japan) (FACT, FADT).chd",
       "label": "Gate of Thunder (Japan) (FACT, FADT)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
