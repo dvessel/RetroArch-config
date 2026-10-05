@@ -1,0 +1,75 @@
+#!/usr/bin/env zsh
+
+# Print with style.
+function p.header { printf "\n\e[1;30m%s\e[0m\n" $@ }
+function p.ok     { printf   "\e[0;32m%s\e[0m\n" $@ }
+function p.warn   { printf   "\e[0;33m%s\e[0m\n" $@ }
+function p.error  { printf   "\e[0;31m%s\e[0m\n" $@ >&2 }
+function p.img-url {
+  printf 'https://duckduckgo.com/?ia=images&iax=images&q=%s\n' $( sed \
+    -e 's/ /%20/g'  -e 's/:/%3A/g'  -e 's/,/%2C/g'  -e 's/\?/%3F/g' \
+    -e 's/#/%23/g'  -e 's/\[/%5B/g' -e 's/\]/%5D/g' -e 's/@/%40/g'  \
+    -e 's/!/%41/g'  -e 's/\$/%24/g' -e 's/&/%26/g'  -e "s/'/%27/g"  \
+    -e 's/"/%22/g'  -e 's/(/%28/g'  -e 's/)/%29/g'  -e 's/\*/%2A/g' \
+    -e 's/\+/%2B/g' -e 's/;/%3B/g'  -e 's/=/%3D/g'  -e 's/</%3C/g'  \
+    -e 's/>/%3E/g'  -e 's/\\/%5C/g' -e 's/{/%7B/g'  -e 's/}/%7D/g'  \
+    -e 's/|/%7C/g'  -e 's/`/%60/g'  -e 's/~/%7E/g'  -e 's/-/%2D/g' <<< "$@" )
+}
+
+app_support=$HOME/Library/Application\ Support/RetroArch
+playlist=$1
+if [[ ! -f $playlist ]]
+then p.error "Playlist does not exist: $playlist"
+  exit 1
+fi
+
+# tab seperated list from playlist. ensure .label and .db_name are present.
+worklist=$(
+  jq -r '.items[] | select((.label|length > 0) and (.db_name|length > 0)) |
+    [ .label,.path,.db_name|sub(".lpl"; "") ] | @tsv' $playlist
+)
+
+for row in ${(f)worklist}
+do
+  IFS=$'\t' read -r label file_path system <<< $row
+  name=$file_path:t:r
+
+  typeset -aU naming_candidates=( $label )
+  # - Chop off each occurance of `(.*)` or `[.*]` from the trailing end.
+  # - Add each iteration to the list of naming candidates.
+  _label=$label
+  while [[ $_label =~ "^(.+)(\(|\[)([^([]*)(\)|\]).*$" ]]
+  do
+    # Discard trailing spaces.
+    _label=${match[1]% }
+    naming_candidates+=$_label
+  done
+  search_title=$_label
+
+  _label=$( echo $label | tr '&*/:\`<>?\|' '_' )
+  found=0 scanned=()
+  for _name in $naming_candidates
+  do
+    # Mirror RetroArch's safe naming for thumbnails.
+    _name=$( echo $_name | tr '&*/:\`<>?\|' '_' )
+    thumbpath=$app_support/thumbnails/$system/Named_Boxarts/$_name.png
+    if [[ -f $thumbpath ]]
+    then
+      if [[ $_name != $_label ]]
+      then
+        ln -s $thumbpath $thumbpath:h/$_label.png
+        p.ok "linked: $_name.png -> $_label.png"
+      fi
+      found=1
+      break
+    else scanned+=$_name
+    fi
+  done
+
+  if [[ $found == 0 ]]
+  then
+    p.warn "Thumbnail not found: ${(j/,/)scanned}"
+    p.img-url "\"$search_title\" ($system AND artwork)"
+  fi
+
+done
