@@ -72,9 +72,9 @@ do
   keyvalues="savestate_related_${savestate}"
   for kv in ${(P)keyvalues}
   do
-    if [[ $( raconfig --get ${kv%=*} $cfgdir/$scpp.cfg ) != ${kv#*=} ]]
+    if [[ $( raconfig --get ${kv%=*} $cfgdir/$scpp.cfg $cfgdir/MAME.cfg ) != ${kv#*=} ]]
     then
-      raconfig --override $kv $cfgdir/$scpp.cfg &
+      raconfig --override $kv $cfgdir/$scpp.cfg $cfgdir/MAME.cfg &
       changes=1
     fi
   done
@@ -85,10 +85,10 @@ do
   if [[ $rotate == (90|270) ]]
   then
     if [[ $(
-      raconfig --get video_scale_integer_axis $cfgdir/$scpp.cfg
+      raconfig --get video_scale_integer_axis $cfgdir/$scpp.cfg $cfgdir/MAME.cfg
     ) != $tate_ia ]]
     then
-      raconfig --override video_scale_integer_axis=$tate_ia $cfgdir/$scpp.cfg &
+      raconfig --override video_scale_integer_axis=$tate_ia $cfgdir/$scpp.cfg $cfgdir/MAME.cfg &
       printf '%s.cfg: %s\n' $scpp ${map_sia[$tate_ia]}
     fi
   fi
