@@ -29,6 +29,7 @@ for skey in menu_show_latency \
             quick_menu_show_save_load_state \
             quick_menu_show_savestate_submenu \
             quick_menu_show_undo_save_load_state \
+           -rewind_enable \
            -run_ahead_enabled \
             savestate_auto_load \
             savestate_auto_save
