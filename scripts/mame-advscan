@@ -184,20 +184,19 @@ case $command in
     echo "Cleanup... (preview) v.$version"
     advscan -rsk -dugt --print-only < $mamexml
     ;;
-esac 2> >( sed -l '/Missing.*sampleof/d' >&2 ) | tee reports/$report_file |
-# Colorize -p option output.
-# nodump bad/miss : yellow
-# rom miss/bad    : red
-# various others  : gray
-perl -pe '/^([a-z]+_)?(good|bad|miss|text|binary|garbage)/; print (
-  ( $1 eq nodump_ and ( $2 eq bad or $2 eq miss ) ) ?
-    "\033[0;33m" :
-  ( $1 eq rom_ and ( $2 eq miss or $2 eq bad ) ) ?
-      "\033[0;31m" :
-  ( $2 eq text or $2 eq binary or $2 eq garbage ) ?
-      "\033[0;37m" :
-      "\033[0m"
-)'
+esac 2> >( sed -l '/Missing.*sampleof/d' >&2 ) | tee reports/$report_file | () {
+  # Test if stdout is a terminal and colorize the output. If not, pass through with cat.
+  if [[ -t 1 ]]
+  # nodump bad/miss : yellow
+  # rom miss/bad    : red
+  # various others  : gray
+  then perl -pe '/^([a-z]+_)?(good|bad|miss|text|binary|garbage)/; print (
+        ( $1 eq nodump_ and ( $2 eq bad or $2 eq miss ) ) ? "\033[0;33m" :
+        ( $1 eq rom_ and ( $2 eq miss or $2 eq bad ) )    ? "\033[0;31m" :
+        ( $2 eq text or $2 eq binary or $2 eq garbage )   ? "\033[0;37m" : "\033[0m" )'
+  else cat
+  fi
+}
 
 # Remove empty reports file.
 if [[ $( wc -l < reports/$report_file ) -le 1 ]]
