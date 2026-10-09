@@ -1,1 +1,2 @@
 #reference "shaders_slang/hdr/sony_megatron_v1_presets/crt-sony-megatron-viewsonic-A90f+-hdr.slangp"
+hcrt_paper_white_nits = "400.000000"
