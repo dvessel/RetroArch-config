@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 
 zparseopts -D -F - \
+  {-arm64,-x86_64}=zarch \
   {-debug-arm64,-debug-x86_64}=zdebug_arch \
   -clean=zclean \
   -update=zupdate || exit 1
@@ -9,6 +10,10 @@ if (( #zdebug_arch ))
 then
   arches=( ${zdebug_arch#--debug-} )
   build=Debug
+elif (( #zarch ))
+then
+  arches=( ${zarch#--} )
+  build=Release
 else
   arches=( arm64 x86_64 )
   build=Release

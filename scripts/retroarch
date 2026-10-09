@@ -2,12 +2,13 @@
 
 PATH=${0:A:h}:$PATH
 zparseopts -D -E - \
+  -arm64=zarm64 \
   -x86_64=zX86 \
   -update-cores=zupdate_cores \
   -build=zbuild || exit 1
 
 if (( #zbuild ))
-then retroarch-build $@
+then retroarch-build $@ $zarm64 $zX86
 fi
 if ! (( ? )) && (( #zupdate_cores ))
 then update-cores
