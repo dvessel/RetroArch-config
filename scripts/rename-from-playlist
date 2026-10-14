@@ -5,11 +5,11 @@ zparseopts -D -F - {p,-playlist}:=playlist || return 1
 PATH=${0:A:h}:$PATH
 
 # Print with style.
-p.header(){ printf "\n\e[1;30m%s\e[0m\n" $@ }
-p.info()  { printf   "%s\n" $@              }
-p.ok()    { printf   "\e[0;32m%s\e[0m\n" $@ }
-p.warn()  { printf   "\e[0;33m%s\e[0m\n" $@ }
-p.error() { printf   "\e[0;31m%s\e[0m\n" $@ >&2 }
+function p.header { print -P -- "\n%B${(j/\n/)@}%b" }
+function p.info   { print -l -- $@ }
+function p.ok     { print -P -- "%F{green}${(j/\n/)@}%f" }
+function p.warn   { print -P -- "%F{yellow}${(j/\n/)@}%f" }
+function p.error  { print -P -- "%F{red}${(j/\n/)@}%f" >&2 }
 
 for dep in jq 7z; if ! type $dep &>/dev/null; then
   p.error "$dep is required!"

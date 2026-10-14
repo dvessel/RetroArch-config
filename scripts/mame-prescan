@@ -2,9 +2,9 @@
 
 PATH=${0:A:h}:$PATH
 
-p.header() { printf '\e[1;30m%s\e[0m\n' $@ }
-p.notice() { printf '\e[0;30m%s\e[0m\n' $@ }
-p.error()  { printf '\e[0;30m%s\e[0m\n' $@ >&2 }
+function p.header { print -P -- "%B${(j/\n/)@}%b" }
+function p.notice { print -P -- "%F{yellow}${(j/\n/)@}%f" }
+function p.error  { print -P -- "%F{red}${(j/\n/)@}%f" >&2 }
 
 typeset -A systems=(
   atomiswave  Atomiswave.lpl
