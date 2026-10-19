@@ -1,7 +1,7 @@
 {
   "version": "1.5",
   "default_core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
-  "default_core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
+  "default_core_name": "NEC - PC Engine / SuperGrafx / CD / LaserActive (Geargrafx)",
   "base_content_directory": "/Users/joon/Games/Emulation",
   "label_display_mode": 0,
   "right_thumbnail_mode": 0,
@@ -537,6 +537,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
       "crc32": "B23BFD2D|crc",
+      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/Xak (Japan).chd",
+      "label": "Xak (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD (Geargrafx)",
+      "crc32": "5BF7168B|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
