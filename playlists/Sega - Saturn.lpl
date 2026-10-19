@@ -92,6 +92,14 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Cyber Doll (Japan).chd",
+      "label": "Cyber Doll (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-22401G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sega Saturn/Daytona USA - Championship Circuit Edition (USA).chd",
       "label": "Daytona USA - Championship Circuit Edition (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
