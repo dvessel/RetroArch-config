@@ -85,13 +85,14 @@ do
 
   if [[ $rotate == (90|270) ]]
   then
-    if [[ $(
-      raconfig --get video_scale_integer_axis $cfgdir/$scpp.cfg $cfgdir/MAME.cfg
-    ) != $tate_ia ]]
-    then
-      raconfig --override video_scale_integer_axis=$tate_ia $cfgdir/$scpp.cfg $cfgdir/MAME.cfg &
-      printf '%s.cfg: %s\n' $scpp ${map_sia[$tate_ia]}
-    fi
+    (){
+      if [[ $( raconfig --get video_scale_integer_axis $@ ) != $tate_ia ]]
+      then
+        raconfig --override video_scale_integer_axis=$tate_ia $@
+        raconfig --override video_scale_integer_scaling=2 $@
+        printf '%s.cfg: %s\n' $scpp "${map_sia[$tate_ia]}, Smart Scaling"
+      fi
+    } $cfgdir/$scpp.cfg $cfgdir/MAME.cfg &
   fi
   processed[$scpp]=1
 
