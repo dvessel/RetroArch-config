@@ -20,6 +20,30 @@
   "scan_db_usage": 0,
   "items": [
     {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Ace Combat 04 - Shattered Skies (USA).chd",
+      "label": "Ace Combat 04 - Shattered Skies (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20152|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Ace Combat 5 - The Unsung War (USA) (En,Ja).chd",
+      "label": "Ace Combat 5 - The Unsung War (USA) (En,Ja)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20851|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Ace Combat Zero - The Belkan War (USA).chd",
+      "label": "Ace Combat Zero - The Belkan War (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-21346|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Aqua Teen Hunger Force - Zombie Ninja Pro-Am (USA, Canada).chd",
       "label": "Aqua Teen Hunger Force - Zombie Ninja Pro-Am (USA, Canada)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
@@ -33,6 +57,22 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
       "core_name": "Sony - PlayStation 2 (LRPS2)",
       "crc32": "SLUS-20986-0|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Baldur's Gate - Dark Alliance (USA).chd",
+      "label": "Baldur's Gate - Dark Alliance (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20035|serial",
+      "db_name": "Sony - PlayStation 2.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation 2/Baldur's Gate - Dark Alliance II (USA).chd",
+      "label": "Baldur's Gate - Dark Alliance II (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/pcsx2_libretro.dylib",
+      "core_name": "Sony - PlayStation 2 (LRPS2)",
+      "crc32": "SLUS-20675|serial",
       "db_name": "Sony - PlayStation 2.lpl"
     },
     {
