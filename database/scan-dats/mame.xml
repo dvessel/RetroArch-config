@@ -39137,6 +39137,270 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
+	<machine name="kinst" sourcefile="rare/kinst.cpp">
+		<description>Killer Instinct</description>
+		<year>1994</year>
+		<manufacturer>Rare / Nintendo (Midway license)</manufacturer>
+		<biosset name="v1.5d" description="Killer Instinct (v1.5d)" default="yes"/>
+		<biosset name="v1.4" description="Killer Instinct (v1.4)"/>
+		<biosset name="v1.3" description="Killer Instinct (v1.3)"/>
+		<biosset name="proto-v4.7" description="Killer Instinct (proto v4.7)"/>
+		<biosset name="v1.5d-anyide" description="Killer Instinct (v1.5d AnyIDE)"/>
+		<rom name="ki-l15d.u98" bios="v1.5d" size="524288" crc="7b65ca3d" sha1="607394d4ba1713f38c2cb5159303cace9cde991e" region="user1" offset="0"/>
+		<rom name="ki-l14.u98" bios="v1.4" size="524288" crc="afedb75f" sha1="07254f20707377f7195e64675eb6458e663c1a9a" region="user1" offset="0"/>
+		<rom name="ki-l13.u98" bios="v1.3" size="524288" crc="65f7ea31" sha1="7f21620a512549db6821a0b4fa53681a767b7974" region="user1" offset="0"/>
+		<rom name="ki-p47.u98" bios="proto-v4.7" size="524288" crc="05e67bcb" sha1="501e69b3026394f69229a6e9866c1037502b86bb" region="user1" offset="0"/>
+		<rom name="ki_l15di.u98" bios="v1.5d-anyide" size="524288" crc="230f55fb" sha1="f5f12311aae922d12f98d72ac8fdd77b7b084af2" region="user1" offset="0"/>
+		<rom name="u10-l1" size="524288" crc="b6cc155f" sha1="810d455df8f385d76143e9d7d048f2b555ff8bf0" region="dcs" offset="0"/>
+		<rom name="u11-l1" size="524288" crc="0b5e05df" sha1="0595909cb667c38ac7c8c7bd0646b28899e27777" region="dcs" offset="200000"/>
+		<rom name="u12-l1" size="524288" crc="d05ce6ad" sha1="7a8ee405c118fd176b66353fa7bfab888cc63cd2" region="dcs" offset="400000"/>
+		<rom name="u13-l1" size="524288" crc="7d0954ea" sha1="ea4d1f153eb284f1bcfc5295fbce316bba6083f4" region="dcs" offset="600000"/>
+		<rom name="u33-l1" size="524288" crc="8bbe4f0c" sha1="b22e365bc8d58a80eaac226be14b4bb8d9a04844" region="dcs" offset="800000"/>
+		<rom name="u34-l1" size="524288" crc="b2e73603" sha1="ee439f5162a2b3379d3f802328017bb3c68547d2" region="dcs" offset="a00000"/>
+		<rom name="u35-l1" size="524288" crc="0aaef4fc" sha1="48c4c954ac9db648f28ad64f9845e19ec432eec3" region="dcs" offset="c00000"/>
+		<rom name="u36-l1" size="524288" crc="0577bb60" sha1="cc78070cc41701e9a91fde5cfbdc7e1e83354854" region="dcs" offset="e00000"/>
+		<disk name="kinst" sha1="81d833236e994528d1482979261401b198d1ca53" region="ata:0:hdd" index="0" writable="yes"/>
+		<device_ref tag=":maincpu" name="r4600le"/>
+		<device_ref tag=":ata" name="ata_interface"/>
+		<device_ref tag=":ata:0" name="ata_slot"/>
+		<device_ref tag=":ata:0:hdd" name="idehd"/>
+		<device_ref tag=":ata:0:hdd:image" name="harddisk_image"/>
+		<device_ref tag=":ata:1" name="ata_slot"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":mono" name="speaker"/>
+		<device_ref tag=":dcs" name="dcs_audio_2k"/>
+		<device_ref tag=":dcs:dcs" name="adsp2105"/>
+		<device_ref tag=":dcs:dcs_reg_timer" name="timer"/>
+		<device_ref tag=":dcs:dcs_int_timer" name="timer"/>
+		<device_ref tag=":dcs:dac" name="dmadac"/>
+		<chip type="cpu" tag="maincpu" name="MIPS R4600 (little)" clock="100000000"/>
+		<chip type="cpu" tag="dcs:dcs" name="Analog Devices ADSP-2105" clock="10000000"/>
+		<chip type="audio" tag="mono" name="Speaker"/>
+		<chip type="audio" tag="dcs" name="DCS Audio 2K"/>
+		<chip type="audio" tag="dcs:dac" name="DMA-driven DAC"/>
+		<display tag="screen" type="raster" rotate="0" width="320" height="240" refresh="58.981183" pixclock="6250000" htotal="406" hbend="0" hbstart="320" vtotal="261" vbend="0" vbstart="240" />
+		<sound channels="1"/>
+		<input players="2" coins="4" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Blood Level" tag="DSW" mask="3">
+			<dipvalue name="High" value="3" default="yes"/>
+			<dipvalue name="Medium" value="2"/>
+			<dipvalue name="Low" value="1"/>
+			<dipvalue name="None" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo Sounds" tag="DSW" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Finishing Moves" tag="DSW" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Display Warning" tag="DSW" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Blood" tag="DSW" mask="32">
+			<dipvalue name="Red" value="32" default="yes"/>
+			<dipvalue name="White" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="DSW" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="DSW" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Coinage Source" tag="DSW" mask="256">
+			<dipvalue name="Dipswitch" value="256" default="yes"/>
+			<dipvalue name="Disk" value="0"/>
+		</dipswitch>
+		<dipswitch name="Coinage" tag="DSW" mask="15872">
+			<dipvalue name="USA-1" value="15872" default="yes"/>
+			<dipvalue name="USA-2" value="15360"/>
+			<dipvalue name="USA-3" value="14848"/>
+			<dipvalue name="USA-4" value="14336"/>
+			<dipvalue name="USA-9" value="13312"/>
+			<dipvalue name="USA-10" value="12800"/>
+			<dipvalue name="USA-ECA" value="13824"/>
+			<dipvalue name="USA-Free Play" value="12288"/>
+			<dipvalue name="German-1" value="11776"/>
+			<dipvalue name="German-2" value="11264"/>
+			<dipvalue name="German-3" value="10752"/>
+			<dipvalue name="German-4" value="10240"/>
+			<dipvalue name="German-ECA" value="9728"/>
+			<dipvalue name="German-Free Play" value="8192"/>
+			<dipvalue name="French-1" value="7680"/>
+			<dipvalue name="French-2" value="7168"/>
+			<dipvalue name="French-3" value="6656"/>
+			<dipvalue name="French-4" value="6144"/>
+			<dipvalue name="French-ECA" value="5632"/>
+			<dipvalue name="French-Free Play" value="4096"/>
+		</dipswitch>
+		<dipswitch name="Coin Counters" tag="DSW" mask="16384">
+			<dipvalue name="1" value="16384" default="yes"/>
+			<dipvalue name="2" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Switch" tag="DSW" mask="32768">
+			<dipvalue name="Off" value="32768" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":DSW">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":UNUSED">
+		</port>
+		<port tag=":VOLUME">
+		</port>
+		<driver status="good" emulation="good" savestate="supported"/>
+		<device type="harddisk" tag="ata:0:hdd:image" interface="ide_hdd,hdd">
+			<instance name="harddisk" briefname="hard"/>
+			<extension name="chd"/>
+			<extension name="hd"/>
+			<extension name="hdv"/>
+			<extension name="2mg"/>
+			<extension name="hdi"/>
+		</device>
+	</machine>
+	<machine name="kinst2" sourcefile="rare/kinst.cpp">
+		<description>Killer Instinct 2</description>
+		<year>1996</year>
+		<manufacturer>Rare / Nintendo (Midway license)</manufacturer>
+		<biosset name="v1.4" description="Killer Instinct 2 (v1.4)" default="yes"/>
+		<biosset name="v1.3" description="Killer Instinct 2 (v1.3)"/>
+		<biosset name="v1.1" description="Killer Instinct 2 (v1.1)"/>
+		<biosset name="v1.0" description="Killer Instinct 2 (v1.0)"/>
+		<biosset name="v1.4-anyide" description="Killer Instinct 2 (v1.4 AnyIDE)"/>
+		<rom name="ki2-l14.u98" bios="v1.4" size="524288" crc="27d0285e" sha1="aa7a2a9d72a47dd0ea2ee7b2776b79288060b179" region="user1" offset="0"/>
+		<rom name="ki2-l13.u98" bios="v1.3" size="524288" crc="25ebde3b" sha1="771d150fb4de0a2ceb279954b9545458e93e2405" region="user1" offset="0"/>
+		<rom name="ki2-l11.u98" bios="v1.1" size="524288" crc="0cb8de1e" sha1="fe447f4b1d29b524f57c5ba1890652ef6afff88a" region="user1" offset="0"/>
+		<rom name="ki2-l10.u98" bios="v1.0" size="524288" crc="b17b4b3d" sha1="756629cd1b51ae50f2b9818765dd3d277c3019b3" region="user1" offset="0"/>
+		<rom name="ki2_l14p.u98" bios="v1.4-anyide" size="524288" crc="d80c937a" sha1="85a009638f2eada4c63240fc30a9e7be59afab7f" region="user1" offset="0"/>
+		<rom name="ki2_l1.u10" size="524288" crc="fdf6ed51" sha1="acfc9460cd5df01403b7f00b2f68c2a8734ad6d3" region="dcs" offset="0"/>
+		<rom name="ki2_l1.u11" size="524288" crc="f9e70024" sha1="fe7fc78f1c60b15f2bbdc4c455f55cdf30f48ed4" region="dcs" offset="200000"/>
+		<rom name="ki2_l1.u12" size="524288" crc="2994c199" sha1="9997a83432cb720f65b40a8af46f31a5d0d16d8e" region="dcs" offset="400000"/>
+		<rom name="ki2_l1.u13" size="524288" crc="3fe6327b" sha1="7ff164fc2f079d039921594be92208973d43aa03" region="dcs" offset="600000"/>
+		<rom name="ki2_l1.u33" size="524288" crc="6f4dcdcf" sha1="0ab6dbfb76e9fa2db072e287864ad1f9d514dd9b" region="dcs" offset="800000"/>
+		<rom name="ki2_l1.u34" size="524288" crc="5db48206" sha1="48456a7b6592c40bc9c664dcd2ee2cfd91942811" region="dcs" offset="a00000"/>
+		<rom name="ki2_l1.u35" size="524288" crc="7245ce69" sha1="24a3ff009c8a7f5a0bfcb198b8dcb5df365770d3" region="dcs" offset="c00000"/>
+		<rom name="ki2_l1.u36" size="524288" crc="8920acbb" sha1="0fca72c40067034939b984b4bf32972a5a6c26af" region="dcs" offset="e00000"/>
+		<disk name="kinst2" sha1="e7c9291b4648eae0012ea0cc230731ed4987d1d5" region="ata:0:hdd" index="0" writable="yes"/>
+		<device_ref tag=":maincpu" name="r4600le"/>
+		<device_ref tag=":ata" name="ata_interface"/>
+		<device_ref tag=":ata:0" name="ata_slot"/>
+		<device_ref tag=":ata:0:hdd" name="idehd"/>
+		<device_ref tag=":ata:0:hdd:image" name="harddisk_image"/>
+		<device_ref tag=":ata:1" name="ata_slot"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":mono" name="speaker"/>
+		<device_ref tag=":dcs" name="dcs_audio_2k"/>
+		<device_ref tag=":dcs:dcs" name="adsp2105"/>
+		<device_ref tag=":dcs:dcs_reg_timer" name="timer"/>
+		<device_ref tag=":dcs:dcs_int_timer" name="timer"/>
+		<device_ref tag=":dcs:dac" name="dmadac"/>
+		<chip type="cpu" tag="maincpu" name="MIPS R4600 (little)" clock="100000000"/>
+		<chip type="cpu" tag="dcs:dcs" name="Analog Devices ADSP-2105" clock="10000000"/>
+		<chip type="audio" tag="mono" name="Speaker"/>
+		<chip type="audio" tag="dcs" name="DCS Audio 2K"/>
+		<chip type="audio" tag="dcs:dac" name="DMA-driven DAC"/>
+		<display tag="screen" type="raster" rotate="0" width="320" height="240" refresh="58.981183" pixclock="6250000" htotal="406" hbend="0" hbstart="320" vtotal="261" vbend="0" vbstart="240" />
+		<sound channels="1"/>
+		<input players="2" coins="4" service="yes" tilt="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<dipswitch name="Blood Level" tag="DSW" mask="3">
+			<dipvalue name="High" value="3" default="yes"/>
+			<dipvalue name="Medium" value="2"/>
+			<dipvalue name="Low" value="1"/>
+			<dipvalue name="None" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo Sounds" tag="DSW" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Finishing Moves" tag="DSW" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Display Warning" tag="DSW" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="DSW" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="DSW" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="DSW" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Coinage Source" tag="DSW" mask="256">
+			<dipvalue name="Dipswitch" value="256" default="yes"/>
+			<dipvalue name="Disk" value="0"/>
+		</dipswitch>
+		<dipswitch name="Coinage" tag="DSW" mask="15872">
+			<dipvalue name="USA-1" value="15872" default="yes"/>
+			<dipvalue name="USA-2" value="15360"/>
+			<dipvalue name="USA-3" value="14848"/>
+			<dipvalue name="USA-4" value="14336"/>
+			<dipvalue name="USA-9" value="13312"/>
+			<dipvalue name="USA-10" value="12800"/>
+			<dipvalue name="USA-ECA" value="13824"/>
+			<dipvalue name="USA-Free Play" value="12288"/>
+			<dipvalue name="German-1" value="11776"/>
+			<dipvalue name="German-2" value="11264"/>
+			<dipvalue name="German-3" value="10752"/>
+			<dipvalue name="German-4" value="10240"/>
+			<dipvalue name="German-ECA" value="9728"/>
+			<dipvalue name="German-Free Play" value="8192"/>
+			<dipvalue name="French-1" value="7680"/>
+			<dipvalue name="French-2" value="7168"/>
+			<dipvalue name="French-3" value="6656"/>
+			<dipvalue name="French-4" value="6144"/>
+			<dipvalue name="French-ECA" value="5632"/>
+			<dipvalue name="French-Free Play" value="4096"/>
+		</dipswitch>
+		<dipswitch name="Coin Counters" tag="DSW" mask="16384">
+			<dipvalue name="1" value="16384" default="yes"/>
+			<dipvalue name="2" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test Switch" tag="DSW" mask="32768">
+			<dipvalue name="Off" value="32768" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":DSW">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<port tag=":UNUSED">
+		</port>
+		<port tag=":VOLUME">
+		</port>
+		<driver status="good" emulation="good" savestate="supported"/>
+		<device type="harddisk" tag="ata:0:hdd:image" interface="ide_hdd,hdd">
+			<instance name="harddisk" briefname="hard"/>
+			<extension name="chd"/>
+			<extension name="hd"/>
+			<extension name="hdv"/>
+			<extension name="2mg"/>
+			<extension name="hdi"/>
+		</device>
+	</machine>
 	<machine name="kizuna" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Kizuna Encounter - Super Tag Battle / Fu'un Super Tag Battle</description>
 		<year>1996</year>
@@ -98187,6 +98451,15 @@
 	<machine name="at89c52" sourcefile="devices/cpu/mcs51/i80c52.cpp" isdevice="yes" runnable="no">
 		<description>Atmel AT89C52</description>
 	</machine>
+	<machine name="ata_interface" sourcefile="devices/bus/ata/ataintf.cpp" isdevice="yes" runnable="no">
+		<description>ATA Interface</description>
+		<device_ref tag=":_tmp:0" name="ata_slot"/>
+		<device_ref tag=":_tmp:1" name="ata_slot"/>
+		<slot name=":0">
+		</slot>
+		<slot name=":1">
+		</slot>
+	</machine>
 	<machine name="ata_slot" sourcefile="devices/bus/ata/atadev.cpp" isdevice="yes" runnable="no">
 		<description>ATA Connector</description>
 	</machine>
@@ -102323,6 +102596,9 @@
 		<description>QSound (HLE)</description>
 		<rom name="dl-1425.bin" merge="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501" region="dsp" offset="0"/>
 		<sound channels="0"/>
+	</machine>
+	<machine name="r4600le" sourcefile="devices/cpu/mips/mips3.cpp" isdevice="yes" runnable="no">
+		<description>MIPS R4600 (little)</description>
 	</machine>
 	<machine name="r5000le" sourcefile="devices/cpu/mips/mips3.cpp" isdevice="yes" runnable="no">
 		<description>MIPS R5000 (little)</description>
