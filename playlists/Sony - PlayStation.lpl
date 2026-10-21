@@ -292,19 +292,11 @@
       "db_name": "Sony - PlayStation.lpl"
     },
     {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Command & Conquer - Red Alert - Retaliation (USA) (Disc 1) (Allies).chd",
-      "label": "Command & Conquer - Red Alert - Retaliation (USA) (Disc 1) (Allies)",
+      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Command & Conquer - Red Alert - Retaliation (USA)/Command & Conquer - Red Alert - Retaliation (USA).m3u",
+      "label": "Command & Conquer - Red Alert - Retaliation (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
       "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00665-0|serial",
-      "db_name": "Sony - PlayStation.lpl"
-    },
-    {
-      "path": "/Volumes/980Pro/Emulation/Sony PlayStation/Command & Conquer - Red Alert - Retaliation (USA) (Disc 2) (Soviet).chd",
-      "label": "Command & Conquer - Red Alert - Retaliation (USA) (Disc 2) (Soviet)",
-      "core_path": "/Users/joon/Games/Support/RetroArch/cores/swanstation_libretro.dylib",
-      "core_name": "Sony - PlayStation (SwanStation)",
-      "crc32": "SLUS-00667-1|serial",
+      "crc32": "SLUS-00665|serial",
       "db_name": "Sony - PlayStation.lpl"
     },
     {
