@@ -1,6 +1,7 @@
 beetle_saturn_analog_stick_deadzone = "0%"
 beetle_saturn_autortc = "enabled"
 beetle_saturn_autortc_lang = "english"
+beetle_saturn_backup_memory_size = "Default"
 beetle_saturn_cart = "Auto Detect"
 beetle_saturn_cdimagecache = "disabled"
 beetle_saturn_cpucache_emumode = "auto"
