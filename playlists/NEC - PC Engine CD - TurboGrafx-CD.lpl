@@ -196,6 +196,14 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/FX Unit Yuki - The Henshin Engine (USA) (Unl).chd",
+      "label": "FX Unit Yuki - The Henshin Engine (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD / LaserActive (Geargrafx)",
+      "crc32": "A32370BD|crc",
+      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/Gain Ground SX (Japan).chd",
       "label": "Gain Ground SX (Japan)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
@@ -436,6 +444,14 @@
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/Shape Shifter (USA).chd",
+      "label": "Shape Shifter (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD / LaserActive (Geargrafx)",
+      "crc32": "2A49F11E|crc",
+      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/Sherlock Holmes - Consulting Detective (USA).chd",
       "label": "Sherlock Holmes - Consulting Detective (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
@@ -529,6 +545,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
       "core_name": "NEC - PC Engine / SuperGrafx / CD / LaserActive (Geargrafx)",
       "crc32": "742A6A56|crc",
+      "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/NEC TurboGrafx-CD/Vasteel (USA).chd",
+      "label": "Vasteel (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/geargrafx_libretro.dylib",
+      "core_name": "NEC - PC Engine / SuperGrafx / CD / LaserActive (Geargrafx)",
+      "crc32": "4A7E4A7B|crc",
       "db_name": "NEC - PC Engine CD - TurboGrafx-CD.lpl"
     },
     {
