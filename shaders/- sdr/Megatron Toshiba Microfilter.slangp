@@ -1,2 +1,4 @@
 #reference "../Megatron Toshiba Microfilter.slangp"
 hcrt_hdr = "0.000000"
+hcrt_brightness = "0.200000"
+hcrt_contrast = "0.200000"
