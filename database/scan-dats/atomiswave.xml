@@ -161,7 +161,7 @@
 			<!ATTLIST ramoption default CDATA #IMPLIED>
 ]>
 
-<mame build="0.287 (unknown)" debug="no" mameconfig="10">
+<mame build="0.289 (unknown)" debug="no" mameconfig="10">
 	<machine name="awbios" sourcefile="sega/dc_atomiswave.cpp" isbios="yes">
 		<description>Atomiswave BIOS</description>
 		<year>2001</year>
@@ -1194,6 +1194,70 @@
 		<rom name="ax2905m01.mrom5" size="33554432" crc="429877ba" sha1="88e1f3bc682b18d331e328ef8754065109cf9bda" region="rom_board" offset="c000000"/>
 		<rom name="ax2906m01.mrom6" size="33554432" crc="cb95298d" sha1="5fb5d5a0d6801df61101a1b23de0c14ff29ef654" region="rom_board" offset="e000000"/>
 		<rom name="ax2907m01.mrom7" size="33554432" crc="48015081" sha1="3c0a0a6dc9ab7bf889579477699e612c3092f9bf" region="rom_board" offset="12000000"/>
+		<device_ref tag=":maincpu" name="sh7091"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":sb_g2if" name="dc_g2if"/>
+		<device_ref tag=":soundcpu" name="arm7_le"/>
+		<device_ref tag=":maple_dc" name="maple_dc"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":powervr2" name="powervr2"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":aica" name="aica"/>
+		<device_ref tag=":aicartc" name="aicartc"/>
+		<device_ref tag=":awflash" name="macronix_29l001mc"/>
+		<device_ref tag=":rom_board" name="aw_rom_board"/>
+		<device_ref tag=":sram" name="nvram"/>
+		<device_ref tag=":dcctrl0" name="dcctrl"/>
+		<device_ref tag=":dcctrl1" name="dcctrl"/>
+		<chip type="cpu" tag="maincpu" name="Hitachi SH7091" clock="200000000"/>
+		<chip type="cpu" tag="soundcpu" name="ARM7 (little)" clock="2822400"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="aica" name="Yamaha AICA" clock="22579200"/>
+		<display tag="screen" type="raster" rotate="0" width="640" height="480" refresh="61.702586" pixclock="26917136" htotal="820" hbend="0" hbstart="640" vtotal="532" vbend="0" vbstart="480" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="6" ways="8"/>
+			<control type="joy" player="2" buttons="6" ways="8"/>
+		</input>
+		<configuration name="Bilinear Filtering" tag="powervr2:PVR_DEBUG" mask="1">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="1"/>
+		</configuration>
+		<configuration name="Disable Render Calls" tag="powervr2:PVR_DEBUG" mask="2">
+			<confsetting name="No" value="0" default="yes"/>
+			<confsetting name="Yes" value="2"/>
+		</configuration>
+		<port tag=":COINS">
+		</port>
+		<port tag=":P1.0">
+		</port>
+		<port tag=":P1.1">
+		</port>
+		<port tag=":P2.0">
+		</port>
+		<port tag=":P2.1">
+		</port>
+		<port tag=":powervr2:PVR_DEBUG">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="sushibar" sourcefile="sega/dc_atomiswave.cpp" romof="awbios">
+		<description>Sushi Bar / Toretore! Sushi</description>
+		<year>2003</year>
+		<manufacturer>Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
+		<rom name="bios0.ic23" merge="bios0.ic23" bios="bios0" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa" region="awflash" offset="0"/>
+		<rom name="bios1.ic23" merge="bios1.ic23" bios="bios0" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959" region="awflash" offset="0"/>
+		<rom name="fpr-24363.ic48" merge="fpr-24363.ic48" bios="bios1" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564" region="awflash" offset="0"/>
+		<rom name="ic12" size="8388608" crc="06a2ed58" sha1="a807fa8c1c83cb8b18595c210479d5f1dd6be4ca" region="rom_board" offset="0"/>
+		<rom name="ic14" size="8388608" crc="4860f944" sha1="55c75630c33cba35512a1349650f28fd56757f9f" region="rom_board" offset="1000000"/>
+		<rom name="ic15" size="8388608" crc="7113506c" sha1="0548d67b3a1c0b8f17fcafd4fe5c1e6b0e91b6e7" region="rom_board" offset="1800000"/>
+		<rom name="ic16" size="8388608" crc="77e8e39e" sha1="1286010cdba5c3c0ad5cbe19718fd0f8e5f579db" region="rom_board" offset="2000000"/>
+		<rom name="ic17" size="8388608" crc="0eba54ea" sha1="51842ec326a5ba65bd280e652e7d9b395a2586c6" region="rom_board" offset="2800000"/>
+		<rom name="ic18" size="8388608" crc="b9957c76" sha1="6d72c7ac8e1e0cbed7eb01b66f71bedf46a833e1" region="rom_board" offset="3000000"/>
 		<device_ref tag=":maincpu" name="sh7091"/>
 		<device_ref tag=":scantimer" name="timer"/>
 		<device_ref tag=":sb_g2if" name="dc_g2if"/>

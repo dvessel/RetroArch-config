@@ -36,6 +36,14 @@
       "db_name": "Sega - Naomi 2.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Sega Naomi 2/.sorted/-sega-naomi/clubkrt.zip",
+      "label": "Club Kart: European Session (Rev D)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_dc_libretro.dylib",
+      "core_name": "Sega - Dreamcast/Naomi (ParaLLEl DC)",
+      "crc32": "00000000|crc",
+      "db_name": "Sega - Naomi 2.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Sega Naomi 2/.sorted/-sega-naomi/initdexp.zip",
       "label": "Initial D Arcade Stage (Export, Rev A) (GDS-0025A)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/parallel_dc_libretro.dylib",
