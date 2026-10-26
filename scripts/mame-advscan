@@ -5,7 +5,7 @@ PATH=${0:A:h}:$PATH
 zparseopts -D -F -E - \
   {z,-mamezip}:=zmamezip \
   {s,-samples}:=zsamples \
-  {x,-appendxml}:=zappendxml || return 1
+  {x,-appendxml}:=zappendxml || exit 1
 
 all_commands=(
   init
@@ -18,7 +18,7 @@ if [[ -n $1 && $command == $1 ]]
 then shift
 else
   echo "Available commands: ${(j/, /)all_commands}" >&2
-  return 1
+  exit 1
 fi
 
 scandir=${${1:a}:-$PWD}
@@ -28,7 +28,7 @@ fi
 if [[ ! -d $scandir ]]
 then
   echo "Not a valid scan directory: $scandir" >&2
-  return 1
+  exit 1
 fi
 
 appendxml=${${zappendxml[-1]:a}:-$XDG_DATA_HOME/advscan/mamexml/_append}
@@ -37,7 +37,7 @@ samples=${zsamples[-1]:a}
 
 if mkdir -p $scandir/.advscan
 then cd $scandir/.advscan
-else return 1
+else exit 1
 fi
 
 if [[ $command == init || ! -f advscan.rc ]]

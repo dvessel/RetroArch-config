@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-zparseopts -D -F - {p,-playlist}:=playlist || return 1
+zparseopts -D -F - {p,-playlist}:=playlist || exit 1
 
 PATH=${0:A:h}:$PATH
 
@@ -13,7 +13,7 @@ function p.error  { print -P -- "%F{red}${(j/\n/)@}%f" >&2 }
 
 for dep in jq 7z; if ! type $dep &>/dev/null; then
   p.error "$dep is required!"
-  return 1
+  exit 1
 fi
 
 for key in config_save_minimal playlist_compression playlist_use_old_format
@@ -21,7 +21,7 @@ do
   if [[ $( raconfig --get $key ) == true ]]
   then
     p.error "Incompatible with '$key'."
-    return 1
+    exit 1
   fi
 done
 
@@ -32,7 +32,7 @@ fi
 if [[ ! -f $playlist ]]; then
   p.error "Playlist does not exist:" \
           "- $playlist"
-  return 1
+  exit 1
 fi
 
 # XML sources for generating playlists are typically for MAME rom sets.
@@ -40,7 +40,7 @@ fi
 if [[ ${$( jq -r '.scan_dat_file_path' $playlist ):e} =~ xml ]]; then
   p.error "mame/xml generated playlists are not supported:" \
           "- $playlist:t"
-  return 1
+  exit 1
 fi
 
 # json list of cleaned up items.

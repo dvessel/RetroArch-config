@@ -19,7 +19,7 @@
 # 3. core-name.cfg
 # 4. retroarch.cfg  <- always available
 #
-zparseopts -D -F - {g,-get}:=zget {s,-set,o,-override}:=zset || return 1
+zparseopts -D -F - {g,-get}:=zget {s,-set,o,-override}:=zset || exit 1
 
 ra_dir=~/Library/Application\ Support/RetroArch
 ra_cfg=$ra_dir/config/retroarch.cfg
@@ -61,10 +61,10 @@ then
   key=${zget[-1]}
   for value in ${(f)"$( get_values $key $@ )"}; [[ $value != null ]] && {
     echo $value
-    return
+    exit
   }
   echo "$key does not exist." >&2
-  return 1
+  exit 1
 
 else
   # Extract key/value
@@ -74,7 +74,7 @@ else
     value=${match[2]}
   else
     echo "Invalid argument: ${zset[-1]}" >&2
-    return 1
+    exit 1
   fi
 
   if [[ $op == (-s|--set) ]]
