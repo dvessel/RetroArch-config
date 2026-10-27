@@ -6,7 +6,7 @@ assets/*
 assets/xmb/*
 !assets/xmb/custom
 autoconfig/*
-!autoconfig/mfi-custom.cfg
+!autoconfig/mfi*.cfg
 cht
 config/retroarch-keychain.cfg
 config/retroarch-keychain.key
