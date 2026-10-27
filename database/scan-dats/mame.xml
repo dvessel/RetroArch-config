@@ -12349,6 +12349,184 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
+	<machine name="code1d" sourcefile="konami/viper.cpp" romof="kviper">
+		<description>Code One Dispatch Ver 1.21 (ver UAD)</description>
+		<year>2000</year>
+		<manufacturer>Konami</manufacturer>
+		<biosset name="bios0" description="GM941B01 (01/15/01)"/>
+		<biosset name="bios1" description="GM941A01 (03/10/00)"/>
+		<rom name="941b01.u25" merge="941b01.u25" bios="bios0" size="262144" crc="233e5159" sha1="66ff268d5bf78fbfa48cdc3e1b08f8956cfd6cfb" region="user1" offset="0"/>
+		<rom name="941a01.u25" merge="941a01.u25" bios="bios1" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87" region="user1" offset="0"/>
+		<rom name="ds2430_code1d2.u3" size="40" crc="817e725f" sha1="0c36ddf1e0c4dc6f6b46ec73d3e86eb58247fa42" status="baddump" region="ds2430" offset="0"/>
+		<rom name="m48t58_uad.u39" size="8192" crc="22ef677d" sha1="10b1e68d409edeca5af70aff1146b7373eeb3864" region="m48t58" offset="0"/>
+		<disk name="922d02" sha1="01f35e324c9e8567da0f51b3e68fff1562c32116" region="ata:0:hdd" index="0" writable="yes"/>
+		<device_ref tag=":maincpu" name="mpc8240"/>
+		<device_ref tag=":ds2430" name="ds2430a"/>
+		<device_ref tag=":pcibus" name="pci_bus_legacy"/>
+		<device_ref tag=":ata" name="ata_interface"/>
+		<device_ref tag=":ata:0" name="ata_slot"/>
+		<device_ref tag=":ata:0:hdd" name="idehd"/>
+		<device_ref tag=":ata:0:hdd:image" name="harddisk_image"/>
+		<device_ref tag=":ata:1" name="ata_slot"/>
+		<device_ref tag=":duart_com" name="pc16552d"/>
+		<device_ref tag=":duart_com:chan0" name="ns16550"/>
+		<device_ref tag=":duart_com:chan1" name="ns16550"/>
+		<device_ref tag=":lanc" name="k056230_viper"/>
+		<device_ref tag=":voodoo" name="voodoo_3"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":dacl" name="dmadac"/>
+		<device_ref tag=":dacr" name="dmadac"/>
+		<device_ref tag=":m48t58" name="m48t58"/>
+		<device_ref tag=":sound_timer" name="timer"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC MPC8240" clock="203212800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="dacl" name="DMA-driven DAC"/>
+		<chip type="audio" tag="dacr" name="DMA-driven DAC"/>
+		<display tag="screen" type="raster" rotate="0" width="1024" height="768" refresh="60.000000" pixclock="47185920" htotal="1024" hbend="0" hbstart="1024" vtotal="768" vbend="0" vbstart="768" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="1" minimum="0" maximum="65535" sensitivity="50" keydelta="50" reverse="yes"/>
+			<control type="pedal" minimum="0" maximum="65535" sensitivity="50" keydelta="25" reverse="yes"/>
+		</input>
+		<dipswitch name="DIP4" tag="IN2" mask="1">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="1"/>
+			<dipvalue name="On" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="DIP3" tag="IN2" mask="2">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Calibrate Controls On Boot" tag="IN2" mask="4">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Yes" value="4" default="yes"/>
+			<dipvalue name="No" value="0"/>
+		</dipswitch>
+		<dipswitch name="Memory Card Check On Boot" tag="IN2" mask="8">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="On" value="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="3-5" tag="IN3" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="3-6" tag="IN3" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="3-7" tag="IN3" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-1" tag="IN4" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-2" tag="IN4" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-3" tag="IN4" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-4" tag="IN4" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-5" tag="IN4" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-6" tag="IN4" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-7" tag="IN4" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-0" tag="IN5" mask="1">
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-1" tag="IN5" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-2" tag="IN5" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-3" tag="IN5" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-4" tag="IN5" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-5" tag="IN5" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-6" tag="IN5" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-7" tag="IN5" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":GUN0">
+		</port>
+		<port tag=":GUN1">
+		</port>
+		<port tag=":GUN2">
+		</port>
+		<port tag=":GUN3">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<device type="harddisk" tag="ata:0:hdd:image" interface="ide_hdd,hdd">
+			<instance name="harddisk" briefname="hard"/>
+			<extension name="chd"/>
+			<extension name="hd"/>
+			<extension name="hdv"/>
+			<extension name="2mg"/>
+			<extension name="hdi"/>
+		</device>
+	</machine>
 	<machine name="coh1000t" sourcefile="sony/zn.cpp" isbios="yes">
 		<description>Taito FX-1</description>
 		<year>1995</year>
@@ -33167,6 +33345,182 @@
 		<feature type="sound" status="imperfect"/>
 		<feature type="lan" status="unemulated"/>
 	</machine>
+	<machine name="gticlub2" sourcefile="konami/viper.cpp" romof="kviper">
+		<description>GTI Club: Corso Italiano (ver JAB)</description>
+		<year>2000</year>
+		<manufacturer>Konami</manufacturer>
+		<biosset name="bios0" description="GM941B01 (01/15/01)"/>
+		<biosset name="bios1" description="GM941A01 (03/10/00)"/>
+		<rom name="941b01.u25" merge="941b01.u25" bios="bios0" size="262144" crc="233e5159" sha1="66ff268d5bf78fbfa48cdc3e1b08f8956cfd6cfb" region="user1" offset="0"/>
+		<rom name="941a01.u25" merge="941a01.u25" bios="bios1" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87" region="user1" offset="0"/>
+		<rom name="ds2430.u3" merge="ds2430.u3" size="40" crc="f1511505" sha1="ed7cd9b2763b3e377df9663943160f9871f65105" status="baddump" region="ds2430" offset="0"/>
+		<rom name="nvram.u39" size="8192" crc="d0604e84" sha1="18d1183f1331af3e655a56692eb7ab877b4bc239" status="baddump" region="m48t58" offset="0"/>
+		<rom name="941jab_nvram.u39" size="8192" crc="6c4a852f" sha1="2753dda42cdd81af22dc6780678f1ddeb3c62013" status="baddump" region="m48t58" offset="0"/>
+		<disk name="941b02" sha1="943bc9b1ea7273a8382b94c8a75010dfe296df14" region="ata:0:hdd" index="0" writable="yes"/>
+		<device_ref tag=":maincpu" name="mpc8240"/>
+		<device_ref tag=":ds2430" name="ds2430a"/>
+		<device_ref tag=":pcibus" name="pci_bus_legacy"/>
+		<device_ref tag=":ata" name="ata_interface"/>
+		<device_ref tag=":ata:0" name="ata_slot"/>
+		<device_ref tag=":ata:0:hdd" name="idehd"/>
+		<device_ref tag=":ata:0:hdd:image" name="harddisk_image"/>
+		<device_ref tag=":ata:1" name="ata_slot"/>
+		<device_ref tag=":duart_com" name="pc16552d"/>
+		<device_ref tag=":duart_com:chan0" name="ns16550"/>
+		<device_ref tag=":duart_com:chan1" name="ns16550"/>
+		<device_ref tag=":lanc" name="k056230_viper"/>
+		<device_ref tag=":voodoo" name="voodoo_3"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":dacl" name="dmadac"/>
+		<device_ref tag=":dacr" name="dmadac"/>
+		<device_ref tag=":m48t58" name="m48t58"/>
+		<device_ref tag=":sound_timer" name="timer"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC MPC8240" clock="203212800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="dacl" name="DMA-driven DAC"/>
+		<chip type="audio" tag="dacr" name="DMA-driven DAC"/>
+		<display tag="screen" type="raster" rotate="0" width="1024" height="768" refresh="60.000000" pixclock="47185920" htotal="1024" hbend="0" hbstart="1024" vtotal="768" vbend="0" vbstart="768" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="2" minimum="0" maximum="65535" sensitivity="50" keydelta="50" reverse="yes"/>
+			<control type="pedal" minimum="0" maximum="65535" sensitivity="100" keydelta="25" reverse="yes"/>
+		</input>
+		<dipswitch name="DIP4" tag="IN2" mask="1">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP3" tag="IN2" mask="2">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Calibrate Controls On Boot" tag="IN2" mask="4">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Yes" value="4"/>
+			<dipvalue name="No" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Memory Card Check On Boot" tag="IN2" mask="8">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="On" value="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="3-5" tag="IN3" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="3-7" tag="IN3" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-1" tag="IN4" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-2" tag="IN4" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-3" tag="IN4" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-4" tag="IN4" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-5" tag="IN4" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-6" tag="IN4" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-7" tag="IN4" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-0" tag="IN5" mask="1">
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-1" tag="IN5" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-2" tag="IN5" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-3" tag="IN5" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-4" tag="IN5" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-5" tag="IN5" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-6" tag="IN5" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-7" tag="IN5" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN3">
+			<analog mask="255"/>
+		</port>
+		<port tag=":GUN0">
+		</port>
+		<port tag=":GUN1">
+		</port>
+		<port tag=":GUN2">
+		</port>
+		<port tag=":GUN3">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<device type="harddisk" tag="ata:0:hdd:image" interface="ide_hdd,hdd">
+			<instance name="harddisk" briefname="hard"/>
+			<extension name="chd"/>
+			<extension name="hd"/>
+			<extension name="hdv"/>
+			<extension name="2mg"/>
+			<extension name="hdi"/>
+		</device>
+	</machine>
 	<machine name="gunbird" sourcefile="psikyo/psikyo.cpp">
 		<description>Gunbird (World)</description>
 		<year>1994</year>
@@ -42591,6 +42945,181 @@
 		</port>
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="kviper" sourcefile="konami/viper.cpp" isbios="yes">
+		<description>Konami Viper BIOS</description>
+		<year>1999</year>
+		<manufacturer>Konami</manufacturer>
+		<biosset name="bios0" description="GM941B01 (01/15/01)"/>
+		<biosset name="bios1" description="GM941A01 (03/10/00)"/>
+		<rom name="941b01.u25" bios="bios0" size="262144" crc="233e5159" sha1="66ff268d5bf78fbfa48cdc3e1b08f8956cfd6cfb" region="user1" offset="0"/>
+		<rom name="941a01.u25" bios="bios1" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87" region="user1" offset="0"/>
+		<rom name="ds2430.u3" size="40" crc="f1511505" sha1="ed7cd9b2763b3e377df9663943160f9871f65105" region="ds2430" offset="0"/>
+		<device_ref tag=":maincpu" name="mpc8240"/>
+		<device_ref tag=":ds2430" name="ds2430a"/>
+		<device_ref tag=":pcibus" name="pci_bus_legacy"/>
+		<device_ref tag=":ata" name="ata_interface"/>
+		<device_ref tag=":ata:0" name="ata_slot"/>
+		<device_ref tag=":ata:0:hdd" name="idehd"/>
+		<device_ref tag=":ata:0:hdd:image" name="harddisk_image"/>
+		<device_ref tag=":ata:1" name="ata_slot"/>
+		<device_ref tag=":duart_com" name="pc16552d"/>
+		<device_ref tag=":duart_com:chan0" name="ns16550"/>
+		<device_ref tag=":duart_com:chan1" name="ns16550"/>
+		<device_ref tag=":lanc" name="k056230_viper"/>
+		<device_ref tag=":voodoo" name="voodoo_3"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":dacl" name="dmadac"/>
+		<device_ref tag=":dacr" name="dmadac"/>
+		<device_ref tag=":m48t58" name="m48t58"/>
+		<device_ref tag=":sound_timer" name="timer"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC MPC8240" clock="203212800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="dacl" name="DMA-driven DAC"/>
+		<chip type="audio" tag="dacr" name="DMA-driven DAC"/>
+		<display tag="screen" type="raster" rotate="0" width="1024" height="768" refresh="60.000000" pixclock="47185920" htotal="1024" hbend="0" hbstart="1024" vtotal="768" vbend="0" vbstart="768" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+		</input>
+		<dipswitch name="DIP4" tag="IN2" mask="1">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP3" tag="IN2" mask="2">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP2" tag="IN2" mask="4">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP1" tag="IN2" mask="8">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="3-5" tag="IN3" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="3-6" tag="IN3" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="3-7" tag="IN3" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-0" tag="IN4" mask="1">
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-1" tag="IN4" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-2" tag="IN4" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-3" tag="IN4" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-4" tag="IN4" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-5" tag="IN4" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-6" tag="IN4" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-7" tag="IN4" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-0" tag="IN5" mask="1">
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-1" tag="IN5" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-2" tag="IN5" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-3" tag="IN5" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-4" tag="IN5" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-5" tag="IN5" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-6" tag="IN5" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-7" tag="IN5" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN0">
+		</port>
+		<port tag=":AN1">
+		</port>
+		<port tag=":AN2">
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":GUN0">
+		</port>
+		<port tag=":GUN1">
+		</port>
+		<port tag=":GUN2">
+		</port>
+		<port tag=":GUN3">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<driver status="good" emulation="good" savestate="unsupported"/>
+		<device type="harddisk" tag="ata:0:hdd:image" interface="ide_hdd,hdd">
+			<instance name="harddisk" briefname="hard"/>
+			<extension name="chd"/>
+			<extension name="hd"/>
+			<extension name="hdv"/>
+			<extension name="2mg"/>
+			<extension name="hdi"/>
+		</device>
 	</machine>
 	<machine name="lastblad" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)</description>
@@ -85731,6 +86260,296 @@
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
 	</machine>
+	<machine name="thrild2" sourcefile="konami/viper.cpp" romof="kviper">
+		<description>Thrill Drive 2 (ver EBB)</description>
+		<year>2001</year>
+		<manufacturer>Konami</manufacturer>
+		<biosset name="bios0" description="GM941B01 (01/15/01)"/>
+		<biosset name="bios1" description="GM941A01 (03/10/00)"/>
+		<rom name="941b01.u25" merge="941b01.u25" bios="bios0" size="262144" crc="233e5159" sha1="66ff268d5bf78fbfa48cdc3e1b08f8956cfd6cfb" region="user1" offset="0"/>
+		<rom name="941a01.u25" merge="941a01.u25" bios="bios1" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87" region="user1" offset="0"/>
+		<rom name="ds2430.u3" merge="ds2430.u3" size="40" crc="f1511505" sha1="ed7cd9b2763b3e377df9663943160f9871f65105" status="baddump" region="ds2430" offset="0"/>
+		<rom name="a41ebb_nvram.u39" size="8192" crc="22f59ac0" sha1="e14ea2ba95b72edf0a3331ab82c192760bfdbce3" region="m48t58" offset="0"/>
+		<disk name="a41b02" sha1="0426f4bb9001cf457f44e2c22e3d7575b8049aa3" region="ata:0:hdd" index="0" writable="yes"/>
+		<device_ref tag=":maincpu" name="mpc8240"/>
+		<device_ref tag=":ds2430" name="ds2430a"/>
+		<device_ref tag=":pcibus" name="pci_bus_legacy"/>
+		<device_ref tag=":ata" name="ata_interface"/>
+		<device_ref tag=":ata:0" name="ata_slot"/>
+		<device_ref tag=":ata:0:hdd" name="idehd"/>
+		<device_ref tag=":ata:0:hdd:image" name="harddisk_image"/>
+		<device_ref tag=":ata:1" name="ata_slot"/>
+		<device_ref tag=":duart_com" name="pc16552d"/>
+		<device_ref tag=":duart_com:chan0" name="ns16550"/>
+		<device_ref tag=":duart_com:chan1" name="ns16550"/>
+		<device_ref tag=":lanc" name="k056230_viper"/>
+		<device_ref tag=":voodoo" name="voodoo_3"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":dacl" name="dmadac"/>
+		<device_ref tag=":dacr" name="dmadac"/>
+		<device_ref tag=":m48t58" name="m48t58"/>
+		<device_ref tag=":sound_timer" name="timer"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC MPC8240" clock="203212800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="dacl" name="DMA-driven DAC"/>
+		<chip type="audio" tag="dacr" name="DMA-driven DAC"/>
+		<display tag="screen" type="raster" rotate="0" width="1024" height="768" refresh="60.000000" pixclock="47185920" htotal="1024" hbend="0" hbstart="1024" vtotal="768" vbend="0" vbstart="768" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="2" minimum="2048" maximum="65535" sensitivity="50" keydelta="50"/>
+			<control type="pedal" minimum="0" maximum="65535" sensitivity="50" keydelta="25" reverse="yes"/>
+		</input>
+		<dipswitch name="DIP4" tag="IN2" mask="1">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP3" tag="IN2" mask="2">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Calibrate Controls On Boot" tag="IN2" mask="4">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Yes" value="4"/>
+			<dipvalue name="No" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Memory Card Check On Boot" tag="IN2" mask="8">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="On" value="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="3-5" tag="IN3" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="3-7" tag="IN3" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-1" tag="IN4" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-2" tag="IN4" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-3" tag="IN4" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-4" tag="IN4" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-5" tag="IN4" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-6" tag="IN4" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-7" tag="IN4" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-0" tag="IN5" mask="1">
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-1" tag="IN5" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-2" tag="IN5" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-3" tag="IN5" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-4" tag="IN5" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-5" tag="IN5" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-6" tag="IN5" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-7" tag="IN5" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN0">
+			<analog mask="4095"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":GUN0">
+		</port>
+		<port tag=":GUN1">
+		</port>
+		<port tag=":GUN2">
+		</port>
+		<port tag=":GUN3">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<device type="harddisk" tag="ata:0:hdd:image" interface="ide_hdd,hdd">
+			<instance name="harddisk" briefname="hard"/>
+			<extension name="chd"/>
+			<extension name="hd"/>
+			<extension name="hdv"/>
+			<extension name="2mg"/>
+			<extension name="hdi"/>
+		</device>
+	</machine>
+	<machine name="thrilld" sourcefile="konami/nwk-tr.cpp">
+		<description>Thrill Drive (UDE)</description>
+		<year>1998</year>
+		<manufacturer>Konami</manufacturer>
+		<rom name="713be01.27p" size="2097152" crc="d84a7723" sha1="f4e9e08591b7e5e8419266dbe744d56a185384ed" region="prgrom" offset="0"/>
+		<rom name="713a04.16t" size="2097152" crc="c994aaa8" sha1="d82b9930a11e5384ad583684a27c95beec03cd5a" region="datarom" offset="0"/>
+		<rom name="713a05.14t" size="2097152" crc="6f1e6802" sha1="91f8a170327e9b4ee6a64aee0c106b981a317e69" region="datarom" offset="2"/>
+		<rom name="713a13.8x" size="4194304" crc="b795c66b" sha1="6e50de0d5cc444ffaa0fec7ada8c07f643374bb2" region="cgboard_0" offset="0"/>
+		<rom name="713a14.16x" size="4194304" crc="5275a629" sha1="16fadef06975f0f3625cac8f84e2e77ed7d75e15" region="cgboard_0" offset="2"/>
+		<rom name="713a08.7s" size="524288" crc="6a72a825" sha1="abeac99c5343efacabcb0cdff6d34f9f967024db" region="audiocpu" offset="0"/>
+		<rom name="713a09.16p" size="4194304" crc="058f250a" sha1="63b8e60004ec49009633e86b4992c00083def9a8" region="rfsnd" offset="0"/>
+		<rom name="713a10.14p" size="4194304" crc="27f9833e" sha1="1540f00d2571ecb81b914c553682b67fca94bbbd" region="rfsnd" offset="400000"/>
+		<rom name="gc713ud.2g" size="548" crc="fc9563f5" sha1="1ed08482024f6d4353d4e4ea6c8092f6625d699b" status="baddump" region="gn676_lan:eeprom" offset="0"/>
+		<rom name="gm676ua_m48t58y.35d" size="8192" crc="2aeeda76" sha1="ed63b5ebbd9ebb90afd7fdebc9ad4b4d9966012b" status="baddump" region="m48t58" offset="0"/>
+		<device_ref tag=":maincpu" name="ppc403ga"/>
+		<device_ref tag=":audiocpu" name="m68000"/>
+		<device_ref tag=":dsp1" name="adsp21062"/>
+		<device_ref tag=":dsp2" name="adsp21062"/>
+		<device_ref tag=":m48t58" name="m48t58"/>
+		<device_ref tag=":adc12138" name="adc12138"/>
+		<device_ref tag=":k033906_1" name="k033906"/>
+		<device_ref tag=":k033906_2" name="k033906"/>
+		<device_ref tag=":voodoo0" name="voodoo_1"/>
+		<device_ref tag=":voodoo1" name="voodoo_1"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette1" name="palette"/>
+		<device_ref tag=":palette2" name="palette"/>
+		<device_ref tag=":k001604_1" name="k001604"/>
+		<device_ref tag=":k001604_2" name="k001604"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":k056800" name="k056800"/>
+		<device_ref tag=":rfsnd" name="rf5c400"/>
+		<device_ref tag=":konppc" name="konppc"/>
+		<device_ref tag=":gn676_lan" name="konami_gn676b_lan"/>
+		<device_ref tag=":gn676_lan:eeprom" name="x76f041"/>
+		<device_ref tag=":jvs_host" name="konppc_jvs_host"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC 403GA" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu" name="Motorola MC68000" clock="16000000"/>
+		<chip type="cpu" tag="dsp1" name="Analog Devices ADSP21062 &quot;SHARC&quot;" clock="36000000"/>
+		<chip type="cpu" tag="dsp2" name="Analog Devices ADSP21062 &quot;SHARC&quot;" clock="36000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="rfsnd" name="Ricoh RF5C400" clock="16934400"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="400" refresh="55.210490" pixclock="16000000" htotal="644" hbend="44" hbstart="556" vtotal="450" vbend="31" vbstart="431" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="joy" ways="vertical2"/>
+			<control type="paddle" minimum="0" maximum="4095" sensitivity="100" keydelta="60"/>
+			<control type="pedal" minimum="0" maximum="4095" sensitivity="100" keydelta="60"/>
+		</input>
+		<dipswitch name="DIP8" tag="DSW" mask="1">
+			<diplocation name="SW" number="8"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP7" tag="DSW" mask="2">
+			<diplocation name="SW" number="7"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP6" tag="DSW" mask="4">
+			<diplocation name="SW" number="6"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP5" tag="DSW" mask="8">
+			<diplocation name="SW" number="5"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP4" tag="DSW" mask="16">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP3" tag="DSW" mask="32">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Disable Machine Init" tag="DSW" mask="64">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Off" value="64"/>
+			<dipvalue name="On" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Skip Post" tag="DSW" mask="128">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="Off" value="128"/>
+			<dipvalue name="On" value="0" default="yes"/>
+		</dipswitch>
+		<port tag=":ANALOG1">
+			<analog mask="4095"/>
+		</port>
+		<port tag=":ANALOG2">
+			<analog mask="4095"/>
+		</port>
+		<port tag=":ANALOG3">
+			<analog mask="4095"/>
+		</port>
+		<port tag=":ANALOG4">
+			<analog mask="4095"/>
+		</port>
+		<port tag=":ANALOG5">
+		</port>
+		<port tag=":DSW">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<feature type="lan" overall="unemulated"/>
+	</machine>
 	<machine name="timeplt" sourcefile="konami/timeplt.cpp">
 		<description>Time Pilot</description>
 		<year>1982</year>
@@ -97540,6 +98359,181 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
+	<machine name="xtrial" sourcefile="konami/viper.cpp" romof="kviper">
+		<description>Xtrial Racing (ver JAB)</description>
+		<year>2002</year>
+		<manufacturer>Konami</manufacturer>
+		<biosset name="bios0" description="GM941B01 (01/15/01)"/>
+		<biosset name="bios1" description="GM941A01 (03/10/00)"/>
+		<rom name="941b01.u25" merge="941b01.u25" bios="bios0" size="262144" crc="233e5159" sha1="66ff268d5bf78fbfa48cdc3e1b08f8956cfd6cfb" region="user1" offset="0"/>
+		<rom name="941a01.u25" merge="941a01.u25" bios="bios1" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87" region="user1" offset="0"/>
+		<rom name="ds2430.u3" merge="ds2430.u3" size="40" crc="f1511505" sha1="ed7cd9b2763b3e377df9663943160f9871f65105" status="baddump" region="ds2430" offset="0"/>
+		<rom name="b4xjab_nvram.u39" size="8192" crc="33708a93" sha1="715968e3c9c15edf628fa6ac655dc0864e336c6c" region="m48t58" offset="0"/>
+		<disk name="b4xb02" sha1="d8d54f3f16b762bf0187fe29b2f8696015c0a940" region="ata:0:hdd" index="0" writable="yes"/>
+		<device_ref tag=":maincpu" name="mpc8240"/>
+		<device_ref tag=":ds2430" name="ds2430a"/>
+		<device_ref tag=":pcibus" name="pci_bus_legacy"/>
+		<device_ref tag=":ata" name="ata_interface"/>
+		<device_ref tag=":ata:0" name="ata_slot"/>
+		<device_ref tag=":ata:0:hdd" name="idehd"/>
+		<device_ref tag=":ata:0:hdd:image" name="harddisk_image"/>
+		<device_ref tag=":ata:1" name="ata_slot"/>
+		<device_ref tag=":duart_com" name="pc16552d"/>
+		<device_ref tag=":duart_com:chan0" name="ns16550"/>
+		<device_ref tag=":duart_com:chan1" name="ns16550"/>
+		<device_ref tag=":lanc" name="k056230_viper"/>
+		<device_ref tag=":voodoo" name="voodoo_3"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":dacl" name="dmadac"/>
+		<device_ref tag=":dacr" name="dmadac"/>
+		<device_ref tag=":m48t58" name="m48t58"/>
+		<device_ref tag=":sound_timer" name="timer"/>
+		<chip type="cpu" tag="maincpu" name="IBM PowerPC MPC8240" clock="203212800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="dacl" name="DMA-driven DAC"/>
+		<chip type="audio" tag="dacr" name="DMA-driven DAC"/>
+		<display tag="screen" type="raster" rotate="0" width="1024" height="768" refresh="60.000000" pixclock="47185920" htotal="1024" hbend="0" hbstart="1024" vtotal="768" vbend="0" vbstart="768" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="2" minimum="0" maximum="65535" sensitivity="50" keydelta="50" reverse="yes"/>
+			<control type="pedal" minimum="0" maximum="65535" sensitivity="100" keydelta="25" reverse="yes"/>
+		</input>
+		<dipswitch name="DIP4" tag="IN2" mask="1">
+			<diplocation name="SW" number="4"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="DIP3" tag="IN2" mask="2">
+			<diplocation name="SW" number="3"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Calibrate Controls On Boot" tag="IN2" mask="4">
+			<diplocation name="SW" number="2"/>
+			<dipvalue name="Yes" value="4"/>
+			<dipvalue name="No" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Memory Card Check On Boot" tag="IN2" mask="8">
+			<diplocation name="SW" number="1"/>
+			<dipvalue name="On" value="8"/>
+			<dipvalue name="Off" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="3-5" tag="IN3" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="3-7" tag="IN3" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-1" tag="IN4" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-2" tag="IN4" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-3" tag="IN4" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-4" tag="IN4" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-5" tag="IN4" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-6" tag="IN4" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="4-7" tag="IN4" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-0" tag="IN5" mask="1">
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-1" tag="IN5" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-2" tag="IN5" mask="4">
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-3" tag="IN5" mask="8">
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-4" tag="IN5" mask="16">
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-5" tag="IN5" mask="32">
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-6" tag="IN5" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="5-7" tag="IN5" mask="128">
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN3">
+			<analog mask="255"/>
+		</port>
+		<port tag=":GUN0">
+		</port>
+		<port tag=":GUN1">
+		</port>
+		<port tag=":GUN2">
+		</port>
+		<port tag=":GUN3">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<device type="harddisk" tag="ata:0:hdd:image" interface="ide_hdd,hdd">
+			<instance name="harddisk" briefname="hard"/>
+			<extension name="chd"/>
+			<extension name="hd"/>
+			<extension name="hdv"/>
+			<extension name="2mg"/>
+			<extension name="hdi"/>
+		</device>
+	</machine>
 	<machine name="xybots" sourcefile="atari/xybots.cpp">
 		<description>Xybots (rev 2)</description>
 		<year>1987</year>
@@ -99216,6 +100210,9 @@
 	<machine name="ds2404" sourcefile="devices/machine/ds2404.cpp" isdevice="yes" runnable="no">
 		<description>DS2404 EconoRAM Time Chip</description>
 	</machine>
+	<machine name="ds2430a" sourcefile="devices/machine/ds2430a.cpp" isdevice="yes" runnable="no">
+		<description>Dallas DS2430A 1-Wire EEPROM</description>
+	</machine>
 	<machine name="dsb2_device" sourcefile="sega/dsb2.cpp" isdevice="yes" runnable="no">
 		<description>Sega 68k-based Digital Sound Board 2</description>
 		<device_ref tag=":_tmp:mpegcpu" name="m68000"/>
@@ -100027,6 +101024,9 @@
 	<machine name="k056230" sourcefile="devices/machine/k056230.cpp" isdevice="yes" runnable="no">
 		<description>Konami 056230 LANC</description>
 	</machine>
+	<machine name="k056230_viper" sourcefile="devices/machine/k056230.cpp" isdevice="yes" runnable="no">
+		<description>Konami Viper LANC</description>
+	</machine>
 	<machine name="k056800" sourcefile="devices/sound/k056800.cpp" isdevice="yes" runnable="no">
 		<description>Konami 056800 MIRAC</description>
 	</machine>
@@ -100062,6 +101062,11 @@
 	</machine>
 	<machine name="konami_gn676a_lan" sourcefile="konami/konami_gn676_lan.cpp" isdevice="yes" runnable="no">
 		<description>Konami GN676-PWB(H)A Network PCB</description>
+		<feature type="lan" status="unemulated"/>
+	</machine>
+	<machine name="konami_gn676b_lan" sourcefile="konami/konami_gn676_lan.cpp" isdevice="yes" runnable="no">
+		<description>Konami GN676-PWB(H)B Network PCB</description>
+		<device_ref tag=":_tmp:eeprom" name="x76f041"/>
 		<feature type="lan" status="unemulated"/>
 	</machine>
 	<machine name="konami_twin16_video" sourcefile="konami/twin16_v.cpp" isdevice="yes" runnable="no">
@@ -100560,6 +101565,9 @@
 	</machine>
 	<machine name="mos6532" sourcefile="devices/machine/mos6530.cpp" isdevice="yes" runnable="no">
 		<description>MOS 6532 RIOT</description>
+	</machine>
+	<machine name="mpc8240" sourcefile="devices/cpu/powerpc/ppccom.cpp" isdevice="yes" runnable="no">
+		<description>IBM PowerPC MPC8240</description>
 	</machine>
 	<machine name="ms1_d65005" sourcefile="jaleco/ms1_gatearray.cpp" isdevice="yes" runnable="no">
 		<description>Mega System 1 Gate Array D65005</description>
@@ -102392,11 +103400,17 @@
 	<machine name="pc090oj" sourcefile="taito/pc090oj.cpp" isdevice="yes" runnable="no">
 		<description>Taito PC090OJ</description>
 	</machine>
+	<machine name="pc16552d" sourcefile="devices/machine/ins8250.cpp" isdevice="yes" runnable="no">
+		<description>National Semiconductor PC16552D UART</description>
+	</machine>
 	<machine name="pccard" sourcefile="devices/bus/pccard/pccard.cpp" isdevice="yes" runnable="no">
 		<description>PC Card Slot</description>
 	</machine>
 	<machine name="pcf8573" sourcefile="devices/machine/pcf8573.cpp" isdevice="yes" runnable="no">
 		<description>PCF8573 RTC with Power Fail Detector</description>
+	</machine>
+	<machine name="pci_bus_legacy" sourcefile="devices/machine/lpci.cpp" isdevice="yes" runnable="no">
+		<description>PCI Bus Legacy</description>
 	</machine>
 	<machine name="pci_root" sourcefile="devices/machine/pci.cpp" isdevice="yes" runnable="no">
 		<description>PCI virtual root</description>

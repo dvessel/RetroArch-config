@@ -612,6 +612,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-viper/code1d.zip",
+      "label": "Code One Dispatch Ver 1.21 (ver UAD)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-segac2/columns.zip",
       "label": "Columns (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -1670,6 +1678,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-stv/groovef.zip",
       "label": "Groove on Fight - Gouketsuji Ichizoku 3 (J 970416 V1.001)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-viper/gticlub2.zip",
+      "label": "GTI Club: Corso Italiano (ver JAB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
@@ -4572,6 +4588,22 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-nwk-tr/thrilld.zip",
+      "label": "Thrill Drive (UDE)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-viper/thrild2.zip",
+      "label": "Thrill Drive 2 (ver EBB)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sega-segaxbd/thndrbld.zip",
       "label": "Thunder Blade (upright) (FD1094 317-0056)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -5078,6 +5110,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-sony-taitogn~tate/xiistag.zip",
       "label": "XII Stag (V2.01J 2002/6/26 22:27)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-konami-viper/xtrial.zip",
+      "label": "Xtrial Racing (ver JAB)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",
