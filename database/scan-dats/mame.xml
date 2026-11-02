@@ -36360,6 +36360,362 @@
 			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
 	</machine>
+	<machine name="hng64" sourcefile="snk/hng64.cpp" isbios="yes">
+		<description>Hyper NeoGeo 64 BIOS</description>
+		<year>1997</year>
+		<manufacturer>SNK</manufacturer>
+		<biosset name="japan" description="Japan"/>
+		<biosset name="us" description="USA"/>
+		<biosset name="export" description="Export" default="yes"/>
+		<biosset name="korea" description="Korea"/>
+		<rom name="brom1.bin" bios="japan" size="524288" crc="a30dd3de" sha1="3e2fd0a56214e6f5dcb93687e409af13d065ea30" region="bios" offset="0"/>
+		<rom name="bios_us.bin" bios="us" size="524288" crc="ab5948d6" sha1="f8b940c1ae5ce2d3b2cd0c9bfaf6e5b063cec06e" region="bios" offset="0"/>
+		<rom name="bios_export.bin" bios="export" size="524288" crc="bbf07ec6" sha1="5656aa077f6a6d43953f15b5123eea102a9d5313" region="bios" offset="0"/>
+		<rom name="bios_korea.bin" bios="korea" size="524288" crc="ac953e2e" sha1="f502188ef252b7c9d04934c4b525730a116de48b" region="bios" offset="0"/>
+		<rom name="from1.bin" size="524288" crc="6b933005" sha1="e992747f46c48b66e5509fe0adf19c91250b00c7" region="comm" offset="0"/>
+		<rom name="rom1.bin" size="130866" crc="4a6832dc" sha1="ae504f7733c2f40450157cd1d3b85bc83fac8569" region="fpga" offset="0"/>
+		<rom name="tmp87ph40an.bin" size="32768" crc="b70df21f" sha1="5b742e8a0bbf4c0ae4f4398d34c7058fb24acc92" region="iomcu" offset="8000"/>
+		<rom name="lvs-ioj-br9020f.u2" size="256" crc="78b7020d" sha1="2b8549532ef5e1e8102dbe71af55fdfb27ccbba6" region="eeprom" offset="0"/>
+		<rom name="lvs-igx-br9020f.u3" size="256" crc="af9f4287" sha1="6df0e35c77dbfee2fab7ff490dcd651db420e367" region="eeprom" offset="0"/>
+		<rom name="lvs-jam-br9020f.u3" size="256" crc="dabec5d2" sha1="19c5be89c57387d6ea563b3dc55674d0692af98e" region="eeprom" offset="0"/>
+		<device_ref tag=":maincpu" name="vr4300be"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":rtc" name="rtc62423"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":palette0" name="palette"/>
+		<device_ref tag=":palette1" name="palette"/>
+		<device_ref tag=":palette3d" name="palette"/>
+		<device_ref tag=":network" name="kl5c80a12"/>
+		<device_ref tag=":network:kp69" name="kp69"/>
+		<device_ref tag=":network:timera0" name="kp64"/>
+		<device_ref tag=":network:timera1" name="kp64"/>
+		<device_ref tag=":network:timerb" name="kp63_3channel"/>
+		<device_ref tag=":iomcu" name="tmp87ph40an"/>
+		<device_ref tag=":dt71321_dpram" name="idt71321"/>
+		<device_ref tag=":audiocpu" name="v53a"/>
+		<device_ref tag=":audiocpu:tcu" name="pit8254"/>
+		<device_ref tag=":audiocpu:tcu:counter0" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter1" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter2" name="pit_counter"/>
+		<device_ref tag=":audiocpu:dmau" name="v5x_dmau"/>
+		<device_ref tag=":audiocpu:icu" name="v5x_icu"/>
+		<device_ref tag=":audiocpu:scu" name="v5x_scu"/>
+		<device_ref tag=":audiocpu:brc_timer" name="timer"/>
+		<device_ref tag=":l7a1045" name="l7a1045"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":rear" name="speaker"/>
+		<device_ref tag=":subwoofer" name="speaker"/>
+		<device_ref tag=":lamps" name="hng64_lamps"/>
+		<chip type="cpu" tag="maincpu" name="NEC VR4300 (big)" clock="50000000"/>
+		<chip type="cpu" tag="network" name="Kawasaki Steel KL5C80A12" clock="12500000"/>
+		<chip type="cpu" tag="iomcu" name="Toshiba TMP87PH40AN" clock="8000000"/>
+		<chip type="cpu" tag="audiocpu" name="NEC V53A" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu:dmau" name="V5X DMAU" clock="8000000"/>
+		<chip type="audio" tag="l7a1045" name="L7A1045 L6028 DSP-A" clock="33868800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="rear" name="Speaker"/>
+		<chip type="audio" tag="subwoofer" name="Speaker"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="448" refresh="61.651673" pixclock="25000000" htotal="768" hbend="0" hbstart="512" vtotal="528" vbend="0" vbstart="448" />
+		<sound channels="3"/>
+		<input players="1">
+		</input>
+		<dipswitch name="IN0" tag="IN0" mask="1">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="1" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN0" mask="2">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="2" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN0" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN0" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN0" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN0" mask="32">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN0" mask="64">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN0" mask="128">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<dipswitch name="IN1" tag="IN1" mask="1">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="1" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN1" mask="2">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="2" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN1" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN1" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN1" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN1" mask="32">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN1" mask="64">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN1" mask="128">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<dipswitch name="IN2" tag="IN2" mask="1">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="1" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN2" mask="2">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="2" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN2" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN2" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN2" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN2" mask="32">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN2" mask="64">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN2" mask="128">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<dipswitch name="IN3" tag="IN3" mask="1">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="1" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN3" mask="2">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="2" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN3" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN3" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN3" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN3" mask="32">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN3" mask="64">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN3" mask="128">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<dipswitch name="IN4" tag="IN4" mask="1">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="1" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN4" mask="2">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="2" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN4" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN4" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN4" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN4" mask="32">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN4" mask="64">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN4" mask="128">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<dipswitch name="IN5" tag="IN5" mask="1">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="1" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN5" mask="2">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="2" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN5" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN5" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN5" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN5" mask="32">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN5" mask="64">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN5" mask="128">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<dipswitch name="IN6" tag="IN6" mask="1">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="1" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN6" mask="2">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="2" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN6" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN6" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN6" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN6" mask="32">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN6" mask="64">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN6" mask="128">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<dipswitch name="IN7" tag="IN7" mask="1">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="1" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN7" mask="2">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="2" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN7" mask="4">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="4" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN7" mask="8">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="8" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN7" mask="16">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="16" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN7" mask="32">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN7" mask="64">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="64" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="IN7" mask="128">
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="128" default="yes"/>
+		</dipswitch>
+		<port tag=":AN0">
+		</port>
+		<port tag=":AN1">
+		</port>
+		<port tag=":AN2">
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":AN4">
+		</port>
+		<port tag=":AN5">
+		</port>
+		<port tag=":AN6">
+		</port>
+		<port tag=":AN7">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<port tag=":VBLANK">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
 	<machine name="hotd" sourcefile="sega/model2.cpp">
 		<description>The House of the Dead (Revision A)</description>
 		<year>1997</year>
@@ -67854,6 +68210,143 @@
 		</port>
 		<driver status="good" emulation="good" savestate="unsupported"/>
 	</machine>
+	<machine name="roadedge" sourcefile="snk/hng64.cpp" romof="hng64">
+		<description>Roads Edge / Round Trip RV (rev.B)</description>
+		<year>1997</year>
+		<manufacturer>SNK</manufacturer>
+		<biosset name="japan" description="Japan"/>
+		<biosset name="us" description="USA"/>
+		<biosset name="export" description="Export" default="yes"/>
+		<biosset name="korea" description="Korea"/>
+		<rom name="brom1.bin" merge="brom1.bin" bios="japan" size="524288" crc="a30dd3de" sha1="3e2fd0a56214e6f5dcb93687e409af13d065ea30" region="bios" offset="0"/>
+		<rom name="bios_us.bin" merge="bios_us.bin" bios="us" size="524288" crc="ab5948d6" sha1="f8b940c1ae5ce2d3b2cd0c9bfaf6e5b063cec06e" region="bios" offset="0"/>
+		<rom name="bios_export.bin" merge="bios_export.bin" bios="export" size="524288" crc="bbf07ec6" sha1="5656aa077f6a6d43953f15b5123eea102a9d5313" region="bios" offset="0"/>
+		<rom name="bios_korea.bin" merge="bios_korea.bin" bios="korea" size="524288" crc="ac953e2e" sha1="f502188ef252b7c9d04934c4b525730a116de48b" region="bios" offset="0"/>
+		<rom name="from1.bin" merge="from1.bin" size="524288" crc="6b933005" sha1="e992747f46c48b66e5509fe0adf19c91250b00c7" region="comm" offset="0"/>
+		<rom name="rom1.bin" merge="rom1.bin" size="130866" crc="4a6832dc" sha1="ae504f7733c2f40450157cd1d3b85bc83fac8569" region="fpga" offset="0"/>
+		<rom name="tmp87ph40an.bin" merge="tmp87ph40an.bin" size="32768" crc="b70df21f" sha1="5b742e8a0bbf4c0ae4f4398d34c7058fb24acc92" region="iomcu" offset="8000"/>
+		<rom name="lvs-ioj-br9020f.u2" merge="lvs-ioj-br9020f.u2" size="256" crc="78b7020d" sha1="2b8549532ef5e1e8102dbe71af55fdfb27ccbba6" region="eeprom" offset="0"/>
+		<rom name="lvs-igx-br9020f.u3" merge="lvs-igx-br9020f.u3" size="256" crc="af9f4287" sha1="6df0e35c77dbfee2fab7ff490dcd651db420e367" region="eeprom" offset="0"/>
+		<rom name="lvs-jam-br9020f.u3" merge="lvs-jam-br9020f.u3" size="256" crc="dabec5d2" sha1="19c5be89c57387d6ea563b3dc55674d0692af98e" region="eeprom" offset="0"/>
+		<rom name="001pr01b.81" size="4194304" crc="effbac30" sha1="c1bddf3e511a8950f65ac7e452f81dbc4b7fd977" region="gameprg" offset="2"/>
+		<rom name="001pr02b.82" size="4194304" crc="b9aa4ad3" sha1="9ab3c896dbdc45560b7127486e2db6ca3b15a057" region="gameprg" offset="0"/>
+		<rom name="001sc01a.41" size="4194304" crc="084395a1" sha1="8bfea8fd3981fd45dcc04bd74840a5948aaf06a8" region="scrtile" offset="0"/>
+		<rom name="001sc02a.42" size="4194304" crc="51dd19e3" sha1="eeb3634294a049a357a75ee00aa9fce65b737395" region="scrtile" offset="1"/>
+		<rom name="001sc03a.43" size="4194304" crc="0b6f3e19" sha1="3b6dfd0f0633b0d8b629815920edfa39d92336bf" region="scrtile" offset="800000"/>
+		<rom name="001sc04a.44" size="4194304" crc="256c8c1c" sha1="85935eea3722ec92f8d922f527c2e049c4185aa3" region="scrtile" offset="800001"/>
+		<rom name="001sp01a.53" size="4194304" crc="7a469453" sha1="3738ca76f538243bb23ffd23a42b2a0558882889" region="sprtile" offset="0"/>
+		<rom name="001sp02a.54" size="4194304" crc="6b9a3de0" sha1="464c652f7b193326e3a871dfe751dd83c14284eb" region="sprtile" offset="1"/>
+		<rom name="001sp03a.55" size="4194304" crc="efbbd391" sha1="7447c481ba6f9ba154d48a4b160dd24157891d35" region="sprtile" offset="2"/>
+		<rom name="001sp04a.56" size="4194304" crc="1a0eb173" sha1="a69b786a9957197d1cc950ab046c57c18ca07ea7" region="sprtile" offset="3"/>
+		<rom name="001tx01a.1" size="4194304" crc="f6539bb9" sha1="57fc5583d56846be93d6f5784acd20fc149c70a5" region="textures0" offset="0"/>
+		<rom name="001tx02a.2" size="4194304" crc="f1d139d3" sha1="f120243f4d55f38b10bf8d1aa861cdc546a24c80" region="textures0" offset="400000"/>
+		<rom name="001tx03a.3" size="4194304" crc="22a375bd" sha1="d55b62843d952930db110bcf3056a98a04a7adf4" region="textures0" offset="800000"/>
+		<rom name="001tx04a.4" size="4194304" crc="288a5bd5" sha1="24e05db681894eb31cdc049cf42c1f9d7347bd0c" region="textures0" offset="c00000"/>
+		<rom name="001tx01a.5" size="4194304" crc="f6539bb9" sha1="57fc5583d56846be93d6f5784acd20fc149c70a5" region="textures1" offset="0"/>
+		<rom name="001tx02a.6" size="4194304" crc="f1d139d3" sha1="f120243f4d55f38b10bf8d1aa861cdc546a24c80" region="textures1" offset="400000"/>
+		<rom name="001tx03a.7" size="4194304" crc="22a375bd" sha1="d55b62843d952930db110bcf3056a98a04a7adf4" region="textures1" offset="800000"/>
+		<rom name="001tx04a.8" size="4194304" crc="288a5bd5" sha1="24e05db681894eb31cdc049cf42c1f9d7347bd0c" region="textures1" offset="c00000"/>
+		<rom name="001tx01a.9" size="4194304" crc="f6539bb9" sha1="57fc5583d56846be93d6f5784acd20fc149c70a5" region="textures2" offset="0"/>
+		<rom name="001tx02a.10" size="4194304" crc="f1d139d3" sha1="f120243f4d55f38b10bf8d1aa861cdc546a24c80" region="textures2" offset="400000"/>
+		<rom name="001tx03a.11" size="4194304" crc="22a375bd" sha1="d55b62843d952930db110bcf3056a98a04a7adf4" region="textures2" offset="800000"/>
+		<rom name="001tx04a.12" size="4194304" crc="288a5bd5" sha1="24e05db681894eb31cdc049cf42c1f9d7347bd0c" region="textures2" offset="c00000"/>
+		<rom name="001tx01a.13" size="4194304" crc="f6539bb9" sha1="57fc5583d56846be93d6f5784acd20fc149c70a5" region="textures3" offset="0"/>
+		<rom name="001tx02a.14" size="4194304" crc="f1d139d3" sha1="f120243f4d55f38b10bf8d1aa861cdc546a24c80" region="textures3" offset="400000"/>
+		<rom name="001tx03a.15" size="4194304" crc="22a375bd" sha1="d55b62843d952930db110bcf3056a98a04a7adf4" region="textures3" offset="800000"/>
+		<rom name="001tx04a.16" size="4194304" crc="288a5bd5" sha1="24e05db681894eb31cdc049cf42c1f9d7347bd0c" region="textures3" offset="c00000"/>
+		<rom name="001vt01a.17" size="4194304" crc="1a748e1b" sha1="376d40baa3b94890d4740045d053faf208fe43db" region="verts" offset="0"/>
+		<rom name="001vt02a.18" size="4194304" crc="449f94d0" sha1="2228690532d82d2661285aeb4260689b027597cb" region="verts" offset="2"/>
+		<rom name="001vt03a.19" size="4194304" crc="50ac8639" sha1="dd2d3689466990a7c479bb8f11bd930ea45e47b5" region="verts" offset="4"/>
+		<rom name="001sd01a.77" size="4194304" crc="a851da99" sha1="2ba24feddafc5fadec155cdb7af305fdffcf6690" region="l7a1045" offset="0"/>
+		<rom name="001sd02a.78" size="4194304" crc="ca5cec15" sha1="05e91a602728a048d61bf86aa8d43bb4186aeac1" region="l7a1045" offset="400000"/>
+		<device_ref tag=":maincpu" name="vr4300be"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":rtc" name="rtc62423"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":palette0" name="palette"/>
+		<device_ref tag=":palette1" name="palette"/>
+		<device_ref tag=":palette3d" name="palette"/>
+		<device_ref tag=":network" name="kl5c80a12"/>
+		<device_ref tag=":network:kp69" name="kp69"/>
+		<device_ref tag=":network:timera0" name="kp64"/>
+		<device_ref tag=":network:timera1" name="kp64"/>
+		<device_ref tag=":network:timerb" name="kp63_3channel"/>
+		<device_ref tag=":iomcu" name="tmp87ph40an"/>
+		<device_ref tag=":dt71321_dpram" name="idt71321"/>
+		<device_ref tag=":audiocpu" name="v53a"/>
+		<device_ref tag=":audiocpu:tcu" name="pit8254"/>
+		<device_ref tag=":audiocpu:tcu:counter0" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter1" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter2" name="pit_counter"/>
+		<device_ref tag=":audiocpu:dmau" name="v5x_dmau"/>
+		<device_ref tag=":audiocpu:icu" name="v5x_icu"/>
+		<device_ref tag=":audiocpu:scu" name="v5x_scu"/>
+		<device_ref tag=":audiocpu:brc_timer" name="timer"/>
+		<device_ref tag=":l7a1045" name="l7a1045"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":rear" name="speaker"/>
+		<device_ref tag=":subwoofer" name="speaker"/>
+		<device_ref tag=":lamps" name="hng64_lamps"/>
+		<chip type="cpu" tag="maincpu" name="NEC VR4300 (big)" clock="50000000"/>
+		<chip type="cpu" tag="network" name="Kawasaki Steel KL5C80A12" clock="12500000"/>
+		<chip type="cpu" tag="iomcu" name="Toshiba TMP87PH40AN" clock="8000000"/>
+		<chip type="cpu" tag="audiocpu" name="NEC V53A" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu:dmau" name="V5X DMAU" clock="8000000"/>
+		<chip type="audio" tag="l7a1045" name="L7A1045 L6028 DSP-A" clock="33868800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="rear" name="Speaker"/>
+		<chip type="audio" tag="subwoofer" name="Speaker"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="448" refresh="61.651673" pixclock="25000000" htotal="768" hbend="0" hbstart="512" vtotal="528" vbend="0" vbstart="448" />
+		<sound channels="3"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="8" minimum="0" maximum="255" sensitivity="30" keydelta="60"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="50" keydelta="60"/>
+		</input>
+		<port tag=":AN0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":AN4">
+		</port>
+		<port tag=":AN5">
+		</port>
+		<port tag=":AN6">
+		</port>
+		<port tag=":AN7">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<port tag=":VBLANK">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<feature type="lan" status="unemulated"/>
+	</machine>
 	<machine name="roboarmy" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Robo Army</description>
 		<year>1991</year>
@@ -70727,6 +71220,305 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="graphics" status="imperfect"/>
 		<feature type="sound" overall="imperfect"/>
+	</machine>
+	<machine name="sams64" sourcefile="snk/hng64.cpp" romof="hng64">
+		<description>Samurai Shodown 64 / Samurai Spirits / Paewang Jeonseol 64</description>
+		<year>1997</year>
+		<manufacturer>SNK</manufacturer>
+		<biosset name="japan" description="Japan"/>
+		<biosset name="us" description="USA"/>
+		<biosset name="export" description="Export" default="yes"/>
+		<biosset name="korea" description="Korea"/>
+		<rom name="brom1.bin" merge="brom1.bin" bios="japan" size="524288" crc="a30dd3de" sha1="3e2fd0a56214e6f5dcb93687e409af13d065ea30" region="bios" offset="0"/>
+		<rom name="bios_us.bin" merge="bios_us.bin" bios="us" size="524288" crc="ab5948d6" sha1="f8b940c1ae5ce2d3b2cd0c9bfaf6e5b063cec06e" region="bios" offset="0"/>
+		<rom name="bios_export.bin" merge="bios_export.bin" bios="export" size="524288" crc="bbf07ec6" sha1="5656aa077f6a6d43953f15b5123eea102a9d5313" region="bios" offset="0"/>
+		<rom name="bios_korea.bin" merge="bios_korea.bin" bios="korea" size="524288" crc="ac953e2e" sha1="f502188ef252b7c9d04934c4b525730a116de48b" region="bios" offset="0"/>
+		<rom name="from1.bin" merge="from1.bin" size="524288" crc="6b933005" sha1="e992747f46c48b66e5509fe0adf19c91250b00c7" region="comm" offset="0"/>
+		<rom name="rom1.bin" merge="rom1.bin" size="130866" crc="4a6832dc" sha1="ae504f7733c2f40450157cd1d3b85bc83fac8569" region="fpga" offset="0"/>
+		<rom name="tmp87ph40an.bin" merge="tmp87ph40an.bin" size="32768" crc="b70df21f" sha1="5b742e8a0bbf4c0ae4f4398d34c7058fb24acc92" region="iomcu" offset="8000"/>
+		<rom name="lvs-ioj-br9020f.u2" merge="lvs-ioj-br9020f.u2" size="256" crc="78b7020d" sha1="2b8549532ef5e1e8102dbe71af55fdfb27ccbba6" region="eeprom" offset="0"/>
+		<rom name="lvs-igx-br9020f.u3" merge="lvs-igx-br9020f.u3" size="256" crc="af9f4287" sha1="6df0e35c77dbfee2fab7ff490dcd651db420e367" region="eeprom" offset="0"/>
+		<rom name="lvs-jam-br9020f.u3" merge="lvs-jam-br9020f.u3" size="256" crc="dabec5d2" sha1="19c5be89c57387d6ea563b3dc55674d0692af98e" region="eeprom" offset="0"/>
+		<rom name="002-pro1a.81" size="4194304" crc="e5b907c5" sha1="83637ffaa9031d41a5bed3397a519d1dfa8052cb" region="gameprg" offset="2"/>
+		<rom name="002-pro2a.82" size="4194304" crc="803ed2eb" sha1="666db47886a316e68b911311e5db3bc0f5b8a34d" region="gameprg" offset="0"/>
+		<rom name="002-pro3a.83" size="4194304" crc="582156a7" sha1="a7bbbd472a53072cbfaed5d41d4265123c9e3f3d" region="gameprg" offset="800002"/>
+		<rom name="002-pro4a.84" size="4194304" crc="5a8291e9" sha1="ec1e5a5a0ba37393e8b93d78b4ac855109d45ec9" region="gameprg" offset="800000"/>
+		<rom name="002-sc01a.41" size="4194304" crc="77c3df69" sha1="813d57814acccd2c04c951e58ac87cf7413bdf58" region="scrtile" offset="0"/>
+		<rom name="002-sc02a.42" size="4194304" crc="60065174" sha1="624c2e20abb53b2466df4ce2ffa9e20273798e92" region="scrtile" offset="1"/>
+		<rom name="002-sc05a.45" size="4194304" crc="fd242bee" sha1="b1fad97987da21c77d6c460bbed6f0dd18905ed4" region="scrtile" offset="800000"/>
+		<rom name="002-sc06a.46" size="4194304" crc="87afc297" sha1="47d5eaae88ce501fbbd5a2d7305c1d6acadfb13e" region="scrtile" offset="800001"/>
+		<rom name="002-sc03a.43" size="4194304" crc="5d4a5289" sha1="7a1576fdd344825cb05866c156d17b18f562a336" region="scrtile" offset="1000000"/>
+		<rom name="002-sc04a.44" size="4194304" crc="aa5536fa" sha1="09a50a29561ac97c564243da879bd7c4cf8c3cee" region="scrtile" offset="1000001"/>
+		<rom name="002-sc07a.47" size="4194304" crc="e01e8a95" sha1="b132214ef2b33a46cb605ea8f2193e77d9464881" region="scrtile" offset="1800000"/>
+		<rom name="002-sc08a.48" size="4194304" crc="a17464d0" sha1="2e6b73b1e0983b2b01455b0f4d6dc7c3845adb69" region="scrtile" offset="1800001"/>
+		<rom name="002-sp01a.53" size="4194304" crc="c73cf9b4" sha1="7c34fa1bc03cd366d473dbf3e316a6434ee5ec60" region="sprtile" offset="0"/>
+		<rom name="002-sp02a.54" size="4194304" crc="04b0ecc8" sha1="893e522324dd41dfcd2217974a6740e6bc3ea1d3" region="sprtile" offset="1"/>
+		<rom name="002-sp03a.55" size="4194304" crc="13c80b74" sha1="ad6c1690ebcde0d8237201ea43eb162cd5308ccb" region="sprtile" offset="2"/>
+		<rom name="002-sp04a.56" size="4194304" crc="b1a6a06d" sha1="1b11ee7cec46d0c99dc6310ee8221fa2de33c359" region="sprtile" offset="3"/>
+		<rom name="002-sp05a.57" size="4194304" crc="fa71e825" sha1="adfa8b5a8ec703d4f04285c47f2618a294c90ec5" region="sprtile" offset="1000000"/>
+		<rom name="002-sp06a.58" size="4194304" crc="1bcfe48e" sha1="8d85b1eb33fea48e5c6597d2fcbec903ecdad9d9" region="sprtile" offset="1000001"/>
+		<rom name="002-sp07a.59" size="4194304" crc="a5049bd7" sha1="123e32c22f53d6e55ee1d1deb4ab40891004c6fd" region="sprtile" offset="1000002"/>
+		<rom name="002-sp08a.60" size="4194304" crc="c2e57813" sha1="e7a21df1f94ed959a53da9dc4667863ee77bf676" region="sprtile" offset="1000003"/>
+		<rom name="002-tx01a.1" size="4194304" crc="233749b5" sha1="7c93681bbd5f4246e0dc50d26108f04e9b248d0d" region="textures0" offset="0"/>
+		<rom name="002-tx02a.2" size="4194304" crc="d5074be2" sha1="c33e9b9f0d21ad5ad31d8f988b3c7378d374fc1b" region="textures0" offset="400000"/>
+		<rom name="002-tx03a.3" size="4194304" crc="68c313f7" sha1="90ce8d0d19a994647c7167e3b256ff31647e575a" region="textures0" offset="800000"/>
+		<rom name="002-tx04a.4" size="4194304" crc="f7dac24f" sha1="1215354f28cbeb9fc38f6a7acae450ad5f34bb6a" region="textures0" offset="c00000"/>
+		<rom name="002-tx01a.5" size="4194304" crc="233749b5" sha1="7c93681bbd5f4246e0dc50d26108f04e9b248d0d" region="textures1" offset="0"/>
+		<rom name="002-tx02a.6" size="4194304" crc="d5074be2" sha1="c33e9b9f0d21ad5ad31d8f988b3c7378d374fc1b" region="textures1" offset="400000"/>
+		<rom name="002-tx03a.7" size="4194304" crc="68c313f7" sha1="90ce8d0d19a994647c7167e3b256ff31647e575a" region="textures1" offset="800000"/>
+		<rom name="002-tx04a.8" size="4194304" crc="f7dac24f" sha1="1215354f28cbeb9fc38f6a7acae450ad5f34bb6a" region="textures1" offset="c00000"/>
+		<rom name="002-tx01a.9" size="4194304" crc="233749b5" sha1="7c93681bbd5f4246e0dc50d26108f04e9b248d0d" region="textures2" offset="0"/>
+		<rom name="002-tx02a.10" size="4194304" crc="d5074be2" sha1="c33e9b9f0d21ad5ad31d8f988b3c7378d374fc1b" region="textures2" offset="400000"/>
+		<rom name="002-tx03a.11" size="4194304" crc="68c313f7" sha1="90ce8d0d19a994647c7167e3b256ff31647e575a" region="textures2" offset="800000"/>
+		<rom name="002-tx04a.12" size="4194304" crc="f7dac24f" sha1="1215354f28cbeb9fc38f6a7acae450ad5f34bb6a" region="textures2" offset="c00000"/>
+		<rom name="002-tx01a.13" size="4194304" crc="233749b5" sha1="7c93681bbd5f4246e0dc50d26108f04e9b248d0d" region="textures3" offset="0"/>
+		<rom name="002-tx02a.14" size="4194304" crc="d5074be2" sha1="c33e9b9f0d21ad5ad31d8f988b3c7378d374fc1b" region="textures3" offset="400000"/>
+		<rom name="002-tx03a.15" size="4194304" crc="68c313f7" sha1="90ce8d0d19a994647c7167e3b256ff31647e575a" region="textures3" offset="800000"/>
+		<rom name="002-tx04a.16" size="4194304" crc="f7dac24f" sha1="1215354f28cbeb9fc38f6a7acae450ad5f34bb6a" region="textures3" offset="c00000"/>
+		<rom name="002-vt01a.17" size="4194304" crc="403fd7fd" sha1="9bdadbeb4cd13c4c4e89a1c233af9eaaa46f8fdf" region="verts" offset="0"/>
+		<rom name="002-vt02a.18" size="4194304" crc="e1885905" sha1="6b16083c50e887aebe2baf95bf56697c239970f2" region="verts" offset="2"/>
+		<rom name="002-vt03a.19" size="4194304" crc="2074a6a6" sha1="9a5e8259d1e19d2b43878c24ca06afba5ee5e316" region="verts" offset="4"/>
+		<rom name="002-vt04a.20" size="4194304" crc="aefc4d94" sha1="f9d8222d4320ccf9f3c7c0ef307e03c8f34ea530" region="verts" offset="c00000"/>
+		<rom name="002-vt05a.21" size="4194304" crc="d32ee9cb" sha1="a768dfc15899924eb05eccbf8e85cb29c7b60396" region="verts" offset="c00002"/>
+		<rom name="002-vt06a.22" size="4194304" crc="13bf3636" sha1="7c704bf66b571350207bccc7a2d6ed1ec9de4cd5" region="verts" offset="c00004"/>
+		<rom name="002-sd01a.77" size="4194304" crc="6215036b" sha1="ded71dce98b7f7ef78ef32d966a292bbf0d15332" region="l7a1045" offset="0"/>
+		<rom name="002-sd02a.78" size="4194304" crc="32b28310" sha1="5b80750a66c12b035b493d06e3842741a3334d0f" region="l7a1045" offset="400000"/>
+		<rom name="002-sd03a.79" size="4194304" crc="53591413" sha1="36c7efa1aced0ca38b3ce7b95af28755973698f3" region="l7a1045" offset="800000"/>
+		<device_ref tag=":maincpu" name="vr4300be"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":rtc" name="rtc62423"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":palette0" name="palette"/>
+		<device_ref tag=":palette1" name="palette"/>
+		<device_ref tag=":palette3d" name="palette"/>
+		<device_ref tag=":network" name="kl5c80a12"/>
+		<device_ref tag=":network:kp69" name="kp69"/>
+		<device_ref tag=":network:timera0" name="kp64"/>
+		<device_ref tag=":network:timera1" name="kp64"/>
+		<device_ref tag=":network:timerb" name="kp63_3channel"/>
+		<device_ref tag=":iomcu" name="tmp87ph40an"/>
+		<device_ref tag=":dt71321_dpram" name="idt71321"/>
+		<device_ref tag=":audiocpu" name="v53a"/>
+		<device_ref tag=":audiocpu:tcu" name="pit8254"/>
+		<device_ref tag=":audiocpu:tcu:counter0" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter1" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter2" name="pit_counter"/>
+		<device_ref tag=":audiocpu:dmau" name="v5x_dmau"/>
+		<device_ref tag=":audiocpu:icu" name="v5x_icu"/>
+		<device_ref tag=":audiocpu:scu" name="v5x_scu"/>
+		<device_ref tag=":audiocpu:brc_timer" name="timer"/>
+		<device_ref tag=":l7a1045" name="l7a1045"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":rear" name="speaker"/>
+		<device_ref tag=":subwoofer" name="speaker"/>
+		<device_ref tag=":lamps" name="hng64_lamps"/>
+		<chip type="cpu" tag="maincpu" name="NEC VR4300 (big)" clock="50000000"/>
+		<chip type="cpu" tag="network" name="Kawasaki Steel KL5C80A12" clock="12500000"/>
+		<chip type="cpu" tag="iomcu" name="Toshiba TMP87PH40AN" clock="8000000"/>
+		<chip type="cpu" tag="audiocpu" name="NEC V53A" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu:dmau" name="V5X DMAU" clock="8000000"/>
+		<chip type="audio" tag="l7a1045" name="L7A1045 L6028 DSP-A" clock="33868800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="rear" name="Speaker"/>
+		<chip type="audio" tag="subwoofer" name="Speaker"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="448" refresh="61.651673" pixclock="25000000" htotal="768" hbend="0" hbstart="512" vtotal="528" vbend="0" vbstart="448" />
+		<sound channels="3"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="4" ways="8"/>
+			<control type="joy" player="2" buttons="4" ways="8"/>
+		</input>
+		<port tag=":AN0">
+		</port>
+		<port tag=":AN1">
+		</port>
+		<port tag=":AN2">
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":AN4">
+		</port>
+		<port tag=":AN5">
+		</port>
+		<port tag=":AN6">
+		</port>
+		<port tag=":AN7">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<port tag=":VBLANK">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="sams64_2" sourcefile="snk/hng64.cpp" romof="hng64">
+		<description>Samurai Shodown 64: Warriors Rage / Samurai Spirits 2: Asura Zanmaden</description>
+		<year>1998</year>
+		<manufacturer>SNK</manufacturer>
+		<biosset name="japan" description="Japan"/>
+		<biosset name="us" description="USA"/>
+		<biosset name="export" description="Export" default="yes"/>
+		<biosset name="korea" description="Korea"/>
+		<rom name="brom1.bin" merge="brom1.bin" bios="japan" size="524288" crc="a30dd3de" sha1="3e2fd0a56214e6f5dcb93687e409af13d065ea30" region="bios" offset="0"/>
+		<rom name="bios_us.bin" merge="bios_us.bin" bios="us" size="524288" crc="ab5948d6" sha1="f8b940c1ae5ce2d3b2cd0c9bfaf6e5b063cec06e" region="bios" offset="0"/>
+		<rom name="bios_export.bin" merge="bios_export.bin" bios="export" size="524288" crc="bbf07ec6" sha1="5656aa077f6a6d43953f15b5123eea102a9d5313" region="bios" offset="0"/>
+		<rom name="bios_korea.bin" merge="bios_korea.bin" bios="korea" size="524288" crc="ac953e2e" sha1="f502188ef252b7c9d04934c4b525730a116de48b" region="bios" offset="0"/>
+		<rom name="from1.bin" merge="from1.bin" size="524288" crc="6b933005" sha1="e992747f46c48b66e5509fe0adf19c91250b00c7" region="comm" offset="0"/>
+		<rom name="rom1.bin" merge="rom1.bin" size="130866" crc="4a6832dc" sha1="ae504f7733c2f40450157cd1d3b85bc83fac8569" region="fpga" offset="0"/>
+		<rom name="tmp87ph40an.bin" merge="tmp87ph40an.bin" size="32768" crc="b70df21f" sha1="5b742e8a0bbf4c0ae4f4398d34c7058fb24acc92" region="iomcu" offset="8000"/>
+		<rom name="lvs-ioj-br9020f.u2" merge="lvs-ioj-br9020f.u2" size="256" crc="78b7020d" sha1="2b8549532ef5e1e8102dbe71af55fdfb27ccbba6" region="eeprom" offset="0"/>
+		<rom name="lvs-igx-br9020f.u3" merge="lvs-igx-br9020f.u3" size="256" crc="af9f4287" sha1="6df0e35c77dbfee2fab7ff490dcd651db420e367" region="eeprom" offset="0"/>
+		<rom name="lvs-jam-br9020f.u3" merge="lvs-jam-br9020f.u3" size="256" crc="dabec5d2" sha1="19c5be89c57387d6ea563b3dc55674d0692af98e" region="eeprom" offset="0"/>
+		<rom name="005pr01a.81" size="4194304" crc="a69d7700" sha1="a580783a109bc3e24248d70bcd67f62dd7d8a5dd" region="gameprg" offset="2"/>
+		<rom name="005pr02a.82" size="4194304" crc="38b9e6b3" sha1="d1dad8247d920cc66854a0096e1c7845842d2e1c" region="gameprg" offset="0"/>
+		<rom name="005pr03a.83" size="4194304" crc="0bc738a8" sha1="79893b0e1c4a31e02ab385c4382684245975ae8f" region="gameprg" offset="800002"/>
+		<rom name="005pr04a.84" size="4194304" crc="6b504852" sha1="fcdcab432162542d249818a6cd15b8f2e8230f97" region="gameprg" offset="800000"/>
+		<rom name="005pr05a.85" size="4194304" crc="32a743d3" sha1="4088b930a1a4d6224a0939ef3942af1bf605cdb5" region="gameprg" offset="1000002"/>
+		<rom name="005pr06a.86" size="4194304" crc="c09fa615" sha1="697d6769c16b3c8f73a6df4a1e268ec40cb30d51" region="gameprg" offset="1000000"/>
+		<rom name="005pr07a.87" size="4194304" crc="44286ad3" sha1="1f890c74c0da0d34940a880468e68f7fb1417813" region="gameprg" offset="1800002"/>
+		<rom name="005pr08a.88" size="4194304" crc="d094eb67" sha1="3edc8d608c631a05223e1d05157cd3daf2d6597a" region="gameprg" offset="1800000"/>
+		<rom name="005sc01a.97" size="8388608" crc="7f11cda9" sha1="5fbdabd8423e9723a6ec38f8503e6ca7f4f69fdd" region="scrtile" offset="0"/>
+		<rom name="005sc02a.99" size="8388608" crc="87d1e1a7" sha1="00f2ef46ce64ab715add8cd47745c57944286f81" region="scrtile" offset="1"/>
+		<rom name="005sc05a.98" size="8388608" crc="4475a3f8" sha1="f099baf766ee00d166cfa8402baa0b6ea25a0010" region="scrtile" offset="1000000"/>
+		<rom name="005sc06a.100" size="8388608" crc="41c0fbbd" sha1="1d9ac01c9499a6202ee59d15d498ec34edc05888" region="scrtile" offset="1000001"/>
+		<rom name="005sc03a.101" size="8388608" crc="a5d4c535" sha1="089a3cd07701f025024ce73b7b4d38063c33a59f" region="scrtile" offset="2000000"/>
+		<rom name="005sc04a.103" size="8388608" crc="14930d77" sha1="b4c613a8896e21fe2cac0595dd1ea30dc7fce0bd" region="scrtile" offset="2000001"/>
+		<rom name="005sc07a.102" size="8388608" crc="3505b198" sha1="2fdfdd5a1f6f31f5fb1c0af70047108d1df44af2" region="scrtile" offset="3000000"/>
+		<rom name="005sc08a.104" size="8388608" crc="3139e413" sha1="38210541379ddeba8c0b9ef8fa5430c0090db7c7" region="scrtile" offset="3000001"/>
+		<rom name="005sp01a.105" size="8388608" crc="68eefee5" sha1="d95bd7b549900500633af07544423b0062ac07ce" region="sprtile" offset="0"/>
+		<rom name="005sp02a.109" size="8388608" crc="5d9a49b9" sha1="50768c496a3e0b4379e121349f32edec4f18652f" region="sprtile" offset="1"/>
+		<rom name="005sp03a.113" size="8388608" crc="9b6530fe" sha1="398433b98578a6b4b950afc4d6318916376e0760" region="sprtile" offset="2"/>
+		<rom name="005sp04a.117" size="8388608" crc="d4e422ce" sha1="9bfaa533ab3d014cdb0c535cf6952e01925cc30b" region="sprtile" offset="3"/>
+		<rom name="005sp05a.106" size="4194304" crc="d8b1fb26" sha1="7da767d8e817c52afc416ccfe8caf30f66c233ef" region="sprtile" offset="2000000"/>
+		<rom name="005sp06a.110" size="4194304" crc="87ed72a0" sha1="0d7db4dc9f15a0377a83f020ffbe81621ca77cff" region="sprtile" offset="2000001"/>
+		<rom name="005sp07a.114" size="4194304" crc="8eb3c173" sha1="d5763c19a3e2fd93f7784d957e7401c9152c40de" region="sprtile" offset="2000002"/>
+		<rom name="005sp08a.118" size="4194304" crc="05486fbc" sha1="747d9ae03ce999be4ab697753e93c90ea85b7d44" region="sprtile" offset="2000003"/>
+		<rom name="005tx01a.1" size="4194304" crc="05a4ceb7" sha1="2dfc46a70c0a957ed0931a4c4df90c341aafff70" region="textures0" offset="0"/>
+		<rom name="005tx02a.2" size="4194304" crc="b7094c69" sha1="aed9a624166f6f1a2eb4e746c61f9f46f1929283" region="textures0" offset="400000"/>
+		<rom name="005tx03a.3" size="4194304" crc="34764891" sha1="cd6ea663ae28b7f6ac1ede2f9922afbb35b915b4" region="textures0" offset="800000"/>
+		<rom name="005tx04a.4" size="4194304" crc="6be50882" sha1="1f99717cfa69076b258a0c52d66be007fd820374" region="textures0" offset="c00000"/>
+		<rom name="005tx01a.5" size="4194304" crc="05a4ceb7" sha1="2dfc46a70c0a957ed0931a4c4df90c341aafff70" region="textures1" offset="0"/>
+		<rom name="005tx02a.6" size="4194304" crc="b7094c69" sha1="aed9a624166f6f1a2eb4e746c61f9f46f1929283" region="textures1" offset="400000"/>
+		<rom name="005tx03a.7" size="4194304" crc="34764891" sha1="cd6ea663ae28b7f6ac1ede2f9922afbb35b915b4" region="textures1" offset="800000"/>
+		<rom name="005tx04a.8" size="4194304" crc="6be50882" sha1="1f99717cfa69076b258a0c52d66be007fd820374" region="textures1" offset="c00000"/>
+		<rom name="005tx01a.9" size="4194304" crc="05a4ceb7" sha1="2dfc46a70c0a957ed0931a4c4df90c341aafff70" region="textures2" offset="0"/>
+		<rom name="005tx02a.10" size="4194304" crc="b7094c69" sha1="aed9a624166f6f1a2eb4e746c61f9f46f1929283" region="textures2" offset="400000"/>
+		<rom name="005tx03a.11" size="4194304" crc="34764891" sha1="cd6ea663ae28b7f6ac1ede2f9922afbb35b915b4" region="textures2" offset="800000"/>
+		<rom name="005tx04a.12" size="4194304" crc="6be50882" sha1="1f99717cfa69076b258a0c52d66be007fd820374" region="textures2" offset="c00000"/>
+		<rom name="005tx01a.13" size="4194304" crc="05a4ceb7" sha1="2dfc46a70c0a957ed0931a4c4df90c341aafff70" region="textures3" offset="0"/>
+		<rom name="005tx02a.14" size="4194304" crc="b7094c69" sha1="aed9a624166f6f1a2eb4e746c61f9f46f1929283" region="textures3" offset="400000"/>
+		<rom name="005tx03a.15" size="4194304" crc="34764891" sha1="cd6ea663ae28b7f6ac1ede2f9922afbb35b915b4" region="textures3" offset="800000"/>
+		<rom name="005tx04a.16" size="4194304" crc="6be50882" sha1="1f99717cfa69076b258a0c52d66be007fd820374" region="textures3" offset="c00000"/>
+		<rom name="005vt01a.17" size="4194304" crc="48a61479" sha1="ef982b1ecc6dfca2ad989391afcc1b3d1e7fe652" region="verts" offset="0"/>
+		<rom name="005vt02a.18" size="4194304" crc="ba9100c8" sha1="f7704fb8e5310ea7d0e6ae6b8935717ec9119b6d" region="verts" offset="2"/>
+		<rom name="005vt03a.19" size="4194304" crc="f54a28de" sha1="c445cf7fee71a516065cf37e05b898208f48b17e" region="verts" offset="4"/>
+		<rom name="005vt04a.20" size="4194304" crc="57ad79c7" sha1="bc382317323c1f8a31b69ae3100d3bba6b5d0838" region="verts" offset="c00000"/>
+		<rom name="005vt05a.21" size="4194304" crc="49c82bec" sha1="09255279edb9a204bbe1cce8cef58d5c81e86d1f" region="verts" offset="c00002"/>
+		<rom name="005vt06a.22" size="4194304" crc="7ba05b6c" sha1="729c1d182d74998dd904b587a2405f55af9825e0" region="verts" offset="c00004"/>
+		<rom name="005sd01a.77" size="4194304" crc="8f68150f" sha1="a1e5efdfd1ed29f81e25c8da669851ddb7b0c826" region="l7a1045" offset="0"/>
+		<rom name="005sd02a.78" size="4194304" crc="6b4da6a0" sha1="8606c413c129635bdaaa37254edbfd19b10426bb" region="l7a1045" offset="400000"/>
+		<rom name="005sd03a.79" size="4194304" crc="a529fab3" sha1="8559d402c8f66f638590b8b57ec9efa775010c96" region="l7a1045" offset="800000"/>
+		<rom name="005sd04a.80" size="4194304" crc="dca95ead" sha1="39afdfba0e5262b524f25706a96be00e5d14548e" region="l7a1045" offset="c00000"/>
+		<device_ref tag=":maincpu" name="vr4300be"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":rtc" name="rtc62423"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":palette0" name="palette"/>
+		<device_ref tag=":palette1" name="palette"/>
+		<device_ref tag=":palette3d" name="palette"/>
+		<device_ref tag=":network" name="kl5c80a12"/>
+		<device_ref tag=":network:kp69" name="kp69"/>
+		<device_ref tag=":network:timera0" name="kp64"/>
+		<device_ref tag=":network:timera1" name="kp64"/>
+		<device_ref tag=":network:timerb" name="kp63_3channel"/>
+		<device_ref tag=":iomcu" name="tmp87ph40an"/>
+		<device_ref tag=":dt71321_dpram" name="idt71321"/>
+		<device_ref tag=":audiocpu" name="v53a"/>
+		<device_ref tag=":audiocpu:tcu" name="pit8254"/>
+		<device_ref tag=":audiocpu:tcu:counter0" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter1" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter2" name="pit_counter"/>
+		<device_ref tag=":audiocpu:dmau" name="v5x_dmau"/>
+		<device_ref tag=":audiocpu:icu" name="v5x_icu"/>
+		<device_ref tag=":audiocpu:scu" name="v5x_scu"/>
+		<device_ref tag=":audiocpu:brc_timer" name="timer"/>
+		<device_ref tag=":l7a1045" name="l7a1045"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":rear" name="speaker"/>
+		<device_ref tag=":subwoofer" name="speaker"/>
+		<device_ref tag=":lamps" name="hng64_lamps"/>
+		<chip type="cpu" tag="maincpu" name="NEC VR4300 (big)" clock="50000000"/>
+		<chip type="cpu" tag="network" name="Kawasaki Steel KL5C80A12" clock="12500000"/>
+		<chip type="cpu" tag="iomcu" name="Toshiba TMP87PH40AN" clock="8000000"/>
+		<chip type="cpu" tag="audiocpu" name="NEC V53A" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu:dmau" name="V5X DMAU" clock="8000000"/>
+		<chip type="audio" tag="l7a1045" name="L7A1045 L6028 DSP-A" clock="33868800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="rear" name="Speaker"/>
+		<chip type="audio" tag="subwoofer" name="Speaker"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="448" refresh="61.651673" pixclock="25000000" htotal="768" hbend="0" hbstart="512" vtotal="528" vbend="0" vbstart="448" />
+		<sound channels="3"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="4" ways="8"/>
+			<control type="joy" player="2" buttons="4" ways="8"/>
+		</input>
+		<port tag=":AN0">
+		</port>
+		<port tag=":AN1">
+		</port>
+		<port tag=":AN2">
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":AN4">
+		</port>
+		<port tag=":AN5">
+		</port>
+		<port tag=":AN6">
+		</port>
+		<port tag=":AN7">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<port tag=":VBLANK">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
 	</machine>
 	<machine name="samsh5sp" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Samurai Shodown V Special / Samurai Spirits Zero Special (NGM-2720)</description>
@@ -99478,6 +100270,144 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
+	<machine name="xrally" sourcefile="snk/hng64.cpp" romof="hng64">
+		<description>Xtreme Rally / Off Beat Racer!</description>
+		<year>1998</year>
+		<manufacturer>SNK</manufacturer>
+		<biosset name="japan" description="Japan"/>
+		<biosset name="us" description="USA"/>
+		<biosset name="export" description="Export" default="yes"/>
+		<biosset name="korea" description="Korea"/>
+		<rom name="brom1.bin" merge="brom1.bin" bios="japan" size="524288" crc="a30dd3de" sha1="3e2fd0a56214e6f5dcb93687e409af13d065ea30" region="bios" offset="0"/>
+		<rom name="bios_us.bin" merge="bios_us.bin" bios="us" size="524288" crc="ab5948d6" sha1="f8b940c1ae5ce2d3b2cd0c9bfaf6e5b063cec06e" region="bios" offset="0"/>
+		<rom name="bios_export.bin" merge="bios_export.bin" bios="export" size="524288" crc="bbf07ec6" sha1="5656aa077f6a6d43953f15b5123eea102a9d5313" region="bios" offset="0"/>
+		<rom name="bios_korea.bin" merge="bios_korea.bin" bios="korea" size="524288" crc="ac953e2e" sha1="f502188ef252b7c9d04934c4b525730a116de48b" region="bios" offset="0"/>
+		<rom name="from1.bin" merge="from1.bin" size="524288" crc="6b933005" sha1="e992747f46c48b66e5509fe0adf19c91250b00c7" region="comm" offset="0"/>
+		<rom name="rom1.bin" merge="rom1.bin" size="130866" crc="4a6832dc" sha1="ae504f7733c2f40450157cd1d3b85bc83fac8569" region="fpga" offset="0"/>
+		<rom name="tmp87ph40an.bin" merge="tmp87ph40an.bin" size="32768" crc="b70df21f" sha1="5b742e8a0bbf4c0ae4f4398d34c7058fb24acc92" region="iomcu" offset="8000"/>
+		<rom name="lvs-ioj-br9020f.u2" merge="lvs-ioj-br9020f.u2" size="256" crc="78b7020d" sha1="2b8549532ef5e1e8102dbe71af55fdfb27ccbba6" region="eeprom" offset="0"/>
+		<rom name="lvs-igx-br9020f.u3" merge="lvs-igx-br9020f.u3" size="256" crc="af9f4287" sha1="6df0e35c77dbfee2fab7ff490dcd651db420e367" region="eeprom" offset="0"/>
+		<rom name="lvs-jam-br9020f.u3" merge="lvs-jam-br9020f.u3" size="256" crc="dabec5d2" sha1="19c5be89c57387d6ea563b3dc55674d0692af98e" region="eeprom" offset="0"/>
+		<rom name="003-pr01a.81" size="4194304" crc="4e160388" sha1="08fba66d0f0dab47f7db5bc7d411f4fc0e8219c8" region="gameprg" offset="2"/>
+		<rom name="003-pr02a.82" size="4194304" crc="c4dd4f18" sha1="4db0e6d5cabd9e4f82d5905556174b9eff8ad4d9" region="gameprg" offset="0"/>
+		<rom name="003-sc01a.41" size="4194304" crc="bc608584" sha1="fa4b618eb36f302f58cefea7c50618a8318927d6" region="scrtile" offset="0"/>
+		<rom name="003-sc02a.42" size="4194304" crc="c810e9e2" sha1="4f0d35d9b0af2a4b66253e467c0d30a519c904b6" region="scrtile" offset="1"/>
+		<rom name="003-sc03a.43" size="4194304" crc="12724653" sha1="5e40947086883d64db84ac51a1b29efa2f173f58" region="scrtile" offset="800000"/>
+		<rom name="003-sc04a.44" size="4194304" crc="b0062c4d" sha1="73c75b59dc1463ad80f805191f4605a6b4b1c321" region="scrtile" offset="800001"/>
+		<rom name="003-sp01a.53" size="4194304" crc="12a329dc" sha1="00929f3c460cce5a3657dec73d467731e59de564" region="sprtile" offset="0"/>
+		<rom name="003-sp02a.54" size="4194304" crc="ee9e5338" sha1="681c2f34a2f292ce14fcbef4447ede7b949c7117" region="sprtile" offset="1"/>
+		<rom name="003-sp03a.55" size="4194304" crc="6fa8dff9" sha1="500bd128e6568e9491e52676775e9239adc332fe" region="sprtile" offset="2"/>
+		<rom name="003-sp04a.56" size="4194304" crc="a98eec07" sha1="de0c7db56b851daa369f37088bd536933372346f" region="sprtile" offset="3"/>
+		<rom name="003-tx01a.1" size="4194304" crc="83ea2178" sha1="931898f57564b8b9975e06df5ccfd8c84fc2fbe3" region="textures0" offset="0"/>
+		<rom name="003-tx02a.2" size="4194304" crc="7912f4be" sha1="bca44c1415a25f2349857b2246e3ee7abe709a84" region="textures0" offset="400000"/>
+		<rom name="003-tx03a.3" size="4194304" crc="a319c94e" sha1="14d720cdd8b9411fd82a7b4b33ee5dbfdd01c9f8" region="textures0" offset="800000"/>
+		<rom name="003-tx04a.4" size="4194304" crc="16d7805b" sha1="4cc7b2375832c2f9f20fe882e604a2a52bf07f6f" region="textures0" offset="c00000"/>
+		<rom name="003-tx01a.5" size="4194304" crc="83ea2178" sha1="931898f57564b8b9975e06df5ccfd8c84fc2fbe3" region="textures1" offset="0"/>
+		<rom name="003-tx02a.6" size="4194304" crc="7912f4be" sha1="bca44c1415a25f2349857b2246e3ee7abe709a84" region="textures1" offset="400000"/>
+		<rom name="003-tx03a.7" size="4194304" crc="a319c94e" sha1="14d720cdd8b9411fd82a7b4b33ee5dbfdd01c9f8" region="textures1" offset="800000"/>
+		<rom name="003-tx04a.8" size="4194304" crc="16d7805b" sha1="4cc7b2375832c2f9f20fe882e604a2a52bf07f6f" region="textures1" offset="c00000"/>
+		<rom name="003-tx01a.9" size="4194304" crc="83ea2178" sha1="931898f57564b8b9975e06df5ccfd8c84fc2fbe3" region="textures2" offset="0"/>
+		<rom name="003-tx02a.10" size="4194304" crc="7912f4be" sha1="bca44c1415a25f2349857b2246e3ee7abe709a84" region="textures2" offset="400000"/>
+		<rom name="003-tx03a.11" size="4194304" crc="a319c94e" sha1="14d720cdd8b9411fd82a7b4b33ee5dbfdd01c9f8" region="textures2" offset="800000"/>
+		<rom name="003-tx04a.12" size="4194304" crc="16d7805b" sha1="4cc7b2375832c2f9f20fe882e604a2a52bf07f6f" region="textures2" offset="c00000"/>
+		<rom name="003-tx01a.13" size="4194304" crc="83ea2178" sha1="931898f57564b8b9975e06df5ccfd8c84fc2fbe3" region="textures3" offset="0"/>
+		<rom name="003-tx02a.14" size="4194304" crc="7912f4be" sha1="bca44c1415a25f2349857b2246e3ee7abe709a84" region="textures3" offset="400000"/>
+		<rom name="003-tx03a.15" size="4194304" crc="a319c94e" sha1="14d720cdd8b9411fd82a7b4b33ee5dbfdd01c9f8" region="textures3" offset="800000"/>
+		<rom name="003-tx04a.16" size="4194304" crc="16d7805b" sha1="4cc7b2375832c2f9f20fe882e604a2a52bf07f6f" region="textures3" offset="c00000"/>
+		<rom name="003-vt01a.17" size="4194304" crc="3e5e275d" sha1="74f5ec88c258bc224e271f7abeb02d6485e27d8c" region="verts" offset="0"/>
+		<rom name="003-vt02a.18" size="4194304" crc="da7b956e" sha1="c57cbb8c51145ae224faba5b6a1a7e61cb2bee64" region="verts" offset="2"/>
+		<rom name="003-vt03a.19" size="4194304" crc="4fe72cb7" sha1="9f8e662f0656f201924834d1ee78498d4223745e" region="verts" offset="4"/>
+		<rom name="003-sd01a.77" size="4194304" crc="c43898ff" sha1="0e49b87181b56c62a674d255d326f761942b99b1" region="l7a1045" offset="0"/>
+		<rom name="003-sd02a.78" size="4194304" crc="079a3d5a" sha1="a97b052de69fee7d605cae30f5a228e6ffeabb26" region="l7a1045" offset="400000"/>
+		<rom name="003-sd03a.79" size="4194304" crc="96c0991a" sha1="01be872b3e307258236fe96a544417dd8a0bc8bd" region="l7a1045" offset="800000"/>
+		<device_ref tag=":maincpu" name="vr4300be"/>
+		<device_ref tag=":scantimer" name="timer"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":rtc" name="rtc62423"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":palette0" name="palette"/>
+		<device_ref tag=":palette1" name="palette"/>
+		<device_ref tag=":palette3d" name="palette"/>
+		<device_ref tag=":network" name="kl5c80a12"/>
+		<device_ref tag=":network:kp69" name="kp69"/>
+		<device_ref tag=":network:timera0" name="kp64"/>
+		<device_ref tag=":network:timera1" name="kp64"/>
+		<device_ref tag=":network:timerb" name="kp63_3channel"/>
+		<device_ref tag=":iomcu" name="tmp87ph40an"/>
+		<device_ref tag=":dt71321_dpram" name="idt71321"/>
+		<device_ref tag=":audiocpu" name="v53a"/>
+		<device_ref tag=":audiocpu:tcu" name="pit8254"/>
+		<device_ref tag=":audiocpu:tcu:counter0" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter1" name="pit_counter"/>
+		<device_ref tag=":audiocpu:tcu:counter2" name="pit_counter"/>
+		<device_ref tag=":audiocpu:dmau" name="v5x_dmau"/>
+		<device_ref tag=":audiocpu:icu" name="v5x_icu"/>
+		<device_ref tag=":audiocpu:scu" name="v5x_scu"/>
+		<device_ref tag=":audiocpu:brc_timer" name="timer"/>
+		<device_ref tag=":l7a1045" name="l7a1045"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":rear" name="speaker"/>
+		<device_ref tag=":subwoofer" name="speaker"/>
+		<device_ref tag=":lamps" name="hng64_lamps"/>
+		<chip type="cpu" tag="maincpu" name="NEC VR4300 (big)" clock="50000000"/>
+		<chip type="cpu" tag="network" name="Kawasaki Steel KL5C80A12" clock="12500000"/>
+		<chip type="cpu" tag="iomcu" name="Toshiba TMP87PH40AN" clock="8000000"/>
+		<chip type="cpu" tag="audiocpu" name="NEC V53A" clock="32000000"/>
+		<chip type="cpu" tag="audiocpu:dmau" name="V5X DMAU" clock="8000000"/>
+		<chip type="audio" tag="l7a1045" name="L7A1045 L6028 DSP-A" clock="33868800"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="rear" name="Speaker"/>
+		<chip type="audio" tag="subwoofer" name="Speaker"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="448" refresh="61.651673" pixclock="25000000" htotal="768" hbend="0" hbstart="512" vtotal="528" vbend="0" vbstart="448" />
+		<sound channels="3"/>
+		<input players="1" coins="2" service="yes">
+			<control type="paddle" buttons="8" minimum="0" maximum="255" sensitivity="30" keydelta="60"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="50" keydelta="60"/>
+		</input>
+		<port tag=":AN0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN3">
+		</port>
+		<port tag=":AN4">
+		</port>
+		<port tag=":AN5">
+		</port>
+		<port tag=":AN6">
+		</port>
+		<port tag=":AN7">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":IN2">
+		</port>
+		<port tag=":IN3">
+		</port>
+		<port tag=":IN4">
+		</port>
+		<port tag=":IN5">
+		</port>
+		<port tag=":IN6">
+		</port>
+		<port tag=":IN7">
+		</port>
+		<port tag=":VBLANK">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" status="imperfect"/>
+		<feature type="lan" status="unemulated"/>
+	</machine>
 	<machine name="xtrial" sourcefile="konami/viper.cpp" romof="kviper">
 		<description>Xtrial Racing (ver JAB)</description>
 		<year>2002</year>
@@ -101770,6 +102700,9 @@
 	<machine name="heath_tlb_connector" sourcefile="devices/bus/heathzenith/h19/tlb.cpp" isdevice="yes" runnable="no">
 		<description>Heath Terminal Logic board connector abstraction</description>
 	</machine>
+	<machine name="hng64_lamps" sourcefile="snk/hng64.cpp" isdevice="yes" runnable="no">
+		<description>HNG64 Lamps</description>
+	</machine>
 	<machine name="i386" sourcefile="devices/cpu/i386/i386.cpp" isdevice="yes" runnable="no">
 		<description>Intel I386</description>
 	</machine>
@@ -101866,6 +102799,9 @@
 			<extension name="2mg"/>
 			<extension name="hdi"/>
 		</device>
+	</machine>
+	<machine name="idt71321" sourcefile="devices/machine/mb8421.cpp" isdevice="yes" runnable="no">
+		<description>IDT 71321 8-bit Dual-Port SRAM with Interrupts</description>
 	</machine>
 	<machine name="idt7201" sourcefile="devices/machine/7200fifo.cpp" isdevice="yes" runnable="no">
 		<description>IDT7201 FIFO (512x9)</description>
@@ -102176,6 +103112,13 @@
 	<machine name="keycus_c430" sourcefile="namco/ns11prot.cpp" isdevice="yes" runnable="no">
 		<description>Namco C430 KEYCUS</description>
 	</machine>
+	<machine name="kl5c80a12" sourcefile="devices/cpu/z80/kl5c80a12.cpp" isdevice="yes" runnable="no">
+		<description>Kawasaki Steel KL5C80A12</description>
+		<device_ref tag=":_tmp:kp69" name="kp69"/>
+		<device_ref tag=":_tmp:timera0" name="kp64"/>
+		<device_ref tag=":_tmp:timera1" name="kp64"/>
+		<device_ref tag=":_tmp:timerb" name="kp63_3channel"/>
+	</machine>
 	<machine name="konami1" sourcefile="konami/konami1.cpp" isdevice="yes" runnable="no">
 		<description>KONAMI-1</description>
 	</machine>
@@ -102202,6 +103145,19 @@
 	</machine>
 	<machine name="konppc_jvs_host" sourcefile="konami/konppc_jvshost.cpp" isdevice="yes" runnable="no">
 		<description>Konami JVS Host (PowerPC Common)</description>
+	</machine>
+	<machine name="kp63_3channel" sourcefile="devices/cpu/z80/kp63.cpp" isdevice="yes" runnable="no">
+		<description>Kawasaki Steel KP63 Timer/Counter (3 channels)</description>
+	</machine>
+	<machine name="kp64" sourcefile="devices/cpu/z80/kp64.cpp" isdevice="yes" runnable="no">
+		<description>Kawasaki Steel KP64 Timer/Counter</description>
+	</machine>
+	<machine name="kp69" sourcefile="devices/cpu/z80/kp69.cpp" isdevice="yes" runnable="no">
+		<description>Kawasaki Steel KP69 Interrupt Controller</description>
+	</machine>
+	<machine name="l7a1045" sourcefile="devices/sound/l7a1045_l6028_dsp_a.cpp" isdevice="yes" runnable="no">
+		<description>L7A1045 L6028 DSP-A</description>
+		<sound channels="0"/>
 	</machine>
 	<machine name="latch8" sourcefile="devices/machine/latch8.cpp" isdevice="yes" runnable="no">
 		<description>8-bit latch</description>
@@ -105208,6 +106164,9 @@
 	<machine name="rtc4543" sourcefile="devices/machine/rtc4543.cpp" isdevice="yes" runnable="no">
 		<description>Epson R4543 RTC</description>
 	</machine>
+	<machine name="rtc62423" sourcefile="devices/machine/msm6242.cpp" isdevice="yes" runnable="no">
+		<description>Epson RTC-62423 RTC</description>
+	</machine>
 	<machine name="rtc72421" sourcefile="devices/machine/msm6242.cpp" isdevice="yes" runnable="no">
 		<description>Epson RTC-72421 RTC</description>
 	</machine>
@@ -106800,6 +107759,9 @@
 	<machine name="tmp68301" sourcefile="devices/cpu/m68000/tmp68301.cpp" isdevice="yes" runnable="no">
 		<description>Toshiba TMP68301</description>
 	</machine>
+	<machine name="tmp87ph40an" sourcefile="devices/cpu/tlcs870/tlcs870.cpp" isdevice="yes" runnable="no">
+		<description>Toshiba TMP87PH40AN</description>
+	</machine>
 	<machine name="tmp90840" sourcefile="devices/cpu/tlcs90/tlcs90.cpp" isdevice="yes" runnable="no">
 		<description>Toshiba TMP90840</description>
 	</machine>
@@ -106926,6 +107888,27 @@
 	<machine name="v35" sourcefile="devices/cpu/nec/v25.cpp" isdevice="yes" runnable="no">
 		<description>NEC V35</description>
 	</machine>
+	<machine name="v53a" sourcefile="devices/cpu/nec/v5x.cpp" isdevice="yes" runnable="no">
+		<description>NEC V53A</description>
+		<device_ref tag=":_tmp:tcu" name="pit8254"/>
+		<device_ref tag=":_tmp:tcu:counter0" name="pit_counter"/>
+		<device_ref tag=":_tmp:tcu:counter1" name="pit_counter"/>
+		<device_ref tag=":_tmp:tcu:counter2" name="pit_counter"/>
+		<device_ref tag=":_tmp:dmau" name="v5x_dmau"/>
+		<device_ref tag=":_tmp:icu" name="v5x_icu"/>
+		<device_ref tag=":_tmp:scu" name="v5x_scu"/>
+		<device_ref tag=":_tmp:brc_timer" name="timer"/>
+		<chip type="cpu" tag=":dmau" name="V5X DMAU" clock="0"/>
+	</machine>
+	<machine name="v5x_dmau" sourcefile="devices/machine/am9517a.cpp" isdevice="yes" runnable="no">
+		<description>V5X DMAU</description>
+	</machine>
+	<machine name="v5x_icu" sourcefile="devices/machine/pic8259.cpp" isdevice="yes" runnable="no">
+		<description>NEC V5X ICU</description>
+	</machine>
+	<machine name="v5x_scu" sourcefile="devices/machine/i8251.cpp" isdevice="yes" runnable="no">
+		<description>NEC V5X SCU</description>
+	</machine>
 	<machine name="v60" sourcefile="devices/cpu/v60/v60.cpp" isdevice="yes" runnable="no">
 		<description>NEC V60</description>
 	</machine>
@@ -106988,6 +107971,9 @@
 		<description>Votrax SC-01-A</description>
 		<rom name="sc01a.bin" size="512" crc="fc416227" sha1="1d6da90b1807a01b5e186ef08476119a862b5e6d" region="internal" offset="0"/>
 		<sound channels="0"/>
+	</machine>
+	<machine name="vr4300be" sourcefile="devices/cpu/mips/mips3.cpp" isdevice="yes" runnable="no">
+		<description>NEC VR4300 (big)</description>
 	</machine>
 	<machine name="vrc5074" sourcefile="devices/machine/vrc5074.cpp" isdevice="yes" runnable="no">
 		<description>NEC VRC5074 System Controller</description>
