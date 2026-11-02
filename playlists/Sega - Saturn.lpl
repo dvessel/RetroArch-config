@@ -84,6 +84,14 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Chou Aniki - Kyuukyoku... Otoko no Gyakushuu (Japan).chd",
+      "label": "Chou Aniki - Kyuukyoku... Otoko no Gyakushuu (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-2503G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sega Saturn/Christmas Nights into Dreams... (USA).chd",
       "label": "Christmas Nights into Dreams... (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
@@ -129,6 +137,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
       "core_name": "Sega - Saturn (Beetle Saturn)",
       "crc32": "T-5712G|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Gekirindan (Japan).chd",
+      "label": "Gekirindan (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-7008G|serial",
       "db_name": "Sega - Saturn.lpl"
     },
     {
