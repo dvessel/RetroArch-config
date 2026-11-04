@@ -5314,6 +5314,52 @@
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
+	<machine name="asterix" sourcefile="konami/asterix.cpp">
+		<description>Asterix (ver EAD)</description>
+		<year>1992</year>
+		<manufacturer>Konami</manufacturer>
+		<rom name="068_ea_d01.8c" size="131072" crc="61d6621d" sha1="908a344e9bbce0c7544bd049494258d1d3ad073b" region="maincpu" offset="0"/>
+		<rom name="068_ea_d02.8d" size="131072" crc="53aac057" sha1="7401ca5b70f384688c3353fc1ac9ef0b27814c66" region="maincpu" offset="1"/>
+		<rom name="068a03.7c" size="131072" crc="8223ebdc" sha1="e4aa39e4bc1d210bdda5b0cb41d6c8006c48dd24" region="maincpu" offset="80000"/>
+		<rom name="068a04.7d" size="131072" crc="9f351828" sha1="e03842418f08e6267eeea03362450da249af73be" region="maincpu" offset="80001"/>
+		<rom name="068_a05.5f" size="65536" crc="d3d0d77b" sha1="bfa77a8bf651dc27f481e96a2d63242084cc214c" region="audiocpu" offset="0"/>
+		<rom name="068a12.16k" size="524288" crc="b9da8e9c" sha1="a46878916833923e421da0667e37620ae0b77744" region="k056832" offset="0"/>
+		<rom name="068a11.12k" size="524288" crc="7eb07a81" sha1="672c0c60834df7816d33d88643e4575b8ca9bcc1" region="k056832" offset="2"/>
+		<rom name="068a08.7k" size="2097152" crc="c41278fe" sha1="58e5f67a67ae97e0b264489828cd7e74662c5ed5" region="k053244" offset="0"/>
+		<rom name="068a07.3k" size="2097152" crc="32efdbc4" sha1="b7e8610aa22249176d82b750e2549d1eea6abe4f" region="k053244" offset="2"/>
+		<rom name="068a06.1e" size="2097152" crc="6df9ec0e" sha1="cee60312e9813bd6579f3ac7c3c2521a8e633eca" region="k053260" offset="0"/>
+		<rom name="asterix.nv" size="128" crc="490085c8" sha1="2a79e7c79db4b4fb0e6a7249cfd6a57e74b170e3" region="eeprom" offset="0"/>
+		<device_ref tag=":maincpu" name="m68000"/>
+		<device_ref tag=":audiocpu" name="z80"/>
+		<device_ref tag=":eeprom" name="er5911_8"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":k056832" name="k056832"/>
+		<device_ref tag=":k053244" name="k053244"/>
+		<device_ref tag=":k053251" name="k053251"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":ymsnd" name="ym2151"/>
+		<device_ref tag=":k053260" name="k053260"/>
+		<chip type="cpu" tag="maincpu" name="Motorola MC68000" clock="12000000"/>
+		<chip type="cpu" tag="audiocpu" name="Zilog Z80" clock="6000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4000000"/>
+		<chip type="audio" tag="k053260" name="Konami 053260 KDSC" clock="4000000"/>
+		<display tag="screen" type="raster" rotate="0" width="288" height="224" refresh="59.637405" pixclock="6000000" htotal="384" hbend="16" hbstart="304" vtotal="262" vbend="16" vbstart="240" />
+		<sound channels="1"/>
+		<input players="2" coins="2" service="yes">
+			<control type="joy" player="1" buttons="2" ways="8"/>
+			<control type="joy" player="2" buttons="2" ways="8"/>
+		</input>
+		<port tag=":EEPROMOUT">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="supported"/>
+		<feature type="graphics" status="imperfect"/>
+	</machine>
 	<machine name="asteroid" sourcefile="atari/asteroid.cpp">
 		<description>Asteroids (rev 4)</description>
 		<year>1979</year>
@@ -49013,6 +49059,84 @@
 		<driver status="imperfect" emulation="good" savestate="unsupported"/>
 		<feature type="timing" status="imperfect"/>
 	</machine>
+	<machine name="moomesa" sourcefile="konami/moo.cpp">
+		<description>Wild West C.O.W.-Boys of Moo Mesa (ver EAB)</description>
+		<year>1992</year>
+		<manufacturer>Konami</manufacturer>
+		<rom name="151b01.q5" size="262144" crc="fb2fa298" sha1="f03b24681a2b329ba797fd2780ac9a3cf862ebcb" region="maincpu" offset="0"/>
+		<rom name="151eab02.q6" size="262144" crc="37b30c01" sha1="cb91739097a4a36f8f8d92998d822ffc851e1279" region="maincpu" offset="1"/>
+		<rom name="151a03.t5" size="262144" crc="c896d3ea" sha1="ea83c63e2c3dbc4f1e1d49f1852a78ffc1f0ea4b" region="maincpu" offset="100000"/>
+		<rom name="151a04.t6" size="262144" crc="3b24706a" sha1="c2a77944284e35ff57f0774fa7b67e53d3b63e1f" region="maincpu" offset="100001"/>
+		<rom name="151a07.f5" size="262144" crc="cde247fc" sha1="cdee0228db55d53ae43d7cd2d9001dadd20c2c61" region="soundcpu" offset="0"/>
+		<rom name="151a05.t8" size="1048576" crc="bc616249" sha1="58c1f1a03ce9bead8f79d12ce4b2d342432b24b5" region="k056832" offset="0"/>
+		<rom name="151a06.t10" size="1048576" crc="38dbcac1" sha1="c357779733921695b20ac586db5b475f5b2b8f4c" region="k056832" offset="2"/>
+		<rom name="151a10.b8" size="2097152" crc="376c64f1" sha1="eb69c5a27f9795e28f04a503955132f0a9e4de12" region="k053246" offset="0"/>
+		<rom name="151a11.a8" size="2097152" crc="e7f49225" sha1="1255b214f29b6507540dad5892c60a7ae2aafc5c" region="k053246" offset="2"/>
+		<rom name="151a12.b10" size="2097152" crc="4978555f" sha1="d9871f21d0c8a512b408e137e2e80e9392c2bf6f" region="k053246" offset="4"/>
+		<rom name="151a13.a10" size="2097152" crc="4771f525" sha1="218d86b6230919b5db0304dac00513eb6b27ba9a" region="k053246" offset="6"/>
+		<rom name="151a08.b6" size="2097152" crc="962251d7" sha1="32dccf515d2ca8eeffb45cada3dcc60089991b77" region="k054539" offset="0"/>
+		<rom name="moomesa.nv" size="128" crc="7bd904a8" sha1="8747c5c62d1832e290be8ace73c61b1f228c0bec" region="eeprom" offset="0"/>
+		<device_ref tag=":maincpu" name="m68000"/>
+		<device_ref tag=":soundcpu" name="z80"/>
+		<device_ref tag=":eeprom" name="er5911_8"/>
+		<device_ref tag=":k053252" name="k053252"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":k053246" name="k053247"/>
+		<device_ref tag=":k056832" name="k056832"/>
+		<device_ref tag=":k053251" name="k053251"/>
+		<device_ref tag=":k054338" name="k054338"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":k054321" name="k054321"/>
+		<device_ref tag=":k054321:soundlatch0" name="generic_latch_8"/>
+		<device_ref tag=":k054321:soundlatch1" name="generic_latch_8"/>
+		<device_ref tag=":k054321:soundlatch2" name="generic_latch_8"/>
+		<device_ref tag=":ymsnd" name="ym2151"/>
+		<device_ref tag=":k054539" name="k054539"/>
+		<chip type="cpu" tag="maincpu" name="Motorola MC68000" clock="16000000"/>
+		<chip type="cpu" tag="soundcpu" name="Zilog Z80" clock="8000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="ymsnd" name="YM2151 OPM" clock="4000000"/>
+		<chip type="audio" tag="k054539" name="Konami 054539 ADPCM" clock="18432000"/>
+		<display tag="screen" type="raster" rotate="0" width="384" height="224" refresh="60.000000" />
+		<sound channels="1"/>
+		<input players="4" coins="4" service="yes">
+			<control type="joy" player="1" buttons="2" ways="8"/>
+			<control type="joy" player="2" buttons="2" ways="8"/>
+			<control type="joy" player="3" buttons="2" ways="8"/>
+			<control type="joy" player="4" buttons="2" ways="8"/>
+		</input>
+		<dipswitch name="Sound Output" tag="IN1" mask="16">
+			<diplocation name="SW1" number="1"/>
+			<dipvalue name="Mono" value="16"/>
+			<dipvalue name="Stereo" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Coin Mechanism" tag="IN1" mask="32">
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="Common" value="32" default="yes"/>
+			<dipvalue name="Independent" value="0"/>
+		</dipswitch>
+		<dipswitch name="Number of Players" tag="IN1" mask="192">
+			<diplocation name="SW1" number="3"/>
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="2" value="192"/>
+			<dipvalue name="3" value="64"/>
+			<dipvalue name="4" value="128" default="yes"/>
+		</dipswitch>
+		<port tag=":EEPROMOUT">
+		</port>
+		<port tag=":IN0">
+		</port>
+		<port tag=":IN1">
+		</port>
+		<port tag=":P1_P3">
+		</port>
+		<port tag=":P2_P4">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="supported"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" overall="imperfect"/>
+	</machine>
 	<machine name="mooncrst" sourcefile="galaxian/galaxian.cpp">
 		<description>Moon Cresta (Nichibutsu)</description>
 		<year>1980</year>
@@ -68913,6 +69037,149 @@
 		</port>
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="sound" overall="imperfect"/>
+	</machine>
+	<machine name="rollerg" sourcefile="konami/rollerg.cpp">
+		<description>Rollergames (US)</description>
+		<year>1991</year>
+		<manufacturer>Konami</manufacturer>
+		<rom name="999m02.g7" size="131072" crc="3df8db93" sha1="10c46d53d11b12b8f7cc6417601baef4638c1efe" region="maincpu" offset="0"/>
+		<rom name="999m01.e11" size="32768" crc="1fcfb22f" sha1="ef058a7de6ba7cf310b91975345113acc6078f8a" region="audiocpu" offset="0"/>
+		<rom name="999h06.k2" size="1048576" crc="eda05130" sha1="b52073a4a4651035d5f1e112601ceb2d004b2143" region="k053244" offset="0"/>
+		<rom name="999h05.k8" size="1048576" crc="5f321c7d" sha1="d60a3480891b83ac109f2fecfe2b958bac310c15" region="k053244" offset="2"/>
+		<rom name="999h03.d23" size="262144" crc="ea1edbd2" sha1="a17d19f873384287e1e47222d46274e7408b40d4" region="k051316" offset="0"/>
+		<rom name="999h04.f23" size="262144" crc="c1a35355" sha1="615606d30500a8f2be19171893e985b085fff2fc" region="k051316" offset="40000"/>
+		<rom name="999h09.c5" size="524288" crc="c5188783" sha1="d9ab69e4197ba2b42e3b0bb713236c8037fc2ab3" region="k053260" offset="0"/>
+		<device_ref tag=":maincpu" name="konami_cpu"/>
+		<device_ref tag=":audiocpu" name="z80"/>
+		<device_ref tag=":watchdog" name="watchdog"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":k053244" name="k053244"/>
+		<device_ref tag=":k051316" name="k051316"/>
+		<device_ref tag=":k053252" name="k053252"/>
+		<device_ref tag=":mono" name="speaker"/>
+		<device_ref tag=":ymsnd" name="ym3812"/>
+		<device_ref tag=":k053260" name="k053260"/>
+		<chip type="cpu" tag="maincpu" name="KONAMI CPU" clock="12000000"/>
+		<chip type="cpu" tag="audiocpu" name="Zilog Z80" clock="3579545"/>
+		<chip type="audio" tag="mono" name="Speaker"/>
+		<chip type="audio" tag="ymsnd" name="YM3812 OPL2" clock="3579545"/>
+		<chip type="audio" tag="k053260" name="Konami 053260 KDSC" clock="3579545"/>
+		<display tag="screen" type="raster" rotate="0" width="288" height="224" refresh="59.185606" pixclock="6000000" htotal="384" hbend="16" hbstart="304" vtotal="264" vbend="16" vbstart="240" />
+		<sound channels="1"/>
+		<input players="2" coins="2">
+			<control type="joy" player="1" buttons="2" ways="8"/>
+			<control type="joy" player="2" buttons="2" ways="8"/>
+		</input>
+		<dipswitch name="Coin A" tag="DSW1" mask="15">
+			<diplocation name="SW1" number="1"/>
+			<diplocation name="SW1" number="2"/>
+			<diplocation name="SW1" number="3"/>
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="4 Coins/1 Credit" value="2"/>
+			<dipvalue name="3 Coins/1 Credit" value="5"/>
+			<dipvalue name="2 Coins/1 Credit" value="8"/>
+			<dipvalue name="3 Coins/2 Credits" value="4"/>
+			<dipvalue name="4 Coins/3 Credits" value="1"/>
+			<dipvalue name="1 Coin/1 Credit" value="15" default="yes"/>
+			<dipvalue name="3 Coins/4 Credits" value="3"/>
+			<dipvalue name="2 Coins/3 Credits" value="7"/>
+			<dipvalue name="1 Coin/2 Credits" value="14"/>
+			<dipvalue name="2 Coins/5 Credits" value="6"/>
+			<dipvalue name="1 Coin/3 Credits" value="13"/>
+			<dipvalue name="1 Coin/4 Credits" value="12"/>
+			<dipvalue name="1 Coin/5 Credits" value="11"/>
+			<dipvalue name="1 Coin/6 Credits" value="10"/>
+			<dipvalue name="1 Coin/7 Credits" value="9"/>
+			<dipvalue name="Free Play" value="0"/>
+		</dipswitch>
+		<dipswitch name="Coin B" tag="DSW1" mask="240">
+			<diplocation name="SW1" number="5"/>
+			<diplocation name="SW1" number="6"/>
+			<diplocation name="SW1" number="7"/>
+			<diplocation name="SW1" number="8"/>
+			<dipvalue name="4 Coins/1 Credit" value="32"/>
+			<dipvalue name="3 Coins/1 Credit" value="80"/>
+			<dipvalue name="2 Coins/1 Credit" value="128"/>
+			<dipvalue name="3 Coins/2 Credits" value="64"/>
+			<dipvalue name="4 Coins/3 Credits" value="16"/>
+			<dipvalue name="1 Coin/1 Credit" value="240" default="yes"/>
+			<dipvalue name="3 Coins/4 Credits" value="48"/>
+			<dipvalue name="2 Coins/3 Credits" value="112"/>
+			<dipvalue name="1 Coin/2 Credits" value="224"/>
+			<dipvalue name="2 Coins/5 Credits" value="96"/>
+			<dipvalue name="1 Coin/3 Credits" value="208"/>
+			<dipvalue name="1 Coin/4 Credits" value="192"/>
+			<dipvalue name="1 Coin/5 Credits" value="176"/>
+			<dipvalue name="1 Coin/6 Credits" value="160"/>
+			<dipvalue name="1 Coin/7 Credits" value="144"/>
+			<dipvalue name="No Credits" value="0"/>
+		</dipswitch>
+		<dipswitch name="Lives" tag="DSW2" mask="3">
+			<diplocation name="SW2" number="1"/>
+			<diplocation name="SW2" number="2"/>
+			<dipvalue name="1" value="3"/>
+			<dipvalue name="2" value="2"/>
+			<dipvalue name="3" value="1" default="yes"/>
+			<dipvalue name="5" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW2" mask="4">
+			<diplocation name="SW2" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Bonus Energy" tag="DSW2" mask="24">
+			<diplocation name="SW2" number="4"/>
+			<diplocation name="SW2" number="5"/>
+			<dipvalue name="1/2 for Stage Winner" value="0"/>
+			<dipvalue name="1/4 for Stage Winner" value="8"/>
+			<dipvalue name="1/4 for Cycle Winner" value="16" default="yes"/>
+			<dipvalue name="None" value="24"/>
+		</dipswitch>
+		<dipswitch name="Difficulty" tag="DSW2" mask="96">
+			<diplocation name="SW2" number="6"/>
+			<diplocation name="SW2" number="7"/>
+			<dipvalue name="Easy" value="96"/>
+			<dipvalue name="Normal" value="64" default="yes"/>
+			<dipvalue name="Hard" value="32"/>
+			<dipvalue name="Hardest" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo Sounds" tag="DSW2" mask="128">
+			<diplocation name="SW2" number="8"/>
+			<dipvalue name="Off" value="128"/>
+			<dipvalue name="On" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Flip Screen" tag="DSW3" mask="1">
+			<diplocation name="SW3" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW3" mask="2">
+			<diplocation name="SW3" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Service Mode" tag="DSW3" mask="4">
+			<diplocation name="SW3" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW3" mask="8">
+			<diplocation name="SW3" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":DSW1">
+		</port>
+		<port tag=":DSW2">
+		</port>
+		<port tag=":DSW3">
+		</port>
+		<port tag=":P1">
+		</port>
+		<port tag=":P2">
+		</port>
+		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
 	<machine name="rotd" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>Rage of the Dragons (NGM-2640?)</description>
@@ -103033,6 +103300,9 @@
 	<machine name="k037122" sourcefile="konami/k037122.cpp" isdevice="yes" runnable="no">
 		<description>Konami 037122 2D Tilemap</description>
 		<feature type="graphics" status="imperfect"/>
+	</machine>
+	<machine name="k051316" sourcefile="devices/video/k051316.cpp" isdevice="yes" runnable="no">
+		<description>Konami 051316 PSAC</description>
 	</machine>
 	<machine name="k051960" sourcefile="konami/k051960.cpp" isdevice="yes" runnable="no">
 		<description>Konami 051960 Sprite Generator</description>
