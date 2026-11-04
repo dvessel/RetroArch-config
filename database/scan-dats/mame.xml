@@ -44400,6 +44400,115 @@
 			<extension name="hdi"/>
 		</device>
 	</machine>
+	<machine name="landgear" sourcefile="taito/taitojc.cpp">
+		<description>Landing Gear (Ver 4.2 O)</description>
+		<year>1995</year>
+		<manufacturer>Taito</manufacturer>
+		<rom name="e17-37.ic36" size="524288" crc="e6dda113" sha1="786cbfae420b6ee820a93731e59da3442245b6b8" region="maincpu" offset="0"/>
+		<rom name="e17-38.ic37" size="524288" crc="86fa29bd" sha1="f711528143c042cdc4a26d9e6965a882a73f397c" region="maincpu" offset="1"/>
+		<rom name="e17-39.ic38" size="524288" crc="ccbbcc7b" sha1="52d91fcaa1683d2679ed4f14ebc11dc487527898" region="maincpu" offset="2"/>
+		<rom name="e17-40.ic39" size="524288" crc="ce9231d2" sha1="d2c3955d910dbd0cac95862047c58791af626722" region="maincpu" offset="3"/>
+		<rom name="e17-21.ic30" size="262144" crc="8b54f46c" sha1="c6d16197ab7768945becf9b49b6d286113b4d1cc" region="taito_en:audiocpu" offset="100001"/>
+		<rom name="e17-22.ic31" size="262144" crc="b96f6cd7" sha1="0bf086e5dc6d524cd00e33df3e3d2a8b9231eb72" region="taito_en:audiocpu" offset="100000"/>
+		<rom name="e07-11.ic29" size="16384" status="nodump" region="dsp" offset="0"/>
+		<rom name="e17-23.ic65" size="65536" crc="80ac1428" sha1="5a2a1e60a11ecdb8743c20ddacfb61f9fd00f01c" region="sub" offset="0"/>
+		<rom name="e17-03.ic9" size="2097152" crc="64820c4f" sha1="ee18e4e2b01ec21c33ec1f0eb43f6d0cd48d7225" region="maingfx" offset="800000"/>
+		<rom name="e17-09.ic22" size="2097152" crc="19e9a1d1" sha1="26f1a91e3757da510d685a11add08e3e00317796" region="maingfx" offset="800002"/>
+		<rom name="e17-04.ic10" size="2097152" crc="7dc2cae3" sha1="90638a1efc353428ce4155ca29f67accaf0499cd" region="maingfx" offset="c00000"/>
+		<rom name="e17-10.ic23" size="2097152" crc="a6bdf6b8" sha1="e8d76d38f2c7e428a3c2f555571e314351d74a69" region="maingfx" offset="c00002"/>
+		<rom name="e17-05.ic11" size="2097152" crc="3f70acd4" sha1="e8c1c6214631e3e39d1fc9df13d1862442a47e5d" region="maingfx" offset="1000000"/>
+		<rom name="e17-11.ic24" size="2097152" crc="4e986d93" sha1="b218a0360c1d0eca5a907f2b402f352e0329fe41" region="maingfx" offset="1000002"/>
+		<rom name="e17-06.ic12" size="2097152" crc="107ff481" sha1="2a48cedec9641ff08776e5d8b1bf1f5b250d4179" region="maingfx" offset="1400000"/>
+		<rom name="e17-12.ic25" size="2097152" crc="0727ddfa" sha1="68bf83a3c46cd042a7ad27a530c8bed6360d8492" region="maingfx" offset="1400002"/>
+		<rom name="e17-01.ic5" size="2097152" crc="42aa56a6" sha1="945c338515ceb946c01480919546869bb8c3d323" region="dspgfx" offset="0"/>
+		<rom name="e17-02.ic8" size="2097152" crc="df7e2405" sha1="684d6fc398791c48101e6cb63acbf0d691ed863c" region="dspgfx" offset="600000"/>
+		<rom name="e17-07.ic18" size="2097152" crc="0f180eb0" sha1="5e1dd920f110a62a029bace6f4cb80fee0fdaf03" region="dspgfx" offset="800000"/>
+		<rom name="e17-08.ic19" size="2097152" crc="3107e154" sha1="59a99770c2aa535cac6569f41b03be1554e0e800" region="dspgfx" offset="a00000"/>
+		<rom name="e17-13.ic32" size="2097152" crc="6cf238e7" sha1="0745d2dcfea26178adde3ad08650156e8e30651f" region="taito_en:ensoniq" offset="0"/>
+		<rom name="e17-14.ic33" size="2097152" crc="5efec311" sha1="f253bc40f2567f59ddfb617fddb8b9a389bfac89" region="taito_en:ensoniq" offset="400000"/>
+		<rom name="e17-15.ic34" size="2097152" crc="41d7a7d0" sha1="f5a8b79c1d47611e93d46aaf921107b52090bb5f" region="taito_en:ensoniq" offset="800000"/>
+		<rom name="e17-16.ic35" size="2097152" crc="6cf9f277" sha1="03ca51fadc6b0b6502804346f18eeb55ab87b0e7" region="taito_en:ensoniq" offset="c00000"/>
+		<rom name="e07-02.ic4" size="2988" crc="b10110e0" sha1="574dfa70cbdc910973f4b47a9534f22839baf76d" region="pals" offset="0"/>
+		<rom name="e07-03.ic50" size="2988" crc="3fe03710" sha1="bbccddea0cccb50ea361721e51a0489f6686312c" region="pals" offset="0"/>
+		<rom name="e07-04.ic115" size="2988" crc="6c83e648" sha1="7ed4001d8f27933b31c09d98421dac5bdc265ff4" region="pals" offset="0"/>
+		<rom name="e07-05.ic22" size="2988" crc="d2530a9d" sha1="2f5cafe9ac4e5b3121981dc7498a82b54b2aee08" region="pals" offset="0"/>
+		<rom name="e07-06.ic37" size="2988" crc="ade68194" sha1="95322d49b1f6edac03a7a00bf8876e556ccc2581" region="pals" offset="0"/>
+		<rom name="e07-07.ic49" size="2988" crc="76136aac" sha1="5f28de747e32a4e2622603a7d35e6c979e56977d" region="pals" offset="0"/>
+		<rom name="e07-08.ic65" size="2988" crc="33aa1678" sha1="e0d941c048bec25994dea30fed989d9f9e1af6a6" region="pals" offset="0"/>
+		<rom name="e07-09.ic82" size="2988" crc="62e2bf9e" sha1="fe7055f5f6292f4c613cc3a47245340722299b45" region="pals" offset="0"/>
+		<rom name="e07-10.ic116" size="2988" crc="97e36b54" sha1="2181097bfd7d09a537cbcc4e7ead11532f0ddb20" region="pals" offset="0"/>
+		<rom name="e09-21.ic69" size="2988" crc="74b06310" sha1="0e1f559247a43fbb3852b1b0b92753ed993b876d" region="pals" offset="0"/>
+		<rom name="e09-22.ic73" size="2988" crc="58aa9c49" sha1="7c9b463ea1adc701f326773cc556ab11f290f87e" region="pals" offset="0"/>
+		<rom name="e17-32.ic96" size="2988" crc="1d590ca3" sha1="733e9e34642c1e03fd880fda198b98927c1bb81d" region="pals" offset="0"/>
+		<device_ref tag=":maincpu" name="m68040"/>
+		<device_ref tag=":sub" name="mc68hc11m0"/>
+		<device_ref tag=":dsp" name="tms320c51"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":tc0640fio" name="tc0640fio"/>
+		<device_ref tag=":tc0640fio:watchdog" name="watchdog"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":tc0780fpa" name="tc0780fpa"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":taito_en" name="taito_en"/>
+		<device_ref tag=":taito_en:audiocpu" name="m68000"/>
+		<device_ref tag=":taito_en:esp" name="es5510"/>
+		<device_ref tag=":taito_en:duart68681" name="mc68681"/>
+		<device_ref tag=":taito_en:duart68681:cha" name="duart_channel"/>
+		<device_ref tag=":taito_en:duart68681:chb" name="duart_channel"/>
+		<device_ref tag=":taito_en:mb87078" name="mb87078"/>
+		<device_ref tag=":taito_en:dpram" name="mb8421"/>
+		<device_ref tag=":taito_en:pump" name="esq_5505_5510_pump"/>
+		<device_ref tag=":taito_en:ensoniq" name="es5505"/>
+		<chip type="cpu" tag="maincpu" name="Motorola MC68040" clock="20000000"/>
+		<chip type="cpu" tag="sub" name="Motorola MC68HC11M0" clock="8000000"/>
+		<chip type="cpu" tag="dsp" name="Texas Instruments TMS320C51" clock="40000000"/>
+		<chip type="cpu" tag="taito_en:audiocpu" name="Motorola MC68000" clock="15238090"/>
+		<chip type="cpu" tag="taito_en:esp" name="Ensoniq ES5510" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="taito_en" name="Taito Ensoniq Sound System"/>
+		<chip type="audio" tag="taito_en:pump" name="Ensoniq 5505/5506 to 5510 interface" clock="29761"/>
+		<chip type="audio" tag="taito_en:ensoniq" name="Ensoniq ES5505" clock="15238090"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="400" refresh="55.679287" pixclock="18000000" htotal="720" hbend="0" hbstart="512" vtotal="449" vbend="0" vbstart="400" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes" tilt="yes">
+			<control type="stick" buttons="2" minimum="0" maximum="255" sensitivity="35" keydelta="5" reverse="yes"/>
+		</input>
+		<dipswitch name="Dev Skip RAM Test" tag="COINS" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Dev Debug" tag="UNUSED" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN.0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN.1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN.2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":BUTTONS">
+		</port>
+		<port tag=":COINS">
+		</port>
+		<port tag=":EEPROMOUT">
+		</port>
+		<port tag=":SERVICE">
+		</port>
+		<port tag=":START">
+		</port>
+		<port tag=":UNUSED">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="timing" status="imperfect"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" overall="imperfect"/>
+	</machine>
 	<machine name="lastblad" sourcefile="snk/neogeo.cpp" romof="neogeo">
 		<description>The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)</description>
 		<year>1997</year>
@@ -80342,6 +80451,316 @@
 		</port>
 		<driver status="imperfect" emulation="good" savestate="supported"/>
 		<feature type="graphics" status="imperfect"/>
+	</machine>
+	<machine name="sidebs" sourcefile="taito/taitojc.cpp">
+		<description>Side by Side (Ver 3.0 OK)</description>
+		<year>1996</year>
+		<manufacturer>Taito</manufacturer>
+		<rom name="e23-43-1.ic36" size="524288" crc="1b87991a" sha1="8ab4bcfb822906996e7dd24b7fd0def870e6f5f1" region="maincpu" offset="0"/>
+		<rom name="e23-44-1.ic37" size="524288" crc="bc85493e" sha1="d4ac7de5b72a450dcea3a9983f9761f715cc8f62" region="maincpu" offset="1"/>
+		<rom name="e23-45-1.ic38" size="524288" crc="9920d89f" sha1="b3f0f0f7d532a506f4018a10a4b98b8719c97e6b" region="maincpu" offset="2"/>
+		<rom name="e23-46-1.ic39" size="524288" crc="354f6816" sha1="0bfdc11b71d6a92fe40449e020b923229736bcfa" region="maincpu" offset="3"/>
+		<rom name="e23-23.ic30" size="262144" crc="cffbffe5" sha1="c01ac44390dacab4b49bb066a46d81a184b07a1e" region="taito_en:audiocpu" offset="100001"/>
+		<rom name="e23-24.ic31" size="262144" crc="64bae246" sha1="f929f664881487615b1259db43a0721135830274" region="taito_en:audiocpu" offset="100000"/>
+		<rom name="e17-23.ic65" size="65536" crc="80ac1428" sha1="5a2a1e60a11ecdb8743c20ddacfb61f9fd00f01c" region="sub" offset="0"/>
+		<rom name="e07-11.ic29" size="16384" status="nodump" region="dsp" offset="0"/>
+		<rom name="e23-05.ic9" size="2097152" crc="6e5d11ec" sha1="e5c39d80577bf8ae9fc6162dc54571c6c8421160" region="maingfx" offset="800000"/>
+		<rom name="e23-12.ic22" size="2097152" crc="7365333c" sha1="4f7b75088799ea37f714bc7e5c5b276a7e5d933f" region="maingfx" offset="800002"/>
+		<rom name="e23-06.ic10" size="2097152" crc="ffcfd153" sha1="65fa486cf0156e2988bd6e7060d66f87f765a123" region="maingfx" offset="c00000"/>
+		<rom name="e23-13.ic23" size="2097152" crc="16982d37" sha1="134370f7dfadb1886f1e5e5dd16f8b72ad08fc68" region="maingfx" offset="c00002"/>
+		<rom name="e23-07.ic12" size="2097152" crc="90f2a87c" sha1="770bb89fa42cb2a1d5a58525b8d72ed7df3f93ed" region="maingfx" offset="1400000"/>
+		<rom name="e23-14.ic25" size="2097152" crc="1bc5a914" sha1="92f82a4e2fbac73dbb3293726fc09022bd11a8fe" region="maingfx" offset="1400002"/>
+		<rom name="e23-01.ic5" size="2097152" crc="2cbe4bbd" sha1="ed6fe4344c86d50914b5ddbc720dd15544f4d07f" region="dspgfx" offset="0"/>
+		<rom name="e23-02.ic6" size="2097152" crc="7ebada03" sha1="d75c992aa33dd7f71de6a6d09aac471012b0daa3" region="dspgfx" offset="200000"/>
+		<rom name="e23-03.ic7" size="2097152" crc="5bf1f30b" sha1="6e0c07b9f92962eec55ee444732a10ac78f8b050" region="dspgfx" offset="400000"/>
+		<rom name="e23-04.ic8" size="2097152" crc="0f860fb5" sha1="47c0db4ec6d02e10d8abfacd1fa332f7af3976dd" region="dspgfx" offset="600000"/>
+		<rom name="e23-08.ic18" size="2097152" crc="bceea63e" sha1="eeec1e2306aa37431c5ba69bdb9c5524ab7b7ba4" region="dspgfx" offset="800000"/>
+		<rom name="e23-09.ic19" size="2097152" crc="3917c12f" sha1="e3a568f638bb6b0cd6237c9fee5fc350983ea1e7" region="dspgfx" offset="a00000"/>
+		<rom name="e23-10.ic20" size="2097152" crc="038370d9" sha1="c02f68a25121d2d5aae62c419522b25cd6ec32b6" region="dspgfx" offset="c00000"/>
+		<rom name="e23-11.ic21" size="2097152" crc="91fab03d" sha1="1865d8b679faa6f2b3c14db2c6c461c00afd547c" region="dspgfx" offset="e00000"/>
+		<rom name="e23-15.ic32" size="2097152" crc="8955b7c7" sha1="767626bd5cf6810b0368ee85e487c12ef7e8a23d" region="taito_en:ensoniq" offset="0"/>
+		<rom name="e23-16.ic33" size="2097152" crc="1d63d785" sha1="0cf74bb433e9c453e35f7a552fdf9e22084b2f49" region="taito_en:ensoniq" offset="400000"/>
+		<rom name="e23-17.ic34" size="2097152" crc="1c54021a" sha1="a1efbdb02d23a5d32ebd25cb8e99dface3178ebd" region="taito_en:ensoniq" offset="800000"/>
+		<rom name="e23-18.ic35" size="2097152" crc="1816f38a" sha1="6451bdb4b4297aaf4987451bc0ddd97b0072e113" region="taito_en:ensoniq" offset="c00000"/>
+		<device_ref tag=":maincpu" name="m68040"/>
+		<device_ref tag=":sub" name="mc68hc11m0"/>
+		<device_ref tag=":dsp" name="tms320c51"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":tc0640fio" name="tc0640fio"/>
+		<device_ref tag=":tc0640fio:watchdog" name="watchdog"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":tc0780fpa" name="tc0780fpa"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":taito_en" name="taito_en"/>
+		<device_ref tag=":taito_en:audiocpu" name="m68000"/>
+		<device_ref tag=":taito_en:esp" name="es5510"/>
+		<device_ref tag=":taito_en:duart68681" name="mc68681"/>
+		<device_ref tag=":taito_en:duart68681:cha" name="duart_channel"/>
+		<device_ref tag=":taito_en:duart68681:chb" name="duart_channel"/>
+		<device_ref tag=":taito_en:mb87078" name="mb87078"/>
+		<device_ref tag=":taito_en:dpram" name="mb8421"/>
+		<device_ref tag=":taito_en:pump" name="esq_5505_5510_pump"/>
+		<device_ref tag=":taito_en:ensoniq" name="es5505"/>
+		<chip type="cpu" tag="maincpu" name="Motorola MC68040" clock="20000000"/>
+		<chip type="cpu" tag="sub" name="Motorola MC68HC11M0" clock="8000000"/>
+		<chip type="cpu" tag="dsp" name="Texas Instruments TMS320C51" clock="40000000"/>
+		<chip type="cpu" tag="taito_en:audiocpu" name="Motorola MC68000" clock="15238090"/>
+		<chip type="cpu" tag="taito_en:esp" name="Ensoniq ES5510" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="taito_en" name="Taito Ensoniq Sound System"/>
+		<chip type="audio" tag="taito_en:pump" name="Ensoniq 5505/5506 to 5510 interface" clock="29761"/>
+		<chip type="audio" tag="taito_en:ensoniq" name="Ensoniq ES5505" clock="15238090"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="400" refresh="55.679287" pixclock="18000000" htotal="720" hbend="0" hbstart="512" vtotal="449" vbend="0" vbstart="400" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes" tilt="yes">
+			<control type="joy" buttons="3" ways="vertical2"/>
+			<control type="paddle" minimum="0" maximum="255" sensitivity="35" keydelta="10"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="100" keydelta="25"/>
+		</input>
+		<dipswitch name="Dev Skip RAM Test" tag="COINS" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Dev Debug" tag="UNUSED" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN.0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN.1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN.2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":BUTTONS">
+		</port>
+		<port tag=":COINS">
+		</port>
+		<port tag=":EEPROMOUT">
+		</port>
+		<port tag=":SERVICE">
+		</port>
+		<port tag=":START">
+		</port>
+		<port tag=":UNUSED">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="timing" status="imperfect"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" overall="imperfect"/>
+		<feature type="lan" status="unemulated"/>
+	</machine>
+	<machine name="sidebs2" sourcefile="taito/taitojc.cpp">
+		<description>Side by Side 2 (Ver 2.6 OK)</description>
+		<year>1997</year>
+		<manufacturer>Taito</manufacturer>
+		<rom name="sbs2_u36.ic36" size="524288" crc="889bc5e2" sha1="9d7c33b3097c956271e7ac6f9c38eb27190cce34" region="maincpu" offset="0"/>
+		<rom name="sbs2_u37.ic37" size="524288" crc="19fd895a" sha1="387ad735a2a2f381d77057123eb32f6cbdb0613b" region="maincpu" offset="1"/>
+		<rom name="sbs2_u38.ic38" size="524288" crc="9bc3db02" sha1="22e53fe073fc4632a31da1cb90708e7232e7e05b" region="maincpu" offset="2"/>
+		<rom name="sbs2_u39.ic39" size="524288" crc="1d822e54" sha1="ab77910c250cdefb747c22d798e5bdfaf6962f4c" region="maincpu" offset="3"/>
+		<rom name="e38-19.ic30" size="262144" crc="3f50cb7b" sha1="76af65c9b74ede843a3182f79cecda8c3e3febe6" region="taito_en:audiocpu" offset="100001"/>
+		<rom name="e38-20.ic31" size="262144" crc="d01340e7" sha1="76ee48d644dc1ec415d47e0df4864c64ac928b9d" region="taito_en:audiocpu" offset="100000"/>
+		<rom name="e07-11.ic29" size="16384" status="nodump" region="dsp" offset="0"/>
+		<rom name="e17-23.ic65" size="65536" crc="80ac1428" sha1="5a2a1e60a11ecdb8743c20ddacfb61f9fd00f01c" region="sub" offset="0"/>
+		<rom name="e38-05.ic9" size="2097152" crc="bda366bf" sha1="a7558e6d5e4583a2d8e3d2bfa8cabcc459d3ee83" region="maingfx" offset="800000"/>
+		<rom name="e38-13.ic22" size="2097152" crc="1bd7582b" sha1="35763b9489f995433f66ef72d4f6b6ac67df5480" region="maingfx" offset="800002"/>
+		<rom name="e38-06.ic10" size="2097152" crc="308d2783" sha1="22c309273444bc6c1df78069850958a739664998" region="maingfx" offset="c00000"/>
+		<rom name="e38-14.ic23" size="2097152" crc="f1699f27" sha1="3c9a9cefe6f215fd9f0a9746da97147d14df1da4" region="maingfx" offset="c00002"/>
+		<rom name="e38-07.ic11" size="2097152" crc="226ba93d" sha1="98e6342d070ddd988c1e9bff21afcfb28df86844" region="maingfx" offset="1000000"/>
+		<rom name="e38-15.ic24" size="2097152" crc="2853c2e3" sha1="046dbbd4bcb3b07cddab19a284fee9fe736f8def" region="maingfx" offset="1000002"/>
+		<rom name="e38-08.ic12" size="2097152" crc="9c513b32" sha1="fe26e39d3d65073d23d525bc17771f0c244a38c2" region="maingfx" offset="1400000"/>
+		<rom name="e38-16.ic25" size="2097152" crc="fceafae2" sha1="540ecd5d1aa64c0428a08ea1e4e634e00f7e6bd6" region="maingfx" offset="1400002"/>
+		<rom name="e38-01.ic5" size="2097152" crc="a3c2e2c7" sha1="538208534f996782167e4cf0d157ad93ce2937bd" region="dspgfx" offset="0"/>
+		<rom name="e38-02.ic6" size="2097152" crc="ecdfb75a" sha1="85e7afa321846816fa3bd9074ad9dec95abe23fe" region="dspgfx" offset="200000"/>
+		<rom name="e38-03.ic7" size="2097152" crc="28e9cb59" sha1="a2651fd81a1263573f868864ee049f8fc4177ffa" region="dspgfx" offset="400000"/>
+		<rom name="e38-04.ic8" size="524288" crc="26cab05b" sha1="d5bcf021646dade834840051e0ce083319c53985" region="dspgfx" offset="600000"/>
+		<rom name="e38-09.ic18" size="2097152" crc="03c95a7f" sha1="fc046cf5fcfcf5648f68af4bed78576f6d67b32f" region="dspgfx" offset="800000"/>
+		<rom name="e38-10.ic19" size="2097152" crc="0fb06794" sha1="2d0e3b07ded698235572fe9e907a84d5779ac2c5" region="dspgfx" offset="a00000"/>
+		<rom name="e38-11.ic20" size="2097152" crc="6a312351" sha1="8037e377f8eef4cc6dd84aec9c829106f0bb130c" region="dspgfx" offset="c00000"/>
+		<rom name="e38-12.ic21" size="524288" crc="193a5774" sha1="aa017ae4fec92bb87c0eb94f59d093853ddbabc9" region="dspgfx" offset="e00000"/>
+		<rom name="e23-15.ic32" size="2097152" crc="8955b7c7" sha1="767626bd5cf6810b0368ee85e487c12ef7e8a23d" region="taito_en:ensoniq" offset="0"/>
+		<rom name="e38-17.ic33" size="2097152" crc="61e81c7f" sha1="aa650bc139685ad456c233b79aa60005a8fd6d79" region="taito_en:ensoniq" offset="400000"/>
+		<rom name="e38-18.ic34" size="2097152" crc="43e2f149" sha1="32ea9156948a886dda5bd071e9f493ddc2b06212" region="taito_en:ensoniq" offset="800000"/>
+		<rom name="e38-21.ic35" size="2097152" crc="25373c5f" sha1="ab9f917dbde7c808be2cd836ce2d3fc558e290f1" region="taito_en:ensoniq" offset="c00000"/>
+		<device_ref tag=":maincpu" name="m68040"/>
+		<device_ref tag=":sub" name="mc68hc11m0"/>
+		<device_ref tag=":dsp" name="tms320c51"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":tc0640fio" name="tc0640fio"/>
+		<device_ref tag=":tc0640fio:watchdog" name="watchdog"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":tc0780fpa" name="tc0780fpa"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":taito_en" name="taito_en"/>
+		<device_ref tag=":taito_en:audiocpu" name="m68000"/>
+		<device_ref tag=":taito_en:esp" name="es5510"/>
+		<device_ref tag=":taito_en:duart68681" name="mc68681"/>
+		<device_ref tag=":taito_en:duart68681:cha" name="duart_channel"/>
+		<device_ref tag=":taito_en:duart68681:chb" name="duart_channel"/>
+		<device_ref tag=":taito_en:mb87078" name="mb87078"/>
+		<device_ref tag=":taito_en:dpram" name="mb8421"/>
+		<device_ref tag=":taito_en:pump" name="esq_5505_5510_pump"/>
+		<device_ref tag=":taito_en:ensoniq" name="es5505"/>
+		<chip type="cpu" tag="maincpu" name="Motorola MC68040" clock="20000000"/>
+		<chip type="cpu" tag="sub" name="Motorola MC68HC11M0" clock="8000000"/>
+		<chip type="cpu" tag="dsp" name="Texas Instruments TMS320C51" clock="40000000"/>
+		<chip type="cpu" tag="taito_en:audiocpu" name="Motorola MC68000" clock="15238090"/>
+		<chip type="cpu" tag="taito_en:esp" name="Ensoniq ES5510" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="taito_en" name="Taito Ensoniq Sound System"/>
+		<chip type="audio" tag="taito_en:pump" name="Ensoniq 5505/5506 to 5510 interface" clock="29761"/>
+		<chip type="audio" tag="taito_en:ensoniq" name="Ensoniq ES5505" clock="15238090"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="400" refresh="55.679287" pixclock="18000000" htotal="720" hbend="0" hbstart="512" vtotal="449" vbend="0" vbstart="400" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes" tilt="yes">
+			<control type="joy" buttons="3" ways="vertical2"/>
+			<control type="paddle" minimum="0" maximum="255" sensitivity="35" keydelta="10"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="100" keydelta="25"/>
+		</input>
+		<dipswitch name="Dev Skip RAM Test" tag="COINS" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Dev Debug" tag="UNUSED" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN.0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN.1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN.2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":BUTTONS">
+		</port>
+		<port tag=":COINS">
+		</port>
+		<port tag=":EEPROMOUT">
+		</port>
+		<port tag=":SERVICE">
+		</port>
+		<port tag=":START">
+		</port>
+		<port tag=":UNUSED">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="timing" status="imperfect"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" overall="imperfect"/>
+		<feature type="lan" status="unemulated"/>
+	</machine>
+	<machine name="sidebs2j" sourcefile="taito/taitojc.cpp" cloneof="sidebs2" romof="sidebs2">
+		<description>Side by Side 2 Evoluzione RR (Ver 3.1 J)</description>
+		<year>1997</year>
+		<manufacturer>Taito</manufacturer>
+		<rom name="e38-32.ic36" size="524288" crc="88385c6e" sha1="935b4892a8322a73a8afdf0bd3799c4b11510ac9" region="maincpu" offset="0"/>
+		<rom name="e38-33.ic37" size="524288" crc="d02a9963" sha1="74d567869b79a7e129a2e5876900e7fecb70d568" region="maincpu" offset="1"/>
+		<rom name="e38-34.ic38" size="524288" crc="7c4d8176" sha1="89c5da4c60f88bca95980b1829015a6def2eabd5" region="maincpu" offset="2"/>
+		<rom name="e38-35.ic39" size="524288" crc="8746188d" sha1="de7f611195cd9359328821a0c0c63ac079fad341" region="maincpu" offset="3"/>
+		<rom name="e38-19.ic30" merge="e38-19.ic30" size="262144" crc="3f50cb7b" sha1="76af65c9b74ede843a3182f79cecda8c3e3febe6" region="taito_en:audiocpu" offset="100001"/>
+		<rom name="e38-20.ic31" merge="e38-20.ic31" size="262144" crc="d01340e7" sha1="76ee48d644dc1ec415d47e0df4864c64ac928b9d" region="taito_en:audiocpu" offset="100000"/>
+		<rom name="e07-11.ic29" size="16384" status="nodump" region="dsp" offset="0"/>
+		<rom name="e17-23.ic65" merge="e17-23.ic65" size="65536" crc="80ac1428" sha1="5a2a1e60a11ecdb8743c20ddacfb61f9fd00f01c" region="sub" offset="0"/>
+		<rom name="e38-05.ic9" merge="e38-05.ic9" size="2097152" crc="bda366bf" sha1="a7558e6d5e4583a2d8e3d2bfa8cabcc459d3ee83" region="maingfx" offset="800000"/>
+		<rom name="e38-13.ic22" merge="e38-13.ic22" size="2097152" crc="1bd7582b" sha1="35763b9489f995433f66ef72d4f6b6ac67df5480" region="maingfx" offset="800002"/>
+		<rom name="e38-06.ic10" merge="e38-06.ic10" size="2097152" crc="308d2783" sha1="22c309273444bc6c1df78069850958a739664998" region="maingfx" offset="c00000"/>
+		<rom name="e38-14.ic23" merge="e38-14.ic23" size="2097152" crc="f1699f27" sha1="3c9a9cefe6f215fd9f0a9746da97147d14df1da4" region="maingfx" offset="c00002"/>
+		<rom name="e38-07.ic11" merge="e38-07.ic11" size="2097152" crc="226ba93d" sha1="98e6342d070ddd988c1e9bff21afcfb28df86844" region="maingfx" offset="1000000"/>
+		<rom name="e38-15.ic24" merge="e38-15.ic24" size="2097152" crc="2853c2e3" sha1="046dbbd4bcb3b07cddab19a284fee9fe736f8def" region="maingfx" offset="1000002"/>
+		<rom name="e38-08.ic12" merge="e38-08.ic12" size="2097152" crc="9c513b32" sha1="fe26e39d3d65073d23d525bc17771f0c244a38c2" region="maingfx" offset="1400000"/>
+		<rom name="e38-16.ic25" merge="e38-16.ic25" size="2097152" crc="fceafae2" sha1="540ecd5d1aa64c0428a08ea1e4e634e00f7e6bd6" region="maingfx" offset="1400002"/>
+		<rom name="e38-01.ic5" merge="e38-01.ic5" size="2097152" crc="a3c2e2c7" sha1="538208534f996782167e4cf0d157ad93ce2937bd" region="dspgfx" offset="0"/>
+		<rom name="e38-02.ic6" merge="e38-02.ic6" size="2097152" crc="ecdfb75a" sha1="85e7afa321846816fa3bd9074ad9dec95abe23fe" region="dspgfx" offset="200000"/>
+		<rom name="e38-03.ic7" merge="e38-03.ic7" size="2097152" crc="28e9cb59" sha1="a2651fd81a1263573f868864ee049f8fc4177ffa" region="dspgfx" offset="400000"/>
+		<rom name="e38-04.ic8" merge="e38-04.ic8" size="524288" crc="26cab05b" sha1="d5bcf021646dade834840051e0ce083319c53985" region="dspgfx" offset="600000"/>
+		<rom name="e38-09.ic18" merge="e38-09.ic18" size="2097152" crc="03c95a7f" sha1="fc046cf5fcfcf5648f68af4bed78576f6d67b32f" region="dspgfx" offset="800000"/>
+		<rom name="e38-10.ic19" merge="e38-10.ic19" size="2097152" crc="0fb06794" sha1="2d0e3b07ded698235572fe9e907a84d5779ac2c5" region="dspgfx" offset="a00000"/>
+		<rom name="e38-11.ic20" merge="e38-11.ic20" size="2097152" crc="6a312351" sha1="8037e377f8eef4cc6dd84aec9c829106f0bb130c" region="dspgfx" offset="c00000"/>
+		<rom name="e38-12.ic21" merge="e38-12.ic21" size="524288" crc="193a5774" sha1="aa017ae4fec92bb87c0eb94f59d093853ddbabc9" region="dspgfx" offset="e00000"/>
+		<rom name="e23-15.ic32" merge="e23-15.ic32" size="2097152" crc="8955b7c7" sha1="767626bd5cf6810b0368ee85e487c12ef7e8a23d" region="taito_en:ensoniq" offset="0"/>
+		<rom name="e38-17.ic33" merge="e38-17.ic33" size="2097152" crc="61e81c7f" sha1="aa650bc139685ad456c233b79aa60005a8fd6d79" region="taito_en:ensoniq" offset="400000"/>
+		<rom name="e38-18.ic34" merge="e38-18.ic34" size="2097152" crc="43e2f149" sha1="32ea9156948a886dda5bd071e9f493ddc2b06212" region="taito_en:ensoniq" offset="800000"/>
+		<rom name="e38-21.ic35" merge="e38-21.ic35" size="2097152" crc="25373c5f" sha1="ab9f917dbde7c808be2cd836ce2d3fc558e290f1" region="taito_en:ensoniq" offset="c00000"/>
+		<device_ref tag=":maincpu" name="m68040"/>
+		<device_ref tag=":sub" name="mc68hc11m0"/>
+		<device_ref tag=":dsp" name="tms320c51"/>
+		<device_ref tag=":eeprom" name="93c46_16"/>
+		<device_ref tag=":tc0640fio" name="tc0640fio"/>
+		<device_ref tag=":tc0640fio:watchdog" name="watchdog"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":tc0780fpa" name="tc0780fpa"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<device_ref tag=":taito_en" name="taito_en"/>
+		<device_ref tag=":taito_en:audiocpu" name="m68000"/>
+		<device_ref tag=":taito_en:esp" name="es5510"/>
+		<device_ref tag=":taito_en:duart68681" name="mc68681"/>
+		<device_ref tag=":taito_en:duart68681:cha" name="duart_channel"/>
+		<device_ref tag=":taito_en:duart68681:chb" name="duart_channel"/>
+		<device_ref tag=":taito_en:mb87078" name="mb87078"/>
+		<device_ref tag=":taito_en:dpram" name="mb8421"/>
+		<device_ref tag=":taito_en:pump" name="esq_5505_5510_pump"/>
+		<device_ref tag=":taito_en:ensoniq" name="es5505"/>
+		<chip type="cpu" tag="maincpu" name="Motorola MC68040" clock="20000000"/>
+		<chip type="cpu" tag="sub" name="Motorola MC68HC11M0" clock="8000000"/>
+		<chip type="cpu" tag="dsp" name="Texas Instruments TMS320C51" clock="40000000"/>
+		<chip type="cpu" tag="taito_en:audiocpu" name="Motorola MC68000" clock="15238090"/>
+		<chip type="cpu" tag="taito_en:esp" name="Ensoniq ES5510" clock="10000000"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<chip type="audio" tag="taito_en" name="Taito Ensoniq Sound System"/>
+		<chip type="audio" tag="taito_en:pump" name="Ensoniq 5505/5506 to 5510 interface" clock="29761"/>
+		<chip type="audio" tag="taito_en:ensoniq" name="Ensoniq ES5505" clock="15238090"/>
+		<display tag="screen" type="raster" rotate="0" width="512" height="400" refresh="55.679287" pixclock="18000000" htotal="720" hbend="0" hbstart="512" vtotal="449" vbend="0" vbstart="400" />
+		<sound channels="1"/>
+		<input players="1" coins="2" service="yes" tilt="yes">
+			<control type="joy" buttons="3" ways="vertical2"/>
+			<control type="paddle" minimum="0" maximum="255" sensitivity="35" keydelta="10"/>
+			<control type="pedal" minimum="0" maximum="255" sensitivity="100" keydelta="25"/>
+		</input>
+		<dipswitch name="Dev Skip RAM Test" tag="COINS" mask="2">
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Dev Debug" tag="UNUSED" mask="64">
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN.0">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN.1">
+			<analog mask="255"/>
+		</port>
+		<port tag=":AN.2">
+			<analog mask="255"/>
+		</port>
+		<port tag=":BUTTONS">
+		</port>
+		<port tag=":COINS">
+		</port>
+		<port tag=":EEPROMOUT">
+		</port>
+		<port tag=":SERVICE">
+		</port>
+		<port tag=":START">
+		</port>
+		<port tag=":UNUSED">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="timing" status="imperfect"/>
+		<feature type="graphics" status="imperfect"/>
+		<feature type="sound" overall="imperfect"/>
+		<feature type="lan" status="unemulated"/>
 	</machine>
 	<machine name="simpsons" sourcefile="konami/simpsons.cpp">
 		<description>The Simpsons (4 Players World, set 1)</description>
