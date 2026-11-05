@@ -1796,6 +1796,14 @@
       "db_name": "Nintendo - Nintendo Entertainment System.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Metal Fighter (USA) (Unl).zip#Metal Fighter (USA) (Unl).nes",
+      "label": "Metal Fighter (USA) (Unl)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
+      "core_name": "Nintendo - NES / Famicom (Mesen)",
+      "crc32": "32FEE100|crc",
+      "db_name": "Nintendo - Nintendo Entertainment System.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Entertainment System/Metal Gear (USA).zip#Metal Gear (USA).nes",
       "label": "Metal Gear (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mesen_libretro.dylib",
