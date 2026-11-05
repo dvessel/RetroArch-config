@@ -20,7 +20,7 @@ fi
 scandir=$1
 cfgdir=$( raconfig --get rgui_config_directory )/MAME
 
-typeset -a savestate_related_supported savestate_related_unsupported
+typeset -A savestate_related_supported savestate_related_unsupported
 # Prefixed `-keys` to disable only. Will not be restored to defaults.
 for skey in menu_show_latency \
             menu_show_rewind \
@@ -36,15 +36,19 @@ for skey in menu_show_latency \
 do
   # To be used to reset when it's supported.
   if [[ $skey[1] != - ]]
-  then savestate_related_supported+=${skey#-}=$( raconfig --get ${skey#-} $cfgdir/MAME.cfg )
+  then savestate_related_supported+=( ${skey#-} $( raconfig --get ${skey#-} $cfgdir/MAME.cfg ))
   fi
   # And disabled when it's not.
-  savestate_related_unsupported+=${skey#-}=false
+  savestate_related_unsupported+=( ${skey#-} false )
 done
 
-# TATE Integer Axis: X
-tate_ia=4
-typeset -A map_sia=(
+# TATE Integer Axis: X, Integer Scaling: Smart Scale
+tate_vsia=4 tate_vsis=2
+typeset -A tate_video_scale=(
+  video_scale_integer_axis    $tate_vsia
+  video_scale_integer_scaling $tate_vsis
+)
+typeset -A map_vsia=(
   0 'Scale Integer Axis Y'
   1 'Scale Integer Axis Y+X'
   2 'Scale Integer Axis Y+X.5'
@@ -52,10 +56,15 @@ typeset -A map_sia=(
   4 'Scale Integer Axis X'
   5 'Scale Integer Axis X.5'
 )
+typeset -A map_vsis=(
+  0 'Underscale'
+  1 'Overscale'
+  2 'Smart Scale'
+)
+typeset -A process
 
 while read -r line
 do
-  typeset -A processed
   while read -r key value
   do typeset $key=$value
   done < <( jq -r 'to_entries[] | "\(.key) \(.value)"' <<< $line )
@@ -65,39 +74,47 @@ do
   then scpp+=\~tate
   fi
 
-  if (( $processed[$scpp] ))
-  then continue
+  if ! (( $process[$scpp] ))
+  then process[$scpp]=1
+  else continue
   fi
 
-  changes=0
-  keyvalues="savestate_related_${savestate}"
-  for kv in ${(P)keyvalues}
-  do
-    if [[ $( raconfig --get ${kv%=*} $cfgdir/$scpp.cfg $cfgdir/MAME.cfg ) != ${kv#*=} ]]
+  # Runs asynchronously.
+  () {
+    trap 'exit' INT # hault on ctrl-c
+    changes=0
+    keyvalues=savestate_related_${savestate}
+    for key value (${(Pkv)keyvalues}) if [[ $( raconfig --get $key $@ ) != $value ]]
     then
-      raconfig --override $kv $cfgdir/$scpp.cfg $cfgdir/MAME.cfg &
+      raconfig --override $key=$value $@
       changes=1
     fi
-  done
-  if (( changes ))
-  then printf '%s.cfg: Save State %s. Related settings were updated.\n' $scpp $savestate
-  fi
+    if (( changes ))
+    then
+      sort -o $1 $1
+      printf '%s: Save State %s. Related settings were updated.\n' ${1:t} $savestate
+    fi
 
-  if [[ $rotate == (90|270) ]]
-  then
-    (){
-      if [[ $( raconfig --get video_scale_integer_axis $@ ) != $tate_ia ]]
+    if [[ $rotate == (90|270) ]]
+    then
+      changes=0
+      for key value (${(kv)tate_video_scale}) if [[ $( raconfig --get $key $@ ) != $value ]]
       then
-        raconfig --override video_scale_integer_axis=$tate_ia $@
-        raconfig --override video_scale_integer_scaling=2 $@
-        printf '%s.cfg: %s\n' $scpp "${map_sia[$tate_ia]}, Smart Scaling"
+        raconfig --override $key=$value $@
+        changes=1
       fi
-    } $cfgdir/$scpp.cfg $cfgdir/MAME.cfg &
-  fi
-  processed[$scpp]=1
+      if (( changes ))
+      then
+        sort -o $1 $1
+        printf '%s: %s, %s\n' ${1:t} ${map_vsia[$tate_vsia]} ${map_vsis[$tate_vsis]}
+      fi
+    fi
+  } $cfgdir/$scpp.cfg $cfgdir/MAME.cfg &
 
 done < <( mameinfo -cr 'select( .isbios != "yes" and .isdevice != "yes" ) |
-        { name:.name,
-          sourcefile:.sourcefile,
+        { sourcefile:.sourcefile,
           savestate:.driver.savestate,
           rotate:.display[0].rotate }' $scandir/*.(7z|zip) )
+
+# Wait for background jobs to complete.
+wait
