@@ -34,7 +34,7 @@ do
     comment=$(
       xattr -xp com.apple.metadata:kMDItemFinderComment $item 2>/dev/null | xxd -r -p | plutil -p - 2> /dev/null
     )
-    if [[ $comment != $description ]]
+    if [[ $comment != \"$description\" ]]
     then
       osargs=(
         -e 'on run {f, d}'
