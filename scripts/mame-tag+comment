@@ -23,30 +23,38 @@ do
   else ispreliminary=null
   fi
   case yes in
-    $isbios)         tag -a 'BIOS' $rom ;;
-    $isdevice)       tag -a 'Device' $rom ;;
-    $ispreliminary)  tag -a 'Preliminary' $rom ;;
+    $isbios)         tag -a 'BIOS' $rom & ;;
+    $isdevice)       tag -a 'Device' $rom & ;;
+    $ispreliminary)  tag -a 'Preliminary' $rom & ;;
   esac
 
-  for item in $rom $rom:r
-  do
-    test -e $item || continue
-    comment=$(
-      xattr -xp com.apple.metadata:kMDItemFinderComment $item 2>/dev/null | xxd -r -p | plutil -p - 2> /dev/null
-    )
-    if [[ $comment != \"$description\" ]]
-    then
-      osargs=(
-        -e 'on run {f, d}'
-        -e 'tell app "Finder" to set comment of (POSIX file f as alias) to d'
-        -e 'end'
-        "file:///$item:a" "$description"
+  # Runs asynchronously.
+  () {
+    trap 'exit' INT # hault on ctrl-c
+    for item in $rom $rom:r
+    do
+      test -e $item || continue
+      comment=$(
+        xattr -xp com.apple.metadata:kMDItemFinderComment $item 2>/dev/null | xxd -r -p | plutil -p - 2> /dev/null
       )
-      osascript $osargs &> /dev/null
-    fi
-  done
+      if [[ $comment != \"$description\" ]]
+      then
+        osargs=(
+          -e 'on run {f, d}'
+          -e 'tell app "Finder" to set comment of (POSIX file f as alias) to d'
+          -e 'end'
+          "file:///$item:a" "$description"
+        )
+        osascript $osargs &> /dev/null
+      fi
+    done
+  } &
+
 done < <( mameinfo -cr '{ description:.description,
                           name:.name,
                           isbios:.isbios,
                           isdevice:.isdevice,
                           emustatus:.driver.status }' $scandir/*.(7z|zip) )
+
+# Wait for background jobs to complete.
+wait

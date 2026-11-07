@@ -28,42 +28,48 @@ do
   IFS=$'\t' read -r label file_path system <<< $row
   name=$file_path:t:r
 
-  typeset -aU naming_candidates=( $label )
-  # - Chop off each occurance of `(.*)` or `[.*]` from the trailing end.
-  # - Add each iteration to the list of naming candidates.
-  _label=$label
-  while [[ $_label =~ "^(.+)(\(|\[)([^([]*)(\)|\]).*$" ]]
-  do
-    # Discard trailing spaces.
-    _label=${match[1]% }
-    naming_candidates+=$_label
-  done
-  search_title=$_label
+  # Runs asynchronously.
+  () {
+    trap 'exit' INT # hault on ctrl-c
+    typeset -aU naming_candidates=( $label )
+    # - Chop off each occurance of `(.*)` or `[.*]` from the trailing end.
+    # - Add each iteration to the list of naming candidates.
+    _label=$label
+    while [[ $_label =~ "^(.+)(\(|\[)([^([]*)(\)|\]).*$" ]]
+    do
+      # Discard trailing spaces.
+      _label=${match[1]% }
+      naming_candidates+=$_label
+    done
+    search_title=$_label
 
-  _label=$( echo $label | tr '&*/:\`<>?\|' '_' )
-  found=0 scanned=()
-  for _name in $naming_candidates
-  do
-    # Mirror RetroArch's safe naming for thumbnails.
-    _name=$( echo $_name | tr '&*/:\`<>?\|' '_' )
-    thumbpath=$app_support/thumbnails/$system/Named_Boxarts/$_name.png
-    if [[ -f $thumbpath ]]
-    then
-      if [[ $_name != $_label ]]
+    _label=$( echo $label | tr '&*/:\`<>?\|' '_' )
+    found=0 scanned=()
+    for _name in $naming_candidates
+    do
+      # Mirror RetroArch's safe naming for thumbnails.
+      _name=$( echo $_name | tr '&*/:\`<>?\|' '_' )
+      thumbpath=$app_support/thumbnails/$system/Named_Boxarts/$_name.png
+      if [[ -f $thumbpath ]]
       then
-        ln -s $thumbpath $thumbpath:h/$_label.png
-        p.ok "linked: $_name.png -> $_label.png"
+        if [[ $_name != $_label ]]
+        then
+          ln -s $thumbpath $thumbpath:h/$_label.png
+          p.ok "linked: $_name.png -> $_label.png"
+        fi
+        found=1
+        break
+      else scanned+=$_name
       fi
-      found=1
-      break
-    else scanned+=$_name
+    done
+
+    if [[ $found == 0 ]]
+    then
+      p.warn "Thumbnail not found: ${(j/,/)scanned}"
+      p.img-url "\"$search_title\" ($system AND artwork)"
     fi
-  done
-
-  if [[ $found == 0 ]]
-  then
-    p.warn "Thumbnail not found: ${(j/,/)scanned}"
-    p.img-url "\"$search_title\" ($system AND artwork)"
-  fi
-
+  } &
 done
+
+# Wait for background jobs to complete.
+wait
