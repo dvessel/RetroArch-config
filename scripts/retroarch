@@ -4,10 +4,13 @@ PATH=${0:A:h}:$PATH
 zparseopts -D -E - \
   -arm64=zarm64 \
   -x86_64=zX86 \
+  -update-playlists=zupdate_playlists \
   -update-cores=zupdate_cores \
   -build=zbuild || exit 1
 
-if (( #zbuild ))
+if (( #zupdate_playlists ))
+then retroarch-update-playlists; exit $?
+elif (( #zbuild ))
 then retroarch-build $@ $zarm64 $zX86
 fi
 if ! (( ? )) && (( #zupdate_cores ))
