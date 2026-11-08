@@ -1,0 +1,91 @@
+#!/usr/bin/env zsh
+
+PATH=${0:A:h}:$PATH
+
+function p.header { print -P -- "%B${(j/\n/)@}%b" }
+function p.notice { print -P -- "%F{yellow}${(j/\n/)@}%f" }
+function p.error  { print -P -- "%F{red}${(j/\n/)@}%f" >&2 }
+
+for skey in config_save_minimal playlist_compression playlist_use_old_format
+do
+  if [[ $( raconfig --get $skey ) == true ]]
+  then p.error "Incompatible with '$skey'."
+    exit 1
+  fi
+done
+for cmd (jq fzf) if ! (( $+commands[$cmd] ))
+then p.error "$cmd is required."
+  exit 1
+fi
+
+playlistdir=$( raconfig --get playlist_directory )
+for playlist in ${(f)"$(
+  for lpl in $playlistdir/*.lpl
+  do printf "%s\n" $lpl:t
+  done | fzf --multi
+)"}
+do
+  playlist_path=$playlistdir/$playlist
+  scan_content_dir=${$( jq -r .scan_content_dir $playlist_path ):-null}
+  if [[ $scan_content_dir == null ]]
+  then
+    p.error "$playlist -> scan_content_dir: has no value."
+    exit 1
+  elif [[ ! -d $scan_content_dir ]]
+  then
+    p.error "$playlist -> scan_content_dir: points to a non-existing directory:"
+    p.error "'$scan_content_dir'"
+    exit 1
+  fi
+  scandir=${scan_content_dir%\/.sorted}
+  scandat=${$( jq -r .scan_dat_file_path $playlist_path ):-null}
+  if [[ $scandat != null ]]
+  then
+    if [[ ! -f $scandat ]]
+    then
+      p.error "$playlist -> scan_dat_file_path: does not exist."
+      exit 1
+    fi
+    p.header "Updating ${scandat:t} -> $playlist"
+    if ! mamexml-generate $scandir $scandat
+    then
+      p.error "Failed to generate xml for rom path:"
+      p.error "'$scandir'"
+      exit 1
+    fi
+
+    p.header "Sorting '$scandir'"
+    if mamerom-sort $scandir
+    then
+      # Update the playlist with the new scan content dir.
+      if [[ $scan_content_dir == $scandir ]]
+      then
+        temp=`mktemp -u`
+        if jq '.scan_content_dir += "/.sorted"' $playlist_path > $temp
+        then
+          mv -f $temp $playlist_path
+          p.notice "Updated $playlist -> scan_content_dir:"
+          p.notice "'$scandir/.sorted'"
+        else
+          p.error "Failed to update $playlist -> scan_content_dir."
+          exit 1
+        fi
+      fi
+    else
+      p.error "Sorting failed."
+      exit 1
+    fi
+  fi
+
+  open -b com.libretro.dist.RetroArch --new --background --wait-apps --args \
+    --scan-refresh $playlist_path
+
+  if [[ $playlist == MAME.lpl ]]
+  then
+    p.header "Processing MAME config overrides…"
+    if mamecfg-overrides $scandir
+    then p.notice Done.
+    else exit 1
+    fi
+  fi
+done
