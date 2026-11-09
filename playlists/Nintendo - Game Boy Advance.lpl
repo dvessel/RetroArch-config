@@ -100,6 +100,14 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Dragon Ball - Advanced Adventure (USA).zip#Dragon Ball - Advanced Adventure (USA).gba",
+      "label": "Dragon Ball - Advanced Adventure (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7D7306DF|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Drill Dozer (USA).zip#Drill Dozer (USA).gba",
       "label": "Drill Dozer (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
@@ -236,6 +244,14 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Kingdom Hearts - Chain of Memories (USA).zip#Kingdom Hearts - Chain of Memories (USA).gba",
+      "label": "Kingdom Hearts - Chain of Memories (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D031CE67|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Klonoa - Empire of Dreams (USA).zip#Klonoa - Empire of Dreams (USA).gba",
       "label": "Klonoa - Empire of Dreams (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
@@ -364,6 +380,14 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Mother 3 (Japan).zip#Mother 3 (Japan).gba",
+      "label": "Mother 3 (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "42AC9CB9|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Moto Racer Advance (USA) (En,Fr,De,Es,It).zip#Moto Racer Advance (USA) (En,Fr,De,Es,It).gba",
       "label": "Moto Racer Advance (USA) (En,Fr,De,Es,It)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
@@ -393,6 +417,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "E5A7FE17|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Pokemon - Emerald Version (USA, Europe).zip#Pokemon - Emerald Version (USA, Europe).gba",
+      "label": "Pokemon - Emerald Version (USA, Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "1F1C08FB|crc",
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
@@ -473,6 +505,14 @@
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "E9339304|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Rhythm Tengoku (Japan).zip#Rhythm Tengoku (Japan).gba",
+      "label": "Rhythm Tengoku (Japan)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "349D7025|crc",
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
@@ -604,11 +644,35 @@
       "db_name": "Nintendo - Game Boy Advance.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Wario Land 4 (USA, Europe).zip#Wario Land 4 (USA, Europe).gba",
+      "label": "Wario Land 4 (USA, Europe)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D6141609|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/WarioWare - Twisted! (USA).zip#WarioWare - Twisted! (USA).gba",
+      "label": "WarioWare - Twisted! (USA, Australia)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "CB4E844B|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/WarioWare, Inc. - Mega Microgame$! (USA).zip#WarioWare, Inc. - Mega Microgame$! (USA).gba",
       "label": "WarioWare, Inc. - Mega Microgame$! (USA)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
       "core_name": "Nintendo - Game Boy Advance (mGBA)",
       "crc32": "785D8B8C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Nintendo Game Boy Advance/Yggdra Union - We'll Never Fight Alone (USA).zip#Yggdra Union - We'll Never Fight Alone (USA).gba",
+      "label": "Yggdra Union - We'll Never Fight Alone (USA)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mgba_libretro.dylib",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "3BFA68F7|crc",
       "db_name": "Nintendo - Game Boy Advance.lpl"
     }
   ]
