@@ -204,6 +204,14 @@
       "db_name": "Sega - Saturn.lpl"
     },
     {
+      "path": "/Volumes/980Pro/Emulation/Sega Saturn/Nanatsu Kaze no Shima Monogatari (English Translated)/Nanatsu Kaze no Shima Monogatari (English Translated).m3u",
+      "label": "Nanatsu Kaze no Shima Monogatari (English Translated)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
+      "core_name": "Sega - Saturn (Beetle Saturn)",
+      "crc32": "T-35501G-0|serial",
+      "db_name": "Sega - Saturn.lpl"
+    },
+    {
       "path": "/Volumes/980Pro/Emulation/Sega Saturn/Nights into Dreams... (USA) (with 3D Control Pad) (RE).chd",
       "label": "Nights into Dreams... (USA) (with 3D Control Pad) (RE)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mednafen_saturn_libretro.dylib",
