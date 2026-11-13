@@ -22,7 +22,7 @@ playlistdir=$( raconfig --get playlist_directory )
 for playlist in ${(f)"$(
   for lpl in $playlistdir/*.lpl
   do printf "%s\n" $lpl:t
-  done | fzf --multi
+  done | fzf --multi --query "${@:-}" -1
 )"}
 do
   playlist_path=$playlistdir/$playlist

@@ -9,7 +9,7 @@ zparseopts -D -E - \
   -build=zbuild || exit 1
 
 if (( #zupdate_playlists ))
-then retroarch-update-playlists; exit $?
+then retroarch-update-playlists $@; exit $?
 elif (( #zbuild ))
 then retroarch-build $@ $zarm64 $zX86
 fi
