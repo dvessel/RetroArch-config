@@ -1148,6 +1148,14 @@
       "db_name": "MAME.lpl"
     },
     {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-misc-crystal/donghaer.zip",
+      "label": "Donggul Donggul Haerong",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-nintendo-dkong~tate/dkong.zip",
       "label": "Donkey Kong (US set 1)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
@@ -1894,6 +1902,14 @@
     {
       "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-atari-harddriv/harddriv.zip",
       "label": "Hard Drivin' (cockpit, rev 7)",
+      "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
+      "core_name": "Arcade (MAME)",
+      "crc32": "00000000|crc",
+      "db_name": "MAME.lpl"
+    },
+    {
+      "path": "/Users/joon/Games/Emulation/Arcade/.sorted/-dataeast-dec0~tate/hbarrel.zip",
+      "label": "Heavy Barrel (World)",
       "core_path": "/Users/joon/Games/Support/RetroArch/cores/mame_libretro.dylib",
       "core_name": "Arcade (MAME)",
       "crc32": "00000000|crc",

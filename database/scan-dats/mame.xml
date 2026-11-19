@@ -15628,6 +15628,88 @@
 		<slot name="cslot1">
 		</slot>
 	</machine>
+	<machine name="crysbios" sourcefile="misc/crystal.cpp" isbios="yes">
+		<description>Crystal System BIOS</description>
+		<year>2001</year>
+		<manufacturer>BrezzaSoft</manufacturer>
+		<biosset name="amg0110b" description="AMG0110B PCB"/>
+		<biosset name="amg0110d" description="AMG0110D PCB"/>
+		<rom name="mx27l1000.u14" bios="amg0110b" size="131072" crc="beff39a9" sha1="b6f6dda58d9c82273f9422c1bd623411e58982cb" region="maincpu" offset="0"/>
+		<rom name="mx27l1000-alt.u14" bios="amg0110d" size="131072" crc="1e8175c8" sha1="f60c016be2ff11e47b2192acddb92676043af501" region="maincpu" offset="0"/>
+		<device_ref tag=":maincpu" name="se3208"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":vr0soc" name="vrender0"/>
+		<device_ref tag=":vr0soc:uart0" name="vr0uart"/>
+		<device_ref tag=":vr0soc:uart1" name="vr0uart"/>
+		<device_ref tag=":vr0soc:screen" name="screen"/>
+		<device_ref tag=":vr0soc:vr0vid" name="vr0video"/>
+		<device_ref tag=":vr0soc:palette" name="palette"/>
+		<device_ref tag=":vr0soc:vr0snd" name="vr0sound"/>
+		<device_ref tag=":rtc" name="ds1302"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<chip type="cpu" tag="maincpu" name="ADChips SE3208" clock="42954540"/>
+		<chip type="audio" tag="vr0soc" name="MagicEyes VRender0 SoC" clock="85909080"/>
+		<chip type="audio" tag="vr0soc:vr0snd" name="MagicEyes VRender0 Sound Engine" clock="42954540"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<display tag="vr0soc:screen" type="raster" rotate="0" width="320" height="240" refresh="60.054442" pixclock="7159090" htotal="455" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="240" />
+		<sound channels="1"/>
+		<input players="4" coins="2" service="yes">
+			<control type="joy" player="1" buttons="4" ways="8"/>
+			<control type="joy" player="2" buttons="4" ways="8"/>
+			<control type="joy" player="3" buttons="4" ways="8"/>
+			<control type="joy" player="4" buttons="4" ways="8"/>
+		</input>
+		<dipswitch name="Pause" tag="DSW" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Free Play" tag="DSW" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test" tag="DSW" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":DSW">
+		</port>
+		<port tag=":P1_P2">
+		</port>
+		<port tag=":P3_P4">
+		</port>
+		<port tag=":SYSTEM">
+		</port>
+		<driver status="imperfect" emulation="good" savestate="unsupported"/>
+		<feature type="sound" overall="imperfect"/>
+	</machine>
 	<machine name="csclub" sourcefile="capcom/cps2.cpp">
 		<description>Capcom Sports Club (Europe 971017)</description>
 		<year>1997</year>
@@ -23779,6 +23861,92 @@
 		<port tag=":SYS">
 		</port>
 		<driver status="good" emulation="good" savestate="supported"/>
+	</machine>
+	<machine name="donghaer" sourcefile="misc/crystal.cpp" romof="crysbios">
+		<description>Donggul Donggul Haerong</description>
+		<year>2001</year>
+		<manufacturer>Danbi</manufacturer>
+		<biosset name="amg0110b" description="AMG0110B PCB"/>
+		<biosset name="amg0110d" description="AMG0110D PCB"/>
+		<rom name="mx27l1000.u14" merge="mx27l1000.u14" bios="amg0110b" size="131072" crc="beff39a9" sha1="b6f6dda58d9c82273f9422c1bd623411e58982cb" region="maincpu" offset="0"/>
+		<rom name="mx27l1000-alt.u14" merge="mx27l1000-alt.u14" bios="amg0110d" size="131072" crc="1e8175c8" sha1="f60c016be2ff11e47b2192acddb92676043af501" region="maincpu" offset="0"/>
+		<rom name="donghaer_pic16f84a.bin" size="17024" status="nodump" region="pic" offset="0"/>
+		<rom name="u1" size="16777216" crc="61217ad7" sha1="2593f1356aa850f4f9aa5d00bec822aa59c59224" region="flash" offset="0"/>
+		<rom name="u2" size="16777216" crc="6d82f1a5" sha1="036bd45f0daac1ffeaa5ad9774fc1b56e3c75ff9" region="flash" offset="1000000"/>
+		<device_ref tag=":maincpu" name="se3208"/>
+		<device_ref tag=":nvram" name="nvram"/>
+		<device_ref tag=":vr0soc" name="vrender0"/>
+		<device_ref tag=":vr0soc:uart0" name="vr0uart"/>
+		<device_ref tag=":vr0soc:uart1" name="vr0uart"/>
+		<device_ref tag=":vr0soc:screen" name="screen"/>
+		<device_ref tag=":vr0soc:vr0vid" name="vr0video"/>
+		<device_ref tag=":vr0soc:palette" name="palette"/>
+		<device_ref tag=":vr0soc:vr0snd" name="vr0sound"/>
+		<device_ref tag=":rtc" name="ds1302"/>
+		<device_ref tag=":speaker" name="speaker"/>
+		<chip type="cpu" tag="maincpu" name="ADChips SE3208" clock="42954540"/>
+		<chip type="audio" tag="vr0soc" name="MagicEyes VRender0 SoC" clock="85909080"/>
+		<chip type="audio" tag="vr0soc:vr0snd" name="MagicEyes VRender0 Sound Engine" clock="42954540"/>
+		<chip type="audio" tag="speaker" name="Speaker"/>
+		<display tag="vr0soc:screen" type="raster" rotate="0" width="320" height="240" refresh="60.054442" pixclock="7159090" htotal="455" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="240" />
+		<sound channels="1"/>
+		<input players="4" coins="2" service="yes">
+			<control type="joy" player="1" buttons="4" ways="8"/>
+			<control type="joy" player="2" buttons="4" ways="8"/>
+			<control type="joy" player="3" buttons="4" ways="8"/>
+			<control type="joy" player="4" buttons="4" ways="8"/>
+		</input>
+		<dipswitch name="Pause" tag="DSW" mask="1">
+			<diplocation name="DSW" number="1"/>
+			<dipvalue name="Off" value="1" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Free Play" tag="DSW" mask="2">
+			<diplocation name="DSW" number="2"/>
+			<dipvalue name="Off" value="2" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="4">
+			<diplocation name="DSW" number="3"/>
+			<dipvalue name="Off" value="4" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="8">
+			<diplocation name="DSW" number="4"/>
+			<dipvalue name="Off" value="8" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="16">
+			<diplocation name="DSW" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="32">
+			<diplocation name="DSW" number="6"/>
+			<dipvalue name="Off" value="32" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unknown" tag="DSW" mask="64">
+			<diplocation name="DSW" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Test" tag="DSW" mask="128">
+			<diplocation name="DSW" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":DSW">
+		</port>
+		<port tag=":P1_P2">
+		</port>
+		<port tag=":P3_P4">
+		</port>
+		<port tag=":SYSTEM">
+		</port>
+		<driver status="preliminary" emulation="preliminary" savestate="unsupported"/>
+		<feature type="protection" status="imperfect"/>
+		<feature type="sound" overall="imperfect"/>
 	</machine>
 	<machine name="donpachi" sourcefile="atlus/cave.cpp">
 		<description>DonPachi (US)</description>
@@ -36667,6 +36835,159 @@
 			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
+	</machine>
+	<machine name="hbarrel" sourcefile="dataeast/dec0.cpp">
+		<description>Heavy Barrel (World)</description>
+		<year>1987</year>
+		<manufacturer>Data East Corporation</manufacturer>
+		<rom name="ec04-e.3c" size="65536" crc="d01bc3db" sha1="53c9b78ce12ab577111fd96ef793b0fc4131bec3" region="maincpu" offset="0"/>
+		<rom name="ec01-e.3a" size="65536" crc="6756f8ae" sha1="4edea085dedab46995b07d134b0974e365c32bfe" region="maincpu" offset="1"/>
+		<rom name="ec05.4c" size="65536" crc="2087d570" sha1="625a33c2f4feed56f636d318531d0996cdee9194" region="maincpu" offset="20000"/>
+		<rom name="ec02.4a" size="65536" crc="815536ae" sha1="684f67dc92f2a3bd77effce68c50e4013e054d31" region="maincpu" offset="20001"/>
+		<rom name="ec06.6c" size="65536" crc="61ec20d8" sha1="9cd87fb896e746dc7745c59396cf5b06a9c6fae1" region="maincpu" offset="40000"/>
+		<rom name="ec03.6a" size="65536" crc="720c6b13" sha1="2af04de911f759b20ecec3aaf96238545c6cc987" region="maincpu" offset="40001"/>
+		<rom name="ec07.8a" size="32768" crc="16a5a1aa" sha1="27eb8c09be6b1be502bda9ae9c9ff860d2560d46" region="audiocpu" offset="8000"/>
+		<rom name="ec31-e.9a" size="4096" crc="bf93a2ec" sha1="e62687c9ae280485835b3bc56c161618f47c56a1" region="mcu" offset="0"/>
+		<rom name="ec25.15h" size="65536" crc="2e5732a2" sha1="b730ce11db1876b81d2b7cde0f129bd6fbfeb771" region="char" offset="0"/>
+		<rom name="ec26.16h" size="65536" crc="161a2c4d" sha1="fbfa97ecc8b4d540d38f811ebb6272b348ed37e5" region="char" offset="10000"/>
+		<rom name="ec18.14d" size="65536" crc="ef664373" sha1="d66a8c685c44cc8583527297d7ea7778f0d9c8db" region="tiles1" offset="0"/>
+		<rom name="ec17.12d" size="65536" crc="a4f186ac" sha1="ee422f8479c1f21bb62d040567a9748b646e6f9f" region="tiles1" offset="10000"/>
+		<rom name="ec20.17d" size="65536" crc="2fc13be0" sha1="cce46b91104c0ac4038e98131fe957e0ed2f1a88" region="tiles1" offset="20000"/>
+		<rom name="ec19.15d" size="65536" crc="d6b47869" sha1="eaef6ed5505395b1b829d6a126363031ad4e851a" region="tiles1" offset="30000"/>
+		<rom name="ec22.14f" size="65536" crc="50d6a1ad" sha1="e7b464f34d6f3796823de6fdcbfd79416f71a119" region="tiles1" offset="40000"/>
+		<rom name="ec21.12f" size="65536" crc="f01d75c5" sha1="959f9e2461db5f08b7ab12cc3b43f33be69318c9" region="tiles1" offset="50000"/>
+		<rom name="ec24.17f" size="65536" crc="ae377361" sha1="a9aa520044f5b5037a495402ef128d3d8522b20f" region="tiles1" offset="60000"/>
+		<rom name="ec23.15f" size="65536" crc="bbdaf771" sha1="7b29d6d606319337562b0431b6290df15cde17e2" region="tiles1" offset="70000"/>
+		<rom name="ec29.8h" size="65536" crc="5514b296" sha1="d258134a95bb223db139780b8e7377cccbe01af0" region="tiles2" offset="0"/>
+		<rom name="ec30.9h" size="65536" crc="5855e8ef" sha1="0f09143fed7c354231a4f343d0371424d8436877" region="tiles2" offset="10000"/>
+		<rom name="ec27.8f" size="65536" crc="99db7b9c" sha1="2faeb287d685c8ea72c21658777f62ff9e194a69" region="tiles2" offset="20000"/>
+		<rom name="ec28.9f" size="65536" crc="33ce2b1a" sha1="ef150dd5bc22368857ba27da18a17c161bb807a4" region="tiles2" offset="30000"/>
+		<rom name="ec15.16c" size="65536" crc="21816707" sha1="859a70dfc7d8c01124a035dcd5ea554af5f4e871" region="sprites" offset="0"/>
+		<rom name="ec16.17c" size="65536" crc="a5684574" sha1="2dfe429cd6e110645ab976dd3a2b27d54ad91e89" region="sprites" offset="10000"/>
+		<rom name="ec11.16a" size="65536" crc="5c768315" sha1="00905e59dec90bf51f1d8e2482f54ede0895d142" region="sprites" offset="20000"/>
+		<rom name="ec12.17a" size="65536" crc="8b64d7a4" sha1="4d880d97a8eabd9b0a50cba3357df4f70afdf909" region="sprites" offset="30000"/>
+		<rom name="ec13.13c" size="65536" crc="56e3ed65" sha1="e7e4a53a7a18c81af8e395a33bcd82a41482c0da" region="sprites" offset="40000"/>
+		<rom name="ec14.14c" size="65536" crc="bedfe7f3" sha1="9db9c632fbf5a98d2d21bb960cc7111f6f9410fc" region="sprites" offset="50000"/>
+		<rom name="ec09.13a" size="65536" crc="26240ea0" sha1="25732986d787afd99a045ce4587f1079f84e675b" region="sprites" offset="60000"/>
+		<rom name="ec10.14a" size="65536" crc="47d95447" sha1="d2ffe96a19cfcbddee0df07dad89bd83cba801fa" region="sprites" offset="70000"/>
+		<rom name="ec08.2c" size="65536" crc="2159a609" sha1="cae503e446c7164a44b59886680f554a4cb1eef2" region="oki" offset="0"/>
+		<rom name="mb7116e.12c" size="512" crc="86e775f8" sha1="e8dee3d56fb5ca0fd7f9ce05a84674abb139d008" region="proms" offset="0"/>
+		<rom name="mb7122e.17e" size="1024" crc="a5cda23e" sha1="d6c8534ae3c95b47a0701047fef67f15dd71f3fe" region="proms" offset="200"/>
+		<device_ref tag=":spriteram" name="buffered_spriteram16"/>
+		<device_ref tag=":screen" name="screen"/>
+		<device_ref tag=":gfxdecode" name="gfxdecode"/>
+		<device_ref tag=":palette" name="palette"/>
+		<device_ref tag=":tilegen1" name="deco_bac06"/>
+		<device_ref tag=":tilegen2" name="deco_bac06"/>
+		<device_ref tag=":tilegen3" name="deco_bac06"/>
+		<device_ref tag=":spritegen" name="deco_mxc06"/>
+		<device_ref tag=":soundlatch" name="generic_latch_8"/>
+		<device_ref tag=":maincpu" name="m68000"/>
+		<device_ref tag=":audiocpu" name="r65c02"/>
+		<device_ref tag=":audio_irq" name="ipt_merge_any_hi"/>
+		<device_ref tag=":mono" name="speaker"/>
+		<device_ref tag=":ym1" name="ym2203"/>
+		<device_ref tag=":ym2" name="ym3812"/>
+		<device_ref tag=":oki" name="okim6295"/>
+		<device_ref tag=":mcu" name="i8751"/>
+		<chip type="cpu" tag="maincpu" name="Motorola MC68000" clock="10000000"/>
+		<chip type="cpu" tag="audiocpu" name="Rockwell R65C02" clock="1500000"/>
+		<chip type="cpu" tag="mcu" name="Intel 8751" clock="8000000"/>
+		<chip type="audio" tag="mono" name="Speaker"/>
+		<chip type="audio" tag="ym1" name="YM2203 OPN" clock="1500000"/>
+		<chip type="audio" tag="ym2" name="YM3812 OPL2" clock="3000000"/>
+		<chip type="audio" tag="oki" name="OKI MSM6295 ADPCM" clock="1000000"/>
+		<display tag="screen" type="raster" rotate="270" width="256" height="240" refresh="57.444853" pixclock="6000000" htotal="384" hbend="0" hbstart="256" vtotal="272" vbend="8" vbstart="248" />
+		<sound channels="1"/>
+		<input players="2" coins="2">
+			<control type="joy" player="1" buttons="2" ways="8"/>
+			<control type="positional" player="1" minimum="0" maximum="12" sensitivity="10" keydelta="1" reverse="yes"/>
+			<control type="joy" player="2" buttons="2" ways="8"/>
+			<control type="positional" player="2" minimum="0" maximum="12" sensitivity="10" keydelta="1" reverse="yes"/>
+		</input>
+		<dipswitch name="Coin A" tag="DSW" mask="3">
+			<diplocation name="SW1" number="1"/>
+			<diplocation name="SW1" number="2"/>
+			<dipvalue name="2 Coins/1 Credit" value="0"/>
+			<dipvalue name="1 Coin/1 Credit" value="3" default="yes"/>
+			<dipvalue name="1 Coin/2 Credits" value="2"/>
+			<dipvalue name="1 Coin/3 Credits" value="1"/>
+		</dipswitch>
+		<dipswitch name="Coin B" tag="DSW" mask="12">
+			<diplocation name="SW1" number="3"/>
+			<diplocation name="SW1" number="4"/>
+			<dipvalue name="2 Coins/1 Credit" value="0"/>
+			<dipvalue name="1 Coin/1 Credit" value="12" default="yes"/>
+			<dipvalue name="1 Coin/2 Credits" value="8"/>
+			<dipvalue name="1 Coin/3 Credits" value="4"/>
+		</dipswitch>
+		<dipswitch name="Service Mode" tag="DSW" mask="16">
+			<diplocation name="SW1" number="5"/>
+			<dipvalue name="Off" value="16" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Demo Sounds" tag="DSW" mask="32">
+			<diplocation name="SW1" number="6"/>
+			<dipvalue name="Off" value="0"/>
+			<dipvalue name="On" value="32" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Flip Screen" tag="DSW" mask="64">
+			<diplocation name="SW1" number="7"/>
+			<dipvalue name="Off" value="64" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="DSW" mask="128">
+			<diplocation name="SW1" number="8"/>
+			<dipvalue name="Off" value="128" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<dipswitch name="Lives" tag="DSW" mask="768">
+			<diplocation name="SW2" number="1"/>
+			<diplocation name="SW2" number="2"/>
+			<dipvalue name="1" value="256"/>
+			<dipvalue name="3" value="768" default="yes"/>
+			<dipvalue name="5" value="512"/>
+			<dipvalue name="Infinite (Cheat)" value="0"/>
+		</dipswitch>
+		<dipswitch name="Difficulty" tag="DSW" mask="3072">
+			<diplocation name="SW2" number="3"/>
+			<diplocation name="SW2" number="4"/>
+			<dipvalue name="Easy" value="2048"/>
+			<dipvalue name="Normal" value="3072" default="yes"/>
+			<dipvalue name="Hard" value="1024"/>
+			<dipvalue name="Hardest" value="0"/>
+		</dipswitch>
+		<dipswitch name="Bonus Life" tag="DSW" mask="12288">
+			<diplocation name="SW2" number="5"/>
+			<diplocation name="SW2" number="6"/>
+			<dipvalue name="30k 80k 160k" value="12288" default="yes"/>
+			<dipvalue name="50k 120k 190k" value="8192"/>
+			<dipvalue name="100k 200k 300k" value="4096"/>
+			<dipvalue name="150k 300k 450k" value="0"/>
+		</dipswitch>
+		<dipswitch name="Allow Continue" tag="DSW" mask="16384">
+			<diplocation name="SW2" number="7"/>
+			<dipvalue name="No" value="16384"/>
+			<dipvalue name="Yes" value="0" default="yes"/>
+		</dipswitch>
+		<dipswitch name="Unused" tag="DSW" mask="32768">
+			<diplocation name="SW1" number="8"/>
+			<dipvalue name="Off" value="32768" default="yes"/>
+			<dipvalue name="On" value="0"/>
+		</dipswitch>
+		<port tag=":AN0">
+			<analog mask="65535"/>
+		</port>
+		<port tag=":AN1">
+			<analog mask="65535"/>
+		</port>
+		<port tag=":DSW">
+		</port>
+		<port tag=":INPUTS">
+		</port>
+		<port tag=":SYSTEM">
+		</port>
+		<driver status="good" emulation="good" savestate="supported"/>
 	</machine>
 	<machine name="hng64" sourcefile="snk/hng64.cpp" isbios="yes">
 		<description>Hyper NeoGeo 64 BIOS</description>
@@ -103724,6 +104045,9 @@
 		<description>DMA-driven DAC</description>
 		<sound channels="0"/>
 	</machine>
+	<machine name="ds1302" sourcefile="devices/machine/ds1302.cpp" isdevice="yes" runnable="no">
+		<description>Dallas DS1302 Trickle-Charge Timekeeping Chip</description>
+	</machine>
 	<machine name="ds2404" sourcefile="devices/machine/ds2404.cpp" isdevice="yes" runnable="no">
 		<description>DS2404 EconoRAM Time Chip</description>
 	</machine>
@@ -107860,6 +108184,9 @@
 	<machine name="scudsp" sourcefile="devices/cpu/scudsp/scudsp.cpp" isdevice="yes" runnable="no">
 		<description>Sega SCUDSP</description>
 	</machine>
+	<machine name="se3208" sourcefile="devices/cpu/se3208/se3208.cpp" isdevice="yes" runnable="no">
+		<description>ADChips SE3208</description>
+	</machine>
 	<machine name="sega315_5124" sourcefile="devices/video/315_5124.cpp" isdevice="yes" runnable="no">
 		<description>Sega 315-5124 SMS1 VDP</description>
 		<device_ref tag=":_tmp:palette_lut" name="palette"/>
@@ -109443,6 +109770,17 @@
 		<rom name="sc01a.bin" size="512" crc="fc416227" sha1="1d6da90b1807a01b5e186ef08476119a862b5e6d" region="internal" offset="0"/>
 		<sound channels="0"/>
 	</machine>
+	<machine name="vr0sound" sourcefile="devices/sound/vrender0.cpp" isdevice="yes" runnable="no">
+		<description>MagicEyes VRender0 Sound Engine</description>
+		<sound channels="0"/>
+		<feature type="sound" status="imperfect"/>
+	</machine>
+	<machine name="vr0uart" sourcefile="devices/machine/vr0uart.cpp" isdevice="yes" runnable="no">
+		<description>MagicEyes VRender0 UART</description>
+	</machine>
+	<machine name="vr0video" sourcefile="devices/video/vrender0.cpp" isdevice="yes" runnable="no">
+		<description>MagicEyes VRender0 Video Engine</description>
+	</machine>
 	<machine name="vr4300be" sourcefile="devices/cpu/mips/mips3.cpp" isdevice="yes" runnable="no">
 		<description>NEC VR4300 (big)</description>
 	</machine>
@@ -109473,6 +109811,19 @@
 			<slotoption name="pty" devname="pseudo_terminal"/>
 			<slotoption name="auto3a" devname="auto3a_terminal"/>
 		</slot>
+	</machine>
+	<machine name="vrender0" sourcefile="devices/machine/vrender0.cpp" isdevice="yes" runnable="no">
+		<description>MagicEyes VRender0 SoC</description>
+		<device_ref tag=":_tmp:uart0" name="vr0uart"/>
+		<device_ref tag=":_tmp:uart1" name="vr0uart"/>
+		<device_ref tag=":_tmp:screen" name="screen"/>
+		<device_ref tag=":_tmp:vr0vid" name="vr0video"/>
+		<device_ref tag=":_tmp:palette" name="palette"/>
+		<device_ref tag=":_tmp:vr0snd" name="vr0sound"/>
+		<chip type="audio" tag=":vr0snd" name="MagicEyes VRender0 Sound Engine"/>
+		<display tag=":screen" type="raster" rotate="0" width="320" height="240" refresh="60.054442" pixclock="7159090" htotal="455" hbend="0" hbstart="320" vtotal="262" vbend="0" vbstart="240" />
+		<sound channels="0"/>
+		<feature type="sound" overall="imperfect"/>
 	</machine>
 	<machine name="vsystem_gga" sourcefile="vsystem/vsystem_gga.cpp" isdevice="yes" runnable="no">
 		<description>Video System C7-01 GGA</description>
