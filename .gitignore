@@ -1,9 +1,7 @@
 # Ignore everything in assets and allow a path leading to custom.
 assets/*
-!assets/xmb
-!assets/xmb/custom
-# Re-ignore everything inside xmb except for custom.
 assets/xmb/*
+!assets/xmb
 !assets/xmb/custom
 autoconfig/*
 !autoconfig/mfi*.cfg
@@ -26,5 +24,10 @@ shaders/retroarch.slangp
 shaders/*/retroarch.slangp
 shaders/shaders_slang
 states
-system
+system/*
+system/mame/*
+!system/mame
+!system/mame/ini
+!system/supermodel
+!system/vulkan_drivers
 thumbnails
