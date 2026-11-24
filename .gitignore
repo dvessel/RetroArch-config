@@ -18,6 +18,7 @@ logs
 overlays
 playlists/builtin
 playlists/logs
+playlists/*.lpl.thumbs
 saves
 screenshots
 shaders/retroarch.slangp
