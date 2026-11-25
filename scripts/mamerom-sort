@@ -49,6 +49,10 @@ do
       sorted=$scandir/.sorted/$scpp/$name.$ext
       [[ -d $sorted:h ]] || mkdir -p $sorted:h
       ln $scandir/$name.$ext $sorted
+      # Symlink CHD folders.
+      if [[ -d $scandir/$name ]]
+      then ln -s $scandir/$name ${sorted:h}
+      fi
       # Highlight containing folder.
       printf "%s\n\e[0;34m%s\e[0;37m/\e[0m%s\n" $description $scpp $name.$ext
       break
