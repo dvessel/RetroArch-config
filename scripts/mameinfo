@@ -34,11 +34,10 @@ function mamexml_to_json_file {
   done < <( oq -i xml -o json -cr '
     def arrayofobjects: if type == "object" then [.] else . end;
     def scrub: walk(if type == "object" then with_entries(
-      select(.key != "#text" and .value != null) | .key |= ltrimstr("@")
+      select(.value | IN(null, "", [], {}) | not) | .key |= ltrimstr("@")
     ) else . end );
     ( .mame."@build" | match("^[0-9.]+").string ) as $version |
-    .mame.machine | arrayofobjects[] |
-    ."@name",
+    .mame.machine | arrayofobjects[] | ."@name",
     { version:$version,
       name:."@name",
       sourcefile:."@sourcefile",
